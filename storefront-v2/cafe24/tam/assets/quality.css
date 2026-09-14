@@ -1,0 +1,34 @@
+
+@font-face{font-family:"Tam Sans";src:url("PretendardVariable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+body.tam-store{--font:"Tam Sans",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;font-family:var(--font);font-synthesis:none;line-height:1.65;text-size-adjust:100%;-webkit-text-size-adjust:100%}
+.tam-store :is(button,input,select,textarea,summary){font-family:var(--font)}
+.tam-store :is(.display,.hero-title,.page-intro h1,.section-heading h2,.line-card h2,.about-intro h1,.about-band h2,.campaign-caption h2,.editorial h2){font-family:var(--font);letter-spacing:-.025em;line-height:1.15;font-weight:400;overflow-wrap:normal}
+.tam-store :is(h1,h2,h3,p,a,button,summary){text-rendering:optimizeLegibility}
+.tam-store :is(h1,h2,h3,p){word-break:keep-all;overflow-wrap:anywhere}
+.tam-store .page-intro h1{font-size:clamp(44px,6vw,88px)}
+.tam-store .section-heading{align-items:center;flex-wrap:wrap;gap:16px}
+.tam-store .section-heading h2{font-size:44px;min-width:0}
+.tam-store .section-heading .text-link{white-space:nowrap;flex-shrink:0}
+.tam-store .product h3{font-size:15px;line-height:1.65;letter-spacing:0;min-height:3.3em;margin-top:10px}
+.tam-store .product .p{line-height:1.5;margin-top:12px;font-variant-numeric:tabular-nums}
+.tam-store .product figure img{object-fit:contain;transform:none;transition:none;image-rendering:auto}
+.tam-store .product a:hover figure img{transform:none}
+.tam-store .product figure{background:#fff}
+.tam-store .line-card h2{font-size:clamp(30px,3vw,46px)}
+.tam-store .editorial img{aspect-ratio:1;object-fit:contain;background:#fff}
+.tam-store .campaign{max-width:1000px;margin-inline:auto;grid-template-columns:1.3fr 1fr}
+.tam-store .campaign figure{height:auto;aspect-ratio:1}
+.tam-store .campaign img{object-fit:contain}
+.tam-store .campaign figure:first-child{background:white}
+.tam-store .campaign figure:last-child img{object-fit:contain;object-position:center}
+.tam-store .detail-copy h1{letter-spacing:-.015em;font-size:28px;line-height:1.5}
+.tam-store .filter-row{column-gap:24px;row-gap:0}
+.tam-store .filter-row button{white-space:nowrap}
+.tam-store .product-count{white-space:nowrap;font-size:12px}
+.tam-store .primary-nav a,.tam-store .line-tag,.tam-store .product-count{font-family:var(--font)}
+.tam-store .ft{font-size:12px;line-height:1.9}
+body.tam-native,body.tam-checkout{font-family:"Tam Sans",Pretendard,"Malgun Gothic",sans-serif;font-synthesis:none}
+.tam-native :is(.brand-header,.mobile-nav,.ft){font-family:"Tam Sans",Pretendard,"Malgun Gothic",sans-serif}
+.tam-native #contents :is(input,select,textarea,button){font-family:inherit}
+@media(max-width:760px){.tam-store .hero-title{font-size:35px;line-height:1.12}.tam-store .page-intro h1{font-size:44px}.tam-store .section-heading h2{font-size:32px}.tam-store .product h3{font-size:14px;line-height:1.6;min-height:3.2em}.tam-store .product .p{font-size:15px}.tam-store .line-card h2{font-size:28px}.tam-store .line-card p{font-size:13px;line-height:1.65;min-height:3.3em}.tam-store .filter-row{column-gap:18px}.tam-store .filter-row button{font-size:13px}.tam-store .product-count{font-size:11px}.tam-store .detail-copy h1{font-size:23px}.tam-store .hero-copy p{font-size:14px}.tam-store .about-intro .statement{font-size:23px}.tam-store .about-band .statement{font-size:21px}.tam-store .ft-in{gap:24px 16px}}
+@media(max-width:359px){.tam-store .filter-row{column-gap:14px}.tam-store .product-count{margin-left:0}.tam-store .section-heading h2{font-size:29px}.tam-store .hero-title{font-size:32px}.tam-store .line-card h2{font-size:25px}}

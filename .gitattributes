@@ -1,0 +1,2 @@
+storefront-v2/** -text whitespace=cr-at-eol
+storefront-v2/**/Pretendard-LICENSE.txt -whitespace

@@ -1,0 +1,319 @@
+{
+  "page_checks": [
+    {
+      "page": "about.html",
+      "width": 390,
+      "overflow": false,
+      "products": 14
+    },
+    {
+      "page": "basket.html",
+      "width": 390,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "checkout.html",
+      "width": 390,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "cloud.html",
+      "width": 390,
+      "overflow": false,
+      "products": 8
+    },
+    {
+      "page": "coupons.html",
+      "width": 390,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "overflow": false,
+      "products": 14
+    },
+    {
+      "page": "jelly.html",
+      "width": 390,
+      "overflow": false,
+      "products": 6
+    },
+    {
+      "page": "login.html",
+      "width": 390,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "lookbook.html",
+      "width": 390,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "product-101.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-102.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-109.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-110.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-111.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-112.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-114.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-115.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-118.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-121.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-18.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-23.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-24.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-25.html",
+      "width": 390,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "search.html",
+      "width": 390,
+      "overflow": false,
+      "products": 14
+    },
+    {
+      "page": "shop.html",
+      "width": 390,
+      "overflow": false,
+      "products": 14
+    },
+    {
+      "page": "about.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 14
+    },
+    {
+      "page": "basket.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "checkout.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "cloud.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 8
+    },
+    {
+      "page": "coupons.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 14
+    },
+    {
+      "page": "jelly.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 6
+    },
+    {
+      "page": "login.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "lookbook.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 0
+    },
+    {
+      "page": "product-101.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-102.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-109.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-110.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-111.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-112.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-114.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-115.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-118.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-121.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-18.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-23.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-24.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "product-25.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 4
+    },
+    {
+      "page": "search.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 14
+    },
+    {
+      "page": "shop.html",
+      "width": 1440,
+      "overflow": false,
+      "products": 14
+    }
+  ],
+  "local_links": "pass",
+  "preview_cart_options_quantity_delete": "pass",
+  "search_line_filters": "pass",
+  "admin_image_name_price_order_fixture": "pass",
+  "original_public_contents_preserved": {
+    "basket.html": "layout candidate generated; #contents unchanged; not a live test",
+    "coupon.html": "layout candidate generated; #contents unchanged; not a live test",
+    "detail.html": "layout candidate generated; #contents unchanged; not a live test",
+    "login.html": "layout candidate generated; #contents unchanged; not a live test",
+    "search.html": "layout candidate generated; #contents unchanged; not a live test"
+  },
+  "direct_file_cart": "pass",
+  "javascript_errors": [],
+  "deployment_zip_excludes_simulation": "pass",
+  "Cafe24_live_validation": "not performed; original skin/admin access required"
+}

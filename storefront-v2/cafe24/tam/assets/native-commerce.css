@@ -1,0 +1,26 @@
+/* Add after the existing skin CSS. Preserve Cafe24 forms, IDs, scripts and actions. */
+body.tam-native{--tam-ink:#181818;--tam-rule:#dedede;--tam-space:40px;background:#fff;color:var(--tam-ink);font-family:Pretendard,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+.tam-native #contents{max-width:1440px;margin:0 auto;padding:40px var(--tam-space) 72px;box-sizing:border-box;min-width:0}
+.tam-native #contents .titleArea{margin:16px 0 40px;padding:0;border:0;text-align:left}
+.tam-native #contents .titleArea h2{font-size:36px;font-weight:400;color:var(--tam-ink);line-height:1.3;letter-spacing:-.04em}
+.tam-native #contents :is(.ec-base-table,.ec-base-box,.ec-base-prdInfo){border-color:var(--tam-rule);border-radius:0;box-shadow:none}
+.tam-native #contents .ec-base-table :is(th,td){border-color:var(--tam-rule)}
+.tam-native #contents .ec-base-table th{background:#fafafa;color:var(--tam-ink);font-weight:400}
+.tam-native #contents :is(.btnSubmit,a.btnSubmit,button.btnSubmit){background:var(--tam-ink);border:1px solid var(--tam-ink);color:#fff;border-radius:0;box-shadow:none}
+.tam-native #contents :is(.btnNormal,.btnEm){background:#fff;color:var(--tam-ink);border:1px solid var(--tam-rule);border-radius:0;box-shadow:none}
+.tam-native #contents :is(input[type=text],input[type=email],input[type=password],input[type=tel],select,textarea){border:1px solid #b8b8b8;border-radius:0;background:#fff;color:var(--tam-ink);box-shadow:none;max-width:100%;font-family:inherit}
+.tam-native #contents :is(a,button,input,select,textarea):focus-visible{outline:2px solid #181818;outline-offset:3px}
+.tam-native #contents :is(.xans-product-detail,.xans-order-basketpackage,.xans-member-login,.xans-myshop-couponlist){border-radius:0;box-shadow:none}
+.tam-native #contents .xans-product-detail .infoArea h2{font-size:28px;font-weight:500;line-height:1.5;letter-spacing:-.04em}
+.tam-native #contents .xans-product-detail .infoArea :is(th,td){font-size:14px;line-height:1.7}
+.tam-native #contents .xans-product-detail .infoArea select{min-height:44px}
+.tam-native #contents .xans-product-detail .totalPrice{border-color:var(--tam-rule);color:var(--tam-ink)}
+.tam-native #contents :is(.xans-product-action,.xans-order-totalorder) :is(.btnSubmit,.btnNormal,.btnEm){min-height:48px;box-sizing:border-box;line-height:1.5;padding-top:14px;padding-bottom:14px}
+.tam-native #contents .xans-order-empty{padding:72px 20px;color:#666;text-align:center;border-block:1px solid var(--tam-rule)}
+.tam-native #contents .xans-member-login{max-width:520px;margin-inline:auto}
+.tam-native #contents .xans-myshop-couponlist .empty{padding:48px 20px;color:#666}
+/* Checkout keeps its existing layout and payment controls; only conservative colors. */
+body.tam-checkout{background:#fff;color:#181818;font-family:Pretendard,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+.tam-checkout #mCafe24Order :is(.segment,.ec-base-fold){border-color:#dedede;border-radius:0;box-shadow:none}
+.tam-checkout #mCafe24Order :is(input,select,textarea){border-radius:0;font-family:inherit}
+@media(max-width:760px){body.tam-native{--tam-space:20px}.tam-native #contents{padding-top:24px;padding-bottom:48px}.tam-native #contents .titleArea{margin:8px 0 28px}.tam-native #contents .titleArea h2{font-size:28px}.tam-native #contents .xans-product-detail .infoArea h2{font-size:23px}.tam-native #contents .xans-product-detail .infoArea :is(th,td){font-size:13px}}

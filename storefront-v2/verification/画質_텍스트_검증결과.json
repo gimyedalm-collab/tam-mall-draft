@@ -1,0 +1,368 @@
+{
+  "source_count": 14,
+  "no_original_upscale": true,
+  "web_frame": 1600,
+  "viewports": [
+    {
+      "page": "index",
+      "width": 320,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "about",
+      "width": 320,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "shop",
+      "width": 320,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "product-23",
+      "width": 320,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "cloud",
+      "width": 320,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "lookbook",
+      "width": 320,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "about",
+      "width": 390,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "shop",
+      "width": 390,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "product-23",
+      "width": 390,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "cloud",
+      "width": 390,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "lookbook",
+      "width": 390,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "index",
+      "width": 768,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "about",
+      "width": 768,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "shop",
+      "width": 768,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "product-23",
+      "width": 768,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "cloud",
+      "width": 768,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "lookbook",
+      "width": 768,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "index",
+      "width": 1024,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "about",
+      "width": 1024,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "shop",
+      "width": 1024,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "product-23",
+      "width": 1024,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "cloud",
+      "width": 1024,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "lookbook",
+      "width": 1024,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "index",
+      "width": 1440,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "about",
+      "width": 1440,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "shop",
+      "width": 1440,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "product-23",
+      "width": 1440,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "cloud",
+      "width": 1440,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "lookbook",
+      "width": 1440,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "index",
+      "width": 1920,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "about",
+      "width": 1920,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "shop",
+      "width": 1920,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "product-23",
+      "width": 1920,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "cloud",
+      "width": 1920,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    },
+    {
+      "page": "lookbook",
+      "width": 1920,
+      "overflow": false,
+      "font": [
+        "loaded"
+      ],
+      "broken": [],
+      "small": []
+    }
+  ],
+  "javascript_errors": []
+}

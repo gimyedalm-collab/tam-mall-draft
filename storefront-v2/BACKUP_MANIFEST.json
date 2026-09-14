@@ -1,0 +1,982 @@
+[
+  {
+    "file": "integrate_skin.py",
+    "bytes": 6965,
+    "sha256": "e4636935426e3e3330ef215de7a9c0250543eebe5c0111941f61f0495e111be5"
+  },
+  {
+    "file": "누끼컷_원본기록.json",
+    "bytes": 3263,
+    "sha256": "eb69c8f0a03dbdb51f3b8f49f07176c2853b026799d39c02c8577470348410ac"
+  },
+  {
+    "file": "룩북_원본기록.json",
+    "bytes": 1384,
+    "sha256": "b140366aeb017e26698f6b9ff023082b8510d02435eef912975db2ea22e719c3"
+  },
+  {
+    "file": "상품연결표.json",
+    "bytes": 8269,
+    "sha256": "a968f34690006cfae3ed5269010eab034b70ad6f278a59c57aa23fc1f448c658"
+  },
+  {
+    "file": "운영안내.html",
+    "bytes": 6595,
+    "sha256": "ae9c9e29989d4e9adf202655632588547e0ab41ada87b87d1166b9acf067ef02"
+  },
+  {
+    "file": "카페24_적용안내.md",
+    "bytes": 7279,
+    "sha256": "09404e9e8479bf5c197a54094bcf4deec8e2ce22b7619c906c8191228e5a0540"
+  },
+  {
+    "file": "탐뷰티_카페24_적용파일_260914.zip",
+    "bytes": 45046550,
+    "sha256": "bf9ad57e7cc551183a0978b977f28e3f5093064f15b48dfae4bd7e8dabc0ca68"
+  },
+  {
+    "file": "preview/about.html",
+    "bytes": 11102,
+    "sha256": "b2db9894ea877f0d66a7122a79998d7920c3d673b621da40f39dfca728207609"
+  },
+  {
+    "file": "preview/basket.html",
+    "bytes": 4099,
+    "sha256": "60575f2948bd08405100b905163b58580ac4e7c74714b48cc94e7dee083fa0b4"
+  },
+  {
+    "file": "preview/checkout.html",
+    "bytes": 4781,
+    "sha256": "91005f18c584cbb9ab4c463bf6280a2fcf55ad80e545ba9dce6fb6b12526fb37"
+  },
+  {
+    "file": "preview/cloud.html",
+    "bytes": 6954,
+    "sha256": "425c54e8f01ef7ad515ef7a4ffbc6c93b3f8ffbf74a87106e76f5e0f8c3e42f0"
+  },
+  {
+    "file": "preview/coupons.html",
+    "bytes": 3611,
+    "sha256": "939c3617d20f25a5cd51d88a4e490cf312ec5e0d9840fc8672de3425556e3b4e"
+  },
+  {
+    "file": "preview/index.html",
+    "bytes": 15156,
+    "sha256": "c974781b59e50cd85a3d3988104226ded9f49596f982bb659d519d40716650cd"
+  },
+  {
+    "file": "preview/jelly.html",
+    "bytes": 6096,
+    "sha256": "28ef8c96d5c049c4432ed33b1fc2c4269c7a4b17e79765ead6587d576f309aa4"
+  },
+  {
+    "file": "preview/login.html",
+    "bytes": 3883,
+    "sha256": "07b05dd048ef427fa577223c1d0a535859f942f549af314f9eeb19ab21ffbedf"
+  },
+  {
+    "file": "preview/lookbook.html",
+    "bytes": 5570,
+    "sha256": "ee3f4566790dd018e84a937a10398b52a061111f903a693ea9ea5c5519c7fc9f"
+  },
+  {
+    "file": "preview/product-101.html",
+    "bytes": 12888,
+    "sha256": "3673ab6080d390c835e010564f1fe8eaeef49cbb2e9c863911eaa667d7d33836"
+  },
+  {
+    "file": "preview/product-102.html",
+    "bytes": 10093,
+    "sha256": "93b89e4fcfdadc89bf271c5554d6e9ff6490daade181c0d05397755c119f6ed5"
+  },
+  {
+    "file": "preview/product-109.html",
+    "bytes": 8571,
+    "sha256": "1fdfe6e8d993f20a8fc92d8229af6edacff374edc4da0b1da1c2a997218d7f8b"
+  },
+  {
+    "file": "preview/product-110.html",
+    "bytes": 10693,
+    "sha256": "d9ea5e17e7080977960d310afcba159ccdd566515a0243994427972853e15aa8"
+  },
+  {
+    "file": "preview/product-111.html",
+    "bytes": 9292,
+    "sha256": "b51dc61dee1dedb10559d3ee48fed2d88a1a2e1792e733b47a629dc1b0ecf407"
+  },
+  {
+    "file": "preview/product-112.html",
+    "bytes": 9970,
+    "sha256": "c7443221f31667546e544f695ed8808d6e1d2a2928056e3057bcf1af012fef71"
+  },
+  {
+    "file": "preview/product-114.html",
+    "bytes": 8660,
+    "sha256": "7ae5b7b33a18cf5bd38c146e52cad54cafb4c6092bece1d393c0517e6af45150"
+  },
+  {
+    "file": "preview/product-115.html",
+    "bytes": 10910,
+    "sha256": "c2e87f0f16ed4455064c6cac999b201c5a3871b28d6b49c4bb27f3eff9904c2e"
+  },
+  {
+    "file": "preview/product-118.html",
+    "bytes": 10439,
+    "sha256": "320a88d5f796fa5a7a16aa9bef23690fe2250ada20f90c528f0ee92a106940d9"
+  },
+  {
+    "file": "preview/product-121.html",
+    "bytes": 8826,
+    "sha256": "79d217e4093478d931de37c29f3c79df21b90d4c883834124d87880ff7ac768c"
+  },
+  {
+    "file": "preview/product-18.html",
+    "bytes": 9651,
+    "sha256": "fd10c65e10d32404c20e70ccb9286382196da017a1f178a8586149237652f3ed"
+  },
+  {
+    "file": "preview/product-23.html",
+    "bytes": 8611,
+    "sha256": "c39c1dc173c80bfa86a30efc73dae076fe78ca1c1bc1b9330e51ad9a3c56e904"
+  },
+  {
+    "file": "preview/product-24.html",
+    "bytes": 9290,
+    "sha256": "a1848dae0e4c056300ffadb66c7a948cf0a87196ea76e87208f0d240126e3bc4"
+  },
+  {
+    "file": "preview/product-25.html",
+    "bytes": 8335,
+    "sha256": "3330b4cb058cc9124b036a983e73b56bbe46e2e4cd98e64d688e08752aed3224"
+  },
+  {
+    "file": "preview/search.html",
+    "bytes": 9261,
+    "sha256": "07231a9febc9cabc14329c82a2c5351558a3d8e8d7af5f25e58ce6ab1332fd39"
+  },
+  {
+    "file": "preview/shop.html",
+    "bytes": 9528,
+    "sha256": "51378fc1261e1ec265d7a6a7852e3e5592d088eee38c1b4ddc5e6453d081c885"
+  },
+  {
+    "file": "verification/QA_model_lookbook_390.png",
+    "bytes": 1950543,
+    "sha256": "8988580f44b2a66202cad83fc7f654b840c7d67f569b055a939bfd3f6978d14b"
+  },
+  {
+    "file": "verification/QA_quality_about_390.png",
+    "bytes": 227040,
+    "sha256": "fde8d7a512a60d5ec6c6d7fd72a28bcd28dcc8563cab4c3ba6ce4386ae344691"
+  },
+  {
+    "file": "verification/画質_텍스트_검증결과.json",
+    "bytes": 6347,
+    "sha256": "5c35be6407558f71fd49f08ac645721f742888529840c36d4ec193226618563d"
+  },
+  {
+    "file": "verification/검증결과_v2.json",
+    "bytes": 6679,
+    "sha256": "b695152a722134c570c28a2f611e6a1eac1bd31cba9d7f1c58e4960ede8c7078"
+  },
+  {
+    "file": "verification/룩북_검증결과.json",
+    "bytes": 951,
+    "sha256": "64b58bb23d0f317f32c99099ffaecd176a3ac507482643df62353471a3abb689"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-101.png",
+    "bytes": 184568,
+    "sha256": "7c903d553d5c01f2878108b914fa64a249008b9c48ed66bd9a4d70f5cdca90b5"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-102.png",
+    "bytes": 268098,
+    "sha256": "055199629e591d99f54e916614e000692fab58a6b53e7edc15f3c9b55900c0fe"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-109.png",
+    "bytes": 686874,
+    "sha256": "da72850f17e7fdb3b3692bc2c61ef5fb91aa70463af721aaf3ba679b334300e7"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-110.png",
+    "bytes": 742068,
+    "sha256": "1e9016b110b6a17c8408780d674841d8864c9e25934f13dbb905534fe773031b"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-111.png",
+    "bytes": 813560,
+    "sha256": "d648cab18f54e95bb81f1f0d77e808565d43256351bc847d3bec8817200a6d7d"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-112.png",
+    "bytes": 334047,
+    "sha256": "750b18574cf6601398d686de0111c4faa1b87ff7c974a488f26e0edd2eb7a0c5"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-114.png",
+    "bytes": 369640,
+    "sha256": "9871b0787a3ef25c38ca0d0d3baf3765256ae419858d4e3f2de8a830bfc21e1d"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-115.png",
+    "bytes": 115468,
+    "sha256": "48cad04ca83814b2ce7371696ade920d866e4245097a829fcb60eeed88e6a63c"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-118.png",
+    "bytes": 119169,
+    "sha256": "466732080a981ddcac07e9b303871bbfb82b1c8735b0bf578e9e7ef38e7d2234"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-121.png",
+    "bytes": 209159,
+    "sha256": "41744e67fa66de76b8799008e83fa0e7feacde01c27e927a72af06fe63a16d65"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-18.png",
+    "bytes": 566943,
+    "sha256": "c8566ca4c83ba9c3258054f850255ca74dcf1aa357fe69cb3e61eb792a9dd7f4"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-23.png",
+    "bytes": 1657716,
+    "sha256": "1ae27796d76f637ff6c2515d752125c9224449c01c49b8b4c9762fb449ddc7df"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-24.png",
+    "bytes": 448340,
+    "sha256": "81b5fc2b99492beae846dab5c3c01346ef8eac78cd48bbda65e841d51c0acd62"
+  },
+  {
+    "file": "상품목록이미지_1600px/product-25.png",
+    "bytes": 261217,
+    "sha256": "0f15169f242f8a29ffbc2bc14a4a48b18ba47757e32bb19de4d4aabc5527157c"
+  },
+  {
+    "file": "preview/assets/155af2eaba2e.jpg",
+    "bytes": 77687,
+    "sha256": "155af2eaba2ed11193e2fe85c809d6d1617eb4f7401da4f46c77e9c4c1ada719"
+  },
+  {
+    "file": "preview/assets/26309212717b.jpg",
+    "bytes": 85139,
+    "sha256": "26309212717bba0da83e0d11361b4bd9611307760497e7a79689dae0b8e7e724"
+  },
+  {
+    "file": "preview/assets/32ac710870.jpg",
+    "bytes": 35710,
+    "sha256": "52f235e32d6b8f6acaba09e34a30da8b60678507a3905722657569977221afbe"
+  },
+  {
+    "file": "preview/assets/38d19c7e8e86.png",
+    "bytes": 14323,
+    "sha256": "38d19c7e8e861f44ea30d8cb94fe603fdda6c634d4737b898b3a0c0c41b89ef2"
+  },
+  {
+    "file": "preview/assets/3b3dc8a7b5.png",
+    "bytes": 1486994,
+    "sha256": "1963d02fcb9d8214374b5d8f7ba824ebae22ca857792c019361444659e0cd3bd"
+  },
+  {
+    "file": "preview/assets/3d2663fa0d36.jpg",
+    "bytes": 76445,
+    "sha256": "3d2663fa0d36b03454f9fb7992f5611b8f877204c13309be1a28a169ce520085"
+  },
+  {
+    "file": "preview/assets/3fec1d67a8c0.jpg",
+    "bytes": 69429,
+    "sha256": "3fec1d67a8c040bf87d867dc95f666a62aca3e4aef73a75147b047974f34a9c3"
+  },
+  {
+    "file": "preview/assets/4dc48815f5.mp4",
+    "bytes": 2546795,
+    "sha256": "9f1067456cd2a63402d97fd681b856af1cb8726d96f29db6838955feee7eb415"
+  },
+  {
+    "file": "preview/assets/521b557b5d04.jpg",
+    "bytes": 79076,
+    "sha256": "521b557b5d0421802c2fea4c05ed3a6dcc0e3781e6e05934d4353d59815ae7b9"
+  },
+  {
+    "file": "preview/assets/5e7ca6bd10.jpg",
+    "bytes": 93698,
+    "sha256": "9caca7fe7a55fbf7ee050b55b8e1d900edb09cf2b2e928eeb3c5d8a83b73d770"
+  },
+  {
+    "file": "preview/assets/666c5201b6.png",
+    "bytes": 1143306,
+    "sha256": "42db1a67e013388329483aeda53335c562abc04db18721b8c7bf5db3fe92520b"
+  },
+  {
+    "file": "preview/assets/833f8e3c44.jpg",
+    "bytes": 133084,
+    "sha256": "fbc36768c9152d83111894d28c7d04bef8a9a2ab047e65bdc46379f70151f069"
+  },
+  {
+    "file": "preview/assets/83e2e69f9f.png",
+    "bytes": 1143514,
+    "sha256": "25761d892b63b154d5cbb9a75948d3a55cadf1e0cdc929fd6b3210c865ab4baa"
+  },
+  {
+    "file": "preview/assets/8b380d2580.png",
+    "bytes": 1030321,
+    "sha256": "e5a846230e353a9042c6f4fc641b674ff1ea81a5570a4c3ec6a7b09cd34383b7"
+  },
+  {
+    "file": "preview/assets/8d0f8ea2c9.jpg",
+    "bytes": 139779,
+    "sha256": "25ebbab795b9990a636f2e637f8f3e2b16f4fab31b7a8dfd25fcf4cd0d93906f"
+  },
+  {
+    "file": "preview/assets/8dd49378de78.jpg",
+    "bytes": 67968,
+    "sha256": "8dd49378de7870f82bddc80a3a905c3b65bb8e7150e766322f787d8edf178843"
+  },
+  {
+    "file": "preview/assets/93b74dae29b0.jpg",
+    "bytes": 71886,
+    "sha256": "93b74dae29b090e255cc3ec3f5832d7832f14827dae9525a0109657d65846f32"
+  },
+  {
+    "file": "preview/assets/9d064608eb.png",
+    "bytes": 1136759,
+    "sha256": "058eb4570b36c72aa810f2e5e577b2e16048dba881b2c500696acf00c1d0a748"
+  },
+  {
+    "file": "preview/assets/9e6a554915.png",
+    "bytes": 1110207,
+    "sha256": "19b00ad4ae34ff2e7abb6f0401a179268136830dcebb6a2593306c88df3acf45"
+  },
+  {
+    "file": "preview/assets/a13ff54dce.jpg",
+    "bytes": 124128,
+    "sha256": "9cd2d80a9883cc4f59fb8a780cad9575119e2121ff827edbb5fba7b590cd625b"
+  },
+  {
+    "file": "preview/assets/a9eb8b35f8.png",
+    "bytes": 1153481,
+    "sha256": "019bed4a4c4c508e891e012c91bd9a6c37377cd21f017ce4dc7f19ce8fb577be"
+  },
+  {
+    "file": "preview/assets/aa08c8c962.jpg",
+    "bytes": 95627,
+    "sha256": "e29b8b22f60e7b7fbdd7b2ff6a4a1e60d787557317fdb5f7a73d8ba95b81239e"
+  },
+  {
+    "file": "preview/assets/b26ec9c96b.png",
+    "bytes": 1486432,
+    "sha256": "9fe5038ec78603e60fa88ced7ff459c4bcb0d6b66d09e1e1018ba98c063224c3"
+  },
+  {
+    "file": "preview/assets/bedca8f862.png",
+    "bytes": 1245825,
+    "sha256": "095496941e106ad7eb786fee4465edb7080e75045b9d00ebae36e06d0f8aff66"
+  },
+  {
+    "file": "preview/assets/c22582fee814.jpg",
+    "bytes": 48084,
+    "sha256": "c22582fee814b26473ce0577a59a41bb11f9ac4e3c114c73358c000a9aee77e2"
+  },
+  {
+    "file": "preview/assets/commerce-preview.js",
+    "bytes": 3794,
+    "sha256": "f2abc49943e72419e0739bea858dcc8b9462b66f4373b9e16057030328d04e5d"
+  },
+  {
+    "file": "preview/assets/e83638a50b.mp4",
+    "bytes": 905334,
+    "sha256": "7a8d033b6a69fe7095acb054e519231fcc4b929dbcbce886376e1dbce857b73e"
+  },
+  {
+    "file": "preview/assets/f039e2c86f52.jpg",
+    "bytes": 56101,
+    "sha256": "f039e2c86f5281d244ccb3738228da354356eb7fd89e853bd94cf444ee75965d"
+  },
+  {
+    "file": "preview/assets/fde148c472.png",
+    "bytes": 1351660,
+    "sha256": "4a416929b525c0745d0ff673e586b624c0b4d5cd27c29adbb2f3c5db0ed9e852"
+  },
+  {
+    "file": "preview/assets/fe270b989b4a.jpg",
+    "bytes": 144056,
+    "sha256": "fe270b989b4a71eb35e41dfd79aa28dc85ee603c9a9b8d5ab6e27c30cf9fe75e"
+  },
+  {
+    "file": "preview/assets/lookbook-cloud-1.jpg",
+    "bytes": 1756090,
+    "sha256": "5b0d19678fc3c7f9c6755cf8b3642a4b3d2397e75a833691e237eec1b5047f3d"
+  },
+  {
+    "file": "preview/assets/lookbook-cloud-2.jpg",
+    "bytes": 1699234,
+    "sha256": "8f9e171e1db7d96250a9c0edf8c34185379965db789f54eaa408dfa3b86ba238"
+  },
+  {
+    "file": "preview/assets/lookbook-cloud-3.jpg",
+    "bytes": 1811027,
+    "sha256": "8d516356b40845a014e895f2cd316705ca3a5dd435871f6e3a78399c6abf001f"
+  },
+  {
+    "file": "preview/assets/lookbook-jelly-1.jpg",
+    "bytes": 959281,
+    "sha256": "b028ba71a74daa4257f6cd9944567de75ef690b32b71380e208627e6839ba43b"
+  },
+  {
+    "file": "preview/assets/lookbook-jelly-2.jpg",
+    "bytes": 1094251,
+    "sha256": "ce7f945ab0d8195286914ca09133cecc8cfb8fb3f42e7b91ba99a5cb0509ced0"
+  },
+  {
+    "file": "preview/assets/lookbook-jelly-3.jpg",
+    "bytes": 1162404,
+    "sha256": "bc4dfe9d058963cbf7819619d69b37cb291fe09428649464860a6d3d3a42cc52"
+  },
+  {
+    "file": "preview/assets/lookbook.css",
+    "bytes": 1762,
+    "sha256": "50d732058db5b9ad0fadf8cadb27c0250d5f4b2bd7a4904e79a9aee6616c73c3"
+  },
+  {
+    "file": "preview/assets/packshot-101.png",
+    "bytes": 184568,
+    "sha256": "7c903d553d5c01f2878108b914fa64a249008b9c48ed66bd9a4d70f5cdca90b5"
+  },
+  {
+    "file": "preview/assets/packshot-102.png",
+    "bytes": 268098,
+    "sha256": "055199629e591d99f54e916614e000692fab58a6b53e7edc15f3c9b55900c0fe"
+  },
+  {
+    "file": "preview/assets/packshot-109.png",
+    "bytes": 686874,
+    "sha256": "da72850f17e7fdb3b3692bc2c61ef5fb91aa70463af721aaf3ba679b334300e7"
+  },
+  {
+    "file": "preview/assets/packshot-110.png",
+    "bytes": 742068,
+    "sha256": "1e9016b110b6a17c8408780d674841d8864c9e25934f13dbb905534fe773031b"
+  },
+  {
+    "file": "preview/assets/packshot-111.png",
+    "bytes": 813560,
+    "sha256": "d648cab18f54e95bb81f1f0d77e808565d43256351bc847d3bec8817200a6d7d"
+  },
+  {
+    "file": "preview/assets/packshot-112.png",
+    "bytes": 334047,
+    "sha256": "750b18574cf6601398d686de0111c4faa1b87ff7c974a488f26e0edd2eb7a0c5"
+  },
+  {
+    "file": "preview/assets/packshot-114.png",
+    "bytes": 369640,
+    "sha256": "9871b0787a3ef25c38ca0d0d3baf3765256ae419858d4e3f2de8a830bfc21e1d"
+  },
+  {
+    "file": "preview/assets/packshot-115.png",
+    "bytes": 115468,
+    "sha256": "48cad04ca83814b2ce7371696ade920d866e4245097a829fcb60eeed88e6a63c"
+  },
+  {
+    "file": "preview/assets/packshot-118.png",
+    "bytes": 119169,
+    "sha256": "466732080a981ddcac07e9b303871bbfb82b1c8735b0bf578e9e7ef38e7d2234"
+  },
+  {
+    "file": "preview/assets/packshot-121.png",
+    "bytes": 209159,
+    "sha256": "41744e67fa66de76b8799008e83fa0e7feacde01c27e927a72af06fe63a16d65"
+  },
+  {
+    "file": "preview/assets/packshot-18.png",
+    "bytes": 566943,
+    "sha256": "c8566ca4c83ba9c3258054f850255ca74dcf1aa357fe69cb3e61eb792a9dd7f4"
+  },
+  {
+    "file": "preview/assets/packshot-23.png",
+    "bytes": 1657716,
+    "sha256": "1ae27796d76f637ff6c2515d752125c9224449c01c49b8b4c9762fb449ddc7df"
+  },
+  {
+    "file": "preview/assets/packshot-24.png",
+    "bytes": 448340,
+    "sha256": "81b5fc2b99492beae846dab5c3c01346ef8eac78cd48bbda65e841d51c0acd62"
+  },
+  {
+    "file": "preview/assets/packshot-25.png",
+    "bytes": 261217,
+    "sha256": "0f15169f242f8a29ffbc2bc14a4a48b18ba47757e32bb19de4d4aabc5527157c"
+  },
+  {
+    "file": "preview/assets/Pretendard-LICENSE.txt",
+    "bytes": 4419,
+    "sha256": "b04538c9abec39a3db75108cf0af0fd9c77032fe8aa2cf38345b4d250e98e38e"
+  },
+  {
+    "file": "preview/assets/PretendardVariable.woff2",
+    "bytes": 2057688,
+    "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4"
+  },
+  {
+    "file": "preview/assets/preview-catalog.js",
+    "bytes": 5326,
+    "sha256": "8ea1e8c75f369226958eed7a4c33a92683852eff14530442e9ffce04a1892b11"
+  },
+  {
+    "file": "preview/assets/product-109-alternate.png",
+    "bytes": 573146,
+    "sha256": "99a2defead7a26e5fdccc592a131274cd232fa812147a15444c2707e8091a5cb"
+  },
+  {
+    "file": "preview/assets/product-110-alternate.png",
+    "bytes": 804447,
+    "sha256": "90aca106be4eb1d3daeb253588b2c2f9d96e3323b6af221349d27b64ae74efb9"
+  },
+  {
+    "file": "preview/assets/product-111-alternate.png",
+    "bytes": 742206,
+    "sha256": "5c2ee7ad818b239f33776718544b033e06cee531e5a00dc4777ed27a6a0140ff"
+  },
+  {
+    "file": "preview/assets/product-112-alternate.png",
+    "bytes": 836134,
+    "sha256": "cb15a6f63cf08b1b53aa590aeb92456c4c1d3555102889a88ab7b16671840456"
+  },
+  {
+    "file": "preview/assets/product-114-alternate.jpg",
+    "bytes": 93140,
+    "sha256": "cc59bb119f6ed2341cc0f1e68906b678d2285b3321126beeae3642cac1e7db4f"
+  },
+  {
+    "file": "preview/assets/product-115-alternate.png",
+    "bytes": 844275,
+    "sha256": "ec4e077288f2807633126fd790649b02a6a18ded2aee545acdb3e4d6322052c2"
+  },
+  {
+    "file": "preview/assets/product-118-alternate.jpg",
+    "bytes": 105079,
+    "sha256": "4c155eadbc501903ff89c614b899db1b11ba137c2d988981a00acc75b6c32c44"
+  },
+  {
+    "file": "preview/assets/product-121-alternate.jpg",
+    "bytes": 188719,
+    "sha256": "5db3c8b195259d2cb9cd5615c3ee8786c23e5486fbbd91543f8973fbde8035a3"
+  },
+  {
+    "file": "preview/assets/quality.css",
+    "bytes": 3642,
+    "sha256": "60930ad424a5409e371485ef940b7461703c115e57e5cdefec8f63f66c0ea61c"
+  },
+  {
+    "file": "preview/assets/tam.css",
+    "bytes": 18555,
+    "sha256": "63302679506e6924c19b272ab5ca7ebae964838e231bddd809e143260ba9d0a5"
+  },
+  {
+    "file": "preview/assets/tam.js",
+    "bytes": 4645,
+    "sha256": "4c303b2ef9b558aba39481729186a5fc7f905f211dde0ae81ad6a6e563a2c3a2"
+  },
+  {
+    "file": "cafe24/tam/about.html",
+    "bytes": 3135,
+    "sha256": "e8dafdce5fc9716d6a4f6c6c970a21b893a17c814af8634ea5a8f1eb55493398"
+  },
+  {
+    "file": "cafe24/tam/cloud.html",
+    "bytes": 2312,
+    "sha256": "0fa7ab5e057af7dce69343db97744524948dfee5892645235bbf38c3bd97b5ee"
+  },
+  {
+    "file": "cafe24/tam/index.html",
+    "bytes": 4970,
+    "sha256": "bd5cf00138d8dae1ddd179ea53526404aa737549fdac144336f8b75bfa27ed6f"
+  },
+  {
+    "file": "cafe24/tam/jelly.html",
+    "bytes": 2315,
+    "sha256": "ca75a538eb256da2c6c893fac9e5598e5f7c3a68a0b5fa9dc8293004fb9199dd"
+  },
+  {
+    "file": "cafe24/tam/layout.html",
+    "bytes": 393,
+    "sha256": "608aff0ea65c6a68dd708a2ddc15965f423bee16874fde522cba8aac5923ee4f"
+  },
+  {
+    "file": "cafe24/tam/lookbook.html",
+    "bytes": 135,
+    "sha256": "5a491b87cd1ac4a5c821909737d5ce0408fba6886c8e43ad1105081d74439326"
+  },
+  {
+    "file": "cafe24/tam/shop.html",
+    "bytes": 2612,
+    "sha256": "5764ed7ea9861a8634610675a1ae950c2a81118cc0addb49d5ad767af87f8bbc"
+  },
+  {
+    "file": "cafe24/tam/assets/155af2eaba2e.jpg",
+    "bytes": 77687,
+    "sha256": "155af2eaba2ed11193e2fe85c809d6d1617eb4f7401da4f46c77e9c4c1ada719"
+  },
+  {
+    "file": "cafe24/tam/assets/26309212717b.jpg",
+    "bytes": 85139,
+    "sha256": "26309212717bba0da83e0d11361b4bd9611307760497e7a79689dae0b8e7e724"
+  },
+  {
+    "file": "cafe24/tam/assets/32ac710870.jpg",
+    "bytes": 35710,
+    "sha256": "52f235e32d6b8f6acaba09e34a30da8b60678507a3905722657569977221afbe"
+  },
+  {
+    "file": "cafe24/tam/assets/38d19c7e8e86.png",
+    "bytes": 14323,
+    "sha256": "38d19c7e8e861f44ea30d8cb94fe603fdda6c634d4737b898b3a0c0c41b89ef2"
+  },
+  {
+    "file": "cafe24/tam/assets/3b3dc8a7b5.png",
+    "bytes": 1486994,
+    "sha256": "1963d02fcb9d8214374b5d8f7ba824ebae22ca857792c019361444659e0cd3bd"
+  },
+  {
+    "file": "cafe24/tam/assets/3d2663fa0d36.jpg",
+    "bytes": 76445,
+    "sha256": "3d2663fa0d36b03454f9fb7992f5611b8f877204c13309be1a28a169ce520085"
+  },
+  {
+    "file": "cafe24/tam/assets/3fec1d67a8c0.jpg",
+    "bytes": 69429,
+    "sha256": "3fec1d67a8c040bf87d867dc95f666a62aca3e4aef73a75147b047974f34a9c3"
+  },
+  {
+    "file": "cafe24/tam/assets/4dc48815f5.mp4",
+    "bytes": 2546795,
+    "sha256": "9f1067456cd2a63402d97fd681b856af1cb8726d96f29db6838955feee7eb415"
+  },
+  {
+    "file": "cafe24/tam/assets/521b557b5d04.jpg",
+    "bytes": 79076,
+    "sha256": "521b557b5d0421802c2fea4c05ed3a6dcc0e3781e6e05934d4353d59815ae7b9"
+  },
+  {
+    "file": "cafe24/tam/assets/5e7ca6bd10.jpg",
+    "bytes": 93698,
+    "sha256": "9caca7fe7a55fbf7ee050b55b8e1d900edb09cf2b2e928eeb3c5d8a83b73d770"
+  },
+  {
+    "file": "cafe24/tam/assets/666c5201b6.png",
+    "bytes": 1143306,
+    "sha256": "42db1a67e013388329483aeda53335c562abc04db18721b8c7bf5db3fe92520b"
+  },
+  {
+    "file": "cafe24/tam/assets/833f8e3c44.jpg",
+    "bytes": 133084,
+    "sha256": "fbc36768c9152d83111894d28c7d04bef8a9a2ab047e65bdc46379f70151f069"
+  },
+  {
+    "file": "cafe24/tam/assets/83e2e69f9f.png",
+    "bytes": 1143514,
+    "sha256": "25761d892b63b154d5cbb9a75948d3a55cadf1e0cdc929fd6b3210c865ab4baa"
+  },
+  {
+    "file": "cafe24/tam/assets/8b380d2580.png",
+    "bytes": 1030321,
+    "sha256": "e5a846230e353a9042c6f4fc641b674ff1ea81a5570a4c3ec6a7b09cd34383b7"
+  },
+  {
+    "file": "cafe24/tam/assets/8d0f8ea2c9.jpg",
+    "bytes": 139779,
+    "sha256": "25ebbab795b9990a636f2e637f8f3e2b16f4fab31b7a8dfd25fcf4cd0d93906f"
+  },
+  {
+    "file": "cafe24/tam/assets/8dd49378de78.jpg",
+    "bytes": 67968,
+    "sha256": "8dd49378de7870f82bddc80a3a905c3b65bb8e7150e766322f787d8edf178843"
+  },
+  {
+    "file": "cafe24/tam/assets/93b74dae29b0.jpg",
+    "bytes": 71886,
+    "sha256": "93b74dae29b090e255cc3ec3f5832d7832f14827dae9525a0109657d65846f32"
+  },
+  {
+    "file": "cafe24/tam/assets/9d064608eb.png",
+    "bytes": 1136759,
+    "sha256": "058eb4570b36c72aa810f2e5e577b2e16048dba881b2c500696acf00c1d0a748"
+  },
+  {
+    "file": "cafe24/tam/assets/9e6a554915.png",
+    "bytes": 1110207,
+    "sha256": "19b00ad4ae34ff2e7abb6f0401a179268136830dcebb6a2593306c88df3acf45"
+  },
+  {
+    "file": "cafe24/tam/assets/a13ff54dce.jpg",
+    "bytes": 124128,
+    "sha256": "9cd2d80a9883cc4f59fb8a780cad9575119e2121ff827edbb5fba7b590cd625b"
+  },
+  {
+    "file": "cafe24/tam/assets/a9eb8b35f8.png",
+    "bytes": 1153481,
+    "sha256": "019bed4a4c4c508e891e012c91bd9a6c37377cd21f017ce4dc7f19ce8fb577be"
+  },
+  {
+    "file": "cafe24/tam/assets/aa08c8c962.jpg",
+    "bytes": 95627,
+    "sha256": "e29b8b22f60e7b7fbdd7b2ff6a4a1e60d787557317fdb5f7a73d8ba95b81239e"
+  },
+  {
+    "file": "cafe24/tam/assets/b26ec9c96b.png",
+    "bytes": 1486432,
+    "sha256": "9fe5038ec78603e60fa88ced7ff459c4bcb0d6b66d09e1e1018ba98c063224c3"
+  },
+  {
+    "file": "cafe24/tam/assets/bedca8f862.png",
+    "bytes": 1245825,
+    "sha256": "095496941e106ad7eb786fee4465edb7080e75045b9d00ebae36e06d0f8aff66"
+  },
+  {
+    "file": "cafe24/tam/assets/c22582fee814.jpg",
+    "bytes": 48084,
+    "sha256": "c22582fee814b26473ce0577a59a41bb11f9ac4e3c114c73358c000a9aee77e2"
+  },
+  {
+    "file": "cafe24/tam/assets/chrome.css",
+    "bytes": 3754,
+    "sha256": "080f7a6d6116e61bc9e5b556f365d2fc571b649754d77a068a2c0540bd27c570"
+  },
+  {
+    "file": "cafe24/tam/assets/chrome.js",
+    "bytes": 693,
+    "sha256": "da243d671b7e2f7e399a24ab237f9028f0caaba67e56e951861ae323b3e40073"
+  },
+  {
+    "file": "cafe24/tam/assets/e83638a50b.mp4",
+    "bytes": 905334,
+    "sha256": "7a8d033b6a69fe7095acb054e519231fcc4b929dbcbce886376e1dbce857b73e"
+  },
+  {
+    "file": "cafe24/tam/assets/f039e2c86f52.jpg",
+    "bytes": 56101,
+    "sha256": "f039e2c86f5281d244ccb3738228da354356eb7fd89e853bd94cf444ee75965d"
+  },
+  {
+    "file": "cafe24/tam/assets/fde148c472.png",
+    "bytes": 1351660,
+    "sha256": "4a416929b525c0745d0ff673e586b624c0b4d5cd27c29adbb2f3c5db0ed9e852"
+  },
+  {
+    "file": "cafe24/tam/assets/fe270b989b4a.jpg",
+    "bytes": 144056,
+    "sha256": "fe270b989b4a71eb35e41dfd79aa28dc85ee603c9a9b8d5ab6e27c30cf9fe75e"
+  },
+  {
+    "file": "cafe24/tam/assets/lookbook-cloud-1.jpg",
+    "bytes": 1756090,
+    "sha256": "5b0d19678fc3c7f9c6755cf8b3642a4b3d2397e75a833691e237eec1b5047f3d"
+  },
+  {
+    "file": "cafe24/tam/assets/lookbook-cloud-2.jpg",
+    "bytes": 1699234,
+    "sha256": "8f9e171e1db7d96250a9c0edf8c34185379965db789f54eaa408dfa3b86ba238"
+  },
+  {
+    "file": "cafe24/tam/assets/lookbook-cloud-3.jpg",
+    "bytes": 1811027,
+    "sha256": "8d516356b40845a014e895f2cd316705ca3a5dd435871f6e3a78399c6abf001f"
+  },
+  {
+    "file": "cafe24/tam/assets/lookbook-jelly-1.jpg",
+    "bytes": 959281,
+    "sha256": "b028ba71a74daa4257f6cd9944567de75ef690b32b71380e208627e6839ba43b"
+  },
+  {
+    "file": "cafe24/tam/assets/lookbook-jelly-2.jpg",
+    "bytes": 1094251,
+    "sha256": "ce7f945ab0d8195286914ca09133cecc8cfb8fb3f42e7b91ba99a5cb0509ced0"
+  },
+  {
+    "file": "cafe24/tam/assets/lookbook-jelly-3.jpg",
+    "bytes": 1162404,
+    "sha256": "bc4dfe9d058963cbf7819619d69b37cb291fe09428649464860a6d3d3a42cc52"
+  },
+  {
+    "file": "cafe24/tam/assets/lookbook.css",
+    "bytes": 1762,
+    "sha256": "50d732058db5b9ad0fadf8cadb27c0250d5f4b2bd7a4904e79a9aee6616c73c3"
+  },
+  {
+    "file": "cafe24/tam/assets/native-commerce.css",
+    "bytes": 3416,
+    "sha256": "87377288d5188602f249f77d1e4f8cdea2d1a0e53da2618757943ae207560256"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-101.png",
+    "bytes": 184568,
+    "sha256": "7c903d553d5c01f2878108b914fa64a249008b9c48ed66bd9a4d70f5cdca90b5"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-102.png",
+    "bytes": 268098,
+    "sha256": "055199629e591d99f54e916614e000692fab58a6b53e7edc15f3c9b55900c0fe"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-109.png",
+    "bytes": 686874,
+    "sha256": "da72850f17e7fdb3b3692bc2c61ef5fb91aa70463af721aaf3ba679b334300e7"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-110.png",
+    "bytes": 742068,
+    "sha256": "1e9016b110b6a17c8408780d674841d8864c9e25934f13dbb905534fe773031b"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-111.png",
+    "bytes": 813560,
+    "sha256": "d648cab18f54e95bb81f1f0d77e808565d43256351bc847d3bec8817200a6d7d"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-112.png",
+    "bytes": 334047,
+    "sha256": "750b18574cf6601398d686de0111c4faa1b87ff7c974a488f26e0edd2eb7a0c5"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-114.png",
+    "bytes": 369640,
+    "sha256": "9871b0787a3ef25c38ca0d0d3baf3765256ae419858d4e3f2de8a830bfc21e1d"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-115.png",
+    "bytes": 115468,
+    "sha256": "48cad04ca83814b2ce7371696ade920d866e4245097a829fcb60eeed88e6a63c"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-118.png",
+    "bytes": 119169,
+    "sha256": "466732080a981ddcac07e9b303871bbfb82b1c8735b0bf578e9e7ef38e7d2234"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-121.png",
+    "bytes": 209159,
+    "sha256": "41744e67fa66de76b8799008e83fa0e7feacde01c27e927a72af06fe63a16d65"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-18.png",
+    "bytes": 566943,
+    "sha256": "c8566ca4c83ba9c3258054f850255ca74dcf1aa357fe69cb3e61eb792a9dd7f4"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-23.png",
+    "bytes": 1657716,
+    "sha256": "1ae27796d76f637ff6c2515d752125c9224449c01c49b8b4c9762fb449ddc7df"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-24.png",
+    "bytes": 448340,
+    "sha256": "81b5fc2b99492beae846dab5c3c01346ef8eac78cd48bbda65e841d51c0acd62"
+  },
+  {
+    "file": "cafe24/tam/assets/packshot-25.png",
+    "bytes": 261217,
+    "sha256": "0f15169f242f8a29ffbc2bc14a4a48b18ba47757e32bb19de4d4aabc5527157c"
+  },
+  {
+    "file": "cafe24/tam/assets/Pretendard-LICENSE.txt",
+    "bytes": 4419,
+    "sha256": "b04538c9abec39a3db75108cf0af0fd9c77032fe8aa2cf38345b4d250e98e38e"
+  },
+  {
+    "file": "cafe24/tam/assets/PretendardVariable.woff2",
+    "bytes": 2057688,
+    "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4"
+  },
+  {
+    "file": "cafe24/tam/assets/product-109-alternate.png",
+    "bytes": 573146,
+    "sha256": "99a2defead7a26e5fdccc592a131274cd232fa812147a15444c2707e8091a5cb"
+  },
+  {
+    "file": "cafe24/tam/assets/product-110-alternate.png",
+    "bytes": 804447,
+    "sha256": "90aca106be4eb1d3daeb253588b2c2f9d96e3323b6af221349d27b64ae74efb9"
+  },
+  {
+    "file": "cafe24/tam/assets/product-111-alternate.png",
+    "bytes": 742206,
+    "sha256": "5c2ee7ad818b239f33776718544b033e06cee531e5a00dc4777ed27a6a0140ff"
+  },
+  {
+    "file": "cafe24/tam/assets/product-112-alternate.png",
+    "bytes": 836134,
+    "sha256": "cb15a6f63cf08b1b53aa590aeb92456c4c1d3555102889a88ab7b16671840456"
+  },
+  {
+    "file": "cafe24/tam/assets/product-114-alternate.jpg",
+    "bytes": 93140,
+    "sha256": "cc59bb119f6ed2341cc0f1e68906b678d2285b3321126beeae3642cac1e7db4f"
+  },
+  {
+    "file": "cafe24/tam/assets/product-115-alternate.png",
+    "bytes": 844275,
+    "sha256": "ec4e077288f2807633126fd790649b02a6a18ded2aee545acdb3e4d6322052c2"
+  },
+  {
+    "file": "cafe24/tam/assets/product-118-alternate.jpg",
+    "bytes": 105079,
+    "sha256": "4c155eadbc501903ff89c614b899db1b11ba137c2d988981a00acc75b6c32c44"
+  },
+  {
+    "file": "cafe24/tam/assets/product-121-alternate.jpg",
+    "bytes": 188719,
+    "sha256": "5db3c8b195259d2cb9cd5615c3ee8786c23e5486fbbd91543f8973fbde8035a3"
+  },
+  {
+    "file": "cafe24/tam/assets/quality.css",
+    "bytes": 3642,
+    "sha256": "60930ad424a5409e371485ef940b7461703c115e57e5cdefec8f63f66c0ea61c"
+  },
+  {
+    "file": "cafe24/tam/assets/tam.css",
+    "bytes": 15517,
+    "sha256": "58aa9af72795744c44acb7c3ae69d18ec66dbe01bddfaaa9a6895bb38c0faa0e"
+  },
+  {
+    "file": "cafe24/tam/assets/tam.js",
+    "bytes": 4147,
+    "sha256": "b808484f5b3d5b8f01b17278eda6573018b74b947b5b01967958895fe401eadd"
+  },
+  {
+    "file": "cafe24/tam/partials/footer.html",
+    "bytes": 1262,
+    "sha256": "a9a3c9427ace3c80531aa956b71d0efd0036dbaf56dd0170fc5b0deed88dcba2"
+  },
+  {
+    "file": "cafe24/tam/partials/header.html",
+    "bytes": 1211,
+    "sha256": "461a4e6fca28cfbe19b5744f38b069a3a2aec717e0756eab0d4f8906bbdad243"
+  },
+  {
+    "file": "cafe24/tam/sections/campaign.html",
+    "bytes": 269,
+    "sha256": "e20a96d4b887f8740e62640dff40c3ec2c41cdf353608cb44c24615cc5cf1cbd"
+  },
+  {
+    "file": "cafe24/tam/sections/film.html",
+    "bytes": 339,
+    "sha256": "ff62cda4fccccdd34ae4f510275063c38aff94d784a043c63de9933d1baffec7"
+  },
+  {
+    "file": "cafe24/tam/sections/lines.html",
+    "bytes": 741,
+    "sha256": "e08a1886ffc3d9fd18a10f42383ae01f64f56fcd190b8ac5e42601e8566fd411"
+  },
+  {
+    "file": "cafe24/tam/sections/lookbook.html",
+    "bytes": 2776,
+    "sha256": "f00319a3eff41f5d898f7be5aad522a252f1df879248443068d1f94f81e93546"
+  },
+  {
+    "file": "cafe24/tam/sections/reviews.html",
+    "bytes": 2046,
+    "sha256": "ac2616a601558b6bbcea65432ed7e373267a5eecf69ca4396c49e362e347681c"
+  }
+]

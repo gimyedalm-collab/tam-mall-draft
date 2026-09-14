@@ -1,0 +1,86 @@
+[
+  {
+    "line": "jelly",
+    "model_folder": "한세연",
+    "original_size": [
+      8256,
+      5504
+    ],
+    "file": "lookbook-jelly-1.jpg",
+    "size": [
+      2800,
+      1867
+    ],
+    "featured": true
+  },
+  {
+    "line": "jelly",
+    "model_folder": "한세연",
+    "original_size": [
+      5504,
+      8256
+    ],
+    "file": "lookbook-jelly-2.jpg",
+    "size": [
+      1800,
+      2700
+    ],
+    "featured": false
+  },
+  {
+    "line": "jelly",
+    "model_folder": "한세연",
+    "original_size": [
+      5504,
+      8256
+    ],
+    "file": "lookbook-jelly-3.jpg",
+    "size": [
+      1800,
+      2700
+    ],
+    "featured": false
+  },
+  {
+    "line": "cloud",
+    "model_folder": "모아",
+    "original_size": [
+      8256,
+      5504
+    ],
+    "file": "lookbook-cloud-1.jpg",
+    "size": [
+      2800,
+      1867
+    ],
+    "featured": true
+  },
+  {
+    "line": "cloud",
+    "model_folder": "모아",
+    "original_size": [
+      5504,
+      8256
+    ],
+    "file": "lookbook-cloud-2.jpg",
+    "size": [
+      1800,
+      2700
+    ],
+    "featured": false
+  },
+  {
+    "line": "cloud",
+    "model_folder": "모아",
+    "original_size": [
+      5504,
+      8256
+    ],
+    "file": "lookbook-cloud-3.jpg",
+    "size": [
+      1800,
+      2700
+    ],
+    "featured": false
+  }
+]

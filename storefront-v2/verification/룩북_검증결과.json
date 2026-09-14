@@ -1,0 +1,47 @@
+{
+  "source_models_from_folder_labels": [
+    "한세연",
+    "모아"
+  ],
+  "checks": [
+    {
+      "width": 320,
+      "images": 6,
+      "retina_resolution": "passed",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "images": 6,
+      "retina_resolution": "passed",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "images": 6,
+      "retina_resolution": "passed",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "images": 6,
+      "retina_resolution": "passed",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "images": 6,
+      "retina_resolution": "passed",
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "images": 6,
+      "retina_resolution": "passed",
+      "overflow": false
+    }
+  ],
+  "line_navigation": "passed",
+  "about_packshots_preserved": true,
+  "Cafe24": "templates packaged; live skin not yet applied"
+}
