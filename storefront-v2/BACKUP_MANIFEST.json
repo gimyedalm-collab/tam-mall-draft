@@ -26,18 +26,18 @@
   },
   {
     "file": "카페24_적용안내.md",
-    "bytes": 8449,
-    "sha256": "d2f13f160b25bca9ec4859f11a39ab8db88a1e6a2d8254bbbb4592dc270382c4"
+    "bytes": 8456,
+    "sha256": "bf0b92c4448d3216c42aa00d3db37e44bae87bd00df6030d0e99555fe61c9366"
   },
   {
     "file": "탐뷰티_카페24_적용파일_260914.zip",
-    "bytes": 45050733,
-    "sha256": "329ef81c465fba872252e93d42cde98b1eaefb2f4285c636c02b7f60f6a17873"
+    "bytes": 47890679,
+    "sha256": "a58f3e86545863d18a7bec5dc179f754fcb63805aa9a5e71445a541ca8205947"
   },
   {
     "file": "preview/about.html",
-    "bytes": 14466,
-    "sha256": "dbb9c5d94bb5395e6b812f0fd4a1f9e8d42bf58596d7d9c110c46e6fa911964f"
+    "bytes": 14397,
+    "sha256": "0de41dcdcd39bd710bf69178ce92fe8670ec7b392c0012ea36c0f98ec9b908f5"
   },
   {
     "file": "preview/basket.html",
@@ -365,6 +365,11 @@
     "sha256": "e29b8b22f60e7b7fbdd7b2ff6a4a1e60d787557317fdb5f7a73d8ba95b81239e"
   },
   {
+    "file": "preview/assets/about-cloud-still.jpg",
+    "bytes": 3034790,
+    "sha256": "96d699e13bbdd49b3c04cf87492159cf44a20898cc495644e4b1fbcf77f80163"
+  },
+  {
     "file": "preview/assets/b26ec9c96b.png",
     "bytes": 1486432,
     "sha256": "9fe5038ec78603e60fa88ced7ff459c4bcb0d6b66d09e1e1018ba98c063224c3"
@@ -521,8 +526,8 @@
   },
   {
     "file": "preview/assets/page-identity.css",
-    "bytes": 2053,
-    "sha256": "3b36041a69e4b41f4c78dc6f60fe6467ebb6ded0653535215bfa85d24ce703fa"
+    "bytes": 2502,
+    "sha256": "d0fa7e499cdc8cd0f0189ac3cc1b99863b46c8589490c75da7ecd120f6ee9184"
   },
   {
     "file": "preview/assets/Pretendard-LICENSE.txt",
@@ -596,8 +601,8 @@
   },
   {
     "file": "cafe24/tam/about.html",
-    "bytes": 3835,
-    "sha256": "03d6c2882573b536e53dfdf3634cf05685754f5d7a64b32c1a6c6bb5b2160934"
+    "bytes": 3762,
+    "sha256": "746a032281b04a081aafe4a0c96231b5db744361180dbbb17bd841867df7a4a3"
   },
   {
     "file": "cafe24/tam/cloud.html",
@@ -738,6 +743,11 @@
     "file": "cafe24/tam/assets/aa08c8c962.jpg",
     "bytes": 95627,
     "sha256": "e29b8b22f60e7b7fbdd7b2ff6a4a1e60d787557317fdb5f7a73d8ba95b81239e"
+  },
+  {
+    "file": "cafe24/tam/assets/about-cloud-still.jpg",
+    "bytes": 3034790,
+    "sha256": "96d699e13bbdd49b3c04cf87492159cf44a20898cc495644e4b1fbcf77f80163"
   },
   {
     "file": "cafe24/tam/assets/b26ec9c96b.png",
@@ -906,8 +916,8 @@
   },
   {
     "file": "cafe24/tam/assets/page-identity.css",
-    "bytes": 2053,
-    "sha256": "3b36041a69e4b41f4c78dc6f60fe6467ebb6ded0653535215bfa85d24ce703fa"
+    "bytes": 2502,
+    "sha256": "d0fa7e499cdc8cd0f0189ac3cc1b99863b46c8589490c75da7ecd120f6ee9184"
   },
   {
     "file": "cafe24/tam/assets/Pretendard-LICENSE.txt",
