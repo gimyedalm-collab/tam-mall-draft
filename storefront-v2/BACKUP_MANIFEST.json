@@ -26,18 +26,18 @@
   },
   {
     "file": "카페24_적용안내.md",
-    "bytes": 8456,
-    "sha256": "bf0b92c4448d3216c42aa00d3db37e44bae87bd00df6030d0e99555fe61c9366"
+    "bytes": 8591,
+    "sha256": "69991b4616104314ff26fa0feddfde0afa4a04016b72eb598c7afd652c93af5e"
   },
   {
     "file": "탐뷰티_카페24_적용파일_260914.zip",
-    "bytes": 47890679,
-    "sha256": "a58f3e86545863d18a7bec5dc179f754fcb63805aa9a5e71445a541ca8205947"
+    "bytes": 47890779,
+    "sha256": "c322dd2058cd26ed482a97aa535e91f9f4be41d46957d9fb7d563e22acbcf7de"
   },
   {
     "file": "preview/about.html",
-    "bytes": 14397,
-    "sha256": "0de41dcdcd39bd710bf69178ce92fe8670ec7b392c0012ea36c0f98ec9b908f5"
+    "bytes": 14518,
+    "sha256": "7a7e929d0db74c81a6d1c5cc7d904494333899547604cd7ab778de8c7d1f2a05"
   },
   {
     "file": "preview/basket.html",
@@ -526,8 +526,8 @@
   },
   {
     "file": "preview/assets/page-identity.css",
-    "bytes": 2502,
-    "sha256": "d0fa7e499cdc8cd0f0189ac3cc1b99863b46c8589490c75da7ecd120f6ee9184"
+    "bytes": 2698,
+    "sha256": "a8129065a329ee51caf936d71f46432f78dff978d641070337d78a1e3303e97f"
   },
   {
     "file": "preview/assets/Pretendard-LICENSE.txt",
@@ -601,8 +601,8 @@
   },
   {
     "file": "cafe24/tam/about.html",
-    "bytes": 3762,
-    "sha256": "746a032281b04a081aafe4a0c96231b5db744361180dbbb17bd841867df7a4a3"
+    "bytes": 3887,
+    "sha256": "ddea84de6092dac4e0b72e96e4604aba123b530ed736b6cfc2217fe1151c3ddd"
   },
   {
     "file": "cafe24/tam/cloud.html",
@@ -916,8 +916,8 @@
   },
   {
     "file": "cafe24/tam/assets/page-identity.css",
-    "bytes": 2502,
-    "sha256": "d0fa7e499cdc8cd0f0189ac3cc1b99863b46c8589490c75da7ecd120f6ee9184"
+    "bytes": 2698,
+    "sha256": "a8129065a329ee51caf936d71f46432f78dff978d641070337d78a1e3303e97f"
   },
   {
     "file": "cafe24/tam/assets/Pretendard-LICENSE.txt",
