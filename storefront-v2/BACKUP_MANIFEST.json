@@ -26,13 +26,13 @@
   },
   {
     "file": "카페24_적용안내.md",
-    "bytes": 8007,
-    "sha256": "2a1fea69e505c56222fe94531087d5deb07d82e06889dc8b1271e5dc4e9c1ac2"
+    "bytes": 8056,
+    "sha256": "c3783db18f721d1312c5ae339a637b3b37573317e9900384b375af8d1ab05fb9"
   },
   {
     "file": "탐뷰티_카페24_적용파일_260914.zip",
-    "bytes": 45048770,
-    "sha256": "381a2d87d505ddc2bdfd75bfca6b3a4b01cc3e8ec63cedaf92486a7575230948"
+    "bytes": 45049434,
+    "sha256": "c003060d5d9825848e094941d5cc13bafa163415fddc1201bc75748e5cb516e4"
   },
   {
     "file": "preview/about.html",
@@ -61,8 +61,8 @@
   },
   {
     "file": "preview/index.html",
-    "bytes": 19106,
-    "sha256": "36449c54c50c4351e981a410e1c7fca42c52076c6f17b90306b04122aa83fb5b"
+    "bytes": 19273,
+    "sha256": "63940dc6293b50da6480421b8a161216426b701c77008e3c335e3210fcaaedf1"
   },
   {
     "file": "preview/jelly.html",
@@ -441,8 +441,8 @@
   },
   {
     "file": "preview/assets/merchandising.css",
-    "bytes": 1372,
-    "sha256": "1c3e8ddab26a955878a877851d56be1efbae2fdebca149651cf7058dd07db699"
+    "bytes": 2132,
+    "sha256": "cf020c9afa7b9dfeafda8805ec827ce3be1bafed12e67a63b4073ebe88db761f"
   },
   {
     "file": "preview/assets/merchandising.js",
@@ -601,8 +601,8 @@
   },
   {
     "file": "cafe24/tam/index.html",
-    "bytes": 5270,
-    "sha256": "08773cfc853a11eed889e872d3f0dbe4154e754a02a71a37bc79f8b660f8db0e"
+    "bytes": 4975,
+    "sha256": "e849fd4dac68b22e918fc122f6b62059b7b238f92e0c0da5ef5c327f3bf29358"
   },
   {
     "file": "cafe24/tam/jelly.html",
@@ -816,8 +816,8 @@
   },
   {
     "file": "cafe24/tam/assets/merchandising.css",
-    "bytes": 1372,
-    "sha256": "1c3e8ddab26a955878a877851d56be1efbae2fdebca149651cf7058dd07db699"
+    "bytes": 2132,
+    "sha256": "cf020c9afa7b9dfeafda8805ec827ce3be1bafed12e67a63b4073ebe88db761f"
   },
   {
     "file": "cafe24/tam/assets/merchandising.js",
@@ -983,6 +983,11 @@
     "file": "cafe24/tam/sections/film.html",
     "bytes": 339,
     "sha256": "ff62cda4fccccdd34ae4f510275063c38aff94d784a043c63de9933d1baffec7"
+  },
+  {
+    "file": "cafe24/tam/sections/home-lookbook.html",
+    "bytes": 766,
+    "sha256": "4098544de8c65160bc25712b41b5ceb866484e1d935b574ac147ad5878cb5f08"
   },
   {
     "file": "cafe24/tam/sections/lines.html",
