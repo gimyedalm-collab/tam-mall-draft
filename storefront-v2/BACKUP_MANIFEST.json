@@ -26,138 +26,138 @@
   },
   {
     "file": "카페24_적용안내.md",
-    "bytes": 7279,
-    "sha256": "09404e9e8479bf5c197a54094bcf4deec8e2ce22b7619c906c8191228e5a0540"
+    "bytes": 8007,
+    "sha256": "2a1fea69e505c56222fe94531087d5deb07d82e06889dc8b1271e5dc4e9c1ac2"
   },
   {
     "file": "탐뷰티_카페24_적용파일_260914.zip",
-    "bytes": 45046550,
-    "sha256": "bf9ad57e7cc551183a0978b977f28e3f5093064f15b48dfae4bd7e8dabc0ca68"
+    "bytes": 45048770,
+    "sha256": "381a2d87d505ddc2bdfd75bfca6b3a4b01cc3e8ec63cedaf92486a7575230948"
   },
   {
     "file": "preview/about.html",
-    "bytes": 11807,
-    "sha256": "60f5e2b934ea92dfdc9caa4871cd00fb3c4dae2597fd67033af4d3945c0774bd"
+    "bytes": 14762,
+    "sha256": "48f91685b9a8fe67daecfa2b0a5346718b012fe4e240729b5077c9eae71386e2"
   },
   {
     "file": "preview/basket.html",
-    "bytes": 4805,
-    "sha256": "75db1ead96a360ca360002a7eb4bad4fc45d99e15f79f00b18f003d448004df9"
+    "bytes": 4861,
+    "sha256": "871a4722352d22f53dcd6c1019afb58b2cda0284eb6a44f7194be8d8588f90cd"
   },
   {
     "file": "preview/checkout.html",
-    "bytes": 5489,
-    "sha256": "2c40105f998e13f17afabeba66be7769f42cdde211ac4887b22ce481b5a55e2e"
+    "bytes": 5545,
+    "sha256": "d7a2b1902c8309016be74665314aaf237110b2dcd46c07855a4f87a860fb8c7a"
   },
   {
     "file": "preview/cloud.html",
-    "bytes": 7659,
-    "sha256": "422d20703434f164e82e1917e9303d97340e87537806787244a47594d273784a"
+    "bytes": 9435,
+    "sha256": "32c2fb09ae1387c1061b7ee5a73aa54364c75a5ce632a255ba6456414a89fe8f"
   },
   {
     "file": "preview/coupons.html",
-    "bytes": 4318,
-    "sha256": "93900ee7b3e6036b5d85d801228ebd3cbdaf8d787d84c7b8b6284a3a7116d4be"
+    "bytes": 4374,
+    "sha256": "cc0d24b8ba507abdb4326e324809270fa4fce13c6beec89b0bd1dc16430fdfed"
   },
   {
     "file": "preview/index.html",
-    "bytes": 15861,
-    "sha256": "899a77b89402f93628689c9412cd46975a841f92d881a166ec745270163aaff9"
+    "bytes": 19106,
+    "sha256": "36449c54c50c4351e981a410e1c7fca42c52076c6f17b90306b04122aa83fb5b"
   },
   {
     "file": "preview/jelly.html",
-    "bytes": 6801,
-    "sha256": "44a3debeebf979c2c86faaf7cfdd612a0976fdcf664b4f4faf84c4212a54f166"
+    "bytes": 8036,
+    "sha256": "412bd75c76a405d8170f7c018db7b253f11c1c64f461483afe443e97265d8487"
   },
   {
     "file": "preview/login.html",
-    "bytes": 4588,
-    "sha256": "baefeb30a52a7618d3411336135c3570897b5380ce6b8540bbda50c3d8414986"
+    "bytes": 4644,
+    "sha256": "4d318c57e633697e1403f9baab0c0496cbc6f28743818393e8d06c27270e035e"
   },
   {
     "file": "preview/lookbook.html",
-    "bytes": 6278,
-    "sha256": "7f4d0f93f135e8016303e944b427eda40aff1cd9a5f974150a1e58c0330cca96"
+    "bytes": 6334,
+    "sha256": "5b30092b74b9439061d9458d1ecc6a73fdaf1465be1abee1197d6b0e2832a82c"
   },
   {
     "file": "preview/product-101.html",
-    "bytes": 13599,
-    "sha256": "5077cd2d2576ee77ddb699c5dd93d715ad4b52d8527f12d26f5e094db0d10462"
+    "bytes": 14619,
+    "sha256": "d0975b416da4ab44d787bd01d9f8ec0f97ab5634b0dc69cae1eed9085a1c8101"
   },
   {
     "file": "preview/product-102.html",
-    "bytes": 10804,
-    "sha256": "27511d2a8d6d76ac7d6143806f2f58ac9934341ff5c654f46a19b26de29a063d"
+    "bytes": 11824,
+    "sha256": "3c6a3a02f400762fe405afd352bb55ff415704ee585de8cb7502333ffcd64d20"
   },
   {
     "file": "preview/product-109.html",
-    "bytes": 9282,
-    "sha256": "744075ee73b6b2734ebfac9c8253933c5a16d67f979e3527e90362847d0a3d02"
+    "bytes": 10413,
+    "sha256": "0a88aedeb4e7abb05814917a2c72b5f75327b933cdd0171e3af2e68841375b0d"
   },
   {
     "file": "preview/product-110.html",
-    "bytes": 11404,
-    "sha256": "34b1024d7e1826b2839ef305c2e72778b457270a785d22a44975ee6ee7c0e68b"
+    "bytes": 12535,
+    "sha256": "fe8073813a97ccd22c451acc6a080d473684eb32ed004b1a3a75850a4a178fe3"
   },
   {
     "file": "preview/product-111.html",
-    "bytes": 10003,
-    "sha256": "c37dbdbf0e94fdd2d2197636d4655cffe532446c0039c8430539ae198f71e2c6"
+    "bytes": 11134,
+    "sha256": "14e6ccf310cb192bca7d7a9aad5795494980b63022015a099443b3f7fd9a4a22"
   },
   {
     "file": "preview/product-112.html",
-    "bytes": 10681,
-    "sha256": "4beb0527f7b5aba935fa330fc2d60c05489a4d62827496886a5a92da235b91c1"
+    "bytes": 11812,
+    "sha256": "24b87fa190ced181e8cefd372d80931d2db56827cc56f22ca6a734d1d7df93eb"
   },
   {
     "file": "preview/product-114.html",
-    "bytes": 9371,
-    "sha256": "7f6cf9a8987d1d435df685d762fa40242e147edca20013a41fdda4e0c907e740"
+    "bytes": 10502,
+    "sha256": "7db26734791246af011db524218e0ca2ace9d6e6cf640dd439bde9a55389a180"
   },
   {
     "file": "preview/product-115.html",
-    "bytes": 11621,
-    "sha256": "2d00cc2ac8f694a2f1c24ab4964f6e75eb56f18b30bc482d7a2274947f31001b"
+    "bytes": 12752,
+    "sha256": "82b353d202b8ddd6e29df9a887f116a1e9b12fe54002cc6694aaec6f5e8495fa"
   },
   {
     "file": "preview/product-118.html",
-    "bytes": 11150,
-    "sha256": "ad65edb66655b5cca067ac2785432d8444c5ee6f828965e36412dfc763e37c3d"
+    "bytes": 12281,
+    "sha256": "e590682e8287b28be229f8f47402ca1306ae6214f6305dbfb13ac21e3f834696"
   },
   {
     "file": "preview/product-121.html",
-    "bytes": 9537,
-    "sha256": "74f854db2be70de2fae957373b1d37f3cffff58138c3dd351d2cbfb3e5bf6d4d"
+    "bytes": 10668,
+    "sha256": "70f0546ddb6e56bd80f891e353afcca2675c3d402b64d03723aafb0becb802b7"
   },
   {
     "file": "preview/product-18.html",
-    "bytes": 10361,
-    "sha256": "ce7ab22683789d46c2e24461bae17f7847b05e00573ec9a23da49e6d8259398c"
+    "bytes": 11381,
+    "sha256": "4408b6d9724969dbeaa6eec7a817357a87e9f900d5e1a0f1bc99e7383004deaa"
   },
   {
     "file": "preview/product-23.html",
-    "bytes": 9321,
-    "sha256": "b8cc474c6e90b93a3f93c5e114e17bcd7ba2e24001869f702eac3222463f9f13"
+    "bytes": 10341,
+    "sha256": "4c81e06cb0100cba6137a434ffb33f2b2f1e791f57a1490ba381f76d93adbe71"
   },
   {
     "file": "preview/product-24.html",
-    "bytes": 10000,
-    "sha256": "14900c4019ef8b981a77453ef3bed005e926fff4ae9a15a8392b793377fbc3dd"
+    "bytes": 11020,
+    "sha256": "f3b20893b434d8d90cd45784523e2c6dad86020c03c5ed7f4764b87c7cbe0268"
   },
   {
     "file": "preview/product-25.html",
-    "bytes": 9045,
-    "sha256": "4024349d0ea789ad79153a68ab72ae378f9a82b57a47806ec1a44e805b3256f5"
+    "bytes": 10065,
+    "sha256": "18b5bac0d9c53d498d05d2fdc86bc2785a91dd9d4761608e793c2f24db1cdf3c"
   },
   {
     "file": "preview/search.html",
-    "bytes": 9967,
-    "sha256": "bb01b6644f01fb2837140a2e16ee3a6ae0c98a08a87b5d7e49578399063b0376"
+    "bytes": 12922,
+    "sha256": "74e84baed7d92e0ceeb32065cf0a0922ee2fddd57c771a2c321b3c07f6e1f19a"
   },
   {
     "file": "preview/shop.html",
-    "bytes": 10232,
-    "sha256": "f61063187eb19466bddac1e184188a6193a8667ab3e1e77bd3955324834fcf18"
+    "bytes": 13187,
+    "sha256": "cde075a57ecefdcd9953cfcbe304475f4b711f52abc14e83d4bfbb1220a88c9e"
   },
   {
     "file": "verification/QA_model_lookbook_390.png",
@@ -440,6 +440,16 @@
     "sha256": "50d732058db5b9ad0fadf8cadb27c0250d5f4b2bd7a4904e79a9aee6616c73c3"
   },
   {
+    "file": "preview/assets/merchandising.css",
+    "bytes": 1372,
+    "sha256": "1c3e8ddab26a955878a877851d56be1efbae2fdebca149651cf7058dd07db699"
+  },
+  {
+    "file": "preview/assets/merchandising.js",
+    "bytes": 2148,
+    "sha256": "056c7800e5446be25522bbbd61c09c49e5f582fb7bc5c887f4cc2ca1b92f557d"
+  },
+  {
     "file": "preview/assets/packshot-101.png",
     "bytes": 184568,
     "sha256": "7c903d553d5c01f2878108b914fa64a249008b9c48ed66bd9a4d70f5cdca90b5"
@@ -591,8 +601,8 @@
   },
   {
     "file": "cafe24/tam/index.html",
-    "bytes": 4970,
-    "sha256": "bd5cf00138d8dae1ddd179ea53526404aa737549fdac144336f8b75bfa27ed6f"
+    "bytes": 5270,
+    "sha256": "08773cfc853a11eed889e872d3f0dbe4154e754a02a71a37bc79f8b660f8db0e"
   },
   {
     "file": "cafe24/tam/jelly.html",
@@ -601,8 +611,8 @@
   },
   {
     "file": "cafe24/tam/layout.html",
-    "bytes": 393,
-    "sha256": "608aff0ea65c6a68dd708a2ddc15965f423bee16874fde522cba8aac5923ee4f"
+    "bytes": 475,
+    "sha256": "b9a0d7c28cde689f70d62b441c77e705f970840d835170fb1f856f30432513cb"
   },
   {
     "file": "cafe24/tam/lookbook.html",
@@ -803,6 +813,16 @@
     "file": "cafe24/tam/assets/lookbook.css",
     "bytes": 1762,
     "sha256": "50d732058db5b9ad0fadf8cadb27c0250d5f4b2bd7a4904e79a9aee6616c73c3"
+  },
+  {
+    "file": "cafe24/tam/assets/merchandising.css",
+    "bytes": 1372,
+    "sha256": "1c3e8ddab26a955878a877851d56be1efbae2fdebca149651cf7058dd07db699"
+  },
+  {
+    "file": "cafe24/tam/assets/merchandising.js",
+    "bytes": 2148,
+    "sha256": "056c7800e5446be25522bbbd61c09c49e5f582fb7bc5c887f4cc2ca1b92f557d"
   },
   {
     "file": "cafe24/tam/assets/native-commerce.css",
