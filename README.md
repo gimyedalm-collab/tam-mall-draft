@@ -1,8 +1,14 @@
-# tam BEAUTY 공식몰 가안 백업
+# tam BEAUTY 공식몰 리뉴얼 가안
 
-최신 운영형 v2를 `storefront-v2/`에 저장했습니다. 이 브랜치는 백업용이며 GitHub Pages의 main 배포는 변경하지 않습니다.
+최신 운영형 v2를 `storefront-v2/`에 저장했습니다. main 브랜치의 GitHub Pages에 최신 가안을 반영했습니다. 이전 백업은 backup/storefront-v2-model-lookbook 브랜치에 보존합니다.
 
-## 확인
+## 웹에서 확인
+
+https://gimyedalm-collab.github.io/tam-mall-draft/
+
+대표 검토용 가안이며 실제 카페24 공식몰을 변경한 것은 아닙니다.
+
+## 파일 확인
 - [홈](storefront-v2/preview/index.html)
 - [상품 목록](storefront-v2/preview/shop.html)
 - [모델 룩북](storefront-v2/preview/lookbook.html)

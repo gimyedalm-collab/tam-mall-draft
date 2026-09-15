@@ -36,128 +36,128 @@
   },
   {
     "file": "preview/about.html",
-    "bytes": 11102,
-    "sha256": "b2db9894ea877f0d66a7122a79998d7920c3d673b621da40f39dfca728207609"
+    "bytes": 11807,
+    "sha256": "60f5e2b934ea92dfdc9caa4871cd00fb3c4dae2597fd67033af4d3945c0774bd"
   },
   {
     "file": "preview/basket.html",
-    "bytes": 4099,
-    "sha256": "60575f2948bd08405100b905163b58580ac4e7c74714b48cc94e7dee083fa0b4"
+    "bytes": 4805,
+    "sha256": "75db1ead96a360ca360002a7eb4bad4fc45d99e15f79f00b18f003d448004df9"
   },
   {
     "file": "preview/checkout.html",
-    "bytes": 4781,
-    "sha256": "91005f18c584cbb9ab4c463bf6280a2fcf55ad80e545ba9dce6fb6b12526fb37"
+    "bytes": 5489,
+    "sha256": "2c40105f998e13f17afabeba66be7769f42cdde211ac4887b22ce481b5a55e2e"
   },
   {
     "file": "preview/cloud.html",
-    "bytes": 6954,
-    "sha256": "425c54e8f01ef7ad515ef7a4ffbc6c93b3f8ffbf74a87106e76f5e0f8c3e42f0"
+    "bytes": 7659,
+    "sha256": "422d20703434f164e82e1917e9303d97340e87537806787244a47594d273784a"
   },
   {
     "file": "preview/coupons.html",
-    "bytes": 3611,
-    "sha256": "939c3617d20f25a5cd51d88a4e490cf312ec5e0d9840fc8672de3425556e3b4e"
+    "bytes": 4318,
+    "sha256": "93900ee7b3e6036b5d85d801228ebd3cbdaf8d787d84c7b8b6284a3a7116d4be"
   },
   {
     "file": "preview/index.html",
-    "bytes": 15156,
-    "sha256": "c974781b59e50cd85a3d3988104226ded9f49596f982bb659d519d40716650cd"
+    "bytes": 15861,
+    "sha256": "899a77b89402f93628689c9412cd46975a841f92d881a166ec745270163aaff9"
   },
   {
     "file": "preview/jelly.html",
-    "bytes": 6096,
-    "sha256": "28ef8c96d5c049c4432ed33b1fc2c4269c7a4b17e79765ead6587d576f309aa4"
+    "bytes": 6801,
+    "sha256": "44a3debeebf979c2c86faaf7cfdd612a0976fdcf664b4f4faf84c4212a54f166"
   },
   {
     "file": "preview/login.html",
-    "bytes": 3883,
-    "sha256": "07b05dd048ef427fa577223c1d0a535859f942f549af314f9eeb19ab21ffbedf"
+    "bytes": 4588,
+    "sha256": "baefeb30a52a7618d3411336135c3570897b5380ce6b8540bbda50c3d8414986"
   },
   {
     "file": "preview/lookbook.html",
-    "bytes": 5570,
-    "sha256": "ee3f4566790dd018e84a937a10398b52a061111f903a693ea9ea5c5519c7fc9f"
+    "bytes": 6278,
+    "sha256": "7f4d0f93f135e8016303e944b427eda40aff1cd9a5f974150a1e58c0330cca96"
   },
   {
     "file": "preview/product-101.html",
-    "bytes": 12888,
-    "sha256": "3673ab6080d390c835e010564f1fe8eaeef49cbb2e9c863911eaa667d7d33836"
+    "bytes": 13599,
+    "sha256": "5077cd2d2576ee77ddb699c5dd93d715ad4b52d8527f12d26f5e094db0d10462"
   },
   {
     "file": "preview/product-102.html",
-    "bytes": 10093,
-    "sha256": "93b89e4fcfdadc89bf271c5554d6e9ff6490daade181c0d05397755c119f6ed5"
+    "bytes": 10804,
+    "sha256": "27511d2a8d6d76ac7d6143806f2f58ac9934341ff5c654f46a19b26de29a063d"
   },
   {
     "file": "preview/product-109.html",
-    "bytes": 8571,
-    "sha256": "1fdfe6e8d993f20a8fc92d8229af6edacff374edc4da0b1da1c2a997218d7f8b"
+    "bytes": 9282,
+    "sha256": "744075ee73b6b2734ebfac9c8253933c5a16d67f979e3527e90362847d0a3d02"
   },
   {
     "file": "preview/product-110.html",
-    "bytes": 10693,
-    "sha256": "d9ea5e17e7080977960d310afcba159ccdd566515a0243994427972853e15aa8"
+    "bytes": 11404,
+    "sha256": "34b1024d7e1826b2839ef305c2e72778b457270a785d22a44975ee6ee7c0e68b"
   },
   {
     "file": "preview/product-111.html",
-    "bytes": 9292,
-    "sha256": "b51dc61dee1dedb10559d3ee48fed2d88a1a2e1792e733b47a629dc1b0ecf407"
+    "bytes": 10003,
+    "sha256": "c37dbdbf0e94fdd2d2197636d4655cffe532446c0039c8430539ae198f71e2c6"
   },
   {
     "file": "preview/product-112.html",
-    "bytes": 9970,
-    "sha256": "c7443221f31667546e544f695ed8808d6e1d2a2928056e3057bcf1af012fef71"
+    "bytes": 10681,
+    "sha256": "4beb0527f7b5aba935fa330fc2d60c05489a4d62827496886a5a92da235b91c1"
   },
   {
     "file": "preview/product-114.html",
-    "bytes": 8660,
-    "sha256": "7ae5b7b33a18cf5bd38c146e52cad54cafb4c6092bece1d393c0517e6af45150"
+    "bytes": 9371,
+    "sha256": "7f6cf9a8987d1d435df685d762fa40242e147edca20013a41fdda4e0c907e740"
   },
   {
     "file": "preview/product-115.html",
-    "bytes": 10910,
-    "sha256": "c2e87f0f16ed4455064c6cac999b201c5a3871b28d6b49c4bb27f3eff9904c2e"
+    "bytes": 11621,
+    "sha256": "2d00cc2ac8f694a2f1c24ab4964f6e75eb56f18b30bc482d7a2274947f31001b"
   },
   {
     "file": "preview/product-118.html",
-    "bytes": 10439,
-    "sha256": "320a88d5f796fa5a7a16aa9bef23690fe2250ada20f90c528f0ee92a106940d9"
+    "bytes": 11150,
+    "sha256": "ad65edb66655b5cca067ac2785432d8444c5ee6f828965e36412dfc763e37c3d"
   },
   {
     "file": "preview/product-121.html",
-    "bytes": 8826,
-    "sha256": "79d217e4093478d931de37c29f3c79df21b90d4c883834124d87880ff7ac768c"
+    "bytes": 9537,
+    "sha256": "74f854db2be70de2fae957373b1d37f3cffff58138c3dd351d2cbfb3e5bf6d4d"
   },
   {
     "file": "preview/product-18.html",
-    "bytes": 9651,
-    "sha256": "fd10c65e10d32404c20e70ccb9286382196da017a1f178a8586149237652f3ed"
+    "bytes": 10361,
+    "sha256": "ce7ab22683789d46c2e24461bae17f7847b05e00573ec9a23da49e6d8259398c"
   },
   {
     "file": "preview/product-23.html",
-    "bytes": 8611,
-    "sha256": "c39c1dc173c80bfa86a30efc73dae076fe78ca1c1bc1b9330e51ad9a3c56e904"
+    "bytes": 9321,
+    "sha256": "b8cc474c6e90b93a3f93c5e114e17bcd7ba2e24001869f702eac3222463f9f13"
   },
   {
     "file": "preview/product-24.html",
-    "bytes": 9290,
-    "sha256": "a1848dae0e4c056300ffadb66c7a948cf0a87196ea76e87208f0d240126e3bc4"
+    "bytes": 10000,
+    "sha256": "14900c4019ef8b981a77453ef3bed005e926fff4ae9a15a8392b793377fbc3dd"
   },
   {
     "file": "preview/product-25.html",
-    "bytes": 8335,
-    "sha256": "3330b4cb058cc9124b036a983e73b56bbe46e2e4cd98e64d688e08752aed3224"
+    "bytes": 9045,
+    "sha256": "4024349d0ea789ad79153a68ab72ae378f9a82b57a47806ec1a44e805b3256f5"
   },
   {
     "file": "preview/search.html",
-    "bytes": 9261,
-    "sha256": "07231a9febc9cabc14329c82a2c5351558a3d8e8d7af5f25e58ce6ab1332fd39"
+    "bytes": 9967,
+    "sha256": "bb01b6644f01fb2837140a2e16ee3a6ae0c98a08a87b5d7e49578399063b0376"
   },
   {
     "file": "preview/shop.html",
-    "bytes": 9528,
-    "sha256": "51378fc1261e1ec265d7a6a7852e3e5592d088eee38c1b4ddc5e6453d081c885"
+    "bytes": 10232,
+    "sha256": "f61063187eb19466bddac1e184188a6193a8667ab3e1e77bd3955324834fcf18"
   },
   {
     "file": "verification/QA_model_lookbook_390.png",
