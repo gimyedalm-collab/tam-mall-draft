@@ -1,0 +1,82 @@
+{
+  "23": {
+    "asset": "retouched-23-v1.png",
+    "size": [
+      1176,
+      1337
+    ],
+    "visible_bbox": [
+      112,
+      178,
+      1063,
+      1128
+    ],
+    "optical_center": [
+      0.49947181349092384,
+      0.5054990140067647
+    ],
+    "alpha": "actual PNG alpha, exterior connected-white matte; internal white print retained",
+    "editing": "ImageGen reference-based product photo retouch; no browser color filters",
+    "status": "design concept retouch, original packshots retained separately"
+  },
+  "24": {
+    "asset": "retouched-24-v1.png",
+    "size": [
+      898,
+      1751
+    ],
+    "visible_bbox": [
+      276,
+      226,
+      643,
+      1504
+    ],
+    "optical_center": [
+      0.4989558494829117,
+      0.4983524629942063
+    ],
+    "alpha": "actual PNG alpha, exterior connected-white matte; internal white print retained",
+    "editing": "ImageGen reference-based product photo retouch; no browser color filters",
+    "status": "design concept retouch, original packshots retained separately"
+  },
+  "111": {
+    "asset": "retouched-111-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "visible_bbox": [
+      319,
+      123,
+      984,
+      830
+    ],
+    "optical_center": [
+      0.590285875066996,
+      0.5493016308459668
+    ],
+    "alpha": "actual PNG alpha, exterior connected-white matte; internal white print retained",
+    "editing": "ImageGen reference-based product photo retouch; no browser color filters",
+    "status": "design concept retouch, original packshots retained separately"
+  },
+  "112": {
+    "asset": "retouched-112-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "visible_bbox": [
+      678,
+      105,
+      856,
+      904
+    ],
+    "optical_center": [
+      0.5020918019847228,
+      0.5002651483511256
+    ],
+    "alpha": "actual PNG alpha, exterior connected-white matte; internal white print retained",
+    "editing": "ImageGen reference-based product photo retouch; no browser color filters",
+    "status": "design concept retouch, original packshots retained separately"
+  }
+}
