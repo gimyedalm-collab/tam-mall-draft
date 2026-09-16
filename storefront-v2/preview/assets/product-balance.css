@@ -1,0 +1,36 @@
+/* Optical centering uses the alpha-weighted center of the original packshots.
+   Keep the original pixels and hue; a restrained display grade unifies the light. */
+:root{--rose:#e6d4da;--ice:#d4e1e7}
+.product-object{
+  --object-x:0%;--object-y:0%;--object-saturation:.82;
+  transform:translate(var(--object-x),var(--object-y));
+  filter:saturate(var(--object-saturation)) contrast(.97) brightness(1.01);
+}
+.object-23{--object-x:.04%;--object-y:-.55%}
+.object-24{--object-x:.09%;--object-y:.27%}
+.object-111{--object-x:-9.48%;--object-y:-5.28%;--object-saturation:.72}
+.object-112{--object-x:-.19%;--object-y:-.25%;--object-saturation:.78}
+.line-object-link{height:360px;min-height:0;width:100%;place-items:center}
+.line-object-link .product-object{height:clamp(280px,21vw,320px);max-height:none;transition:none}
+.line-object-link .object-111{height:clamp(306px,23vw,350px)}
+.line-object-link:hover .product-object,.do-product:hover .product-object{translate:none}
+.product-stage{background:#efe6e9}
+.do-product:nth-child(n+3) .product-stage{background:#e5ecef}
+.product-stage .product-object{height:58%;max-width:none;transition:none}
+.product-stage .object-111{height:64%}
+@media(max-width:900px) and (min-width:761px){
+ .line-object-link{height:310px}
+ .line-object-link .product-object{height:240px}
+ .line-object-link .object-111{height:264px}
+}
+@media(max-width:760px){
+ .do-line{min-height:570px}
+ .line-object-link{height:306px}
+ .line-object-link .product-object{height:250px}
+ .line-object-link .object-111{height:274px}
+}
+@media(max-width:359px){
+ .line-object-link{height:280px}
+ .line-object-link .product-object{height:224px}
+ .line-object-link .object-111{height:246px}
+}
