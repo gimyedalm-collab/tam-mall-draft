@@ -1,0 +1,50 @@
+{
+  "23": {
+    "asset": "original-23.png",
+    "source_dimensions": [
+      1601,
+      1821
+    ],
+    "visible_dimensions": [
+      1244,
+      1234
+    ],
+    "method": "Original RGBA file copied without resampling, recoloring or generation. CSS crops transparent outer margins."
+  },
+  "24": {
+    "asset": "original-24.png",
+    "source_dimensions": [
+      1416,
+      2759
+    ],
+    "visible_dimensions": [
+      561,
+      1992
+    ],
+    "method": "Original RGBA file copied without resampling, recoloring or generation. CSS crops transparent outer margins."
+  },
+  "111": {
+    "asset": "original-111.png",
+    "source_dimensions": [
+      6000,
+      4000
+    ],
+    "visible_dimensions": [
+      2363,
+      2530
+    ],
+    "method": "Original RGBA file copied without resampling, recoloring or generation. CSS crops transparent outer margins."
+  },
+  "112": {
+    "asset": "original-112.png",
+    "source_dimensions": [
+      6000,
+      4000
+    ],
+    "visible_dimensions": [
+      503,
+      2279
+    ],
+    "method": "Original RGBA file copied without resampling, recoloring or generation. CSS crops transparent outer margins."
+  }
+}
