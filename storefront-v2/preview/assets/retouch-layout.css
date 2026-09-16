@@ -37,6 +37,7 @@
 .product-stage .product-object{height:58%;max-width:none;transition:none}
 .product-stage .object-111{height:64%}
 .do-product figcaption{border-top:1px solid #e6e1e3}
+.do-product .product-detail{display:block;margin-top:7px;font-size:12px;line-height:1.7;color:#756c70;word-break:keep-all;overflow-wrap:break-word}
 .do-look{background:#f7f5f6}
 .do-look h2{font-size:clamp(36px,4.1vw,60px)}
 @media(max-width:1100px) and (min-width:761px){
