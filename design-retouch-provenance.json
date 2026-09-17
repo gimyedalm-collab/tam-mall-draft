@@ -1,23 +1,22 @@
 {
   "23": {
-    "asset": "retouched-23-v1.png",
+    "asset": "cushion-pink-original-2.png",
     "size": [
-      1176,
-      1337
+      1601,
+      1821
     ],
     "visible_bbox": [
-      112,
-      178,
-      1063,
-      1128
+      191,
+      303,
+      1435,
+      1537
     ],
-    "optical_center": [
-      0.49947181349092384,
-      0.5054990140067647
-    ],
-    "alpha": "actual PNG alpha, exterior connected-white matte; internal white print retained",
-    "editing": "ImageGen reference-based product photo retouch; no browser color filters",
-    "status": "design concept retouch, original packshots retained separately"
+    "source": "C:\\Users\\BNK-1\\Desktop\\_탐뷰티\\PROSTER_젤리라인_SNS소스_260916\\05_Product_Cuts\\04_Skin_Cushion\\cutout_png\\탐_용기_쿠션 (2).png",
+    "sha256": "82d9e59e9881185e42c861d671eb6f794f1d34a16934d82488bbd171c007cbff",
+    "alpha": "Original supplied PNG alpha, unchanged",
+    "editing": "Byte-identical source copy. No AI retouch, hue adjustment, or browser color filter.",
+    "status": "Alternate original (2) selected for review after user identified similar 1/2 source cuts",
+    "previous_asset": "retouched-23-v1.png"
   },
   "24": {
     "asset": "retouched-24-v1.png",

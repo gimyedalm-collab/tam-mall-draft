@@ -57,13 +57,13 @@
   panel.setAttribute('aria-labelledby', 'tam-channel-title');
   const close = create('button', 'tam-channel-close', '닫기'); close.type = 'button';
   const label = create('p', 'tam-channel-label', 'TAM BEAUTY');
-  const title = create('h2', '', amount ? `${amount} 쿠폰 받으세요` : '카카오톡 채널 쿠폰'); title.id = 'tam-channel-title';
+  const title = create('h2', '', amount ? `채널 추가 시 ${amount} 쿠폰` : '카카오톡 채널 쿠폰'); title.id = 'tam-channel-title';
   const copy = create('p', 'tam-channel-copy', amount ?
     `탐뷰티 카카오톡 채널 추가 시 ${amount} 쿠폰.\n사용 조건은 채널 쿠폰 안내에서 확인해 주세요.` :
     '탐뷰티 카카오톡 채널에서 쿠폰과 사용 조건을 확인해 주세요.');
-  const link = create('a', 'tam-channel-link', '카카오톡 채널 추가');
+  const link = create('a', 'tam-channel-link', '채널 추가하고 쿠폰 받기');
   link.href = config.channelUrl; link.target = '_blank'; link.rel = 'noopener noreferrer';
-  link.setAttribute('aria-label', '카카오톡 채널 추가 (새 창)');
+  link.setAttribute('aria-label', '카카오톡 채널 추가하고 쿠폰 받기 (새 창)');
   const snooze = create('button', 'tam-channel-snooze', '24시간 보지 않기'); snooze.type = 'button';
   panel.append(close, label, title, copy, link, snooze); document.body.append(panel);
   const key = 'tam-channel-prompt-v1'; let shown = false, opener = null;

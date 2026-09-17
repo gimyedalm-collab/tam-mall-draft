@@ -59,6 +59,7 @@ async def run(base):
             await page.locator('[data-preview-product] select').select_option(index=1)
             assert '쿠폰을 사용해도 유지' in await page.locator('.tam-shipping-text').inner_text()
             await page.goto(base+'design-only.html', wait_until='domcontentloaded')
+            await page.locator('.do-products').screenshot(path=str(OUT/f'home-products-{width}.png'))
             assert not await panel.is_visible()
             await page.locator('.tam-channel-trigger').click()
             assert await panel.is_visible()  # explicit reopening remains possible after snooze
