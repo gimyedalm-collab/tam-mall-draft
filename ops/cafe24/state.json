@@ -1,0 +1,29 @@
+{
+  "updated_at": "2026-09-17",
+  "store_url": "https://tambeauty.kr/",
+  "design_baseline": "tam-design-fixed-20260917",
+  "phase": "public_audit_and_agent_setup_complete; administrator_connection_next",
+  "policy": "Preserve current admin settings and existing functions; no new discount or shipping rules.",
+  "admin_access": "not_authenticated_or_verified",
+  "original_skin": "not_obtained",
+  "candidate_skin": "legacy_package_exists_but_frozen_design_not_yet_migrated",
+  "production_changed": false,
+  "agent": "tam_cafe24",
+  "agent_runtime": "configuration_created; named-agent discovery requires a new project session",
+  "browser": "dedicated_profile_verified_by_headless_MCP_tabs_and_public_navigation; no administrator session",
+  "next_actions": [
+    "Connect the dedicated browser and let the owner complete administrator login/2FA.",
+    "Read mall/skin IDs, operator rights, app integrations and actual policies; back up and clone active skins.",
+    "Map every public inventory item to original templates/modules/admin settings.",
+    "Migrate the approved design into the candidate skin and connect native commerce.",
+    "Resolve tracked issues and verify desktop/mobile and authenticated commerce before production switch."
+  ],
+  "verification": {
+    "public_audit": "22_feature_groups_completed; options_quantity_shipping_tabs_guest_lookup_public_interactions_checked",
+    "public_regression": "10_of_10_page_viewport_checks_passed; public-smoke-20260917.json; not_transaction_verification",
+    "admin_policies": "not_checked",
+    "coupon_application": "not_checked",
+    "checkout_payment": "not_checked",
+    "production_switch": "not_performed"
+  }
+}

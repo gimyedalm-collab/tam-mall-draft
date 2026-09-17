@@ -4,3 +4,5 @@ __pycache__/
 Thumbs.db
 .env
 .env.*
+ops/cafe24/private/
+ops/cafe24/runs/

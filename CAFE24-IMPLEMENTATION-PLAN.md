@@ -9,7 +9,10 @@
 - 카페24용 파일은 최종 디자인으로 이식해야 한다.
 - `storefront-v2/cafe24/tam/sections/reviews.html`은 정적 후기 발췌이며 실시간 리뷰 위젯이 아니다.
 - 기존 `integrate_skin.py`는 원본 스킨을 확보한 후 별도 후보를 만드는 도구다. 실제 스킨에 적용·검증한 상태가 아니다.
-- 브라우저 도구의 탭 조회는 프로필 점유 오류로 실패했다. 관리자 로그인 세션·권한을 확인하지 못했으며 적용 완료를 주장할 수 없다.
+- 기존 공용 브라우저 프로필은 점유 오류가 있었다. 이후 전용 프로필을 구성해 MCP 탭 조회·공식몰 접속을 확인했다. 관리자 로그인 세션·권한은 아직 확인하지 못했다.
+
+후속 공개몰 검수: [22개 기능 목록](ops/cafe24/feature-inventory.json), [실제 브라우저 검수 보고서](ops/cafe24/live-audit-20260917.md).
+전용 작업자와 재개 방법은 [Cafe24 작업 기록](ops/cafe24/README.md)을 따른다.
 
 ## 공개 공식몰에서 확인한 사항
 https://tambeauty.kr/product/detail.html?product_no=23 의 공개 HTML을 직접 조회했다.

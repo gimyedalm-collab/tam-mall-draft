@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-09-17",
+  "items": [
+    {
+      "id": "TAM-C24-005", "type": "policy_discrepancy", "priority": "P1", "status": "needs_admin_verification",
+      "route": "https://tambeauty.kr/article/notice/1/299/",
+      "reproduce": "Compare the membership notice image, header JOIN benefit, and product channel coupon CTA.",
+      "expected": "Benefit descriptions agree with actual current administrator rules.",
+      "actual": "Membership image advertises 2,000-point signup and 2,000 channel coupon; header/product CTA display 3,000. Confirm the underlying rules before choosing values.",
+      "evidence": "live-audit-20260917.md", "fix": null, "retest": null
+    },
+    {
+      "id": "TAM-C24-001", "type": "implementation", "priority": "P1", "status": "open",
+      "route": "candidate skin homepage",
+      "reproduce": "Compare storefront-v2/cafe24/tam with the frozen design-only preview.",
+      "expected": "The candidate Cafe24 skin implements the frozen design and native shopping functions.",
+      "actual": "Existing Cafe24 package predates the final design; original active skin unavailable.",
+      "evidence": "CAFE24-IMPLEMENTATION-PLAN.md", "fix": null, "retest": null
+    },
+    {
+      "id": "TAM-C24-002", "type": "implementation", "priority": "P1", "status": "open",
+      "route": "storefront-v2/cafe24/tam/sections/reviews.html",
+      "reproduce": "Inspect the review section in the existing candidate package.",
+      "expected": "Product-specific live reviews preserve the store's actual Snap integration.",
+      "actual": "The package uses static review excerpts; public store uses Snap widgets.",
+      "evidence": "CAFE24-IMPLEMENTATION-PLAN.md", "fix": null, "retest": null
+    },
+    {
+      "id": "TAM-C24-003", "type": "policy_discrepancy", "priority": "P2", "status": "needs_admin_verification",
+      "route": "https://tambeauty.kr/shopinfo/guide.html",
+      "reproduce": "Compare the delivery period text in the public shopping guide.",
+      "expected": "One consistent delivery period matching actual operating policy.",
+      "actual": "The audit found both 2–14 day and 1–7 day delivery descriptions.",
+      "evidence": "Public audit 2026-09-17; reconcile against administrator settings before editing.",
+      "fix": null, "retest": null
+    },
+    {
+      "id": "TAM-C24-004", "type": "migration_risk", "priority": "P1", "status": "needs_admin_verification",
+      "route": "SHOP and product search",
+      "reproduce": "Compare SHOP's visible products with search results for cushion.",
+      "expected": "Migration preserves catalog visibility and special-link sales rules.",
+      "actual": "Search exposes a special repurchase item outside the 14 products shown in SHOP. This is not yet classified as a bug.",
+      "evidence": "Public audit 2026-09-17", "fix": null, "retest": null
+    }
+  ]
+}

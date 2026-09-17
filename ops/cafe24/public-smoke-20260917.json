@@ -1,0 +1,364 @@
+{
+  "checked_at": "2026-09-17T05:52:53.050805+00:00",
+  "base_url": "https://tambeauty.kr/",
+  "scope": "Unauthenticated structure and option selection only; no orders, cart additions, login, or coupon issuance.",
+  "results": [
+    {
+      "route": "",
+      "kind": "home",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        }
+      ],
+      "page_error_count": 0,
+      "broken_visible_images": 0,
+      "status": "pass",
+      "viewport_width": 1440
+    },
+    {
+      "route": "product/detail.html?product_no=23",
+      "kind": "product",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        },
+        {
+          "name": "native option selector exists",
+          "passed": true
+        },
+        {
+          "name": "native total area exists",
+          "passed": true
+        },
+        {
+          "name": "at least one selectable option",
+          "passed": true
+        },
+        {
+          "name": "option selection updates total",
+          "passed": true
+        }
+      ],
+      "page_error_count": 0,
+      "broken_visible_images": 0,
+      "integrations": {
+        "snap": true,
+        "naver": true,
+        "kakao": true
+      },
+      "selectable_options": 6,
+      "status": "pass",
+      "viewport_width": 1440
+    },
+    {
+      "route": "product/detail.html?product_no=112",
+      "kind": "product",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        },
+        {
+          "name": "native option selector exists",
+          "passed": true
+        },
+        {
+          "name": "native total area exists",
+          "passed": true
+        },
+        {
+          "name": "at least one selectable option",
+          "passed": true
+        },
+        {
+          "name": "option selection updates total",
+          "passed": true
+        }
+      ],
+      "page_error_count": 0,
+      "broken_visible_images": 0,
+      "integrations": {
+        "snap": true,
+        "naver": true,
+        "kakao": true
+      },
+      "selectable_options": 8,
+      "status": "pass",
+      "viewport_width": 1440
+    },
+    {
+      "route": "member/login.html",
+      "kind": "login",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        },
+        {
+          "name": "password field exists",
+          "passed": true
+        }
+      ],
+      "page_error_count": 0,
+      "broken_visible_images": 0,
+      "status": "pass",
+      "viewport_width": 1440
+    },
+    {
+      "route": "order/basket.html",
+      "kind": "basket",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        }
+      ],
+      "page_error_count": 1,
+      "broken_visible_images": 0,
+      "status": "pass",
+      "viewport_width": 1440
+    },
+    {
+      "route": "",
+      "kind": "home",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        }
+      ],
+      "page_error_count": 0,
+      "broken_visible_images": 0,
+      "status": "pass",
+      "viewport_width": 390
+    },
+    {
+      "route": "product/detail.html?product_no=23",
+      "kind": "product",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        },
+        {
+          "name": "native option selector exists",
+          "passed": true
+        },
+        {
+          "name": "native total area exists",
+          "passed": true
+        },
+        {
+          "name": "at least one selectable option",
+          "passed": true
+        },
+        {
+          "name": "option selection updates total",
+          "passed": true
+        }
+      ],
+      "page_error_count": 0,
+      "broken_visible_images": 0,
+      "integrations": {
+        "snap": true,
+        "naver": true,
+        "kakao": true
+      },
+      "selectable_options": 6,
+      "status": "pass",
+      "viewport_width": 390
+    },
+    {
+      "route": "product/detail.html?product_no=112",
+      "kind": "product",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        },
+        {
+          "name": "native option selector exists",
+          "passed": true
+        },
+        {
+          "name": "native total area exists",
+          "passed": true
+        },
+        {
+          "name": "at least one selectable option",
+          "passed": true
+        },
+        {
+          "name": "option selection updates total",
+          "passed": true
+        }
+      ],
+      "page_error_count": 0,
+      "broken_visible_images": 0,
+      "integrations": {
+        "snap": true,
+        "naver": true,
+        "kakao": true
+      },
+      "selectable_options": 8,
+      "status": "pass",
+      "viewport_width": 390
+    },
+    {
+      "route": "member/login.html",
+      "kind": "login",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        },
+        {
+          "name": "password field exists",
+          "passed": true
+        }
+      ],
+      "page_error_count": 0,
+      "broken_visible_images": 0,
+      "status": "pass",
+      "viewport_width": 390
+    },
+    {
+      "route": "order/basket.html",
+      "kind": "basket",
+      "checks": [
+        {
+          "name": "HTTP success",
+          "passed": true
+        },
+        {
+          "name": "nonempty body",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "visible images loaded",
+          "passed": true
+        }
+      ],
+      "page_error_count": 1,
+      "broken_visible_images": 0,
+      "status": "pass",
+      "viewport_width": 390
+    }
+  ],
+  "passed": true
+}

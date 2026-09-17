@@ -1,0 +1,4 @@
+interface:
+  display_name: "TAM Cafe24 Engineer"
+  short_description: "Build and verify the TAM Cafe24 storefront"
+  default_prompt: "Use $tam-cafe24 to resume the TAM Cafe24 implementation and fix the next verified bug."
