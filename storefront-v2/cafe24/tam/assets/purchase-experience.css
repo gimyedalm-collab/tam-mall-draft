@@ -1,0 +1,31 @@
+/* Scoped purchase UI; no changes to third-party payment SDK branding. */
+.tam-purchase .detail-copy{align-self:start;padding-top:24px}
+.tam-purchase .detail-copy>.line-tag{display:none}
+.tam-purchase .detail-copy h1{margin:0 0 20px}
+.tam-purchase .detail-copy .sale-rate{color:#181818;font-weight:500}
+.tam-purchase .detail-copy .regular-value{color:#727272}
+.tam-purchase .preview-options{margin-top:20px}
+.tam-purchase .preview-options .action-row{gap:8px}
+.tam-purchase .action-row>a,.tam-purchase .action-row>button{display:flex;align-items:center;justify-content:center;text-align:center}
+.tam-purchase .preview-options [data-add]{background:#fff;border:1px solid #bbb;color:#181818}
+.tam-purchase .preview-options .outline-button{background:#181818;color:#fff;border-color:#181818}
+.tam-purchase .detail-copy>details{margin-top:20px;font-size:13px}
+.tam-purchase .detail-copy>details summary{min-height:44px;padding-block:12px}
+.tam-purchase-info{border-top:1px solid #dedede;margin-top:20px;padding-top:16px;color:#181818;font-size:13px;line-height:1.7}
+.tam-purchase-info p{margin:0 0 4px}
+.tam-purchase-info small{display:block;font-size:11px;color:#666;line-height:1.7}
+.tam-shipping-progress{display:block;width:100%;height:2px;margin:12px 0 8px;accent-color:#181818;border:0;background:#e5e5e5}
+.tam-shipping-progress::-webkit-progress-bar{background:#e5e5e5}
+.tam-shipping-progress::-webkit-progress-value{background:#181818}
+.tam-shipping-progress::-moz-progress-bar{background:#181818}
+.tam-channel-trigger{display:inline-flex;align-items:center;gap:16px;min-height:44px;padding:0;border:0;background:none;color:#181818;font:inherit;font-size:12px;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.tam-channel-panel{position:fixed;inset:auto 24px 24px auto;width:350px;max-width:calc(100vw - 32px);padding:28px;background:#fff;color:#181818;border:1px solid #d6d6d6;box-shadow:0 8px 32px #00000012;z-index:2000;box-sizing:border-box;font-family:Pretendard,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;text-align:left}
+.tam-channel-panel[hidden]{display:none!important}
+.tam-channel-panel .tam-channel-close{position:absolute;right:8px;top:6px;min-height:44px;min-width:44px;border:0;background:none;color:#555;font:inherit;font-size:12px;cursor:pointer}
+.tam-channel-panel .tam-channel-label{margin:0 0 22px;font-size:10px;letter-spacing:.1em;color:#666}
+.tam-channel-panel h2{margin:0 0 12px;font-size:23px;font-weight:500;line-height:1.4;letter-spacing:-.03em}
+.tam-channel-panel .tam-channel-copy{font-size:13px;line-height:1.8;margin:0 0 24px;color:#555}
+.tam-channel-panel .tam-channel-link{display:flex;align-items:center;justify-content:center;min-height:48px;background:#fee500;color:#191919;border:0;text-decoration:none;font-size:14px;font-weight:500}
+.tam-channel-panel .tam-channel-snooze{display:block;width:100%;min-height:44px;margin-top:8px;background:none;border:0;color:#666;font:inherit;font-size:11px;cursor:pointer}
+.tam-channel-panel :focus-visible,.tam-channel-trigger:focus-visible{outline:2px solid #181818;outline-offset:4px}
+@media(max-width:760px){.tam-purchase .detail-product{gap:16px}.tam-purchase .detail-copy{padding-top:0}.tam-purchase .detail-product>img{max-height:400px}.tam-channel-panel{right:16px;bottom:calc(16px + env(safe-area-inset-bottom));padding:24px}.tam-channel-panel h2{font-size:21px}}

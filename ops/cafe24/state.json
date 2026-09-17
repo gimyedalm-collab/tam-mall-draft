@@ -2,8 +2,15 @@
   "updated_at": "2026-09-17",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
-  "phase": "public_audit_and_agent_setup_complete; administrator_connection_next",
-  "policy": "Preserve current admin settings and existing functions; no new discount or shipping rules.",
+  "phase": "purchase_ui_popup_shipping_preview_complete; administrator_connection_next",
+  "policy": "Preserve existing benefits; user requires free shipping eligibility based on selling-price subtotal BEFORE coupons, never revoked by coupon use.",
+  "requested_changes": {
+    "free_shipping": "30000 KRW threshold before coupons; preview tested, Cafe24 setting not yet applied",
+    "purchase_ui": "neutral colors, primary purchase / secondary cart, compact benefits link",
+    "kakao_popup": "12s plus browsing engagement, once per tab session, dismiss and 24h snooze; existing channel link",
+    "dispatch": "14:00 KST payment cutoff prepared; actual operating SLA confirmation pending; preview label only",
+    "implementation_note": "ops/cafe24/PURCHASE-UX-20260917.md"
+  },
   "admin_access": "not_authenticated_or_verified",
   "original_skin": "not_obtained",
   "candidate_skin": "legacy_package_exists_but_frozen_design_not_yet_migrated",
@@ -13,7 +20,8 @@
   "browser": "dedicated_profile_verified_by_headless_MCP_tabs_and_public_navigation; no administrator session",
   "next_actions": [
     "Connect the dedicated browser and let the owner complete administrator login/2FA.",
-    "Read mall/skin IDs, operator rights, app integrations and actual policies; back up and clone active skins.",
+    "Read mall/skin IDs, operator rights, app integrations and actual policies; back up and clone active skins. Configure coupon-before free-shipping eligibility as requested.",
+    "Confirm warehouse 14:00 payment cutoff, eligible stock and closure calendar before enabling dynamic dispatch promises; reconcile existing popup apps.",
     "Map every public inventory item to original templates/modules/admin settings.",
     "Migrate the approved design into the candidate skin and connect native commerce.",
     "Resolve tracked issues and verify desktop/mobile and authenticated commerce before production switch."
@@ -24,6 +32,7 @@
     "admin_policies": "not_checked",
     "coupon_application": "not_checked",
     "checkout_payment": "not_checked",
-    "production_switch": "not_performed"
+    "production_switch": "not_performed",
+    "purchase_preview": "4 policy test groups and browser QA at 1440/390/320 passed; no live purchase or coupon issuance"
   }
 }
