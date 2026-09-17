@@ -1,4 +1,26 @@
 (() => {
+  const header = document.querySelector('.do-header');
+  const menuButton = document.querySelector('.mobile-nav-toggle');
+  if (header && menuButton) {
+    const setMenu = (open) => {
+      header.toggleAttribute('data-nav-open', open);
+      menuButton.setAttribute('aria-expanded', String(open));
+    };
+    menuButton.addEventListener('click', () => setMenu(!header.hasAttribute('data-nav-open')));
+    header.querySelector('nav').addEventListener('click', (event) => {
+      if (event.target.closest('a')) setMenu(false);
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && header.hasAttribute('data-nav-open')) {
+        setMenu(false);
+        menuButton.focus();
+      }
+    });
+    document.addEventListener('pointerdown', (event) => {
+      if (!header.contains(event.target)) setMenu(false);
+    });
+    matchMedia('(max-width:760px)').addEventListener('change', () => setMenu(false));
+  }
   const video = document.querySelector('.do-hero video');
   const filmButton = document.querySelector('.film-toggle');
   if (!video || !filmButton) return;

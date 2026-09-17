@@ -16,9 +16,14 @@
 .do-look h2{font-size:36px}
 .do-look-head{margin-bottom:24px}
 .do-look-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;gap:24px}
-.do-look-grid figure,.do-look-grid figure:first-child{grid-row:auto;grid-column:auto;aspect-ratio:2800/1867}
+.do-look-grid figure,.do-look-grid figure:first-child{grid-row:auto;grid-column:auto;aspect-ratio:auto;overflow:visible}
 .do-look-grid figure img,.do-look-grid figure:first-child img{object-position:50% 45%}
+.do-look-grid figure>a{display:block;width:100%}
+.do-look-grid figure>a img{aspect-ratio:2800/1867;height:auto}
+.look-collection-label{display:flex;justify-content:space-between;align-items:center;min-height:44px;font-size:12px}
+.do-look-grid figure>a:focus-visible{outline:2px solid var(--ink);outline-offset:-4px}
 .do-foot{border-top:1px solid #e6e1e3}
+.mobile-nav-toggle{display:none}
 @media(min-width:1600px){.do-look{padding-inline:64px}}
 @media(min-width:761px) and (max-width:1000px){
  .brand-note-inner{grid-template-columns:160px 1fr;gap:20px 30px}
@@ -27,6 +32,13 @@
  .do-intro>div{align-items:start;gap:20px}
 }
 @media(max-width:760px){
+ .do-header{grid-template-columns:1fr auto 1fr}
+ .mobile-nav-toggle{display:inline-flex;justify-content:center;align-items:center;justify-self:start;min-width:44px;min-height:44px;padding:0 8px;font-size:12px;color:#fff;background:rgba(20,16,18,.62)}
+ .do-header .logo{grid-row:1;grid-column:2}
+ .do-header .film-toggle{grid-row:1;grid-column:3}
+ .do-header nav{display:none;position:absolute;top:68px;left:22px;right:22px;padding:8px 12px;background:#fff;color:var(--ink);border:1px solid #e6e1e3;gap:12px;justify-content:space-between;font-size:13px}
+ .do-header[data-nav-open] nav{display:flex}
+ .do-header nav a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:0 8px}
  .do-products{padding-bottom:36px}
  .do-intro>div{display:block}
  .do-intro h2{font-size:28px}
@@ -43,7 +55,7 @@
  .do-look h2{font-size:27px}
  .do-look-head .do-link{font-size:11px;margin:0}
  .do-look-grid{gap:12px;grid-template-rows:none}
- .do-look-grid figure,.do-look-grid figure:first-child{aspect-ratio:3/4}
+ .do-look-grid figure>a img{aspect-ratio:3/4}
  .do-look-grid figure:first-child img{object-position:38% center}
  .do-look-grid figure:nth-child(2) img{object-position:57% center}
 }
