@@ -75,7 +75,12 @@
   snooze.addEventListener('click', () => { write('localStorage', '-until', String(Date.now() + 86400000)); hide(); });
   link.addEventListener('click', () => { write('localStorage', '-until', String(Date.now() + 86400000)); hide(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && !panel.hidden) hide(); });
-  const trigger = create('button', 'tam-channel-trigger', '카카오톡 채널 혜택 보기'); trigger.type = 'button';
+  const trigger = create('button', 'tam-channel-trigger'); trigger.type = 'button';
+  const mark = create('span', 'tam-channel-mark', '카카오톡');
+  const benefit = create('span', 'tam-channel-benefit', '채널 추가 쿠폰 혜택');
+  const arrow = create('span', 'tam-channel-arrow', '→'); arrow.setAttribute('aria-hidden', 'true');
+  trigger.append(mark, benefit, arrow);
+  trigger.setAttribute('aria-label', '카카오톡 채널 추가 쿠폰 혜택 보기');
   trigger.setAttribute('aria-haspopup', 'dialog'); trigger.addEventListener('click', () => show(true));
   const triggerHost = info.isConnected ? info : document.querySelector('[data-tam-channel-trigger-host], .do-footer, footer');
   if (triggerHost) triggerHost.append(trigger);

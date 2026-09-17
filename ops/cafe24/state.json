@@ -6,7 +6,7 @@
   "policy": "Preserve existing benefits; user requires free shipping eligibility based on selling-price subtotal BEFORE coupons, never revoked by coupon use.",
   "requested_changes": {
     "free_shipping": "30000 KRW threshold before coupons; preview tested, Cafe24 setting not yet applied",
-    "purchase_ui": "neutral colors, primary purchase / secondary cart, compact benefits link",
+    "purchase_ui": "neutral purchase UI; outlined channel-benefit row with a small yellow Kakao text badge",
     "kakao_popup": "12s plus browsing engagement, once per tab session, dismiss and 24h snooze; existing channel link",
     "dispatch": "14:00 KST payment cutoff prepared; actual operating SLA confirmation pending; preview label only",
     "implementation_note": "ops/cafe24/PURCHASE-UX-20260917.md"
@@ -15,6 +15,7 @@
   "original_skin": "not_obtained",
   "candidate_skin": "legacy_package_exists_but_frozen_design_not_yet_migrated",
   "production_changed": false,
+  "pending_asset_clarification": "User says cushion should use a different pink. Candidate original found: PROSTER_젤리라인_SNS소스_260916/05_Product_Cuts/04_Skin_Cushion/cutout_png/탐_용기_쿠션 (2).png. Await identification of intended cut/color; current image unchanged.",
   "agent": "tam_cafe24",
   "agent_runtime": "configuration_created; named-agent discovery requires a new project session",
   "browser": "dedicated_profile_verified_by_headless_MCP_tabs_and_public_navigation; no administrator session",

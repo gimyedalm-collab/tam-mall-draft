@@ -18,7 +18,14 @@
 .tam-shipping-progress::-webkit-progress-bar{background:#e5e5e5}
 .tam-shipping-progress::-webkit-progress-value{background:#181818}
 .tam-shipping-progress::-moz-progress-bar{background:#181818}
-.tam-channel-trigger{display:inline-flex;align-items:center;gap:16px;min-height:44px;padding:0;border:0;background:none;color:#181818;font:inherit;font-size:12px;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.tam-channel-trigger{display:flex;align-items:center;gap:12px;width:100%;max-width:590px;min-height:58px;margin-top:16px;padding:12px 14px;border:1px solid #dedede;background:#fff;color:#181818;font:inherit;font-size:13px;text-align:left;cursor:pointer;box-sizing:border-box}
+.tam-channel-mark{display:inline-flex;align-items:center;justify-content:center;flex:none;min-height:26px;padding:0 8px;background:#fee500;color:#191919;font-size:11px;font-weight:600}
+.tam-channel-benefit{font-weight:500;line-height:1.5}
+.tam-channel-arrow{margin-left:auto;font-size:18px;line-height:1}
+.tam-channel-trigger:hover{border-color:#777;background:#fafafa}
+footer>.tam-channel-trigger{width:calc(100% - 40px);margin:20px}
+.do-foot:has(>.tam-channel-trigger){flex-wrap:wrap;gap:20px}
+.do-foot>.tam-channel-trigger{flex:0 1 300px;min-width:0;width:100%;margin:0}
 .tam-channel-panel{position:fixed;inset:auto 24px 24px auto;width:350px;max-width:calc(100vw - 32px);padding:28px;background:#fff;color:#181818;border:1px solid #d6d6d6;box-shadow:0 8px 32px #00000012;z-index:2000;box-sizing:border-box;font-family:Pretendard,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;text-align:left}
 .tam-channel-panel[hidden]{display:none!important}
 .tam-channel-panel .tam-channel-close{position:absolute;right:8px;top:6px;min-height:44px;min-width:44px;border:0;background:none;color:#555;font:inherit;font-size:12px;cursor:pointer}
