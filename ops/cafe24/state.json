@@ -17,6 +17,7 @@
   "candidate_skin": "legacy_package_exists_but_frozen_design_not_yet_migrated",
   "production_changed": false,
   "cushion_asset": "User pointed to similar source cuts 1/2. Selected alternate original 탐_용기_쿠션 (2).png for review; no recoloring/resampling. Applied to active preview and native package; see design-retouch-provenance.json.",
+  "cushion_detail": "User-designated final jelly-skin-cushion_0908 package applied to product 23 preview as 10 original sections (3 animated WebP), expanded by default. Native upload assets and description HTML prepared; live product description not yet changed. See ops/cafe24/cushion-detail-0908.json.",
   "agent": "tam_cafe24",
   "agent_runtime": "configuration_created; named-agent discovery requires a new project session",
   "browser": "dedicated_profile_verified_by_headless_MCP_tabs_and_public_navigation; no administrator session",

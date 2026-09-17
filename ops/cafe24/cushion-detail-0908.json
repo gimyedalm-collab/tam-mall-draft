@@ -1,0 +1,110 @@
+{
+  "source_package": "jelly-skin-cushion_0908.zip",
+  "source_html": "jelly-skin-cushion_0908.html",
+  "product_no": 23,
+  "method": "Original bytes and source order retained; uppercase JPG references normalized for case-sensitive hosting.",
+  "total_bytes_per_copy": 43778675,
+  "sections": [
+    {
+      "order": 1,
+      "source_name": "jelly skin cushion-1.jpg",
+      "file": "01.jpg",
+      "width": 860,
+      "height": 2306,
+      "frames": 1,
+      "bytes": 1010745,
+      "sha256": "e46c3688851bd0264dd801f936374f2ea84fe2f6c2c5a3cd8c262b4a9935f07e"
+    },
+    {
+      "order": 2,
+      "source_name": "jelly skin cushion-2.webp",
+      "file": "02.webp",
+      "width": 860,
+      "height": 1520,
+      "frames": 253,
+      "bytes": 9339494,
+      "sha256": "44a1599a669bb42c199fa53c200c9d8213f3f68848db95a8564bb45f1c13a6b3"
+    },
+    {
+      "order": 3,
+      "source_name": "jelly skin cushion-3.jpg",
+      "file": "03.jpg",
+      "width": 860,
+      "height": 5071,
+      "frames": 1,
+      "bytes": 1767398,
+      "sha256": "e4570b7b9c2bb3bbecb1f66342efa860946d343a4d72e5eee0abb71ff3484b70"
+    },
+    {
+      "order": 4,
+      "source_name": "jelly skin cushion-4.jpg",
+      "file": "04.jpg",
+      "width": 860,
+      "height": 4200,
+      "frames": 1,
+      "bytes": 879967,
+      "sha256": "ef355bce56a29bb22cb0fca7e46bd516e5a3c8adec820395bafd6821219d7bfc"
+    },
+    {
+      "order": 5,
+      "source_name": "jelly skin cushion-5.webp",
+      "file": "05.webp",
+      "width": 860,
+      "height": 1520,
+      "frames": 288,
+      "bytes": 18986000,
+      "sha256": "87abf8aa96ced9fba7e3d7b2a2db00d76449d83deb2b6336c6b127a26e0c5798"
+    },
+    {
+      "order": 6,
+      "source_name": "jelly skin cushion-6.jpg",
+      "file": "06.jpg",
+      "width": 860,
+      "height": 482,
+      "frames": 1,
+      "bytes": 68346,
+      "sha256": "99279fa55b4487f47f2a23f9e20d71bf60dc8eec642f7e0e48e92eaf925f865b"
+    },
+    {
+      "order": 7,
+      "source_name": "jelly skin cushion-7.webp",
+      "file": "07.webp",
+      "width": 860,
+      "height": 544,
+      "frames": 65,
+      "bytes": 9856904,
+      "sha256": "fb485e9c58398553a4a48ba2a0e9780c87aafe5c00df10af638d12814c13bb94"
+    },
+    {
+      "order": 8,
+      "source_name": "jelly skin cushion-8.jpg",
+      "file": "08.jpg",
+      "width": 860,
+      "height": 2938,
+      "frames": 1,
+      "bytes": 818294,
+      "sha256": "2a0bc5ba0ff3562ea965b30dc9b2113a6896484d9918114afc711b641eb8a907"
+    },
+    {
+      "order": 9,
+      "source_name": "jelly skin cushion-9.jpg",
+      "file": "09.jpg",
+      "width": 860,
+      "height": 3585,
+      "frames": 1,
+      "bytes": 676180,
+      "sha256": "a1c6c8cfcc263205b4f5e4dc52f97c3a8f018f03422f9b9611d4ce312ae44b2e"
+    },
+    {
+      "order": 10,
+      "source_name": "jelly skin cushion-10.jpg",
+      "file": "10.jpg",
+      "width": 860,
+      "height": 2368,
+      "frames": 1,
+      "bytes": 375347,
+      "sha256": "2f4accf18db8483b4ce8ae7d07003ce0adf26e2abb8522881e53351b175b3896"
+    }
+  ],
+  "production_status": "Prepared native assets and HTML; live Cafe24 product description not changed."
+}
