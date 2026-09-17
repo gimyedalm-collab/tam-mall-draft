@@ -7,9 +7,9 @@ ROOT = Path(__file__).resolve().parents[2]
 preview = ROOT / 'storefront-v2/preview'
 assets = ['purchase-policy.js', 'purchase-experience.js', 'purchase-experience.css']
 includes = '\n'.join([
-    '<link rel="stylesheet" href="assets/purchase-experience.css?v=2"/>',
-    '<script defer src="assets/purchase-policy.js?v=2"></script>',
-    '<script defer src="assets/purchase-experience.js?v=2"></script>'
+    '<link rel="stylesheet" href="assets/purchase-experience.css?v=3"/>',
+    '<script defer src="assets/purchase-policy.js?v=3"></script>',
+    '<script defer src="assets/purchase-experience.js?v=3"></script>'
 ])
 for path in [*preview.glob('product-*.html'), preview/'design-only.html', preview/'index.html', preview/'shop.html']:
     text = path.read_text(encoding='utf-8')
@@ -18,7 +18,7 @@ for path in [*preview.glob('product-*.html'), preview/'design-only.html', previe
     if 'data-tam-purchase-preview' not in text:
         text = re.sub(r'<body\b', '<body data-tam-purchase-preview', text, count=1)
     for asset in assets:
-        text = re.sub(re.escape('assets/' + asset) + r'\?v=\d+', 'assets/' + asset + '?v=2', text)
+        text = re.sub(re.escape('assets/' + asset) + r'\?v=\d+', 'assets/' + asset + '?v=3', text)
     path.write_text(text, encoding='utf-8')
 for name in assets:
     shutil.copy2(preview/'assets'/name, ROOT/'storefront-v2/cafe24/tam/assets'/name)

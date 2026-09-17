@@ -6,7 +6,8 @@
   "policy": "Preserve existing benefits; user requires free shipping eligibility based on selling-price subtotal BEFORE coupons, never revoked by coupon use.",
   "requested_changes": {
     "free_shipping": "30000 KRW threshold before coupons; preview tested, Cafe24 setting not yet applied",
-    "purchase_ui": "neutral purchase UI; outlined channel-benefit row with a small yellow Kakao text badge",
+    "purchase_ui": "neutral purchase UI; small yellow Kakao badge with explicit channel-add condition and 3000 KRW coupon amount",
+    "coupon_offer_preview": "3000 KRW from current product-page display; admin amount verification still pending due to conflicting membership notice",
     "kakao_popup": "12s plus browsing engagement, once per tab session, dismiss and 24h snooze; existing channel link",
     "dispatch": "14:00 KST payment cutoff prepared; actual operating SLA confirmation pending; preview label only",
     "implementation_note": "ops/cafe24/PURCHASE-UX-20260917.md"

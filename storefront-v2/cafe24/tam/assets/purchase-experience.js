@@ -4,7 +4,7 @@
   const preview = document.body.hasAttribute('data-tam-purchase-preview');
   const config = window.TAM_PURCHASE_CONFIG || (preview ? {
     channelUrl: 'https://pf.kakao.com/_nxhIxhn', popupEnabled: true,
-    popupDelay: 12000, dispatch: { enabled: false }
+    popupDelay: 12000, couponAmount: 3000, dispatch: { enabled: false }
   } : null);
   if (!config || !window.TamPurchasePolicy) return;
   const policy = window.TamPurchasePolicy;
@@ -49,13 +49,18 @@
   if (!config.popupEnabled || !/^https:\/\/pf\.kakao\.com\/[\w-]+\/?$/.test(config.channelUrl || '')) return;
   // Never automatically solicit during cart, checkout or account tasks.
   if (/(basket|checkout|orderform|login|join|coupon|myshop)/i.test(location.pathname)) return;
+  // Preview follows the current product-page offer. Live amounts need admin confirmation.
+  const amount = Number.isInteger(config.couponAmount) && config.couponAmount > 0 &&
+    (preview || config.couponAmountVerified === true) ? config.couponAmount.toLocaleString('ko-KR') + '원' : null;
   const panel = create('aside', 'tam-channel-panel'); panel.hidden = true;
   panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'false');
   panel.setAttribute('aria-labelledby', 'tam-channel-title');
   const close = create('button', 'tam-channel-close', '닫기'); close.type = 'button';
   const label = create('p', 'tam-channel-label', 'TAM BEAUTY');
-  const title = create('h2', '', '카카오톡 채널 추가 혜택'); title.id = 'tam-channel-title';
-  const copy = create('p', 'tam-channel-copy', '채널을 추가하고 쿠폰과 새로운 소식을 받아보세요.');
+  const title = create('h2', '', amount ? `${amount} 쿠폰 받으세요` : '카카오톡 채널 쿠폰'); title.id = 'tam-channel-title';
+  const copy = create('p', 'tam-channel-copy', amount ?
+    `탐뷰티 카카오톡 채널 추가 시 ${amount} 쿠폰.\n사용 조건은 채널 쿠폰 안내에서 확인해 주세요.` :
+    '탐뷰티 카카오톡 채널에서 쿠폰과 사용 조건을 확인해 주세요.');
   const link = create('a', 'tam-channel-link', '카카오톡 채널 추가');
   link.href = config.channelUrl; link.target = '_blank'; link.rel = 'noopener noreferrer';
   link.setAttribute('aria-label', '카카오톡 채널 추가 (새 창)');
@@ -77,10 +82,12 @@
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && !panel.hidden) hide(); });
   const trigger = create('button', 'tam-channel-trigger'); trigger.type = 'button';
   const mark = create('span', 'tam-channel-mark', '카카오톡');
-  const benefit = create('span', 'tam-channel-benefit', '채널 추가 쿠폰 혜택');
+  const benefit = create('span', 'tam-channel-benefit');
+  benefit.append(create('span', 'tam-channel-condition', '채널 추가 시'),
+    create('strong', 'tam-channel-value', amount ? `${amount} 쿠폰` : '쿠폰 혜택 확인'));
   const arrow = create('span', 'tam-channel-arrow', '→'); arrow.setAttribute('aria-hidden', 'true');
   trigger.append(mark, benefit, arrow);
-  trigger.setAttribute('aria-label', '카카오톡 채널 추가 쿠폰 혜택 보기');
+  trigger.setAttribute('aria-label', amount ? `카카오톡 채널 추가 시 ${amount} 쿠폰 안내 열기` : '카카오톡 채널 쿠폰 안내 열기');
   trigger.setAttribute('aria-haspopup', 'dialog'); trigger.addEventListener('click', () => show(true));
   const triggerHost = info.isConnected ? info : document.querySelector('[data-tam-channel-trigger-host], .do-footer, footer');
   if (triggerHost) triggerHost.append(trigger);
