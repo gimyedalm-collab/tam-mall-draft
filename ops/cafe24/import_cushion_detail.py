@@ -38,7 +38,9 @@ page = ROOT/'storefront-v2/preview/product-23.html'
 html = page.read_text(encoding='utf-8')
 section = ('<section class="detail-source container cushion-final-detail" id="product-detail" '
     'aria-label="더 젤리 스킨 쿠션 제품 상세"><h2>제품 상세</h2>'
-    '<div class="detail-images">' + markup('assets/'+SLUG) + '</div></section>')
+    '<div class="detail-images">' + markup('assets/'+SLUG) + '</div>'
+    '<a class="detail-return" href="#purchase-options">색상 선택으로 돌아가기 ↑</a></section>')
+html = html.replace('class="preview-options" data-preview-product="23"', 'class="preview-options" id="purchase-options" data-preview-product="23"')
 pattern = r'<details class="detail-source container">.*?</details>|<section class="detail-source container cushion-final-detail".*?</section>'
 html, count = re.subn(pattern, lambda _: section, html, count=1, flags=re.S)
 assert count == 1, 'Could not locate cushion detail section'

@@ -2,4 +2,7 @@
 .cushion-final-detail>h2{font-size:18px;font-weight:500;line-height:1.5;margin:0 auto 24px;max-width:860px}
 .cushion-final-detail .detail-images{max-width:860px;margin:0 auto;font-size:0;line-height:0}
 .cushion-final-detail .detail-images img{display:block;width:100%;max-width:100%;height:auto;margin:0;padding:0;border:0}
+.cushion-final-detail .detail-return{display:flex;justify-content:center;align-items:center;min-height:48px;max-width:860px;margin:24px auto 0;border:1px solid #ccc;color:#181818;background:#fff;font-size:14px;text-decoration:none}
+#purchase-options{scroll-margin-top:100px}
+.detail-return:focus-visible{outline:2px solid #181818;outline-offset:4px}
 @media(max-width:760px){.cushion-final-detail{padding-inline:0}.cushion-final-detail>h2{padding-inline:20px}}

@@ -36,6 +36,7 @@
     "coupon_application": "not_checked",
     "checkout_payment": "not_checked",
     "production_switch": "not_performed",
-    "purchase_preview": "4 policy test groups and browser QA at 1440/390/320 passed; no live purchase or coupon issuance"
+    "purchase_preview": "4 policy test groups and browser QA at 1440/390/320 passed; no live purchase or coupon issuance",
+    "overall_preview_review": "11 routes at 1440/390/320; navigation/cart/mobile popup fixes tested. See OVERALL-REVIEW-20260917.md. Original 43.8MB detail performance and native commerce remain pending."
   }
 }

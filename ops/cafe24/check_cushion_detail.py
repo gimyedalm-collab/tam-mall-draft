@@ -45,6 +45,9 @@ async def run(base):
             await page.screenshot(path=str(OUT/f'detail-top-{width}.png'))
             await images.last.scroll_into_view_if_needed()
             await page.screenshot(path=str(OUT/f'detail-bottom-{width}.png'))
+            await page.locator('.detail-return').click()
+            await page.wait_for_timeout(400)
+            assert await page.locator('#purchase-options').evaluate('(e)=>{const r=e.getBoundingClientRect();return r.top>=0 && r.top<innerHeight}')
             assert not errors, errors
             assert not failed, failed
             results.append({'width': width, 'images_loaded': 10, 'order_and_dimensions': 'pass',

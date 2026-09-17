@@ -3,6 +3,7 @@ const PRODUCT_META={"23": {"line": "jelly", "category": "base", "asset": "assets
 const film=document.getElementById('brand-film'),control=document.getElementById('filmControl');
 if(film&&control){const update=()=>{control.querySelector('span').textContent=film.paused?'▷':'Ⅱ';control.setAttribute('aria-label',film.paused?'브랜드 영상 재생':'브랜드 영상 일시정지');control.setAttribute('aria-pressed',String(!film.paused))};film.addEventListener('play',update);film.addEventListener('pause',update);control.addEventListener('click',()=>film.paused?film.play().catch(update):film.pause());if(matchMedia('(prefers-reduced-motion: reduce)').matches){film.autoplay=false;film.pause()}update()}else if(control){control.hidden=true}
 const menu=document.getElementById('mobileNav'),toggle=document.getElementById('menuToggle');
+if(menu&&toggle){document.addEventListener('pointerdown',e=>{if(!menu.contains(e.target)&&!toggle.contains(e.target)){menu.classList.remove('open');toggle.setAttribute('aria-expanded','false')}})}
 if(menu&&toggle){const close=()=>{menu.classList.remove('open');toggle.setAttribute('aria-expanded','false')};toggle.onclick=()=>{toggle.setAttribute('aria-expanded',String(menu.classList.toggle('open')))};menu.addEventListener('click',e=>{if(e.target.closest('a'))close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()})}
 document.querySelectorAll('[data-catalog]').forEach(root=>{
  const cards=[...root.querySelectorAll('.product')];

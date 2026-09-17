@@ -97,7 +97,7 @@
     if (shown || read('sessionStorage', '-shown') || Number(read('localStorage', '-until')) > Date.now()) return;
     if (Date.now() - started < (config.popupDelay ?? 12000) || document.hidden || scrollY < 320) return;
     if (document.activeElement?.matches('input,select,textarea,button')) return;
-    if (document.querySelector('dialog[open], [aria-modal="true"]:not([hidden])')) return;
+    if (document.querySelector('dialog[open], [aria-modal="true"]:not([hidden]), .mobile-nav.open, .do-header[data-nav-open]')) return;
     const protectedArea = document.querySelector('.detail-product, .xans-product-detail, .do-hero');
     if (protectedArea && protectedArea.getBoundingClientRect().bottom > 0) return;
     show(false);
