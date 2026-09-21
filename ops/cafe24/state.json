@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17",
+  "updated_at": "2026-09-21",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
   "phase": "purchase_ui_popup_shipping_preview_complete; administrator_connection_next",
@@ -12,9 +12,9 @@
     "dispatch": "User confirmed weekdays before 14:00 KST payment completion dispatch same day, excluding weekends/public holidays. Native calendar/stock integration still pending; preview label only.",
     "implementation_note": "ops/cafe24/PURCHASE-UX-20260917.md"
   },
-  "admin_access": "not_authenticated_or_verified",
-  "original_skin": "not_obtained",
-  "candidate_skin": "legacy_package_exists_but_frozen_design_not_yet_migrated",
+  "admin_access": "owner_logged_in_on_2026-09-21; session_not_persistent; owner_must_log_in_again_next_time",
+  "original_skin": "identified_not_downloaded: official mall active PC skin = skin18 (Moa Studio Nutrio, responsive, mobile-only design not in use); English mall active skin = skin8, do not touch",
+  "candidate_skin": "clone_created_2026-09-21: \"TEST_260921\" = skin21, untouched copy of skin18; frozen design not yet migrated; legacy package still predates frozen design",
   "production_changed": false,
   "cushion_asset": "User pointed to similar source cuts 1/2. Selected alternate original 탐_용기_쿠션 (2).png for review; no recoloring/resampling. Applied to active preview and native package; see design-retouch-provenance.json.",
   "cushion_detail": "User-designated final jelly-skin-cushion_0908 package applied to product 23 preview as 10 original sections (3 animated WebP), expanded by default. Native upload assets and description HTML prepared; live product description not yet changed. See ops/cafe24/cushion-detail-0908.json.",
@@ -22,8 +22,10 @@
   "agent_runtime": "configuration_created; named-agent discovery requires a new project session",
   "browser": "dedicated_profile_verified_by_headless_MCP_tabs_and_public_navigation; no administrator session",
   "next_actions": [
-    "Connect the dedicated browser and let the owner complete administrator login/2FA.",
-    "Read mall/skin IDs, operator rights, app integrations and actual policies; back up and clone active skins. Keep current coupon, shipping and discount settings; report any conflict with earlier shipping intent.",
+    "Owner logs in again when needed (admin session is not persistent).",
+    "Download/backup skin18 sources through the editor route and map public inventory items to templates/modules.",
+    "Migrate the frozen design into skin21 only, keeping Snap placeholders/scripts and native modules; run the review survival check after every upload.",
+    "Banners: create new group codes for the candidate instead of editing shared groups; switch on go-live day.",
     "Connect eligible stock and a verified closure calendar for the user-confirmed 14:00 KST payment cutoff; reconcile existing popup apps.",
     "Map every public inventory item to original templates/modules/admin settings.",
     "Migrate the approved design into the candidate skin and connect native commerce.",
@@ -38,5 +40,18 @@
     "production_switch": "not_performed",
     "purchase_preview": "4 policy test groups and browser QA at 1440/390/320 passed; no live purchase or coupon issuance",
     "overall_preview_review": "11 routes at 1440/390/320; navigation/cart/mobile popup fixes tested. See OVERALL-REVIEW-20260917.md. Original 43.8MB detail performance and native commerce remain pending."
+  },
+  "session_20260921_claude": {
+    "preview_url_pattern": "https://tambeauty.kr/skin-skinN/... opens without login; usable for candidate QA and owner review",
+    "edit_route": "Admin smart-design editor works for read/write on the clone (owner-authenticated session only). A write test on the clone index.html was reflected on the clone only and reverted. FTP is not used.",
+    "snap_review": "Works on clones and preview URLs as long as skin HTML keeps the placeholders: home span.snap_widget#1003, product detail #1 #3 #4 #5 (+ sfsnapfit_store_id, sf_draw_type, sf_store_name, sf_isdetail_page, .snap_review_count, .snap_review_avg_score), review board #1001, plus the two Snap script blocks at the end of index.html. Native Cafe24 review module is hidden / no read permission, so losing placeholders means no reviews at all. Old copy skin15 has no placeholders.",
+    "review_survival_check": "A Playwright check compares live vs candidate skin for home / product 23 / review board on PC and phone (widget placeholders + rendered height). Passed 6/6 on the clone; fails 6/6 on the old copy without placeholders, as expected. Script kept outside Git.",
+    "banner_manager": "Banner Manager data is shared by all skins (no skin selector): editing an existing group changes production immediately. New group codes can be created and referenced only from the candidate skin HTML to preview safely.",
+    "other_checks": "No design reservations. Design backup/restore menu available. 29 apps installed.",
+    "reviews_data": "All public Snap reviews were collected outside Git (4,667 unique reviews, 14 products). Snap admin shows 7,764 because 13 non-displayed product pages (secret/restock/collab) carry their own review copies. Official Snap Excel export failed server-side - needs Snap support chat.",
+    "preview_reviews": "v3 (owner feedback 2026-09-21: \"this preview will BE the official mall, so a link to the official mall is nonsense; the expand-more feel is wrong; sections such as photo-only reviews should be separated\"). storefront-v2/preview/product-*.html now hold a real shop-style review module (#review) between product detail and Discover more: rating summary with distribution bars -> photo review strip -> tabs [전체 N / 포토 N] + sort [추천순/최신순/평점순] -> list (8 per page) -> numbered pagination. No outbound links. All public reviews of each product are shipped as data (assets/reviews-data/p{no}.js, window.TAM_REVIEWS) and rendered by assets/reviews.js with assets/reviews.css (v3); generator = ops/cafe24/build_product_reviews.py. Customer photos are NOT copied into the repo; they are hot-linked from the same Snap CDN the live mall uses (cdn.snapfit.co.kr medium_ images, no referer restriction). Because it is the full public list, photos with faces appear exactly as on the live mall - owner should confirm before pushing to the public Pages site. A floating \"★ avg · 리뷰 N\" jump button stays visible while scrolling (hidden while the purchase area, the review section, or the Kakao channel panel is visible). Home design untouched. Native integration: keep the live Snap widget (same section structure: summary / photo / sort / list / pagination); this static module is the visual target for Snap widget settings or custom CSS, not a replacement for live reviews.",
+    "not_committed": "Changes are local only; another session is committing lipliner previews in this repo on the same day. Pull/rebase before committing.",
+    "open_question": "The pre-existing purchase button \"공식몰에서 구매 ↗\" on product pages has the same wording problem the owner pointed out (the preview will be the official mall). Not changed - belongs to the 2026-09-17 purchase UX work; ask owner.",
+    "snap_push_and_kakao": "Live audit 2026-09-21 (product 23, PC+mobile, 18s): Snap Push is loaded (spmislive=1) but renders nothing - Spm_Mgr/get_banner returns empty, useKakao=0, kakaoDevKey empty. The Kakao element that follows the visitor today is the skin quick menu (.quick-menu fixed bottom-right) fed by Banner Manager group \"우측 상담톡 퀵메뉴 (cs-talk)\" linking to https://pf.kakao.com/_nxhIxhn, plus an in-page \"카카오톡 채널 추가하고 3,000원 쿠폰 받기\" link. Owner decision: keep using the Snap review widget for reviews. Recommendation given: do not adopt Snap Push for the following Kakao prompt; the frozen design already has its own channel panel/badge (purchase-experience.js). Whether Snap Push is billed was not verified."
   }
 }

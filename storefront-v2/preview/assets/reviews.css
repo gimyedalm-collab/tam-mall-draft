@@ -1,0 +1,340 @@
+/* 상품 상세 고객 리뷰 (v3, 2026-09-21)
+   실제 쇼핑몰 리뷰 모듈 구조: 평점 요약 -> 포토 후기 모음 -> [전체 / 포토] 탭 + 정렬 -> 목록 -> 페이지 번호.
+   tam.css 의 토큰(--ink, --muted, --line, --pink)과 .review-section, .section-heading 을 그대로 쓴다. */
+.review-section {
+  border-top: 1px solid var(--line);
+  scroll-margin-top: 104px;
+}
+.review-section button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.review-section button:focus-visible,
+.review-jump:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+.rv-star {
+  color: var(--pink);
+  letter-spacing: 0.1em;
+}
+
+/* 1. 평점 요약 */
+.rvs {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 360px);
+  gap: 24px 64px;
+  align-items: center;
+  padding: 8px 0 40px;
+}
+.rvs-score {
+  display: grid;
+  gap: 6px;
+}
+.rvs-score b {
+  font:
+    400 56px/1 Arial,
+    sans-serif;
+  letter-spacing: -0.04em;
+}
+.rvs-score .rv-star {
+  font-size: 15px;
+}
+.rvs-count {
+  font-size: 13px;
+  color: var(--muted);
+}
+.rvs-bars {
+  display: grid;
+  gap: 8px;
+}
+.rvs-bars li {
+  display: grid;
+  grid-template-columns: 32px 1fr 40px;
+  gap: 12px;
+  align-items: center;
+  font-size: 12px;
+  color: var(--muted);
+}
+.rvs-bar {
+  height: 2px;
+  background: var(--line);
+}
+.rvs-bar i {
+  display: block;
+  height: 100%;
+  background: var(--ink);
+}
+.rvs-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 2. 포토 후기 모음 */
+.rvp {
+  padding: 32px 0 40px;
+  border-top: 1px solid var(--line);
+}
+.rvp-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.rvp-head h3 {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+.rvp-head h3 span {
+  color: var(--muted);
+  font-weight: 400;
+  margin-left: 4px;
+}
+.review-section .rvp-only {
+  min-height: 44px;
+  font-size: 13px;
+  border-bottom: 1px solid var(--ink);
+}
+.rvp-list {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.rvp-list::-webkit-scrollbar {
+  display: none;
+}
+.rvp-list li {
+  flex: 0 0 112px;
+}
+.rvp-list button,
+.rvl-photos button {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+.rvp-list img,
+.rvl-photos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* 3. 탭 + 정렬 */
+.rvc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 96px;
+}
+.rvc-tabs,
+.rvc-sort {
+  display: flex;
+}
+.rvc-tabs {
+  gap: 28px;
+}
+.rvc-sort {
+  gap: 20px;
+}
+.review-section .rvc button {
+  min-height: 56px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.review-section .rvc-sort button {
+  font-size: 13px;
+}
+.review-section .rvc button[aria-pressed='true'] {
+  color: var(--ink);
+  font-weight: 500;
+}
+.review-section .rvc-tabs button[aria-pressed='true'] {
+  box-shadow: inset 0 -2px 0 var(--ink);
+}
+.review-section .rvc button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.rvc-tabs span {
+  font-weight: 400;
+}
+
+/* 4. 목록 */
+.rvl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.rvl-item {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 12px 40px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+}
+.rvl-meta {
+  display: grid;
+  gap: 4px;
+  align-content: start;
+  font-size: 12px;
+  color: var(--muted);
+}
+.rvl-meta .rv-star {
+  font-size: 13px;
+}
+.rvl-user {
+  color: var(--ink);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.rvl-text {
+  font-size: 14px;
+  line-height: 1.8;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  max-width: 760px;
+}
+.rvl-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+.rvl-photos:first-child {
+  margin-top: 0;
+}
+.rvl-photos button {
+  width: 96px;
+}
+.rvl-photos.is-zoom button {
+  width: min(320px, 100%);
+}
+
+/* 5. 페이지 번호 */
+.rvg {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding-top: 32px;
+}
+.rvg[hidden] {
+  display: none;
+}
+.review-section .rvg button {
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 13px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.review-section .rvg button[aria-current='page'] {
+  color: var(--ink);
+  font-weight: 500;
+  box-shadow: inset 0 -1px 0 var(--ink);
+}
+.review-section .rvg button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+/* 화면을 내려도 따라다니는 리뷰 버튼 */
+.review-jump {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 20px;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 13px;
+  white-space: nowrap;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.review-jump[hidden] {
+  display: none;
+}
+/* 카카오 채널 안내가 떠 있는 동안에는 겹치지 않게 숨김 */
+body:has(.tam-channel-panel:not([hidden])) .review-jump {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .review-section {
+    scroll-margin-top: 84px;
+  }
+  .rvs {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-bottom: 32px;
+  }
+  .rvs-score b {
+    font-size: 44px;
+  }
+  .rvp {
+    padding: 24px 0 32px;
+  }
+  .rvp-list {
+    margin-right: calc(var(--gutter) * -1);
+    padding-right: var(--gutter);
+  }
+  .rvp-list li {
+    flex-basis: 88px;
+  }
+  .rvc {
+    flex-wrap: wrap;
+    gap: 0 16px;
+    scroll-margin-top: 76px;
+  }
+  .rvc-tabs {
+    gap: 24px;
+  }
+  .rvc-sort {
+    gap: 16px;
+    margin-left: auto;
+  }
+  .review-section .rvc button {
+    min-height: 48px;
+  }
+  .rvl-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 24px 0;
+  }
+  .rvl-meta {
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    align-items: baseline;
+  }
+  .rvl-date {
+    text-align: right;
+  }
+  .rvl-photos button {
+    width: 80px;
+  }
+  .rvg {
+    gap: 0;
+    padding-top: 24px;
+  }
+  .review-jump {
+    bottom: calc(16px + env(safe-area-inset-bottom));
+  }
+}
