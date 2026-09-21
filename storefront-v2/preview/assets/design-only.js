@@ -40,3 +40,5 @@
   if (motion.matches) { video.autoplay = false; video.pause(); }
   applyMotion();
 })();
+/* 전 페이지 공통: 따라다니는 카카오톡 채널 버튼 */
+(function(){var s=document.createElement('script');s.src='assets/channel-button.js?v=1';s.defer=true;document.head.appendChild(s);})();

@@ -254,7 +254,7 @@
 .review-jump {
   position: fixed;
   right: 24px;
-  bottom: 24px;
+  bottom: 88px; /* 아래에 카카오 채널 버튼(52px)이 있음 */
   z-index: 40;
   display: inline-flex;
   align-items: center;
@@ -335,7 +335,7 @@ body:has(.tam-channel-panel:not([hidden])) .review-jump {
   }
   .review-jump {
     right: 16px;
-    bottom: calc(16px + env(safe-area-inset-bottom));
+    bottom: calc(74px + env(safe-area-inset-bottom)); /* 채널 버튼(48px) 위 */
     padding: 0 16px;
     gap: 6px;
   }

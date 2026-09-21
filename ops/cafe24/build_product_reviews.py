@@ -17,7 +17,7 @@ PREVIEW = ROOT / "storefront-v2/preview"
 DATA = Path.home() / "Desktop/_탐뷰티/리뷰_전체수집_260921"
 PRODUCTS = [18, 23, 24, 25, 101, 102, 109, 110, 111, 112, 114, 115, 118, 121]
 SNAPSHOT = "2026.09.21"
-ASSET_V = "6"
+ASSET_V = "7"
 START = "<!-- customer-reviews:start (ops/cafe24/build_product_reviews.py) -->"
 END = "<!-- customer-reviews:end -->"
 ANCHOR = re.compile(r'<section\b[^>]*class="shop-section container"[^>]*>\s*<div class="section-heading">\s*<h2>Discover more', re.S)

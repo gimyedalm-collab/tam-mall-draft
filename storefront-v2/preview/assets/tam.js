@@ -15,3 +15,5 @@ document.querySelectorAll('[data-catalog]').forEach(root=>{
 });
 
 };if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();})();
+/* 전 페이지 공통: 따라다니는 카카오톡 채널 버튼 */
+(function(){var s=document.createElement('script');s.src='assets/channel-button.js?v=1';s.defer=true;document.head.appendChild(s);})();
