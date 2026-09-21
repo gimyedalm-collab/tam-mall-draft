@@ -1,0 +1,154 @@
+{
+  "source": "lipliner-r32/upload (final-only preview in this repository)",
+  "product_no": 118,
+  "method": "Original bytes, names and source order retained; animated WebP preserved; no resampling.",
+  "total_bytes_per_copy": 5965502,
+  "total_height_at_860px": 18373,
+  "sections": [
+    {
+      "order": 1,
+      "file": "01.png",
+      "width": 860,
+      "height": 1792,
+      "frames": 1,
+      "bytes": 795587,
+      "sha256": "f9339710b2d17ee9c0905b005cf723726e806e2ccd53bcd96fa640638b545fe7"
+    },
+    {
+      "order": 2,
+      "file": "02.png",
+      "width": 860,
+      "height": 1758,
+      "frames": 1,
+      "bytes": 1069861,
+      "sha256": "d6c7576e1819e343032e319e3a30028a99ec8e32dfcf5733c42029621a75b74b"
+    },
+    {
+      "order": 3,
+      "file": "03a.png",
+      "width": 860,
+      "height": 504,
+      "frames": 1,
+      "bytes": 17750,
+      "sha256": "72816e3f3d2be978bba9c9bcaada1675d750b5365a136191ab31ddc45b5f9ce6"
+    },
+    {
+      "order": 4,
+      "file": "03b.webp",
+      "width": 860,
+      "height": 562,
+      "frames": 61,
+      "bytes": 937928,
+      "sha256": "5a781379f0975dcfae1821e0a6bc1be42a3fc39df6c5525af480c3d194217d77"
+    },
+    {
+      "order": 5,
+      "file": "03c.png",
+      "width": 860,
+      "height": 20,
+      "frames": 1,
+      "bytes": 164,
+      "sha256": "4c58567fd165ca428db833563248f98d865f6a118e3497511e82d90eac6b5f2e"
+    },
+    {
+      "order": 6,
+      "file": "03d.webp",
+      "width": 860,
+      "height": 320,
+      "frames": 59,
+      "bytes": 464466,
+      "sha256": "887e9f4afcf43f2f13338f1c6770f9e1c35fbdab11b56fb800c900218245ab43"
+    },
+    {
+      "order": 7,
+      "file": "03e.png",
+      "width": 860,
+      "height": 572,
+      "frames": 1,
+      "bytes": 249863,
+      "sha256": "b0baf8fc5c4171c60a31925b3ea301b1969020ab9d5a11c6614a5eb06fec33e4"
+    },
+    {
+      "order": 8,
+      "file": "04a.png",
+      "width": 860,
+      "height": 391,
+      "frames": 1,
+      "bytes": 10579,
+      "sha256": "361f0f30c661648922f5261e70794fe79203903edd9dfb65600fb999354ba9f6"
+    },
+    {
+      "order": 9,
+      "file": "04b.webp",
+      "width": 860,
+      "height": 304,
+      "frames": 54,
+      "bytes": 394566,
+      "sha256": "4649be1d2db9310142780d57374544355a6e42420abc917bf391ca120de71cd4"
+    },
+    {
+      "order": 10,
+      "file": "04c.png",
+      "width": 860,
+      "height": 455,
+      "frames": 1,
+      "bytes": 23447,
+      "sha256": "50832ea4389ff7fa0217e3e346a03058f58e52b16df9f89511c0cbcf7eda064a"
+    },
+    {
+      "order": 11,
+      "file": "05.png",
+      "width": 860,
+      "height": 3459,
+      "frames": 1,
+      "bytes": 843168,
+      "sha256": "12b835055f78daa2023d1f1a7da45d561a830b24acc2abc21742b8a424cfde00"
+    },
+    {
+      "order": 12,
+      "file": "06.png",
+      "width": 860,
+      "height": 1942,
+      "frames": 1,
+      "bytes": 432384,
+      "sha256": "9201537496573fa0bbaefa3c1e89e5e13da2c9cc216e7c40e5ba98a257392c07"
+    },
+    {
+      "order": 13,
+      "file": "07.png",
+      "width": 860,
+      "height": 1703,
+      "frames": 1,
+      "bytes": 98597,
+      "sha256": "b26f6fd18f80ef235988a2015dcdcde9112ba4f66d071f74e0284b451a02e9f9"
+    },
+    {
+      "order": 14,
+      "file": "08.png",
+      "width": 860,
+      "height": 1168,
+      "frames": 1,
+      "bytes": 294656,
+      "sha256": "0adfa8e583756752fc804e9f6621a7849283e1e6d5873b44b576e5613dac54ba"
+    },
+    {
+      "order": 15,
+      "file": "09.png",
+      "width": 860,
+      "height": 1142,
+      "frames": 1,
+      "bytes": 62107,
+      "sha256": "c0d919027c7ddff010d60fc210f52b009eeb391da29677a4819e265c19c1dbfb"
+    },
+    {
+      "order": 16,
+      "file": "10.png",
+      "width": 860,
+      "height": 2281,
+      "frames": 1,
+      "bytes": 270379,
+      "sha256": "befdf5ee5ad928885a458d2591aa22cb9e1cbff9e56bf4f0729ecda5357ce15d"
+    }
+  ],
+  "production_status": "Preview updated and native assets/HTML prepared; live Cafe24 product description not changed."
+}

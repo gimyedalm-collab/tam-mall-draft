@@ -28,6 +28,8 @@
       reviewVisible = entries[0].isIntersecting;
       update();
     }).observe(section);
+    // 한 번에 크게 건너뛰면(앵커 이동 등) 교차 이벤트가 안 생겨 화살표가 옛 방향으로 남는다 → 스크롤 때도 갱신
+    window.addEventListener('scroll', update, { passive: true });
   }
 
   const data = window.TAM_REVIEWS;
