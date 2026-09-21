@@ -250,12 +250,11 @@
   cursor: default;
 }
 
-/* 화면을 내려도 따라다니는 리뷰 버튼 */
+/* 화면을 내려도 따라다니는 리뷰 버튼: 본문을 가리지 않게 오른쪽 아래(카카오 채널 안내와 같은 자리, 안내가 뜨면 숨김) */
 .review-jump {
   position: fixed;
-  left: 50%;
+  right: 24px;
   bottom: 24px;
-  transform: translateX(-50%);
   z-index: 40;
   display: inline-flex;
   align-items: center;
@@ -335,6 +334,13 @@ body:has(.tam-channel-panel:not([hidden])) .review-jump {
     padding-top: 24px;
   }
   .review-jump {
+    right: 16px;
     bottom: calc(16px + env(safe-area-inset-bottom));
+    padding: 0 16px;
+    gap: 6px;
+  }
+  /* 폰에서는 덜 가리게 '리뷰 164 ↓'만 */
+  .review-jump-score {
+    display: none;
   }
 }
