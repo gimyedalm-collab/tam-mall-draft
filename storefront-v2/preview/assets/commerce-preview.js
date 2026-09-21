@@ -9,7 +9,10 @@
  const say=text=>{if(status)status.textContent=text};
  const detail=document.querySelector('[data-preview-product]');
  if(detail){const id=Number(detail.dataset.previewProduct),select=detail.querySelector('select'),qty=detail.querySelector('input[type=number]');
- detail.querySelector('[data-add]').onclick=()=>{const n=Number(qty.value);if(!select.value){select.reportValidity();say('색상을 선택해 주세요.');return}if(!Number.isInteger(n)||n<1||n>99){qty.reportValidity();say('수량은 1개부터 99개까지 선택할 수 있습니다.');return}const cart=read(),old=cart.find(p=>p.id===id&&p.option===select.value);if(old)old.qty=Math.min(99,old.qty+n);else cart.push({id,option:select.value,qty:n});save(cart);say('미리보기 장바구니에 담았습니다.');detail.querySelector('[data-basket-link]').hidden=false};
+ const add=()=>{const n=Number(qty.value);if(!select.value){select.reportValidity();say('색상을 선택해 주세요.');return false}if(!Number.isInteger(n)||n<1||n>99){qty.reportValidity();say('수량은 1개부터 99개까지 선택할 수 있습니다.');return false}const cart=read(),old=cart.find(p=>p.id===id&&p.option===select.value);if(old)old.qty=Math.min(99,old.qty+n);else cart.push({id,option:select.value,qty:n});save(cart);return true};
+ detail.querySelector('[data-add]').onclick=()=>{if(!add())return;say('장바구니에 담았습니다.');detail.querySelector('[data-basket-link]').hidden=false};
+ /* 바로 구매: 같은 확인을 거쳐 담은 뒤 주문서 화면으로. 카페24에서는 기본 구매 모듈(product_submit)이 이 자리를 맡는다. */
+ const buy=detail.querySelector('[data-buy]');if(buy)buy.onclick=()=>{if(add())location.href='checkout.html'};
  }
  const basket=document.querySelector('[data-basket-items]');
  const summary=document.querySelector('[data-subtotal]');
