@@ -12,6 +12,7 @@ https://gimyedalm-collab.github.io/tam-mall-draft/
 - [홈](storefront-v2/preview/index.html)
 - [상품 목록](storefront-v2/preview/shop.html)
 - [모델 룩북](storefront-v2/preview/lookbook.html)
+- [하이라이터 R30 확정 상세](highlighter-r30/index.html) · [홈페이지 상품 연결](storefront-v2/preview/product-24.html) · [Figma 가져오기 SVG](highlighter-r30/figma-import/) — Figma 직접 업로드는 Starter 호출 한도로 대기 중입니다.
 - [카페24 적용 안내](storefront-v2/카페24_적용안내.md)
 - [카페24 적용 ZIP](storefront-v2/탐뷰티_카페24_적용파일_260914.zip)
 

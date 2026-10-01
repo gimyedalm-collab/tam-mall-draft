@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-01",
+  "structural_checks": {
+    "assets_hash_checked": 20,
+    "figma_svg_xml_valid": 9,
+    "motion_sources": 2,
+    "sections": 9,
+    "height_at_860px": 14131,
+    "unrelated_product_content_exact": true
+  },
+  "browser_checks": {
+    "surface": "Chrome",
+    "desktop": "860px embedded artwork width, 14131px height, no outer horizontal overflow; approved hero displayed",
+    "mobile": "390px viewport / 375px content width, responsive full-height detail displayed; no outer horizontal overflow",
+    "purchase_and_review_sections": "Present and unchanged; no purchase/cart submission performed",
+    "scope": "Visual connection and geometry check, not native commerce or continuous motion recording"
+  },
+  "figma": {
+    "status": "not_uploaded",
+    "reason": "Connected Starter plan MCP tool call limit",
+    "prepared": "9 import SVG sections with same-placement motion stills; not yet imported/render-verified in Figma"
+  },
+  "production_cafe24_changed": false
+}

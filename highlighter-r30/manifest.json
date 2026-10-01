@@ -1,0 +1,152 @@
+{
+  "version": "R30 / 2026-10-01 / approved typography check",
+  "width": 860,
+  "height": 14131,
+  "product_no": 24,
+  "sections": [
+    {
+      "name": "hero",
+      "height": 1250
+    },
+    {
+      "name": "campaign",
+      "height": 1330
+    },
+    {
+      "name": "texture",
+      "height": 1400
+    },
+    {
+      "name": "shades",
+      "height": 3420
+    },
+    {
+      "name": "soft-touch",
+      "height": 600
+    },
+    {
+      "name": "how-to",
+      "height": 1750
+    },
+    {
+      "name": "formula",
+      "height": 1310
+    },
+    {
+      "name": "quick-guide",
+      "height": 1230
+    },
+    {
+      "name": "information",
+      "height": 1841
+    }
+  ],
+  "web_source_unchanged": true,
+  "assets": [
+    {
+      "file": "approved-model-master.png",
+      "bytes": 2161436,
+      "sha256": "5f2723ed3a8506795051f0d61c51de8c684e5eb39582a45e1d60ba34f39b1c41"
+    },
+    {
+      "file": "ingredient-shea-v2.png",
+      "bytes": 669584,
+      "sha256": "d44c2a01c0fffe33d6b641ea1783cd7185fd14e2aae491f789fae5b1ade6e905"
+    },
+    {
+      "file": "Manrope-OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "file": "ManropeVariable.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "file": "official-logo-black.svg",
+      "bytes": 4830,
+      "sha256": "ab3c90286c5440ceb11a4ac591cbbc10a049a659b57fe7316363a3706a869e24"
+    },
+    {
+      "file": "Pretendard-LICENSE.txt",
+      "bytes": 4419,
+      "sha256": "b04538c9abec39a3db75108cf0af0fd9c77032fe8aa2cf38345b4d250e98e38e"
+    },
+    {
+      "file": "PretendardVariable.woff2",
+      "bytes": 2057688,
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4"
+    },
+    {
+      "file": "product-trio.jpg",
+      "bytes": 285877,
+      "sha256": "ba92d312cab7b53180be95547447e3bd85da54afd693b2d56b1e59d6f7e2f7e3"
+    },
+    {
+      "file": "product-with-sponge.png",
+      "bytes": 2868992,
+      "sha256": "3de92d3cae4396f69e125feec560655ff26d20d5c939357a496924bb0780b323"
+    },
+    {
+      "file": "shade-texture-gold.png",
+      "bytes": 3105070,
+      "sha256": "a823f106347f51316e6943af7c183e2954318bbfe460e96a1d4edd5afba94709"
+    },
+    {
+      "file": "shade-texture-moonstone.png",
+      "bytes": 12335100,
+      "sha256": "6b7a33e15cea85c20d20fc6f5414882fe76ee6dd9b82cd1bddac486c45241f4d"
+    },
+    {
+      "file": "shade-texture-pink.png",
+      "bytes": 2724588,
+      "sha256": "d6734f038b0294c4748d8796fe582c7cdd53a01a96f15034b67946bfc57d3b43"
+    },
+    {
+      "file": "tam-formula-three.jpg",
+      "bytes": 328509,
+      "sha256": "d4d0ad09705a16f7c48224074514217ea2360182dd048d45c6f40a07c147a900"
+    },
+    {
+      "file": "tam-gold.jpg",
+      "bytes": 1121960,
+      "sha256": "e8ab5770c63b49bb7b1b5da537706d4c54634f634db070b9eae4d3df1b6ca03d"
+    },
+    {
+      "file": "tam-intro-1-still.jpg",
+      "bytes": 179209,
+      "sha256": "592a57db6835eccede653c15123f965fe83675e780addb39ad12e4a8d88108ee"
+    },
+    {
+      "file": "tam-intro-1.webp",
+      "bytes": 1364516,
+      "sha256": "f9749f60d907a745e10df033d020953b51f724ce54b767977241f005805626e5"
+    },
+    {
+      "file": "tam-moonstone.jpg",
+      "bytes": 1126765,
+      "sha256": "0901cd497d2f59c28152d132a7e0bbe9efb1165716b558f427a5cfa6b9164f4e"
+    },
+    {
+      "file": "tam-pearl-detail-still.jpg",
+      "bytes": 96302,
+      "sha256": "96692b0443ce76bf0aa2b17a6c62a595c72ec9b15c5d1f51ecc105529a2e570e"
+    },
+    {
+      "file": "tam-pearl-detail.webp",
+      "bytes": 1220374,
+      "sha256": "632191c4c022115f0a78a640e67c7f1a24138a8766f6a14150951122ce1d89f2"
+    },
+    {
+      "file": "tam-pink.jpg",
+      "bytes": 1114138,
+      "sha256": "c79167f28fd24e4c21124257fcf91ac6b90dea8a7c79ffe2903c0064558e202c"
+    }
+  ],
+  "figma_status": "not_uploaded_starter_mcp_limit",
+  "figma_file": "https://www.figma.com/design/EB9W31rgIwrchSEAfbWTNA",
+  "figma_import": "9 SVG sections with text/vector layers; motions represented by same-placement stills. Native Figma import not yet verified.",
+  "production_cafe24_changed": false,
+  "preview_integration": "Existing product-24 route; isolated responsive full-height iframe, expanded by default. Purchase/options/reviews retained."
+}

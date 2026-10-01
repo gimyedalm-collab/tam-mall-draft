@@ -3,6 +3,15 @@
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
   "phase": "purchase_ui_popup_shipping_preview_complete; administrator_connection_next",
+  "highlighter_r30_20261001": {
+    "approved_snapshot": "highlighter-r30/",
+    "preview_product": "storefront-v2/preview/product-24.html",
+    "scope": "Approved detail connected to the existing GitHub homepage product route. Prices, option values, purchase scripts and review content unchanged.",
+    "cafe24_production_changed": false,
+    "figma_status": "Upload blocked by Starter MCP tool call limit; 9 static import SVGs prepared. Native Figma import/rendering not yet verified.",
+    "verification": "highlighter-r30/verification.json",
+    "next_action": "Resume native Figma upload and visual verification when the connected team's MCP limit is available."
+  },
   "policy": "Latest user confirmation: retain actual administrator coupon, free-shipping and discount settings. Read them after login and align UI. If they conflict with earlier requested coupon-preserved free shipping, report the discrepancy before changing commercial settings.",
   "requested_changes": {
     "free_shipping": "Preview uses 30000 KRW before coupons. Keep actual admin settings per latest confirmation; reconcile any mismatch with earlier coupon-preserved-shipping intent.",

@@ -1,2 +1,5 @@
 storefront-v2/** -text whitespace=cr-at-eol
 storefront-v2/**/Pretendard-LICENSE.txt -whitespace
+highlighter-r30/** -text whitespace=cr-at-eol
+highlighter-r30/assets/*-LICENSE.txt -whitespace
+highlighter-r30/assets/*-OFL.txt -whitespace

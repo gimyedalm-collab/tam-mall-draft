@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="600" viewBox="0 0 860 600">
+<rect width="860" height="600" fill="#F2E8E9" />
+<text x="56" fill="#1A1A1A" font-family="Pretendard" font-size="32" font-weight="400" letter-spacing="-0.32" text-anchor="start">
+<tspan x="56" y="116">손끝에 부드럽게,</tspan>
+</text>
+<text x="56" fill="#1A1A1A" font-family="Pretendard" font-size="48" font-weight="700" letter-spacing="-1.44" text-anchor="start">
+<tspan x="56" y="190">얇게 펴 바르는 텍스처.</tspan>
+</text>
+<rect x="56" y="284" width="748" height="1" rx="0" fill="#E4DEDF" stroke="none" stroke-width="1" />
+<text x="56" fill="#1A1A1A" font-family="Pretendard" font-size="28" font-weight="600" letter-spacing="-0.504" text-anchor="start">
+<tspan x="56" y="368">부드러운 스틱 제형</tspan>
+</text>
+<text x="56" fill="#6F6A6B" font-family="Pretendard" font-size="25" font-weight="400" letter-spacing="-0.25" text-anchor="start">
+<tspan x="56" y="427">손끝으로 경계를</tspan>
+<tspan x="56" y="467">가볍게 펴 바르는 제형.</tspan>
+</text>
+<text x="456" fill="#1A1A1A" font-family="Pretendard" font-size="28" font-weight="600" letter-spacing="-0.504" text-anchor="start">
+<tspan x="456" y="368">피부 위 펄 표현</tspan>
+</text>
+<text x="456" fill="#6F6A6B" font-family="Pretendard" font-size="25" font-weight="400" letter-spacing="-0.25" text-anchor="start">
+<tspan x="456" y="427">얇게 펴 바른 피부 위로</tspan>
+<tspan x="456" y="467">펄의 광택이 드러납니다.</tspan>
+</text>
+</svg>

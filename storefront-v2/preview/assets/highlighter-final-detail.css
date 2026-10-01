@@ -1,0 +1,7 @@
+/* Approved R30 artwork: keep its typography isolated from storefront styles. */
+.highlighter-final-detail{width:100%;max-width:860px;margin:28px auto 40px;padding:0;scroll-margin-top:100px}
+.highlighter-detail-frame{width:100%;aspect-ratio:860/14131;background:#fff}
+.highlighter-detail-frame iframe{display:block;width:100%;height:100%;border:0;margin:0;padding:0}
+.highlighter-detail-return{display:flex;justify-content:center;align-items:center;min-height:48px;margin:24px 20px 0;border:1px solid #ccc;color:#181818;background:#fff;font-size:14px;text-decoration:none}
+.highlighter-detail-return:focus-visible{outline:2px solid #181818;outline-offset:4px}
+#purchase-options{scroll-margin-top:100px}
