@@ -1,0 +1,74 @@
+{
+  "version": "R32",
+  "date": "2026-10-02",
+  "product_no": 24,
+  "scope": "GitHub preview only. Cafe24 production unchanged.",
+  "changes": [
+    "Higgsfield product light film (5 seconds), labelled AI 연출 영상.",
+    "Actual original skin video (3.45 seconds), not regenerated or relit.",
+    "Skin-first three-shade chart using identical crop geometry.",
+    "Actual application / nose placement photography.",
+    "Repeated copy removed; vegan and ingredient section retained."
+  ],
+  "generation": {
+    "provider": "Higgsfield",
+    "model": "kling3_0_turbo",
+    "job_id": "3cebe77a-1b08-4f6f-86df-419b12013da3",
+    "quoted_credits": 10,
+    "prompt": "A restrained premium Korean cosmetics campaign film, one continuous 5-second studio insert. Start from the supplied exact photograph: three pink TAM BEAUTY highlighter sticks, ivory at left, pink at center, beige gold at right, with three stationary swatch smears behind them on pure warm white. Locked-off static camera, no movement, square composition unchanged. All three rigid products and all printed black tam BEAUTY lettering remain absolutely stationary, geometrically identical and crisply legible from first frame to last. One very broad softbox reflection travels gently from upper left to upper right during seconds 1 to 4, revealing subtle existing pearlescent material highlights without changing the base colours. Smooth soft shadow movement only a few millimeters. Gentle studio light choreography, quiet luxury, photoreal commercial still life. First and last half-second calmly held. Focus plane locked on all three sticks; no focus drift or rack focus. No camera orbit, no product rotation, no flying particles, no starbursts, no added glitter, no liquid or melting, no extrusion, no shape morphing, no new objects, no humans, no additional typography. Preserve all original product silhouettes, brand lettering and swatch boundaries exactly.",
+    "source": "highlighter-r30/assets/product-trio.jpg",
+    "output": "highlighter-r32/assets/hero-light.mp4",
+    "ai_usage": "Product campaign animation only. Not used as real swatch or efficacy proof."
+  },
+  "actual_footage": {
+    "source_filename": "탐뷰티_[3종 중 택 1] 더 젤리 빔 하이라이터_문가영_클린본.mp4",
+    "clip": {
+      "start_seconds": 26,
+      "duration_seconds": 3.45,
+      "crop": [
+        0,
+        150,
+        2160,
+        2600
+      ],
+      "output": [
+        748,
+        900
+      ]
+    },
+    "stills": {
+      "application_seconds": 13,
+      "nose_seconds": 24.7
+    },
+    "edits": "Trim, spatial crop, resize and web compression only. No recolour, skin retouch, light synthesis or speed change."
+  },
+  "shade_images": {
+    "source": "Existing official tam-moonstone.jpg / tam-pink.jpg / tam-gold.jpg",
+    "crop": [
+      150,
+      1550,
+      2550,
+      1350
+    ],
+    "recolour": false
+  },
+  "motion": {
+    "count": 2,
+    "muted": true,
+    "inline": true,
+    "viewport_gated": true,
+    "pause_controls": true,
+    "reduced_motion": "Poster by default; user can explicitly play."
+  },
+  "height": {
+    "before": 14131,
+    "after": 10621,
+    "reduction_percent": 24.8
+  },
+  "verification": {
+    "static_mobile_review": "Passed at 390px; reviewed campaign, shades, how-to, texture, formula.",
+    "browser": "Pending; browser connection unavailable.",
+    "purchase_area": "Passed: full product HTML byte-identical except iframe source.",
+    "structure": "Passed: all local assets resolve, 2 silent H264 films, controls, script syntax and iframe height."
+  }
+}
