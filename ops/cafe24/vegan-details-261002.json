@@ -110,12 +110,12 @@
       "bytes": 843168
     },
     {
-      "path": "storefront-v2/preview/assets/vegan-details-261002/lipliner-06.png",
+      "path": "storefront-v2/preview/assets/vegan-details-261002/lipliner-06-r34.png",
       "width": 860,
       "height": 1942,
       "frames": 1,
-      "sha256": "e508489b1e9585c4adfd54ce1c276f1f06df00923423b05c26f87915f75c66ca",
-      "bytes": 581299
+      "sha256": "82137b45382d7847c1becb7af502aadb11cd87c012cb250a85b67066b0995ebb",
+      "bytes": 581357
     },
     {
       "path": "storefront-v2/preview/assets/vegan-details-261002/lipliner-07.png",
@@ -258,5 +258,27 @@
   "browser_qa": "Chrome public pages: all 3 product routes at desktop and 390px; no horizontal overflow. Vegan hero artwork visually checked. Highlighter native text and R31 frame verified. Not checkout testing.",
   "publication": "Published to GitHub Pages; content commit 3bc0d198d07c61e75fbb0095c6e21baca36d7d2d verified built.",
   "cafe24_production_changed": false,
-  "live_asset_verification": "8 revised PNGs matched public bytes exactly; embed HTML matched after LF/CRLF normalization."
+  "live_asset_verification": "8 revised PNGs matched public bytes exactly; embed HTML matched after LF/CRLF normalization.",
+  "lipliner_alignment_r34": {
+    "scope": "Ingredient text geometry only; four droplet centers and 14px visible inter-group spacing.",
+    "verification": "PNG dimensions preserved; pixels outside four text regions are identical. Product HTML changed one image URL only.",
+    "bubble_centers": [
+      [
+        244,
+        666
+      ],
+      [
+        581,
+        974
+      ],
+      [
+        328,
+        1297
+      ],
+      [
+        621,
+        1585
+      ]
+    ]
+  }
 }
