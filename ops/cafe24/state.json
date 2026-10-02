@@ -64,5 +64,15 @@
     "snap_push_and_kakao": "Live audit 2026-09-21 (product 23, PC+mobile, 18s): Snap Push is loaded (spmislive=1) but renders nothing - Spm_Mgr/get_banner returns empty, useKakao=0, kakaoDevKey empty. The Kakao element that follows the visitor today is the skin quick menu (.quick-menu fixed bottom-right) fed by Banner Manager group \"우측 상담톡 퀵메뉴 (cs-talk)\" linking to https://pf.kakao.com/_nxhIxhn, plus an in-page \"카카오톡 채널 추가하고 3,000원 쿠폰 받기\" link. Owner decision: keep using the Snap review widget for reviews. Recommendation given: do not adopt Snap Push for the following Kakao prompt; the frozen design already has its own channel panel/badge (purchase-experience.js). Whether Snap Push is billed was not verified.",
     "order_flow_check": "Verified on the clone skin preview URL without submitting an order: visible custom option row (li.custom-opt__item) -> total price shown -> native buy button (product_submit(1, ...basket...)) -> guest checkout -> order form renders product/option, shipping fee and all payment methods with the pay button. The hidden native select does not react to automation; click the visible custom list instead. Payment completion still needs an owner-approved paid test order + cancel.",
     "channel_button": "Owner decision 2026-09-21: keep the persistent bottom-right Kakao channel button. Preview: assets/channel-button.js loaded by tam.js and design-only.js; the floating review button stacks above it. On Cafe24 the existing skin quick menu (Banner Manager) keeps this role, so channel-button.js is preview-only. Snap Push is not needed."
+  },
+  "vegan_details_20261002": {
+    "products": [
+      23,
+      24,
+      118
+    ],
+    "status": "prepared",
+    "verification": "vegan-details-261002.json",
+    "production_cafe24_changed": false
   }
 }

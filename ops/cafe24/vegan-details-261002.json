@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-02",
+  "base_commit": "45593c62e73c94ee49d218c1eccbb011681160ef",
+  "products": [
+    23,
+    24,
+    118
+  ],
+  "source_versions": [
+    "cushion 0908 vegan",
+    "highlighter R31",
+    "lipliner R33"
+  ],
+  "checks": {
+    "outside_detail_unchanged": {
+      "23": true,
+      "24": true,
+      "118": true
+    },
+    "missing_files": [],
+    "motion_sections": 6
+  },
+  "assets": [
+    {
+      "path": "storefront-v2/preview/assets/vegan-details-261002/lipliner-01.png",
+      "width": 860,
+      "height": 1792,
+      "frames": 1,
+      "sha256": "65ee1a0d2fecaa60fba86b0e81ac6bfe31e546cd9377749895f08125705173dd",
+      "bytes": 1147180
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/02.png",
+      "width": 860,
+      "height": 1758,
+      "frames": 1,
+      "sha256": "d6c7576e1819e343032e319e3a30028a99ec8e32dfcf5733c42029621a75b74b",
+      "bytes": 1069861
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/03a.png",
+      "width": 860,
+      "height": 504,
+      "frames": 1,
+      "sha256": "72816e3f3d2be978bba9c9bcaada1675d750b5365a136191ab31ddc45b5f9ce6",
+      "bytes": 17750
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/03b.webp",
+      "width": 860,
+      "height": 562,
+      "frames": 61,
+      "sha256": "5a781379f0975dcfae1821e0a6bc1be42a3fc39df6c5525af480c3d194217d77",
+      "bytes": 937928
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/03c.png",
+      "width": 860,
+      "height": 20,
+      "frames": 1,
+      "sha256": "4c58567fd165ca428db833563248f98d865f6a118e3497511e82d90eac6b5f2e",
+      "bytes": 164
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/03d.webp",
+      "width": 860,
+      "height": 320,
+      "frames": 59,
+      "sha256": "887e9f4afcf43f2f13338f1c6770f9e1c35fbdab11b56fb800c900218245ab43",
+      "bytes": 464466
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/03e.png",
+      "width": 860,
+      "height": 572,
+      "frames": 1,
+      "sha256": "b0baf8fc5c4171c60a31925b3ea301b1969020ab9d5a11c6614a5eb06fec33e4",
+      "bytes": 249863
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/04a.png",
+      "width": 860,
+      "height": 391,
+      "frames": 1,
+      "sha256": "361f0f30c661648922f5261e70794fe79203903edd9dfb65600fb999354ba9f6",
+      "bytes": 10579
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/04b.webp",
+      "width": 860,
+      "height": 304,
+      "frames": 54,
+      "sha256": "4649be1d2db9310142780d57374544355a6e42420abc917bf391ca120de71cd4",
+      "bytes": 394566
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/04c.png",
+      "width": 860,
+      "height": 455,
+      "frames": 1,
+      "sha256": "50832ea4389ff7fa0217e3e346a03058f58e52b16df9f89511c0cbcf7eda064a",
+      "bytes": 23447
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/05.png",
+      "width": 860,
+      "height": 3459,
+      "frames": 1,
+      "sha256": "12b835055f78daa2023d1f1a7da45d561a830b24acc2abc21742b8a424cfde00",
+      "bytes": 843168
+    },
+    {
+      "path": "storefront-v2/preview/assets/vegan-details-261002/lipliner-06.png",
+      "width": 860,
+      "height": 1942,
+      "frames": 1,
+      "sha256": "e508489b1e9585c4adfd54ce1c276f1f06df00923423b05c26f87915f75c66ca",
+      "bytes": 581299
+    },
+    {
+      "path": "storefront-v2/preview/assets/vegan-details-261002/lipliner-07.png",
+      "width": 860,
+      "height": 1703,
+      "frames": 1,
+      "sha256": "0212e8a38f28d5a50a2424b82edd04162f9a27e347dc50940b7f71420f27f4a8",
+      "bytes": 83579
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/08.png",
+      "width": 860,
+      "height": 1168,
+      "frames": 1,
+      "sha256": "0adfa8e583756752fc804e9f6621a7849283e1e6d5873b44b576e5613dac54ba",
+      "bytes": 294656
+    },
+    {
+      "path": "storefront-v2/preview/assets/cloud-plumping-lip-liner-r32/09.png",
+      "width": 860,
+      "height": 1142,
+      "frames": 1,
+      "sha256": "c0d919027c7ddff010d60fc210f52b009eeb391da29677a4819e265c19c1dbfb",
+      "bytes": 62107
+    },
+    {
+      "path": "storefront-v2/preview/assets/vegan-details-261002/lipliner-10.png",
+      "width": 860,
+      "height": 2281,
+      "frames": 1,
+      "sha256": "5ca264287a52d1fb289fecb69f9190e5c740b59cc5ebd4d8784c3dc07cd8f5d1",
+      "bytes": 277498
+    },
+    {
+      "path": "storefront-v2/preview/assets/vegan-details-261002/cushion-hero-vegan.png",
+      "width": 860,
+      "height": 220,
+      "frames": 1,
+      "sha256": "8c794b9a143f982cdbf621b2fdab7c559de5d50b7db24a3c2ff5fafd855db6a9",
+      "bytes": 13751
+    },
+    {
+      "path": "storefront-v2/preview/assets/jelly-skin-cushion-0908/01.jpg",
+      "width": 860,
+      "height": 2306,
+      "frames": 1,
+      "sha256": "e46c3688851bd0264dd801f936374f2ea84fe2f6c2c5a3cd8c262b4a9935f07e",
+      "bytes": 1010745
+    },
+    {
+      "path": "storefront-v2/preview/assets/jelly-skin-cushion-0908/02.webp",
+      "width": 860,
+      "height": 1520,
+      "frames": 253,
+      "sha256": "44a1599a669bb42c199fa53c200c9d8213f3f68848db95a8564bb45f1c13a6b3",
+      "bytes": 9339494
+    },
+    {
+      "path": "storefront-v2/preview/assets/jelly-skin-cushion-0908/03.jpg",
+      "width": 860,
+      "height": 5071,
+      "frames": 1,
+      "sha256": "e4570b7b9c2bb3bbecb1f66342efa860946d343a4d72e5eee0abb71ff3484b70",
+      "bytes": 1767398
+    },
+    {
+      "path": "storefront-v2/preview/assets/jelly-skin-cushion-0908/04.jpg",
+      "width": 860,
+      "height": 4200,
+      "frames": 1,
+      "sha256": "ef355bce56a29bb22cb0fca7e46bd516e5a3c8adec820395bafd6821219d7bfc",
+      "bytes": 879967
+    },
+    {
+      "path": "storefront-v2/preview/assets/jelly-skin-cushion-0908/05.webp",
+      "width": 860,
+      "height": 1520,
+      "frames": 288,
+      "sha256": "87abf8aa96ced9fba7e3d7b2a2db00d76449d83deb2b6336c6b127a26e0c5798",
+      "bytes": 18986000
+    },
+    {
+      "path": "storefront-v2/preview/assets/jelly-skin-cushion-0908/06.jpg",
+      "width": 860,
+      "height": 482,
+      "frames": 1,
+      "sha256": "99279fa55b4487f47f2a23f9e20d71bf60dc8eec642f7e0e48e92eaf925f865b",
+      "bytes": 68346
+    },
+    {
+      "path": "storefront-v2/preview/assets/jelly-skin-cushion-0908/07.webp",
+      "width": 860,
+      "height": 544,
+      "frames": 65,
+      "sha256": "fb485e9c58398553a4a48ba2a0e9780c87aafe5c00df10af638d12814c13bb94",
+      "bytes": 9856904
+    },
+    {
+      "path": "storefront-v2/preview/assets/vegan-details-261002/cushion-formula-vegan.png",
+      "width": 860,
+      "height": 240,
+      "frames": 1,
+      "sha256": "f48c9442dcee32d46c22de6e4e39b7b8597b5fa22d59e6c050139adca77433db",
+      "bytes": 10439
+    },
+    {
+      "path": "storefront-v2/preview/assets/jelly-skin-cushion-0908/08.jpg",
+      "width": 860,
+      "height": 2938,
+      "frames": 1,
+      "sha256": "2a0bc5ba0ff3562ea965b30dc9b2113a6896484d9918114afc711b641eb8a907",
+      "bytes": 818294
+    },
+    {
+      "path": "storefront-v2/preview/assets/vegan-details-261002/cushion-09a-skin-test.png",
+      "width": 860,
+      "height": 1350,
+      "frames": 1,
+      "sha256": "790e958be937f3747e7f4ba00f316cc47aa458a428b3d73086b92e9fe7b89c15",
+      "bytes": 182093
+    },
+    {
+      "path": "storefront-v2/preview/assets/vegan-details-261002/cushion-09b-case-puff.png",
+      "width": 860,
+      "height": 1202,
+      "frames": 1,
+      "sha256": "221a67c7e15ffeb7c839424f4839f34f66fa9a83e5b51de14bd348eda33669d6",
+      "bytes": 375052
+    },
+    {
+      "path": "storefront-v2/preview/assets/jelly-skin-cushion-0908/10.jpg",
+      "width": 860,
+      "height": 2368,
+      "frames": 1,
+      "sha256": "2f4accf18db8483b4ce8ae7d07003ce0adf26e2abb8522881e53351b175b3896",
+      "bytes": 375347
+    }
+  ],
+  "highlighter_motion_count": 2,
+  "browser_qa": "not performed",
+  "publication": "prepared; awaiting target confirmation",
+  "cafe24_production_changed": false
+}
