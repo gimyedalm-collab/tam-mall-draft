@@ -1,0 +1,79 @@
+{
+  "source_version": "V9",
+  "product_no": 102,
+  "scope": "Reviewed V8 with original Real Colors/Color Chart replacing colour board",
+  "outside_detail_unchanged_except_style_and_purchase_anchor": true,
+  "sections": [
+    {
+      "file": "01.png",
+      "width": 860,
+      "height": 950,
+      "frames": 1,
+      "sha256": "faa724da47d8c0b033dc959a66e34c9d69533770af3e2f60b21fefd463956674"
+    },
+    {
+      "file": "02.png",
+      "width": 860,
+      "height": 2664,
+      "frames": 1,
+      "sha256": "6a2c3a953b46519faa3d9d18ac842f766a5124d3ffdac7a06d65f44da4341f55"
+    },
+    {
+      "file": "03.png",
+      "width": 860,
+      "height": 760,
+      "frames": 1,
+      "sha256": "1264fe1ccb4cb82671f344e9f21739f588ff58af12ff331efa68d3cfa41215d2"
+    },
+    {
+      "file": "04.png",
+      "width": 860,
+      "height": 231,
+      "frames": 1,
+      "sha256": "e92be4b5cb318f5c2265e332e846552f8fdd938683263dbe4dd7a24ff4e6062c"
+    },
+    {
+      "file": "05.gif",
+      "width": 860,
+      "height": 560,
+      "frames": 36,
+      "sha256": "b4f09038de61ee10e8760b6f3feca8e69e9487fd96e4a038a4bb785b4f3ecd77"
+    },
+    {
+      "file": "06.png",
+      "width": 860,
+      "height": 189,
+      "frames": 1,
+      "sha256": "ea65a2e440cb6a8c895e61bc8f5ec68e72f6cc3295ef9e68f7d59ab60c32be34"
+    },
+    {
+      "file": "07.png",
+      "width": 860,
+      "height": 540,
+      "frames": 1,
+      "sha256": "30a4da5bb8a135d4bb846af6840e9ab13b457ef2c7a4e903de2fa9ef3695a262"
+    }
+  ],
+  "motion_count": 1,
+  "source": {
+    "baseline": "V8",
+    "change": "Color selection panel only; original Real Colors + Color Chart viewport replaces repeated separate colour rows.",
+    "source": "milky_blsuh_03.jpg (brand supplied 2026 detail)",
+    "source_sha256": "d803f215b4b9f4ea80029b7d22f09863e045ec70f883d07d0fe0330a62d7e78b",
+    "source_viewport": [
+      0,
+      5740,
+      840,
+      8070
+    ],
+    "original_pixels_unchanged": true,
+    "vegan_hero_and_formula": "retained from V8",
+    "motion_sources": [
+      "05 최예은 3steps.mp4"
+    ],
+    "new_motion": false,
+    "width": 860,
+    "height": 5894
+  },
+  "production_cafe24_changed": false
+}

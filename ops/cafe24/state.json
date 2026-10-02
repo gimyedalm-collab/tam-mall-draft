@@ -75,5 +75,12 @@
     "verification": "vegan-details-261002.json",
     "production_cafe24_changed": false
   },
-  "release_policy_20261002": "사용자 확인: 현재 작업은 GitHub 쇼핑몰에 반영. 운영몰 tambeauty.kr은 전체 작업 완료 후 한 번에 적용. 현재 운영몰 수정 금지."
+  "release_policy_20261002": "사용자 확인: 현재 작업은 GitHub 쇼핑몰에 반영. 운영몰 tambeauty.kr은 전체 작업 완료 후 한 번에 적용. 현재 운영몰 수정 금지.",
+  "cheek_v9_20261002": {
+    "status": "github_publish_prepared",
+    "product_no": 102,
+    "real_chart": "Original brand-provided Real Colors and Color Chart used without recolouring.",
+    "verification": "cheek-detail-v9.json",
+    "production_cafe24_changed": false
+  }
 }
