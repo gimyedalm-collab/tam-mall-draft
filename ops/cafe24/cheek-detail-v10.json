@@ -1,0 +1,77 @@
+{
+  "baseline": "V9, other sections and motion unchanged",
+  "change": "Replace entire decorative Real Colors/Color Chart strip with four unadorned original cheek photographs in equal rectangular viewports.",
+  "image_regeneration": false,
+  "recolouring": false,
+  "skin_retouch": false,
+  "source_photos": [
+    {
+      "type": "photo",
+      "file": "cheek01.jpg",
+      "x": 48,
+      "y": 254,
+      "w": 764,
+      "h": 508.06543385490755,
+      "crop": [
+        90,
+        935,
+        2812,
+        1870
+      ],
+      "source_sha256": "5552f3762cf17fa105f76af034472b20936ea46c325d67df5c455dd5d1000c9a"
+    },
+    {
+      "type": "photo",
+      "file": "cheek02.jpg",
+      "x": 48,
+      "y": 876,
+      "w": 764,
+      "h": 508.06543385490755,
+      "crop": [
+        90,
+        935,
+        2812,
+        1870
+      ],
+      "source_sha256": "55991e2aebda44e8f952501104569ba6d8c4f14a2e2e6622d959a067ae84c2c3"
+    },
+    {
+      "type": "photo",
+      "file": "cheek03.jpg",
+      "x": 48,
+      "y": 1498,
+      "w": 764,
+      "h": 508.06543385490755,
+      "crop": [
+        90,
+        935,
+        2812,
+        1870
+      ],
+      "source_sha256": "a74d32a05d9f2b22905c46f6cdb3ec7d1aed8935ffd3a44a00bba60572feab40"
+    },
+    {
+      "type": "photo",
+      "file": "cheek04.jpg",
+      "x": 48,
+      "y": 2120,
+      "w": 764,
+      "h": 508.06543385490755,
+      "crop": [
+        90,
+        935,
+        2812,
+        1870
+      ],
+      "source_sha256": "803028bc424e9ed3b1aea14ece5c1620365212d2abd22eb8e1741503a7e88463"
+    }
+  ],
+  "product_no": 102,
+  "product_html_changes": [
+    "one colour-panel image URL and its height",
+    "detail release identifier"
+  ],
+  "published_asset": "storefront-v2/preview/assets/milky-cheek-v9/02-real-colors-v10.png",
+  "sha256": "b2d72f95878a9a76b7fe47e0deb196bfa4aeffa98e8933a18d6a4106da6539c3",
+  "production_cafe24_changed": false
+}
