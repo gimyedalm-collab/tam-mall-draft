@@ -67,8 +67,9 @@
   },
   "verification": {
     "static_mobile_review": "Passed at 390px; reviewed campaign, shades, how-to, texture, formula.",
-    "browser": "Pending; browser connection unavailable.",
+    "browser": "Actual campaign playback and pause/resume checked in browser. 390px storefront reviewed: no horizontal overflow, correct embed height and original commerce area preserved.",
     "purchase_area": "Passed: full product HTML byte-identical except iframe source.",
-    "structure": "Passed: all local assets resolve, 2 silent H264 films, controls, script syntax and iframe height."
+    "structure": "Passed: all local assets resolve, 2 silent H264 films, controls, script syntax and iframe height.",
+    "published_files": "GitHub Pages build 46b29939 succeeded. Public product HTML, embed HTML, CSS and both MP4s match local content (text normalized to LF)."
   }
 }
