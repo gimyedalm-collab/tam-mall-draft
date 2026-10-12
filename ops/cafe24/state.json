@@ -123,5 +123,17 @@
     "preview_product": "storefront-v2/preview/product-24.html",
     "verification": "highlighter-r32.json",
     "production_cafe24_changed": false
+  },
+  "main_film_v13_20261012": {
+    "status": "approved_video_integrated_for_github_pages",
+    "path": "storefront-v2/preview/design-only.html",
+    "asset": "assets/tam-main-film-v13-261012.mp4",
+    "duration_seconds": 7.833333333333333,
+    "format": "1920x1080,24fps,H264,silent",
+    "mobile": "4:3 hero replaces excessive tall center crop; same approved video",
+    "ending": "1.5s full logo hold retained; duplicate page caption hidden during end card",
+    "playback": "native muted autoplay loop playsinline; reduced-motion and pause control retained",
+    "production_cafe24_changed": false,
+    "next_action": "Verify public Pages deployment and record final playback evidence."
   }
 }

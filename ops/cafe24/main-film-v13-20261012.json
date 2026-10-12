@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-12",
+  "scope": "GitHub Pages homepage film only; Cafe24 production unchanged",
+  "video_sha256": "675fd4952c2af45e86f378f56281864186f8b0751951b1d7b39bd9747a69e9e3",
+  "video": {
+    "frames": 188,
+    "fps": 24,
+    "duration_seconds": 7.833333333333333,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "approved_file_unchanged": true
+  },
+  "browser": "Chrome desktop with 390px responsive iframe",
+  "mobile_visual": [
+    "new sofa face and puff visible",
+    "1.25s face closeup visible",
+    "full logo visible",
+    "duplicate lower page caption hidden on end card"
+  ],
+  "local_loop": {
+    "observed_wraps": 4,
+    "duration_seconds": 7.833333,
+    "ready_state": 4,
+    "muted": true,
+    "loop": true,
+    "playsinline": true,
+    "wrap_samples": [
+      [
+        7.807972,
+        0.014009
+      ],
+      [
+        7.825697,
+        0.028825
+      ],
+      [
+        7.822703,
+        0.044955
+      ],
+      [
+        7.833333,
+        0.051365
+      ]
+    ],
+    "waiting_to_playing_ms": [
+      1.6,
+      1.5,
+      1.1,
+      2.1
+    ],
+    "note": "Native loop is a deliberate cut from held logo back to opening footage, not a blended transition."
+  },
+  "limits": [
+    "Responsive Chrome checks do not substitute for physical iOS/Android hardware testing."
+  ],
+  "public_verification": "pending deployment"
+}

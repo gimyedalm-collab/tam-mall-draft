@@ -1,0 +1,14 @@
+/* Preserve the approved film framing on narrow screens. */
+@media (max-width: 760px) {
+  .do-hero { height: auto; min-height: 0; max-height: none; aspect-ratio: 4 / 3; }
+  .do-hero video { width: 100%; height: 100%; }
+  .do-hero-copy { bottom: 18px; }
+  .do-hero-copy h1 { width: 100px; }
+  .do-hero-copy p { font-size: 12px; line-height: 1.5; }
+}
+
+.do-hero[data-film-ending] .do-hero-copy { opacity: 0; }
+.do-hero-copy { transition: opacity 180ms linear; }
+.do-header[data-film-ending] { color: #282326; }
+.do-header[data-film-ending] .logo { filter: brightness(0); }
+@media (prefers-reduced-motion: reduce) { .do-hero-copy { transition: none; } }
