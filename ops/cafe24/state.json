@@ -1,4 +1,13 @@
 {
+  "highlighter_light_polish_20261012": {
+    "status": "on_skin_copy_and_colour_navigation_refined",
+    "change": "Four-person footage introduced with a concise on-skin title. HOW TO moved below footage. One understated link returns to the existing shade chart, including within the shop iframe.",
+    "preserved": "All media, colour descriptions, section heights, vegan formula messaging and commerce markup.",
+    "shade_attribution": "No per-person shade labels added: supplied source metadata does not establish exact shades.",
+    "verification": "390px content-width visual check; standalone and shop iframe colour-link click checked; existing layout/media/commerce invariant check passed.",
+    "publishing": "GitHub Pages only",
+    "production_cafe24_changed": false
+  },
   "highlighter_four_looks_20261012": {
     "status": "four_distinct_actual_use_clips_composed",
     "change": "HOW TO single-person application loop replaced with four other people in a 2x2 motion grid. One grouped play/pause control; no added motion surfaces.",

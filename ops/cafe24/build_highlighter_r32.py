@@ -77,14 +77,16 @@ text(s,'얇게 펴 바를수록 은은하게,\n덧바를수록 더 선명하게.
 photo(s,'tam-pearl-detail.webp',488,250,316,316,'실제 제형의 펄 움직임을 보여주는 확대 GIF')
 
 s=section('how-to',1550)
-label(s,'HOW TO',76)
-text(s,'원하는 부위에 가볍게 터치',56,132,size=48,weight=600,line=62)
-text(s,'소량씩 바르고, 손끝으로 부드럽게 블렌딩해 주세요.',56,219,size=30,color='#6F6A6B')
+label(s,'ON SKIN',76)
+text(s,'피부에 바른 펄감',56,132,size=48,weight=600,line=62)
+text(s,'3가지 컬러 비교하기',56,219,size=26,color='#6F6A6B')
+s['elements'][-1]['href']='#shades'
 photo(s,'howto-four-looks-poster-261012.jpg',56,305,748,912,'서로 다른 네 사람의 실제 하이라이터 사용과 메이크업 모습',video='howto-four-looks-261012.mp4')
-text(s,'광대',56,1270,w=350,size=34,weight=600)
-text(s,'광대 위에 가볍게 바른 뒤\n손끝으로 톡톡 펴 주세요.',56,1327,w=360,size=28,line=44,color='#6F6A6B')
-text(s,'콧대',450,1270,w=354,size=34,weight=600)
-text(s,'손끝에 소량을 묻혀\n콧대에 짧게 두드려 주세요.',450,1327,w=354,size=28,line=44,color='#6F6A6B')
+label(s,'HOW TO',1241)
+text(s,'광대',56,1300,w=350,size=34,weight=600)
+text(s,'광대 위에 가볍게 바른 뒤\n손끝으로 톡톡 펴 주세요.',56,1357,w=360,size=28,line=44,color='#6F6A6B')
+text(s,'콧대',450,1300,w=354,size=34,weight=600)
+text(s,'손끝에 소량을 묻혀\n콧대에 짧게 두드려 주세요.',450,1357,w=354,size=28,line=44,color='#6F6A6B')
 text(s,'메이크업 위에서는 문지르기보다 소량씩 두드려 사용하세요.',56,1480,size=24,color='#767074')
 
 formula = copy.deepcopy(original['formula'])
@@ -133,7 +135,7 @@ def markup(s):
             if e.get('accent_word'):
                 lines=[v.replace(e['accent_word'],f'<span style="color:#925368">{e["accent_word"]}</span>') for v in lines]
             content='<br>'.join(lines)
-            if e.get('href'):content=f'<a href="{e["href"]}">{content}</a>'
+            if e.get('href'):content=f'<a href="{e["href"]}" target="_self">{content}</a>'
             tag='h1' if s['name']=='hero' and i==0 else 'p'
             out.append(f'<{tag} class="copy" style="{style}">{content}</{tag}>')
         elif e['type']=='image':
@@ -155,6 +157,12 @@ extra='''<style>.photo video{position:absolute;display:block;max-width:none}.mot
 head=head.replace('</head>',extra+'</head>')
 script='''<script>
 const params=new URLSearchParams(location.search);if(params.get('mobile')==='1')document.body.classList.add('mobile');const focus=params.get('focus');if(focus&&document.getElementById(focus)){document.body.dataset.focus=focus;document.getElementById(focus).classList.add('focus');}
+// In the full-height shop iframe, scroll the parent page to the colour chart.
+// Standalone pages retain native anchor navigation.
+document.querySelectorAll('.copy a[href^="#"]').forEach(link=>link.addEventListener('click',event=>{
+  const target=document.getElementById(link.hash.slice(1));if(!target)return;
+  try{const frame=window.frameElement;if(frame){event.preventDefault();window.parent.scrollTo({top:window.parent.scrollY+frame.getBoundingClientRect().top+target.getBoundingClientRect().top-100,behavior:'auto'});}}catch(error){}
+}));
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 const films=[...document.querySelectorAll('.motion')].map(frame=>({frame,video:frame.querySelector('video'),button:frame.querySelector('button'),visible:false,pausedByUser:false}));
 function start(f){if(!f.video.src)f.video.src=f.video.dataset.src;f.video.play().catch(()=>{});}
