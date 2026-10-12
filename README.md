@@ -25,8 +25,8 @@ https://gimyedalm-collab.github.io/tam-mall-draft/
 
 장바구니·주문서는 미리보기이며 실제 주문·결제·쿠폰 발급을 수행하지 않습니다. 카페24 실제 스킨 반영과 관리자 환경 검수는 아직 진행하지 않았습니다. 회원·주문 데이터, 로그인 정보와 NAS 촬영 원본은 포함하지 않았습니다.
 
-## ??? ?? ?? ? 2026-10-12
+## 승인된 메인 영상 · 2026-10-12
 
-[?????? ??](https://gimyedalm-collab.github.io/tam-mall-draft/) ? [?? ??](https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v13-261012.mp4)
+[홈페이지에서 보기](https://gimyedalm-collab.github.io/tam-mall-draft/) · [영상 파일](https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v13-261012.mp4)
 
-v13 ? 7.83? ? 1080p ? ?? ??. ?? ??? ?? ?? ?, ?? ?? 1.25?, ??? ?? ?? 1.5?. ??? ?? ??? ??????.
+v13 · 7.83초 · 1080p · 자동 반복. 소파 반측면 퍼프 사용 컷, 얼굴 접사 1.25초, 마지막 로고 유지 1.5초. 모바일 표시 비율을 보정했습니다.
