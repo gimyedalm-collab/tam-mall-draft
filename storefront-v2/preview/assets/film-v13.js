@@ -14,9 +14,8 @@
       video.requestVideoFrameCallback(frame);
     };
     video.requestVideoFrameCallback(frame);
-  } else {
-    video.addEventListener('timeupdate', () => sync());
   }
+  video.addEventListener('timeupdate', () => sync());
   video.addEventListener('seeked', () => sync());
   video.addEventListener('loadeddata', () => sync());
   sync();

@@ -55,5 +55,30 @@
   "limits": [
     "Responsive Chrome checks do not substitute for physical iOS/Android hardware testing."
   ],
-  "public_verification": "pending deployment"
+  "public_verification": {
+    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/",
+    "deployment_run": 38207158408,
+    "deployment": "success",
+    "media_http_status": 200,
+    "published_sha256_matches_approved": true,
+    "responsive_viewport": [
+      390,
+      844
+    ],
+    "hero_pixels": [
+      375,
+      281
+    ],
+    "horizontal_overflow": false,
+    "autoplay": true,
+    "loop_wrap": [
+      7.805651,
+      0.060816
+    ],
+    "ready_state_during_wrap": 4,
+    "paused_during_wrap": false,
+    "end_overlay_cleared_on_wrap": true,
+    "pause_resume_controls": "passed locally",
+    "note": "Added timeupdate backup to keep end-card caption visibility current when frame callbacks are throttled."
+  }
 }
