@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-12",
+  "scope": "GitHub preview only",
+  "references": [
+    {
+      "brand": "hince",
+      "url": "https://hince.co.kr/product/detail.html?product_no=776",
+      "observed": "Official page plus previously collected official shade and how-to panels. Large headline, short supporting sentence, compact shade descriptions and application instruction.",
+      "adaptation": "Title/body hierarchy and short touch/blending instructions; distinctive copy and images not republished."
+    },
+    {
+      "brand": "Glint",
+      "url": "https://glintbeauty.co.kr/product/글린트-스틱-하이라이터/76/",
+      "observed": "Official product description connects pearl appearance and stick format.",
+      "adaptation": "TAM copy connects pearl finish and soft stick application; proprietary see-through moisture claim not adopted."
+    }
+  ],
+  "typography_860px": {
+    "hero": 58,
+    "section_title": 48,
+    "shade_name": 34,
+    "body": "28–30",
+    "note": "TAM adaptation of visual hierarchy, not claimed exact competitor CSS measurements. Pretendard/Manrope retained."
+  },
+  "how_to": {
+    "source_filename": "탐뷰티_[3종 중 택 1] 더 젤리 빔 하이라이터_이지현_클린본.mp4",
+    "frame_seconds": 9.6,
+    "original_dimensions": [2160, 3840],
+    "export_dimensions": [1080, 1920],
+    "layout_crop": [0, 180, 1080, 809],
+    "asset": "highlighter-r32/assets/howto-touch-261012.jpg",
+    "processing": "Frame extraction, proportional resize, JPEG compression and layout crop only. No recolour or retouch.",
+    "removed_from_layout": ["application.jpg", "nose-detail.jpg"],
+    "section_height": 1190
+  },
+  "detail_height": 10301,
+  "motion_count": 2,
+  "production_cafe24_changed": false
+}

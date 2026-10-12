@@ -1,4 +1,10 @@
 {
+  "highlighter_type_howto_20261012": {
+    "status": "copy_typography_and_howto_revised",
+    "evidence": "highlighter-type-howto-20261012.json",
+    "detail_height": 10301,
+    "production_cafe24_changed": false
+  },
   "highlighter_copy_20261012": {
     "status": "copy_and_decoration_revised",
     "path": "highlighter-r32/",

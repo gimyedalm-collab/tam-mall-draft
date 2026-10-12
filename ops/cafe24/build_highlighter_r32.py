@@ -31,77 +31,80 @@ def label(s, value, y, color='#6F6A6B'):
 
 hero = copy.deepcopy(original['hero'])
 hero_copy = {
-    '빛이 닿는 곳에,': '쓱, 바르고 톡톡',
-    '입체적인 광채.': '윤곽에 더하는 빛',
-    '세 가지 펄 컬러로 더하는 나만의 광채.\n비건 포뮬러의 스틱 하이라이터.': '광대와 콧대에 부드럽게 펴 바르는 펄 스틱.\n비건 포뮬러 · 3가지 컬러',
+    '빛이 닿는 곳에,': '은은한 펄로',
+    '입체적인 광채.': '입체적인 광채',
+    '세 가지 펄 컬러로 더하는 나만의 광채.\n비건 포뮬러의 스틱 하이라이터.': '부드럽게 펴 발리는 스틱 하이라이터\n비건 포뮬러 · 3가지 컬러',
 }
 for e in hero['elements']:
     if e.get('text') in hero_copy:
         e['text'] = hero_copy[e['text']]
     if e.get('accent_word'):
-        e['accent_word'] = '빛'
+        e.pop('accent_word')
+    if e.get('text') in ('은은한 펄로', '입체적인 광채'):
+        e.update(size=58, line=74, weight=600)
+    if e.get('text') == '입체적인 광채':
+        e['y'] = 309
+    if e.get('emphasis_last_line'):
+        e.update(size=30, line=46, y=423)
 sections.append(hero)
 next(e for e in hero['elements'] if e.get('file')=='product-trio.jpg')['video']='hero-light.mp4'
 text(hero,'AI 연출 영상',56,1210,size=18,color='#767074',align='right')
 
 s = section('campaign',1290,'#F2E8E9')
-label(s,'GLOW IN MOTION',70)
-text(s,'고개를 돌릴 때마다',56,124,size=34,line=48)
-text(s,'은은하게 반짝이는 광대',56,178,size=48,weight=700,line=64)
+text(s,'움직임을 따라\n섬세하게 빛나는 펄',56,82,size=48,weight=600,line=62)
 photo(s,'real-glow-poster.jpg',56,282,748,900,'고개를 돌릴 때 광대의 펄 광택이 보이는 실제 사용 영상',video='real-glow.mp4')
-text(s,'빛을 받는 각도에 따라 드러나는 펄감을 확인해 보세요.',56,1210,size=26,color='#625D5F')
+text(s,'각도에 따라 반짝이는 펄이 얼굴에 입체감을 더해줍니다.',56,1210,size=28,color='#625D5F')
 
 s = section('shades',2250)
-label(s,'SHADES',78)
-text(s,'취향에 맞춰 고르는 펄 컬러',56,133,size=43,weight=700,line=62)
-text(s,'맑은 화이트, 부드러운 핑크, 따뜻한 골드.',56,219,size=28,color='#6F6A6B')
+text(s,'세 가지 컬러,\n다채로운 펄 글로우',56,82,size=48,weight=600,line=62)
+text(s,'화이트, 핑크, 골드로 표현하는 세 가지 무드.',56,235,size=30,color='#6F6A6B')
 shade_rows=[
-    ('01 문스톤','화이트 펄','tam-moonstone.jpg','맑고 화사한 광채를 더하고 싶을 때.'),
-    ('02 구미 핑크','핑크 펄','tam-pink.jpg','핑크 메이크업에 은은한 생기를 더하고 싶을 때.'),
-    ('03 테디 골드','골드 펄','tam-gold.jpg','베이지·브라운 메이크업에 따뜻한 윤기를 더할 때.'),
+    ('01 문스톤','아이시 화이트','tam-moonstone.jpg','맑고 시원하게 빛나는 화이트 펄'),
+    ('02 구미 핑크','밀키 핑크','tam-pink.jpg','부드러운 핑크빛으로 더하는 생기'),
+    ('03 테디 골드','베이지 골드','tam-gold.jpg','따뜻한 윤기가 감도는 골드 펄'),
 ]
 for i,(name,tone,file,desc) in enumerate(shade_rows):
     y=335+i*590
-    text(s,name,56,y,size=32,weight=600,w=370)
-    text(s,tone,456,y+4,w=348,size=27,color='#6F6A6B',align='right')
+    text(s,name,56,y,size=34,weight=600,w=370)
+    text(s,tone,456,y+4,w=348,size=28,color='#6F6A6B',align='right')
     photo(s,file,56,y+75,748,396,name+' 원본 피부 발색',crop=[150,1550,2550,1350])
-    text(s,desc,56,y+495,size=28,color='#6F6A6B')
+    text(s,desc,56,y+495,size=30,color='#6F6A6B')
 text(s,'피부 톤과 사용량, 조명에 따라 발색이 다르게 보일 수 있습니다.',56,2160,size=21,color='#767074',line=32)
 
 s=section('texture',650,'#F2F2F2')
-label(s,'TEXTURE',70)
-text(s,'부드럽게 펴 바르는',56,125,w=440,size=34,line=48)
-text(s,'섬세한 펄 텍스처',56,180,w=440,size=42,weight=700,line=58)
-text(s,'스틱으로 가볍게 바르고\n손끝으로 얇게 펴 주세요.\n소량씩 더해 펄감을 조절해요.',56,310,w=400,size=28,line=46,color='#6F6A6B')
+text(s,'부드럽게 펴 발리는\n섬세한 펄 텍스처',56,84,size=48,weight=600,line=62)
+text(s,'얇게 펴 바를수록 은은하게,\n덧바를수록 더 선명하게.\n원하는 만큼 조절하는 펄감.',56,310,w=400,size=30,line=46,color='#6F6A6B')
 photo(s,'tam-pearl-detail-still.jpg',488,250,316,316,'실제 제형의 펄 확대 사진')
 
-s=section('how-to',1510)
+s=section('how-to',1190)
 label(s,'HOW TO',76)
-text(s,'광대는 쓱, 콧대는 톡',56,135,size=43,weight=700,line=62)
-text(s,'부위에 맞춰 바르면 하이라이팅이 더 쉬워져요.',56,225,size=28,color='#6F6A6B')
-photo(s,'application.jpg',56,325,748,560,'광대 위에 스틱으로 하이라이터를 바르는 실제 장면',crop=[0,140,748,560])
-text(s,'광대',56,918,size=31,weight=600)
-text(s,'광대의 높은 부분에 스틱을 가볍게 쓸어 주세요.\n손끝으로 톡톡 두드려 경계를 풀어 주세요.',56,979,w=748,size=28,line=44,color='#6F6A6B')
-photo(s,'nose-detail.jpg',56,1120,260,290,'콧대에 표현된 실제 하이라이터 광택',crop=[0,0,500,558])
-text(s,'콧대',360,1125,w=444,size=31,weight=600)
-text(s,'손끝에 소량을 묻혀\n콧대 중앙에 짧게 톡톡.\n좁은 부위는 손끝으로 조절해요.',360,1190,w=444,size=28,line=44,color='#6F6A6B')
-text(s,'TIP  베이스 위에 바를 땐 힘을 빼고, 소량씩 두드려 주세요.',56,1450,size=24,color='#767074')
+text(s,'원하는 부위에 가볍게 터치',56,132,size=48,weight=600,line=62)
+text(s,'소량씩 바르고, 손끝으로 부드럽게 블렌딩해 주세요.',56,219,size=30,color='#6F6A6B')
+photo(s,'howto-touch-261012.jpg',56,305,748,560,'광대에 스틱 하이라이터를 가볍게 바르는 실제 사용 장면',crop=[0,180,1080,809])
+text(s,'광대',56,921,w=350,size=34,weight=600)
+text(s,'광대 위에 가볍게 바른 뒤\n손끝으로 톡톡 펴 주세요.',56,978,w=360,size=28,line=44,color='#6F6A6B')
+text(s,'콧대',450,921,w=354,size=34,weight=600)
+text(s,'손끝에 소량을 묻혀\n콧대에 짧게 두드려 주세요.',450,978,w=354,size=28,line=44,color='#6F6A6B')
+text(s,'메이크업 위에서는 문지르기보다 소량씩 두드려 사용하세요.',56,1120,size=24,color='#767074')
 
 formula = copy.deepcopy(original['formula'])
 formula_copy = {
-    '오일과 시어버터를 더한': '식물성 오일과 시어버터를 담은',
+    '오일과 시어버터를 더한': '보습 성분을 담은',
     '비건 포뮬러.': '비건 포뮬러',
-    '세 가지 식물성 오일과 시어버터를 함유했습니다.': '펄 컬러에 보습 성분까지 더했어요.',
+    '세 가지 식물성 오일과 시어버터를 함유했습니다.': '식물성 오일과 시어버터가 함유된 비건 포뮬러.',
     '보습과 피부 컨디셔닝에\n쓰이는 성분을 담았습니다.': '피부 보습을 위한\n오일과 버터의 조합.',
 }
 for e in formula['elements']:
     if e.get('text') in formula_copy:
         e['text'] = formula_copy[e['text']]
+    if e.get('text') in ('보습 성분을 담은', '비건 포뮬러'):
+        e.update(size=48, line=62, weight=600)
+        e['y'] = 190 if e['text'] == '보습 성분을 담은' else 254
+    if e.get('text') == '식물성 오일과 시어버터가 함유된 비건 포뮬러.':
+        e.update(size=30, line=46, y=348)
 sections.append(formula)
 s=section('finish',520,'#F2E8E9')
-label(s,'THE JELLY BEAM HIGHLIGHTER',72)
-text(s,'오늘의 메이크업에',56,137,size=34,line=48)
-text(s,'펄 한 겹을 더해요',56,193,size=44,weight=700,line=62)
+text(s,'메이크업의 마지막,\n은은한 펄 하이라이팅',56,104,size=48,weight=600,line=62)
 rect(s,56,315,748,1,'#D8CED2')
 text(s,'3 SHADES',56,361,w=360,size=23,family='Manrope',weight=600)
 text(s,'비건 포뮬러 · 9 g',444,357,w=360,size=28,weight=600,color='#925368',align='right')
