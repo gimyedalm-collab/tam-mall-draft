@@ -1,4 +1,12 @@
 {
+  "highlighter_texture_howto_motion_20261012": {
+    "status": "static_captures_replaced_with_original_motion",
+    "texture": "Existing animated tam-pearl-detail.webp, 61 frames, 2.545s",
+    "howto": "Actual original application footage, 9.05s to 10.95s; crop/resize/compress only; muted loop with viewport gating and pause button",
+    "hero": "Original static photograph retained",
+    "motion_count": "2 MP4 + 1 animated WebP",
+    "production_cafe24_changed": false
+  },
   "highlighter_hero_20261012": {
     "status": "original_product_photo_restored",
     "reason": "Generated broad light sweep softened pearl texture visibly, especially white shade between 2 and 4 seconds.",

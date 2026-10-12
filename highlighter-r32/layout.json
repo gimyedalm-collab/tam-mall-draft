@@ -451,12 +451,12 @@
         },
         {
           "type": "image",
-          "file": "tam-pearl-detail-still.jpg",
+          "file": "tam-pearl-detail.webp",
           "x": 488,
           "y": 250,
           "w": 316,
           "h": 316,
-          "alt": "실제 제형의 펄 확대 사진",
+          "alt": "실제 제형의 펄 움직임을 보여주는 확대 GIF",
           "crop": null,
           "fit": "cover",
           "video": null
@@ -513,20 +513,15 @@
         },
         {
           "type": "image",
-          "file": "howto-touch-261012.jpg",
+          "file": "howto-apply-poster-261012.jpg",
           "x": 56,
           "y": 305,
           "w": 748,
           "h": 560,
-          "alt": "광대에 스틱 하이라이터를 가볍게 바르는 실제 사용 장면",
-          "crop": [
-            0,
-            180,
-            1080,
-            809
-          ],
+          "alt": "광대에 스틱 하이라이터를 가볍게 바르는 실제 사용 영상",
+          "crop": null,
           "fit": "cover",
-          "video": null
+          "video": "howto-apply-261012.mp4"
         },
         {
           "type": "text",

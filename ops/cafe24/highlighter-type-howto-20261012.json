@@ -1,4 +1,13 @@
 {
+  "motion_revision": {
+    "date": "2026-10-12",
+    "texture": "Original animated highlighter-r30/assets/tam-pearl-detail.webp restored",
+    "howto_video": "highlighter-r32/assets/howto-apply-261012.mp4",
+    "howto_source": "Same original Lee Jihyun clean video named below; 9.05–10.95 seconds",
+    "howto_processing": "Crop 2160x1618 at x0/y360, scale 748x560, 24fps H264, no audio. No colour correction, retouch, regeneration or playback speed change.",
+    "poster": "First frame fallback only; autoplay loop when visible",
+    "earlier_static_revision_below": true
+  },
   "date": "2026-10-12",
   "scope": "GitHub preview only",
   "references": [

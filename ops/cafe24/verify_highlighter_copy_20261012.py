@@ -16,10 +16,13 @@ for before, after in zip(old['sections'], new['sections']):
         original_photo = dict(media(before)[0])
         original_photo.pop('video', None)
         assert media(after) == [original_photo]
+    elif after['name'] == 'texture':
+        assert [e['file'] for e in media(after)] == ['tam-pearl-detail.webp']
     elif after['name'] != 'how-to':
         assert media(before) == media(after), before['name']
     else:
-        assert [e['file'] for e in media(after)] == ['howto-touch-261012.jpg']
+        assert [e['file'] for e in media(after)] == ['howto-apply-poster-261012.jpg']
+        assert media(after)[0]['video'] == 'howto-apply-261012.mp4'
         assert after['height'] == 1190
     if after['name'] in ('shades', 'how-to'):
         assert not any(e['type'] == 'rect' and e['w'] == 5 for e in after['elements'])
@@ -27,11 +30,13 @@ for before, after in zip(old['sections'], new['sections']):
         assert before == after
 for name in ('index.html', 'embed.html'):
     text = (root / 'highlighter-r32' / name).read_text(encoding='utf-8')
-    assert text.count('<video ') == 1
+    assert text.count('<video ') == 2
     assert 'hero-light.mp4' not in text
     assert 'AI 연출 영상' not in text
     assert '입체적인 광채' in text
-    assert 'howto-touch-261012.jpg' in text
+    assert 'howto-apply-261012.mp4' in text
+    assert 'tam-pearl-detail.webp' in text
+    assert 'howto-touch-261012.jpg' not in text
     assert 'assets/application.jpg' not in text
     assert 'assets/nose-detail.jpg' not in text
     assert '어떤 빛으로 마무리할까요?' not in text
