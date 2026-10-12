@@ -56,8 +56,8 @@ photo(s,'real-glow-poster.jpg',56,282,748,900,'고개를 돌릴 때 광대의 �
 text(s,'각도에 따라 반짝이는 펄이 얼굴에 입체감을 더해줍니다.',56,1210,size=28,color='#625D5F')
 
 s = section('shades',2250)
-text(s,'세 가지 컬러,\n다채로운 펄 글로우',56,82,size=48,weight=600,line=62)
-text(s,'화이트, 핑크, 골드로 표현하는 세 가지 무드.',56,235,size=30,color='#6F6A6B')
+text(s,'화이트 · 핑크 · 골드\n세 가지 펄 컬러',56,82,size=48,weight=600,line=62)
+text(s,'피부에 바른 컬러를 비교해 보세요.',56,235,size=30,color='#6F6A6B')
 shade_rows=[
     ('01 문스톤','아이시 화이트','tam-moonstone.jpg','맑고 시원하게 빛나는 화이트 펄'),
     ('02 구미 핑크','밀키 핑크','tam-pink.jpg','부드러운 핑크빛으로 더하는 생기'),
@@ -69,17 +69,17 @@ for i,(name,tone,file,desc) in enumerate(shade_rows):
     text(s,tone,456,y+4,w=348,size=28,color='#6F6A6B',align='right')
     photo(s,file,56,y+75,748,396,name+' 원본 피부 발색',crop=[150,1550,2550,1350])
     text(s,desc,56,y+495,size=30,color='#6F6A6B')
-text(s,'피부 톤과 사용량, 조명에 따라 발색이 다르게 보일 수 있습니다.',56,2160,size=21,color='#767074',line=32)
+text(s,'피부 톤과 사용량, 조명에 따라 발색이 다르게 보일 수 있습니다.',56,2160,size=24,color='#767074',line=36)
 
 s=section('texture',650,'#F2F2F2')
 text(s,'부드럽게 펴 발리는\n섬세한 펄 텍스처',56,84,size=48,weight=600,line=62)
-text(s,'얇게 펴 바를수록 은은하게,\n덧바를수록 더 선명하게.\n원하는 만큼 조절하는 펄감.',56,310,w=400,size=30,line=46,color='#6F6A6B')
+text(s,'얇게 바르면 은은하게,\n덧바르면 더 선명하게.',56,310,w=400,size=30,line=46,color='#6F6A6B')
 photo(s,'tam-pearl-detail.webp',488,250,316,316,'실제 제형의 펄 움직임을 보여주는 확대 GIF')
 
 s=section('how-to',1550)
 label(s,'ON SKIN',76)
-text(s,'피부에 바른 펄감',56,132,size=48,weight=600,line=62)
-text(s,'3가지 컬러 비교하기',56,219,size=26,color='#6F6A6B')
+text(s,'피부에 더하는 은은한 광채',56,132,size=48,weight=600,line=62)
+text(s,'3가지 컬러 비교하기',56,219,size=28,color='#6F6A6B')
 s['elements'][-1]['href']='#shades'
 photo(s,'howto-four-looks-poster-261012.jpg',56,305,748,912,'서로 다른 네 사람의 실제 하이라이터 사용과 메이크업 모습',video='howto-four-looks-261012.mp4')
 label(s,'HOW TO',1241)
@@ -93,8 +93,8 @@ formula = copy.deepcopy(original['formula'])
 formula_copy = {
     '오일과 시어버터를 더한': '보습 성분을 담은',
     '비건 포뮬러.': '비건 포뮬러',
-    '세 가지 식물성 오일과 시어버터를 함유했습니다.': '식물성 오일과 시어버터가 함유된 비건 포뮬러.',
-    '보습과 피부 컨디셔닝에\n쓰이는 성분을 담았습니다.': '피부 보습을 위한\n오일과 버터의 조합.',
+    '세 가지 식물성 오일과 시어버터를 함유했습니다.': '식물성 오일과 시어버터 함유',
+    '보습과 피부 컨디셔닝에\n쓰이는 성분을 담았습니다.': '피부 보습을 돕는\n오일과 시어버터.',
 }
 for e in formula['elements']:
     if e.get('text') in formula_copy:
@@ -102,8 +102,14 @@ for e in formula['elements']:
     if e.get('text') in ('보습 성분을 담은', '비건 포뮬러'):
         e.update(size=48, line=62, weight=600)
         e['y'] = 190 if e['text'] == '보습 성분을 담은' else 254
-    if e.get('text') == '식물성 오일과 시어버터가 함유된 비건 포뮬러.':
+    if e.get('text') == '식물성 오일과 시어버터 함유':
         e.update(size=30, line=46, y=348)
+    if e.get('type') == 'text' and e.get('size') == 24:
+        e.update(size=28, line=40)
+    elif e.get('type') == 'text' and e.get('size') == 22:
+        e.update(size=26, line=38)
+    elif e.get('text') == '* 원료적 특성에 대한 설명입니다.':
+        e.update(size=22, line=32)
 sections.append(formula)
 s=section('finish',520,'#F2E8E9')
 text(s,'메이크업의 마지막,\n은은한 펄 하이라이팅',56,104,size=48,weight=600,line=62)

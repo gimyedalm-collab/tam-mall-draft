@@ -1,4 +1,12 @@
 {
+  "highlighter_final_copy_20261012": {
+    "status": "final_copy_and_mobile_typography_reviewed",
+    "change": "Replaced abstract shade mood/glow copy with the three colour names and a comparison instruction; shortened texture and ingredient copy; refined on-skin headline. Enlarged colour-comparison link, shade note, ingredient names and supporting ingredient text.",
+    "preserved": "All existing photos, video, animated texture, section heights, shade descriptions, vegan positioning, product information and commerce.",
+    "verification": "Browser visual review at 360px and 390px content widths; desktop text bounding-box checks; original media/commerce and iframe-height checks passed.",
+    "publishing": "GitHub Pages only; Cafe24 production unchanged",
+    "remaining": "No further detail-design changes planned; production rollout remains deferred per user instruction."
+  },
   "highlighter_light_polish_20261012": {
     "status": "on_skin_copy_and_colour_navigation_refined",
     "change": "Four-person footage introduced with a concise on-skin title. HOW TO moved below footage. One understated link returns to the existing shade chart, including within the shop iframe.",

@@ -196,7 +196,7 @@
       "elements": [
         {
           "type": "text",
-          "text": "세 가지 컬러,\n다채로운 펄 글로우",
+          "text": "화이트 · 핑크 · 골드\n세 가지 펄 컬러",
           "x": 56,
           "y": 82,
           "w": 748,
@@ -210,7 +210,7 @@
         },
         {
           "type": "text",
-          "text": "화이트, 핑크, 골드로 표현하는 세 가지 무드.",
+          "text": "피부에 바른 컬러를 비교해 보세요.",
           "x": 56,
           "y": 235,
           "w": 748,
@@ -405,10 +405,10 @@
           "x": 56,
           "y": 2160,
           "w": 748,
-          "size": 21,
+          "size": 24,
           "weight": 400,
           "color": "#767074",
-          "line": 32,
+          "line": 36,
           "family": "Pretendard",
           "align": "left",
           "tracking": -0.018
@@ -437,7 +437,7 @@
         },
         {
           "type": "text",
-          "text": "얇게 펴 바를수록 은은하게,\n덧바를수록 더 선명하게.\n원하는 만큼 조절하는 펄감.",
+          "text": "얇게 바르면 은은하게,\n덧바르면 더 선명하게.",
           "x": 56,
           "y": 310,
           "w": 400,
@@ -485,7 +485,7 @@
         },
         {
           "type": "text",
-          "text": "피부에 바른 펄감",
+          "text": "피부에 더하는 은은한 광채",
           "x": 56,
           "y": 132,
           "w": 748,
@@ -503,10 +503,10 @@
           "x": 56,
           "y": 219,
           "w": 748,
-          "size": 26,
+          "size": 28,
           "weight": 400,
           "color": "#6F6A6B",
-          "line": 39,
+          "line": 42,
           "family": "Pretendard",
           "align": "left",
           "tracking": -0.018,
@@ -687,7 +687,7 @@
         },
         {
           "type": "text",
-          "text": "식물성 오일과 시어버터가 함유된 비건 포뮬러.",
+          "text": "식물성 오일과 시어버터 함유",
           "x": 56,
           "y": 348,
           "w": 748,
@@ -730,7 +730,7 @@
           "x": 456,
           "y": 512,
           "w": 320,
-          "size": 24,
+          "size": 28,
           "weight": 600,
           "align": "left",
           "family": "Pretendard",
@@ -740,16 +740,16 @@
         },
         {
           "type": "text",
-          "text": "피부 보습을 위한\n오일과 버터의 조합.",
+          "text": "피부 보습을 돕는\n오일과 시어버터.",
           "x": 456,
           "y": 714,
           "w": 320,
-          "size": 22,
+          "size": 26,
           "weight": 400,
           "align": "left",
           "family": "Pretendard",
           "color": "#625D5F",
-          "line": 35,
+          "line": 38,
           "tracking": -0.01
         },
         {
@@ -794,12 +794,12 @@
           "x": 56,
           "y": 1027,
           "w": 354,
-          "size": 24,
+          "size": 28,
           "weight": 600,
           "align": "left",
           "family": "Pretendard",
           "color": "#1A1A1A",
-          "line": 38,
+          "line": 40,
           "tracking": -0.018
         },
         {
@@ -808,12 +808,12 @@
           "x": 450,
           "y": 1027,
           "w": 354,
-          "size": 24,
+          "size": 28,
           "weight": 600,
           "align": "left",
           "family": "Pretendard",
           "color": "#1A1A1A",
-          "line": 38,
+          "line": 40,
           "tracking": -0.018
         },
         {
@@ -822,12 +822,12 @@
           "x": 56,
           "y": 1120,
           "w": 354,
-          "size": 22,
+          "size": 26,
           "weight": 400,
           "align": "left",
           "family": "Pretendard",
           "color": "#625D5F",
-          "line": 35,
+          "line": 38,
           "tracking": -0.01
         },
         {
@@ -836,12 +836,12 @@
           "x": 450,
           "y": 1120,
           "w": 354,
-          "size": 22,
+          "size": 26,
           "weight": 400,
           "align": "left",
           "family": "Pretendard",
           "color": "#625D5F",
-          "line": 35,
+          "line": 38,
           "tracking": -0.01
         },
         {
@@ -850,12 +850,12 @@
           "x": 56,
           "y": 1228,
           "w": 748,
-          "size": 18,
+          "size": 22,
           "weight": 400,
           "align": "right",
           "family": "Pretendard",
           "color": "#8D8588",
-          "line": 27,
+          "line": 32,
           "tracking": -0.01
         }
       ]
