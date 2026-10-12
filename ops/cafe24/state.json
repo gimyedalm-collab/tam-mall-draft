@@ -1,4 +1,11 @@
 {
+  "highlighter_copy_20261012": {
+    "status": "copy_and_decoration_revised",
+    "path": "highlighter-r32/",
+    "changes": "Rewrote hero, campaign, shades, texture, how-to, formula and finish copy. Removed three shade accent bars and one application accent bar; aligned shade names with photos; removed unnecessary application numbering.",
+    "verification": "Browser visual review at 390px content width: hero, shades, texture, how-to, formula. Invariants verified: original media, section heights, product information and commerce unchanged.",
+    "production_cafe24_changed": false
+  },
   "updated_at": "2026-09-21",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
