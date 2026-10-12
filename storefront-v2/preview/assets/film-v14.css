@@ -1,0 +1,43 @@
+/* Show the complete approved frame. Never enlarge the film to fill a crop. */
+.do-header {
+  position: relative;
+  color: #282326;
+  background: #faf9f8;
+}
+.do-header .logo { filter: brightness(0); }
+.do-hero {
+  width: min(100%, calc((100svh - 88px) * 16 / 9));
+  margin-inline: auto;
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  aspect-ratio: auto;
+  background: #eeece9;
+}
+.do-hero video {
+  width: 100%;
+  height: auto;
+  max-height: calc(100svh - 88px);
+  object-fit: contain;
+  object-position: center;
+}
+.do-hero[data-film-ending] .do-hero-copy { opacity: 0; }
+.do-hero-copy { transition: opacity 180ms linear; }
+@media (max-width: 760px) {
+  .do-hero { width: 100%; }
+  .do-hero video { max-height: none; aspect-ratio: 16 / 9; }
+  .do-hero:after { display: none; }
+  .do-hero-copy {
+    position: static;
+    padding: 14px 22px;
+    color: #282326;
+    background: #faf9f8;
+    gap: 18px;
+  }
+  .do-hero-copy h1 { width: 84px; }
+  .do-hero-copy h1 img { filter: brightness(0); }
+  .do-hero-copy p { font-size: 12px; line-height: 1.5; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .do-hero-copy { transition: none; }
+}

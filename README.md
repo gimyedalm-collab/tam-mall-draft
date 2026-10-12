@@ -27,6 +27,6 @@ https://gimyedalm-collab.github.io/tam-mall-draft/
 
 ## 승인된 메인 영상 · 2026-10-12
 
-[홈페이지에서 보기](https://gimyedalm-collab.github.io/tam-mall-draft/) · [영상 파일](https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v13-261012.mp4)
+[홈페이지에서 보기](https://gimyedalm-collab.github.io/tam-mall-draft/) · [영상 파일](https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v14-261012.mp4)
 
-v13 · 7.83초 · 1080p · 자동 반복. 소파 반측면 퍼프 사용 컷, 얼굴 접사 1.25초, 마지막 로고 유지 1.5초. 모바일 표시 비율을 보정했습니다.
+v14 · 7.83초 · 1080p · 자동 반복. 얼굴 접사의 콧구멍 안쪽 밝은 이물감 보정. PC·모바일 모두 영상 전체를 표시하며, 메뉴가 얼굴을 가리지 않도록 영상 위로 분리했습니다. 얼굴 접사 1.25초와 마지막 로고 유지 1.5초는 유지합니다.

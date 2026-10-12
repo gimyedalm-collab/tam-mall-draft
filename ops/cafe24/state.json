@@ -154,5 +154,14 @@
     "next_action": "No further film changes pending. Cafe24 production rollout remains separate.",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/",
     "verification": "main-film-v13-20261012.json"
+  },
+  "main_film_v14_20261012": {
+    "status": "v14_retouch_and_full_frame_layout_complete",
+    "asset": "storefront-v2/preview/assets/tam-main-film-v14-261012.mp4",
+    "changes": "Nostril-interior bright flecks and strands retouched through 30 frames. Full source shown with contain; no cover crop. Header outside video and mobile caption below it.",
+    "verification": "main-film-v14-20261012.json",
+    "duration_seconds": 7.833333333333333,
+    "production_cafe24_changed": false,
+    "next_action": "Review v14 at the existing GitHub Pages homepage. Cafe24 production rollout remains separate."
   }
 }

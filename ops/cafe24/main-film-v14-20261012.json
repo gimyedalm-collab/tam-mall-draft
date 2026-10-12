@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-12",
+  "video_sha256": "e343e2a943835ba95fb5ef50ade157cf715cf45ff5d2a7fd3e7a90198e8e431d",
+  "video": {
+    "frames": 188,
+    "fps": 24,
+    "duration": 7.833333333333333,
+    "width": 1920,
+    "height": 1080,
+    "black_frames": [],
+    "retouch": "Imagegen-generated local patches tracked through 30 closeup frames; transition rebuilt from cleaned final frame.",
+    "editing": "FFmpeg render plus editable FCP XML; Premiere connection unavailable on this turn."
+  },
+  "retouch": {
+    "tool": "built-in imagegen",
+    "tracking_frames": 30,
+    "generated_alignment_correlation": 0.9919245398993131,
+    "outside_patch_changed_pixels_before_encoding": 0,
+    "patch_area_pixels": [
+      1065,
+      1176
+    ]
+  },
+  "layout": {
+    "fit": "contain",
+    "mobile_original_aspect_ratio": "16:9",
+    "header": "outside video",
+    "mobile_caption": "below video",
+    "mobile_390x844_video_box": [
+      375,
+      210.9375
+    ],
+    "horizontal_overflow": false,
+    "desktop": "frame fits available viewport height and retains source aspect ratio"
+  },
+  "scope": "GitHub Pages homepage; Cafe24 production unchanged"
+}
