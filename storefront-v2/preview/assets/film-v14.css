@@ -6,7 +6,7 @@
 }
 .do-header .logo { filter: brightness(0); }
 .do-hero {
-  width: min(100%, calc((100svh - 88px) * 16 / 9));
+  width: 100%;
   margin-inline: auto;
   height: auto;
   min-height: 0;
@@ -17,7 +17,8 @@
 .do-hero video {
   width: 100%;
   height: auto;
-  max-height: calc(100svh - 88px);
+  max-height: none;
+  aspect-ratio: 16 / 9;
   object-fit: contain;
   object-position: center;
 }

@@ -162,6 +162,7 @@
     "verification": "main-film-v14-20261012.json",
     "duration_seconds": 7.833333333333333,
     "production_cafe24_changed": false,
-    "next_action": "Review v14 at the existing GitHub Pages homepage. Cafe24 production rollout remains separate."
+    "next_action": "Review v14 at the existing GitHub Pages homepage. Cafe24 production rollout remains separate.",
+    "layout_update": "User requested edge-to-edge width. Removed viewport-height width cap; film spans 100% content width at original 16:9 with contain, without added cropping."
   }
 }

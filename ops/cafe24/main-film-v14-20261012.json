@@ -31,7 +31,13 @@
       210.9375
     ],
     "horizontal_overflow": false,
-    "desktop": "frame fits available viewport height and retains source aspect ratio"
+    "desktop": "Full content width, original 16:9 height, contain; viewport-height cap removed per user feedback.",
+    "desktop_1920x911_video_box": [
+      1905,
+      1071.5625
+    ],
+    "video_left": 0,
+    "page_content_width": 1905
   },
   "scope": "GitHub Pages homepage; Cafe24 production unchanged"
 }
