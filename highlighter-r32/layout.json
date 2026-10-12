@@ -122,8 +122,7 @@
           "h": 630,
           "alt": "세 가지 하이라이터 스틱과 실제 제형",
           "fit": "contain",
-          "crop": null,
-          "video": "hero-light.mp4"
+          "crop": null
         },
         {
           "type": "text",
@@ -138,20 +137,6 @@
           "color": "#1A1A1A",
           "line": 30,
           "tracking": 0.055
-        },
-        {
-          "type": "text",
-          "text": "AI 연출 영상",
-          "x": 56,
-          "y": 1210,
-          "w": 748,
-          "size": 18,
-          "weight": 400,
-          "color": "#767074",
-          "line": 27,
-          "family": "Pretendard",
-          "align": "right",
-          "tracking": -0.018
         }
       ]
     },

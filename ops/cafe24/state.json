@@ -1,4 +1,11 @@
 {
+  "highlighter_hero_20261012": {
+    "status": "original_product_photo_restored",
+    "reason": "Generated broad light sweep softened pearl texture visibly, especially white shade between 2 and 4 seconds.",
+    "change": "Hero now uses original product-trio.jpg. Generated hero film and its AI caption removed from index/embed. Real skin film in campaign retained.",
+    "recommendation": "Static original hero followed by actual skin motion. If motion is requested later, use only a restrained uniform push-in without relighting or texture regeneration.",
+    "production_cafe24_changed": false
+  },
   "highlighter_type_howto_20261012": {
     "status": "copy_typography_and_howto_revised",
     "evidence": "highlighter-type-howto-20261012.json",

@@ -12,7 +12,11 @@ for before, after in zip(old['sections'], new['sections']):
     if after['name'] != 'how-to':
         assert before['height'] == after['height']
     media = lambda s: [e for e in s['elements'] if e['type'] in ('image', 'vector')]
-    if after['name'] != 'how-to':
+    if after['name'] == 'hero':
+        original_photo = dict(media(before)[0])
+        original_photo.pop('video', None)
+        assert media(after) == [original_photo]
+    elif after['name'] != 'how-to':
         assert media(before) == media(after), before['name']
     else:
         assert [e['file'] for e in media(after)] == ['howto-touch-261012.jpg']
@@ -23,7 +27,9 @@ for before, after in zip(old['sections'], new['sections']):
         assert before == after
 for name in ('index.html', 'embed.html'):
     text = (root / 'highlighter-r32' / name).read_text(encoding='utf-8')
-    assert text.count('<video ') == 2
+    assert text.count('<video ') == 1
+    assert 'hero-light.mp4' not in text
+    assert 'AI 연출 영상' not in text
     assert '입체적인 광채' in text
     assert 'howto-touch-261012.jpg' in text
     assert 'assets/application.jpg' not in text

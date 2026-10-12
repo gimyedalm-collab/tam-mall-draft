@@ -47,8 +47,8 @@ for e in hero['elements']:
     if e.get('emphasis_last_line'):
         e.update(size=30, line=46, y=423)
 sections.append(hero)
-next(e for e in hero['elements'] if e.get('file')=='product-trio.jpg')['video']='hero-light.mp4'
-text(hero,'AI 연출 영상',56,1210,size=18,color='#767074',align='right')
+# Keep the original product photograph: the generated light sweep softened
+# the actual pearl texture. Real skin motion remains in the next section.
 
 s = section('campaign',1290,'#F2E8E9')
 text(s,'움직임을 따라\n섬세하게 빛나는 펄',56,82,size=48,weight=600,line=62)
