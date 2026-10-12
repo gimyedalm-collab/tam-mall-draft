@@ -76,16 +76,16 @@ text(s,'부드럽게 펴 발리는\n섬세한 펄 텍스처',56,84,size=48,weigh
 text(s,'얇게 펴 바를수록 은은하게,\n덧바를수록 더 선명하게.\n원하는 만큼 조절하는 펄감.',56,310,w=400,size=30,line=46,color='#6F6A6B')
 photo(s,'tam-pearl-detail.webp',488,250,316,316,'실제 제형의 펄 움직임을 보여주는 확대 GIF')
 
-s=section('how-to',1190)
+s=section('how-to',1550)
 label(s,'HOW TO',76)
 text(s,'원하는 부위에 가볍게 터치',56,132,size=48,weight=600,line=62)
 text(s,'소량씩 바르고, 손끝으로 부드럽게 블렌딩해 주세요.',56,219,size=30,color='#6F6A6B')
-photo(s,'howto-apply-poster-261012.jpg',56,305,748,560,'광대에 스틱 하이라이터를 가볍게 바르는 실제 사용 영상',video='howto-apply-261012.mp4')
-text(s,'광대',56,921,w=350,size=34,weight=600)
-text(s,'광대 위에 가볍게 바른 뒤\n손끝으로 톡톡 펴 주세요.',56,978,w=360,size=28,line=44,color='#6F6A6B')
-text(s,'콧대',450,921,w=354,size=34,weight=600)
-text(s,'손끝에 소량을 묻혀\n콧대에 짧게 두드려 주세요.',450,978,w=354,size=28,line=44,color='#6F6A6B')
-text(s,'메이크업 위에서는 문지르기보다 소량씩 두드려 사용하세요.',56,1120,size=24,color='#767074')
+photo(s,'howto-four-looks-poster-261012.jpg',56,305,748,912,'서로 다른 네 사람의 실제 하이라이터 사용과 메이크업 모습',video='howto-four-looks-261012.mp4')
+text(s,'광대',56,1270,w=350,size=34,weight=600)
+text(s,'광대 위에 가볍게 바른 뒤\n손끝으로 톡톡 펴 주세요.',56,1327,w=360,size=28,line=44,color='#6F6A6B')
+text(s,'콧대',450,1270,w=354,size=34,weight=600)
+text(s,'손끝에 소량을 묻혀\n콧대에 짧게 두드려 주세요.',450,1327,w=354,size=28,line=44,color='#6F6A6B')
+text(s,'메이크업 위에서는 문지르기보다 소량씩 두드려 사용하세요.',56,1480,size=24,color='#767074')
 
 formula = copy.deepcopy(original['formula'])
 formula_copy = {

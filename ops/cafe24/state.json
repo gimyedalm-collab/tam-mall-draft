@@ -1,4 +1,12 @@
 {
+  "highlighter_four_looks_20261012": {
+    "status": "four_distinct_actual_use_clips_composed",
+    "change": "HOW TO single-person application loop replaced with four other people in a 2x2 motion grid. One grouped play/pause control; no added motion surfaces.",
+    "evidence": "highlighter-four-looks-20261012.json",
+    "detail_height": 10661,
+    "publishing": "GitHub Pages only; no ChatGPT Sites",
+    "production_cafe24_changed": false
+  },
   "highlighter_texture_howto_motion_20261012": {
     "status": "static_captures_replaced_with_original_motion",
     "texture": "Existing animated tam-pearl-detail.webp, 61 frames, 2.545s",

@@ -1,0 +1,55 @@
+{
+  "source_kind": "User-supplied highlighter clean/seeding videos",
+  "clips": [
+    {
+      "index": 1,
+      "start": 12.0,
+      "crop": [
+        0,
+        150,
+        1080,
+        1320
+      ],
+      "source_filename": "김나영_클린본.mp4"
+    },
+    {
+      "index": 2,
+      "start": 152.0,
+      "crop": [
+        0,
+        40,
+        1080,
+        1320
+      ],
+      "source_filename": "유어진_클린본.mov"
+    },
+    {
+      "index": 4,
+      "start": 21.3,
+      "crop": [
+        0,
+        0,
+        1080,
+        1320
+      ],
+      "source_filename": "탐뷰티_[3종 중 택 1] 더 젤리 빔 하이라이터_박하영_클린본.mp4"
+    },
+    {
+      "index": 6,
+      "start": 24.0,
+      "crop": [
+        0,
+        0,
+        1080,
+        1320
+      ],
+      "source_filename": "클린본.mp4"
+    }
+  ],
+  "duration_requested_seconds": 2.8,
+  "layout": "2x2, four distinct source people; 366x448 tiles with 16px white gaps",
+  "output": "highlighter-r32/assets/howto-four-looks-261012.mp4",
+  "processing": "Trim, crop, proportional resize, grid composition and compression. No colour adjustment, retouch, AI generation, speed change or audio.",
+  "claims": "Actual-use montage; no purchase, review, popularity, satisfaction or efficacy statistics implied.",
+  "production_cafe24_changed": false
+}

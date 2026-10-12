@@ -21,9 +21,9 @@ for before, after in zip(old['sections'], new['sections']):
     elif after['name'] != 'how-to':
         assert media(before) == media(after), before['name']
     else:
-        assert [e['file'] for e in media(after)] == ['howto-apply-poster-261012.jpg']
-        assert media(after)[0]['video'] == 'howto-apply-261012.mp4'
-        assert after['height'] == 1190
+        assert [e['file'] for e in media(after)] == ['howto-four-looks-poster-261012.jpg']
+        assert media(after)[0]['video'] == 'howto-four-looks-261012.mp4'
+        assert after['height'] == 1550
     if after['name'] in ('shades', 'how-to'):
         assert not any(e['type'] == 'rect' and e['w'] == 5 for e in after['elements'])
     if after['name'] == 'information':
@@ -34,7 +34,8 @@ for name in ('index.html', 'embed.html'):
     assert 'hero-light.mp4' not in text
     assert 'AI 연출 영상' not in text
     assert '입체적인 광채' in text
-    assert 'howto-apply-261012.mp4' in text
+    assert 'howto-four-looks-261012.mp4' in text
+    assert 'howto-apply-261012.mp4' not in text
     assert 'tam-pearl-detail.webp' in text
     assert 'howto-touch-261012.jpg' not in text
     assert 'assets/application.jpg' not in text
