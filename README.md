@@ -27,6 +27,6 @@ https://gimyedalm-collab.github.io/tam-mall-draft/
 
 ## 승인된 메인 영상 · 2026-10-13
 
-[홈페이지에서 보기](https://gimyedalm-collab.github.io/tam-mall-draft/) · [영상 파일](https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v15-261013.mp4)
+[홈페이지에서 보기](https://gimyedalm-collab.github.io/tam-mall-draft/) · [영상 파일](https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v16-261013.mp4)
 
-v15 · 7.83초 · 1080p · 자동 반복. 컷별 피부의 붉은기·노란기와 밝기·대비를 미세하게 맞췄으며, 피부 결과 광택을 유지했습니다. 기존 얼굴 접사 보정과 좌우를 채우는 원본 16:9 화면을 유지합니다. 얼굴 접사 1.25초와 마지막 로고 유지 1.5초도 그대로입니다.
+v16 · 8.04초 · 1080p · 자동 반복 설정 유지. 재검토 후 이미 느리게 편집된 접사는 1.25초로 유지하고, 로고 전환을 약 0.46초로 늘렸습니다. 로고 유지 1.5초, 통일된 피부 색감, 기존 접사 보정과 전체 폭의 원본 16:9 화면을 유지합니다. 보정 마스터에서 압축을 줄여 다시 출력했습니다. 영상 파일 검수는 완료했으며, 이번 버전의 브라우저 재생 재검증은 연결 부재로 수행하지 못했습니다.

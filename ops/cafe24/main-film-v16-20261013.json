@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-13",
+  "frames": 193,
+  "fps": 24,
+  "duration_seconds": 8.041666666666666,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "black_frames": [],
+  "closeup_seconds": 1.25,
+  "logo_dissolve_seconds": 0.4583333333333333,
+  "full_logo_hold_seconds": 1.5,
+  "quality_comparison_to_graded_master": [
+    {
+      "shot": 1,
+      "v15_psnr_db": 44.64869114062076,
+      "v16_psnr_db": 44.98177783904332
+    },
+    {
+      "shot": 3,
+      "v15_psnr_db": 44.8792812935615,
+      "v16_psnr_db": 45.22469939083681
+    },
+    {
+      "shot": 6,
+      "v15_psnr_db": 45.33492594648212,
+      "v16_psnr_db": 45.65171114456813
+    },
+    {
+      "shot": 7,
+      "v15_psnr_db": 45.15170682465058,
+      "v16_psnr_db": 45.47395897183304
+    }
+  ],
+  "logo_max_mean_absolute_error": 1.0042782278806583,
+  "video_bytes": 6554942,
+  "video_sha256": "afefd3b9de8ade2e3f4565dae6204660747b106ce0398e7e07c51936c4b4055d",
+  "review_decision": "Retain existing slow closeup; only extend ending dissolve. No further face retouch or artificial sharpening applied. Reduced export compression from CRF17 to CRF15.",
+  "browser_verification": "No connected browser available; media and caption timing validated offline. Live playback not rechecked.",
+  "production_cafe24_changed": false
+}

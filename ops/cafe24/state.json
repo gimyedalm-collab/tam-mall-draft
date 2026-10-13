@@ -191,5 +191,13 @@
     "verification": "main-film-v15-20261013.json",
     "duration_seconds": 7.833333333333333,
     "production_cafe24_changed": false
+  },
+  "main_film_v16_20261013": {
+    "status": "verified_ready_for_github_pages",
+    "asset": "storefront-v2/preview/assets/tam-main-film-v16-261013.mp4",
+    "duration_seconds": 8.041666666666666,
+    "changes": "Reviewed existing slow closeup and retained 1.25s. Extended logo dissolve to 11 frames, retaining 1.5s full logo hold. Lower compression CRF15 export from graded masters.",
+    "verification": "main-film-v16-20261013.json",
+    "production_cafe24_changed": false
   }
 }
