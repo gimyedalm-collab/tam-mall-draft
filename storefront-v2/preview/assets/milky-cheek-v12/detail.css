@@ -6,15 +6,15 @@
 #milky-cheek-v12 img{display:block;max-width:100%;height:auto}
 #milky-cheek-v12 h2{font:700 clamp(29px,6.05cqw,52px)/1.25 Cheek12,sans-serif;letter-spacing:-.04em}
 #milky-cheek-v12 h3{font:600 clamp(15px,3.25cqw,28px)/1.4 Cheek12,sans-serif;letter-spacing:-.025em}
-#milky-cheek-v12 .c12-section{padding:96px 6.5% 86px}
-#milky-cheek-v12 .c12-heading{margin:0 auto 54px}
-#milky-cheek-v12 .c12-label{display:inline-block;min-width:190px;padding:5px 26px;border:1px solid #292629;border-radius:30px;font:400 clamp(11px,2.32cqw,20px)/1.5 Cheek12English,sans-serif;letter-spacing:.09em;margin-bottom:36px}
+#milky-cheek-v12 .c12-section{padding:80px 6.5% 72px}
+#milky-cheek-v12 .c12-heading{margin:0 auto 40px}
+#milky-cheek-v12 .c12-label{display:inline-block;min-width:190px;padding:5px 26px;border:1px solid #292629;border-radius:30px;font:400 clamp(11px,2.32cqw,20px)/1.5 Cheek12English,sans-serif;letter-spacing:.09em;margin-bottom:28px}
 #milky-cheek-v12 .c12-kicker{font-size:clamp(16px,3.48cqw,30px);margin-bottom:14px;line-height:1.5}
 #milky-cheek-v12 .c12-body{font-size:clamp(15px,3.25cqw,28px);line-height:1.65;margin-top:32px}
 #milky-cheek-v12 .c12-note{font-size:clamp(12px,2.55cqw,22px);line-height:1.7;color:var(--muted);margin-top:38px}
 #milky-cheek-v12 .c12-logo{width:156px;margin:auto}
-#milky-cheek-v12 .c12-hero-copy{background:var(--pink);padding:60px 5% 68px}
-#milky-cheek-v12 .c12-product-name{font-size:clamp(15px,3.02cqw,26px);margin:32px 0}
+#milky-cheek-v12 .c12-hero-copy{background:var(--pink);padding:48px 5% 52px}
+#milky-cheek-v12 .c12-product-name{font-size:clamp(15px,3.02cqw,26px);margin:26px 0}
 #milky-cheek-v12 .c12-hero h2{font-size:clamp(36px,8.37cqw,72px);letter-spacing:-.045em;line-height:1.18}
 #milky-cheek-v12 .c12-hero .c12-body{font-size:clamp(17px,3.48cqw,30px);margin-top:32px}
 #milky-cheek-v12 .c12-accent{color:var(--rose);font-size:clamp(16px,3.25cqw,28px);font-weight:600;margin-top:8px}
@@ -25,13 +25,17 @@
 #milky-cheek-v12 .c12-hero-points p+p{border-left:1px solid #d9d5d6}
 #milky-cheek-v12 .c12-hero-points b{font-weight:600}
 #milky-cheek-v12 .c12-hero-points span{font-size:clamp(12px,2.55cqw,22px);color:var(--muted)}
-#milky-cheek-v12 .c12-application-media{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+#milky-cheek-v12 .c12-application-media{display:grid;grid-template-columns:3fr 5fr;gap:28px;align-items:center}
 #milky-cheek-v12 .c12-application-media figcaption{font-size:clamp(14px,2.79cqw,24px);font-weight:500;margin-top:18px}
 #milky-cheek-v12 .c12-sponge,#milky-cheek-v12 .c12-film{position:relative;overflow:hidden;aspect-ratio:360/420;background:var(--pink);border-radius:18px}
+#milky-cheek-v12 .c12-film{aspect-ratio:4/5}
+#milky-cheek-v12 .c12-sponge-figure figcaption span{font-size:clamp(12px,2.09cqw,18px);font-weight:400;color:var(--muted)}
+#milky-cheek-v12 .c12-film-caption{display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left}
+#milky-cheek-v12 .c12-film-caption>span{font-size:clamp(14px,2.55cqw,22px)}
 #milky-cheek-v12 .c12-sponge img{position:absolute;width:220%;max-width:none;height:auto;left:-60%;top:-109%}
 #milky-cheek-v12 .c12-mechanism{position:absolute;left:5%;top:79%;width:36%;padding-bottom:4px;border-bottom:1px solid #6f6a6b;text-align:left;font:400 clamp(9px,1.86cqw,16px)/1.3 Cheek12English,sans-serif;color:#40363a}
 #milky-cheek-v12 .c12-film video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
-#milky-cheek-v12 .c12-play{position:absolute;right:12px;bottom:12px;min-width:76px;min-height:44px;padding:8px 14px;border:1px solid #ded7da;background:#fff;color:var(--ink);font:500 15px Cheek12,sans-serif;cursor:pointer}
+#milky-cheek-v12 .c12-play{flex:none;min-width:76px;min-height:44px;padding:8px 14px;border:1px solid #ded7da;background:#fff;color:var(--ink);font:500 15px Cheek12,sans-serif;cursor:pointer}
 #milky-cheek-v12 .c12-play:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
 #milky-cheek-v12 .c12-steps{display:grid;grid-template-columns:repeat(3,1fr);list-style:none;padding:0;margin-top:44px;gap:24px}
 #milky-cheek-v12 .c12-steps span{display:block;color:var(--rose);font:400 clamp(13px,2.79cqw,24px)/1.5 Cheek12English,sans-serif;margin-bottom:10px}
@@ -51,12 +55,12 @@
 #milky-cheek-v12 .c12-shade h3 span{font-family:Cheek12English,sans-serif;font-weight:500}
 #milky-cheek-v12 .c12-shade-en{font:400 clamp(10px,1.86cqw,16px)/1.5 Cheek12English,sans-serif;letter-spacing:.015em;margin-top:3px;color:var(--muted)}
 #milky-cheek-v12 .c12-tone{font-size:clamp(14px,2.79cqw,24px);margin-top:10px;color:var(--rose);font-weight:500}
-#milky-cheek-v12 .c12-swatch{width:100%;aspect-ratio:3;height:auto;object-fit:cover;object-position:50% 72%;border-radius:10px;margin-top:12px}
+#milky-cheek-v12 .c12-swatch{width:100%;aspect-ratio:1;height:auto;object-fit:contain;border-radius:10px;margin-top:12px}
 #milky-cheek-v12 .c12-shade-description{font-size:clamp(13px,2.55cqw,22px);margin-top:16px;color:var(--muted)}
-#milky-cheek-v12 .c12-texture{padding-top:96px}
+#milky-cheek-v12 .c12-texture{padding-top:80px}
 #milky-cheek-v12 .c12-texture .c12-heading{padding-inline:6.5%}
 #milky-cheek-v12 .c12-texture-photo{width:100%}
-#milky-cheek-v12 .c12-formula{padding-top:86px;background:#fcf8f9}
+#milky-cheek-v12 .c12-formula{padding-top:72px;background:#fcf8f9}
 #milky-cheek-v12 .c12-formula-art{width:100%;margin-bottom:44px}
 #milky-cheek-v12 .c12-ingredients{display:grid;grid-template-columns:1fr 1fr;gap:32px 40px;text-align:left}
 #milky-cheek-v12 .c12-ingredient{border-top:1px solid #d8c6cd;padding-top:20px}
@@ -73,21 +77,24 @@
 #milky-cheek-v12 .c12-ending>div{padding:45px 20px 64px}
 #milky-cheek-v12 .c12-ending p{font-size:clamp(20px,3.72cqw,32px);font-weight:600;margin-bottom:32px}
 @media(max-width:599px){
- #milky-cheek-v12 .c12-section{padding:50px 5.6% 46px}
- #milky-cheek-v12 .c12-heading{margin-bottom:30px}
- #milky-cheek-v12 .c12-label{min-width:140px;padding:4px 20px;margin-bottom:23px}
+ #milky-cheek-v12 .c12-section{padding:40px 5.6% 38px}
+ #milky-cheek-v12 .c12-heading{margin-bottom:24px}
+ #milky-cheek-v12 .c12-label{min-width:140px;padding:4px 20px;margin-bottom:18px}
  #milky-cheek-v12 .c12-kicker{margin-bottom:10px}
  #milky-cheek-v12 .c12-body{margin-top:20px}
  #milky-cheek-v12 .c12-logo{width:106px}
- #milky-cheek-v12 .c12-hero-copy{padding:32px 5% 34px}
- #milky-cheek-v12 .c12-product-name{margin:23px 0}
- #milky-cheek-v12 .c12-hero .c12-body{margin-top:23px}
+ #milky-cheek-v12 .c12-hero-copy{padding:26px 5% 28px}
+ #milky-cheek-v12 .c12-product-name{margin:18px 0}
+ #milky-cheek-v12 .c12-hero .c12-body{margin-top:18px}
  #milky-cheek-v12 .c12-hero-points{padding:24px 2%}
  #milky-cheek-v12 .c12-hero-points p{gap:7px}
  #milky-cheek-v12 .c12-hero-points span{padding:0 9px}
- #milky-cheek-v12 .c12-application-media{gap:12px}
+ #milky-cheek-v12 .c12-application-media{grid-template-columns:1fr;gap:24px}
+ #milky-cheek-v12 .c12-sponge-figure{display:grid;grid-template-columns:34% 1fr;gap:18px;align-items:center;text-align:left}
+ #milky-cheek-v12 .c12-sponge-figure figcaption{margin-top:0}
+ #milky-cheek-v12 .c12-sponge-figure figcaption span{display:block;margin-top:6px;line-height:1.6}
  #milky-cheek-v12 .c12-sponge,#milky-cheek-v12 .c12-film{border-radius:10px}
- #milky-cheek-v12 .c12-play{right:6px;bottom:6px;min-width:56px;padding:5px 10px;font-size:12px}
+ #milky-cheek-v12 .c12-play{min-width:66px;padding:5px 10px;font-size:13px}
  #milky-cheek-v12 .c12-application-media figcaption{margin-top:12px;font-size:13px}
  #milky-cheek-v12 .c12-steps{gap:10px;margin-top:28px}
  #milky-cheek-v12 .c12-steps h3{font-size:14px}
@@ -101,7 +108,7 @@
  #milky-cheek-v12 .c12-swatch{margin-top:8px;border-radius:7px}
  #milky-cheek-v12 .c12-tone{margin-top:7px}
  #milky-cheek-v12 .c12-shade-description{margin-top:10px}
- #milky-cheek-v12 .c12-texture{padding-top:50px}
+ #milky-cheek-v12 .c12-texture{padding-top:40px}
  #milky-cheek-v12 .c12-formula-art{margin-bottom:28px}
  #milky-cheek-v12 .c12-ingredients{gap:24px 18px}
  #milky-cheek-v12 .c12-ingredient{padding-top:14px}

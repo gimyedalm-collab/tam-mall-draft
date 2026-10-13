@@ -10,7 +10,7 @@ V8 = WORK / '물풀치크_상세_V8_261002/assets'
 DEST = ROOT / 'storefront-v2/preview/assets/milky-cheek-v12'
 DEST.mkdir(parents=True, exist_ok=True)
 records = []
-for src, name in [(SOURCE/'1차_070.jpg', 'campaign.jpg'), (SOURCE/'1차_077.jpg', 'sponge.jpg'), (SOURCE/'1차_090.jpg', 'lineup.jpg')]:
+for src, name in [(SOURCE/'1차_070.jpg', 'campaign.jpg'), (SOURCE/'1차_077.jpg', 'sponge.jpg'), (SOURCE/'1차_072.jpg', 'brand-ending.jpg')]:
     out = DEST/name
     if not out.exists():
         subprocess.run(['ffmpeg','-v','error','-i',str(src),'-vf','scale=1720:-2','-q:v','2','-frames:v','1',str(out)], check=True)
@@ -48,24 +48,24 @@ def content(prefix):
   </section>
 
   <section class="c12-application c12-section" data-panel="application">
-    <header class="c12-heading"><span class="c12-label">SPONGE APPLICATOR</span><p class="c12-kicker">꺼내서, 짜서, 가볍게.</p><h2>브러시 없이<br>볼 위에 바로 톡톡.</h2><p class="c12-body">내장 스펀지로 바르고 펴 바르는<br>간편한 치크 메이크업.</p></header>
+    <header class="c12-heading"><span class="c12-label">SPONGE APPLICATOR</span><h2>브러시 없이<br>볼 위에 바로 톡톡.</h2></header>
     <div class="c12-application-media">
-      <figure><div class="c12-sponge"><img src="{a}sponge.jpg" width="1720" height="2580" loading="lazy" alt="물풀치크 내장 스펀지와 ON 표시 확대"><span class="c12-mechanism">ON / OFF</span></div><figcaption>스펀지 팁과 ON/OFF 조절부</figcaption></figure>
-      <figure><div class="c12-film"><video muted loop playsinline preload="none" controls poster="{old}three-steps-poster.png" aria-label="물풀치크 실제 사용 영상"><source src="{old}three-steps.mp4" type="video/mp4"></video><button class="c12-play" type="button" aria-label="사용법 영상 재생" aria-pressed="false" hidden>재생</button></div><figcaption>볼 위에 가볍게 두드리기</figcaption></figure>
+      <figure class="c12-sponge-figure"><div class="c12-sponge"><img src="{a}sponge.jpg" width="1720" height="2580" loading="lazy" alt="물풀치크 내장 스펀지와 ON 표시 확대"><span class="c12-mechanism">ON / OFF</span></div><figcaption>바르고 펴 바르는 스펀지 팁<br><span>돌려서 여닫는 ON/OFF 조절부</span></figcaption></figure>
+      <figure class="c12-film-figure"><div class="c12-film"><video muted loop playsinline preload="none" controls poster="{old}three-steps-poster.png" aria-label="물풀치크 실제 사용 영상"><source src="{old}three-steps.mp4" type="video/mp4"></video></div><figcaption class="c12-film-caption"><span>볼 위에 가볍게 두드리기</span><button class="c12-play" type="button" aria-label="사용법 영상 재생" aria-pressed="false" hidden>재생</button></figcaption></figure>
     </div>
     <ol class="c12-steps"><li><span>01</span><h3>ON으로 열기</h3><p>팁에 소량 짜 주세요.</p></li><li><span>02</span><h3>톡톡 펴 바르기</h3><p>볼 위에서 두드려 주세요.</p></li><li><span>03</span><h3>OFF로 닫기</h3><p>사용 후 캡을 닫아 주세요.</p></li></ol>
     <p class="c12-use-tip">처음에는 소량, 원하는 색감만큼 덧발라 주세요.</p>
   </section>
 
   <section class="c12-colours c12-section" data-panel="colours">
-    <header class="c12-heading"><span class="c12-label">FIND YOUR SHADE</span><p class="c12-kicker">밝은 핑크부터 차분한 모브까지.</p><h2>나의 볼에 어울리는<br>네 가지 밀키 컬러.</h2><p class="c12-body">팔 위의 색감과 볼 위의 표현을<br>함께 비교해 보세요.</p></header>
+    <header class="c12-heading"><span class="c12-label">FIND YOUR SHADE</span><h2>나의 볼에 어울리는<br>네 가지 밀키 컬러.</h2><p class="c12-body">팔과 볼에서 확인하는 네 가지 발색.</p></header>
     <figure class="c12-arm-chart"><div class="c12-arm"><img src="{a}arm.jpg" loading="lazy" alt="왼쪽부터 헬로버니, 썬플러쉬, 누드티, 로지댄스 팔 발색"></div><figcaption>{legends}</figcaption></figure>
     <div class="c12-shade-grid">{colourcards}</div>
     <p class="c12-note">피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.</p>
   </section>
 
   <section class="c12-texture" data-panel="texture">
-    <header class="c12-heading"><span class="c12-label">MILKY TEXTURE</span><p class="c12-kicker">부드럽게 펴 바르는 컬러.</p><h2>밀키한 색감에<br>은은한 윤기를 더해.</h2><p class="c12-body">조금씩 덧발라<br>오늘의 메이크업에 맞는 농도로.</p></header>
+    <header class="c12-heading"><span class="c12-label">MILKY TEXTURE</span><h2>밀키한 색감에<br>은은한 윤기를 더해.</h2></header>
     <img class="c12-texture-photo" src="{old}formula-pink.jpg" width="1800" height="1200" loading="lazy" alt="헬로버니의 밀키한 제형과 스펀지 팁 실제 촬영 컷">
   </section>
 
@@ -87,7 +87,7 @@ def content(prefix):
     <p class="c12-note">한국피부과학연구원 · 성인 여성 32명<br>측정기간 2024.11.25 ~ 2024.11.28<br>24시간 첩포 후 제거 30분·24시간·48시간 평가<br>시험 조건에 따른 결과이며 개인차가 있습니다.</p>
   </section>
 
-  <footer class="c12-ending" data-panel="ending"><img src="{a}lineup.jpg" width="1720" height="1146" loading="lazy" alt="물풀치크 네 가지 컬러 제품과 제형"><div><p>밀키하게 물드는 나의 컬러.</p><img class="c12-logo" src="{old}tam-logo.svg" width="156" height="44" alt="TAM BEAUTY"></div></footer>
+  <footer class="c12-ending" data-panel="ending"><img src="{a}brand-ending.jpg" width="1720" height="1146" loading="lazy" alt="네 가지 밀키 제형 위에 놓인 TAM 로고가 보이는 물풀치크 제품"><div><p>밀키하게 물드는 나의 컬러.</p><img class="c12-logo" src="{old}tam-logo.svg" width="156" height="44" alt="TAM BEAUTY"></div></footer>
 </article>'''
 
 standalone=ROOT/'cheek-v12';standalone.mkdir(exist_ok=True)

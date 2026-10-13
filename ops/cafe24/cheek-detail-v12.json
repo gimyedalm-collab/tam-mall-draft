@@ -2,8 +2,8 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
-  "design_reference": "Lipliner typography and photograph scale only; distinct Milky Cheek formula illustration and numbered ingredient layout.",
+  "status": "source_refinement_verified_ready_for_github_pages",
+  "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
       "#1A1A1A",
@@ -58,16 +58,16 @@
       "bytes": 134974
     },
     {
-      "file": "lineup.jpg",
-      "source_name": "1차_090.jpg",
-      "source_sha256": "3a4292a5d2909878212c7e398e7a785ad77a2d30890e97f8ece97b296ab5a9b9",
-      "sha256": "772986a671c88e2df59c1c649a375a5a6517729030db8402e6e227e939c03a0b",
+      "file": "brand-ending.jpg",
+      "source_name": "1차_072.jpg",
+      "source_sha256": "53449ee03e500b0224b06461ae6974a5c56cb9b6ac6db0a6acd1bfb5c32a5601",
+      "sha256": "a9d1ae4baba6ec2a59bb4c7669b3919ab43dbfcc44e7052fa43427b4a7088622",
       "transformation": "Web resize/JPEG encoding only. No retouch, recolour or generation; full source frame retained.",
       "dimensions": [
         1720,
         1146
       ],
-      "bytes": 138496
+      "bytes": 193005
     },
     {
       "file": "arm.jpg",
@@ -138,7 +138,6 @@
   ],
   "commerce_outside_detail_unchanged": true,
   "production_cafe24_changed": false,
-  "design_acceptance": "Owner acknowledged overall V12 improvement; requested distinct formula imagery. Revised formula awaiting owner review.",
   "verification": {
     "widths": [
       320,
@@ -153,18 +152,13 @@
     "headline_to_body_ratio_min": 2.11,
     "integration": "All seven product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
     "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Inspected revised formula at 390 and 860px. All automated checks at 320/390/860/1440 passed after formula replacement.",
+    "visual": "Inspected revised application at 390/860, shade comparison and branded ending. Responsive checks at 320/390/860/1440, all seven integrated panels and motion behavior passed.",
     "script": "ops/cafe24/check_cheek_v12.py"
   },
   "formula_revision": {
     "reason": "Owner found reused droplet art too similar to lipliner.",
     "change": "Dedicated milky pink gel ribbon illustration and ruled ingredient list.",
     "provenance": "cheek-formula-image.json"
-  },
-  "publication": {
-    "commit": "cb948a9",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
-    "revised_public_files_matched": 4
   },
   "video_aspect_fix": {
     "reason": "Owner reported stretched face in SPONGE APPLICATOR video.",
@@ -173,5 +167,12 @@
     "verification": "Responsive QA at 320/390/860/1440 passed, including playback, pause, reduced motion and integrated product layout. Mobile application screenshot visually inspected.",
     "published_commit": "cb948a9",
     "public_verification": "GitHub Pages built; public CSS matches verified local file. Native 1080x1920 video uses proportional cover without transform at 320/390/860px."
+  },
+  "design_acceptance": "Owner approved all four proposed source-preserving improvements; implementation awaiting review.",
+  "source_refinement": {
+    "application": "Larger 4:5 video preserving native aspect ratio. Mobile full-width film below compact sponge explanation; desktop 3:5 media ratio. Playback button outside video.",
+    "ending": "Original 1cha_072 photograph with front-facing TAM logo and four textures, web resized only.",
+    "swatches": "Full square original texture images instead of narrow crops; preserve embedded labels and texture shape.",
+    "pacing": "Shortened repetitive application, colour and texture introductions, reduced section and hero whitespace."
   }
 }
