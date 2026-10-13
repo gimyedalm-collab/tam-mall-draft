@@ -209,7 +209,7 @@
     "verification": "cheek-detail-v12.json",
     "production_cafe24_changed": false,
     "next_action": "Owner reviews V12 visual direction. Technical QA and owner design acceptance remain separate.",
-    "published_commit": "1379e76",
+    "published_commit": "6f91b51",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
     "formula_revision": "Dedicated Milky Cheek ribbon illustration and numbered ingredient layout published and verified. Owner review pending.",
     "video_aspect_fix": "Proportional cover crop replaces distorted video stretch. Published and verified on GitHub Pages cb948a9.",
@@ -220,7 +220,7 @@
     "finish_revision": "Removed middle logo; original campaign-reference backdrop edited to pale warm grey with built-in imagegen. Original pink source retained, no new fictional model. Actual four shade photos unchanged. Public 390/860 verified.",
     "css_cache_fix": "Automatic content-hash CSS retained; current no-logo neutral edit cache regression passed.",
     "typography_refinement": "Published notes 11px mobile/14px desktop, shade and ingredient secondary copy 12-18px, smaller note spacing. All wording retained.",
-    "shade_comparison_refinement": "Shade names above original cheek images; full texture squares reduced to 68% width, followed by short colour descriptions. Two-column comparison retained; original imagery unchanged."
+    "shade_comparison_refinement": "Published and verified: names above original cheek photos, texture squares at 68% width, short descriptions below. Two columns and original image colours preserved."
   },
   "ux_audit_20261013": {
     "status": "implemented_dom_verified_pending_publish",
