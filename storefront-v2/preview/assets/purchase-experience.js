@@ -4,7 +4,7 @@
   const preview = document.body.hasAttribute('data-tam-purchase-preview');
   const config = window.TAM_PURCHASE_CONFIG || (preview ? {
     channelUrl: 'https://pf.kakao.com/_nxhIxhn', popupEnabled: true,
-    popupDelay: 12000, couponAmount: 3000, dispatch: { enabled: false }
+    popupDelay: 12000, autoPopupEnabled: false, couponAmount: 3000, dispatch: { enabled: false }
   } : null);
   if (!config || !window.TamPurchasePolicy) return;
   const policy = window.TamPurchasePolicy;
@@ -89,12 +89,12 @@
   trigger.append(mark, benefit, arrow);
   trigger.setAttribute('aria-label', amount ? `카카오톡 채널 추가 시 ${amount} 쿠폰 안내 열기` : '카카오톡 채널 쿠폰 안내 열기');
   trigger.setAttribute('aria-haspopup', 'dialog'); trigger.addEventListener('click', () => show(true));
-  const triggerHost = info.isConnected ? info : document.querySelector('[data-tam-channel-trigger-host], .do-footer, footer');
+  const triggerHost = info.isConnected ? info : document.querySelector('[data-tam-channel-trigger-host]');
   if (triggerHost) triggerHost.append(trigger);
-  if (read('sessionStorage', '-shown') || Number(read('localStorage', '-until')) > Date.now()) return;
+  if (config.autoPopupEnabled === false || read('sessionStorage', '-shown') || Number(read('localStorage', '-until')) > Date.now()) return;
   const started = Date.now();
   const attempt = () => {
-    if (shown || read('sessionStorage', '-shown') || Number(read('localStorage', '-until')) > Date.now()) return;
+    if (config.autoPopupEnabled === false || shown || read('sessionStorage', '-shown') || Number(read('localStorage', '-until')) > Date.now()) return;
     if (Date.now() - started < (config.popupDelay ?? 12000) || document.hidden || scrollY < 320) return;
     if (document.activeElement?.matches('input,select,textarea,button')) return;
     if (document.querySelector('dialog[open], [aria-modal="true"]:not([hidden]), .mobile-nav.open, .do-header[data-nav-open]')) return;

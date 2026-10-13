@@ -1,0 +1,36 @@
+{
+  "user_authorization": "User approved UI/UX changes and requires agent-performed Cafe24 implementation after owner login, not instructions for owner to implement.",
+  "preview_release": "ux-261013",
+  "production_changed": false,
+  "owner_step": "Sign in and complete any required owner authentication.",
+  "agent_execution": [
+    "Confirm active Korean mall skin and candidate IDs; download original backups and record rollback target.",
+    "Migrate approved preview appearance and v16 film to candidate skin; preserve English mall and unrelated product detail work.",
+    "Map shared navigation to actual Cafe24 product/category/account/search/cart/order routes.",
+    "Use actual native product options and inventory for photographic shade selectors; disable unavailable options and preserve product IDs.",
+    "Bind mobile purchase bar to native option validation and Cafe24 purchase handler, not preview session cart.",
+    "Keep Snap review mappings/scripts and existing Naver/Kakao payment, login, analytics and app hooks.",
+    "Read real coupon/shipping/member/discount settings and reconcile visible claims without inventing new policy.",
+    "Upload optimized media and approved product details directly, using verified asset paths.",
+    "Verify desktop/mobile layout, options/stock, cart, discounts, delivery, member/guest flows and supported payment return tests.",
+    "Switch production after approved work and verification are complete, then check public routes and rollback readiness."
+  ],
+  "preview_only_do_not_ship_as_native_commerce": [
+    "commerce-preview.js",
+    "preview-catalog.js",
+    "ux-261013.js option/cart adapter targeting data-preview-product",
+    "static reviews-data files as replacement for live review widget"
+  ],
+  "pending_browser_checks": [
+    "Rendered layout at 320, 390, 768, 1440 and 1920 widths",
+    "Mobile fixed purchase bar and Kakao button collision, safe-area padding and keyboard behavior",
+    "Original shade crops and selected state in actual rendered browser",
+    "Viewport media loading, pause/reduced-motion and v16 repeated playback",
+    "Product option to native purchase end-to-end after migration"
+  ],
+  "evidence": [
+    "ux-dom-20261013.json",
+    "ux-structure-20261013.json",
+    "ux-media-20261013.json"
+  ]
+}

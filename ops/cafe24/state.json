@@ -221,5 +221,24 @@
     "css_cache_fix": "Automatic content-hash CSS retained; current no-logo neutral edit cache regression passed.",
     "typography_refinement": "Published notes 11px mobile/14px desktop, shade and ingredient secondary copy 12-18px, smaller note spacing. All wording retained.",
     "shade_comparison_refinement": "Shade names above original cheek images; full texture squares reduced to 68% width, followed by short colour descriptions. Two-column comparison retained; original imagery unchanged."
+  },
+  "ux_audit_20261013": {
+    "status": "implemented_dom_verified_pending_publish",
+    "approval": "User approved the five-brand audit changes and explicitly requires the agent to directly perform Cafe24 implementation after login.",
+    "preview_changes": [
+      "Shared navigation/footer on 25 pages",
+      "Home product names/prices and reduced repeated brand copy",
+      "Original-photo shade selection for cushion, tint and cheek",
+      "Mobile purchase bar delegates existing option validation and buy action",
+      "Detail/review/purchase anchors",
+      "Contextual lookbook product links without unverified used-shade claims",
+      "Manual coupon access; automatic solicitation disabled",
+      "Original cushion animations converted to controlled video; originals retained"
+    ],
+    "verification": "ux-dom-20261013.json",
+    "media_verification": "ux-media-20261013.json",
+    "browser_rendering": "Unavailable: browser inventory empty; not visually or interactively verified in a rendered browser.",
+    "production_cafe24_changed": false,
+    "cafe24_next_action": "After owner login, agent backs up active skin, migrates approved UI into candidate skin, maps all native commerce and review modules, checks actual coupon/shipping policy, verifies desktop/mobile flows, then completes production rollout after full verification. No manual implementation checklist handed to owner."
   }
 }

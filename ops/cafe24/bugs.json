@@ -130,6 +130,21 @@
       "evidence": "Owner screenshot and ops/cafe24/check_cheek_v12_cache.py; no private browser state collected.",
       "fix": "Automatic CSS content-hash query in both generated page references.",
       "retest": "Real Chromium cache priming and repeated navigation at 320/390/860 passed; responsive/integration/video at 320/390/860/1440 passed. Public HTML/CSS matched; actual public browser verified at 390/860 (f932055)."
+    },
+    {
+      "id": "TAM-UX-20261013",
+      "type": "implementation",
+      "priority": "P1",
+      "status": "preview_dom_verified_browser_rendering_and_native_migration_pending",
+      "route": "storefront-v2/preview",
+      "expected": "Consistent navigation; photographic shade selection; mobile purchase access; lighter detail media; native Cafe24 connections after owner login.",
+      "actual": "25 preview pages updated; DOM interaction checks passed. Browser inventory empty. Cafe24 integration not performed.",
+      "evidence": [
+        "ux-dom-20261013.json",
+        "ux-media-20261013.json"
+      ],
+      "fix": "Approved audit UI/UX changes; original product content retained.",
+      "retest": "DOM checks are separate from rendered browser and live-commerce verification."
     }
   ]
 }

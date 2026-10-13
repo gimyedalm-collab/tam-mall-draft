@@ -1,0 +1,44 @@
+[
+  {
+    "source": "storefront-v2\\preview\\assets\\jelly-skin-cushion-0908\\02.webp",
+    "output": "storefront-v2\\preview\\assets\\ux-261013\\cushion-02.mp4",
+    "source_frames": 253,
+    "source_duration_seconds": 10.626,
+    "source_bytes": 9339494,
+    "output_bytes": 2425356,
+    "size": [
+      860,
+      1520
+    ],
+    "sample_psnr_db": 43.09,
+    "output_duration_seconds": 10.64
+  },
+  {
+    "source": "storefront-v2\\preview\\assets\\jelly-skin-cushion-0908\\05.webp",
+    "output": "storefront-v2\\preview\\assets\\ux-261013\\cushion-05.mp4",
+    "source_frames": 288,
+    "source_duration_seconds": 12.096,
+    "source_bytes": 18986000,
+    "output_bytes": 5661227,
+    "size": [
+      860,
+      1520
+    ],
+    "sample_psnr_db": 43.97,
+    "output_duration_seconds": 12.08
+  },
+  {
+    "source": "storefront-v2\\preview\\assets\\jelly-skin-cushion-0908\\07.webp",
+    "output": "storefront-v2\\preview\\assets\\ux-261013\\cushion-07.mp4",
+    "source_frames": 65,
+    "source_duration_seconds": 2.6,
+    "source_bytes": 9856904,
+    "output_bytes": 341684,
+    "size": [
+      860,
+      544
+    ],
+    "sample_psnr_db": 43.22,
+    "output_duration_seconds": 2.6
+  }
+]

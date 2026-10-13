@@ -1,7 +1,7 @@
 (() => {
   const video = document.querySelector('.do-hero video');
   const hero = document.querySelector('.do-hero');
-  const header = document.querySelector('.do-header');
+  const header = document.querySelector('.ux-header, .do-header');
   if (!video || !hero || !header) return;
   const sync = (time = video.currentTime) => {
     const ending = time >= 146 / 24;
