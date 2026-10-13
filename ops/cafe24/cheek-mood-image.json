@@ -1,0 +1,17 @@
+{
+  "purpose": "Image-only makeup mood interlude. Not a product application result, shade reference, before/after, or efficacy demonstration.",
+  "tool": "Built-in image_gen.imagegen",
+  "source": "exec-cc12176d-c271-4128-aefd-155c0678eefd.png",
+  "asset": "storefront-v2/preview/assets/milky-cheek-v12/cheek-mood-v1.webp",
+  "prompt": "Create one photorealistic editorial beauty photograph, landscape 3:2 composition, for a quiet image-only interlude in a Korean cosmetics detail page. A fictional Korean adult woman, about 27, relaxed natural three-quarter head-and-shoulders portrait; head fully visible with generous breathing room, face occupies about one third of image width. She is looking slightly off camera with a gentle unposed expression and relaxed closed lips. Dark brown hair loosely tucked behind one ear with a few natural flyaways. Simple white cotton top at bottom, no jewellery. Soft muted milky rose cheek makeup blended subtly into realistic skin, natural pores and fine skin texture, restrained satin highlights on cheekbones, soft neutral rose lips, minimal eye makeup, normal dark brown irises. Skin must look alive and natural, not airbrushed, plastic, waxy, glittery or excessively glossy. Soft diffuse daylight from a large window, neutral white and pale warm-grey background, clean bright light with natural gentle shadow, no green/cyan/yellow colour cast. Quiet candid mood, not a commercial product-holding pose. Shoulder line easy and natural, anatomically normal head, neck and shoulders. Keep whole head and chin inside frame, comfortable crop near upper chest. Background is simple softly blurred light studio wall with no objects; tasteful editorial image, not an exaggerated glamour shot. No hands in frame, no product or packaging, no props, no text, logo, title, border, collage, inset or watermark. This is a makeup mood photograph only, not evidence of a specific product's application result. Single consistent photographic frame, no additional panels.",
+  "owner_authorization": "Owner allows AI creative when existing sources are insufficient; approved image-only quiet makeup scene after shade comparison.",
+  "actual_shade_evidence": "Four original cheek and texture photographs remain unchanged.",
+  "edits": "WebP encoding only; no alterations to real model identity or real product photographs.",
+  "sha256": "62f4137c6634046685fdad913c62091d76fa84653fdc3e3b003bb2367de5ecfc",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "original_saved_to": "C:\\Users\\BNK-1\\Desktop\\_탐뷰티\\물풀치크_상세_V12_261013\\cheek-mood-v1-original.png",
+  "original_sha256": "abc3ff26085683d2c4ce0b8cdb31028260e12f528c9527d0c1e902706538938c"
+}

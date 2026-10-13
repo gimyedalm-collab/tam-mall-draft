@@ -65,10 +65,10 @@ async def run():
             await page.evaluate('document.fonts.ready')
             after = await finish.evaluate('(e)=>({display:getComputedStyle(e).display,height:e.getBoundingClientRect().height,background:getComputedStyle(e).backgroundColor})')
             photo = await page.locator('.c12-finish-photo').bounding_box()
-            copy = await page.locator('.c12-finish-copy').bounding_box()
-            assert after['display'] == 'grid' and after['background'] == 'rgb(245, 245, 245)'
+            assert after['background'] == 'rgb(255, 255, 255)'
             assert after['height'] < before['height']*.5
-            assert copy['x'] >= photo['x']+photo['width'] and photo['y'] <= copy['y'] < photo['y']+photo['height']
+            assert abs(photo['width']/photo['height']-1.5)<.01
+            assert not (await finish.inner_text()).strip()
             assert requests[CSS] == count+1
             await finish.screenshot(path=str(OUT/f'{width}-fixed.png'))
             results.append({'width': width, 'cached_old_css_reproduced': True, 'before': before, 'after': after})
