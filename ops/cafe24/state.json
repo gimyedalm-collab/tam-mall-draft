@@ -202,14 +202,14 @@
     "production_cafe24_changed": false
   },
   "cheek_v12_20261013": {
-    "status": "verified_ready_for_github_pages",
+    "status": "published_on_github_pages_and_verified",
     "product_no": 102,
     "reference": "TAM lipliner R32/R34; rebuild after owner rejected V11 quality.",
     "review_path": "cheek-v12/index.html",
     "verification": "cheek-detail-v12.json",
     "production_cafe24_changed": false,
     "next_action": "Owner reviews V12 visual direction. Technical QA and owner design acceptance remain separate.",
-    "published_commit": "dfa7bbb",
+    "published_commit": "5e65ebf",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
     "formula_revision": "Dedicated Milky Cheek ribbon illustration and numbered ingredient layout published and verified. Owner review pending.",
     "video_aspect_fix": "Proportional cover crop replaces distorted video stretch. Published and verified on GitHub Pages cb948a9.",
@@ -217,7 +217,7 @@
     "arm_skin_revision": "Rejected by owner for artificial/unpleasant appearance; superseded by complete removal of arm chart.",
     "arm_removal": "Arm chart removed; original cheek and texture comparison retained. Published and verified on GitHub Pages 2b8b90b. Do not reintroduce rejected arm treatment without explicit request.",
     "ending_revision": "Existing transparent front-logo product and original texture squares on neutral white replaced rejected blue/dirty photograph. Published and verified on GitHub Pages 3c374dc; visible source RGBA pixels unchanged.",
-    "finish_revision": "AI model strongly rejected by owner. Restored original source/14.jpg as centered width-limited image only. No finish heading or copy; generated portrait removed from active assets.",
-    "css_cache_fix": "Automatic stylesheet content hash retained; cached-old-CSS regression passes for image-only 3:2 composition."
+    "finish_revision": "Owner strongly rejected AI portrait; removed generated asset and restored original source/14.jpg as centered width-limited image only. No finish heading/copy. Public browser verified at 390/860.",
+    "css_cache_fix": "Content-hash CSS preserved; real cached-CSS regression passed for restored original portrait."
   }
 }
