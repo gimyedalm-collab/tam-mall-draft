@@ -30,7 +30,7 @@
 #milky-cheek-v12 .c12-sponge,#milky-cheek-v12 .c12-film{position:relative;overflow:hidden;aspect-ratio:360/420;background:var(--pink);border-radius:18px}
 #milky-cheek-v12 .c12-sponge img{position:absolute;width:220%;max-width:none;height:auto;left:-60%;top:-109%}
 #milky-cheek-v12 .c12-mechanism{position:absolute;left:5%;top:79%;width:36%;padding-bottom:4px;border-bottom:1px solid #6f6a6b;text-align:left;font:400 clamp(9px,1.86cqw,16px)/1.3 Cheek12English,sans-serif;color:#40363a}
-#milky-cheek-v12 .c12-film video{position:absolute;width:105.263%;height:185.185%;left:-2.105%;top:-44.444%;object-fit:fill}
+#milky-cheek-v12 .c12-film video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
 #milky-cheek-v12 .c12-play{position:absolute;right:12px;bottom:12px;min-width:76px;min-height:44px;padding:8px 14px;border:1px solid #ded7da;background:#fff;color:var(--ink);font:500 15px Cheek12,sans-serif;cursor:pointer}
 #milky-cheek-v12 .c12-play:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
 #milky-cheek-v12 .c12-steps{display:grid;grid-template-columns:repeat(3,1fr);list-style:none;padding:0;margin-top:44px;gap:24px}
