@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "verified_ready_for_github_pages",
+  "status": "published_on_github_pages_and_verified",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -227,5 +227,11 @@
       },
       "mobile_height_reduction": "About 63% at 390px; previously about 684px."
     }
+  },
+  "publication": {
+    "commit": "dfa7bbb",
+    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/?v=dfa7bbb",
+    "revised_public_files_matched": 4,
+    "public_browser": "390 and 860px public image-only scene verified after lazy image loading. Natural width 1536, 3:2 frame, no visible copy, current CSS content hash."
   }
 }
