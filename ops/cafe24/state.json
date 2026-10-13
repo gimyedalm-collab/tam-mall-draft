@@ -223,7 +223,7 @@
     "shade_comparison_refinement": "Published and verified: names above original cheek photos, texture squares at 68% width, short descriptions below. Two columns and original image colours preserved."
   },
   "ux_audit_20261013": {
-    "status": "implemented_dom_verified_pending_publish",
+    "status": "published_and_http_verified_dom_checks_passed_rendered_browser_review_pending",
     "approval": "User approved the five-brand audit changes and explicitly requires the agent to directly perform Cafe24 implementation after login.",
     "preview_changes": [
       "Shared navigation/footer on 25 pages",
@@ -239,6 +239,9 @@
     "media_verification": "ux-media-20261013.json",
     "browser_rendering": "Unavailable: browser inventory empty; not visually or interactively verified in a rendered browser.",
     "production_cafe24_changed": false,
-    "cafe24_next_action": "After owner login, agent backs up active skin, migrates approved UI into candidate skin, maps all native commerce and review modules, checks actual coupon/shipping policy, verifies desktop/mobile flows, then completes production rollout after full verification. No manual implementation checklist handed to owner."
+    "cafe24_next_action": "After owner login, agent backs up active skin, migrates approved UI into candidate skin, maps all native commerce and review modules, checks actual coupon/shipping policy, verifies desktop/mobile flows, then completes production rollout after full verification. No manual implementation checklist handed to owner.",
+    "published_commit": "31dfe77",
+    "public_verification": "ux-public-20261013.json",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/design-only.html?v=31dfe77"
   }
 }

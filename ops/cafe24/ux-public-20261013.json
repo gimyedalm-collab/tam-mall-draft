@@ -1,0 +1,58 @@
+{
+  "release_commit": "31dfe77",
+  "deployed_commit": "c2440bb",
+  "checks": [
+    {
+      "path": "design-only.html",
+      "http": 200,
+      "matches_release": true
+    },
+    {
+      "path": "shop.html",
+      "http": 200,
+      "matches_release": true
+    },
+    {
+      "path": "product-23.html",
+      "http": 200,
+      "matches_release": true
+    },
+    {
+      "path": "product-112.html",
+      "http": 200,
+      "matches_release": true
+    },
+    {
+      "path": "product-102.html",
+      "http": 200,
+      "matches_release": true
+    },
+    {
+      "path": "assets/ux-261013.css",
+      "http": 200,
+      "matches_release": true
+    },
+    {
+      "path": "assets/ux-261013.js",
+      "http": 200,
+      "matches_release": true
+    },
+    {
+      "path": "assets/ux-261013/cushion-02.mp4",
+      "http": 200,
+      "matches_release": true
+    },
+    {
+      "path": "assets/ux-261013/cushion-05.mp4",
+      "http": 200,
+      "matches_release": true
+    },
+    {
+      "path": "assets/ux-261013/cushion-07.mp4",
+      "http": 200,
+      "matches_release": true
+    }
+  ],
+  "browser_rendering_verified": false,
+  "dom_checks_passed": 152
+}
