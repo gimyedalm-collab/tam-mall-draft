@@ -162,7 +162,7 @@
     "provenance": "cheek-formula-image.json"
   },
   "publication": {
-    "commit": "c1b8845",
+    "commit": "cb948a9",
     "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
     "revised_public_files_matched": 4
   },
@@ -170,6 +170,8 @@
     "reason": "Owner reported stretched face in SPONGE APPLICATOR video.",
     "cause": "Forced video width 105.263% and height 185.185% with object-fit:fill distorted the native 1080x1920 aspect ratio.",
     "fix": "Fill the unchanged frame with object-fit:cover, centered; preserve source proportions and crop edges only. Original video unchanged.",
-    "verification": "Responsive QA at 320/390/860/1440 passed, including playback, pause, reduced motion and integrated product layout. Mobile application screenshot visually inspected."
+    "verification": "Responsive QA at 320/390/860/1440 passed, including playback, pause, reduced motion and integrated product layout. Mobile application screenshot visually inspected.",
+    "published_commit": "cb948a9",
+    "public_verification": "GitHub Pages built; public CSS matches verified local file. Native 1080x1920 video uses proportional cover without transform at 320/390/860px."
   }
 }
