@@ -219,6 +219,7 @@
     "ending_revision": "Existing transparent front-logo product and original texture squares on neutral white replaced rejected blue/dirty photograph. Published and verified on GitHub Pages 3c374dc; visible source RGBA pixels unchanged.",
     "finish_revision": "Removed middle logo; original campaign-reference backdrop edited to pale warm grey with built-in imagegen. Original pink source retained, no new fictional model. Actual four shade photos unchanged. Public 390/860 verified.",
     "css_cache_fix": "Automatic content-hash CSS retained; current no-logo neutral edit cache regression passed.",
-    "typography_refinement": "Published notes 11px mobile/14px desktop, shade and ingredient secondary copy 12-18px, smaller note spacing. All wording retained."
+    "typography_refinement": "Published notes 11px mobile/14px desktop, shade and ingredient secondary copy 12-18px, smaller note spacing. All wording retained.",
+    "shade_comparison_refinement": "Shade names above original cheek images; full texture squares reduced to 68% width, followed by short colour descriptions. Two-column comparison retained; original imagery unchanged."
   }
 }

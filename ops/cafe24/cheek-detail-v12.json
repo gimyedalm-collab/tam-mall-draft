@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
+  "status": "verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -206,7 +206,7 @@
     "fix": "Build computes CSS content hash and includes it in both standalone and integrated stylesheet URLs. Generator rerun verified idempotent.",
     "verification": "Cached-CSS regression passed for current no-logo landscape photo at 320/390/860.",
     "script": "ops/cafe24/check_cheek_v12_cache.py",
-    "css_revision": "7886d326dc15"
+    "css_revision": "5df275070e30"
   },
   "previous_finish_revision": {
     "request": "Add one finished cheek makeup section; owner permits AI/Higgsfield if existing sources are insufficient.",
@@ -241,6 +241,12 @@
     },
     "status": "rejected_by_owner_do_not_reuse"
   },
+  "typography_refinement": {
+    "request": "Reduce disclaimer and unnecessary supporting text prominence.",
+    "notes": "22px maximum reduced to 14px; mobile 11px. Margin above notes 22px desktop/16px mobile. Text retained.",
+    "secondary_copy": "Shade descriptions reduced 22px to 18px maximum, ingredient notes 24px to 18px; minimum 12px.",
+    "unchanged": "Headlines, product/shade names, comparison imagery and test result."
+  },
   "verification": {
     "widths": [
       320,
@@ -255,19 +261,18 @@
     "headline_to_body_ratio_min": 2.11,
     "integration": "All eight product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
     "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Reviewed smaller supporting copy in colour/formula sections, no logo in finish, neutral-backdrop edit at 390/860 and full mobile page. Original four shade photos unchanged. Four-width responsive/integration/motion and cache regression passed.",
+    "visual": "Reviewed 390/860 colour section screenshots: shade names above original cheek photos, full texture squares at 68% card width, two columns retained. Four-width responsive, integration, motion checks passed.",
     "script": "ops/cafe24/check_cheek_v12.py"
   },
-  "typography_refinement": {
-    "request": "Reduce disclaimer and unnecessary supporting text prominence.",
-    "notes": "22px maximum reduced to 14px; mobile 11px. Margin above notes 22px desktop/16px mobile. Text retained.",
-    "secondary_copy": "Shade descriptions reduced 22px to 18px maximum, ingredient notes 24px to 18px; minimum 12px.",
-    "unchanged": "Headlines, product/shade names, comparison imagery and test result."
-  },
-  "publication": {
-    "commit": "1379e76",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/?v=1379e76",
-    "revised_public_files_matched": 4,
-    "public_browser": "390/860: neutral edit loads at natural width 1024; signoff absent; all notes 11px mobile/14px desktop. No finish heading or visible copy."
+  "shade_comparison_refinement": {
+    "order": [
+      "shade name",
+      "original cheek photo",
+      "smaller original texture",
+      "short colour description"
+    ],
+    "texture_width_percent": 68,
+    "layout": "Two columns retained at all verified widths. Original four cheek and four texture files unchanged.",
+    "verification": "320/390/860/1440 responsive QA passed; desktop and mobile screenshots inspected."
   }
 }

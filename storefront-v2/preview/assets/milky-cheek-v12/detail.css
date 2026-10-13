@@ -45,11 +45,11 @@
 #milky-cheek-v12 .c12-shade-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px 24px;text-align:left}
 #milky-cheek-v12 .c12-cheek{position:relative;overflow:hidden;aspect-ratio:2812/1870;border-radius:16px}
 #milky-cheek-v12 .c12-cheek img{position:absolute;width:106.401%;max-width:none;height:auto;left:-3.2006%;top:-50%}
-#milky-cheek-v12 .c12-shade figcaption{display:flex;justify-content:space-between;align-items:center;gap:4px;margin-top:20px}
+#milky-cheek-v12 .c12-shade figcaption{margin:0 0 16px}
 #milky-cheek-v12 .c12-shade h3 span{font-family:Cheek12English,sans-serif;font-weight:500}
 #milky-cheek-v12 .c12-shade-en{font:400 clamp(10px,1.86cqw,16px)/1.5 Cheek12English,sans-serif;letter-spacing:.015em;margin-top:3px;color:var(--muted)}
-#milky-cheek-v12 .c12-tone{font-size:clamp(14px,2.79cqw,24px);margin-top:10px;color:var(--rose);font-weight:500}
-#milky-cheek-v12 .c12-swatch{width:100%;aspect-ratio:1;height:auto;object-fit:contain;border-radius:10px;margin-top:12px}
+#milky-cheek-v12 .c12-tone{font-size:clamp(14px,2.79cqw,24px);margin-top:16px;color:var(--rose);font-weight:500}
+#milky-cheek-v12 .c12-swatch{width:68%;aspect-ratio:1;height:auto;object-fit:contain;border-radius:10px;margin:16px auto 0}
 #milky-cheek-v12 .c12-shade-description{font-size:clamp(12px,2.09cqw,18px);margin-top:12px;color:var(--muted)}
 #milky-cheek-v12 .c12-texture{padding-top:64px}
 #milky-cheek-v12 .c12-finish{padding:0 6.5% 40px;background:var(--paper)}
@@ -104,9 +104,9 @@
  #milky-cheek-v12 .c12-use-tip{padding-top:24px;margin-top:26px}
  #milky-cheek-v12 .c12-shade-grid{gap:30px 14px}
  #milky-cheek-v12 .c12-cheek{border-radius:10px}
- #milky-cheek-v12 .c12-shade figcaption{margin-top:12px}
- #milky-cheek-v12 .c12-swatch{margin-top:8px;border-radius:7px}
- #milky-cheek-v12 .c12-tone{margin-top:7px}
+ #milky-cheek-v12 .c12-shade figcaption{margin-bottom:10px}
+ #milky-cheek-v12 .c12-swatch{margin-top:12px;border-radius:7px}
+ #milky-cheek-v12 .c12-tone{margin-top:12px}
  #milky-cheek-v12 .c12-shade-description{margin-top:10px}
  #milky-cheek-v12 .c12-texture{padding-top:32px}
  #milky-cheek-v12 .c12-finish{padding:0 5.6% 24px}

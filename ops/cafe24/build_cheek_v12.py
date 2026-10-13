@@ -36,9 +36,10 @@ def content(prefix):
     old=prefix+'milky-cheek-v11/'
     shades=[('헬로버니','HELLO BUNNY','밀키 핑크','흰빛이 감도는 밝은 핑크.'),('썬플러쉬','SUN FLUSH','코랄 핑크','코랄빛을 더한 따뜻한 핑크.'),('누드티','NUDE TEA','핑크 베이지','핑크를 머금은 부드러운 베이지.'),('로지댄스','ROSY DANCE','모브 핑크','장밋빛이 감도는 차분한 모브.')]
     colourcards=''.join(f'''<figure class="c12-shade">
+      <figcaption><h3><span>{i:02}</span> {name}</h3><p class="c12-shade-en">{en}</p></figcaption>
       <div class="c12-cheek"><img src="{old}cheek{i:02}.jpg" width="2992" height="3740" loading="lazy" alt="{name} 실제 볼 발색"></div>
-      <img class="c12-swatch" src="{a}swatch{i:02}.jpg" loading="lazy" alt="{name} 실제 제형 색상 확대">
-      <figcaption><div><h3><span>{i:02}</span> {name}</h3><p class="c12-shade-en">{en}</p><p class="c12-tone">{tone}</p></div></figcaption>
+      <img class="c12-swatch" src="{a}swatch{i:02}.jpg" width="840" height="840" loading="lazy" alt="{name} 실제 제형 색상">
+      <p class="c12-tone">{tone}</p>
       <p class="c12-shade-description">{description}</p>
     </figure>''' for i,(name,en,tone,description) in enumerate(shades,1))
     return f'''<article id="milky-cheek-v12" aria-label="더 젤리 밀키 치크 블러셔 상세" data-detail-release="cheek-v12">
