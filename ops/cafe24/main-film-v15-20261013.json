@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-13",
+  "video_sha256": "d4e1130d175a39229a262e84f234437e6f9491930b7b97e8ba095a865558950f",
+  "video": {
+    "frames": 188,
+    "fps": 24,
+    "duration": 7.833333333333333,
+    "width": 1920,
+    "height": 1080,
+    "black_frames": [],
+    "logo_frame_mean_absolute_error_rgb": 1.0543631044238684
+  },
+  "grading": {
+    "method": "Constant per-shot soft skin qualifier in CIELAB; no denoise/blur/sharpen; preserve neutral backgrounds/pink packaging outside qualifier",
+    "clips": [
+      {
+        "clip": 1,
+        "settings": {
+          "l": 0.4,
+          "a": -0.6,
+          "b": 0.1,
+          "contrast": 0.995
+        },
+        "qualified_pixel_median_lab_before": [
+          58.59375,
+          16.734375,
+          18.109375
+        ],
+        "qualified_pixel_median_lab_after": [
+          58.843994140625,
+          16.234375,
+          18.3125
+        ],
+        "neutral_and_pink_pixels_outside_qualifier_unchanged": true
+      },
+      {
+        "clip": 2,
+        "settings": {
+          "l": 0.9,
+          "a": -0.7,
+          "b": -1.4,
+          "contrast": 0.995
+        },
+        "qualified_pixel_median_lab_before": [
+          57.452392578125,
+          17.140625,
+          21.234375
+        ],
+        "qualified_pixel_median_lab_after": [
+          58.33740234375,
+          16.609375,
+          20.015625
+        ],
+        "neutral_and_pink_pixels_outside_qualifier_unchanged": true
+      },
+      {
+        "clip": 3,
+        "settings": {
+          "l": 0.9,
+          "a": -1.2,
+          "b": 0.7,
+          "contrast": 0.98
+        },
+        "qualified_pixel_median_lab_before": [
+          57.440185546875,
+          17.5625,
+          17.71875
+        ],
+        "qualified_pixel_median_lab_after": [
+          58.36181640625,
+          16.4375,
+          18.59375
+        ],
+        "neutral_and_pink_pixels_outside_qualifier_unchanged": true
+      },
+      {
+        "clip": 4,
+        "settings": {
+          "l": 0.5,
+          "a": -1.6,
+          "b": 0.4,
+          "contrast": 1.0
+        },
+        "qualified_pixel_median_lab_before": [
+          57.23876953125,
+          18.46875,
+          18.09375
+        ],
+        "qualified_pixel_median_lab_after": [
+          57.672119140625,
+          16.96875,
+          18.5625
+        ],
+        "neutral_and_pink_pixels_outside_qualifier_unchanged": true
+      },
+      {
+        "clip": 5,
+        "settings": {
+          "l": 0.2,
+          "a": 0.0,
+          "b": -1.4,
+          "contrast": 0.99
+        },
+        "qualified_pixel_median_lab_before": [
+          58.673095703125,
+          15.890625,
+          21.15625
+        ],
+        "qualified_pixel_median_lab_after": [
+          58.9599609375,
+          16.0,
+          19.71875
+        ],
+        "neutral_and_pink_pixels_outside_qualifier_unchanged": true
+      },
+      {
+        "clip": 6,
+        "settings": {
+          "l": -0.8,
+          "a": -1.0,
+          "b": 0.2,
+          "contrast": 1.0
+        },
+        "qualified_pixel_median_lab_before": [
+          60.64453125,
+          17.75,
+          18.203125
+        ],
+        "qualified_pixel_median_lab_after": [
+          59.893798828125,
+          16.609375,
+          18.515625
+        ],
+        "neutral_and_pink_pixels_outside_qualifier_unchanged": true
+      },
+      {
+        "clip": 7,
+        "settings": {
+          "l": -0.8,
+          "a": -1.4,
+          "b": 0.8,
+          "contrast": 0.98
+        },
+        "qualified_pixel_median_lab_before": [
+          60.90087890625,
+          17.640625,
+          17.3125
+        ],
+        "qualified_pixel_median_lab_after": [
+          60.1318359375,
+          16.1875,
+          18.03125
+        ],
+        "neutral_and_pink_pixels_outside_qualifier_unchanged": true
+      }
+    ]
+  },
+  "consistency_measurement": {
+    "lab_median_spread_before": [
+      3.662109375,
+      2.578125,
+      3.921875
+    ],
+    "lab_median_spread_after": [
+      2.459716796875,
+      0.96875,
+      1.984375
+    ]
+  },
+  "preserved": [
+    "V14 tracked nostril cleanup",
+    "Full-width uncropped 16:9 layout",
+    "1.25-second closeup",
+    "1.5-second static official logo hold",
+    "Native muted autoplay loop"
+  ],
+  "scope": "Existing GitHub Pages homepage only; Cafe24 production unchanged",
+  "browser_verification": "No browser connected during v15 grading. Existing autoplay/loop/layout markup and CSS/JS unchanged; prior v14 browser verification retained. V15 media decoded and inspected separately."
+}

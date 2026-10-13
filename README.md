@@ -25,8 +25,8 @@ https://gimyedalm-collab.github.io/tam-mall-draft/
 
 장바구니·주문서는 미리보기이며 실제 주문·결제·쿠폰 발급을 수행하지 않습니다. 카페24 실제 스킨 반영과 관리자 환경 검수는 아직 진행하지 않았습니다. 회원·주문 데이터, 로그인 정보와 NAS 촬영 원본은 포함하지 않았습니다.
 
-## 승인된 메인 영상 · 2026-10-12
+## 승인된 메인 영상 · 2026-10-13
 
-[홈페이지에서 보기](https://gimyedalm-collab.github.io/tam-mall-draft/) · [영상 파일](https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v14-261012.mp4)
+[홈페이지에서 보기](https://gimyedalm-collab.github.io/tam-mall-draft/) · [영상 파일](https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v15-261013.mp4)
 
-v14 · 7.83초 · 1080p · 자동 반복. 얼굴 접사의 콧구멍 안쪽 밝은 이물감 보정. PC·모바일 모두 영상 전체를 표시하며, 메뉴가 얼굴을 가리지 않도록 영상 위로 분리했습니다. 얼굴 접사 1.25초와 마지막 로고 유지 1.5초는 유지합니다.
+v15 · 7.83초 · 1080p · 자동 반복. 컷별 피부의 붉은기·노란기와 밝기·대비를 미세하게 맞췄으며, 피부 결과 광택을 유지했습니다. 기존 얼굴 접사 보정과 좌우를 채우는 원본 16:9 화면을 유지합니다. 얼굴 접사 1.25초와 마지막 로고 유지 1.5초도 그대로입니다.
