@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
+  "status": "clean_ending_verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -58,18 +58,6 @@
       "bytes": 134974
     },
     {
-      "file": "brand-ending.jpg",
-      "source_name": "1차_072.jpg",
-      "source_sha256": "53449ee03e500b0224b06461ae6974a5c56cb9b6ac6db0a6acd1bfb5c32a5601",
-      "sha256": "a9d1ae4baba6ec2a59bb4c7669b3919ab43dbfcc44e7052fa43427b4a7088622",
-      "transformation": "Web resize/JPEG encoding only. No retouch, recolour or generation; full source frame retained.",
-      "dimensions": [
-        1720,
-        1146
-      ],
-      "bytes": 193005
-    },
-    {
       "file": "swatch01.jpg",
       "source_name": "swatch01.jpg",
       "sha256": "9ebea26767a18b56b34949842ccb24839e4bb94fde2d328b14ddb4b5a2918563",
@@ -123,6 +111,18 @@
         1024
       ],
       "bytes": 67906
+    },
+    {
+      "file": "ending-product.webp",
+      "source_name": "cutout_png\\누끼.png",
+      "source_sha256": "c4401b5b74f9028c77620f3915b069a1028c7eafc9b0f13908b9d3b3791c9bcd",
+      "sha256": "9c2fce560e5c81c5f5ee4138edc3c9b4c3c27aa3d3648267622bfc66999c21db",
+      "transformation": "Existing brand transparent product cutout. Lossless WebP export, no recolouring, retouch or generation. CSS composition on white.",
+      "dimensions": [
+        1920,
+        3465
+      ],
+      "bytes": 1006688
     }
   ],
   "commerce_outside_detail_unchanged": true,
@@ -141,7 +141,7 @@
     "headline_to_body_ratio_min": 2.11,
     "integration": "All seven product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
     "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Inspected final colour section without arm panel at 390px; layout and asset checks passed at all four widths.",
+    "visual": "Inspected final ending at 390 and 860; neutral white canvas, clean cutout, unchanged logo and four original textures.",
     "script": "ops/cafe24/check_cheek_v12.py"
   },
   "formula_revision": {
@@ -159,21 +159,21 @@
   },
   "source_refinement": {
     "application": "Larger 4:5 video preserving native aspect ratio. Mobile full-width film below compact sponge explanation; desktop 3:5 media ratio. Playback button outside video.",
-    "ending": "Original 1cha_072 photograph with front-facing TAM logo and four textures, web resized only.",
+    "ending": "Superseded original 1cha_072 photo due to blue/dirty background. Now transparent brand cutout and original texture images composed on white.",
     "swatches": "Full square original texture images instead of narrow crops; preserve embedded labels and texture shape.",
     "pacing": "Shortened repetitive application, colour and texture introductions, reduced section and hero whitespace."
   },
-  "design_acceptance": "Owner rejected both original-looking and retouched arm appearance. Arm chart removed; original cheek and texture comparison retained.",
   "arm_removal": {
     "reason": "Owner described continued artificial-looking, unpleasant arm appearance after correction.",
     "action": "Removed whole arm comparison panel, generated skin overlay and all arm-specific CSS. Four original cheek photographs and original texture squares form the comparison.",
     "future_direction": "Do not reintroduce this arm photo or further retouched variants without an explicit request.",
     "verification": "No arm image references in standalone page, product detail, CSS or generator. Responsive/integration/motion checks passed at 320/390/860/1440. Inspected colour section screenshot."
   },
-  "publication": {
-    "commit": "2b8b90b",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
-    "revised_public_files_matched": 3,
-    "arm_markup_absent": true
+  "design_acceptance": "Owner rejected blue/dirty background in original ending photograph. Replaced with original transparent product cutout and four original texture squares on neutral white.",
+  "ending_revision": {
+    "reason": "Owner flagged blue background contamination and unappealing presentation in ending photograph.",
+    "action": "Remove brand-ending.jpg from active output. Use existing front-logo transparent product cutout, lossless WebP export and CSS composition on white with original texture squares.",
+    "generation": "No generation, grading or retouch of product, logo or texture imagery.",
+    "verification": "All visible RGBA pixels and alpha of WebP match original PNG. Visually inspected desktop and mobile ending. Responsive/integration/motion QA passed at 320/390/860/1440."
   }
 }

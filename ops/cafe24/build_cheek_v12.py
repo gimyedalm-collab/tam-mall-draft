@@ -10,7 +10,7 @@ V8 = WORK / '물풀치크_상세_V8_261002/assets'
 DEST = ROOT / 'storefront-v2/preview/assets/milky-cheek-v12'
 DEST.mkdir(parents=True, exist_ok=True)
 records = []
-for src, name in [(SOURCE/'1차_070.jpg', 'campaign.jpg'), (SOURCE/'1차_077.jpg', 'sponge.jpg'), (SOURCE/'1차_072.jpg', 'brand-ending.jpg')]:
+for src, name in [(SOURCE/'1차_070.jpg', 'campaign.jpg'), (SOURCE/'1차_077.jpg', 'sponge.jpg')]:
     out = DEST/name
     if not out.exists():
         subprocess.run(['ffmpeg','-v','error','-i',str(src),'-vf','scale=1720:-2','-q:v','2','-frames:v','1',str(out)], check=True)
@@ -19,6 +19,11 @@ for src, name in [(V8/f'web/swatch{i:02}.jpg',f'swatch{i:02}.jpg') for i in rang
     shutil.copy2(src,DEST/name)
     records.append({'file':name,'source_name':src.name,'sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'transformation':'Byte-for-byte reuse of existing brand asset.'})
 records.append({'file':'formula-milky-ribbon.webp','source_name':'Dedicated Milky Cheek conceptual illustration','sha256':hashlib.sha256((DEST/'formula-milky-ribbon.webp').read_bytes()).hexdigest(),'transformation':'Built-in imagegen illustration; web encoding only. Not a product, shade or efficacy photograph. Prompt and provenance: ops/cafe24/cheek-formula-image.json'})
+cutout=SOURCE.parent/'cutout_png/누끼.png'
+out=DEST/'ending-product.webp'
+if not out.exists():
+    subprocess.run(['ffmpeg','-v','error','-i',str(cutout),'-c:v','libwebp','-lossless','1','-compression_level','6',str(out)],check=True)
+records.append({'file':out.name,'source_name':str(cutout.relative_to(SOURCE.parent)),'source_sha256':hashlib.sha256(cutout.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Existing brand transparent product cutout. Lossless WebP export, no recolouring, retouch or generation. CSS composition on white.'})
 for row in records:
     with Image.open(DEST/row['file']) as im: row['dimensions']=list(im.size)
     row['bytes']=(DEST/row['file']).stat().st_size
@@ -85,7 +90,7 @@ def content(prefix):
     <p class="c12-note">한국피부과학연구원 · 성인 여성 32명<br>측정기간 2024.11.25 ~ 2024.11.28<br>24시간 첩포 후 제거 30분·24시간·48시간 평가<br>시험 조건에 따른 결과이며 개인차가 있습니다.</p>
   </section>
 
-  <footer class="c12-ending" data-panel="ending"><img src="{a}brand-ending.jpg" width="1720" height="1146" loading="lazy" alt="네 가지 밀키 제형 위에 놓인 TAM 로고가 보이는 물풀치크 제품"><div><p>밀키하게 물드는 나의 컬러.</p><img class="c12-logo" src="{old}tam-logo.svg" width="156" height="44" alt="TAM BEAUTY"></div></footer>
+  <footer class="c12-ending" data-panel="ending"><div class="c12-ending-visual"><div class="c12-ending-product"><img src="{a}ending-product.webp" width="1920" height="3465" loading="lazy" alt="TAM 로고가 보이는 물풀치크 제품 앞면"></div><div class="c12-ending-swatches" aria-hidden="true">{''.join(f'<img src="{a}swatch{i:02}.jpg" width="840" height="840" loading="lazy" alt="">' for i in range(1,5))}</div></div><div class="c12-ending-copy"><p>밀키하게 물드는 나의 컬러.</p><img class="c12-logo" src="{old}tam-logo.svg" width="156" height="44" alt="TAM BEAUTY"></div></footer>
 </article>'''
 
 standalone=ROOT/'cheek-v12';standalone.mkdir(exist_ok=True)
