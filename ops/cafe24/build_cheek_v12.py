@@ -19,6 +19,7 @@ for src, name in [(V8/'web/arm-blended.jpg','arm.jpg'), *[(V8/f'web/swatch{i:02}
     shutil.copy2(src,DEST/name)
     records.append({'file':name,'source_name':src.name,'sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'transformation':'Byte-for-byte reuse of existing brand asset.'})
 records.append({'file':'formula-milky-ribbon.webp','source_name':'Dedicated Milky Cheek conceptual illustration','sha256':hashlib.sha256((DEST/'formula-milky-ribbon.webp').read_bytes()).hexdigest(),'transformation':'Built-in imagegen illustration; web encoding only. Not a product, shade or efficacy photograph. Prompt and provenance: ops/cafe24/cheek-formula-image.json'})
+records.append({'file':'arm-skin-neutral.webp','source_name':'Skin correction derived from arm.jpg','sha256':hashlib.sha256((DEST/'arm-skin-neutral.webp').read_bytes()).hexdigest(),'transformation':'Built-in imagegen skin correction beneath original swatch center masks, with feathered transitions. Original arm.jpg unchanged. Prompt and provenance: ops/cafe24/cheek-arm-skin.json'})
 for row in records:
     with Image.open(DEST/row['file']) as im: row['dimensions']=list(im.size)
     row['bytes']=(DEST/row['file']).stat().st_size
@@ -59,7 +60,7 @@ def content(prefix):
 
   <section class="c12-colours c12-section" data-panel="colours">
     <header class="c12-heading"><span class="c12-label">FIND YOUR SHADE</span><h2>나의 볼에 어울리는<br>네 가지 밀키 컬러.</h2><p class="c12-body">팔과 볼에서 확인하는 네 가지 발색.</p></header>
-    <figure class="c12-arm-chart"><div class="c12-arm"><img src="{a}arm.jpg" loading="lazy" alt="왼쪽부터 헬로버니, 썬플러쉬, 누드티, 로지댄스 팔 발색"></div><figcaption>{legends}</figcaption></figure>
+    <figure class="c12-arm-chart"><div class="c12-arm"><div class="c12-arm-media"><img class="c12-arm-skin" src="{a}arm-skin-neutral.webp" loading="lazy" alt="" aria-hidden="true"><img class="c12-arm-original" src="{a}arm.jpg" loading="lazy" alt="왼쪽부터 헬로버니, 썬플러쉬, 누드티, 로지댄스 팔 발색"></div></div><figcaption>{legends}</figcaption></figure>
     <div class="c12-shade-grid">{colourcards}</div>
     <p class="c12-note">피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.</p>
   </section>

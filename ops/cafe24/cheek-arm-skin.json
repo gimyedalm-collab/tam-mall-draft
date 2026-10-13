@@ -1,0 +1,19 @@
+{
+  "method": "Built-in imagegen, two iterations; original pigment regions remain a separate unchanged opaque photo layer in the page. First candidate rejected due to swatch changes.",
+  "prompts": [
+    "Use case: lighting-weather / precise localized photographic color correction. EDIT TARGET: the provided original real cosmetic arm-swatch photograph. Correct ONLY the bare skin surrounding the four circular blush swatches: gently reduce the strong yellow-orange cast and blown pale-yellow highlights, giving a natural neutral beige skin tone with realistic texture and subtle tonal variation. Very restrained commercial photographic correction, not beautification or regeneration. Preserve the four blush swatches EXACTLY as supplied: their original pink/coral/mauve hues, saturation, brightness, translucent feathered edges, position, shape and texture are critical product color evidence and must not be recolored, enhanced, redrawn or moved. Preserve the arm anatomy, pores, fine hairs, bracelet, sleeve, hand, background, camera angle, composition and dimensions/aspect ratio. Bare skin should remain warm and human, not grey, green, overly pink, smooth, waxy or artificially pale. Do not add makeup, text, graphics, labels or objects. Keep the original crop and all original image content; change only the objectionable yellow cast / overbright appearance in bare skin. Output a faithful retouched version of the original photo, not a new photo.",
+    "Precise masked photographic retouch. Image 1 is the ORIGINAL MASTER and the edit target. Image 2 is a REJECTED edit, supplied only to show a somewhat more natural bare-skin exposure; DO NOT use its blush colors, which are incorrectly darker and stronger. Starting from image 1, correct ONLY bare arm skin outside the swatches: slightly reduce yellow and orange coloration and overbright highlights. Critical protected area: the horizontal band from 44% to 59% of image height, x=3% to 65% of image width, contains all four blush swatches. Preserve the original master's pixels and photographic details throughout this band, including the pale first swatch and the soft luminous coral and rose swatches. No global grading, no global exposure change, no relighting of the whole image. The blush has to stay as PALE, LIGHT and SUBTLE as image 1; NOT as rich or saturated as image 2. For reference, central swatch RGB values in the original are approximately [255,212,210], [255,194,184], [255,192,177], [253,178,173]. Match these original light colors. Limit the actual edit to bare skin in narrow regions above and below that protected band, gently feather boundaries; do not create a visible stripe. Keep background, geometry, arm position, all objects and aspect ratio unchanged. Retain skin texture. Output only the faithfully corrected original photograph."
+  ],
+  "selected_source": "C:/Users/BNK-1/.codex/generated_images/01a132a6-99c2-72c2-8cbd-464e664dbb5b/exec-53a6901d-405e-4d4f-b90d-248c7b7ce3c6.png",
+  "asset": "storefront-v2/preview/assets/milky-cheek-v12/arm-skin-neutral.webp",
+  "original": "storefront-v2/preview/assets/milky-cheek-v12/arm.jpg",
+  "scope": "Original source file untouched. Central swatch regions shown from original pixels; edges feather into corrected skin. This is a retouched composite, not an untouched source photograph.",
+  "verification": {
+    "center_ROI_half_size_fraction": 0.026,
+    "all_four_max_RGB_difference": 0,
+    "visual_widths": [
+      390,
+      860
+    ]
+  }
+}

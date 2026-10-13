@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
+  "status": "skin_tone_revision_verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -134,10 +134,16 @@
         1024
       ],
       "bytes": 67906
+    },
+    {
+      "file": "arm-skin-neutral.webp",
+      "sha256": "acbf88aa7d89a15a27751a1867816a2e28b99ae2254fcea6031e393924972f24",
+      "transformation": "Built-in imagegen correction, only used beneath original swatch center masks. WebP encoding only after generation."
     }
   ],
   "commerce_outside_detail_unchanged": true,
   "production_cafe24_changed": false,
+  "design_acceptance": "Owner approved all four proposed source-preserving improvements; implementation awaiting review.",
   "verification": {
     "widths": [
       320,
@@ -168,16 +174,16 @@
     "published_commit": "cb948a9",
     "public_verification": "GitHub Pages built; public CSS matches verified local file. Native 1080x1920 video uses proportional cover without transform at 320/390/860px."
   },
-  "design_acceptance": "Owner approved all four proposed source-preserving improvements; implementation awaiting review.",
   "source_refinement": {
     "application": "Larger 4:5 video preserving native aspect ratio. Mobile full-width film below compact sponge explanation; desktop 3:5 media ratio. Playback button outside video.",
     "ending": "Original 1cha_072 photograph with front-facing TAM logo and four textures, web resized only.",
     "swatches": "Full square original texture images instead of narrow crops; preserve embedded labels and texture shape.",
     "pacing": "Shortened repetitive application, colour and texture introductions, reduced section and hero whitespace."
   },
-  "publication": {
-    "commit": "efa1eb1",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
-    "revised_public_files_matched": 4
+  "arm_skin_revision": {
+    "provenance": "cheek-arm-skin.json",
+    "method": "Built-in imagegen skin correction displayed beneath the unchanged original photograph, masked to preserve all four original swatch centers with feathered edge transitions.",
+    "verification": "All responsive and integrated checks passed. Final arm chart visually reviewed at 390/860px. Four center rectangles match the original browser-rendered photo exactly: max RGB difference 0.",
+    "limitation": "This is a skin-retouched composite; peripheral swatch edges are feathered. It is not a wholly unretouched photograph."
   }
 }
