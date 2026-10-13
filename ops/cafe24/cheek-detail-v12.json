@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
+  "status": "verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -18,13 +18,14 @@
       "Product campaign",
       "Sponge and one approved usage video",
       "Original cheek and texture shade comparison",
+      "Finished cheek look from original brand campaign",
       "Real milky texture",
       "Ingredient illustration",
       "Existing test evidence",
       "Product lineup"
     ],
     "preserved_constraints": [
-      "No AI face",
+      "AI creative permitted by owner if needed; actual shade evidence must remain original. Finish section uses an existing photograph.",
       "No Dasha/legacy person video",
       "Only approved Choi Yeeun 3steps clip",
       "No recolouring swatches",
@@ -123,27 +124,22 @@
         3465
       ],
       "bytes": 1006688
+    },
+    {
+      "file": "finish-look.webp",
+      "source_name": "05_Product_Cuts/06_Milky_Cheek_Blush/source/14.jpg",
+      "source_sha256": "8e02a6dede280e85518bdc736f6092feab4b776531312a037ffcdcb2c1ec4ef5",
+      "sha256": "16d314d161bd24f3808eb218b16f7cea9268013f61958ba0d4f81827607640a3",
+      "transformation": "Existing brand campaign model photograph holding Milky Cheek. Web resize and encoding only. No AI, face edits, skin retouch, colour grading or shade attribution. Proportional CSS crop.",
+      "dimensions": [
+        1720,
+        2580
+      ],
+      "bytes": 476588
     }
   ],
   "commerce_outside_detail_unchanged": true,
   "production_cafe24_changed": false,
-  "verification": {
-    "widths": [
-      320,
-      390,
-      860,
-      1440
-    ],
-    "horizontal_overflow": false,
-    "missing_images": 0,
-    "source_video_count": 1,
-    "shade_count": 4,
-    "headline_to_body_ratio_min": 2.11,
-    "integration": "All seven product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
-    "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Inspected final ending at 390 and 860; neutral white canvas, clean cutout, unchanged logo and four original textures.",
-    "script": "ops/cafe24/check_cheek_v12.py"
-  },
   "formula_revision": {
     "reason": "Owner found reused droplet art too similar to lipliner.",
     "change": "Dedicated milky pink gel ribbon illustration and ruled ingredient list.",
@@ -169,16 +165,36 @@
     "future_direction": "Do not reintroduce this arm photo or further retouched variants without an explicit request.",
     "verification": "No arm image references in standalone page, product detail, CSS or generator. Responsive/integration/motion checks passed at 320/390/860/1440. Inspected colour section screenshot."
   },
-  "design_acceptance": "Owner rejected blue/dirty background in original ending photograph. Replaced with original transparent product cutout and four original texture squares on neutral white.",
+  "design_acceptance": "Owner authorized finish section. Final revised visual awaits owner review; technical QA passed.",
   "ending_revision": {
     "reason": "Owner flagged blue background contamination and unappealing presentation in ending photograph.",
     "action": "Remove brand-ending.jpg from active output. Use existing front-logo transparent product cutout, lossless WebP export and CSS composition on white with original texture squares.",
     "generation": "No generation, grading or retouch of product, logo or texture imagery.",
     "verification": "All visible RGBA pixels and alpha of WebP match original PNG. Visually inspected desktop and mobile ending. Responsive/integration/motion QA passed at 320/390/860/1440."
   },
-  "publication": {
-    "commit": "3c374dc",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
-    "revised_public_files_matched": 4
+  "verification": {
+    "widths": [
+      320,
+      390,
+      860,
+      1440
+    ],
+    "horizontal_overflow": false,
+    "missing_images": 0,
+    "source_video_count": 1,
+    "shade_count": 4,
+    "headline_to_body_ratio_min": 2.11,
+    "integration": "All eight product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
+    "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
+    "visual": "Inspected new finish section at 390 and 860: original brand photo, proportional crop, face and product legible, pink backdrop retained. Responsive and motion checks passed at 320/390/860/1440.",
+    "script": "ops/cafe24/check_cheek_v12.py"
+  },
+  "finish_revision": {
+    "request": "Add one finished cheek makeup section; owner permits AI/Higgsfield if existing sources are insufficient.",
+    "placement": "After original colour comparison, before real texture.",
+    "source": "Original brand source/14.jpg, held product is Milky Cheek.",
+    "treatment": "Proportional 4:5 crop via CSS; original full-frame photo retained in WebP. No skin or background edits, recolouring, AI generation or shade-specific attribution.",
+    "copy": "Finish and glow headline; following texture copy revised to avoid repetition.",
+    "ai_used_for_this_revision": false
   }
 }
