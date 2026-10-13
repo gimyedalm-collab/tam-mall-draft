@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: ads-marketing. Asset type: abstract ingredient-section visual for TAM Beauty Milky Cheek blush detail page. Create a premium editorial macro material illustration: a single soft flowing ribbon of translucent milky pink gel, with a luminous creamy opalescent inner fold and beautifully controlled wet highlights, gently curving diagonally across the center. It feels airy, elastic and liquid, gently flattened and spread like a glossy cosmetic emulsion, not a solid object. Warm very pale blush background (#F6ECEF), seamless, generous clean negative space around the flowing form. Wide landscape 3:2 composition. Subtle studio lighting with delicate shadows, close realistic material detail, restrained contemporary Korean beauty campaign aesthetic. Palette: warm blush pink, soft ivory, translucent rose; keep colours quiet. This is conceptual ingredient illustration, not a photograph of the marketed product or a shade swatch. No products, packaging, faces, hands, fruit, flowers, text, letters, labels, logos, circular water droplets, bubbles, spheres, four-part grid, glass marbles, hard plastic, metallic reflections, iridescent rainbow or busy decoration.",
+  "original": "C:/Users/BNK-1/.codex/generated_images/01a132a6-99c2-72c2-8cbd-464e664dbb5b/exec-d9e884ef-60b5-4eed-99c9-d0d557a50549.png",
+  "asset": "storefront-v2/preview/assets/milky-cheek-v12/formula-milky-ribbon.webp",
+  "usage": "Conceptual illustration only; not actual formula, shade, or efficacy evidence.",
+  "revision": "Replace lipliner reused water droplet art following owner feedback. Dedicated Milky Cheek illustration and numbered ingredient layout."
+}

@@ -2,8 +2,8 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
-  "design_reference": "TAM lipliner R32/R34 typography, photography scale and ingredient art. V11 rejected by owner.",
+  "status": "formula_revision_verified_ready_for_github_pages",
+  "design_reference": "Lipliner typography and photograph scale only; distinct Milky Cheek formula illustration and numbered ingredient layout.",
   "direction": {
     "palette": [
       "#1A1A1A",
@@ -125,20 +125,20 @@
       "bytes": 80794
     },
     {
-      "file": "formula-drops.jpg",
-      "source_name": "ai-water-drops.jpg",
-      "sha256": "8b97509c7e7432ac5088df20c30ae8b3a5b32609d96a0fb978d41a6ac3b9a722",
-      "transformation": "Byte-for-byte reuse. Formula droplets are the existing AI illustration from the TAM lipliner; not a product/efficacy photograph.",
+      "file": "formula-milky-ribbon.webp",
+      "source_name": "Dedicated Milky Cheek conceptual illustration",
+      "sha256": "22a612b6b6d704d2116f5cf374628aab52260cd440bb136c6f6e321d38522210",
+      "transformation": "Built-in imagegen illustration; web encoding only. Not a product, shade or efficacy photograph. Prompt and provenance: ops/cafe24/cheek-formula-image.json",
       "dimensions": [
-        1720,
-        2641
+        1536,
+        1024
       ],
-      "bytes": 282481
+      "bytes": 67906
     }
   ],
   "commerce_outside_detail_unchanged": true,
   "production_cafe24_changed": false,
-  "design_acceptance": "Awaiting owner review; not inferred from technical test results.",
+  "design_acceptance": "Owner acknowledged overall V12 improvement; requested distinct formula imagery. Revised formula awaiting owner review.",
   "verification": {
     "widths": [
       320,
@@ -153,17 +153,12 @@
     "headline_to_body_ratio_min": 2.11,
     "integration": "All seven product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
     "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Inspected final mobile and desktop renders. Added sponge ON/OFF callout, enlarged real shade texture strips, separated ingredient names from readable descriptions, corrected formula disc edges and centering.",
+    "visual": "Inspected revised formula at 390 and 860px. All automated checks at 320/390/860/1440 passed after formula replacement.",
     "script": "ops/cafe24/check_cheek_v12.py"
   },
-  "design_review_fixes": [
-    "Sponge ON/OFF callout and explanation",
-    "Larger original texture strips below cheek swatches",
-    "Ingredient descriptions outside decorative droplets for mobile readability"
-  ],
-  "publication": {
-    "commit": "fc1614aea41f3e620571586cf4d58960743f8570",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
-    "public_files_matched": 13
+  "formula_revision": {
+    "reason": "Owner found reused droplet art too similar to lipliner.",
+    "change": "Dedicated milky pink gel ribbon illustration and ruled ingredient list.",
+    "provenance": "cheek-formula-image.json"
   }
 }

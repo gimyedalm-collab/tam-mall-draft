@@ -15,9 +15,10 @@ for src, name in [(SOURCE/'1차_070.jpg', 'campaign.jpg'), (SOURCE/'1차_077.jpg
     if not out.exists():
         subprocess.run(['ffmpeg','-v','error','-i',str(src),'-vf','scale=1720:-2','-q:v','2','-frames:v','1',str(out)], check=True)
     records.append({'file':name,'source_name':src.name,'source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Web resize/JPEG encoding only. No retouch, recolour or generation; full source frame retained.'})
-for src, name in [(V8/'web/arm-blended.jpg','arm.jpg'), *[(V8/f'web/swatch{i:02}.jpg',f'swatch{i:02}.jpg') for i in range(1,5)], (WORK/'비건강조_3종_261002/립라이너_R33/assets/ai-water-drops.jpg','formula-drops.jpg')]:
+for src, name in [(V8/'web/arm-blended.jpg','arm.jpg'), *[(V8/f'web/swatch{i:02}.jpg',f'swatch{i:02}.jpg') for i in range(1,5)]]:
     shutil.copy2(src,DEST/name)
-    records.append({'file':name,'source_name':src.name,'sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'transformation':'Byte-for-byte reuse. Formula droplets are the existing AI illustration from the TAM lipliner; not a product/efficacy photograph.' if name=='formula-drops.jpg' else 'Byte-for-byte reuse of existing brand asset.'})
+    records.append({'file':name,'source_name':src.name,'sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'transformation':'Byte-for-byte reuse of existing brand asset.'})
+records.append({'file':'formula-milky-ribbon.webp','source_name':'Dedicated Milky Cheek conceptual illustration','sha256':hashlib.sha256((DEST/'formula-milky-ribbon.webp').read_bytes()).hexdigest(),'transformation':'Built-in imagegen illustration; web encoding only. Not a product, shade or efficacy photograph. Prompt and provenance: ops/cafe24/cheek-formula-image.json'})
 for row in records:
     with Image.open(DEST/row['file']) as im: row['dimensions']=list(im.size)
     row['bytes']=(DEST/row['file']).stat().st_size
@@ -70,13 +71,14 @@ def content(prefix):
 
   <section class="c12-formula c12-section" data-panel="formula">
     <header class="c12-heading"><span class="c12-label">VEGAN FORMULA</span><p class="c12-kicker">밀키한 컬러 속에 담은</p><h2>스킨케어 성분.</h2><p class="c12-body">히알루론산 계열부터 세라마이드NP까지.<br>네 가지 컬러에 공통으로 담았어요.</p></header>
-    <div class="c12-drops">
-      <div class="c12-ingredient"><div class="c12-drop c12-drop-one"><div class="c12-drop-art" aria-hidden="true"></div><div class="c12-drop-copy"><h3>히알루론산 계열</h3></div></div><p class="c12-ingredient-note">소듐하이알루로네이트<br>하이알루로닉애씨드</p></div>
-      <div class="c12-ingredient"><div class="c12-drop c12-drop-two"><div class="c12-drop-art" aria-hidden="true"></div><div class="c12-drop-copy"><h3>스쿠알란</h3></div></div><p class="c12-ingredient-note">피부를 부드럽게 하는<br>스쿠알란*</p></div>
-      <div class="c12-ingredient"><div class="c12-drop c12-drop-three"><div class="c12-drop-art" aria-hidden="true"></div><div class="c12-drop-copy"><h3>판테놀·알란토인</h3></div></div><p class="c12-ingredient-note">피부 컨디셔닝 성분,<br>판테놀*</p></div>
-      <div class="c12-ingredient"><div class="c12-drop c12-drop-four"><div class="c12-drop-art" aria-hidden="true"></div><div class="c12-drop-copy"><h3>세라마이드NP</h3></div></div><p class="c12-ingredient-note">전성분명:<br>세라마이드엔피</p></div>
+    <img class="c12-formula-art" src="{a}formula-milky-ribbon.webp" width="1536" height="1024" loading="lazy" alt="밀키한 핑크 젤이 부드럽게 흐르는 포뮬러 연출 이미지">
+    <div class="c12-ingredients">
+      <div class="c12-ingredient"><span class="c12-ingredient-number">01</span><h3>히알루론산 계열</h3><p class="c12-ingredient-note">소듐하이알루로네이트<br>하이알루로닉애씨드</p></div>
+      <div class="c12-ingredient"><span class="c12-ingredient-number">02</span><h3>스쿠알란</h3><p class="c12-ingredient-note">피부를 부드럽게 하는<br>스쿠알란*</p></div>
+      <div class="c12-ingredient"><span class="c12-ingredient-number">03</span><h3>판테놀·알란토인</h3><p class="c12-ingredient-note">피부 컨디셔닝 성분,<br>판테놀*</p></div>
+      <div class="c12-ingredient"><span class="c12-ingredient-number">04</span><h3>세라마이드NP</h3><p class="c12-ingredient-note">전성분명:<br>세라마이드엔피</p></div>
     </div>
-    <p class="c12-note">*원료적 특성에 한함. 물방울은 성분 설명을 위한 연출 이미지입니다.</p>
+    <p class="c12-note">*원료적 특성에 한함.<br>위 이미지는 포뮬러를 표현한 연출 이미지입니다.</p>
   </section>
 
   <section class="c12-test c12-section" data-panel="test">
@@ -103,6 +105,6 @@ after=after.replace(oldincludes,newincludes)
 assert after.replace(replacement,old[0]).replace(newincludes,oldincludes)==before.replace(newincludes,oldincludes)
 page.write_text(after,encoding='utf-8',newline='\n')
 
-report={'version':'V12','product_no':102,'date':'2026-10-13','status':'design_in_progress','design_reference':'TAM lipliner R32/R34 typography, photography scale and ingredient art. V11 rejected by owner.','direction':{'palette':['#1A1A1A','#6F6A6B','#925368','#F3E8EC','#F5F5F5','#FFFFFF'],'type':'Pretendard 400/600/700 for Korean, Manrope for section labels and numerals','sequence':['Product campaign','Sponge and one approved usage video','Arm and cheek shade comparison','Real milky texture','Ingredient illustration','Existing test evidence','Product lineup'],'preserved_constraints':['No AI face','No Dasha/legacy person video','Only approved Choi Yeeun 3steps clip','No recolouring swatches','No invented efficacy or before/after'],'claude_review':'Read-only nonpersistent consultation. Accepted hierarchy and compact comparison advice; rejected inaccurate compact/mirror/solid-balm product suggestions.'},'sources':records,'commerce_outside_detail_unchanged':True,'production_cafe24_changed':False}
+report={'version':'V12','product_no':102,'date':'2026-10-13','status':'design_in_progress','design_reference':'TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.','direction':{'palette':['#1A1A1A','#6F6A6B','#925368','#F3E8EC','#F5F5F5','#FFFFFF'],'type':'Pretendard 400/600/700 for Korean, Manrope for section labels and numerals','sequence':['Product campaign','Sponge and one approved usage video','Arm and cheek shade comparison','Real milky texture','Ingredient illustration','Existing test evidence','Product lineup'],'preserved_constraints':['No AI face','No Dasha/legacy person video','Only approved Choi Yeeun 3steps clip','No recolouring swatches','No invented efficacy or before/after'],'claude_review':'Read-only nonpersistent consultation. Accepted hierarchy and compact comparison advice; rejected inaccurate compact/mirror/solid-balm product suggestions.'},'sources':records,'commerce_outside_detail_unchanged':True,'production_cafe24_changed':False}
 (ROOT/'ops/cafe24/cheek-detail-v12.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('V12 built: new campaign, sponge/usage, comparative shades, texture/formula and proof.')

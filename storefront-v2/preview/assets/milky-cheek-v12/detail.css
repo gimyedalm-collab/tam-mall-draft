@@ -56,18 +56,13 @@
 #milky-cheek-v12 .c12-texture{padding-top:96px}
 #milky-cheek-v12 .c12-texture .c12-heading{padding-inline:6.5%}
 #milky-cheek-v12 .c12-texture-photo{width:100%}
-#milky-cheek-v12 .c12-formula{padding-top:86px}
-#milky-cheek-v12 .c12-drops{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-#milky-cheek-v12 .c12-ingredient-note{font-size:clamp(14px,2.79cqw,24px);line-height:1.6;color:var(--muted);margin:6px 0 24px}
-#milky-cheek-v12 .c12-drop{position:relative;aspect-ratio:1;overflow:hidden}
-#milky-cheek-v12 .c12-drop-art{position:absolute;inset:0;background-image:url('formula-drops.jpg');background-size:245.714% auto;background-position:13.5294% 1.5456%;mask-image:radial-gradient(closest-side,#000 88%,transparent 100%)}
-#milky-cheek-v12 .c12-drop-two .c12-drop-art{background-position:79.6078% 33.2818%}
-#milky-cheek-v12 .c12-drop-three .c12-drop-art{background-position:30% 66.5636%}
-#milky-cheek-v12 .c12-drop-four .c12-drop-art{background-position:87.451% 96.239%}
-#milky-cheek-v12 .c12-drop-copy{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:15% 5%;gap:10px}
-#milky-cheek-v12 .c12-drop-copy>span{font:400 clamp(9px,1.55cqw,13.3px)/1.4 Cheek12English,sans-serif;color:var(--muted);letter-spacing:.03em}
-#milky-cheek-v12 .c12-drop-copy h3{font-size:clamp(15px,3.48cqw,30px)}
-#milky-cheek-v12 .c12-drop-copy p{font-size:clamp(12px,2.32cqw,20px);line-height:1.5;color:var(--muted)}
+#milky-cheek-v12 .c12-formula{padding-top:86px;background:#fcf8f9}
+#milky-cheek-v12 .c12-formula-art{width:100%;margin-bottom:44px}
+#milky-cheek-v12 .c12-ingredients{display:grid;grid-template-columns:1fr 1fr;gap:32px 40px;text-align:left}
+#milky-cheek-v12 .c12-ingredient{border-top:1px solid #d8c6cd;padding-top:20px}
+#milky-cheek-v12 .c12-ingredient-number{display:block;font:400 clamp(11px,2.09cqw,18px)/1.4 Cheek12English,sans-serif;color:var(--rose);margin-bottom:12px}
+#milky-cheek-v12 .c12-ingredient h3{font-size:clamp(15px,3.48cqw,30px)}
+#milky-cheek-v12 .c12-ingredient-note{font-size:clamp(14px,2.79cqw,24px);line-height:1.6;color:var(--muted);margin-top:10px}
 #milky-cheek-v12 .c12-test{background:var(--pink)}
 #milky-cheek-v12 .c12-test .c12-heading{margin-bottom:24px}
 #milky-cheek-v12 .c12-test .c12-label{margin-bottom:30px}
@@ -107,10 +102,10 @@
  #milky-cheek-v12 .c12-tone{margin-top:7px}
  #milky-cheek-v12 .c12-shade-description{margin-top:10px}
  #milky-cheek-v12 .c12-texture{padding-top:50px}
- #milky-cheek-v12 .c12-drops{gap:8px}
- #milky-cheek-v12 .c12-drop-copy{gap:5px}
- #milky-cheek-v12 .c12-drop-copy h3{font-size:15px}
- #milky-cheek-v12 .c12-drop-copy p{font-size:12px}
+ #milky-cheek-v12 .c12-formula-art{margin-bottom:28px}
+ #milky-cheek-v12 .c12-ingredients{gap:24px 18px}
+ #milky-cheek-v12 .c12-ingredient{padding-top:14px}
+ #milky-cheek-v12 .c12-ingredient-number{margin-bottom:8px}
  #milky-cheek-v12 .c12-test-value{gap:20px}
  #milky-cheek-v12 .c12-note{margin-top:24px}
  #milky-cheek-v12 .c12-ending>div{padding:32px 20px 44px}
