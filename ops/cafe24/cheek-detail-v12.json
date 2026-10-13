@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
+  "status": "verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -165,12 +165,30 @@
     "future_direction": "Do not reintroduce this arm photo or further retouched variants without an explicit request.",
     "verification": "No arm image references in standalone page, product detail, CSS or generator. Responsive/integration/motion checks passed at 320/390/860/1440. Inspected colour section screenshot."
   },
-  "design_acceptance": "Owner authorized finish section. Final revised visual awaits owner review; technical QA passed.",
+  "design_acceptance": "Owner flagged first finish-section scale and flow. Compact contextual revision visually reviewed and tested; owner review pending.",
   "ending_revision": {
     "reason": "Owner flagged blue background contamination and unappealing presentation in ending photograph.",
     "action": "Remove brand-ending.jpg from active output. Use existing front-logo transparent product cutout, lossless WebP export and CSS composition on white with original texture squares.",
     "generation": "No generation, grading or retouch of product, logo or texture imagery.",
     "verification": "All visible RGBA pixels and alpha of WebP match original PNG. Visually inspected desktop and mobile ending. Responsive/integration/motion QA passed at 320/390/860/1440."
+  },
+  "finish_revision": {
+    "request": "Add one finished cheek makeup section; owner permits AI/Higgsfield if existing sources are insufficient.",
+    "placement": "Compact closing row below colour comparison, with continuous grey background; before texture.",
+    "source": "Original brand source/14.jpg, held product is Milky Cheek.",
+    "treatment": "Proportional 4:5 crop via CSS; original full-frame photo retained in WebP. No skin or background edits, recolouring, AI generation or shade-specific attribution.",
+    "copy": "Finish and glow headline; following texture copy revised to avoid repetition.",
+    "ai_used_for_this_revision": false,
+    "layout_refinement": {
+      "reason": "Owner found full-width model section abrupt and oversized.",
+      "change": "Replace stacked full-width image and headline with proportional two-column image/copy row. Remove pink section background and outlined label. Keep original image bytes.",
+      "finish_height_px": {
+        "320": 212.1,
+        "390": 252.4,
+        "860": 527.5
+      },
+      "mobile_height_reduction": "About 63% at 390px; previously about 684px."
+    }
   },
   "verification": {
     "widths": [
@@ -186,20 +204,7 @@
     "headline_to_body_ratio_min": 2.11,
     "integration": "All eight product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
     "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Inspected new finish section at 390 and 860: original brand photo, proportional crop, face and product legible, pink backdrop retained. Responsive and motion checks passed at 320/390/860/1440.",
+    "visual": "Reviewed complete mobile page and colour-to-finish-to-texture context at 320/390/860. Finish uses smaller original photograph alongside smaller copy, same grey background as colour comparison, no separate pink field or capsule headline. Responsive/integration/motion checks pass at 320/390/860/1440.",
     "script": "ops/cafe24/check_cheek_v12.py"
-  },
-  "finish_revision": {
-    "request": "Add one finished cheek makeup section; owner permits AI/Higgsfield if existing sources are insufficient.",
-    "placement": "After original colour comparison, before real texture.",
-    "source": "Original brand source/14.jpg, held product is Milky Cheek.",
-    "treatment": "Proportional 4:5 crop via CSS; original full-frame photo retained in WebP. No skin or background edits, recolouring, AI generation or shade-specific attribution.",
-    "copy": "Finish and glow headline; following texture copy revised to avoid repetition.",
-    "ai_used_for_this_revision": false
-  },
-  "publication": {
-    "commit": "d663b4d",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
-    "revised_public_files_matched": 4
   }
 }

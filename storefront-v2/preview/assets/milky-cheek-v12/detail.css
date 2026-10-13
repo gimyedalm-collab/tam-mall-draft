@@ -52,8 +52,9 @@
 #milky-cheek-v12 .c12-swatch{width:100%;aspect-ratio:1;height:auto;object-fit:contain;border-radius:10px;margin-top:12px}
 #milky-cheek-v12 .c12-shade-description{font-size:clamp(13px,2.55cqw,22px);margin-top:16px;color:var(--muted)}
 #milky-cheek-v12 .c12-texture{padding-top:80px}
-#milky-cheek-v12 .c12-finish{padding-top:72px;background:#fdf1f6}
-#milky-cheek-v12 .c12-finish .c12-heading{padding-inline:6.5%}
+#milky-cheek-v12 .c12-finish{display:grid;grid-template-columns:1.08fr 1fr;align-items:center;gap:clamp(16px,4cqw,34px);padding:0 6.5% 64px;background:var(--paper);text-align:left}
+#milky-cheek-v12 .c12-finish-label{display:block;margin-bottom:18px;color:var(--rose);font:400 clamp(10px,1.75cqw,15px)/1.5 Cheek12English,sans-serif;letter-spacing:.07em}
+#milky-cheek-v12 .c12-finish h2{font-size:clamp(18px,4.1cqw,35px);line-height:1.4;letter-spacing:-.035em}
 #milky-cheek-v12 .c12-finish-photo{aspect-ratio:4/5;overflow:hidden}
 #milky-cheek-v12 .c12-finish-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 0}
 #milky-cheek-v12 .c12-texture .c12-heading{padding-inline:6.5%}
@@ -110,7 +111,8 @@
  #milky-cheek-v12 .c12-tone{margin-top:7px}
  #milky-cheek-v12 .c12-shade-description{margin-top:10px}
  #milky-cheek-v12 .c12-texture{padding-top:40px}
- #milky-cheek-v12 .c12-finish{padding-top:40px}
+ #milky-cheek-v12 .c12-finish{padding:0 5.6% 38px}
+ #milky-cheek-v12 .c12-finish-label{margin-bottom:10px}
  #milky-cheek-v12 .c12-formula-art{margin-bottom:28px}
  #milky-cheek-v12 .c12-ingredients{gap:24px 18px}
  #milky-cheek-v12 .c12-ingredient{padding-top:14px}
