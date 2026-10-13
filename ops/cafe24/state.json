@@ -202,14 +202,14 @@
     "production_cafe24_changed": false
   },
   "cheek_v12_20261013": {
-    "status": "verified_ready_for_github_pages",
+    "status": "published_on_github_pages_and_verified",
     "product_no": 102,
     "reference": "TAM lipliner R32/R34; rebuild after owner rejected V11 quality.",
     "review_path": "cheek-v12/index.html",
     "verification": "cheek-detail-v12.json",
     "production_cafe24_changed": false,
     "next_action": "Owner reviews V12 visual direction. Technical QA and owner design acceptance remain separate.",
-    "published_commit": "3c374dc",
+    "published_commit": "d663b4d",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
     "formula_revision": "Dedicated Milky Cheek ribbon illustration and numbered ingredient layout published and verified. Owner review pending.",
     "video_aspect_fix": "Proportional cover crop replaces distorted video stretch. Published and verified on GitHub Pages cb948a9.",
@@ -217,6 +217,6 @@
     "arm_skin_revision": "Rejected by owner for artificial/unpleasant appearance; superseded by complete removal of arm chart.",
     "arm_removal": "Arm chart removed; original cheek and texture comparison retained. Published and verified on GitHub Pages 2b8b90b. Do not reintroduce rejected arm treatment without explicit request.",
     "ending_revision": "Existing transparent front-logo product and original texture squares on neutral white replaced rejected blue/dirty photograph. Published and verified on GitHub Pages 3c374dc; visible source RGBA pixels unchanged.",
-    "finish_revision": "Added large original brand model photo after shade comparison; no AI needed. Eight-section responsive and motion QA passed."
+    "finish_revision": "Original brand model photograph added after shade comparison. No AI generation needed. Eight panels verified at 320/390/860/1440; Pages built and revised public files matched."
   }
 }
