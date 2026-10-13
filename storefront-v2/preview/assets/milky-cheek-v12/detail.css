@@ -42,16 +42,6 @@
 #milky-cheek-v12 .c12-steps p{font-size:clamp(13px,2.55cqw,22px);color:var(--muted);margin-top:10px}
 #milky-cheek-v12 .c12-use-tip{font-size:clamp(14px,2.79cqw,24px);padding-top:32px;margin-top:36px;border-top:1px solid #e4dfe1;color:var(--rose)}
 #milky-cheek-v12 .c12-colours{background:var(--paper)}
-#milky-cheek-v12 .c12-arm-chart{background:white;margin-bottom:66px;padding-bottom:30px;border-radius:18px;overflow:hidden}
-#milky-cheek-v12 .c12-arm{position:relative;overflow:hidden;aspect-ratio:748/340}
-#milky-cheek-v12 .c12-arm-media{position:absolute;width:142.857%;aspect-ratio:1782/1498;left:-4.286%;top:-72%}
-#milky-cheek-v12 .c12-arm-media img{position:absolute;inset:0;width:100%;height:100%;max-width:none}
-/* Preserve original swatch centers, feathering their edges into the
-   separately retouched surrounding skin. The original file is untouched. */
-#milky-cheek-v12 .c12-arm-original{mask-image:radial-gradient(ellipse 7.3% 7% at 11.8% 51.5%,#000 72%,transparent 100%),radial-gradient(ellipse 7.3% 7% at 27.8% 51.5%,#000 72%,transparent 100%),radial-gradient(ellipse 7.3% 7% at 43.3% 51.5%,#000 72%,transparent 100%),radial-gradient(ellipse 7.3% 7% at 57.5% 51.5%,#000 72%,transparent 100%)}
-#milky-cheek-v12 .c12-arm-chart figcaption{display:grid;grid-template-columns:repeat(4,1fr);padding:0 4%;gap:5px}
-#milky-cheek-v12 .c12-arm-chart figcaption span{display:block;font:400 clamp(12px,2.32cqw,20px)/1.5 Cheek12English,sans-serif;color:var(--rose)}
-#milky-cheek-v12 .c12-arm-chart b{display:block;font-size:clamp(13px,2.79cqw,24px);font-weight:600;margin-top:8px}
 #milky-cheek-v12 .c12-shade-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px 24px;text-align:left}
 #milky-cheek-v12 .c12-cheek{position:relative;overflow:hidden;aspect-ratio:2812/1870;border-radius:16px}
 #milky-cheek-v12 .c12-cheek img{position:absolute;width:106.401%;max-width:none;height:auto;left:-3.2006%;top:-50%}
@@ -104,8 +94,6 @@
  #milky-cheek-v12 .c12-steps h3{font-size:14px}
  #milky-cheek-v12 .c12-steps p{font-size:13px;margin-top:7px}
  #milky-cheek-v12 .c12-use-tip{padding-top:24px;margin-top:26px}
- #milky-cheek-v12 .c12-arm-chart{margin-bottom:36px;padding-bottom:20px;border-radius:10px}
- #milky-cheek-v12 .c12-arm-chart b{font-size:12px}
  #milky-cheek-v12 .c12-shade-grid{gap:30px 14px}
  #milky-cheek-v12 .c12-cheek{border-radius:10px}
  #milky-cheek-v12 .c12-shade figcaption{margin-top:12px}

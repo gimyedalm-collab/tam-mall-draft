@@ -15,11 +15,10 @@ for src, name in [(SOURCE/'1차_070.jpg', 'campaign.jpg'), (SOURCE/'1차_077.jpg
     if not out.exists():
         subprocess.run(['ffmpeg','-v','error','-i',str(src),'-vf','scale=1720:-2','-q:v','2','-frames:v','1',str(out)], check=True)
     records.append({'file':name,'source_name':src.name,'source_sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Web resize/JPEG encoding only. No retouch, recolour or generation; full source frame retained.'})
-for src, name in [(V8/'web/arm-blended.jpg','arm.jpg'), *[(V8/f'web/swatch{i:02}.jpg',f'swatch{i:02}.jpg') for i in range(1,5)]]:
+for src, name in [(V8/f'web/swatch{i:02}.jpg',f'swatch{i:02}.jpg') for i in range(1,5)]:
     shutil.copy2(src,DEST/name)
     records.append({'file':name,'source_name':src.name,'sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'transformation':'Byte-for-byte reuse of existing brand asset.'})
 records.append({'file':'formula-milky-ribbon.webp','source_name':'Dedicated Milky Cheek conceptual illustration','sha256':hashlib.sha256((DEST/'formula-milky-ribbon.webp').read_bytes()).hexdigest(),'transformation':'Built-in imagegen illustration; web encoding only. Not a product, shade or efficacy photograph. Prompt and provenance: ops/cafe24/cheek-formula-image.json'})
-records.append({'file':'arm-skin-neutral.webp','source_name':'Skin correction derived from arm.jpg','sha256':hashlib.sha256((DEST/'arm-skin-neutral.webp').read_bytes()).hexdigest(),'transformation':'Built-in imagegen skin correction beneath original swatch center masks, with feathered transitions. Original arm.jpg unchanged. Prompt and provenance: ops/cafe24/cheek-arm-skin.json'})
 for row in records:
     with Image.open(DEST/row['file']) as im: row['dimensions']=list(im.size)
     row['bytes']=(DEST/row['file']).stat().st_size
@@ -34,7 +33,6 @@ def content(prefix):
       <figcaption><div><h3><span>{i:02}</span> {name}</h3><p class="c12-shade-en">{en}</p><p class="c12-tone">{tone}</p></div></figcaption>
       <p class="c12-shade-description">{description}</p>
     </figure>''' for i,(name,en,tone,description) in enumerate(shades,1))
-    legends=''.join(f'<div><span>{i:02}</span><b>{name}</b></div>' for i,(name,*_) in enumerate(shades,1))
     return f'''<article id="milky-cheek-v12" aria-label="더 젤리 밀키 치크 블러셔 상세" data-detail-release="cheek-v12">
   <section class="c12-hero" data-panel="hero">
     <div class="c12-hero-copy">
@@ -59,8 +57,7 @@ def content(prefix):
   </section>
 
   <section class="c12-colours c12-section" data-panel="colours">
-    <header class="c12-heading"><span class="c12-label">FIND YOUR SHADE</span><h2>나의 볼에 어울리는<br>네 가지 밀키 컬러.</h2><p class="c12-body">팔과 볼에서 확인하는 네 가지 발색.</p></header>
-    <figure class="c12-arm-chart"><div class="c12-arm"><div class="c12-arm-media"><img class="c12-arm-skin" src="{a}arm-skin-neutral.webp" loading="lazy" alt="" aria-hidden="true"><img class="c12-arm-original" src="{a}arm.jpg" loading="lazy" alt="왼쪽부터 헬로버니, 썬플러쉬, 누드티, 로지댄스 팔 발색"></div></div><figcaption>{legends}</figcaption></figure>
+    <header class="c12-heading"><span class="c12-label">FIND YOUR SHADE</span><h2>나의 볼에 어울리는<br>네 가지 밀키 컬러.</h2><p class="c12-body">볼 위의 발색과 제형을 함께 비교해 보세요.</p></header>
     <div class="c12-shade-grid">{colourcards}</div>
     <p class="c12-note">피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.</p>
   </section>
@@ -106,6 +103,6 @@ after=after.replace(oldincludes,newincludes)
 assert after.replace(replacement,old[0]).replace(newincludes,oldincludes)==before.replace(newincludes,oldincludes)
 page.write_text(after,encoding='utf-8',newline='\n')
 
-report={'version':'V12','product_no':102,'date':'2026-10-13','status':'design_in_progress','design_reference':'TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.','direction':{'palette':['#1A1A1A','#6F6A6B','#925368','#F3E8EC','#F5F5F5','#FFFFFF'],'type':'Pretendard 400/600/700 for Korean, Manrope for section labels and numerals','sequence':['Product campaign','Sponge and one approved usage video','Arm and cheek shade comparison','Real milky texture','Ingredient illustration','Existing test evidence','Product lineup'],'preserved_constraints':['No AI face','No Dasha/legacy person video','Only approved Choi Yeeun 3steps clip','No recolouring swatches','No invented efficacy or before/after'],'claude_review':'Read-only nonpersistent consultation. Accepted hierarchy and compact comparison advice; rejected inaccurate compact/mirror/solid-balm product suggestions.'},'sources':records,'commerce_outside_detail_unchanged':True,'production_cafe24_changed':False}
+report={'version':'V12','product_no':102,'date':'2026-10-13','status':'design_in_progress','design_reference':'TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.','direction':{'palette':['#1A1A1A','#6F6A6B','#925368','#F3E8EC','#F5F5F5','#FFFFFF'],'type':'Pretendard 400/600/700 for Korean, Manrope for section labels and numerals','sequence':['Product campaign','Sponge and one approved usage video','Original cheek and texture shade comparison','Real milky texture','Ingredient illustration','Existing test evidence','Product lineup'],'preserved_constraints':['No AI face','No Dasha/legacy person video','Only approved Choi Yeeun 3steps clip','No recolouring swatches','No invented efficacy or before/after'],'claude_review':'Read-only nonpersistent consultation. Accepted hierarchy and compact comparison advice; rejected inaccurate compact/mirror/solid-balm product suggestions.'},'sources':records,'commerce_outside_detail_unchanged':True,'production_cafe24_changed':False}
 (ROOT/'ops/cafe24/cheek-detail-v12.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('V12 built: new campaign, sponge/usage, comparative shades, texture/formula and proof.')

@@ -15,5 +15,7 @@
       390,
       860
     ]
-  }
+  },
+  "status": "rejected_by_owner_removed_from_active_detail",
+  "rejection": "Owner still found arm artificial and unpleasant. Entire arm panel removed; generated skin asset removed from current repository tree. Original source remains unchanged."
 }
