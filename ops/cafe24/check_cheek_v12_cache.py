@@ -66,8 +66,9 @@ async def run():
             after = await finish.evaluate('(e)=>({display:getComputedStyle(e).display,height:e.getBoundingClientRect().height,background:getComputedStyle(e).backgroundColor})')
             photo = await page.locator('.c12-finish-photo').bounding_box()
             assert after['background'] == 'rgb(255, 255, 255)'
-            assert after['height'] < before['height']*.5
-            assert abs(photo['width']/photo['height']-1.5)<.01
+            assert after['height'] < before['height']
+            assert abs(photo['width']/photo['height']-.8)<.01
+            assert photo['width'] <= 420 and photo['width'] < width*.65
             assert not (await finish.inner_text()).strip()
             assert requests[CSS] == count+1
             await finish.screenshot(path=str(OUT/f'{width}-fixed.png'))

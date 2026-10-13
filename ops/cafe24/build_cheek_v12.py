@@ -24,8 +24,9 @@ out=DEST/'ending-product.webp'
 if not out.exists():
     subprocess.run(['ffmpeg','-v','error','-i',str(cutout),'-c:v','libwebp','-lossless','1','-compression_level','6',str(out)],check=True)
 records.append({'file':out.name,'source_name':str(cutout.relative_to(SOURCE.parent)),'source_sha256':hashlib.sha256(cutout.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Existing brand transparent product cutout. Lossless WebP export, no recolouring, retouch or generation. CSS composition on white.'})
-out=DEST/'cheek-mood-v1.webp'
-records.append({'file':out.name,'source_name':'Dedicated fictional makeup mood photograph','sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Built-in imagegen creative, WebP encoding only. No product shown or actual application/shade claim. Full 3:2 frame retained. Prompt and provenance: ops/cafe24/cheek-mood-image.json'})
+finish=SOURCE/'14.jpg'
+out=DEST/'finish-look.webp'
+records.append({'file':out.name,'source_name':'05_Product_Cuts/06_Milky_Cheek_Blush/source/14.jpg','source_sha256':hashlib.sha256(finish.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Restored original brand campaign photograph after owner rejected generated model. Web resize and encoding only; no AI, face edits, skin retouch or colour grading. Proportional CSS crop.'})
 for row in records:
     with Image.open(DEST/row['file']) as im: row['dimensions']=list(im.size)
     row['bytes']=(DEST/row['file']).stat().st_size
@@ -70,7 +71,7 @@ def content(prefix):
   </section>
 
   <section class="c12-finish" data-panel="finish" aria-label="메이크업 무드">
-    <div class="c12-finish-photo"><img src="{a}cheek-mood-v1.webp" width="1536" height="1024" loading="lazy" alt="자연스러운 핑크 치크 메이크업 분위기를 표현한 AI 연출 이미지"></div>
+    <div class="c12-finish-photo"><img src="{a}finish-look.webp" width="1720" height="2580" loading="lazy" alt="물풀치크를 든 모델의 핑크빛 볼 메이크업 브랜드 촬영 컷"></div>
   </section>
 
   <section class="c12-texture" data-panel="texture">
@@ -121,8 +122,8 @@ assert normalize_detail_assets(after.replace(replacement,old[0]))==normalize_det
 page.write_text(after,encoding='utf-8',newline='\n')
 
 report={'version':'V12','product_no':102,'date':'2026-10-13','status':'design_in_progress','design_reference':'TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.','direction':{'palette':['#1A1A1A','#6F6A6B','#925368','#F3E8EC','#F5F5F5','#FFFFFF'],'type':'Pretendard 400/600/700 for Korean, Manrope for section labels and numerals','sequence':['Product campaign','Sponge and one approved usage video','Original cheek and texture shade comparison','Real milky texture','Ingredient illustration','Existing test evidence','Product lineup'],'preserved_constraints':['No AI face','No Dasha/legacy person video','Only approved Choi Yeeun 3steps clip','No recolouring swatches','No invented efficacy or before/after'],'claude_review':'Read-only nonpersistent consultation. Accepted hierarchy and compact comparison advice; rejected inaccurate compact/mirror/solid-balm product suggestions.'},'sources':records,'commerce_outside_detail_unchanged':True,'production_cafe24_changed':False}
-report['direction']['sequence'].insert(3,'Quiet image-only makeup mood interlude')
-report['direction']['preserved_constraints'][0]='AI creative permitted by owner when needed; makeup mood scene is conceptual, actual shade evidence remains original.'
+report['direction']['sequence'].insert(3,'Image-only original brand makeup photograph')
+report['direction']['preserved_constraints'][0]='Owner rejected AI model mood image; restore existing brand photograph for this section. Do not reuse rejected AI portrait.'
 report_path=ROOT/'ops/cafe24/cheek-detail-v12.json'
 previous=json.loads(report_path.read_text(encoding='utf-8')) if report_path.exists() else {}
 for key in ('verification','publication'):

@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
+  "status": "verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -18,14 +18,14 @@
       "Product campaign",
       "Sponge and one approved usage video",
       "Original cheek and texture shade comparison",
-      "Quiet image-only makeup mood interlude",
+      "Image-only original brand makeup photograph",
       "Real milky texture",
       "Ingredient illustration",
       "Existing test evidence",
       "Product lineup"
     ],
     "preserved_constraints": [
-      "AI creative permitted by owner when needed; makeup mood scene is conceptual, actual shade evidence remains original.",
+      "Owner rejected AI model mood image; restore existing brand photograph for this section. Do not reuse rejected AI portrait.",
       "No Dasha/legacy person video",
       "Only approved Choi Yeeun 3steps clip",
       "No recolouring swatches",
@@ -126,15 +126,16 @@
       "bytes": 1006688
     },
     {
-      "file": "cheek-mood-v1.webp",
-      "source_name": "Dedicated fictional makeup mood photograph",
-      "sha256": "62f4137c6634046685fdad913c62091d76fa84653fdc3e3b003bb2367de5ecfc",
-      "transformation": "Built-in imagegen creative, WebP encoding only. No product shown or actual application/shade claim. Full 3:2 frame retained. Prompt and provenance: ops/cafe24/cheek-mood-image.json",
+      "file": "finish-look.webp",
+      "source_name": "05_Product_Cuts/06_Milky_Cheek_Blush/source/14.jpg",
+      "source_sha256": "8e02a6dede280e85518bdc736f6092feab4b776531312a037ffcdcb2c1ec4ef5",
+      "sha256": "16d314d161bd24f3808eb218b16f7cea9268013f61958ba0d4f81827607640a3",
+      "transformation": "Restored original brand campaign photograph after owner rejected generated model. Web resize and encoding only; no AI, face edits, skin retouch or colour grading. Proportional CSS crop.",
       "dimensions": [
-        1536,
-        1024
+        1720,
+        2580
       ],
-      "bytes": 132472
+      "bytes": 476588
     }
   ],
   "commerce_outside_detail_unchanged": true,
@@ -164,7 +165,7 @@
     "future_direction": "Do not reintroduce this arm photo or further retouched variants without an explicit request.",
     "verification": "No arm image references in standalone page, product detail, CSS or generator. Responsive/integration/motion checks passed at 320/390/860/1440. Inspected colour section screenshot."
   },
-  "design_acceptance": "Owner authorized image-only mood section; implementation and visual QA complete, owner visual review pending.",
+  "design_acceptance": "AI mood portrait rejected by owner. Restored original brand photograph in image-only layout.",
   "ending_revision": {
     "reason": "Owner flagged blue background contamination and unappealing presentation in ending photograph.",
     "action": "Remove brand-ending.jpg from active output. Use existing front-logo transparent product cutout, lossless WebP export and CSS composition on white with original texture squares.",
@@ -172,43 +173,24 @@
     "verification": "All visible RGBA pixels and alpha of WebP match original PNG. Visually inspected desktop and mobile ending. Responsive/integration/motion QA passed at 320/390/860/1440."
   },
   "finish_revision": {
-    "request": "Keep one added section, replace loud product-holding campaign photo with quiet makeup mood and no sales copy. Owner approved execution.",
-    "placement": "After shade comparison, before texture; white image-only interlude.",
-    "source": "cheek-mood-v1.webp; built-in imagegen fictional editorial portrait",
-    "ai_used_for_this_revision": true,
-    "provenance": "ops/cafe24/cheek-mood-image.json",
-    "display": "Full original 3:2 composition, inset to align with shade content. No heading, visible caption, claim or product. AI creative described in image alt.",
-    "evidence_preserved": "Four actual cheek and texture comparisons unchanged; generated mood is not assigned a shade or claimed as a product result.",
+    "request": "Owner strongly rejected AI model image and requested immediate replacement with earlier original photograph.",
+    "source": "Original brand source/14.jpg, restored finish-look.webp bytes from f932055.",
+    "ai_used_for_this_revision": false,
+    "layout": "Image only, no heading/copy; white background; centered 64% inner-width portrait with maximum 420px, proportional 4:5 crop.",
     "height_px": {
-      "320": 217.5,
-      "390": 258.9,
-      "860": 546.8
-    }
+      "320": 255.3,
+      "390": 305.1,
+      "860": 573
+    },
+    "removed": "Generated cheek-mood-v1.webp removed from active repository."
   },
   "css_cache_fix": {
     "evidence": "Owner screenshot matches new HTML rendered with old full-width CSS; unversioned public CSS uses Cache-Control max-age=600.",
     "reproduction": "Primed real Chromium HTTP cache with old CSS. Second navigation made no new CSS request and reproduced full-width pink section with copy below.",
     "fix": "Build computes CSS content hash and includes it in both standalone and integrated stylesheet URLs. Generator rerun verified idempotent.",
-    "verification": "Real cached-old-CSS regression at 320/390/860 passed for current image-only white section with original 3:2 image and no copy. Four-width responsive/integration/motion QA passed.",
+    "verification": "Cached-old-CSS test passed for restored original portrait at 320/390/860; no visible copy, proportional 4:5 and width cap verified.",
     "script": "ops/cafe24/check_cheek_v12_cache.py",
-    "css_revision": "4be7950034fe"
-  },
-  "verification": {
-    "widths": [
-      320,
-      390,
-      860,
-      1440
-    ],
-    "horizontal_overflow": false,
-    "missing_images": 0,
-    "source_video_count": 1,
-    "shade_count": 4,
-    "headline_to_body_ratio_min": 2.11,
-    "integration": "All eight product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
-    "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Reviewed complete 390px page and 390/860px image-only section: landscape portrait, no product-holding pose, no visible copy, original proportions and white margins. Actual shade photos unchanged. Responsive, integration, video and cached-CSS tests passed.",
-    "script": "ops/cafe24/check_cheek_v12.py"
+    "css_revision": "4898293fac7b"
   },
   "previous_finish_revision": {
     "request": "Add one finished cheek makeup section; owner permits AI/Higgsfield if existing sources are insufficient.",
@@ -228,10 +210,36 @@
       "mobile_height_reduction": "About 63% at 390px; previously about 684px."
     }
   },
-  "publication": {
-    "commit": "dfa7bbb",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/?v=dfa7bbb",
-    "revised_public_files_matched": 4,
-    "public_browser": "390 and 860px public image-only scene verified after lazy image loading. Natural width 1536, 3:2 frame, no visible copy, current CSS content hash."
+  "verification": {
+    "widths": [
+      320,
+      390,
+      860,
+      1440
+    ],
+    "horizontal_overflow": false,
+    "missing_images": 0,
+    "source_video_count": 1,
+    "shade_count": 4,
+    "headline_to_body_ratio_min": 2.11,
+    "integration": "All eight product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
+    "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
+    "visual": "Original brand photograph restored as image-only 4:5 portrait, centered at 64% inner width and capped at 420px. Inspected 390/860 screenshots. Four-width responsive/integration/motion and cached-CSS checks passed.",
+    "script": "ops/cafe24/check_cheek_v12.py"
+  },
+  "rejected_ai_mood_revision": {
+    "request": "Keep one added section, replace loud product-holding campaign photo with quiet makeup mood and no sales copy. Owner approved execution.",
+    "placement": "After shade comparison, before texture; white image-only interlude.",
+    "source": "cheek-mood-v1.webp; built-in imagegen fictional editorial portrait",
+    "ai_used_for_this_revision": true,
+    "provenance": "ops/cafe24/cheek-mood-image.json",
+    "display": "Full original 3:2 composition, inset to align with shade content. No heading, visible caption, claim or product. AI creative described in image alt.",
+    "evidence_preserved": "Four actual cheek and texture comparisons unchanged; generated mood is not assigned a shade or claimed as a product result.",
+    "height_px": {
+      "320": 217.5,
+      "390": 258.9,
+      "860": 546.8
+    },
+    "status": "rejected_by_owner_do_not_reuse"
   }
 }
