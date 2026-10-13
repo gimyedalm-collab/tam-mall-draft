@@ -209,13 +209,13 @@
     "verification": "cheek-detail-v12.json",
     "production_cafe24_changed": false,
     "next_action": "Owner reviews V12 visual direction. Technical QA and owner design acceptance remain separate.",
-    "published_commit": "2b8b90b",
+    "published_commit": "3c374dc",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
     "formula_revision": "Dedicated Milky Cheek ribbon illustration and numbered ingredient layout published and verified. Owner review pending.",
     "video_aspect_fix": "Proportional cover crop replaces distorted video stretch. Published and verified on GitHub Pages cb948a9.",
     "source_refinement": "All four owner-authorized source-preserving improvements published and verified on GitHub Pages efa1eb1. Larger video, external playback button, front-logo ending, uncropped texture squares, concise text and spacing.",
     "arm_skin_revision": "Rejected by owner for artificial/unpleasant appearance; superseded by complete removal of arm chart.",
     "arm_removal": "Arm chart removed; original cheek and texture comparison retained. Published and verified on GitHub Pages 2b8b90b. Do not reintroduce rejected arm treatment without explicit request.",
-    "ending_revision": "Owner rejected blue/dirty background of ending photograph. Replaced with existing front-logo cutout and original texture squares on neutral white. Lossless pixels verified; ready for Pages."
+    "ending_revision": "Existing transparent front-logo product and original texture squares on neutral white replaced rejected blue/dirty photograph. Published and verified on GitHub Pages 3c374dc; visible source RGBA pixels unchanged."
   }
 }
