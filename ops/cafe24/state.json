@@ -202,14 +202,14 @@
     "production_cafe24_changed": false
   },
   "cheek_v12_20261013": {
-    "status": "verified_ready_for_github_pages",
+    "status": "published_on_github_pages_and_verified",
     "product_no": 102,
     "reference": "TAM lipliner R32/R34; rebuild after owner rejected V11 quality.",
     "review_path": "cheek-v12/index.html",
     "verification": "cheek-detail-v12.json",
     "production_cafe24_changed": false,
     "next_action": "Owner reviews V12 visual direction. Technical QA and owner design acceptance remain separate.",
-    "published_commit": "e2649a5",
+    "published_commit": "1379e76",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
     "formula_revision": "Dedicated Milky Cheek ribbon illustration and numbered ingredient layout published and verified. Owner review pending.",
     "video_aspect_fix": "Proportional cover crop replaces distorted video stretch. Published and verified on GitHub Pages cb948a9.",
@@ -217,8 +217,8 @@
     "arm_skin_revision": "Rejected by owner for artificial/unpleasant appearance; superseded by complete removal of arm chart.",
     "arm_removal": "Arm chart removed; original cheek and texture comparison retained. Published and verified on GitHub Pages 2b8b90b. Do not reintroduce rejected arm treatment without explicit request.",
     "ending_revision": "Existing transparent front-logo product and original texture squares on neutral white replaced rejected blue/dirty photograph. Published and verified on GitHub Pages 3c374dc; visible source RGBA pixels unchanged.",
-    "finish_revision": "Signoff logo removed. Original campaign-based neutral studio backdrop edit replaces bright pink, with original retained. No new fictional model. Supporting copy reduced; actual shade evidence unchanged.",
-    "css_cache_fix": "Automatic content-hash CSS retained; photo plus original logo layout verified under cached-old-CSS regression.",
-    "typography_refinement": "Notes 11-14px; shade/ingredient secondary copy 12-18px; note spacing reduced. Content retained."
+    "finish_revision": "Removed middle logo; original campaign-reference backdrop edited to pale warm grey with built-in imagegen. Original pink source retained, no new fictional model. Actual four shade photos unchanged. Public 390/860 verified.",
+    "css_cache_fix": "Automatic content-hash CSS retained; current no-logo neutral edit cache regression passed.",
+    "typography_refinement": "Published notes 11px mobile/14px desktop, shade and ingredient secondary copy 12-18px, smaller note spacing. All wording retained."
   }
 }
