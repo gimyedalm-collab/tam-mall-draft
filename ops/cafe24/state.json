@@ -52,7 +52,7 @@
     "verification": "Browser visual review at 390px content width: hero, shades, texture, how-to, formula. Invariants verified: original media, section heights, product information and commerce unchanged.",
     "production_cafe24_changed": false
   },
-  "updated_at": "2026-09-21",
+  "updated_at": "2026-10-13",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
   "phase": "purchase_ui_popup_shipping_preview_complete; administrator_connection_next",
@@ -172,5 +172,14 @@
     "production_cafe24_changed": false,
     "next_action": "Review v14 at the existing GitHub Pages homepage. Cafe24 production rollout remains separate.",
     "layout_update": "User requested edge-to-edge width. Removed viewport-height width cap; film spans 100% content width at original 16:9 with contain, without added cropping."
+  },
+  "cheek_v11_20261013": {
+    "status": "verified_ready_for_github_pages",
+    "product_no": 102,
+    "detail": "Responsive V11 continues V10 with unchanged original cheek photographs, live text, mobile ingredient/instruction layouts and controlled original video.",
+    "review_path": "cheek-v11/index.html",
+    "verification": "cheek-detail-v11.json",
+    "production_cafe24_changed": false,
+    "next_action": "Review V11; Cafe24 production migration remains separate."
   }
 }
