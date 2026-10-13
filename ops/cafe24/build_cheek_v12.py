@@ -72,6 +72,7 @@ def content(prefix):
 
   <section class="c12-finish" data-panel="finish" aria-label="메이크업 무드">
     <div class="c12-finish-photo"><img src="{a}finish-look.webp" width="1720" height="2580" loading="lazy" alt="물풀치크를 든 모델의 핑크빛 볼 메이크업 브랜드 촬영 컷"></div>
+    <div class="c12-finish-signoff"><img src="{old}tam-logo.svg" width="1080" height="500" loading="lazy" alt="TAM BEAUTY"></div>
   </section>
 
   <section class="c12-texture" data-panel="texture">
