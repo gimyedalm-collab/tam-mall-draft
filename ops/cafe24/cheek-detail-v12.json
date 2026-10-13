@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
+  "status": "verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -207,9 +207,12 @@
     "visual": "Reviewed complete mobile page and colour-to-finish-to-texture context at 320/390/860. Finish uses smaller original photograph alongside smaller copy, same grey background as colour comparison, no separate pink field or capsule headline. Responsive/integration/motion checks pass at 320/390/860/1440.",
     "script": "ops/cafe24/check_cheek_v12.py"
   },
-  "publication": {
-    "commit": "4331f6e",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/",
-    "revised_public_files_matched": 3
+  "css_cache_fix": {
+    "evidence": "Owner screenshot matches new HTML rendered with old full-width CSS; unversioned public CSS uses Cache-Control max-age=600.",
+    "reproduction": "Primed real Chromium HTTP cache with old CSS. Second navigation made no new CSS request and reproduced full-width pink section with copy below.",
+    "fix": "Build computes CSS content hash and includes it in both standalone and integrated stylesheet URLs. Generator rerun verified idempotent.",
+    "verification": "Same cached browser navigates to fixed HTML and obtains current CSS; grid, grey background and side-by-side geometry verified at 320/390/860. Existing responsive, integration and motion QA pass at 320/390/860/1440.",
+    "script": "ops/cafe24/check_cheek_v12_cache.py",
+    "css_revision": "c310c68dfcae"
   }
 }

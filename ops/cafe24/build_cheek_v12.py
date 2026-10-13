@@ -104,8 +104,13 @@ def content(prefix):
 </article>'''
 
 standalone=ROOT/'cheek-v12';standalone.mkdir(exist_ok=True)
+css_revision=hashlib.sha256((DEST/'detail.css').read_text(encoding='utf-8').encode('utf-8')).hexdigest()[:12]
+def version_detail_css(html):
+    return re.sub(r'milky-cheek-v(?:11|12)/detail\.css(?:\?[^"\s]*)?',f'milky-cheek-v12/detail.css?v={css_revision}',html)
+def normalize_detail_assets(html):
+    return re.sub(r'milky-cheek-v(?:11|12)/detail\.css(?:\?[^"\s]*)?','DETAIL_CSS',html).replace('milky-cheek-v11/detail.js','DETAIL_JS').replace('milky-cheek-v12/detail.js','DETAIL_JS')
 head='''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>탐뷰티 | 더 젤리 밀키 치크 블러셔</title><link rel="stylesheet" href="../storefront-v2/preview/assets/milky-cheek-v12/detail.css"><script defer src="../storefront-v2/preview/assets/milky-cheek-v12/detail.js"></script><style>body{margin:0;background:#eee}main{max-width:860px;margin:auto}</style></head><body><main>'''
-(standalone/'index.html').write_text(head+content('../storefront-v2/preview/assets/')+'</main></body></html>\n',encoding='utf-8')
+(standalone/'index.html').write_text(version_detail_css(head)+content('../storefront-v2/preview/assets/')+'</main></body></html>\n',encoding='utf-8')
 
 page=ROOT/'storefront-v2/preview/product-102.html';before=page.read_text(encoding='utf-8')
 pattern=r'<!-- cheek-v(?:11|12):start -->.*?<!-- cheek-v(?:11|12):end -->'
@@ -115,7 +120,8 @@ after=re.sub(pattern,lambda _:replacement,before,count=1,flags=re.S)
 oldincludes='<link rel="stylesheet" href="assets/milky-cheek-v11/detail.css"><script src="assets/milky-cheek-v11/detail.js" defer></script>'
 newincludes=oldincludes.replace('milky-cheek-v11','milky-cheek-v12')
 after=after.replace(oldincludes,newincludes)
-assert after.replace(replacement,old[0]).replace(newincludes,oldincludes)==before.replace(newincludes,oldincludes)
+after=version_detail_css(after)
+assert normalize_detail_assets(after.replace(replacement,old[0]))==normalize_detail_assets(before)
 page.write_text(after,encoding='utf-8',newline='\n')
 
 report={'version':'V12','product_no':102,'date':'2026-10-13','status':'design_in_progress','design_reference':'TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.','direction':{'palette':['#1A1A1A','#6F6A6B','#925368','#F3E8EC','#F5F5F5','#FFFFFF'],'type':'Pretendard 400/600/700 for Korean, Manrope for section labels and numerals','sequence':['Product campaign','Sponge and one approved usage video','Original cheek and texture shade comparison','Real milky texture','Ingredient illustration','Existing test evidence','Product lineup'],'preserved_constraints':['No AI face','No Dasha/legacy person video','Only approved Choi Yeeun 3steps clip','No recolouring swatches','No invented efficacy or before/after'],'claude_review':'Read-only nonpersistent consultation. Accepted hierarchy and compact comparison advice; rejected inaccurate compact/mirror/solid-balm product suggestions.'},'sources':records,'commerce_outside_detail_unchanged':True,'production_cafe24_changed':False}

@@ -202,7 +202,7 @@
     "production_cafe24_changed": false
   },
   "cheek_v12_20261013": {
-    "status": "published_on_github_pages_and_verified",
+    "status": "verified_ready_for_github_pages",
     "product_no": 102,
     "reference": "TAM lipliner R32/R34; rebuild after owner rejected V11 quality.",
     "review_path": "cheek-v12/index.html",
@@ -217,6 +217,7 @@
     "arm_skin_revision": "Rejected by owner for artificial/unpleasant appearance; superseded by complete removal of arm chart.",
     "arm_removal": "Arm chart removed; original cheek and texture comparison retained. Published and verified on GitHub Pages 2b8b90b. Do not reintroduce rejected arm treatment without explicit request.",
     "ending_revision": "Existing transparent front-logo product and original texture squares on neutral white replaced rejected blue/dirty photograph. Published and verified on GitHub Pages 3c374dc; visible source RGBA pixels unchanged.",
-    "finish_revision": "Compact image/copy row replaces oversized full-width finish section; grey background joins colour comparison. Original photo unchanged. Responsive/integration/motion and contextual visual checks passed; GitHub Pages files matched."
+    "finish_revision": "Compact image/copy row replaces oversized full-width finish section; grey background joins colour comparison. Original photo unchanged. Responsive/integration/motion and contextual visual checks passed; GitHub Pages files matched.",
+    "css_cache_fix": "Owner screenshot reproduced using cached previous CSS. Both pages now use content-hash CSS URLs; real cached-browser regression passed."
   }
 }

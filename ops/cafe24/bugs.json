@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17",
+  "updated_at": "2026-10-13",
   "items": [
     {
       "id": "TAM-C24-005",
@@ -117,6 +117,19 @@
       "fix": "Suppress popup for both menu types; support outside-tap dismissal.",
       "evidence": "OVERALL-REVIEW-20260917.md",
       "retest": "check_review_fixes.py: Chromium 1440/390/320 passed; no native commerce verification"
+    },
+    {
+      "id": "TAM-PREVIEW-CHEEK-CSS-CACHE",
+      "type": "observed_bug",
+      "priority": "P1",
+      "status": "fixed_verified_locally",
+      "route": "cheek-v12/ and storefront-v2/preview/product-102.html",
+      "reproduce": "Keep old detail.css cached and load new finish-section HTML; deterministic HTTP-cache regression test reproduces owner screenshot.",
+      "expected": "Updated compact photo/copy row on grey background for returning and first-time viewers.",
+      "actual": "Stable CSS URL can reuse previous stylesheet for 600 seconds, producing a full-width model photograph and large copy underneath.",
+      "evidence": "Owner screenshot and ops/cafe24/check_cheek_v12_cache.py; no private browser state collected.",
+      "fix": "Automatic CSS content-hash query in both generated page references.",
+      "retest": "Real Chromium cache priming and repeated navigation at 320/390/860 passed; responsive/integration/video at 320/390/860/1440 passed."
     }
   ]
 }

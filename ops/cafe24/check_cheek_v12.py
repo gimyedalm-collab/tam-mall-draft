@@ -91,6 +91,7 @@ async def run():
     after=(ROOT/'storefront-v2/preview/product-102.html').read_text(encoding='utf-8')
     def shell(s):
         s=re.sub(r'<!-- cheek-v(?:11|12):start -->.*?<!-- cheek-v(?:11|12):end -->','DETAIL',s,flags=re.S)
+        s=re.sub(r'(milky-cheek-v(?:11|12)/detail\.css)\?[^"\s]*',r'\1',s)
         return s.replace('milky-cheek-v11','DETAIL_ASSET').replace('milky-cheek-v12','DETAIL_ASSET').replace('\r\n','\n')
     assert shell(before)==shell(after),'Surrounding product page changed'
     results.append({'commerce_preserved':'Outside detail HTML and its CSS/JS references unchanged from HEAD'})
