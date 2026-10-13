@@ -180,9 +180,10 @@
     "review_path": "cheek-v11/index.html",
     "verification": "cheek-detail-v11.json",
     "production_cafe24_changed": false,
-    "next_action": "Review V11; Cafe24 production migration remains separate.",
+    "next_action": "Rework art direction against lipliner R34: strong product opening, model/product/texture narrative, meaningful colour comparison, designed ingredient presentation, consistent section hierarchy. Passing responsive/behavior QA does not establish design completion.",
     "published_commit": "0fdebd0",
-    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v11/"
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v11/",
+    "design_acceptance": "rejected_by_owner_20261013: substantially below existing lipliner detail quality"
   },
   "main_film_v15_20261013": {
     "status": "graded_and_verified_ready_for_github_pages",
@@ -199,5 +200,14 @@
     "changes": "Reviewed existing slow closeup and retained 1.25s. Extended logo dissolve to 11 frames, retaining 1.5s full logo hold. Lower compression CRF15 export from graded masters.",
     "verification": "main-film-v16-20261013.json",
     "production_cafe24_changed": false
+  },
+  "cheek_v12_20261013": {
+    "status": "visually_reviewed_ready_for_github_pages",
+    "product_no": 102,
+    "reference": "TAM lipliner R32/R34; rebuild after owner rejected V11 quality.",
+    "review_path": "cheek-v12/index.html",
+    "verification": "cheek-detail-v12.json",
+    "production_cafe24_changed": false,
+    "next_action": "Owner reviews V12 visual direction. Technical QA and owner design acceptance remain separate."
   }
 }

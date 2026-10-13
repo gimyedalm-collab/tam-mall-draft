@@ -1,0 +1,164 @@
+{
+  "version": "V12",
+  "product_no": 102,
+  "date": "2026-10-13",
+  "status": "visually_reviewed_ready_for_github_pages",
+  "design_reference": "TAM lipliner R32/R34 typography, photography scale and ingredient art. V11 rejected by owner.",
+  "direction": {
+    "palette": [
+      "#1A1A1A",
+      "#6F6A6B",
+      "#925368",
+      "#F3E8EC",
+      "#F5F5F5",
+      "#FFFFFF"
+    ],
+    "type": "Pretendard 400/600/700 for Korean, Manrope for section labels and numerals",
+    "sequence": [
+      "Product campaign",
+      "Sponge and one approved usage video",
+      "Arm and cheek shade comparison",
+      "Real milky texture",
+      "Ingredient illustration",
+      "Existing test evidence",
+      "Product lineup"
+    ],
+    "preserved_constraints": [
+      "No AI face",
+      "No Dasha/legacy person video",
+      "Only approved Choi Yeeun 3steps clip",
+      "No recolouring swatches",
+      "No invented efficacy or before/after"
+    ],
+    "claude_review": "Read-only nonpersistent consultation. Accepted hierarchy and compact comparison advice; rejected inaccurate compact/mirror/solid-balm product suggestions."
+  },
+  "sources": [
+    {
+      "file": "campaign.jpg",
+      "source_name": "1차_070.jpg",
+      "source_sha256": "d5f55111af94059818ed450ce6f89aa8f9a21a476d47761fdfc2ee39f4c1ec1a",
+      "sha256": "eaa4090c0c434c695871d29de549d67b3b8560a8e4b682dafb8f0d7027354671",
+      "transformation": "Web resize/JPEG encoding only. No retouch, recolour or generation; full source frame retained.",
+      "dimensions": [
+        1720,
+        2580
+      ],
+      "bytes": 404793
+    },
+    {
+      "file": "sponge.jpg",
+      "source_name": "1차_077.jpg",
+      "source_sha256": "c77c2b0c6be3096e719d930600504e141c29d3386ceee4889a592190248b97f5",
+      "sha256": "6d8127bcab0f1d4716063dba0140daf42f150ebf9f476e1e412333fd39ab4043",
+      "transformation": "Web resize/JPEG encoding only. No retouch, recolour or generation; full source frame retained.",
+      "dimensions": [
+        1720,
+        2580
+      ],
+      "bytes": 134974
+    },
+    {
+      "file": "lineup.jpg",
+      "source_name": "1차_090.jpg",
+      "source_sha256": "3a4292a5d2909878212c7e398e7a785ad77a2d30890e97f8ece97b296ab5a9b9",
+      "sha256": "772986a671c88e2df59c1c649a375a5a6517729030db8402e6e227e939c03a0b",
+      "transformation": "Web resize/JPEG encoding only. No retouch, recolour or generation; full source frame retained.",
+      "dimensions": [
+        1720,
+        1146
+      ],
+      "bytes": 138496
+    },
+    {
+      "file": "arm.jpg",
+      "source_name": "arm-blended.jpg",
+      "sha256": "e10be625d66d0182afb403ba6b83231a8d4a1fda8f158288d11e643961ae66e3",
+      "transformation": "Byte-for-byte reuse of existing brand asset.",
+      "dimensions": [
+        1782,
+        1498
+      ],
+      "bytes": 404705
+    },
+    {
+      "file": "swatch01.jpg",
+      "source_name": "swatch01.jpg",
+      "sha256": "9ebea26767a18b56b34949842ccb24839e4bb94fde2d328b14ddb4b5a2918563",
+      "transformation": "Byte-for-byte reuse of existing brand asset.",
+      "dimensions": [
+        840,
+        840
+      ],
+      "bytes": 63815
+    },
+    {
+      "file": "swatch02.jpg",
+      "source_name": "swatch02.jpg",
+      "sha256": "5349957131046c59990c238fdca2b10f14fe20f3b317d27d12fc7892e2e18913",
+      "transformation": "Byte-for-byte reuse of existing brand asset.",
+      "dimensions": [
+        840,
+        840
+      ],
+      "bytes": 85028
+    },
+    {
+      "file": "swatch03.jpg",
+      "source_name": "swatch03.jpg",
+      "sha256": "08b47193f3511b6042fefcb66922539a5bd5c88bfccb55459695bcce0238bc6d",
+      "transformation": "Byte-for-byte reuse of existing brand asset.",
+      "dimensions": [
+        840,
+        840
+      ],
+      "bytes": 80278
+    },
+    {
+      "file": "swatch04.jpg",
+      "source_name": "swatch04.jpg",
+      "sha256": "841f5aa205db905afbf85b8e4d4ad412ad0c1ebe1ff40187d49204033ac508e0",
+      "transformation": "Byte-for-byte reuse of existing brand asset.",
+      "dimensions": [
+        840,
+        840
+      ],
+      "bytes": 80794
+    },
+    {
+      "file": "formula-drops.jpg",
+      "source_name": "ai-water-drops.jpg",
+      "sha256": "8b97509c7e7432ac5088df20c30ae8b3a5b32609d96a0fb978d41a6ac3b9a722",
+      "transformation": "Byte-for-byte reuse. Formula droplets are the existing AI illustration from the TAM lipliner; not a product/efficacy photograph.",
+      "dimensions": [
+        1720,
+        2641
+      ],
+      "bytes": 282481
+    }
+  ],
+  "commerce_outside_detail_unchanged": true,
+  "production_cafe24_changed": false,
+  "design_acceptance": "Awaiting owner review; not inferred from technical test results.",
+  "verification": {
+    "widths": [
+      320,
+      390,
+      860,
+      1440
+    ],
+    "horizontal_overflow": false,
+    "missing_images": 0,
+    "source_video_count": 1,
+    "shade_count": 4,
+    "headline_to_body_ratio_min": 2.11,
+    "integration": "All seven product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
+    "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
+    "visual": "Inspected final mobile and desktop renders. Added sponge ON/OFF callout, enlarged real shade texture strips, separated ingredient names from readable descriptions, corrected formula disc edges and centering.",
+    "script": "ops/cafe24/check_cheek_v12.py"
+  },
+  "design_review_fixes": [
+    "Sponge ON/OFF callout and explanation",
+    "Larger original texture strips below cheek swatches",
+    "Ingredient descriptions outside decorative droplets for mobile readability"
+  ]
+}
