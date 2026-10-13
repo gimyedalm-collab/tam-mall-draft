@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
+  "status": "verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -25,7 +25,7 @@
       "Product lineup"
     ],
     "preserved_constraints": [
-      "Owner rejected AI model mood image; restore existing brand photograph for this section. Do not reuse rejected AI portrait.",
+      "Do not reuse rejected AI model portrait. Current backdrop edit is based on original brand campaign reference; actual shade evidence stays original.",
       "No Dasha/legacy person video",
       "Only approved Choi Yeeun 3steps clip",
       "No recolouring swatches",
@@ -126,16 +126,16 @@
       "bytes": 1006688
     },
     {
-      "file": "finish-look.webp",
-      "source_name": "05_Product_Cuts/06_Milky_Cheek_Blush/source/14.jpg",
+      "file": "finish-look-neutral.webp",
+      "source_name": "Background edit of original brand source/14.jpg",
       "source_sha256": "8e02a6dede280e85518bdc736f6092feab4b776531312a037ffcdcb2c1ec4ef5",
-      "sha256": "16d314d161bd24f3808eb218b16f7cea9268013f61958ba0d4f81827607640a3",
-      "transformation": "Restored original brand campaign photograph after owner rejected generated model. Web resize and encoding only; no AI, face edits, skin retouch or colour grading. Proportional CSS crop.",
+      "sha256": "86df526022b13e0ef23600cc5996ccd2453678facb95794b066ecf4a3be78f12",
+      "transformation": "Built-in imagegen edit targeting studio backdrop only, using original campaign photograph as reference. Original identity, pose and product visually reviewed; not a pixel-identical composite. Original finish-look.webp retained. Actual shade evidence unchanged. Prompt: ops/cafe24/cheek-background-edit.json",
       "dimensions": [
-        1720,
-        2580
+        1024,
+        1536
       ],
-      "bytes": 476588
+      "bytes": 188658
     }
   ],
   "commerce_outside_detail_unchanged": true,
@@ -165,7 +165,7 @@
     "future_direction": "Do not reintroduce this arm photo or further retouched variants without an explicit request.",
     "verification": "No arm image references in standalone page, product detail, CSS or generator. Responsive/integration/motion checks passed at 320/390/860/1440. Inspected colour section screenshot."
   },
-  "design_acceptance": "Owner asked to reconsider transition and suggested logo. Original brand signoff and adjacent spacing revised; owner visual review pending.",
+  "design_acceptance": "Owner asked smaller notes, logo removal, and background colour change. Original-photo-based neutral-backdrop version selected; owner visual review pending.",
   "ending_revision": {
     "reason": "Owner flagged blue background contamination and unappealing presentation in ending photograph.",
     "action": "Remove brand-ending.jpg from active output. Use existing front-logo transparent product cutout, lossless WebP export and CSS composition on white with original texture squares.",
@@ -174,13 +174,13 @@
   },
   "finish_revision": {
     "request": "Owner strongly rejected AI model image and requested immediate replacement with earlier original photograph.",
-    "source": "Original brand source/14.jpg, restored finish-look.webp bytes from f932055.",
-    "ai_used_for_this_revision": false,
-    "layout": "Original 3:2 image aligned with shade grid, continuous grey section background. White band directly below photo contains original TAM logo, 70px mobile/100px desktop. No marketing heading or copy. Shorter gap to next texture section.",
+    "source": "finish-look-neutral.webp; original finish-look.webp retained as reference/rollback.",
+    "ai_used_for_this_revision": true,
+    "layout": "3:2 shared-column photograph on grey section background. No signoff logo or marketing text. Neutral-backdrop version based on original campaign photograph.",
     "height_px": {
-      "320": 279.9,
-      "390": 321.3,
-      "860": 635.1
+      "320": 213.5,
+      "390": 254.9,
+      "860": 538.8
     },
     "removed": "Generated cheek-mood-v1.webp removed from active repository.",
     "balance_review": {
@@ -194,16 +194,19 @@
       "role": "Close colour/look segment with a restrained original brand mark before returning to texture and ingredient information.",
       "source": "Existing milky-cheek-v11/tam-logo.svg; unchanged geometry and aspect ratio.",
       "spacing": "White logo band 16/18px mobile and 24/26px desktop padding. Section bottom 24/40px; next texture opening 32/64px.",
-      "constraints": "No new copy, generated model, image grading, logo redesign or other page restructuring."
-    }
+      "constraints": "No new copy, generated model, image grading, logo redesign or other page restructuring.",
+      "status": "removed_at_owner_request"
+    },
+    "ai_scope": "Generative background edit using original brand photo; not a new fictional face. Visual identity/product comparison performed; no pixel-identical foreground claim.",
+    "provenance": "ops/cafe24/cheek-background-edit.json"
   },
   "css_cache_fix": {
     "evidence": "Owner screenshot matches new HTML rendered with old full-width CSS; unversioned public CSS uses Cache-Control max-age=600.",
     "reproduction": "Primed real Chromium HTTP cache with old CSS. Second navigation made no new CSS request and reproduced full-width pink section with copy below.",
     "fix": "Build computes CSS content hash and includes it in both standalone and integrated stylesheet URLs. Generator rerun verified idempotent.",
-    "verification": "Cached-CSS test passes for image plus original logo at 320/390/860.",
+    "verification": "Cached-CSS regression passed for current no-logo landscape photo at 320/390/860.",
     "script": "ops/cafe24/check_cheek_v12_cache.py",
-    "css_revision": "645125084a2b"
+    "css_revision": "7886d326dc15"
   },
   "previous_finish_revision": {
     "request": "Add one finished cheek makeup section; owner permits AI/Higgsfield if existing sources are insufficient.",
@@ -252,13 +255,13 @@
     "headline_to_body_ratio_min": 2.11,
     "integration": "All eight product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
     "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Compared grey and white logo footers with preceding shade cards and following texture. Selected quiet white band under photo with original TAM logo at 70px mobile/100px desktop, smaller than opening logo. Reviewed full 390 page and 390/860 section screenshots. Four-width responsive/integration/motion and cached-CSS tests pass.",
+    "visual": "Reviewed smaller supporting copy in colour/formula sections, no logo in finish, neutral-backdrop edit at 390/860 and full mobile page. Original four shade photos unchanged. Four-width responsive/integration/motion and cache regression passed.",
     "script": "ops/cafe24/check_cheek_v12.py"
   },
-  "publication": {
-    "commit": "e2649a5",
-    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/?v=e2649a5",
-    "revised_public_files_matched": 3,
-    "public_browser": "390/860: original photograph and logo load; white logo band touches photo and matches width; logo width 70/100px; no marketing text."
+  "typography_refinement": {
+    "request": "Reduce disclaimer and unnecessary supporting text prominence.",
+    "notes": "22px maximum reduced to 14px; mobile 11px. Margin above notes 22px desktop/16px mobile. Text retained.",
+    "secondary_copy": "Shade descriptions reduced 22px to 18px maximum, ingredient notes 24px to 18px; minimum 12px.",
+    "unchanged": "Headlines, product/shade names, comparison imagery and test result."
   }
 }

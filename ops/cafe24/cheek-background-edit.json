@@ -1,0 +1,17 @@
+{
+  "purpose": "Original brand campaign photograph with a quiet neutral studio backdrop, replacing the bright pink backdrop. Not actual shade comparison evidence.",
+  "tool": "Built-in image_gen.imagegen edit",
+  "reference": "storefront-v2/preview/assets/milky-cheek-v12/finish-look.webp",
+  "asset": "storefront-v2/preview/assets/milky-cheek-v12/finish-look-neutral.webp",
+  "prompt": "Precisely edit the supplied existing photograph. Change ONLY the empty bright pink studio BACKGROUND behind the model and around the hand to a very pale warm grey/off-white studio backdrop (#eeeae7), with a subtle natural studio tonal gradient. This is background replacement only, not a new photograph. Preserve the original model's face, identity, face shape, eyes, eye colour, eyebrows, lashes, nose, lips, blush colour, skin tone, skin texture, highlights, expression, hair, black bow, all anatomy, hand and fingers, ring, pink gingham outfit, product tube, pink product colour, sponge applicator and exact black TAM logo lettering as they are. Preserve every foreground detail and its original position, proportions, framing, original portrait aspect ratio and photographic sharpness. Do not relight, beautify, smooth, grade or regenerate the person or product. Keep natural hair-edge transitions against the new background, no pink halos, no cutout outline. No added objects, text, watermark, logos or border. The ONLY requested visible change is the backdrop colour from saturated pink to neutral soft warm grey.",
+  "source_generated_file": "exec-5e5291c3-398e-481c-901f-4b742a35ad35.png",
+  "review": "Reference and output visually compared for identity, pose, crop, product and logo. This is a generative background edit, not a pixel-identical foreground composite. Original reference retained.",
+  "actual_shade_evidence": "Four original cheek and texture images remain unchanged.",
+  "output_sha256": "86df526022b13e0ef23600cc5996ccd2453678facb95794b066ecf4a3be78f12",
+  "reference_sha256": "16d314d161bd24f3808eb218b16f7cea9268013f61958ba0d4f81827607640a3",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "original_saved_to": "C:\\Users\\BNK-1\\Desktop\\_탐뷰티\\물풀치크_상세_V12_261013\\finish-look-neutral-original.png"
+}

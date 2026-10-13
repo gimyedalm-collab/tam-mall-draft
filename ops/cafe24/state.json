@@ -202,7 +202,7 @@
     "production_cafe24_changed": false
   },
   "cheek_v12_20261013": {
-    "status": "published_on_github_pages_and_verified",
+    "status": "verified_ready_for_github_pages",
     "product_no": 102,
     "reference": "TAM lipliner R32/R34; rebuild after owner rejected V11 quality.",
     "review_path": "cheek-v12/index.html",
@@ -217,7 +217,8 @@
     "arm_skin_revision": "Rejected by owner for artificial/unpleasant appearance; superseded by complete removal of arm chart.",
     "arm_removal": "Arm chart removed; original cheek and texture comparison retained. Published and verified on GitHub Pages 2b8b90b. Do not reintroduce rejected arm treatment without explicit request.",
     "ending_revision": "Existing transparent front-logo product and original texture squares on neutral white replaced rejected blue/dirty photograph. Published and verified on GitHub Pages 3c374dc; visible source RGBA pixels unchanged.",
-    "finish_revision": "Photo and small original TAM logo form a single campaign image with white bottom band. Grey shade background continues; spacing into texture reduced. Public mobile/desktop geometry, four-width QA and CSS-cache regression passed. No new copy or AI.",
-    "css_cache_fix": "Automatic content-hash CSS retained; photo plus original logo layout verified under cached-old-CSS regression."
+    "finish_revision": "Signoff logo removed. Original campaign-based neutral studio backdrop edit replaces bright pink, with original retained. No new fictional model. Supporting copy reduced; actual shade evidence unchanged.",
+    "css_cache_fix": "Automatic content-hash CSS retained; photo plus original logo layout verified under cached-old-CSS regression.",
+    "typography_refinement": "Notes 11-14px; shade/ingredient secondary copy 12-18px; note spacing reduced. Content retained."
   }
 }

@@ -25,8 +25,8 @@ if not out.exists():
     subprocess.run(['ffmpeg','-v','error','-i',str(cutout),'-c:v','libwebp','-lossless','1','-compression_level','6',str(out)],check=True)
 records.append({'file':out.name,'source_name':str(cutout.relative_to(SOURCE.parent)),'source_sha256':hashlib.sha256(cutout.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Existing brand transparent product cutout. Lossless WebP export, no recolouring, retouch or generation. CSS composition on white.'})
 finish=SOURCE/'14.jpg'
-out=DEST/'finish-look.webp'
-records.append({'file':out.name,'source_name':'05_Product_Cuts/06_Milky_Cheek_Blush/source/14.jpg','source_sha256':hashlib.sha256(finish.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Restored original brand campaign photograph after owner rejected generated model. Web resize and encoding only; no AI, face edits, skin retouch or colour grading. Proportional CSS crop.'})
+out=DEST/'finish-look-neutral.webp'
+records.append({'file':out.name,'source_name':'Background edit of original brand source/14.jpg','source_sha256':hashlib.sha256(finish.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Built-in imagegen edit targeting studio backdrop only, using original campaign photograph as reference. Original identity, pose and product visually reviewed; not a pixel-identical composite. Original finish-look.webp retained. Actual shade evidence unchanged. Prompt: ops/cafe24/cheek-background-edit.json'})
 for row in records:
     with Image.open(DEST/row['file']) as im: row['dimensions']=list(im.size)
     row['bytes']=(DEST/row['file']).stat().st_size
@@ -71,8 +71,7 @@ def content(prefix):
   </section>
 
   <section class="c12-finish" data-panel="finish" aria-label="메이크업 무드">
-    <div class="c12-finish-photo"><img src="{a}finish-look.webp" width="1720" height="2580" loading="lazy" alt="물풀치크를 든 모델의 핑크빛 볼 메이크업 브랜드 촬영 컷"></div>
-    <div class="c12-finish-signoff"><img src="{old}tam-logo.svg" width="1080" height="500" loading="lazy" alt="TAM BEAUTY"></div>
+    <div class="c12-finish-photo"><img src="{a}finish-look-neutral.webp" width="1024" height="1536" loading="lazy" alt="웜그레이 배경으로 편집한 물풀치크 브랜드 메이크업 촬영 컷"></div>
   </section>
 
   <section class="c12-texture" data-panel="texture">
@@ -124,7 +123,7 @@ page.write_text(after,encoding='utf-8',newline='\n')
 
 report={'version':'V12','product_no':102,'date':'2026-10-13','status':'design_in_progress','design_reference':'TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.','direction':{'palette':['#1A1A1A','#6F6A6B','#925368','#F3E8EC','#F5F5F5','#FFFFFF'],'type':'Pretendard 400/600/700 for Korean, Manrope for section labels and numerals','sequence':['Product campaign','Sponge and one approved usage video','Original cheek and texture shade comparison','Real milky texture','Ingredient illustration','Existing test evidence','Product lineup'],'preserved_constraints':['No AI face','No Dasha/legacy person video','Only approved Choi Yeeun 3steps clip','No recolouring swatches','No invented efficacy or before/after'],'claude_review':'Read-only nonpersistent consultation. Accepted hierarchy and compact comparison advice; rejected inaccurate compact/mirror/solid-balm product suggestions.'},'sources':records,'commerce_outside_detail_unchanged':True,'production_cafe24_changed':False}
 report['direction']['sequence'].insert(3,'Image-only original brand makeup photograph')
-report['direction']['preserved_constraints'][0]='Owner rejected AI model mood image; restore existing brand photograph for this section. Do not reuse rejected AI portrait.'
+report['direction']['preserved_constraints'][0]='Do not reuse rejected AI model portrait. Current backdrop edit is based on original brand campaign reference; actual shade evidence stays original.'
 report_path=ROOT/'ops/cafe24/cheek-detail-v12.json'
 previous=json.loads(report_path.read_text(encoding='utf-8')) if report_path.exists() else {}
 for key in ('verification','publication'):
