@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-14",
-  "status": "final_design_spacing_refinement_published_and_verified",
+  "status": "owner_approved_final_published_and_verified",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -283,7 +283,9 @@
       "ending"
     ],
     "rule": "Do not restore model interlude or redesign without explicit new owner request.",
-    "scope": "Product 102 detail design; Cafe24 production not changed."
+    "scope": "Product 102 detail design; Cafe24 production not changed.",
+    "approved_spacing_revision": "0312c8b",
+    "owner_confirmation": "Owner accepted the spacing refinement and requested moving on to highlighter."
   },
   "publication": {
     "commit": "0312c8b",
