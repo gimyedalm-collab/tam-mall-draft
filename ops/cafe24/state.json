@@ -305,7 +305,7 @@
     "public_verification": "shades-public-20261014.json"
   },
   "highlighter_r33_20261014": {
-    "status": "verified_ready_for_github_pages",
+    "status": "published_on_github_pages_and_verified",
     "product_no": 24,
     "review_path": "highlighter-r33/index.html",
     "integrated_path": "storefront-v2/preview/product-24.html",
@@ -313,7 +313,9 @@
     "verification": "highlighter-r33.json",
     "design_acceptance": "owner_review_pending",
     "scope": "Overall format rebuild in the same family as approved cheek and lipliner. Original evidence and commerce preserved.",
-    "next_action": "Publish verified R33 candidate; owner reviews overall art direction.",
-    "production_cafe24_changed": false
+    "next_action": "Owner reviews rebuilt R33 format and art direction. Original R32 is a rollback reference; use R33 builder for follow-up changes.",
+    "production_cafe24_changed": false,
+    "published_commit": "cbc06ca",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=cbc06ca"
   }
 }

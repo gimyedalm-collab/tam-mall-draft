@@ -2,7 +2,7 @@
   "version": "R33",
   "date": "2026-10-14",
   "product_no": 24,
-  "status": "verified_ready_for_github_pages",
+  "status": "published_on_github_pages_and_verified",
   "design_acceptance": "owner_review_pending",
   "reason": "Owner rejected a small polish of R32 and requested an overall format aligned with the finished Milky Cheek and Lip Liner.",
   "direction_record": "ops/cafe24/highlighter-r33-direction.md",
@@ -162,5 +162,14 @@
   "source_size_note": "Original 840px product hero and macro preserved; no synthetic detail or upscaling added.",
   "css_revision": "229b5caa7d05",
   "js_revision": "c0bd291a1d34",
-  "production_cafe24_changed": false
+  "production_cafe24_changed": false,
+  "commerce_baseline": "de47e52 (concurrent approved shade-selection changes retained)",
+  "review_artifacts": "C:/Users/BNK-1/Desktop/_탐뷰티/하이라이터_상세_R33_261014",
+  "publication": {
+    "commit": "cbc06ca",
+    "url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=cbc06ca",
+    "product_url": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/product-24.html?v=cbc06ca",
+    "public_files_matched": 9,
+    "public_browser": "Standalone 390/860 and product route 390: eight panels, media loaded, three shade cards, information opens, no overflow, public real-glow video playback passed."
+  }
 }
