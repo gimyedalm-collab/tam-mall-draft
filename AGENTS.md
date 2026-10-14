@@ -34,3 +34,15 @@ captures. Record sanitized findings and tests in `ops/cafe24`.
 - Preserve original shade imagery, the approved usage video, small supporting
   copy, and the compact ingredient illustration. This lock applies to product 102;
   it does not block other authorized store or native commerce work.
+
+## Highlighter R33 candidate · 2026-10-14
+
+- The owner requested an overall format rebuild against Lip Liner R32/R34 and
+  the finished Milky Cheek V12, not only smaller typography adjustments.
+- Active candidate: `highlighter-r33/`, built by `ops/cafe24/build_highlighter_r33.py`.
+  It replaces the iframe on preview product 24 with scoped responsive HTML.
+- Follow `ops/cafe24/highlighter-r33-direction.md`: actual pearl and three-shade
+  comparison first; no sponge-led USP, new AI face, or generated pearl evidence.
+- Retain original product/shade media and approved use footage. R32 is a rollback
+  reference; do not run its builder over the R33 integration. R33 owner review is
+  pending and is separate from the final, locked Milky Cheek design.

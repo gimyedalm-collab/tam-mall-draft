@@ -1,0 +1,166 @@
+{
+  "version": "R33",
+  "date": "2026-10-14",
+  "product_no": 24,
+  "status": "verified_ready_for_github_pages",
+  "design_acceptance": "owner_review_pending",
+  "reason": "Owner rejected a small polish of R32 and requested an overall format aligned with the finished Milky Cheek and Lip Liner.",
+  "direction_record": "ops/cafe24/highlighter-r33-direction.md",
+  "position": "Actual pearl glow and three-colour choice first, soft stick use second, formula as supporting information.",
+  "sequence": [
+    "hero",
+    "glow",
+    "shades",
+    "texture",
+    "use",
+    "formula",
+    "ending",
+    "information"
+  ],
+  "family_alignment": "Original TAM mark, blush introduction, large centered Korean headlines, outlined English labels, broad original imagery, neutral shade section, clear space and small notes.",
+  "preservation": {
+    "original_evidence": "Original product trio, three face swatches, real-glow film, four-person use film and pearl animation unchanged.",
+    "new_assets": "Only alpha-margin trimming, proportional web sizing and compression of existing cutouts and ingredient art; highlighter-r33-assets.json.",
+    "generation": "No new AI imagery or footage.",
+    "product_information": "All existing product information headings and paragraphs retained in native disclosure.",
+    "commerce": "Product 24 DOM outside detail and new CSS/JS includes unchanged; no Cafe24 production changes.",
+    "cheek": "Final V12 untouched."
+  },
+  "implementation": "Scoped responsive HTML replaces fixed artwork iframe. R32 retained for rollback.",
+  "verification": [
+    {
+      "width": 320,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 284.1875,
+          "height": 341.921875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 284.1875,
+          "height": 346.484375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 320,
+      "height": 5524
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 346.34375,
+          "height": 416.71875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 346.34375,
+          "height": 422.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 390,
+      "height": 5848
+    },
+    {
+      "width": 860,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 14,
+      "frames": [
+        {
+          "width": 748.21875,
+          "height": 900.25,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 748.21875,
+          "height": 912.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 860,
+      "height": 9242
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 14,
+      "frames": [
+        {
+          "width": 748.21875,
+          "height": 900.25,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 748.21875,
+          "height": 912.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 860,
+      "height": 9242
+    },
+    {
+      "sources": "Original hero, shade photos, two videos and pearl animation unchanged; existing product information text preserved.",
+      "motion": "Autoplay, persistent user pause, reduced-motion initial stills, explicit video and animated-image play/pause passed.",
+      "integration": "Scoped native detail, no iframe; original commerce DOM preserved; colour and purchase return anchors work."
+    }
+  ],
+  "visual_review": "Inspected 390/860 hero, glow, shade rows, macro, use, formula and ending; reviewed full mobile flow and integrated hero.",
+  "source_size_note": "Original 840px product hero and macro preserved; no synthetic detail or upscaling added.",
+  "css_revision": "229b5caa7d05",
+  "js_revision": "c0bd291a1d34",
+  "production_cafe24_changed": false
+}

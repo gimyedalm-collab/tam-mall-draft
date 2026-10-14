@@ -279,7 +279,7 @@
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/design-only.html?v=31dfe77"
   },
   "highlighter_review_20261014": {
-    "status": "current_r32_inspected_for_next_requested_revision",
+    "status": "superseded_by_requested_format_rebuild_r33",
     "route": "highlighter-r32/",
     "product_no": 24,
     "scope": "Owner requested continuing with highlighter. Asked preferred focus; awaiting optional direction. No highlighter edits made yet.",
@@ -303,5 +303,17 @@
     "official_option_reference": "https://sdsupport.cafe24.com/module/product/detail.html",
     "published_commit": "274fd1b",
     "public_verification": "shades-public-20261014.json"
+  },
+  "highlighter_r33_20261014": {
+    "status": "verified_ready_for_github_pages",
+    "product_no": 24,
+    "review_path": "highlighter-r33/index.html",
+    "integrated_path": "storefront-v2/preview/product-24.html",
+    "direction_record": "ops/cafe24/highlighter-r33-direction.md",
+    "verification": "highlighter-r33.json",
+    "design_acceptance": "owner_review_pending",
+    "scope": "Overall format rebuild in the same family as approved cheek and lipliner. Original evidence and commerce preserved.",
+    "next_action": "Publish verified R33 candidate; owner reviews overall art direction.",
+    "production_cafe24_changed": false
   }
 }

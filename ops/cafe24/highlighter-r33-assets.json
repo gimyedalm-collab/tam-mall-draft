@@ -1,0 +1,67 @@
+[
+  {
+    "source": "highlighter-r30/assets/shade-texture-moonstone.png",
+    "output": "highlighter-r33/assets/shade-moonstone.webp",
+    "crop_alpha_bounds": [
+      1479,
+      753,
+      4406,
+      3707
+    ],
+    "source_sha256": "6b7a33e15cea85c20d20fc6f5414882fe76ee6dd9b82cd1bddac486c45241f4d",
+    "output_sha256": "0978731823147404eea7154c8689a3ee9caf36cbe6d40133eaeb17b56dc3f3d9",
+    "processing": "Trim transparent margins, proportional downsize and web compression only. No recolouring, retouch or generation."
+  },
+  {
+    "source": "highlighter-r30/assets/shade-texture-pink.png",
+    "output": "highlighter-r33/assets/shade-pink.webp",
+    "crop_alpha_bounds": [
+      2294,
+      972,
+      3202,
+      2554
+    ],
+    "source_sha256": "d6734f038b0294c4748d8796fe582c7cdd53a01a96f15034b67946bfc57d3b43",
+    "output_sha256": "3ebbf459fcb3950762f2098819254bc90761cd2bcf070cc36a72ea10c765a615",
+    "processing": "Trim transparent margins, proportional downsize and web compression only. No recolouring, retouch or generation."
+  },
+  {
+    "source": "highlighter-r30/assets/shade-texture-gold.png",
+    "output": "highlighter-r33/assets/shade-gold.webp",
+    "crop_alpha_bounds": [
+      3436,
+      711,
+      4710,
+      2822
+    ],
+    "source_sha256": "a823f106347f51316e6943af7c183e2954318bbfe460e96a1d4edd5afba94709",
+    "output_sha256": "dc4cb6e46b355fa9bdb16b6c9baa70905fcb21fcb13170c6c81b9ce9c146b47b",
+    "processing": "Trim transparent margins, proportional downsize and web compression only. No recolouring, retouch or generation."
+  },
+  {
+    "source": "highlighter-r30/assets/product-with-sponge.png",
+    "output": "highlighter-r33/assets/product-cutout.webp",
+    "crop_alpha_bounds": [
+      483,
+      428,
+      3494,
+      1246
+    ],
+    "source_sha256": "3de92d3cae4396f69e125feec560655ff26d20d5c939357a496924bb0780b323",
+    "output_sha256": "4c79d589aee4ec9b61ea19b0d7da05060f77323f49be7939ce1408b2434e27eb",
+    "processing": "Trim transparent margins, proportional downsize and web compression only. No recolouring, retouch or generation."
+  },
+  {
+    "source": "highlighter-r30/assets/ingredient-shea-v2.png",
+    "output": "highlighter-r33/assets/ingredient-shea.webp",
+    "crop_alpha_bounds": [
+      0,
+      20,
+      1236,
+      1230
+    ],
+    "source_sha256": "d44c2a01c0fffe33d6b641ea1783cd7185fd14e2aae491f789fae5b1ade6e905",
+    "output_sha256": "969cae2be892fff33c8f42213e9fb11494cfbe779529d2dd460b9ea0c5ba0517",
+    "processing": "Trim transparent margins, proportional downsize and web compression only. No recolouring, retouch or generation."
+  }
+]
