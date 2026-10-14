@@ -65,7 +65,7 @@ async def run():
             await page.evaluate('document.fonts.ready')
             after = await finish.evaluate('(e)=>({display:getComputedStyle(e).display,height:e.getBoundingClientRect().height,background:getComputedStyle(e).backgroundColor})')
             photo = await page.locator('.c12-finish-photo').bounding_box()
-            assert after['background'] == 'rgb(245, 245, 245)'
+            assert after['background'] == 'rgb(242, 240, 238)'
             assert after['height'] < before['height']
             assert abs(photo['width']/photo['height']-1.5)<.01
             assert width*.85 < photo['width'] < width*.9

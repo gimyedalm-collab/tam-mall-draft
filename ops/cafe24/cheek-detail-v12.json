@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-13",
-  "status": "published_on_github_pages_and_verified",
+  "status": "verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -206,7 +206,7 @@
     "fix": "Build computes CSS content hash and includes it in both standalone and integrated stylesheet URLs. Generator rerun verified idempotent.",
     "verification": "Cached-CSS regression passed for current no-logo landscape photo at 320/390/860.",
     "script": "ops/cafe24/check_cheek_v12_cache.py",
-    "css_revision": "5df275070e30"
+    "css_revision": "8482a4c99f63"
   },
   "previous_finish_revision": {
     "request": "Add one finished cheek makeup section; owner permits AI/Higgsfield if existing sources are insufficient.",
@@ -261,7 +261,7 @@
     "headline_to_body_ratio_min": 2.11,
     "integration": "All eight product-page panels match standalone geometry, backgrounds and headline sizes. Purchase area and reviews unchanged.",
     "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Reviewed 390/860 colour section screenshots: shade names above original cheek photos, full texture squares at 68% card width, two columns retained. Four-width responsive, integration, motion checks passed.",
+    "visual": "Inspected 390/860 formula and finish: warm neutral shared background, centered 2:1 formula crop, full mobile context generated. No changed raster assets.",
     "script": "ops/cafe24/check_cheek_v12.py"
   },
   "shade_comparison_refinement": {
@@ -280,5 +280,11 @@
     "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/?v=6f91b51",
     "revised_public_files_matched": 3,
     "public_browser": "390/860: all four names above cheek photos; each texture 68% card width; original cheek01..04/swatch01..04 pairings load; no overflow. Cache regression passed."
+  },
+  "background_formula_refinement_20261014": {
+    "background": "Colour comparison and adjacent finish share slightly warm neutral #f2f0ee, replacing #f5f5f5. Match existing neutral-backdrop photo without editing image pixels.",
+    "formula_review": "Existing 1536x1024 conceptual gel illustration remains suitable at rendered widths; pink tone works with section. Reduce dominance over ingredient copy with centered 2:1 CSS crop, 25% shorter than original 3:2. No image regeneration or recolouring.",
+    "ending_review": "Original transparent product and four textures remain clean on white; no change needed.",
+    "verification": "320/390/860/1440 responsive, integration and video checks passed; 390/860 formula and finish screenshots inspected; CSS cache regression passed."
   }
 }

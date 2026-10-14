@@ -220,7 +220,13 @@
     "finish_revision": "Removed middle logo; original campaign-reference backdrop edited to pale warm grey with built-in imagegen. Original pink source retained, no new fictional model. Actual four shade photos unchanged. Public 390/860 verified.",
     "css_cache_fix": "Automatic content-hash CSS retained; current no-logo neutral edit cache regression passed.",
     "typography_refinement": "Published notes 11px mobile/14px desktop, shade and ingredient secondary copy 12-18px, smaller note spacing. All wording retained.",
-    "shade_comparison_refinement": "Published and verified: names above original cheek photos, texture squares at 68% width, short descriptions below. Two columns and original image colours preserved."
+    "shade_comparison_refinement": "Published and verified: names above original cheek photos, texture squares at 68% width, short descriptions below. Two columns and original image colours preserved.",
+    "background_formula_refinement_20261014": {
+      "background": "Colour comparison and adjacent finish share slightly warm neutral #f2f0ee, replacing #f5f5f5. Match existing neutral-backdrop photo without editing image pixels.",
+      "formula_review": "Existing 1536x1024 conceptual gel illustration remains suitable at rendered widths; pink tone works with section. Reduce dominance over ingredient copy with centered 2:1 CSS crop, 25% shorter than original 3:2. No image regeneration or recolouring.",
+      "ending_review": "Original transparent product and four textures remain clean on white; no change needed.",
+      "verification": "320/390/860/1440 responsive, integration and video checks passed; 390/860 formula and finish screenshots inspected; CSS cache regression passed."
+    }
   },
   "ux_audit_20261013": {
     "status": "published_and_http_verified_dom_checks_passed_rendered_browser_review_pending",
