@@ -245,7 +245,14 @@
       "rule": "Do not restore model interlude or redesign without explicit new owner request.",
       "scope": "Product 102 detail design; Cafe24 production not changed."
     },
-    "design_tag": "tam-cheek-v12-final-20261014"
+    "design_tag": "tam-cheek-v12-final-20261014",
+    "spacing_refinement_20261014": {
+      "request": "Owner found texture/formula section too tightly packed after final lock. Scope: spacing only.",
+      "texture": "Desktop top/bottom 80/32, heading gap 52. Mobile top/bottom 48/24, heading gap 36.",
+      "formula": "Desktop top 104, heading gap 64, image-to-grid 64, grid row gap 48. Mobile top 64, heading gap 40, image-to-grid 40, row gap 36. Supporting note separated; font sizes unchanged.",
+      "preserved": "Final seven-panel structure, no model interlude, all copy, image files, image dimensions and colours unchanged.",
+      "verification": "320/390/860/1440 responsive and integrated geometry checks passed. Combined 390/860 texture/formula screenshots inspected."
+    }
   },
   "ux_audit_20261013": {
     "status": "published_and_http_verified_dom_checks_passed_rendered_browser_review_pending",

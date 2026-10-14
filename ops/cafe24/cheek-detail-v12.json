@@ -2,7 +2,7 @@
   "version": "V12",
   "product_no": 102,
   "date": "2026-10-14",
-  "status": "owner_approved_final_published_and_verified",
+  "status": "final_design_spacing_refinement_verified_ready_for_github_pages",
   "design_reference": "TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.",
   "direction": {
     "palette": [
@@ -194,7 +194,7 @@
     "fix": "Build computes CSS content hash and includes it in both standalone and integrated stylesheet URLs. Generator rerun verified idempotent.",
     "verification": "Cached-CSS regression passed for current no-logo landscape photo at 320/390/860.",
     "script": "ops/cafe24/check_cheek_v12_cache.py",
-    "css_revision": "3c7f7876da9d"
+    "css_revision": "7d287a537ca3"
   },
   "previous_finish_revision": {
     "request": "Add one finished cheek makeup section; owner permits AI/Higgsfield if existing sources are insufficient.",
@@ -267,7 +267,7 @@
     "headline_to_body_ratio_min": 2.11,
     "integration": "All seven final panels match standalone geometry and style. Surrounding commerce HTML unchanged.",
     "motion": "Playback, pause/resume, persistent user pause, reduced-motion poster and explicit play passed.",
-    "visual": "Final mobile full page reviewed. Separate model mood section removed; colour comparison directly precedes texture. Four-width responsive, integration, motion and cached stylesheet checks passed.",
+    "visual": "Combined texture/formula screenshots reviewed at 390/860: clearer section break and spacing between heading, image and ingredient grid. All seven panels still match integrated rendering.",
     "script": "ops/cafe24/check_cheek_v12.py"
   },
   "final_lock": {
@@ -291,5 +291,12 @@
     "url": "https://gimyedalm-collab.github.io/tam-mall-draft/cheek-v12/?v=10f2a77",
     "revised_public_files_matched": 3,
     "public_browser": "Standalone 390/860 and integrated product 390: final seven panels, no model interlude, direct colour-to-texture sequence, no overflow."
+  },
+  "spacing_refinement_20261014": {
+    "request": "Owner found texture/formula section too tightly packed after final lock. Scope: spacing only.",
+    "texture": "Desktop top/bottom 80/32, heading gap 52. Mobile top/bottom 48/24, heading gap 36.",
+    "formula": "Desktop top 104, heading gap 64, image-to-grid 64, grid row gap 48. Mobile top 64, heading gap 40, image-to-grid 40, row gap 36. Supporting note separated; font sizes unchanged.",
+    "preserved": "Final seven-panel structure, no model interlude, all copy, image files, image dimensions and colours unchanged.",
+    "verification": "320/390/860/1440 responsive and integrated geometry checks passed. Combined 390/860 texture/formula screenshots inspected."
   }
 }
