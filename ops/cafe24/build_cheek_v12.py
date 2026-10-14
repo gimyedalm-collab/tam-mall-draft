@@ -24,9 +24,6 @@ out=DEST/'ending-product.webp'
 if not out.exists():
     subprocess.run(['ffmpeg','-v','error','-i',str(cutout),'-c:v','libwebp','-lossless','1','-compression_level','6',str(out)],check=True)
 records.append({'file':out.name,'source_name':str(cutout.relative_to(SOURCE.parent)),'source_sha256':hashlib.sha256(cutout.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Existing brand transparent product cutout. Lossless WebP export, no recolouring, retouch or generation. CSS composition on white.'})
-finish=SOURCE/'14.jpg'
-out=DEST/'finish-look-neutral.webp'
-records.append({'file':out.name,'source_name':'Background edit of original brand source/14.jpg','source_sha256':hashlib.sha256(finish.read_bytes()).hexdigest(),'sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'transformation':'Built-in imagegen edit targeting studio backdrop only, using original campaign photograph as reference. Original identity, pose and product visually reviewed; not a pixel-identical composite. Original finish-look.webp retained. Actual shade evidence unchanged. Prompt: ops/cafe24/cheek-background-edit.json'})
 for row in records:
     with Image.open(DEST/row['file']) as im: row['dimensions']=list(im.size)
     row['bytes']=(DEST/row['file']).stat().st_size
@@ -69,10 +66,6 @@ def content(prefix):
     <header class="c12-heading"><span class="c12-label">FIND YOUR SHADE</span><h2>나의 볼에 어울리는<br>네 가지 밀키 컬러.</h2><p class="c12-body">볼 위의 발색과 제형을 함께 비교해 보세요.</p></header>
     <div class="c12-shade-grid">{colourcards}</div>
     <p class="c12-note">피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.</p>
-  </section>
-
-  <section class="c12-finish" data-panel="finish" aria-label="메이크업 무드">
-    <div class="c12-finish-photo"><img src="{a}finish-look-neutral.webp" width="1024" height="1536" loading="lazy" alt="웜그레이 배경으로 편집한 물풀치크 브랜드 메이크업 촬영 컷"></div>
   </section>
 
   <section class="c12-texture" data-panel="texture">
@@ -123,8 +116,10 @@ assert normalize_detail_assets(after.replace(replacement,old[0]))==normalize_det
 page.write_text(after,encoding='utf-8',newline='\n')
 
 report={'version':'V12','product_no':102,'date':'2026-10-13','status':'design_in_progress','design_reference':'TAM lipliner R32/R34 typography and photography scale. Dedicated Milky Cheek ingredient art replaces reused lipliner droplets after owner feedback.','direction':{'palette':['#1A1A1A','#6F6A6B','#925368','#F3E8EC','#F5F5F5','#FFFFFF'],'type':'Pretendard 400/600/700 for Korean, Manrope for section labels and numerals','sequence':['Product campaign','Sponge and one approved usage video','Original cheek and texture shade comparison','Real milky texture','Ingredient illustration','Existing test evidence','Product lineup'],'preserved_constraints':['No AI face','No Dasha/legacy person video','Only approved Choi Yeeun 3steps clip','No recolouring swatches','No invented efficacy or before/after'],'claude_review':'Read-only nonpersistent consultation. Accepted hierarchy and compact comparison advice; rejected inaccurate compact/mirror/solid-balm product suggestions.'},'sources':records,'commerce_outside_detail_unchanged':True,'production_cafe24_changed':False}
-report['direction']['sequence'].insert(3,'Image-only original brand makeup photograph')
-report['direction']['preserved_constraints'][0]='Do not reuse rejected AI model portrait. Current backdrop edit is based on original brand campaign reference; actual shade evidence stays original.'
+report['date']='2026-10-14'
+report['direction']['preserved_constraints'][0]='Owner-approved final: no separate model mood section or generated face. Preserve original cheek evidence and approved usage video.'
+report['design_acceptance']='owner_approved_final_20261014'
+report['design_locked']=True
 report_path=ROOT/'ops/cafe24/cheek-detail-v12.json'
 previous=json.loads(report_path.read_text(encoding='utf-8')) if report_path.exists() else {}
 for key in ('verification','publication'):

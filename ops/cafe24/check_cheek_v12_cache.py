@@ -54,24 +54,24 @@ async def run():
             await page.goto(base+'/prime?visit=1', wait_until='networkidle')
             await page.goto(base+'/prime?visit=2', wait_until='networkidle')
             assert requests[CSS] == count+1, 'Old CSS was not reused from browser cache'
-            finish = page.locator('.c12-finish')
-            await finish.scroll_into_view_if_needed()
-            before = await finish.evaluate('(e)=>({display:getComputedStyle(e).display,height:e.getBoundingClientRect().height,background:getComputedStyle(e).backgroundColor})')
-            assert before['display'] == 'block' and before['background'] == 'rgb(253, 241, 246)'
+            colours = page.locator('.c12-colours')
+            await colours.scroll_into_view_if_needed()
+            before = await colours.evaluate('(e)=>({height:e.getBoundingClientRect().height,background:getComputedStyle(e).backgroundColor})')
+            assert before['background'] == 'rgb(245, 245, 245)'
             if width == 860:
-                await finish.screenshot(path=str(OUT/'860-stale-css.png'))
+                await colours.screenshot(path=str(OUT/'860-stale-css.png'))
             await page.goto(base+'/cheek-v12/?fixed=1', wait_until='networkidle')
-            await finish.scroll_into_view_if_needed()
+            await colours.scroll_into_view_if_needed()
             await page.evaluate('document.fonts.ready')
-            after = await finish.evaluate('(e)=>({display:getComputedStyle(e).display,height:e.getBoundingClientRect().height,background:getComputedStyle(e).backgroundColor})')
-            photo = await page.locator('.c12-finish-photo').bounding_box()
+            after = await colours.evaluate('(e)=>({height:e.getBoundingClientRect().height,background:getComputedStyle(e).backgroundColor})')
             assert after['background'] == 'rgb(242, 240, 238)'
             assert after['height'] < before['height']
-            assert abs(photo['width']/photo['height']-1.5)<.01
-            assert width*.85 < photo['width'] < width*.9
-            assert not (await finish.inner_text()).strip()
+            assert await page.locator('.c12-finish, img[src*="finish-look"]').count()==0
+            assert await page.locator('.c12-colours + .c12-texture').count()==1
+            ratio = await page.locator('.c12-swatch').first.evaluate('(e)=>e.getBoundingClientRect().width/e.closest("figure").getBoundingClientRect().width')
+            assert abs(ratio-.68)<.001
             assert requests[CSS] == count+1
-            await finish.screenshot(path=str(OUT/f'{width}-fixed.png'))
+            await colours.screenshot(path=str(OUT/f'{width}-fixed.png'))
             results.append({'width': width, 'cached_old_css_reproduced': True, 'before': before, 'after': after})
             await context.close()
         await browser.close()

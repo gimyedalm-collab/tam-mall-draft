@@ -24,3 +24,13 @@ captures. Record sanitized findings and tests in `ops/cafe24`.
   administrator evidence. Login/2FA and provider-controlled steps may need the owner.
 - GitHub preview completion is not Cafe24 integration completion. Track both.
 - Do not use ChatGPT Sites for this project/account. Publish web work through GitHub.
+
+## Milky Cheek final design · 2026-10-14
+
+- Owner approved V12 as final after removing the separate model mood section.
+- Preserve seven panels: hero, application, colours, texture, formula, test, ending.
+- Colour comparison leads directly into milky texture. Do not restore a model
+  interlude, its logo, or generated portrait without a new explicit owner request.
+- Preserve original shade imagery, the approved usage video, small supporting
+  copy, and the compact ingredient illustration. This lock applies to product 102;
+  it does not block other authorized store or native commerce work.

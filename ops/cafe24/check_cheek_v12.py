@@ -84,8 +84,9 @@ async def run():
         assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth')
         await page.locator('.detail-return').click()
         assert page.url.endswith('#purchase-options')
-        assert [panel['name'] for panel in integrated_panels]==['hero','application','colours','finish','texture','formula','test','ending']
-        results.append({'product_102':'All 8 panels match standalone geometry, background and headline sizes; return to colour options works; external requests disabled'})
+        assert [panel['name'] for panel in integrated_panels]==['hero','application','colours','texture','formula','test','ending']
+        assert await page.locator('.c12-finish, img[src*="finish-look"]').count()==0
+        results.append({'product_102':'All 7 final panels match standalone geometry, background and headline sizes; no model mood section; return to colour options works; external requests disabled'})
         await browser.close()
     before=subprocess.check_output(['git','show','HEAD:storefront-v2/preview/product-102.html'],cwd=ROOT).decode('utf-8')
     after=(ROOT/'storefront-v2/preview/product-102.html').read_text(encoding='utf-8')
