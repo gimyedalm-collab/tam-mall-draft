@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-14",
+  "kind": "Isolated Chromium mobile viewport rendering; not physical iOS/Android or native Cafe24 QA",
+  "checks": [
+    {
+      "product": 23,
+      "width": 320,
+      "options": 6,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 112,
+      "width": 320,
+      "options": 8,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 102,
+      "width": 320,
+      "options": 4,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 23,
+      "width": 390,
+      "options": 6,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 112,
+      "width": 390,
+      "options": 8,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 102,
+      "width": 390,
+      "options": 4,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 23,
+      "width": 430,
+      "options": 6,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 112,
+      "width": 430,
+      "options": 8,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 102,
+      "width": 430,
+      "options": 4,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 23,
+      "width": 1440,
+      "options": 6,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 112,
+      "width": 1440,
+      "options": 8,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    },
+    {
+      "product": 102,
+      "width": 1440,
+      "options": 4,
+      "overflow": false,
+      "original_aspect_ratios": true,
+      "select_compare_zoom_close_escape_focus_cart": "passed"
+    }
+  ],
+  "approved_cheek_article": "identical after line-ending normalization",
+  "screenshots": "Local QA directory; visually inspected separately",
+  "production_cafe24_changed": false
+}

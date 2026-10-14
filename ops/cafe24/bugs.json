@@ -145,6 +145,25 @@
       ],
       "fix": "Approved audit UI/UX changes; original product content retained.",
       "retest": "DOM checks are separate from rendered browser and live-commerce verification."
+    },
+    {
+      "id": "TAM-SHADE-CROP-20261014",
+      "type": "observed_preview_bug",
+      "priority": "P1",
+      "status": "fixed_verified_preview",
+      "route": "product-23.html / product-112.html / product-102.html",
+      "reproduce": "View tiny 4-column shade thumbnails on mobile; SVG viewport fragments show cut labels/background.",
+      "expected": "Readable options and faithful, large original colour comparison.",
+      "actual": "Owner rejected cropped photo buttons; previous DOM-only QA missed visual defect.",
+      "fix": [
+        "Removed all fragmented photographic shade buttons on products 23/112/102",
+        "Two-column readable option names and source-backed tone labels",
+        "Large comparison dialog using unchanged complete original images, with zoom, keyboard close and focus restoration",
+        "Approved cheek article and v16 homepage film preserved"
+      ],
+      "retest": "shades-qa-20261014.json; 12 isolated Chromium product/viewport combinations at 320/390/430/1440; 25-page DOM suite 152 checks passed",
+      "evidence": "shades-qa-20261014.json",
+      "native_status": "Not yet integrated; owner sign-in needed for agent execution."
     }
   ]
 }

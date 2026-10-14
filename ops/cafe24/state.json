@@ -285,5 +285,21 @@
     "scope": "Owner requested continuing with highlighter. Asked preferred focus; awaiting optional direction. No highlighter edits made yet.",
     "review": "390/860 rendered all eight sections; no horizontal overflow. Mobile utility text is small; how-to below four-person footage has limited separation. Existing original product/shade photos retained as baseline.",
     "screenshots": "Local Temp/highlighter-review-261014, not published."
+  },
+  "shade_ui_20261014": {
+    "status": "preview_mobile_viewports_verified_ready_for_publication",
+    "owner_feedback": "Small cropped shade photographs looked poor and mobile/native readiness was unclear.",
+    "changes": [
+      "Removed all fragmented photographic shade buttons on products 23/112/102",
+      "Two-column readable option names and source-backed tone labels",
+      "Large comparison dialog using unchanged complete original images, with zoom, keyboard close and focus restoration",
+      "Approved cheek article and v16 homepage film preserved"
+    ],
+    "verification": "shades-qa-20261014.json; 12 isolated Chromium product/viewport combinations at 320/390/430/1440; 25-page DOM suite 152 checks passed",
+    "visual_review": "390px screenshots of all three comparison dialogs and option layout reviewed",
+    "limits": "Physical iOS/Android devices and authenticated native Cafe24 not tested. Third-party network requests excluded from isolated layout QA.",
+    "production_cafe24_changed": false,
+    "native_action": "Agent will migrate after owner sign-in, deriving option identity/availability from Cafe24 product_option and retaining native price/cart/order handlers. Static preview catalog/cart must not be used in production.",
+    "official_option_reference": "https://sdsupport.cafe24.com/module/product/detail.html"
   }
 }

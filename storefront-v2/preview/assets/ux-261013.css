@@ -23,11 +23,26 @@
 .do-product figcaption .product-detail{font-size:13px;line-height:1.6;margin-top:7px;color:#655e59}
 .ux-look-products{display:flex;gap:8px 20px;flex-wrap:wrap;padding:14px 0 4px;font-size:13px;line-height:1.6}.ux-look-products p{flex-basis:100%;color:#6a625c;margin:0}.ux-look-products a{color:#282326;text-decoration:underline;text-underline-offset:4px;padding:8px 0}
 .ux-shades{margin:20px 0 16px}.ux-shades legend{font-size:14px;margin-bottom:10px;padding:0}.ux-shades fieldset{border:0;padding:0;margin:0;min-width:0}
-.ux-shade-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
-.ux-shade-button{min-width:0;min-height:48px;border:1px solid #ded8d3;background:#fff;padding:5px;color:#514b47;font:12px/1.45 Pretendard,sans-serif;cursor:pointer;box-sizing:border-box}
-.ux-shade-button[aria-pressed=true]{border:2px solid #282326;padding:4px;color:#282326;background:#faf7f4}
-.ux-shade-button svg,.ux-shade-button img{display:block;width:100%;aspect-ratio:1.25;object-fit:cover;height:auto;margin-bottom:5px}
-.ux-shade-button span{display:block;font:12px/1.5 Pretendard,sans-serif;overflow-wrap:anywhere}
+.ux-shade-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.ux-shade-button{min-width:0;min-height:68px;border:1px solid #ded8d3;background:#fff;padding:11px 12px;color:#282326;font:14px/1.5 Pretendard,sans-serif;cursor:pointer;box-sizing:border-box;text-align:left}
+.ux-shade-button[aria-pressed=true]{border-color:#282326;box-shadow:inset 0 0 0 1px #282326;background:#f5f0ec}
+.ux-shade-button span{display:block;word-break:keep-all;overflow-wrap:anywhere}
+.ux-shade-button small{display:block;font-size:12px;color:#655e59;margin-top:3px}
+.ux-compare-open{display:flex;align-items:center;justify-content:space-between;width:100%;min-height:48px;padding:10px 0;margin-top:8px;border:0;border-bottom:1px solid #d8d0ca;background:transparent;color:#282326;font:14px Pretendard,sans-serif;cursor:pointer}
+.ux-colour-dialog{box-sizing:border-box;width:min(900px,100%);max-width:100%;height:92dvh;max-height:92dvh;padding:0;border:0;background:#faf9f8;color:#282326;font-family:Pretendard,"Apple SD Gothic Neo",sans-serif}
+.ux-colour-dialog[open]{display:flex;flex-direction:column}.ux-colour-dialog::backdrop{background:#221c19a6}
+.ux-colour-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 20px;border-bottom:1px solid #ddd6d1;flex:none}
+.ux-colour-toolbar h2{font-size:16px;font-weight:500;margin:0}.ux-colour-toolbar div{display:flex;gap:8px}
+.ux-colour-dialog button{min-height:44px;min-width:48px;padding:8px 12px;border:1px solid #d8d0ca;background:#fff;color:#282326;font:13px Pretendard,sans-serif;cursor:pointer}
+.ux-colour-dialog :focus-visible{outline:2px solid #282326;outline-offset:-3px}
+.ux-colour-scroll{overflow:auto;overscroll-behavior:contain;flex:1;min-height:0}
+.ux-colour-content{width:100%;max-width:860px;margin:auto}.ux-colour-content.is-zoomed{width:860px;max-width:none}
+.ux-colour-content img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain}
+.ux-colour-dialog .ux-reference-cheeks{display:grid;grid-template-columns:1fr 1fr;gap:24px 12px;padding:20px;box-sizing:border-box}
+.ux-reference-cheeks figure{margin:0}.ux-reference-cheeks figcaption{font-size:14px;line-height:1.6;margin-bottom:10px}
+.ux-reference-cheeks img+img{margin-top:8px}
+.ux-colour-dialog>p{margin:0;padding:12px 20px;font-size:12px;line-height:1.6;border-top:1px solid #ddd6d1;flex:none}
+html.ux-colour-open{overflow:hidden}
 .ux-shade-selected{font-size:13px;line-height:1.7;margin:12px 0 6px;color:#514b47;min-height:22px}.ux-shade-note{font-size:11px;line-height:1.6;color:#756d67;margin:8px 0}
 .ux-detail-nav{display:flex;gap:8px 24px;flex-wrap:wrap;border-top:1px solid #ddd6d1;border-bottom:1px solid #ddd6d1;padding:6px 0;margin-bottom:28px;font-size:13px}
 .ux-detail-nav a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
