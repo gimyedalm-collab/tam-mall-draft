@@ -287,7 +287,7 @@
     "screenshots": "Local Temp/highlighter-review-261014, not published."
   },
   "shade_ui_20261014": {
-    "status": "preview_mobile_viewports_verified_ready_for_publication",
+    "status": "published_http_verified_mobile_viewports_verified",
     "owner_feedback": "Small cropped shade photographs looked poor and mobile/native readiness was unclear.",
     "changes": [
       "Removed all fragmented photographic shade buttons on products 23/112/102",
@@ -300,6 +300,8 @@
     "limits": "Physical iOS/Android devices and authenticated native Cafe24 not tested. Third-party network requests excluded from isolated layout QA.",
     "production_cafe24_changed": false,
     "native_action": "Agent will migrate after owner sign-in, deriving option identity/availability from Cafe24 product_option and retaining native price/cart/order handlers. Static preview catalog/cart must not be used in production.",
-    "official_option_reference": "https://sdsupport.cafe24.com/module/product/detail.html"
+    "official_option_reference": "https://sdsupport.cafe24.com/module/product/detail.html",
+    "published_commit": "274fd1b",
+    "public_verification": "shades-public-20261014.json"
   }
 }
