@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-15",
+  "status": "local_verified_ready_for_github_pages",
+  "scope": "Highlighter R33 follow-up responsive readability; approved Cheek V12 unchanged.",
+  "changes": [
+    "Below 800px article width, shade photograph precedes texture and description, avoiding squeezed copy.",
+    "Below 360px, ingredient groups stack so long ingredient names remain readable.",
+    "Responsive rules use the article container width, including narrow columns inside a wide browser."
+  ],
+  "verification": [
+    {
+      "width": 320,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 284.1875,
+          "height": 341.921875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 284.1875,
+          "height": 346.484375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 320,
+      "shadeLayout": "block",
+      "descriptionWidth": 194.1875,
+      "ingredientColumns": 1,
+      "height": 5649
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 346.34375,
+          "height": 416.71875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 346.34375,
+          "height": 422.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 390,
+      "shadeLayout": "block",
+      "descriptionWidth": 256.34375,
+      "ingredientColumns": 2,
+      "height": 5848
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 522,
+          "height": 628.0625,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 522,
+          "height": 636.4375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 600,
+      "shadeLayout": "block",
+      "descriptionWidth": 418,
+      "ingredientColumns": 2,
+      "height": 8123
+    },
+    {
+      "width": 720,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11.736,
+      "frames": [
+        {
+          "width": 626.40625,
+          "height": 753.6875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 626.40625,
+          "height": 763.734375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 720,
+      "shadeLayout": "block",
+      "descriptionWidth": 522.40625,
+      "ingredientColumns": 2,
+      "height": 9039
+    },
+    {
+      "width": 800,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 13.04,
+      "frames": [
+        {
+          "width": 696,
+          "height": 837.421875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 696,
+          "height": 848.59375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 800,
+      "shadeLayout": "grid",
+      "descriptionWidth": 154.828125,
+      "ingredientColumns": 2,
+      "height": 8838
+    },
+    {
+      "width": 860,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 14,
+      "frames": [
+        {
+          "width": 748.21875,
+          "height": 900.25,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 748.21875,
+          "height": 912.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 860,
+      "shadeLayout": "grid",
+      "descriptionWidth": 175.3125,
+      "ingredientColumns": 2,
+      "height": 9242
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 14,
+      "frames": [
+        {
+          "width": 748.21875,
+          "height": 900.25,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 748.21875,
+          "height": 912.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 860,
+      "shadeLayout": "grid",
+      "descriptionWidth": 175.3125,
+      "ingredientColumns": 2,
+      "height": 9242
+    },
+    {
+      "sources": "Original hero, shade photos, two videos and pearl animation unchanged; existing product information text preserved.",
+      "motion": "Autoplay, persistent user pause, reduced-motion initial stills, explicit video and animated-image play/pause passed.",
+      "integration": "Scoped native detail, no iframe; original commerce DOM preserved; colour and purchase return anchors work."
+    }
+  ],
+  "visual_review": [
+    "320px formula",
+    "600px shade comparison",
+    "390px article within 1440px product page"
+  ],
+  "limits": "Chromium viewport checks, not physical device or authenticated Cafe24 commerce tests.",
+  "production_cafe24_changed": false,
+  "design_acceptance": "owner_review_pending"
+}

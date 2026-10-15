@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-15",
   "items": [
     {
       "id": "TAM-C24-005",
@@ -164,6 +164,23 @@
       "retest": "shades-qa-20261014.json; 12 isolated Chromium product/viewport combinations at 320/390/430/1440; 25-page DOM suite 152 checks passed",
       "evidence": "shades-qa-20261014.json",
       "native_status": "Not yet integrated; owner sign-in needed for agent execution."
+    },
+    {
+      "id": "TAM-HIGHLIGHTER-RESPONSIVE-20261015",
+      "type": "observed_preview_bug",
+      "priority": "P2",
+      "status": "fixed_locally_verified",
+      "route": "highlighter-r33/ and storefront-v2/preview/product-24.html",
+      "reproduce": "View the colour section at 600px; insert the 390px-wide detail article into a 1440px viewport; view ingredient groups at 320px.",
+      "expected": "Readable shade and ingredient descriptions, with layout following available article width.",
+      "actual": "600px shade text is squeezed beside the photo and texture. A narrow embedded article retains desktop layout. 320px ingredient names wrap excessively.",
+      "fix": [
+        "Below 800px article width, shade photograph precedes texture and description, avoiding squeezed copy.",
+        "Below 360px, ingredient groups stack so long ingredient names remain readable.",
+        "Responsive rules use the article container width, including narrow columns inside a wide browser."
+      ],
+      "evidence": "highlighter-r33-responsive-20261015.json",
+      "retest": "320/390/600/720/800/860/1440 passed; 390px container within 1440px page passed. Original media, product information, commerce DOM, video controls and anchors verified."
     }
   ]
 }

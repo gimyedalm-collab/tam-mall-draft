@@ -70,7 +70,7 @@
 #beam-highlighter-r33 .h33-info-copy{padding-top:28px;font-size:clamp(12px,1.86cqw,16px);line-height:1.8;overflow-wrap:anywhere;word-break:normal}
 #beam-highlighter-r33 .h33-info-copy h2{font-size:clamp(15px,2.1cqw,18px);font-weight:600;line-height:1.5;margin:28px 0 10px;letter-spacing:0}
 #beam-highlighter-r33 .h33-info-copy p{margin:0 0 12px}
-@media(max-width:599px){
+@container(max-width:599px){
  #beam-highlighter-r33 .h33-section{padding:52px 5.6% 48px}
  #beam-highlighter-r33 .h33-heading{margin-bottom:36px}
  #beam-highlighter-r33 .h33-label{min-width:140px;padding:4px 20px;margin-bottom:22px}
@@ -110,4 +110,13 @@
  #beam-highlighter-r33 .h33-ending-product{width:100%;margin-bottom:32px}
  #beam-highlighter-r33 .h33-ending>.h33-eyebrow{margin:20px 0 32px}
  #beam-highlighter-r33 .h33-information{padding:24px 5.6% 32px}
+}
+/* Keep the shade description below its photograph until both columns fit. */
+@container(min-width:600px) and (max-width:799px){
+ #beam-highlighter-r33 .h33-shade{display:block}
+ #beam-highlighter-r33 .h33-shade-summary{grid-template-columns:84px minmax(0,1fr);margin-top:24px}
+}
+/* Long ingredient names need a full line on compact phones. */
+@container(max-width:359px){
+ #beam-highlighter-r33 .h33-ingredient-grid{grid-template-columns:1fr;gap:24px}
 }

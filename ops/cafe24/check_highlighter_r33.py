@@ -39,7 +39,7 @@ async def main():
     results=[]
     async with async_playwright() as p:
         browser=await p.chromium.launch()
-        for width in [320,390,860,1440]:
+        for width in [320,390,600,720,800,860,1440]:
             page=await browser.new_page(viewport={'width':width,'height':900},reduced_motion='reduce')
             errors=[];page.on('pageerror',lambda error:errors.append(str(error)))
             await page.goto(BASE+'/highlighter-r33/',wait_until='networkidle')
@@ -47,7 +47,7 @@ async def main():
             for section in await page.locator('[data-panel]').all():
                 await section.scroll_into_view_if_needed()
                 await page.wait_for_timeout(100)
-                if width in [390,860]:
+                if width in [320,390,600,860]:
                     await section.screenshot(path=str(OUT/f'{width}-{await section.get_attribute("data-panel")}.png'))
             await page.wait_for_function('[...document.images].every(i=>i.complete&&i.naturalWidth)')
             values=await page.evaluate('''()=>({width:innerWidth,overflow:document.documentElement.scrollWidth>innerWidth,
@@ -56,10 +56,16 @@ async def main():
               minNote:Math.min(...[...document.querySelectorAll('.h33-note')].map(e=>parseFloat(getComputedStyle(e).fontSize))),
               frames:[...document.querySelectorAll('video')].map(e=>({width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height,expected:e.width/e.height})),
               rootWidth:document.querySelector('article').getBoundingClientRect().width,
+              shadeLayout:getComputedStyle(document.querySelector('.h33-shade')).display,
+              descriptionWidth:document.querySelector('.h33-shade-description').getBoundingClientRect().width,
+              ingredientColumns:getComputedStyle(document.querySelector('.h33-ingredient-grid')).gridTemplateColumns.split(' ').length,
               height:document.documentElement.scrollHeight})''')
             assert not values['overflow'] and not errors,(values,errors)
             assert values['panels']==EXPECTED and values['shades']==3 and values['videos']==2
             assert values['minNote']>=11
+            assert values['shadeLayout']==('block' if width<800 else 'grid')
+            assert values['descriptionWidth']>=140,values
+            assert values['ingredientColumns']==(1 if width<360 else 2)
             assert all(abs(f['width']/f['height']-f['expected'])<.005 for f in values['frames'])
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>v.paused&&!v.getAttribute("src"))')
             assert (await page.locator('.h33-macro img').get_attribute('src')).endswith('.jpg')
@@ -104,6 +110,15 @@ async def main():
         await page.locator('#beam-highlighter-r33 .h33-shades').screenshot(path=str(OUT/'390-integrated-shades.png'))
         await page.locator('.highlighter-detail-return').click()
         assert page.url.endswith('#purchase-options')
+        # Cafe24 can insert the article into a narrow column on a wide screen.
+        # Its layout must follow the article width, not the browser viewport.
+        await page.set_viewport_size({'width':1440,'height':900})
+        await page.locator('#beam-highlighter-r33').evaluate('(root)=>root.style.maxWidth="390px"')
+        await page.locator('.h33-shades').scroll_into_view_if_needed()
+        await page.locator('.h33-shades').screenshot(path=str(OUT/'1440-narrow-container-shades.png'))
+        assert await page.locator('.h33-shade').evaluate_all('(els)=>els.every(el=>getComputedStyle(el).display==="block")')
+        assert await page.locator('.h33-glow').evaluate('(el)=>getComputedStyle(el).paddingTop')=='52px'
+        assert await page.locator('.h33-shade-description').evaluate_all('(els)=>els.every(el=>el.getBoundingClientRect().width>=140)')
         results.append({'sources':'Original hero, shade photos, two videos and pearl animation unchanged; existing product information text preserved.',
                         'motion':'Autoplay, persistent user pause, reduced-motion initial stills, explicit video and animated-image play/pause passed.',
                         'integration':'Scoped native detail, no iframe; original commerce DOM preserved; colour and purchase return anchors work.'})

@@ -52,7 +52,7 @@
     "verification": "Browser visual review at 390px content width: hero, shades, texture, how-to, formula. Invariants verified: original media, section heights, product information and commerce unchanged.",
     "production_cafe24_changed": false
   },
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-15",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
   "phase": "purchase_ui_popup_shipping_preview_complete; administrator_connection_next",
@@ -317,5 +317,18 @@
     "production_cafe24_changed": false,
     "published_commit": "cbc06ca",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=cbc06ca"
+  },
+  "highlighter_r33_20261015": {
+    "status": "local_verified_ready_for_github_pages",
+    "review_path": "highlighter-r33/index.html",
+    "integrated_path": "storefront-v2/preview/product-24.html",
+    "changes": [
+      "Below 800px article width, shade photograph precedes texture and description, avoiding squeezed copy.",
+      "Below 360px, ingredient groups stack so long ingredient names remain readable.",
+      "Responsive rules use the article container width, including narrow columns inside a wide browser."
+    ],
+    "verification": "highlighter-r33-responsive-20261015.json",
+    "production_cafe24_changed": false,
+    "next_action": "Publish verified responsive refinement to existing GitHub Pages. R33 design acceptance remains pending; preserve approved cheek final."
   }
 }
