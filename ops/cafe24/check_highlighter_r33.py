@@ -64,11 +64,12 @@ async def main():
             assert not values['overflow'] and not errors,(values,errors)
             assert values['panels']==EXPECTED and values['shades']==3 and values['videos']==2
             assert values['minNote']>=11
-            assert values['shadeColumns']==3
-            assert max(values['shadeTops'])-min(values['shadeTops'])<1,values
-            assert values['descriptionWidth']>=80,values
-            assert values['ingredientColumns']==(1 if width<360 else 2)
-            assert all(abs(f['width']/f['height']-f['expected'])<.005 for f in values['frames'])
+            assert values['shadeColumns']==2
+            assert abs(values['shadeTops'][0]-values['shadeTops'][1])<1 and values['shadeTops'][2]>values['shadeTops'][1],values
+            assert values['descriptionWidth']>=130,values
+            assert values['ingredientColumns']==2
+            assert all(abs(f['width']/f['height']-.8)<.005 for f in values['frames'])
+            assert await page.locator('video').evaluate_all('(els)=>els.every(v=>getComputedStyle(v).objectFit==="contain")')
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>v.paused&&!v.getAttribute("src"))')
             assert (await page.locator('.h33-macro img').get_attribute('src')).endswith('.jpg')
             await page.screenshot(path=str(OUT/f'{width}-full.png'),full_page=True)
@@ -118,8 +119,8 @@ async def main():
         await page.locator('#beam-highlighter-r33').evaluate('(root)=>root.style.maxWidth="390px"')
         await page.locator('.h33-shades').scroll_into_view_if_needed()
         await page.locator('.h33-shades').screenshot(path=str(OUT/'1440-narrow-container-shades.png'))
-        assert await page.locator('.h33-shades').evaluate('(el)=>getComputedStyle(el).paddingTop')=='48px'
-        assert await page.locator('.h33-shade-description').evaluate_all('(els)=>els.every(el=>el.getBoundingClientRect().width>=80)')
+        assert await page.locator('.h33-shades').evaluate('(el)=>getComputedStyle(el).paddingTop')=='40px'
+        assert await page.locator('.h33-shade-description').evaluate_all('(els)=>els.every(el=>el.getBoundingClientRect().width>=130)')
         results.append({'sources':'Original hero, shade photos, two videos and pearl animation unchanged; existing product information text preserved.',
                         'motion':'Autoplay, persistent user pause, reduced-motion initial stills, explicit video and animated-image play/pause passed.',
                         'integration':'Scoped native detail, no iframe; original commerce DOM preserved; colour and purchase return anchors work.'})

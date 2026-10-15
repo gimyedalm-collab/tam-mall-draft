@@ -348,10 +348,26 @@
     "integrated_path": "storefront-v2/preview/product-24.html",
     "verification": "highlighter-r33-family-20261015.json",
     "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
-    "design_acceptance": "new_revision_owner_review_pending",
+    "design_acceptance": "owner_requested_image_spec_and_text_flow_correction",
     "production_cafe24_changed": false,
     "next_action": "Revised composition published and publicly verified. Await owner feedback on visual match; do not mark final design without acceptance. Preserve locked Milky Cheek.",
     "published_commit": "dd26a23",
-    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=dd26a23"
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=dd26a23",
+    "superseded_by": "highlighter_spec_alignment_20261015"
+  },
+  "highlighter_spec_alignment_20261015": {
+    "status": "local_checks_passed_publication_pending",
+    "review_path": "highlighter-r33/index.html",
+    "integrated_path": "storefront-v2/preview/product-24.html",
+    "changes": [
+      "Replace three narrow portrait shade cards with two landscape columns; the third keeps the same dimensions and is centered.",
+      "Match locked Cheek V12 hero, shade, texture swatch, macro, formula and ending frame dimensions, gutters, grid gaps, radii and title/shade-name typography at equal content widths.",
+      "Place PEARL GLOW heading before its footage; remove the post-video text block and colour-heading kicker/body. Image-to-image gap at 390px decreases from 681.59 to 304.75px.",
+      "Use matching 4:5 video frames with proportional contain fit; center formula art above a two-by-two ingredient list with Cheek spacing."
+    ],
+    "verification": "highlighter-r33-spec-alignment-20261015.json",
+    "design_acceptance": "owner_review_pending",
+    "production_cafe24_changed": false,
+    "next_action": "Publish and verify aligned candidate. Keep Milky Cheek V12 locked; owner visual acceptance remains separate."
   }
 }

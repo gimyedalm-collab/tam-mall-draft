@@ -60,4 +60,28 @@ existing Lip Liner's broad image-led transitions and kicker/title hierarchy,
 three simultaneous shade comparisons, the original pink macro photograph,
 and the approved Cheek's neutral/blush palette. The media and ingredient claims
 are preserved; the pink macro is an existing brand source, web-sized only.
-The revised candidate remains subject to owner design review.
+This composition was superseded by the owner's image-specification and text-flow
+feedback below; do not restore its three-column layout or post-video text block.
+
+## Image specification and text flow correction · 2026-10-15
+
+All product detail shells were already 860px wide. The inconsistency was inside:
+Lip Liner and Cheek use two landscape columns, while the previous R33 used three
+portrait cards. Use two columns and center the odd third card at the same size.
+Lip Liner's lip-specific 358×202 crop remains its own reference; Highlighter's
+cheek photographs follow Cheek V12's 2812:1870 ratio and exact grid dimensions.
+
+At 390px content width: 166.17×110.5 shade photographs, 112.98px square swatches,
+346.34×173.17 formula image frame. At 860px: 362.11×240.80 photographs,
+246.23px swatches, 748.22×374.11 formula frame. Hero, texture and closing frame
+dimensions, section gutters, grid gaps, radii and title/name type match Cheek.
+Contain-fit square source imagery and original videos; do not stretch originals.
+
+Place the short PEARL GLOW title before its video. After the video, retain only
+its short caption/control, then the colour pill/title and photographs. Remove
+the repeated kicker/body pair from both headings. The 390px image-to-image gap
+falls from 681.59px to 304.75px; this is a measured layout change, not a claim
+about conversion or bounce rate. Keep source media colours unchanged.
+
+See `highlighter-r33-spec-alignment-20261015.json` and the two review sheets in
+`highlighter-r33/review/`. This candidate still awaits owner visual acceptance.

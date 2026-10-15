@@ -199,6 +199,23 @@
       ],
       "evidence": "highlighter-r33-family-20261015.json",
       "retest": "Rendered source comparison and updated local browser checks passed. Owner acceptance remains pending."
+    },
+    {
+      "id": "TAM-HIGHLIGHTER-SPEC-FLOW-20261015",
+      "type": "owner_reported_design_issue",
+      "priority": "P1",
+      "status": "revised_candidate_owner_review_pending",
+      "route": "highlighter-r33/ and product-24.html",
+      "actual": "Outer 860px canvas matched but internal image dimensions did not: three narrow portrait cards, small swatches and inconsistent formula layout. Consecutive glow and shade headings create a long text-only transition.",
+      "expected": "Established two-column image rhythm and Cheek shared dimensions; interleave concise headings with photographic evidence.",
+      "fix": [
+        "Replace three narrow portrait shade cards with two landscape columns; the third keeps the same dimensions and is centered.",
+        "Match locked Cheek V12 hero, shade, texture swatch, macro, formula and ending frame dimensions, gutters, grid gaps, radii and title/shade-name typography at equal content widths.",
+        "Place PEARL GLOW heading before its footage; remove the post-video text block and colour-heading kicker/body. Image-to-image gap at 390px decreases from 681.59 to 304.75px.",
+        "Use matching 4:5 video frames with proportional contain fit; center formula art above a two-by-two ingredient list with Cheek spacing."
+      ],
+      "evidence": "highlighter-r33-spec-alignment-20261015.json",
+      "retest": "Exact 390/860 geometry comparison passed; seven-width regression, narrow-container, original-media, motion and commerce preservation checks passed."
     }
   ]
 }
