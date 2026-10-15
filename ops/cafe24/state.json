@@ -332,6 +332,24 @@
     "next_action": "Responsive follow-up published and verified. Await owner feedback on overall R33 design; keep Milky Cheek V12 locked. Cafe24 migration remains separate.",
     "published_commit": "81622d9",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=81622d9",
-    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish"
+    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
+    "design_acceptance": "rejected_by_owner_20261015"
+  },
+  "highlighter_family_revision_20261015": {
+    "status": "local_verified_ready_for_github_pages",
+    "owner_feedback": "Rejected R33: looks poor and feels too different from existing detail pages. Responsive polish did not address this.",
+    "changes": [
+      "Reference composition: broad skin film followed by a quieter kicker/main-title/copy hierarchy, matching the existing Lip Liner family.",
+      "Three aligned shade photos and larger original texture samples replace the tall repeated list.",
+      "Add the existing original pink texture photograph at full content width, followed by a separate actual pearl-motion close-up.",
+      "Match approved Cheek blush and neutral backgrounds; use a white product closing with the existing cutout."
+    ],
+    "review_path": "highlighter-r33/index.html",
+    "integrated_path": "storefront-v2/preview/product-24.html",
+    "verification": "highlighter-r33-family-20261015.json",
+    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
+    "design_acceptance": "new_revision_owner_review_pending",
+    "production_cafe24_changed": false,
+    "next_action": "Publish revised candidate to existing GitHub Pages URL and verify. Await owner design review; do not describe responsive QA as design acceptance."
   }
 }

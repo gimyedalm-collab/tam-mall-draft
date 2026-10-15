@@ -1,0 +1,300 @@
+{
+  "date": "2026-10-15",
+  "status": "local_verified_ready_for_github_pages",
+  "owner_feedback": "Rejected R33: looks poor and feels too different from existing detail pages. Responsive polish did not address this.",
+  "reference": "Lip Liner R32 original panels and locked Milky Cheek V12. Optional clarification of reference requested; no reply received before implementation.",
+  "changes": [
+    "Reference composition: broad skin film followed by a quieter kicker/main-title/copy hierarchy, matching the existing Lip Liner family.",
+    "Three aligned shade photos and larger original texture samples replace the tall repeated list.",
+    "Add the existing original pink texture photograph at full content width, followed by a separate actual pearl-motion close-up.",
+    "Match approved Cheek blush and neutral backgrounds; use a white product closing with the existing cutout."
+  ],
+  "original_media": "Existing product, shade, and motion files unchanged; new addition is a web-sized copy of a pre-existing original brand texture photograph. No generated imagery.",
+  "verification": [
+    {
+      "width": 320,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 320,
+          "height": 385.015625,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 284.1875,
+          "height": 346.484375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 320,
+      "shadeColumns": 3,
+      "shadeTops": [
+        -2563.828125,
+        -2563.828125,
+        -2563.828125
+      ],
+      "descriptionWidth": 86.71875,
+      "ingredientColumns": 1,
+      "height": 5278
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 390,
+          "height": 469.25,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 346.34375,
+          "height": 422.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 390,
+      "shadeColumns": 3,
+      "shadeTops": [
+        -2543.59375,
+        -2543.59375,
+        -2543.59375
+      ],
+      "descriptionWidth": 107.4375,
+      "ingredientColumns": 2,
+      "height": 5412
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 600,
+          "height": 721.921875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 522,
+          "height": 636.4375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 600,
+      "shadeColumns": 3,
+      "shadeTops": [
+        -3923.671875,
+        -3923.671875,
+        -3923.671875
+      ],
+      "descriptionWidth": 158,
+      "ingredientColumns": 2,
+      "height": 7675
+    },
+    {
+      "width": 720,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11.736,
+      "frames": [
+        {
+          "width": 720,
+          "height": 866.296875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 626.40625,
+          "height": 763.734375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 720,
+      "shadeColumns": 3,
+      "shadeTops": [
+        -4506.9375,
+        -4506.9375,
+        -4506.9375
+      ],
+      "descriptionWidth": 192.796875,
+      "ingredientColumns": 2,
+      "height": 8633
+    },
+    {
+      "width": 800,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 13.04,
+      "frames": [
+        {
+          "width": 800,
+          "height": 962.5625,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 696,
+          "height": 848.59375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 800,
+      "shadeColumns": 3,
+      "shadeTops": [
+        -4906.90625,
+        -4906.90625,
+        -4906.90625
+      ],
+      "descriptionWidth": 216,
+      "ingredientColumns": 2,
+      "height": 9286
+    },
+    {
+      "width": 860,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 14,
+      "frames": [
+        {
+          "width": 860,
+          "height": 1034.75,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 748.21875,
+          "height": 912.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 860,
+      "shadeColumns": 3,
+      "shadeTops": [
+        -5201.65625,
+        -5201.65625,
+        -5201.65625
+      ],
+      "descriptionWidth": 233.40625,
+      "ingredientColumns": 2,
+      "height": 9768
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 14,
+      "frames": [
+        {
+          "width": 860,
+          "height": 1034.75,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 748.21875,
+          "height": 912.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 860,
+      "shadeColumns": 3,
+      "shadeTops": [
+        -5201.65625,
+        -5201.65625,
+        -5201.65625
+      ],
+      "descriptionWidth": 233.40625,
+      "ingredientColumns": 2,
+      "height": 9768
+    },
+    {
+      "sources": "Original hero, shade photos, two videos and pearl animation unchanged; existing product information text preserved.",
+      "motion": "Autoplay, persistent user pause, reduced-motion initial stills, explicit video and animated-image play/pause passed.",
+      "integration": "Scoped native detail, no iframe; original commerce DOM preserved; colour and purchase return anchors work."
+    }
+  ],
+  "visual_review": [
+    "320/390/860 shade comparison",
+    "390/860 full page",
+    "390/860 texture composition"
+  ],
+  "design_acceptance": "new_revision_owner_review_pending",
+  "production_cafe24_changed": false
+}

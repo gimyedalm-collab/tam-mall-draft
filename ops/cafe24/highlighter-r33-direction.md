@@ -51,3 +51,13 @@ Lip Liner R32 images; approved cheek V12; highlighter R32 revision records.
 R33 is a rebuilt proposal, not owner-approved final design. Publish the reviewed
 candidate to the existing GitHub Pages preview only; Cafe24 production stays
 unchanged.
+
+## Owner rejection and composition revision · 2026-10-15
+
+The owner rejected R33's overall feel after the responsive follow-up. Do not
+treat the earlier QA pass as design approval. The revised candidate uses the
+existing Lip Liner's broad image-led transitions and kicker/title hierarchy,
+three simultaneous shade comparisons, the original pink macro photograph,
+and the approved Cheek's neutral/blush palette. The media and ingredient claims
+are preserved; the pink macro is an existing brand source, web-sized only.
+The revised candidate remains subject to owner design review.

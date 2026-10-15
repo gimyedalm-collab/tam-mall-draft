@@ -63,5 +63,12 @@
     "source_sha256": "d44c2a01c0fffe33d6b641ea1783cd7185fd14e2aae491f789fae5b1ade6e905",
     "output_sha256": "969cae2be892fff33c8f42213e9fb11494cfbe779529d2dd460b9ea0c5ba0517",
     "processing": "Trim transparent margins, proportional downsize and web compression only. No recolouring, retouch or generation."
+  },
+  {
+    "source_name": "하이라이터_240926__5.jpg",
+    "output": "highlighter-r33/assets/original-pink-texture.jpg",
+    "source_sha256": "abc93a0d01f88cffd6b5de6933f6cd26d0a24161b4a79fd6f2d2a542712cfc6b",
+    "output_sha256": "18368109f07ba22e2e6311679479d93a7178112678f2ac2708cbbb96bc73051f",
+    "processing": "Full original frame, proportional 1720px web resize/JPEG encoding only. No generation, retouch, recolouring or source crop."
   }
 ]

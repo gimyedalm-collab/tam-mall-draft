@@ -56,15 +56,17 @@ async def main():
               minNote:Math.min(...[...document.querySelectorAll('.h33-note')].map(e=>parseFloat(getComputedStyle(e).fontSize))),
               frames:[...document.querySelectorAll('video')].map(e=>({width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height,expected:e.width/e.height})),
               rootWidth:document.querySelector('article').getBoundingClientRect().width,
-              shadeLayout:getComputedStyle(document.querySelector('.h33-shade')).display,
+              shadeColumns:getComputedStyle(document.querySelector('.h33-shade-list')).gridTemplateColumns.split(' ').length,
+              shadeTops:[...document.querySelectorAll('.h33-cheek')].map(e=>e.getBoundingClientRect().top),
               descriptionWidth:document.querySelector('.h33-shade-description').getBoundingClientRect().width,
               ingredientColumns:getComputedStyle(document.querySelector('.h33-ingredient-grid')).gridTemplateColumns.split(' ').length,
               height:document.documentElement.scrollHeight})''')
             assert not values['overflow'] and not errors,(values,errors)
             assert values['panels']==EXPECTED and values['shades']==3 and values['videos']==2
             assert values['minNote']>=11
-            assert values['shadeLayout']==('block' if width<800 else 'grid')
-            assert values['descriptionWidth']>=140,values
+            assert values['shadeColumns']==3
+            assert max(values['shadeTops'])-min(values['shadeTops'])<1,values
+            assert values['descriptionWidth']>=80,values
             assert values['ingredientColumns']==(1 if width<360 else 2)
             assert all(abs(f['width']/f['height']-f['expected'])<.005 for f in values['frames'])
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>v.paused&&!v.getAttribute("src"))')
@@ -116,9 +118,8 @@ async def main():
         await page.locator('#beam-highlighter-r33').evaluate('(root)=>root.style.maxWidth="390px"')
         await page.locator('.h33-shades').scroll_into_view_if_needed()
         await page.locator('.h33-shades').screenshot(path=str(OUT/'1440-narrow-container-shades.png'))
-        assert await page.locator('.h33-shade').evaluate_all('(els)=>els.every(el=>getComputedStyle(el).display==="block")')
-        assert await page.locator('.h33-glow').evaluate('(el)=>getComputedStyle(el).paddingTop')=='52px'
-        assert await page.locator('.h33-shade-description').evaluate_all('(els)=>els.every(el=>el.getBoundingClientRect().width>=140)')
+        assert await page.locator('.h33-shades').evaluate('(el)=>getComputedStyle(el).paddingTop')=='48px'
+        assert await page.locator('.h33-shade-description').evaluate_all('(els)=>els.every(el=>el.getBoundingClientRect().width>=80)')
         results.append({'sources':'Original hero, shade photos, two videos and pearl animation unchanged; existing product information text preserved.',
                         'motion':'Autoplay, persistent user pause, reduced-motion initial stills, explicit video and animated-image play/pause passed.',
                         'integration':'Scoped native detail, no iframe; original commerce DOM preserved; colour and purchase return anchors work.'})

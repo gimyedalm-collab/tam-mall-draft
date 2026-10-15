@@ -181,6 +181,24 @@
       ],
       "evidence": "highlighter-r33-responsive-20261015.json",
       "retest": "320/390/600/720/800/860/1440 passed; 390px container within 1440px page passed. Original media, product information, commerce DOM, video controls and anchors verified."
+    },
+    {
+      "id": "TAM-HIGHLIGHTER-ART-DIRECTION-20261015",
+      "type": "owner_reported_design_issue",
+      "priority": "P1",
+      "status": "revised_candidate_owner_review_pending",
+      "route": "highlighter-r33/ and product-24.html",
+      "reproduce": "Compare previous R33 with Lip Liner R32 and approved Milky Cheek V12.",
+      "expected": "Consistent photographic emphasis and visual hierarchy within the existing TAM detail family.",
+      "actual": "Owner rejected the format and overall feel; prior response changed only responsive readability.",
+      "fix": [
+        "Reference composition: broad skin film followed by a quieter kicker/main-title/copy hierarchy, matching the existing Lip Liner family.",
+        "Three aligned shade photos and larger original texture samples replace the tall repeated list.",
+        "Add the existing original pink texture photograph at full content width, followed by a separate actual pearl-motion close-up.",
+        "Match approved Cheek blush and neutral backgrounds; use a white product closing with the existing cutout."
+      ],
+      "evidence": "highlighter-r33-family-20261015.json",
+      "retest": "Rendered source comparison and updated local browser checks passed. Owner acceptance remains pending."
     }
   ]
 }
