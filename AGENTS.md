@@ -114,3 +114,15 @@ sponge instructions. Original media files remain archived unchanged. No AI,
 recolouring or skin lightening is used. See highlighter-r33-result-led-20261015.json
 in ops/cafe24. The owner has approved this direction, not the final rendered result.
 Keep the locked Cheek page and all commerce markup outside the detail intact.
+
+
+## ACTIVE OVERRIDE: owner rejected latest revision; rollback · 2026-10-15
+
+The owner strongly rejected 7a62cae and ordered rollback to the previous version,
+cross-validation and compaction. Active detail is restored exactly to 678f30c
+(content e5f525c), including the arm/hand insert. This is a rollback baseline,
+NOT owner approval of that insert, which was also criticized. The result-led
+revision above is rejected and must not be reapplied. Do not redesign during
+this task. Preserve rollback, record the failed decisions and user constraints,
+and create a compact resume record. Technical QA or Claude agreement is not
+visual acceptance. See state.highlighter_rollback_20261015 for current status.

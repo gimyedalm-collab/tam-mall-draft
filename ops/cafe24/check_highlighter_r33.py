@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = Path('C:/Users/BNK-1/AppData/Local/Temp/highlighter-r33-review')
 OUT.mkdir(exist_ok=True)
 BASE = 'http://127.0.0.1:8876'
-EXPECTED = ['hero','glow','product','shades','on-skin','use','formula','ending','information']
+EXPECTED = ['hero','glow','shades','on-skin','texture','use','formula','ending','information']
 
 def check_sources():
     names = [('highlighter-r30/assets/',name) for name in ['product-trio.jpg','tam-moonstone.jpg','tam-pink.jpg','tam-gold.jpg','tam-pearl-detail.webp']]
@@ -62,33 +62,39 @@ async def main():
               ingredientColumns:getComputedStyle(document.querySelector('.h33-ingredient-grid')).gridTemplateColumns.split(' ').length,
               height:document.documentElement.scrollHeight})''')
             assert not values['overflow'] and not errors,(values,errors)
-            assert values['panels']==EXPECTED and values['shades']==3 and values['videos']==1
+            assert values['panels']==EXPECTED and values['shades']==3 and values['videos']==3
             assert values['minNote']>=11
             assert values['shadeColumns']==2
             assert abs(values['shadeTops'][0]-values['shadeTops'][1])<1 and values['shadeTops'][2]>values['shadeTops'][1],values
             assert values['descriptionWidth']>=130,values
             assert await page.locator('.h33-look-image').count()==0
-            assert await page.locator('.h33-swatch-frame,.h33-texture,.h33-macro,.h33-use video').count()==0
-            for selector in ['.h33-product-intro img','.h33-finished-look img','.h33-tool img']:
-                assert await page.locator(selector).evaluate('(e)=>e.naturalWidth>0&&e.getBoundingClientRect().width>0')
-            assert not await page.locator('.h33-finished-look img').get_attribute('src') in await page.locator('.h33-cheek img').evaluate_all('(els)=>els.map(e=>e.getAttribute("src"))')
+            swatches=await page.locator('.h33-swatch-frame').evaluate_all('(els)=>els.map(e=>({width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height,top:e.getBoundingClientRect().top}))')
+            assert len(swatches)==2 and abs(swatches[0]['top']-swatches[1]['top'])<1
+            assert all(abs(f['width']/f['height']-.8)<.005 for f in swatches)
+            assert abs(swatches[0]['width']-swatches[1]['width'])<1
+            assert (await page.locator('.h33-swatch-frame img').get_attribute('src')).endswith('real-arm-swatch.jpg')
             assert values['ingredientColumns']==2
-            assert all(abs(f['width']/f['height']-ratio)<.005 for f,ratio in zip(values['frames'],[860/1040]))
+            assert all(abs(f['width']/f['height']-ratio)<.005 for f,ratio in zip(values['frames'],[860/1040,.8,.8]))
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>getComputedStyle(v).objectFit==="contain")')
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>v.paused&&!v.getAttribute("src"))')
+            assert (await page.locator('.h33-macro img').get_attribute('src')).endswith('.jpg')
             await page.screenshot(path=str(OUT/f'{width}-full.png'),full_page=True)
             await page.locator('.h33-information summary').click()
             assert await page.locator('.h33-information details').get_attribute('open') is not None
             assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth')
             if width==390:
                 await page.locator('.h33-information').screenshot(path=str(OUT/'390-information-open.png'))
-                for selector in ['.h33-glow']:
+                for selector in ['.h33-glow','.h33-on-skin','.h33-use']:
                     frame=page.locator(selector+' [data-motion]')
                     await frame.scroll_into_view_if_needed()
                     await frame.locator('button').click()
                     await page.wait_for_function('(selector)=>document.querySelector(selector+" video").currentTime>0',arg=selector)
                     await frame.locator('button').click()
                     assert await frame.locator('video').evaluate('(v)=>v.paused')
+                frame=page.locator('.h33-macro');await frame.scroll_into_view_if_needed();await frame.locator('button').click()
+                assert (await frame.locator('img').get_attribute('src')).endswith('.webp')
+                await frame.locator('button').click()
+                assert (await frame.locator('img').get_attribute('src')).endswith('.jpg')
             results.append(values)
             await page.close()
         page=await browser.new_page(viewport={'width':390,'height':844})
@@ -121,8 +127,8 @@ async def main():
         await page.locator('.h33-shades').screenshot(path=str(OUT/'1440-narrow-container-shades.png'))
         assert await page.locator('.h33-shades').evaluate('(el)=>getComputedStyle(el).paddingTop')=='40px'
         assert await page.locator('.h33-shade-description').evaluate_all('(els)=>els.every(el=>el.getBoundingClientRect().width>=130)')
-        results.append({'sources':'Original source files and product information preserved. Active imagery now uses product still, original finished look and stick/sponge cutout; rejected media absent.',
-                        'motion':'Opening result film: autoplay, persistent pause, reduced-motion poster and explicit play/pause passed.',
+        results.append({'sources':'Original hero, shade photos, two videos and pearl animation unchanged; existing product information text preserved.',
+                        'motion':'Autoplay, persistent user pause, reduced-motion initial stills, explicit video and animated-image play/pause passed.',
                         'integration':'Scoped native detail, no iframe; original commerce DOM preserved; colour and purchase return anchors work.'})
         await browser.close()
     (OUT/'verification.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

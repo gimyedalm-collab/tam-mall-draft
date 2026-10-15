@@ -488,10 +488,10 @@
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=e5f525c#h33-on-skin",
     "verification": "Seven-width local regression; public file-byte checks and 320/390/860px standalone/integrated playback and no-overflow checks passed. Three Codex review passes and one nonpersistent Claude review; video button fix applied.",
     "whole_page_review": "ops/cafe24/highlighter-r33-whole-page-audit-20261015.json",
-    "superseded_by": "highlighter_result_led_20261015"
+    "superseded_by": "highlighter_rollback_20261015"
   },
   "highlighter_result_led_20261015": {
-    "status": "published_on_github_pages_and_verified",
+    "status": "owner_rejected_rolled_back",
     "report": "ops/cafe24/highlighter-r33-result-led-20261015.json",
     "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
     "changes": [
@@ -501,10 +501,21 @@
     ],
     "ai_used": false,
     "production_cafe24_changed": false,
-    "design_acceptance": "owner_review_pending",
-    "next_action": "Owner reviews this finished-result/product-led candidate. Preserve locked Cheek V12 and current commerce; Cafe24 production unchanged.",
+    "design_acceptance": "owner_rejected",
+    "next_action": "Do not restore this design. User ordered rollback, cross-validation and compact handoff.",
     "published_commit": "7a62cae",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=7a62cae",
     "verification": "Three Codex passes and one nonpersistent Claude review. Seven-width local source/layout/motion/commerce checks and public 320/390/860px standalone/integrated checks passed; new assets byte-verified."
+  },
+  "highlighter_rollback_20261015": {
+    "status": "local_exact_rollback_verified_ready_to_publish",
+    "baseline_commit": "678f30c",
+    "baseline_content_commit": "e5f525c",
+    "rejected_commit": "7a62cae",
+    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
+    "design_acceptance": "rollback_requested_not_design_approved",
+    "verification": "Seven active source/build/test files match 678f30c after LF normalization. Seven-width local regression passed.",
+    "next_action": "Publish rollback, cross-check against actual user constraints and independently review failure; create compact handoff. No redesign during this task.",
+    "production_cafe24_changed": false
   }
 }
