@@ -566,7 +566,7 @@
     "superseded_by": "highlighter_official_pair_20261015"
   },
   "highlighter_official_pair_20261015": {
-    "status": "published_verified_owner_review_pending",
+    "status": "published_verified_owner_accepted",
     "source_commit": "af017df",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=af017df#h33-on-skin",
     "scope": "Only ON SKIN two original photographs, matching alt and right caption. Palm video/button/data-motion removed. CSS/JS/other sections unchanged.",
@@ -574,12 +574,12 @@
     "verification": "7localwidths;3publicwidths/2routes; source/public file equality;2loaded photographs; equal4:5frames; no script errors or overflow.",
     "ai_used_in_published_media": false,
     "production_cafe24_changed": false,
-    "owner_visual_acceptance": "pending",
-    "next_action": "Await owner feedback. Do not restore rejected palm video or use AI previews as actual swatches. Formula reviewed only; unchanged.",
+    "owner_visual_acceptance": "accepted_current_version_20261015",
+    "next_action": "Preserve current version as working baseline. Reopen only on a new owner request. Prior formula discussion is not an outstanding redesign task.",
     "latest_typography_revision": "highlighter_pc_typography_20261015"
   },
   "highlighter_pc_typography_20261015": {
-    "status": "published_verified",
+    "status": "published_verified_owner_accepted",
     "source_commit": "a0d8129",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=a0d8129",
     "scope": "Desktop font-size overrides only for content containers>=760px. Mobile/tablet below760px unchanged. Copy/media/template/JS unchanged.",
@@ -594,7 +594,17 @@
     },
     "verification": "7width regression; integrated PC1280/1440/1920; exact390/720 typography+geometry equality; public390/1440/1920 on standalone and product24; CSS/HTML/source assets byte checked.",
     "production_cafe24_changed": false,
-    "owner_visual_acceptance": "pending",
-    "next_action": "Requested PC typography finish complete. Preserve current two official photographs and narrow-screen type; await any owner feedback. No broader redesign or formula content change implied."
+    "owner_visual_acceptance": "accepted_current_version_20261015",
+    "next_action": "Preserve current version as working baseline. Reopen only on a new owner request. Prior formula discussion is not an outstanding redesign task."
+  },
+  "highlighter_owner_close_20261015": {
+    "status": "owner_accepted_current_version_closed",
+    "date": "2026-10-15",
+    "source_commit": "a0d8129",
+    "owner_statement": "그래 하이라이터는 일단 이렇게 포지션 마무리하자고",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=a0d8129",
+    "scope": "Current highlighter position/detail version accepted for now, including official arm+texture pair and PC typography finish.",
+    "next_action": "Preserve current version as working baseline. Reopen only on a new owner request. Prior formula discussion is not an outstanding redesign task.",
+    "production_cafe24_changed": false
   }
 }

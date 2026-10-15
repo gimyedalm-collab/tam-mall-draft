@@ -177,3 +177,13 @@ at least760px wide: hero64, section headings48, body24/26, swatch captions20 and
 footnotes16px. Preserve narrower containers/mobile typography, all wording,
 selected original photographs and geometry rules. No wider redesign is implied.
 See `highlighter-r33-pc-typography-20261015.json` and current state.
+
+## Highlighter current version accepted and closed · 2026-10-15
+
+Owner confirmed closing the current highlighter positioning/detail version for
+now after the PC typography finish. Preserve source `a0d8129`, including the two
+official photographs and desktop font-size overrides. This supersedes earlier
+owner-review-pending notes for the current result. Reopen design only on a new
+owner request; prior formula feedback is not an unfinished redesign mandate.
+This acceptance concerns the GitHub preview, not Cafe24 production integration.
+See state `highlighter_owner_close_20261015` and the handoff opening section.

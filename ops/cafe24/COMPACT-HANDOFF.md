@@ -1,5 +1,13 @@
 # TAM 하이라이터 — 현재 인계 / 2026-10-15
 
+## 현재 기준: 사용자 확인 후 일단 마감 · 2026-10-15
+
+- 사용자: “그래 하이라이터는 일단 이렇게 포지션 마무리하자고”. 현재 하이라이터 포지션/상세 버전을 마감하고 기준본으로 유지.
+- 기준 소스 `a0d8129`: 공식 팔 발색 + 제품·제형 두 사진, PC 폰트 마무리, 기존 모바일/문안/섹션 구성 포함.
+- 새 요청 전까지 추가 디자인 변경을 진행하지 않음. 이전 성분 구간 의견은 미완료 개편 과제로 자동 재개하지 말 것.
+- state `highlighter_owner_close_20261015`. 아래의 승인 대기 문구는 마감 전 이력이며 이번 사용자 확인이 우선함.
+- Cafe24 운영몰 적용 완료를 의미하지 않음. 이번 마감은 GitHub 미리보기의 하이라이터 버전에 해당.
+
 ## LATEST: PC typography finish, 2026-10-15
 
 - Owner requested PC font-size review and completion. Published source `a0d8129`: https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=a0d8129
