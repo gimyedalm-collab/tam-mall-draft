@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "local_verified_ready_for_github_pages",
+  "status": "published_on_github_pages_and_verified",
   "scope": "Highlighter R33 follow-up responsive readability; approved Cheek V12 unchanged.",
   "changes": [
     "Below 800px article width, shade photograph precedes texture and description, avoiding squeezed copy.",
@@ -259,5 +259,36 @@
   ],
   "limits": "Chromium viewport checks, not physical device or authenticated Cafe24 commerce tests.",
   "production_cafe24_changed": false,
-  "design_acceptance": "owner_review_pending"
+  "design_acceptance": "owner_review_pending",
+  "public_verification": {
+    "commit": "81622d9",
+    "files_matched": [
+      "highlighter-r33/detail.css",
+      "highlighter-r33/index.html",
+      "storefront-v2/preview/product-24.html"
+    ],
+    "browser": [
+      {
+        "width": 320,
+        "overflow": false,
+        "shadeLayout": "block",
+        "descriptionWidth": 194.1875,
+        "ingredientColumns": 1
+      },
+      {
+        "width": 600,
+        "overflow": false,
+        "shadeLayout": "block",
+        "descriptionWidth": 418,
+        "ingredientColumns": 2
+      },
+      {
+        "width": 860,
+        "overflow": false,
+        "shadeLayout": "grid",
+        "descriptionWidth": 175.3125,
+        "ingredientColumns": 2
+      }
+    ]
+  }
 }

@@ -169,7 +169,7 @@
       "id": "TAM-HIGHLIGHTER-RESPONSIVE-20261015",
       "type": "observed_preview_bug",
       "priority": "P2",
-      "status": "fixed_locally_verified",
+      "status": "fixed_verified_on_github_pages",
       "route": "highlighter-r33/ and storefront-v2/preview/product-24.html",
       "reproduce": "View the colour section at 600px; insert the 390px-wide detail article into a 1440px viewport; view ingredient groups at 320px.",
       "expected": "Readable shade and ingredient descriptions, with layout following available article width.",
