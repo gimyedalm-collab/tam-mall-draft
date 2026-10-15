@@ -239,7 +239,7 @@
       "id": "TAM-HIGHLIGHTER-USAGE-LEGIBILITY-20261015",
       "type": "owner_usage_clarification_and_visual_refinement",
       "priority": "P2",
-      "status": "local_verified",
+      "status": "published_and_verified",
       "route": "highlighter-r33/ and storefront-v2/preview/product-24.html",
       "reproduce": "Read mobile shade descriptions and compare use guidance with sponge footage.",
       "actual": "Small muted shade copy; fingertip-only guidance did not explain sponge blending. Owner reports direct application disturbs the base.",
@@ -249,7 +249,7 @@
         "Two-step fingertip application and optional sponge edge blending."
       ],
       "evidence": "ops/cafe24/highlighter-r33-direction.md",
-      "retest": "Seven-width regression and source/commerce preservation passed. Local standalone/integrated usage and typography checks passed at 320,390,860px."
+      "retest": "Seven-width regression and source/commerce preservation passed. Local standalone/integrated usage and typography checks passed at 320,390,860px. Public standalone/integrated checks passed at 320/390/860px; source commit 5a3b8d4."
     }
   ]
 }
