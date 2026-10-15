@@ -459,14 +459,16 @@
     "superseded_by_owner_authorized_expansion": "highlighter_on_skin_20261015"
   },
   "highlighter_on_skin_20261015": {
-    "status": "local_verified_ready_to_publish",
+    "status": "published_on_github_pages_and_verified",
     "report": "ops/cafe24/highlighter-r33-on-skin-20261015.json",
     "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
     "changes": [
       "Keep compact colour comparison; add wider original on-skin views with short captions."
     ],
-    "next_action": "Complete responsive/source/commerce checks, then publish and verify standalone and product 24.",
+    "next_action": "Owner reviews the new wider on-skin section. Keep approved Cheek V12 and existing comparison unchanged.",
     "production_cafe24_changed": false,
-    "design_acceptance": "owner_review_pending"
+    "design_acceptance": "owner_review_pending",
+    "published_commit": "348556f",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=348556f#h33-on-skin"
   }
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "local_verified_ready_to_publish",
+  "status": "published_on_github_pages_and_verified",
   "authorization": "Owner approved evidence-based expansion after asking for more substance and competitor grounding.",
   "research": [
     {
@@ -69,6 +69,9 @@
     "visual_review_widths": [
       390,
       860
-    ]
-  }
+    ],
+    "public": "Standalone and integrated product 24 verified at 320/390/860px: correct section order, all three original images loaded, equal square frames, no overflow."
+  },
+  "published_commit": "348556f",
+  "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=348556f#h33-on-skin"
 }
