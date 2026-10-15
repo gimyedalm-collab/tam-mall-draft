@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "baseline": "4de9741",
-  "status": "local_verified_ready_to_publish",
+  "status": "published_verified",
   "owner_request": "Review PC font sizes and finish.",
   "scope": "Font-size-only CSS override for detail containers at least760px. No copy, media, spacing, structure, JS or commerce edits; generated HTML differs only in CSS revision.",
   "rationale": "Preserve the existing family hierarchy; ease oversized desktop headline/intro and strengthen small footnotes. Compared locked Cheek CSS and original Lip Liner hero.",
@@ -182,5 +182,69 @@
   "regression": "Existing7width motion/source/commerce/layout suite passed; desktop1280/1440/1920 and exact390/720before-after text+geometry equality checked.",
   "css_revision": "88f24509d2f8",
   "production_cafe24_changed": false,
-  "owner_visual_acceptance": "pending"
+  "owner_visual_acceptance": "pending",
+  "source_commit": "a0d8129",
+  "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=a0d8129",
+  "public_verification": {
+    "commit": "a0d8129",
+    "exact_public_files": [
+      "highlighter-r33/index.html",
+      "storefront-v2/preview/product-24.html",
+      "highlighter-r33/detail.css",
+      "highlighter-r33/detail.js",
+      "highlighter-r33/assets/official-arm-three-shades-261015.jpg",
+      "highlighter-r33/assets/official-three-pearl-textures-261015.jpg"
+    ],
+    "browser": [
+      {
+        "width": 390,
+        "route": "highlighter-r33/",
+        "two_photos_loaded": true,
+        "no_stale_video_controls": true,
+        "no_overflow": true,
+        "equal_frames": true
+      },
+      {
+        "width": 390,
+        "route": "storefront-v2/preview/product-24.html",
+        "two_photos_loaded": true,
+        "no_stale_video_controls": true,
+        "no_overflow": true,
+        "equal_frames": true
+      },
+      {
+        "width": 1440,
+        "route": "highlighter-r33/",
+        "two_photos_loaded": true,
+        "no_stale_video_controls": true,
+        "no_overflow": true,
+        "equal_frames": true
+      },
+      {
+        "width": 1440,
+        "route": "storefront-v2/preview/product-24.html",
+        "two_photos_loaded": true,
+        "no_stale_video_controls": true,
+        "no_overflow": true,
+        "equal_frames": true
+      },
+      {
+        "width": 1920,
+        "route": "highlighter-r33/",
+        "two_photos_loaded": true,
+        "no_stale_video_controls": true,
+        "no_overflow": true,
+        "equal_frames": true
+      },
+      {
+        "width": 1920,
+        "route": "storefront-v2/preview/product-24.html",
+        "two_photos_loaded": true,
+        "no_stale_video_controls": true,
+        "no_overflow": true,
+        "equal_frames": true
+      }
+    ],
+    "computed_font_sizes_verified": true
+  }
 }

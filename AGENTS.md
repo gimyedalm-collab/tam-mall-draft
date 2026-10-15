@@ -168,3 +168,12 @@ binding; caption the right photograph `세 가지 펄 제형`. Do not change oth
 sections, copy, CSS/JS or geometry. Formula improvements were discussed only,
 not implemented. See `highlighter-r33-official-pair-20261015.json` and state.
 Owner acceptance of the actual rendered result remains pending.
+
+## Desktop typography finish · 2026-10-15
+
+Owner requested reviewing PC font sizes and finishing the detail. This explicitly
+permits the scoped desktop font-size override in `detail.css` for detail containers
+at least760px wide: hero64, section headings48, body24/26, swatch captions20 and
+footnotes16px. Preserve narrower containers/mobile typography, all wording,
+selected original photographs and geometry rules. No wider redesign is implied.
+See `highlighter-r33-pc-typography-20261015.json` and current state.

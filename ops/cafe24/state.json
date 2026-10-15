@@ -575,6 +575,26 @@
     "ai_used_in_published_media": false,
     "production_cafe24_changed": false,
     "owner_visual_acceptance": "pending",
-    "next_action": "Await owner feedback. Do not restore rejected palm video or use AI previews as actual swatches. Formula reviewed only; unchanged."
+    "next_action": "Await owner feedback. Do not restore rejected palm video or use AI previews as actual swatches. Formula reviewed only; unchanged.",
+    "latest_typography_revision": "highlighter_pc_typography_20261015"
+  },
+  "highlighter_pc_typography_20261015": {
+    "status": "published_verified",
+    "source_commit": "a0d8129",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=a0d8129",
+    "scope": "Desktop font-size overrides only for content containers>=760px. Mobile/tablet below760px unchanged. Copy/media/template/JS unchanged.",
+    "report": "ops/cafe24/highlighter-r33-pc-typography-20261015.json",
+    "sizes_px": {
+      "hero": 64,
+      "section_heading": 48,
+      "body": 24,
+      "hero_body": 26,
+      "swatch_caption": 20,
+      "note": 16
+    },
+    "verification": "7width regression; integrated PC1280/1440/1920; exact390/720 typography+geometry equality; public390/1440/1920 on standalone and product24; CSS/HTML/source assets byte checked.",
+    "production_cafe24_changed": false,
+    "owner_visual_acceptance": "pending",
+    "next_action": "Requested PC typography finish complete. Preserve current two official photographs and narrow-screen type; await any owner feedback. No broader redesign or formula content change implied."
   }
 }

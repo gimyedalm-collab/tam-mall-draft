@@ -1,5 +1,14 @@
 # TAM 하이라이터 — 현재 인계 / 2026-10-15
 
+## LATEST: PC typography finish, 2026-10-15
+
+- Owner requested PC font-size review and completion. Published source `a0d8129`: https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=a0d8129
+- Added font-size-only override for detail containers>=760px: hero64px, section headings48px, intro26px, body24px, swatch captions20px, footnotes16px. Heading weight, wording, layout rules, original media and JS stay unchanged.
+- CSS revision `88f24509d2f8`. Template unchanged; generated HTML changes only the CSS cache revision. Narrow containers/mobile/tablet below760px retain prior typography.
+-7width regression passed. Additional integrated desktop1280/1440/1920 checked;390/720 entire text metrics and page heights identical before/after. Public390/1440/1920 on both routes verified, including computed font sizes and exact files. Brief CDN delay resolved before completion.
+- Report `highlighter-r33-pc-typography-20261015.json`; state `highlighter_pc_typography_20261015`; review captures in Temp/tam-pc-type-final. Requested work complete; owner visual acceptance remains separate.
+- Keep the official two-photo pair below. Formula content/image was reviewed previously but not redesigned; this turn changes its PC font sizes only. Cafe24 production untouched.
+
 ## LATEST: official arm / texture photograph pair, 2026-10-15
 
 - Source commit `af017df`: https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=af017df#h33-on-skin
