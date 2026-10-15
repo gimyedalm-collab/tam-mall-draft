@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-15",
+  "status": "reviewed_and_locally_verified_ready_to_publish",
+  "reason": "Owner rejected repeated face enlargement; requested reuse of older arm swatch sources, AI only if needed.",
+  "source_filename": "탐뷰티_[3종 중 택 1] 더 젤리 빔 하이라이터_문가영_클린본.mp4",
+  "source_sha256": "178574db115bc519899b868877f88c8d5c53dd539f86e9a3ea95a714e1b3471f",
+  "source_duration_seconds": 30.347,
+  "arm_still": {
+    "timestamp_seconds": 6.5,
+    "crop_xywh": [
+      0,
+      400,
+      2160,
+      2700
+    ],
+    "output_wh": [
+      1000,
+      1250
+    ]
+  },
+  "hand_clip": {
+    "start_seconds": 7.2,
+    "duration_seconds": 2.4,
+    "crop_xywh": [
+      0,
+      400,
+      2160,
+      2700
+    ],
+    "output_wh": [
+      720,
+      900
+    ],
+    "fps": 24
+  },
+  "edits": "Time extraction, spatial crop, proportional resize and web encoding only. No relighting, recolouring, retouching, synthesis or speed change. Source has variable frame rate: use actual FFmpeg timestamps, not OpenCV frame-index estimates.",
+  "shade_attribution": "No colour name assigned to unverified swatch; three named shade photos remain original official assets.",
+  "ai_used": false,
+  "replaced": "Three repeated square face photographs",
+  "production_cafe24_changed": false,
+  "owner_design_acceptance": "pending",
+  "layout": "Two equal 4:5 frames; comparison-family two-column widths, gap and corners. Existing shade chart is unchanged.",
+  "verification": {
+    "widths": [
+      320,
+      390,
+      600,
+      720,
+      800,
+      860,
+      1440
+    ],
+    "overflow": false,
+    "new_clip_play_pause": true,
+    "reduced_motion_still": true,
+    "commerce_dom_original_media_and_product_information_preserved": true,
+    "choice_links": true,
+    "visual_review_widths": [
+      390,
+      860
+    ],
+    "review_passes": [
+      "Original footage and exact timestamps/crops reviewed; named shades not inferred.",
+      "Copy reviewed against owner corrections: no rejected FAQs or slogans, sponge remains edge blending.",
+      "Mobile/desktop rendered layout and decoded hand clip frames reviewed."
+    ],
+    "height_at_390": 5681,
+    "new_section_height_at_390": 474,
+    "previous_repeated_face_version_height_at_390": 6617
+  },
+  "assets": {
+    "real-arm-swatch.jpg": {
+      "bytes": 205282,
+      "sha256": "caf744840e3be85c899e4c7d0584e78f1fc45112d6a03b9ffe406cd34d9c5eac"
+    },
+    "real-hand-swatch-poster.jpg": {
+      "bytes": 29375,
+      "sha256": "ac725a2f59f783b9d00bd18c580333ba11b62d4a474c989d75da76faa4c3585e"
+    },
+    "real-hand-swatch.mp4": {
+      "bytes": 512058,
+      "sha256": "9d65acbecc2d7dd4a42d069efb240bbbfdcf0c95689fec7d47ac07120f876018"
+    }
+  },
+  "claude_review": {
+    "completed": true,
+    "session_persistence": false,
+    "scope": "390px and 860px replacement-section screenshots",
+    "finding": "Repeated-face complaint addressed; copy accurately describes actual footage without unverified shade labels. Play button association unclear.",
+    "applied_fix": "Moved existing play/pause button inside the hand video frame. Reran all seven responsive widths and playback checks.",
+    "optional_not_applied": "Did not invent one-coat/two-coat captions. Source footage has unverified amount/shade; keep descriptive captions."
+  }
+}

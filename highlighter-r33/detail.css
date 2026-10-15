@@ -46,11 +46,11 @@
 #beam-highlighter-r33 .h33-shade-description{font-size:clamp(14px,2.09cqw,18px);color:#4f494b;margin-top:12px;text-wrap:balance}
 #beam-highlighter-r33 .h33-shade-match{font-size:clamp(13px,1.86cqw,16px);font-weight:500;color:#784355;margin-top:8px}
 #beam-highlighter-r33 .h33-on-skin{background:#fff}
-#beam-highlighter-r33 .h33-look-list{display:grid;gap:56px}
-#beam-highlighter-r33 .h33-look-image{aspect-ratio:1;overflow:hidden;border-radius:var(--detail-media-radius)}
-#beam-highlighter-r33 .h33-look-image img{width:100%;height:100%;object-fit:cover;object-position:center bottom}
-#beam-highlighter-r33 .h33-look figcaption{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding-top:18px;text-align:left}
-#beam-highlighter-r33 .h33-look figcaption p{font-size:clamp(14px,2.79cqw,24px);color:var(--rose)}
+#beam-highlighter-r33 .h33-swatch-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--detail-grid-x);text-align:left}
+#beam-highlighter-r33 .h33-swatch-frame{aspect-ratio:4/5;overflow:hidden;border-radius:var(--detail-media-radius);background:var(--paper)}
+#beam-highlighter-r33 .h33-swatch-frame img{width:100%;height:100%;object-fit:contain}
+#beam-highlighter-r33 .h33-swatch-label{font-size:clamp(14px,2.79cqw,24px);font-weight:500;margin-top:18px}
+#beam-highlighter-r33 .h33-swatch-frame .h33-play{position:absolute;z-index:1;right:8px;bottom:8px}
 #beam-highlighter-r33 .h33-texture{padding:80px 0 32px}
 #beam-highlighter-r33 .h33-texture .h33-heading{padding-inline:6.5%}
 #beam-highlighter-r33 .h33-texture .h33-heading{margin-bottom:52px}
@@ -109,8 +109,7 @@
  #beam-highlighter-r33 .h33-shade-summary{margin-top:12px}
  #beam-highlighter-r33 .h33-shade-texture{margin-bottom:12px;border-radius:7px}
  #beam-highlighter-r33 .h33-shade-description{margin-top:10px}
- #beam-highlighter-r33 .h33-look-list{gap:32px}
- #beam-highlighter-r33 .h33-look figcaption{gap:12px;padding-top:14px}
+ #beam-highlighter-r33 .h33-swatch-label{margin-top:14px}
  #beam-highlighter-r33 .h33-texture{padding:48px 0 24px}
  #beam-highlighter-r33 .h33-texture .h33-heading{margin-bottom:36px}
  #beam-highlighter-r33 .h33-macro{gap:20px;margin:36px 5.6% 0}

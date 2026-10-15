@@ -82,3 +82,18 @@ captures. Record sanitized findings and tests in `ops/cafe24`.
   larger square frames revealing the wider cheek/nose context, before texture.
   Use only colour names and short shade descriptions; no new claims or generated
   skin evidence. This explicitly extends the previously reviewed shorter page.
+
+
+## Owner rejection of repeated faces and original-source replacement · 2026-10-15
+
+Supersedes the on-skin expansion above. Owner rejected the three repeated large
+face photographs and requested older arm-swatch/product sources, with AI allowed
+only if needed. Remove the duplicate faces. Use the original brand filming:
+an arm swatch still and hand application clip in equal 4:5 frames, two columns
+with the established comparison gutters and spacing. No unverified shade labels,
+colour correction, generated skin evidence or new performance claims. The three
+original named shade comparisons remain. Original sources were sufficient; no AI
+was used. This explicit AI permission supersedes the earlier blanket no-new-AI
+rule for this task, but generated visuals must not masquerade as actual swatches.
+See `ops/cafe24/highlighter-r33-source-reuse-20261015.json`. Owner acceptance of
+this replacement remains pending; passing QA is not design approval.
