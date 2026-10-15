@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "local_verified_crosschecked_pending_publication",
+  "status": "published_verified_owner_review_pending",
   "baseline": "049728c",
   "owner_scope": "Image replacement only. Preserve existing flow/copy/geometry and family feel. Start with two ON SKIN assets; review other images without unsolicited changes.",
   "scope": {
@@ -109,8 +109,70 @@
     "motion_and_reduced_motion": true,
     "commerce_preserved": true,
     "height_at_390": 5681,
-    "public": "pending"
+    "public": {
+      "commit": "171894c",
+      "byte_verification": [
+        "highlighter-r33/index.html",
+        "highlighter-r33/detail.css",
+        "storefront-v2/preview/product-24.html",
+        "highlighter-r33/assets/arm-three-pearls-261015.jpg",
+        "highlighter-r33/assets/palm-pearl-result-261015.mp4",
+        "highlighter-r33/assets/palm-pearl-result-poster-261015.jpg"
+      ],
+      "browser": [
+        {
+          "width": 320,
+          "route": "highlighter-r33/",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 320,
+          "route": "storefront-v2/preview/product-24.html",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 390,
+          "route": "highlighter-r33/",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 390,
+          "route": "storefront-v2/preview/product-24.html",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 860,
+          "route": "highlighter-r33/",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 860,
+          "route": "storefront-v2/preview/product-24.html",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        }
+      ]
+    }
   },
   "production_cafe24_changed": false,
-  "ai_used": false
+  "ai_used": false,
+  "published_commit": "171894c",
+  "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=171894c#h33-on-skin"
 }

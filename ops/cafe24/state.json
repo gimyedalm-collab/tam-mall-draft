@@ -521,6 +521,20 @@
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=e49eeb2",
     "crosscheck_report": "ops/cafe24/highlighter-r33-rollback-crosscheck-20261015.json",
     "compact_handoff": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish\\ops\\cafe24\\COMPACT-HANDOFF.md",
-    "conversation_compaction": "No callable forced-compaction tool; handoff saved, runtime compaction not claimed."
+    "conversation_compaction": "No callable forced-compaction tool; handoff saved, runtime compaction not claimed.",
+    "superseded_by": "highlighter_image_only_20261015; rollback layout retained, only two ON SKIN sources replaced"
+  },
+  "highlighter_image_only_20261015": {
+    "status": "published_verified_owner_review_pending",
+    "baseline_commit": "049728c",
+    "source_commit": "171894c",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=171894c#h33-on-skin",
+    "scope": "Only two ON SKIN assets and poster, matching media alt/aria, and hand-back-to-palm factual caption correction. All other layout/copy/media preserved.",
+    "report": "ops/cafe24/highlighter-r33-image-only-20261015.json",
+    "design_acceptance": "owner_review_pending",
+    "claude_review": "completed_nonpersistent; source identification errors rejected; poster-frame suggestion applied",
+    "public_verification": "built; exact public files match; standalone and product24 at320/390/860 with playback/reduced-motion/overflow passed",
+    "production_cafe24_changed": false,
+    "next_action": "Await owner image feedback. Do not broaden into layout/copy/section redesign. Read COMPACT-HANDOFF.md first."
   }
 }

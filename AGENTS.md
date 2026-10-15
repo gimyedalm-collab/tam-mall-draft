@@ -1,6 +1,6 @@
 # TAM Beauty store
 
-Current resume entry: `ops/cafe24/COMPACT-HANDOFF.md`. Latest owner instruction is rollback + cross-validation, not further redesign.
+Current resume entry: `ops/cafe24/COMPACT-HANDOFF.md`. Latest owner instruction is image-only replacement while preserving the restored design. See the final ACTIVE OVERRIDE below.
 
 For Cafe24 implementation and bug work, read
 `.agents/skills/tam-cafe24/SKILL.md` and `ops/cafe24/state.json` first.
@@ -128,3 +128,17 @@ revision above is rejected and must not be reapplied. Do not redesign during
 this task. Preserve rollback, record the failed decisions and user constraints,
 and create a compact resume record. Technical QA or Claude agreement is not
 visual acceptance. See state.highlighter_rollback_20261015 for current status.
+
+## ACTIVE OVERRIDE: image-only scope clarification · 2026-10-15
+
+The owner clarified that the request was to change images, not redesign the page.
+The earlier interpretation of whole-page authorization was too broad. Keep the
+restored 049728c structure/copy/CSS/JS. The owner then authorized trying the
+image-only correction, asking whether it affects only ON SKIN. Current change
+is confined to the two ON SKIN assets and poster: original three-pearl arm
+swatch plus unobstructed finished palm footage. The small caption changes only
+hand-back to palm to describe the real source; alt/aria labels also match it.
+No other section, typography, geometry, heading, body copy or media changed.
+See `ops/cafe24/highlighter-r33-image-only-20261015.json`. Public source commit
+171894c. This is a candidate, not owner design approval. Keep source review
+limits separate from technical QA and Claude opinion. Do not reapply 7a62cae.
