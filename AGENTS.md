@@ -66,3 +66,8 @@ captures. Record sanitized findings and tests in `ops/cafe24`.
   `highlighter-r33/review/usp-review-20261015.html`. Do not restore the opening
   specification strip or present three shades/stick/vegan as exclusive features.
   The current proposal still awaits owner acceptance of its purchase appeal.
+
+- Owner copy correction on 2026-10-15: restore the shade heading to
+  `세 가지 펄 컬러.` and remove the added pearl/initial-amount FAQ block.
+  Do not reintroduce the rejected question-style shade heading or these FAQs
+  without an owner request. The earlier USP report records a superseded draft.

@@ -1,4 +1,4 @@
-"""Check first-screen product evidence and the new shade/purchase/FAQ paths."""
+"""Check first-screen evidence, restored shade copy, and purchase paths."""
 import asyncio, json, os, tempfile
 from pathlib import Path
 from playwright.async_api import async_playwright
@@ -20,17 +20,17 @@ async def main():
                 assert pos['top']<350,pos
             await page.locator('.h33-glow a').click()
             assert page.url.endswith('#h33-shades')
-            for summary in await page.locator('.h33-quick-guide summary').all():
-                await summary.focus()
-                await page.keyboard.press('Enter')
-                assert await summary.evaluate('(e)=>e.parentElement.open')
+            assert await page.locator('.h33-shades h2').inner_text()=='세 가지 펄 컬러.'
+            assert await page.locator('.h33-quick-guide').count()==0
             assert await page.locator('.h33-choice-link').get_attribute('href')=='../storefront-v2/preview/product-24.html#purchase-options'
             await page.locator('.h33-choice-link').click()
             await page.wait_for_url('**/product-24.html#purchase-options')
+            assert await page.locator('.h33-shades h2').inner_text()=='세 가지 펄 컬러.'
+            assert await page.locator('.h33-quick-guide').count()==0
             await page.locator('.h33-choice-link').click()
             assert page.url.endswith('#purchase-options')
             assert await page.locator('#purchase-options').evaluate('(e)=>{let r=e.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight}')
-            results.append({'width':width,'first_result_video':pos,'faq_keyboard':True,'shade_anchor':True,'standalone_and_integrated_choice_links':True})
+            results.append({'width':width,'first_result_video':pos,'restored_shade_heading':True,'unrequested_faq_removed':True,'shade_anchor':True,'standalone_and_integrated_choice_links':True})
             await page.close()
         await browser.close()
     (OUT/'story-verification.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

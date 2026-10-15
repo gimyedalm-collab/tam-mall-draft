@@ -387,11 +387,34 @@
       "사용 부위를 원하는 결과와 함께 설명하고 펄감·초기 사용량 문답 추가.",
       "비건·성분은 하단 보조 정보로 유지. 마무리에 실제 컬러 선택 영역으로 이동하는 버튼 추가."
     ],
-    "design_acceptance": "owner_review_pending",
+    "design_acceptance": "owner_rejected_shade_heading_and_added_faq",
     "production_cafe24_changed": false,
     "next_action": "Published candidate and 12-brand report verified. Owner assesses purchase appeal; current Cheek design and Cafe24 production unchanged.",
     "published_commit": "9064322",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=9064322",
-    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish"
+    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
+    "superseded_by": "highlighter_copy_correction_20261015"
+  },
+  "highlighter_copy_correction_20261015": {
+    "status": "local_verified_ready_to_publish",
+    "changes": [
+      "?? ??? ?? ? ?? ? ??.? ??.",
+      "??? ????? ??? ?? ? ? ? ?? ?? ??."
+    ],
+    "candidate_path": "highlighter-r33/index.html",
+    "integrated_path": "storefront-v2/preview/product-24.html",
+    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
+    "verification": {
+      "widths": [
+        320,
+        390,
+        860
+      ],
+      "restored_heading": true,
+      "faq_removed": true,
+      "shade_and_purchase_links": true
+    },
+    "production_cafe24_changed": false,
+    "design_acceptance": "owner_review_pending"
   }
 }

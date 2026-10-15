@@ -62,10 +62,6 @@
 #beam-highlighter-r33 .h33-howto-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}
 #beam-highlighter-r33 .h33-howto-grid p{font-size:clamp(13px,2.55cqw,22px);color:var(--muted);margin-top:12px}
 #beam-highlighter-r33 .h33-howto-grid h3{font-size:clamp(14px,2.79cqw,24px)}
-#beam-highlighter-r33 .h33-quick-guide{text-align:left;margin-top:40px;border-bottom:1px solid #ded7d9}
-#beam-highlighter-r33 .h33-quick-guide details{border-top:1px solid #ded7d9}
-#beam-highlighter-r33 .h33-quick-guide summary{padding:20px 0;min-height:48px;cursor:pointer;font-size:clamp(14px,2.55cqw,22px);font-weight:500}
-#beam-highlighter-r33 .h33-quick-guide p{font-size:clamp(13px,2.09cqw,18px);color:var(--muted);padding-bottom:24px;line-height:1.7}
 #beam-highlighter-r33 .h33-formula{padding-top:104px;padding-bottom:88px;background:#fcf8f9}
 #beam-highlighter-r33 .h33-formula .h33-heading{margin-bottom:64px}
 #beam-highlighter-r33 .h33-formula .h33-label{margin-bottom:36px}

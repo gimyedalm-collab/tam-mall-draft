@@ -110,3 +110,9 @@ certification claims. Three shades, stick format and vegan are not exclusive.
 
 Reference report: `highlighter-r33-usp-20261015.json`. Owner design acceptance
 and actual purchase intent remain unverified. GitHub preview only.
+
+## Owner copy correction · 2026-10-15
+
+Supersedes the question-style shade heading and FAQ addition above. Restore
+`세 가지 펄 컬러.` and remove the entire added pearl/initial-amount FAQ block,
+including its spacing. Keep the existing how-to and product-information sections.
