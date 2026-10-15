@@ -435,5 +435,15 @@
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=5a3b8d4",
     "verification": "Local seven-width regression and source/commerce checks passed. Public standalone/integrated usage, typography and no-overflow verified at 320/390/860px.",
     "next_action": "Owner review; retain sponge edge-blending guidance and locked Cheek V12."
+  },
+  "highlighter_ending_correction_20261015": {
+    "status": "published_on_github_pages_and_verified",
+    "published_commit": "93963b6",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=93963b6",
+    "change": "Ending copy: 화이트 · 핑크 · 골드, / 내게 어울리는 펄 컬러.",
+    "verification": "Standalone and integrated public pages: exact copy and no overflow at 320/390/860px. Mobile ending screenshot visually reviewed.",
+    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
+    "production_cafe24_changed": false,
+    "design_acceptance": "owner_review_pending"
   }
 }
