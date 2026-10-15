@@ -160,7 +160,7 @@
     "모든 원본 미디어 파일과 색상",
     "제품 고시·기존 구매/옵션 영역"
   ],
-  "status": "local_checks_passed_publication_pending",
+  "status": "published_on_github_pages_and_verified",
   "design_acceptance": "owner_review_pending",
   "production_cafe24_changed": false,
   "verification": [
@@ -474,5 +474,106 @@
       "motion": "Autoplay, persistent user pause, reduced-motion initial stills, explicit video and animated-image play/pause passed.",
       "integration": "Scoped native detail, no iframe; original commerce DOM preserved; colour and purchase return anchors work."
     }
-  ]
+  ],
+  "public_verification": {
+    "commit": "9064322",
+    "files_matched": [
+      "highlighter-r33/index.html",
+      "highlighter-r33/detail.css",
+      "storefront-v2/preview/product-24.html",
+      "highlighter-r33/review/usp-review-20261015.html",
+      "highlighter-r33/review/usp-opening-20261015.png"
+    ],
+    "browser": [
+      {
+        "width": 390,
+        "video_start": 322.09375,
+        "geometry": {
+          "shade": [
+            166.171875,
+            110.5
+          ],
+          "swatch": [
+            112.984375,
+            112.984375
+          ],
+          "hero": [
+            390,
+            471.625
+          ],
+          "formula": [
+            346.34375,
+            173.171875
+          ],
+          "ending": [
+            390,
+            294.765625
+          ]
+        },
+        "all_images_loaded": true,
+        "overflow": false
+      },
+      {
+        "width": 860,
+        "video_start": 566.359375,
+        "geometry": {
+          "shade": [
+            362.109375,
+            240.796875
+          ],
+          "swatch": [
+            246.234375,
+            246.234375
+          ],
+          "hero": [
+            860,
+            1040
+          ],
+          "formula": [
+            748.21875,
+            374.109375
+          ],
+          "ending": [
+            860,
+            650
+          ]
+        },
+        "all_images_loaded": true,
+        "overflow": false
+      }
+    ],
+    "story_paths": [
+      {
+        "width": 320,
+        "first_result_video": {
+          "top": 322.09375,
+          "height": 386.96875
+        },
+        "faq_keyboard": true,
+        "shade_anchor": true,
+        "standalone_and_integrated_choice_links": true
+      },
+      {
+        "width": 390,
+        "first_result_video": {
+          "top": 322.09375,
+          "height": 471.625
+        },
+        "faq_keyboard": true,
+        "shade_anchor": true,
+        "standalone_and_integrated_choice_links": true
+      },
+      {
+        "width": 860,
+        "first_result_video": {
+          "top": 566.359375,
+          "height": 1040
+        },
+        "faq_keyboard": true,
+        "shade_anchor": true,
+        "standalone_and_integrated_choice_links": true
+      }
+    ],
+    "video_manual_play_pause": "Both original public videos passed at 390px with reduced motion enabled."
+  }
 }

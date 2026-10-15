@@ -375,7 +375,7 @@
     "superseded_by": "highlighter_usp_revision_20261015"
   },
   "highlighter_usp_revision_20261015": {
-    "status": "local_checks_passed_publication_pending",
+    "status": "published_on_github_pages_and_verified",
     "owner_feedback": "Review all target brands, understand their persuasion choices, apply TAM USP; current page creates no desire to buy.",
     "report": "highlighter-r33-usp-20261015.json",
     "review_path": "highlighter-r33/review/usp-review-20261015.html",
@@ -389,6 +389,9 @@
     ],
     "design_acceptance": "owner_review_pending",
     "production_cafe24_changed": false,
-    "next_action": "Publish candidate and verify public result; owner assesses purchase appeal."
+    "next_action": "Published candidate and 12-brand report verified. Owner assesses purchase appeal; current Cheek design and Cafe24 production unchanged.",
+    "published_commit": "9064322",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=9064322",
+    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish"
   }
 }
