@@ -1,8 +1,8 @@
 {
   "date": "2026-10-15",
   "reviewed_source_commit": "93963b6",
-  "status": "codex_three_passes_complete_claude_blocked_by_expired_auth",
-  "page_modified_in_review": false,
+  "status": "three_codex_passes_and_one_claude_review_complete_caption_fix_local_verified",
+  "page_modified_in_review": true,
   "passes": [
     {
       "number": 1,
@@ -52,13 +52,31 @@
     }
   ],
   "claude": {
-    "completed_reviews": 0,
-    "attempted": true,
-    "method": "claude -p with --no-session-persistence --output-format text; read-only tools",
-    "result": "Failed to authenticate: OAuth session expired and could not be refreshed",
-    "next_action": "User reauthenticates Claude Code; rerun prepared independent visual/copy review. No review output was generated.",
-    "prompt_local": "C:\\Users\\BNK-1\\AppData\\Local\\Temp\\tam_claude_review_prompt.txt"
+    "completed_reviews": 1,
+    "method": "claude -p with --no-session-persistence --output-format text and read-only tools",
+    "visual_files_reviewed": 20,
+    "result": "Conditional finish: no wholesale redesign; one required clarification between direct-application footage and recommended fingertip/sponge method.",
+    "accepted_finding": "Keep the existing visual divider and use block; replace the redundant use-video shade link with a short descriptive caption.",
+    "optional_not_applied": [
+      "Numeral spelling consistency",
+      "320px orphan-line polish",
+      "Shade-description sentence structure and ingredient-heading verb variation",
+      "Ingredient-footnote scope wording"
+    ],
+    "adjudication": "Keep current owner-directed copy and dimensions. Do not adopt the proposed new formula slogan. Existing separate guide block is sufficient once the footage is labeled.",
+    "limits": "Footage reviewed through three decoded frames; no actual cosmetics performance or device colour validation."
   },
-  "judgment": "Layout and current wording can be retained. Resolve video/tutorial framing, then incorporate the required Claude review before declaring the requested final review complete.",
-  "conversion_or_purchase_lift_measured": false
+  "judgment": "The three self-review passes and one Claude review are complete. Retain current design and copy; required footage/guide clarification applied. Ready for owner final acceptance after public verification; no additional rewrite recommended.",
+  "conversion_or_purchase_lift_measured": false,
+  "resolution": {
+    "change": "Replaced use-video shade-return link with 실제 사용 장면 · 권장 사용법은 아래에.",
+    "preserved": [
+      "Original footage",
+      "Hero shade comparison link",
+      "Existing fingertip then sponge-edge guide",
+      "Cheek V12",
+      "All other current page copy/layout"
+    ],
+    "verification": "Local standalone/integrated checks at 320/390/860px passed; 320px use screenshot visually reviewed."
+  }
 }

@@ -129,3 +129,8 @@ with darker text; retain the shared image dimensions and layout.
 Owner rejected the abstract closing line on 2026-10-15. Current ending copy:
 화이트 · 핑크 · 골드, / 내게 어울리는 펄 컬러. Keep the original product trio
 and selection link; do not restore 오늘의 메이크업에, 마음에 드는 빛 하나.
+
+Final review: three Codex passes and one nonpersistent Claude review completed.
+Preserve the current design/copy. Use-video caption now labels actual usage
+footage and points to the recommended method below; its redundant shade link
+is removed. The hero shade link and original approved video remain.

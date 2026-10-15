@@ -98,7 +98,7 @@ async def main():
         await frame.locator('button').click()
         await page.locator('.h33-shades').scroll_into_view_if_needed();await frame.scroll_into_view_if_needed()
         assert await frame.locator('video').evaluate('(v)=>v.paused')
-        await page.locator('.h33-use a').click()
+        await page.locator('.h33-glow a').click()
         assert page.url.endswith('#h33-shades')
         await page.close()
         page=await browser.new_page(viewport={'width':390,'height':844},reduced_motion='reduce')
