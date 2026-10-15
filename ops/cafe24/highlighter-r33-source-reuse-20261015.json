@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "reviewed_and_locally_verified_ready_to_publish",
+  "status": "published_on_github_pages_and_verified",
   "reason": "Owner rejected repeated face enlargement; requested reuse of older arm swatch sources, AI only if needed.",
   "source_filename": "탐뷰티_[3종 중 택 1] 더 젤리 빔 하이라이터_문가영_클린본.mp4",
   "source_sha256": "178574db115bc519899b868877f88c8d5c53dd539f86e9a3ea95a714e1b3471f",
@@ -66,7 +66,19 @@
     ],
     "height_at_390": 5681,
     "new_section_height_at_390": 474,
-    "previous_repeated_face_version_height_at_390": 6617
+    "previous_repeated_face_version_height_at_390": 6617,
+    "public": {
+      "content_matches_local": true,
+      "widths": [
+        320,
+        390,
+        860
+      ],
+      "standalone_and_integrated": true,
+      "media_loaded": true,
+      "play_pause_and_reduced_motion": true,
+      "video_button_inside_frame": true
+    }
   },
   "assets": {
     "real-arm-swatch.jpg": {
@@ -89,5 +101,7 @@
     "finding": "Repeated-face complaint addressed; copy accurately describes actual footage without unverified shade labels. Play button association unclear.",
     "applied_fix": "Moved existing play/pause button inside the hand video frame. Reran all seven responsive widths and playback checks.",
     "optional_not_applied": "Did not invent one-coat/two-coat captions. Source footage has unverified amount/shade; keep descriptive captions."
-  }
+  },
+  "published_commit": "e5f525c",
+  "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=e5f525c#h33-on-skin"
 }
