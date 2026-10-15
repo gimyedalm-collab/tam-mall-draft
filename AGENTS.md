@@ -97,3 +97,20 @@ was used. This explicit AI permission supersedes the earlier blanket no-new-AI
 rule for this task, but generated visuals must not masquerade as actual swatches.
 See `ops/cafe24/highlighter-r33-source-reuse-20261015.json`. Owner acceptance of
 this replacement remains pending; passing QA is not design approval.
+
+
+## Owner-authorized whole-page correction · 2026-10-15
+
+Supersedes the arm/hand source-reuse proposal. Owner rejected its dark/warm arm
+image and application-only loop, then approved the whole-page audit direction.
+Keep the original opening finished-glow film and official three-shade comparison.
+Introduce the clean original product still after the opening film. Replace the
+arm/hand insert with ONE different original finished-makeup photograph (not the
+three comparison faces enlarged again), showing unobstructed cheek and nose.
+Remove the separate thick-pink-texture and extreme-pearl macro section. Keep the
+three named texture swatches as colour support. Replace the direct-application
+montage with the original stick/sponge cutout and clear fingertip-then-edge-only
+sponge instructions. Original media files remain archived unchanged. No AI,
+recolouring or skin lightening is used. See highlighter-r33-result-led-20261015.json
+in ops/cafe24. The owner has approved this direction, not the final rendered result.
+Keep the locked Cheek page and all commerce markup outside the detail intact.

@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-15",
+  "status": "reviewed_and_locally_verified_ready_to_publish",
+  "owner_authorization": "Proceed with whole-page audit recommendations.",
+  "source_assets": [
+    {
+      "source_filename": "thumbnail.jpg",
+      "source_sha256": "8a6c785fe012e98656efbf743273a05c590353012737ec837f131d330cf2f818",
+      "output": "highlighter-r33/assets/original-product-still.jpg",
+      "output_sha256": "8a6c785fe012e98656efbf743273a05c590353012737ec837f131d330cf2f818",
+      "output_dimensions": [
+        840,
+        840
+      ]
+    },
+    {
+      "source_filename": "highlighter_김도연_12.jpg",
+      "source_sha256": "395dff03ba4afb536ca4e5ad4ffe069facbd75803fa8395072c27654e0ea8fd5",
+      "output": "highlighter-r33/assets/original-finished-look.jpg",
+      "output_sha256": "8999b5fdce95edc1a03347e019266847f2a6052b98efbf71b9ae6b76697fc680",
+      "output_dimensions": [
+        1720,
+        1147
+      ]
+    },
+    {
+      "source_filename": "하이라이터_pink.png",
+      "source_sha256": "4bc27bc17086f89ad2d832b0bed19678af166fb78a40face82de7bcb98294a4d",
+      "output": "highlighter-r33/assets/original-stick-sponge.webp",
+      "output_sha256": "709ed7f3d3dc107841984036c1bf11340b7283c580ca3b8e9d8da521c74235b5",
+      "output_dimensions": [
+        1500,
+        411
+      ]
+    }
+  ],
+  "edits": "Original product JPEG copied byte-for-byte. Finished makeup photo resized/compressed only. Original pink cutout trimmed to alpha bounds, proportionally web-sized and encoded. No skin/product colour adjustment, retouch or AI.",
+  "ai_used": false,
+  "originals_preserved": true,
+  "changes": [
+    "Remove rejected arm still and hand application loop.",
+    "Show original clean product photography after opening finished-glow film.",
+    "Keep original named 3-colour comparison unchanged.",
+    "Use one previously unused original finished makeup photograph with cheek and nose unobstructed.",
+    "Remove standalone thick-texture and extreme pearl-macro blocks. Named shade texture swatches remain.",
+    "Replace direct-application montage with original stick/sponge product image and existing fingertip/edge-blending instructions."
+  ],
+  "production_cafe24_changed": false,
+  "owner_design_acceptance": "pending",
+  "verification": {
+    "responsive_widths": [
+      320,
+      390,
+      600,
+      720,
+      800,
+      860,
+      1440
+    ],
+    "no_overflow": true,
+    "original_media_and_commerce_preserved": true,
+    "hero_play_pause_and_reduced_motion": true,
+    "shade_and_purchase_links": true,
+    "height_at_390": 5077,
+    "height_at_860": 9027,
+    "codex_reviews": [
+      {
+        "pass": 1,
+        "focus": "Source selection: unobstructed finished makeup, consistent studio product material, no fabricated colour/amount attribution."
+      },
+      {
+        "pass": 2,
+        "focus": "Copy: removed conflicting direct-application montage; fingertips first, sponge at edges; restored shade heading and no FAQ."
+      },
+      {
+        "pass": 3,
+        "focus": "Rendered mobile/desktop whole-page flow: product earlier, no redundant macro block, new image dimensions and spacing."
+      }
+    ]
+  },
+  "claude_review": {
+    "completed": true,
+    "session_persistence": false,
+    "scope": "Whole mobile page plus mobile usage/finished-look and desktop finished-look screenshots.",
+    "must_fix": [],
+    "assessment": "No usage contradiction or copy/image mismatch identified; repeated-source and application-only objections addressed. This is an independent design opinion, not evidence of conversion uplift or owner acceptance.",
+    "optional": "Grey studio background can feel cooler; retained because the original photograph clearly shows unobstructed cheek and nose, without recolouring. Extra no-rubbing phrase omitted because the existing usage note already states it."
+  },
+  "copy_refinement": "Step 01 clarifies taking a small amount onto fingertips before tapping cheekbones/nose; removes awkward narrow-screen line break."
+}

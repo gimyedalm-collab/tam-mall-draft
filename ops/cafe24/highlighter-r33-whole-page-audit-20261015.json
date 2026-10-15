@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-15",
+  "scope": "Whole-page visual and persuasion review requested after owner rejected the arm/hand insert. Review only: frontend unchanged.",
+  "owner_feedback": "Arm photograph looks too dark relative to the page; adjacent clip shows application without a clear finished swatch. Review the whole page.",
+  "finding": "Source selection and inconsistent photographic treatment undermine continuity between desired makeup result, shade selection, texture and recommended use. Source authenticity and responsive QA did not establish purchase appeal.",
+  "observations": [
+    {
+      "area": "hero",
+      "observation": "Finished cheek glow is visible, but opening lacks a clear product-body image. Full product trio appears near the end.",
+      "direction": "Retain real finished-result evidence and introduce original product photography earlier without another repeated portrait block."
+    },
+    {
+      "area": "shade comparison",
+      "observation": "The three official shade images are relatively consistent and useful for named colour comparison.",
+      "direction": "Preserve original colours, names and shared family layout; do not attach unknown-shade footage to a shade name."
+    },
+    {
+      "area": "arm still",
+      "observation": "Darker warm exposure and hard reflective swatch contrast sharply with the lighter adjacent hand image and official cheek photos. Close framing emphasizes skin texture and individual glitter.",
+      "direction": "Remove this candidate. Do not interpret dark skin itself as an aesthetic defect or lighten skin to manufacture an appealing swatch."
+    },
+    {
+      "area": "hand video",
+      "observation": "The selected 2.4-second clip shows continued application; fingers and stick obscure the area, and there is no clear hands-away final-result hold.",
+      "direction": "Reject as finished-swatch evidence. Any replacement must show the finished result unobstructed; classify application footage separately."
+    },
+    {
+      "area": "texture",
+      "observation": "Thick pink scraped texture followed by extreme pearl macro can suggest a coarse or thick finish and visually conflicts with the soft-stick headline.",
+      "direction": "Reduce repeated extreme close-ups; select source evidence of texture spread and actual finished skin appearance."
+    },
+    {
+      "area": "how to",
+      "observation": "Four-person footage mixes lighting and includes direct stick application, while written recommendation says fingertip application followed by edge-only sponge blending.",
+      "direction": "Usage imagery must show the recommended technique. Results footage should be identified and placed as results, with original source bytes preserved."
+    },
+    {
+      "area": "formula and ending",
+      "observation": "Formula is supporting information; closing trio clearly communicates the product but arrives late.",
+      "direction": "Keep formula subordinate and make product appearance evident earlier."
+    }
+  ],
+  "acceptance_criteria": [
+    "Finished glow unobstructed by hands or stick, with time to inspect it.",
+    "Consistent perceived lighting/white balance across selected source cuts; do not recolour skin or product to fake consistency.",
+    "Named shade comparisons require actual provenance.",
+    "One clear role per image: product appearance, finished makeup, shade difference, or correct application.",
+    "No repeated face enlargements or restored rejected FAQ/slogans."
+  ],
+  "next_action": "Re-select original assets by these criteria before another page edit; do not treat the rejected arm/hand insert as approved.",
+  "owner_authorized_implementation": "highlighter-r33-result-led-20261015.json"
+}
