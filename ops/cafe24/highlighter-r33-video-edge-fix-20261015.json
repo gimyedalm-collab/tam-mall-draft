@@ -1,0 +1,49 @@
+{
+  "segments": [
+    [
+      8.35,
+      1.3
+    ],
+    [
+      11.95,
+      0.8
+    ],
+    [
+      14.5,
+      1.2
+    ]
+  ],
+  "segment_frames": [
+    39,
+    24,
+    36
+  ],
+  "fps": 30,
+  "frames": 99,
+  "dimensions": [
+    720,
+    900
+  ],
+  "protected_roi_max_error_before_encoding": 0,
+  "processing": "Original source; one final encode. Spatial matte regularization, motion-aligned adjacent matte smoothing within each cut, 2px feather. No foreground colour/exposure filter.",
+  "date": "2026-10-15",
+  "baseline": "71f5f4f",
+  "status": "local_review_complete",
+  "owner_feedback": "Video looks broken after backdrop cleanup.",
+  "cause": "Hard per-frame colour-threshold matte produced staircase contours and grey fringes. Prior 24fps clip was encoded multiple times.",
+  "scope": "Only ON SKIN palm video and matching poster URLs; left arm SVG, CSS, JS, copy, layout and all other media unchanged.",
+  "source_sha256": "ab0c4cd6e78d7507597dff88e2839d6a6364c4026ce308eb34f52e68467ab9f5",
+  "visual_review": "Inspected original and previous matte at native resolution, three new middle frames and 18-frame filmstrip spanning all 3 shots. Corrected staircase edges; source skin texture retained. Browser playback checks separate from aesthetic owner acceptance.",
+  "claude": "No new Claude review claimed for this fix.",
+  "scope_equality_verified": true,
+  "assets": {
+    "palm-pearl-smooth-261015.mp4": {
+      "bytes": 1790518,
+      "sha256": "d3599a684d6187c44765a46d51936fd1a1e9502db0ebadcdfeebd6dc441955c2"
+    },
+    "palm-pearl-smooth-poster-261015.jpg": {
+      "bytes": 60847,
+      "sha256": "915971470bfda2f2c31fcefd4ac504bbdbb1905c630893e63824312c8ca9df95"
+    }
+  }
+}
