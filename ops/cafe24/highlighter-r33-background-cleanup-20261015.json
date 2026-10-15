@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "local_verified_cross_review_pending",
+  "status": "published_verified_owner_review_pending",
   "baseline": "f061e7f",
   "owner_request": "Current swatches are good, but dark background looks dirty. Review other sources or edit; retain image-only scope.",
   "source_review": {
@@ -59,7 +59,68 @@
     ],
     "motion_and_reduced_motion": true,
     "commerce_preserved": true,
-    "public": "pending"
+    "public": {
+      "commit": "75c4620",
+      "byte_verification": [
+        "highlighter-r33/index.html",
+        "highlighter-r33/detail.css",
+        "storefront-v2/preview/product-24.html",
+        "highlighter-r33/assets/arm-three-pearls-clean-261015.svg",
+        "highlighter-r33/assets/palm-pearl-clean-261015.mp4",
+        "highlighter-r33/assets/palm-pearl-clean-poster-261015.jpg"
+      ],
+      "browser": [
+        {
+          "width": 320,
+          "route": "highlighter-r33/",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 320,
+          "route": "storefront-v2/preview/product-24.html",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 390,
+          "route": "highlighter-r33/",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 390,
+          "route": "storefront-v2/preview/product-24.html",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 860,
+          "route": "highlighter-r33/",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        },
+        {
+          "width": 860,
+          "route": "storefront-v2/preview/product-24.html",
+          "new_media_loaded": true,
+          "no_overflow": true,
+          "button_inside_video": true,
+          "reduced_motion_and_play_pause": true
+        }
+      ]
+    },
+    "public_text_asset_comparison": "HTML/CSS/SVG LF normalized; SVG embedded JPEG bytes preserved. Video and poster match exactly."
   },
   "assets": {
     "arm-three-pearls-clean-261015.svg": {
@@ -76,5 +137,13 @@
     }
   },
   "production_cafe24_changed": false,
-  "owner_design_acceptance": "pending"
+  "owner_design_acceptance": "pending",
+  "source_commit": "75c4620",
+  "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=75c4620#h33-on-skin",
+  "claude_review": {
+    "status": "timed_out_after_300_seconds",
+    "completed": false,
+    "session_persistence": false,
+    "note": "No final review received. Do not claim Claude approval. Own source/foreground/layout/browser checks completed; earlier image-only review remains in previous report."
+  }
 }

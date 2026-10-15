@@ -535,6 +535,20 @@
     "claude_review": "completed_nonpersistent; source identification errors rejected; poster-frame suggestion applied",
     "public_verification": "built; exact public files match; standalone and product24 at320/390/860 with playback/reduced-motion/overflow passed",
     "production_cafe24_changed": false,
-    "next_action": "Await owner image feedback. Do not broaden into layout/copy/section redesign. Read COMPACT-HANDOFF.md first."
+    "next_action": "Await owner image feedback. Do not broaden into layout/copy/section redesign. Read COMPACT-HANDOFF.md first.",
+    "superseded_by": "highlighter_background_cleanup_20261015; same footage and layout, background-only cleanup"
+  },
+  "highlighter_background_cleanup_20261015": {
+    "status": "published_verified_owner_review_pending",
+    "source_commit": "75c4620",
+    "baseline_commit": "f061e7f",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=75c4620#h33-on-skin",
+    "scope": "Only two original ON SKIN source backgrounds and matching poster; all wording/layout/frame dimensions unchanged. Native SVG clipping and video matte; no published AI-generated foreground.",
+    "report": "ops/cafe24/highlighter-r33-background-cleanup-20261015.json",
+    "verification": "7localwidths;3publicwidths/2routes; source preservation, exact public files with text LF normalization, play/pause/reduced-motion, no overflow",
+    "claude_review": "Additional review timed out after300s; not completed; no approval claimed.",
+    "owner_design_acceptance": "pending",
+    "production_cafe24_changed": false,
+    "next_action": "Review owner feedback on clean backdrop only. Preserve current layout/copy; do not broaden into redesign. Read COMPACT-HANDOFF.md."
   }
 }
