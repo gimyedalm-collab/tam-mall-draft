@@ -396,7 +396,7 @@
     "superseded_by": "highlighter_copy_correction_20261015"
   },
   "highlighter_copy_correction_20261015": {
-    "status": "local_verified_ready_to_publish",
+    "status": "published_on_github_pages_and_verified",
     "changes": [
       "?? ??? ?? ? ?? ? ??.? ??.",
       "??? ????? ??? ?? ? ? ? ?? ?? ??."
@@ -412,9 +412,13 @@
       ],
       "restored_heading": true,
       "faq_removed": true,
-      "shade_and_purchase_links": true
+      "shade_and_purchase_links": true,
+      "public_standalone_and_integrated": true
     },
     "production_cafe24_changed": false,
-    "design_acceptance": "owner_review_pending"
+    "design_acceptance": "owner_review_pending",
+    "published_commit": "b949a7d",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=b949a7d",
+    "next_action": "Owner review pending; keep restored shade heading and removed FAQ. Cheek V12 remains locked."
   }
 }
