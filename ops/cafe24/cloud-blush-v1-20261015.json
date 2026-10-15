@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "product": 110,
+  "name": "더 클라우드 블러 크림 블러셔",
+  "status": "first_design_candidate_not_owner_approved",
+  "route": "cloud-blush-v1/",
+  "scope": "Standalone product-detail proposal using the approved Cheek V12/Lip Liner visual family. Existing product pages and production storefront unchanged.",
+  "direction": "Blush introduction, original product photography, real cheek application, six two-column shade comparisons, cream-to-powder footage, concise application guide, vegan formula and ingredient support, full six-product closing.",
+  "assets": {
+    "photographs": "Original brand product photos, second-round named cheek swatches and original texture swatches from the Cloud Cream Blush asset folder.",
+    "videos": "Original Cloud Blush cheek, hand-edge blending and texture footage; full duration with proportional web sizing and silent H.264 encoding.",
+    "edits": "Web resize/compression and CSS framing only. No generated images, skin retouch or colour filters. No unverified colour name assigned to footage.",
+    "local_provenance": "Desktop/tam-cloud-blush-20261015/asset-provenance.json"
+  },
+  "claims": {
+    "source": "https://tambeauty.kr/product/detail.html?product_no=110",
+    "product_info": "Current official product specifications and all six ingredient lists preserved in an expandable disclosure, fetched 2026-10-15.",
+    "formula": "Four named oils verified in all six official ingredient lists. Vegan copy follows original brand material; no certification badge or new certification claim.",
+    "excluded": "Old planning examples for 12-hour wear, controlled before/after results, awards, fabricated reviews and unsupported clinical numbers."
+  },
+  "verification": "320, 390, 600, 860 and 1440px: six shade cards, no horizontal overflow, images loaded, no JS errors, shade navigation and product-info disclosure checked. Mobile section renders visually reviewed.",
+  "approval": "Technical checks are not visual acceptance. Await owner review."
+}
