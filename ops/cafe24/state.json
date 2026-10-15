@@ -420,5 +420,16 @@
     "published_commit": "b949a7d",
     "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=b949a7d",
     "next_action": "Owner review pending; keep restored shade heading and removed FAQ. Cheek V12 remains locked."
+  },
+  "highlighter_finish_20261015": {
+    "status": "local_verification_in_progress",
+    "owner_guidance": "???? ????. ?? ??? ??? ??.",
+    "changes": [
+      "???? ??? ??? ? ??? ??? ???? ???? 2?? ???.",
+      "??? ?? ?? ?? 14px, ? ?? ?? 13px ? ?? ??."
+    ],
+    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
+    "production_cafe24_changed": false,
+    "design_acceptance": "owner_review_pending"
   }
 }

@@ -116,3 +116,12 @@ and actual purchase intent remain unverified. GitHub preview only.
 Supersedes the question-style shade heading and FAQ addition above. Restore
 `세 가지 펄 컬러.` and remove the entire added pearl/initial-amount FAQ block,
 including its spacing. Keep the existing how-to and product-information sections.
+
+## Final usage and legibility refinement · 2026-10-15
+
+Owner clarified that direct application can disturb the base and the sponge is
+better for smudging. The existing two-column how-to now describes fingertip
+application followed by sponge blending only where the edge is visible. Do not
+claim that the formula cannot disturb base makeup. Preserve approved footage.
+Mobile shade descriptions use a 14px minimum and tone recommendations 13px,
+with darker text; retain the shared image dimensions and layout.

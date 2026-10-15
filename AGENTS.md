@@ -71,3 +71,8 @@ captures. Record sanitized findings and tests in `ops/cafe24`.
   `세 가지 펄 컬러.` and remove the added pearl/initial-amount FAQ block.
   Do not reintroduce the rejected question-style shade heading or these FAQs
   without an owner request. The earlier USP report records a superseded draft.
+
+- Owner usage clarification on 2026-10-15: direct facial application can disturb
+  the base; the sponge is for softening edges after application. Explain a small
+  amount tapped on with fingertips, then optional sponge blending at visible
+  edges. Do not promote rubbing/direct application or claim no base disturbance.
