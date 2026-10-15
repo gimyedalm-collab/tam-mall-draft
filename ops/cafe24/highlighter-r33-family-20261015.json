@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "local_verified_ready_for_github_pages",
+  "status": "published_on_github_pages_and_verified",
   "owner_feedback": "Rejected R33: looks poor and feels too different from existing detail pages. Responsive polish did not address this.",
   "reference": "Lip Liner R32 original panels and locked Milky Cheek V12. Optional clarification of reference requested; no reply received before implementation.",
   "changes": [
@@ -296,5 +296,40 @@
     "390/860 texture composition"
   ],
   "design_acceptance": "new_revision_owner_review_pending",
-  "production_cafe24_changed": false
+  "production_cafe24_changed": false,
+  "public_verification": {
+    "commit": "dd26a23",
+    "files_matched": [
+      "highlighter-r33/detail.css",
+      "highlighter-r33/index.html",
+      "storefront-v2/preview/product-24.html",
+      "highlighter-r33/assets/original-pink-texture.jpg"
+    ],
+    "browser": [
+      {
+        "width": 320,
+        "overflow": false,
+        "shadeColumns": 3,
+        "glowWidth": 320,
+        "textureWidth": 320,
+        "rootWidth": 320
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "shadeColumns": 3,
+        "glowWidth": 390,
+        "textureWidth": 390,
+        "rootWidth": 390
+      },
+      {
+        "width": 860,
+        "overflow": false,
+        "shadeColumns": 3,
+        "glowWidth": 860,
+        "textureWidth": 860,
+        "rootWidth": 860
+      }
+    ]
+  }
 }

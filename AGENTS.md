@@ -46,3 +46,10 @@ captures. Record sanitized findings and tests in `ops/cafe24`.
 - Retain original product/shade media and approved use footage. R32 is a rollback
   reference; do not run its builder over the R33 integration. R33 owner review is
   pending and is separate from the final, locked Milky Cheek design.
+
+- On 2026-10-15 the owner rejected R33's overall feel; the responsive-only pass
+  did not address the concern. The same R33 path now contains a composition
+  revision (broad skin film, three aligned shade comparisons, original macro
+  photograph, existing detail-family typography). See
+  `ops/cafe24/highlighter-r33-family-20261015.json`. This revision still needs
+  owner design acceptance; a successful browser test is not that acceptance.
