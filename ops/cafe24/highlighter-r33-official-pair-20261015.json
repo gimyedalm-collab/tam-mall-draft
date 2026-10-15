@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "baseline": "0990a24",
-  "status": "local_verified_ready_to_publish",
+  "status": "published_verified_owner_review_pending",
   "owner_instruction": "Apply the option judged best after explaining candidate1 left skin swatch + candidate3 right texture photograph in the existing two frames.",
   "scope": "Only ON SKIN media and corresponding factual caption/alt. Remove palm video/control/data-motion. Preserve other sections including formula, CSS, JS, geometry and headings.",
   "selection": {
@@ -26,6 +26,69 @@
   "verification": {
     "local": "7 widths320/390/600/720/800/860/1440; existing motion controls and commerce shell passed. ON SKIN has2stills, no stale video/button/data-motion.",
     "visual": "Inspected390px and860px section captures.4:5frames, equal sizes, unchanged total page heights5681px at390 and10187px at860.",
-    "source": "Both new JPEG files match official source bytes. Other HTML outside ON SKIN, CSS and JS match baseline exactly."
-  }
+    "source": "Both new JPEG files match official source bytes. Other HTML outside ON SKIN, CSS and JS match baseline exactly.",
+    "public": {
+      "commit": "af017df",
+      "exact_public_files": [
+        "highlighter-r33/index.html",
+        "storefront-v2/preview/product-24.html",
+        "highlighter-r33/detail.css",
+        "highlighter-r33/detail.js",
+        "highlighter-r33/assets/official-arm-three-shades-261015.jpg",
+        "highlighter-r33/assets/official-three-pearl-textures-261015.jpg"
+      ],
+      "browser": [
+        {
+          "width": 320,
+          "route": "highlighter-r33/",
+          "two_photos_loaded": true,
+          "no_stale_video_controls": true,
+          "no_overflow": true,
+          "equal_frames": true
+        },
+        {
+          "width": 320,
+          "route": "storefront-v2/preview/product-24.html",
+          "two_photos_loaded": true,
+          "no_stale_video_controls": true,
+          "no_overflow": true,
+          "equal_frames": true
+        },
+        {
+          "width": 390,
+          "route": "highlighter-r33/",
+          "two_photos_loaded": true,
+          "no_stale_video_controls": true,
+          "no_overflow": true,
+          "equal_frames": true
+        },
+        {
+          "width": 390,
+          "route": "storefront-v2/preview/product-24.html",
+          "two_photos_loaded": true,
+          "no_stale_video_controls": true,
+          "no_overflow": true,
+          "equal_frames": true
+        },
+        {
+          "width": 860,
+          "route": "highlighter-r33/",
+          "two_photos_loaded": true,
+          "no_stale_video_controls": true,
+          "no_overflow": true,
+          "equal_frames": true
+        },
+        {
+          "width": 860,
+          "route": "storefront-v2/preview/product-24.html",
+          "two_photos_loaded": true,
+          "no_stale_video_controls": true,
+          "no_overflow": true,
+          "equal_frames": true
+        }
+      ]
+    }
+  },
+  "source_commit": "af017df",
+  "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=af017df#h33-on-skin"
 }

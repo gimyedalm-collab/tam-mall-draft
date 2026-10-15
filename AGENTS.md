@@ -154,3 +154,17 @@ over pale off-white, preserving foreground before encoding. No exposure/colour
 or pearl/skin retouch. An ImageGen background attempt was rejected because it
 changed pearl microtexture; it is not a published asset. See
 `ops/cafe24/highlighter-r33-background-cleanup-20261015.json` and current state.
+
+## ACTIVE OVERRIDE: official arm / texture photograph pair · 2026-10-15
+
+Owner approved trying the best option after clarification that only the existing
+ON SKIN two frames would change: candidate1 arm swatches left, candidate3 official
+product/texture photograph right. Candidate2 palm comparison was rejected for
+visible skin creases. Current assets are `official-arm-three-shades-261015.jpg`
+and `official-three-pearl-textures-261015.jpg`, byte-identical official sources.
+AI cleanup previews drifted in texture/colour and were not selected. Keep the
+source's original shade labels. Remove the ON SKIN video, its controls and motion
+binding; caption the right photograph `세 가지 펄 제형`. Do not change other
+sections, copy, CSS/JS or geometry. Formula improvements were discussed only,
+not implemented. See `highlighter-r33-official-pair-20261015.json` and state.
+Owner acceptance of the actual rendered result remains pending.

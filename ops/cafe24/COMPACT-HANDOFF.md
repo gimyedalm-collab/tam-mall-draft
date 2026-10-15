@@ -1,5 +1,15 @@
 # TAM 하이라이터 — 현재 인계 / 2026-10-15
 
+## LATEST: official arm / texture photograph pair, 2026-10-15
+
+- Source commit `af017df`: https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=af017df#h33-on-skin
+- Owner authorized trying candidate1 arm swatches left + candidate3 product/texture right in the existing ON SKIN frames. Candidate2 palm video rejected for visible skin creases.
+- Current `official-arm-three-shades-261015.jpg` and `official-three-pearl-textures-261015.jpg` are byte-identical official SNS originals. Original shade labels retained. No AI-generated swatches published.
+- ON SKIN video/button/data-motion removed; right caption and alt now describe the texture photograph. All other HTML, headings, geometry, CSS/JS unchanged.390px page height5681px unchanged.
+- Formula section was reviewed but not changed. Do not infer authorization for a broader redesign.
+-7localwidths and3publicwidths/2routes passed. Public/source files verified. Owner visual acceptance pending.
+- Report: `highlighter-r33-official-pair-20261015.json`. State: `highlighter_official_pair_20261015`. Source/AI review evidence: Temp/tam-source-search-261015; public checks: Temp/tam-official-pair.
+
 ## 최신 진행: 영상 테두리 깨짐 수정
 
 - 사용자 지적: 배경 정리 후 영상이 조금 깨져 보임. 확인된 문제는 손 윤곽의 톱니 모양 잘림과 회색 테두리.
