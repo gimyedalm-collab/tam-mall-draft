@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "reviewed_and_locally_verified_ready_to_publish",
+  "status": "published_on_github_pages_and_verified",
   "owner_authorization": "Proceed with whole-page audit recommendations.",
   "source_assets": [
     {
@@ -76,7 +76,23 @@
         "pass": 3,
         "focus": "Rendered mobile/desktop whole-page flow: product earlier, no redundant macro block, new image dimensions and spacing."
       }
-    ]
+    ],
+    "public": {
+      "published_files_match_local": true,
+      "widths": [
+        320,
+        390,
+        860
+      ],
+      "routes": [
+        "highlighter-r33/",
+        "storefront-v2/preview/product-24.html"
+      ],
+      "new_assets_decoded": true,
+      "rejected_media_absent": true,
+      "no_overflow": true,
+      "hero_play_pause_and_reduced_motion": true
+    }
   },
   "claude_review": {
     "completed": true,
@@ -86,5 +102,7 @@
     "assessment": "No usage contradiction or copy/image mismatch identified; repeated-source and application-only objections addressed. This is an independent design opinion, not evidence of conversion uplift or owner acceptance.",
     "optional": "Grey studio background can feel cooler; retained because the original photograph clearly shows unobstructed cheek and nose, without recolouring. Extra no-rubbing phrase omitted because the existing usage note already states it."
   },
-  "copy_refinement": "Step 01 clarifies taking a small amount onto fingertips before tapping cheekbones/nose; removes awkward narrow-screen line break."
+  "copy_refinement": "Step 01 clarifies taking a small amount onto fingertips before tapping cheekbones/nose; removes awkward narrow-screen line break.",
+  "published_commit": "7a62cae",
+  "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=7a62cae"
 }
