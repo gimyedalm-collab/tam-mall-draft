@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-15",
+  "baseline": "4de9741",
+  "status": "local_verified_ready_to_publish",
+  "owner_request": "Review PC font sizes and finish.",
+  "scope": "Font-size-only CSS override for detail containers at least760px. No copy, media, spacing, structure, JS or commerce edits; generated HTML differs only in CSS revision.",
+  "rationale": "Preserve the existing family hierarchy; ease oversized desktop headline/intro and strengthen small footnotes. Compared locked Cheek CSS and original Lip Liner hero.",
+  "desktop_pixels": {
+    "hero": 64,
+    "section_heading": 48,
+    "hero_body": 26,
+    "body": 24,
+    "swatch_caption": 20,
+    "ingredient_heading": 26,
+    "note": 16
+  },
+  "verification": {
+    "mobile_and_tablet_identical": true,
+    "integrated_pc_widths": [
+      1280,
+      1440,
+      1920
+    ],
+    "changes": [
+      {
+        "text": "더 젤리 빔 하이라이터",
+        "before": "25.972px",
+        "after": "24px"
+      },
+      {
+        "text": "광대 위에 톡,\n빛나는 입체감.",
+        "before": "71.982px",
+        "after": "64px"
+      },
+      {
+        "text": "화이트 · 핑크 · 골드 펄로\n오늘 메이크업에 빛을 더해요.",
+        "before": "29.928px",
+        "after": "26px"
+      },
+      {
+        "text": "FIND YOUR SHADE",
+        "before": "19.952px",
+        "after": "16px"
+      },
+      {
+        "text": "세 가지 펄 컬러.",
+        "before": "52px",
+        "after": "48px"
+      },
+      {
+        "text": "피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
+        "before": "14px",
+        "after": "16px"
+      },
+      {
+        "text": "ON SKIN",
+        "before": "19.952px",
+        "after": "16px"
+      },
+      {
+        "text": "피부 위에 빛나는 펄.",
+        "before": "52px",
+        "after": "48px"
+      },
+      {
+        "text": "팔 위의 펄감",
+        "before": "23.994px",
+        "after": "20px"
+      },
+      {
+        "text": "세 가지 펄 제형",
+        "before": "23.994px",
+        "after": "20px"
+      },
+      {
+        "text": "PEARL TEXTURE",
+        "before": "19.952px",
+        "after": "16px"
+      },
+      {
+        "text": "부드러운 스틱에\n펄을 담았어요.",
+        "before": "52px",
+        "after": "48px"
+      },
+      {
+        "text": "가까이 보면 펄,\n피부 위에선 빛.",
+        "before": "29.928px",
+        "after": "26px"
+      },
+      {
+        "text": "실제 제형 속 펄을 확대한 이미지입니다.",
+        "before": "14px",
+        "after": "16px"
+      },
+      {
+        "text": "HOW TO USE",
+        "before": "19.952px",
+        "after": "16px"
+      },
+      {
+        "text": "메이크업 마지막,\n빛이 필요한 곳에 톡.",
+        "before": "52px",
+        "after": "48px"
+      },
+      {
+        "text": "손끝으로 톡톡, 스펀지로 경계만.",
+        "before": "27.95px",
+        "after": "24px"
+      },
+      {
+        "text": "소량을 덜어 광대나 콧대에\n가볍게 두드려 주세요.",
+        "before": "21.93px",
+        "after": "20px"
+      },
+      {
+        "text": "경계가 도드라지는 부분만\n살짝 두드려 풀어 주세요.",
+        "before": "21.93px",
+        "after": "20px"
+      },
+      {
+        "text": "베이스 메이크업 위에서는 넓게 문지르지 말고, 가볍게 두드려 마무리해 주세요.",
+        "before": "14px",
+        "after": "16px"
+      },
+      {
+        "text": "VEGAN FORMULA",
+        "before": "19.952px",
+        "after": "16px"
+      },
+      {
+        "text": "식물성 오일과\n시어버터를 담아.",
+        "before": "52px",
+        "after": "48px"
+      },
+      {
+        "text": "보습 성분을 더한 비건 포뮬러.",
+        "before": "27.95px",
+        "after": "24px"
+      },
+      {
+        "text": "식물성 오일",
+        "before": "29.928px",
+        "after": "26px"
+      },
+      {
+        "text": "시어버터",
+        "before": "29.928px",
+        "after": "26px"
+      },
+      {
+        "text": "보습 성분",
+        "before": "29.928px",
+        "after": "26px"
+      },
+      {
+        "text": "피부 컨디셔닝 성분",
+        "before": "29.928px",
+        "after": "26px"
+      },
+      {
+        "text": "*원료적 특성에 한함.\n위 이미지는 원료를 표현한 연출 이미지입니다.",
+        "before": "14px",
+        "after": "16px"
+      },
+      {
+        "text": "화이트 · 핑크 · 골드,\n내게 어울리는 펄 컬러.",
+        "before": "31.992px",
+        "after": "28px"
+      },
+      {
+        "text": "더 젤리 빔 하이라이터 · 3 COLORS · 9 g",
+        "before": "17.974px",
+        "after": "18px"
+      },
+      {
+        "text": "내 펄 컬러 선택하기",
+        "before": "23.994px",
+        "after": "20px"
+      }
+    ]
+  },
+  "regression": "Existing7width motion/source/commerce/layout suite passed; desktop1280/1440/1920 and exact390/720before-after text+geometry equality checked.",
+  "css_revision": "88f24509d2f8",
+  "production_cafe24_changed": false,
+  "owner_visual_acceptance": "pending"
+}

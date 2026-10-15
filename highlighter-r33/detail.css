@@ -90,6 +90,24 @@
 #beam-highlighter-r33 .h33-info-copy{padding-top:28px;font-size:clamp(12px,1.86cqw,16px);line-height:1.8;overflow-wrap:anywhere;word-break:normal}
 #beam-highlighter-r33 .h33-info-copy h2{font-size:clamp(15px,2.1cqw,18px);font-weight:600;line-height:1.5;margin:28px 0 10px;letter-spacing:0}
 #beam-highlighter-r33 .h33-info-copy p{margin:0 0 12px}
+/* Desktop reading scale; narrow/mobile detail containers retain their type. */
+@container(min-width:760px){
+ #beam-highlighter-r33 .h33-hero h2{font-size:64px}
+ #beam-highlighter-r33 .h33-section>.h33-heading h2{font-size:48px}
+ #beam-highlighter-r33 .h33-product-name{font-size:24px}
+ #beam-highlighter-r33 .h33-body{font-size:24px}
+ #beam-highlighter-r33 .h33-hero .h33-body{font-size:26px}
+ #beam-highlighter-r33 .h33-label{font-size:16px}
+ #beam-highlighter-r33 .h33-swatch-label{font-size:20px}
+ #beam-highlighter-r33 .h33-macro-copy{font-size:26px}
+ #beam-highlighter-r33 .h33-howto-intro{font-size:24px}
+ #beam-highlighter-r33 .h33-howto-grid p{font-size:20px}
+ #beam-highlighter-r33 .h33-ingredient-grid h3{font-size:26px}
+ #beam-highlighter-r33 .h33-note{font-size:16px}
+ #beam-highlighter-r33 .h33-ending p{font-size:28px}
+ #beam-highlighter-r33 .h33-ending .h33-ending-spec{font-size:18px}
+ #beam-highlighter-r33 .h33-choice-link{font-size:20px}
+}
 @container(max-width:599px){
  #beam-highlighter-r33>*{--detail-gutter:5.6%;--detail-section-start:40px;--detail-section-end:38px;--detail-heading-gap:24px;--detail-grid-x:14px;--detail-grid-y:30px;--detail-media-radius:10px}
  #beam-highlighter-r33 .h33-label{min-width:140px;padding:4px 20px;margin-bottom:18px}
