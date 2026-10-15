@@ -356,7 +356,7 @@
     "superseded_by": "highlighter_spec_alignment_20261015"
   },
   "highlighter_spec_alignment_20261015": {
-    "status": "local_checks_passed_publication_pending",
+    "status": "published_on_github_pages_and_verified",
     "review_path": "highlighter-r33/index.html",
     "integrated_path": "storefront-v2/preview/product-24.html",
     "changes": [
@@ -368,6 +368,9 @@
     "verification": "highlighter-r33-spec-alignment-20261015.json",
     "design_acceptance": "owner_review_pending",
     "production_cafe24_changed": false,
-    "next_action": "Publish and verify aligned candidate. Keep Milky Cheek V12 locked; owner visual acceptance remains separate."
+    "next_action": "Candidate published and public browser geometry verified; owner design review pending. Keep Cheek V12 locked. Cafe24 migration is separate.",
+    "published_commit": "29be828",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=29be828",
+    "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish"
   }
 }

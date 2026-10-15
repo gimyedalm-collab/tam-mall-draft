@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "status": "local_checks_passed_publication_pending",
+  "status": "published_on_github_pages_and_verified",
   "owner_feedback": "Compare actual image dimensions, specifications and layout against Lip Liner and yesterday's Milky Cheek; screenshot shows consecutive crowded text sections.",
   "references": {
     "lipliner": "R34 design-spec: 860px canvas, 56px side margins, 748px content, two 358x202 lip crops with 30px gap. Product118 original panels inspected. Lip crop ratio retained as a product-specific distinction.",
@@ -577,5 +577,101 @@
     "highlighter-r33/review/transition-20261015.png"
   ],
   "design_acceptance": "owner_review_pending",
-  "production_cafe24_changed": false
+  "production_cafe24_changed": false,
+  "public_verification": {
+    "commit": "29be828",
+    "files_matched": [
+      "highlighter-r33/detail.css",
+      "highlighter-r33/index.html",
+      "storefront-v2/preview/product-24.html",
+      "highlighter-r33/review/family-comparison-20261015.png",
+      "highlighter-r33/review/transition-20261015.png"
+    ],
+    "browser": [
+      {
+        "width": 390,
+        "route": "highlighter-r33/",
+        "rootWidth": 390,
+        "shade": {
+          "width": 166.171875,
+          "height": 110.5
+        },
+        "swatch": {
+          "width": 112.984375,
+          "height": 112.984375
+        },
+        "formula": {
+          "width": 346.34375,
+          "height": 173.171875
+        },
+        "hero": {
+          "width": 390,
+          "height": 471.625
+        },
+        "ending": {
+          "width": 390,
+          "height": 294.765625
+        },
+        "gap": 304.75,
+        "headingBeforeVideo": true,
+        "overflow": false
+      },
+      {
+        "width": 860,
+        "route": "highlighter-r33/",
+        "rootWidth": 860,
+        "shade": {
+          "width": 362.109375,
+          "height": 240.796875
+        },
+        "swatch": {
+          "width": 246.234375,
+          "height": 246.234375
+        },
+        "formula": {
+          "width": 748.21875,
+          "height": 374.109375
+        },
+        "hero": {
+          "width": 860,
+          "height": 1040
+        },
+        "ending": {
+          "width": 860,
+          "height": 650
+        },
+        "gap": 475.046875,
+        "headingBeforeVideo": true,
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "route": "storefront-v2/preview/product-24.html",
+        "rootWidth": 390,
+        "shade": {
+          "width": 166.171875,
+          "height": 110.5
+        },
+        "swatch": {
+          "width": 112.984375,
+          "height": 112.984375
+        },
+        "formula": {
+          "width": 346.34375,
+          "height": 173.171875
+        },
+        "hero": {
+          "width": 390,
+          "height": 471.625
+        },
+        "ending": {
+          "width": 390,
+          "height": 294.765625
+        },
+        "gap": 304.75,
+        "headingBeforeVideo": true,
+        "overflow": false
+      }
+    ]
+  }
 }
