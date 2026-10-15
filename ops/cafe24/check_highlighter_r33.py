@@ -72,7 +72,7 @@ async def main():
             assert len(swatches)==2 and abs(swatches[0]['top']-swatches[1]['top'])<1
             assert all(abs(f['width']/f['height']-.8)<.005 for f in swatches)
             assert abs(swatches[0]['width']-swatches[1]['width'])<1
-            assert (await page.locator('.h33-swatch-frame img').get_attribute('src')).endswith('real-arm-swatch.jpg')
+            assert (await page.locator('.h33-swatch-frame img').get_attribute('src')).endswith('arm-three-pearls-261015.jpg')
             assert values['ingredientColumns']==2
             assert all(abs(f['width']/f['height']-ratio)<.005 for f,ratio in zip(values['frames'],[860/1040,.8,.8]))
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>getComputedStyle(v).objectFit==="contain")')

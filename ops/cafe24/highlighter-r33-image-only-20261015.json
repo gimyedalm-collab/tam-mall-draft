@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-15",
+  "status": "local_verified_crosschecked_pending_publication",
+  "baseline": "049728c",
+  "owner_scope": "Image replacement only. Preserve existing flow/copy/geometry and family feel. Start with two ON SKIN assets; review other images without unsolicited changes.",
+  "scope": {
+    "changed": "Two ON SKIN assets and matching poster; source paths, alt/aria labels; hand-back caption corrected to palm to describe the actual footage.",
+    "preserved": [
+      "All other HTML outside ON SKIN in template, standalone and product24 (LF-normalized DOM equality)",
+      "CSS, JS, builder byte equality after LF normalization",
+      "All headings, section order, spacing, frame sizes and original remaining media",
+      "Locked Cheek product102 and Lip Liner product118",
+      "Commerce DOM and existing product information"
+    ],
+    "anatomical_caption_change": "손등에 바른 제형 → 손바닥에 바른 제형"
+  },
+  "source": {
+    "source_file": "수진님 하이라이터 컷편집본.mp4",
+    "source_sha256": "ab0c4cd6e78d7507597dff88e2839d6a6364c4026ce308eb34f52e68467ab9f5",
+    "arm": {
+      "time": 16.6,
+      "crop_xywh": [
+        0,
+        420,
+        1080,
+        1350
+      ],
+      "output": [
+        1000,
+        1250
+      ]
+    },
+    "palm": {
+      "segments_start_duration": [
+        [
+          8.35,
+          1.3
+        ],
+        [
+          11.95,
+          0.8
+        ],
+        [
+          14.5,
+          1.2
+        ]
+      ],
+      "crop_xywh": [
+        0,
+        280,
+        1080,
+        1350
+      ],
+      "output": [
+        720,
+        900
+      ],
+      "fps": 24,
+      "poster_seconds_in_output": 1.65
+    },
+    "processing": "Temporal selection, crop, resize and web encoding only; no colour, skin, glow or speed adjustment. Finished-result intervals only; no shade names or application count inferred.",
+    "assets": {
+      "arm-three-pearls-261015.jpg": {
+        "sha256": "60c7e2944baae95cddbd3ae2a01b4b1108e3115333d8d4296540c909b5466946",
+        "bytes": 148149
+      },
+      "palm-pearl-result-261015.mp4": {
+        "sha256": "96e0e5e9e655ef0d6faa9ec90ac32e313a4a7b2312f84c0bae3f86486ef1d78b",
+        "bytes": 1260858
+      },
+      "palm-pearl-result-poster-261015.jpg": {
+        "bytes": 62604,
+        "sha256": "08ef22bc84ef96aa97b30113fa962da6978a00d6b6960e5143bdb74d82812738"
+      }
+    }
+  },
+  "review": {
+    "source": "Reviewed nine source-video sheets; source8 was cheek footage despite folder name and excluded. Source7 shows product, application and finished arm/palm swatches. Used only finished intervals.",
+    "scope": "Exact Git diff and normalized DOM equality checked; no section-level redesign.",
+    "visual": "Before/after ON SKIN at390 both390x475; two4:5 frames preserved. Compared to approved Cheek and existing Lip Liner. All other photos inspected and retained.",
+    "limit": "Palm close-up shows concentrated metallic pearl, not an estimate of a light facial application. No shade ordering/amount/performance inferred. Owner acceptance pending.",
+    "claude": {
+      "completed": true,
+      "session_persistence": false,
+      "accepted": [
+        "Two swatches distinguish pearl finishes with clearer background than prior media.",
+        "Layout, headings and section order preserved.",
+        "White opening poster looked concentrated and metallic; selected softer pink finished-result frame from same video for poster."
+      ],
+      "not_adopted": [
+        "Old shot called a face shot with incorrect hand caption: actually raised back of hand in front of face.",
+        "Applicator end identified as sponge: not established.",
+        "Skin temperature labels are subjective observations, not measured colour accuracy."
+      ],
+      "limitation": "Independent opinion is not owner approval or purchase conversion evidence."
+    }
+  },
+  "verification": {
+    "widths": [
+      320,
+      390,
+      600,
+      720,
+      800,
+      860,
+      1440
+    ],
+    "overflow": false,
+    "motion_and_reduced_motion": true,
+    "commerce_preserved": true,
+    "height_at_390": 5681,
+    "public": "pending"
+  },
+  "production_cafe24_changed": false,
+  "ai_used": false
+}
