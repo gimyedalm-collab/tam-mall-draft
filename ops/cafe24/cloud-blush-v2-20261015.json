@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-15",
+  "deliverable": "cloud-blush-v2/index.html",
+  "status": "V2 candidate built; owner visual review pending",
+  "request": "Apply selected Moa imagery and brightness-corrected cream-to-powder footage to actual product detail",
+  "sections": [
+    "cloud product hero",
+    "cream-to-powder sequence",
+    "Moa model",
+    "six shade comparison",
+    "how to use",
+    "compact vegan formula",
+    "six product ending"
+  ],
+  "assets": {
+    "hero": "Product staging 3.jpg; original image colours",
+    "model": "Photographer retouch / Moa / 4.jpg; display crop only",
+    "film": "Reviewed R2 brightness correction; 9.6 seconds; three distinct shots, not a controlled before/after",
+    "shade_comparison": "12 unchanged V1 named cheek and texture photos"
+  },
+  "behavior": "Muted in-view autoplay except reduced motion or save-data; visible pause button; user pause respected; offscreen pause",
+  "preserved": [
+    "cloud-blush-v1",
+    "other product details",
+    "commerce and Cafe24 production"
+  ],
+  "qa": {
+    "viewports": [
+      {
+        "width": 320,
+        "docWidth": 320,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ]
+      },
+      {
+        "width": 390,
+        "docWidth": 390,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ]
+      },
+      {
+        "width": 600,
+        "docWidth": 600,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ]
+      },
+      {
+        "width": 860,
+        "docWidth": 860,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ]
+      },
+      {
+        "width": 1440,
+        "docWidth": 1440,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ]
+      }
+    ],
+    "playback": "autoplay in view; manual pause persists; offscreen pause; stage timing; reduced-motion manual play passed",
+    "named_shade_assets": "12 files byte-identical to V1",
+    "film": "byte-identical to brightness-corrected review sample"
+  }
+}
