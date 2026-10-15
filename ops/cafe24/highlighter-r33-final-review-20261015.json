@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-15",
+  "reviewed_source_commit": "93963b6",
+  "status": "codex_three_passes_complete_claude_blocked_by_expired_auth",
+  "page_modified_in_review": false,
+  "passes": [
+    {
+      "number": 1,
+      "focus": "Whole-page design and copy hierarchy against approved family",
+      "evidence": [
+        "Fresh 320/390/860px section renders",
+        "Cheek V12 390/860px geometry comparison",
+        "Lip Liner R32 opening image visual comparison"
+      ],
+      "findings": [
+        "Hero/shade/swatch/texture/formula/ending image dimensions match Cheek within 1px at 390/860px; title and shade-name font sizes match.",
+        "Blush hero, restrained black type and neutral colour cards form a coherent family. No wholesale redesign justified.",
+        "Real-result opening and short shade heading avoid the earlier stacked text-only transition."
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "Reread all visible copy alongside photos, ingredient source and actual footage",
+      "evidence": [
+        "visible-copy.txt",
+        "highlighter-r32/product-information.html",
+        "Use video decoded frames 6,33,60 of 67 at 24fps"
+      ],
+      "findings": [
+        "Latest shade/ending copy is understandable; rejected question heading and FAQ are absent.",
+        "Named supporting ingredients occur in the retained ingredient lists; this is source consistency, not independent efficacy verification.",
+        "Remaining substantive issue: HOW TO USE sits above footage showing direct product-to-face application, while current written instructions recommend fingertip application followed by optional sponge edge blending."
+      ],
+      "recommendation": "Present preserved footage as actual application/result examples and visually separate the recommended fingertip/sponge method; do not introduce more FAQs or claim no base disturbance."
+    },
+    {
+      "number": 3,
+      "focus": "Final full-page mobile/desktop reading and public interaction check",
+      "evidence": [
+        "Public standalone and integrated pages at 320/390/860px",
+        "Public HTML/CSS byte-equivalence after newline normalization",
+        "check_highlighter_r33_story.py",
+        "verify_tam_ending.py"
+      ],
+      "findings": [
+        "No horizontal overflow at tested widths.",
+        "Restored shade heading and corrected closing copy verified on both public pages.",
+        "Shade anchor and both selection-return links work; this is preview navigation, not checkout validation.",
+        "14px shade descriptions and 13px tone guidance are readable; 320px use-copy wrapping is somewhat uneven but not a blocking defect.",
+        "The video/how-to presentation concern from pass 2 remains; no additional essential copy changes identified."
+      ]
+    }
+  ],
+  "claude": {
+    "completed_reviews": 0,
+    "attempted": true,
+    "method": "claude -p with --no-session-persistence --output-format text; read-only tools",
+    "result": "Failed to authenticate: OAuth session expired and could not be refreshed",
+    "next_action": "User reauthenticates Claude Code; rerun prepared independent visual/copy review. No review output was generated.",
+    "prompt_local": "C:\\Users\\BNK-1\\AppData\\Local\\Temp\\tam_claude_review_prompt.txt"
+  },
+  "judgment": "Layout and current wording can be retained. Resolve video/tutorial framing, then incorporate the required Claude review before declaring the requested final review complete.",
+  "conversion_or_purchase_lift_measured": false
+}
