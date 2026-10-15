@@ -134,3 +134,20 @@ Final review: three Codex passes and one nonpersistent Claude review completed.
 Preserve the current design/copy. Use-video caption now labels actual usage
 footage and points to the recommended method below; its redundant shade link
 is removed. The hero shade link and original approved video remain.
+
+## Owner-approved on-skin expansion · 2026-10-15
+
+Following the final review, the owner found the page short and requested brand
+evidence before approving expansion. Hince separates shade/texture comparison
+from LOOK BOOK faces; fwee separates daily/special looks from its colour/glow
+comparison; rom&nd follows shade swatches with colour-specific model looks.
+The inferred role is quick selection followed by a closer view of the result,
+not a demonstrated conversion claim. Sources are recorded in
+`highlighter-r33-on-skin-20261015.json`.
+
+Preserve the compact comparison. Add ON SKIN immediately after it and before
+texture, with three equal square frames using original skin images at their
+full width, bottom aligned. This reveals cheek/nose/lip context omitted by the
+small landscape crops. Keep existing shared gutters, radii, heading typography,
+original colour bytes and footage. Captions contain only shade name and colour;
+do not repeat occasion copy, add FAQs, or invent full-face looks or performance.

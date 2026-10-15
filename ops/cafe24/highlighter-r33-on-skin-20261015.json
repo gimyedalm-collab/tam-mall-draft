@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-15",
+  "status": "local_verified_ready_to_publish",
+  "authorization": "Owner approved evidence-based expansion after asking for more substance and competitor grounding.",
+  "research": [
+    {
+      "brand": "hince",
+      "url": "https://hince.co.kr/product/detail.html?product_no=776",
+      "observed": "신색 피부·제형 비교 후 별도 LOOK BOOK에서 완성된 모델 메이크업 제시.",
+      "official_images_viewed": [
+        "https://hince.co.kr/web/upload/NNEditor/20260906/EC8381EC84B8_EC8AA4ED8C8CEC9DB4EC8AA4EC9785_EB9E98EB9494EC96B8EC8AA4EBB0A4_04.jpg",
+        "https://hince.co.kr/web/upload/NNEditor/20260906/EC8381EC84B8_EC8AA4ED8C8CEC9DB4EC8AA4EC9785_EB9E98EB9494EC96B8EC8AA4EBB0A4_05.jpg"
+      ]
+    },
+    {
+      "brand": "fwee",
+      "url": "https://fwee.kr/product/detail.html?product_no=206",
+      "observed": "Daily/Special 룩, 광채 단계표, 색별 피부 발색을 구분.",
+      "official_images_viewed": [
+        "https://fwee.kr/web/upload/NNEditor/20241219/5BED9598EC9DB4EB9DBCEC9DB4ED84B05DEC8381EC84B8ED8E98EC9DB4ECA780_7_01.jpg",
+        "https://fwee.kr/web/upload/NNEditor/20241219/5BED9598EC9DB4EB9DBCEC9DB4ED84B05DEC8381EC84B8ED8E98EC9DB4ECA780_7_02.jpg",
+        "https://fwee.kr/web/upload/NNEditor/20241219/5BED9598EC9DB4EB9DBCEC9DB4ED84B05DEC8381EC84B8ED8E98EC9DB4ECA780_8_02.jpg",
+        "https://fwee.kr/web/upload/NNEditor/20241219/5BED9598EC9DB4EB9DBCEC9DB4ED84B05DEC8381EC84B8ED8E98EC9DB4ECA780_8_03.jpg",
+        "https://fwee.kr/web/upload/NNEditor/20241219/5BED9598EC9DB4EB9DBCEC9DB4ED84B05DEC8381EC84B8ED8E98EC9DB4ECA780_8_04.jpg"
+      ]
+    },
+    {
+      "brand": "romand",
+      "url": "https://romand.co.kr/product/detail.html?product_no=540",
+      "observed": "색별 볼·제형 비교 후 색상별 모델 룩, 피부·제형 근접 비교로 확장.",
+      "official_images_viewed": [
+        "https://cafe24.poxo.com/ec01/romand/6aDrbsrpgztyixM+aENnH1D89vbvN874SJZ0smDxiaa/k9zGF5hClK+Cdcc6Crl70h/a8RobAiR24eeOO4zRMg==/_/web/upload/NNEditor/20230904/EC8B9CEC8AA4EBA3A8EBB2A0EC9DBCEB9DBCEC9DB4ED84B0-EBA6ACEB89B4EC96BC-EC8381EC84B8ED8E98EC9DB4ECA780_01.jpg",
+        "https://cafe24.poxo.com/ec01/romand/6aDrbsrpgztyixM+aENnH1D89vbvN874SJZ0smDxiaa/k9zGF5hClK+Cdcc6Crl70h/a8RobAiR24eeOO4zRMg==/_/web/upload/NNEditor/20230904/EC8B9CEC8AA4EBA3A8EBB2A0EC9DBCEB9DBCEC9DB4ED84B0-EBA6ACEB89B4EC96BC-EC8381EC84B8ED8E98EC9DB4ECA780_02.jpg",
+        "https://cafe24.poxo.com/ec01/romand/6aDrbsrpgztyixM+aENnH1D89vbvN874SJZ0smDxiaa/k9zGF5hClK+Cdcc6Crl70h/a8RobAiR24eeOO4zRMg==/_/web/upload/NNEditor/20230904/EC8B9CEC8AA4EBA3A8EBB2A0EC9DBCEB9DBCEC9DB4ED84B0-EBA6ACEB89B4EC96BC-EC8381EC84B8ED8E98EC9DB4ECA780_04.jpg"
+      ]
+    }
+  ],
+  "interpretation": "Quick comparison and closer inspection of the skin result serve different viewing needs. This is a design interpretation, not measured conversion evidence.",
+  "implementation": {
+    "position": "Between shade comparison and texture",
+    "heading": "피부 위의 펄 컬러.",
+    "photos": "Original moonstone/pink/gold images; equal square frames with full source width, bottom alignment; wider cheek/nose/lip context than the small comparison crop.",
+    "captions": "Existing shade names and 아이시 화이트 / 밀키 핑크 / 베이지 골드 only.",
+    "preserved": "Existing comparison, shared geometry, original image bytes/colours, videos, skin information, commerce DOM and locked Cheek V12.",
+    "assets_added": 0
+  },
+  "size_at_390px": {
+    "before": 5207,
+    "after": 6617,
+    "new_section": 1410
+  },
+  "owner_design_acceptance": "pending",
+  "production_cafe24_changed": false,
+  "verification": {
+    "responsive_widths": [
+      320,
+      390,
+      600,
+      720,
+      800,
+      860,
+      1440
+    ],
+    "overflow": false,
+    "original_media_and_commerce_preserved": true,
+    "motion_controls_and_reduced_motion": true,
+    "integrated_product_and_narrow_container": true,
+    "new_photos": "Three equal square frames, each more than twice the comparison-card width; source URLs match the corresponding original shade images.",
+    "visual_review_widths": [
+      390,
+      860
+    ]
+  }
+}

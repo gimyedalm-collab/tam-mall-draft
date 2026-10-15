@@ -76,3 +76,9 @@ captures. Record sanitized findings and tests in `ops/cafe24`.
   the base; the sponge is for softening edges after application. Explain a small
   amount tapped on with fingertips, then optional sponge blending at visible
   edges. Do not promote rubbing/direct application or claim no base disturbance.
+
+- Owner approved the brand-evidenced on-skin expansion on 2026-10-15. Keep the
+  two-column comparison, then show the three original skin photos in equal
+  larger square frames revealing the wider cheek/nose context, before texture.
+  Use only colour names and short shade descriptions; no new claims or generated
+  skin evidence. This explicitly extends the previously reviewed shorter page.

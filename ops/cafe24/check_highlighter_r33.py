@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = Path('C:/Users/BNK-1/AppData/Local/Temp/highlighter-r33-review')
 OUT.mkdir(exist_ok=True)
 BASE = 'http://127.0.0.1:8876'
-EXPECTED = ['hero','glow','shades','texture','use','formula','ending','information']
+EXPECTED = ['hero','glow','shades','on-skin','texture','use','formula','ending','information']
 
 def check_sources():
     names = [('highlighter-r30/assets/',name) for name in ['product-trio.jpg','tam-moonstone.jpg','tam-pink.jpg','tam-gold.jpg','tam-pearl-detail.webp']]
@@ -67,6 +67,12 @@ async def main():
             assert values['shadeColumns']==2
             assert abs(values['shadeTops'][0]-values['shadeTops'][1])<1 and values['shadeTops'][2]>values['shadeTops'][1],values
             assert values['descriptionWidth']>=130,values
+            looks=page.locator('.h33-look-image')
+            assert await looks.count()==3
+            look_boxes=await looks.evaluate_all('(els)=>els.map(e=>({width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height}))')
+            comparison_width=await page.locator('.h33-cheek').first.evaluate('(e)=>e.getBoundingClientRect().width')
+            assert all(abs(box['width']-box['height'])<1 and box['width']>comparison_width*2 for box in look_boxes)
+            assert await page.locator('.h33-look-image img').evaluate_all('(els)=>els.map(e=>e.currentSrc)')==await page.locator('.h33-cheek img').evaluate_all('(els)=>els.map(e=>e.currentSrc)')
             assert values['ingredientColumns']==2
             assert all(abs(f['width']/f['height']-ratio)<.005 for f,ratio in zip(values['frames'],[860/1040,.8]))
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>getComputedStyle(v).objectFit==="contain")')
