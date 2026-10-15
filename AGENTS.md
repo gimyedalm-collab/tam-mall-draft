@@ -1,5 +1,7 @@
 # TAM Beauty store
 
+Current resume entry: `ops/cafe24/COMPACT-HANDOFF.md`. Latest owner instruction is rollback + cross-validation, not further redesign.
+
 For Cafe24 implementation and bug work, read
 `.agents/skills/tam-cafe24/SKILL.md` and `ops/cafe24/state.json` first.
 The user requested a dedicated Cafe24 worker; its configuration is

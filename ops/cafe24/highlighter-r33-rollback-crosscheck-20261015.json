@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-15",
+  "status": "rollback_public_verified_crosscheck_and_compact_handoff_complete",
+  "owner_request": "Roll back the latest version, cross-validate again, and compact the working context.",
+  "rollback": {
+    "baseline_commit": "678f30c",
+    "baseline_content_commit": "e5f525c",
+    "rejected_commit": "7a62cae",
+    "restoration_commit": "e49eeb2",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=e49eeb2",
+    "scope": "Immediate previous version restored. This restores the already-criticized arm/hand insert as part of exact rollback, not as a newly approved design."
+  },
+  "verification": {
+    "source_files_equal_baseline": [
+      "highlighter-r33/detail.css",
+      "highlighter-r33/detail.template.html",
+      "highlighter-r33/index.html",
+      "ops/cafe24/check_highlighter_r33.py",
+      "storefront-v2/preview/product-24.html",
+      "ops/cafe24/build_highlighter_r33.py",
+      "highlighter-r33/detail.js"
+    ],
+    "local_widths": [
+      320,
+      390,
+      600,
+      720,
+      800,
+      860,
+      1440
+    ],
+    "public_widths": [
+      320,
+      390,
+      860
+    ],
+    "public_routes": [
+      "highlighter-r33/",
+      "storefront-v2/preview/product-24.html"
+    ],
+    "public_asset_and_page_byte_matches": true,
+    "no_overflow": true,
+    "motion_reduced_motion_and_purchase_links": true,
+    "commerce_dom_unchanged": true,
+    "original_media_unchanged": true
+  },
+  "codex_crosscheck": {
+    "references": [
+      "Restored 390px whole page",
+      "Rejected 390px whole page",
+      "Approved Cheek V12 hero and colours at the same width",
+      "Owner instructions and exact Git diff"
+    ],
+    "findings": [
+      {
+        "kind": "observed",
+        "finding": "Latest revision changed page sequence, added an early product panel, added a different full-face photograph, removed the separate texture section, and replaced usage motion with a static product cutout. It was a broad composition change."
+      },
+      {
+        "kind": "visual_judgment",
+        "finding": "Grey studio portrait and static product block did not establish the same visual feel as approved Cheek despite matching typography/gutters. Matching box dimensions did not resolve source art direction."
+      },
+      {
+        "kind": "observed",
+        "finding": "Replacing application footage with a product cutout removed the visible contradiction, but did not demonstrate the recommended technique or provide better real swatch evidence."
+      },
+      {
+        "kind": "review_process",
+        "finding": "Earlier Claude prompt emphasized why the new design addressed objections, and showed the new design without the prior candidate and approved family side by side. A favorable review was overstated as confidence."
+      },
+      {
+        "kind": "scope_limit",
+        "finding": "Restored version still has previously criticized dark/warm arm and application-only hand footage. Rollback is not acceptance; no new aesthetic claims are made."
+      }
+    ],
+    "next_review_rule": "Freeze page sequence and source baseline. Compare one proposed source/section against the exact current section and approved brand reference before expanding edits. Keep functional checks, subjective design judgment and owner acceptance separate."
+  },
+  "production_cafe24_changed": false,
+  "compaction": {
+    "handoff_path": "ops/cafe24/COMPACT-HANDOFF.md",
+    "conversation_forced_compaction": "No callable conversation-compaction tool is exposed in this session. Do not claim runtime context was compacted."
+  },
+  "claude_crosscheck": {
+    "completed": true,
+    "session_persistence": false,
+    "inputs": "Restored A and rejected B whole-page contact sheets plus approved Cheek C hero/colour screenshots at 390px. Earlier reviews not supplied.",
+    "accepted_findings": [
+      "A retains dark/warm swatch mismatch and uncertain finished-result usefulness.",
+      "B removes swatch/texture/usage evidence while adding a different portrait/product treatment; checklist compliance does not establish purchase appeal.",
+      "Source roles and the approved family must be compared, not merely frame geometry."
+    ],
+    "not_adopted": [
+      "Identifying the hand-contact end as sponge from a poster: not established.",
+      "Calling the ON SKIN section two videos: it has one still and one video.",
+      "Saying A/B usage sections are identical: contradicted by the actual diff."
+    ],
+    "judgment_limit": "Still screenshots do not prove playback sequence or colour accuracy. Original source/decoded clip and Git checks were used separately."
+  }
+}
