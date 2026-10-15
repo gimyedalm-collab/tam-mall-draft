@@ -447,12 +447,14 @@
     "design_acceptance": "owner_review_pending"
   },
   "highlighter_final_review_20261015": {
-    "status": "three_codex_passes_and_one_claude_review_complete_caption_fix_local_verified",
+    "status": "three_codex_passes_one_claude_review_complete_fix_published_and_verified",
     "report": "ops/cafe24/highlighter-r33-final-review-20261015.json",
     "codex_review_passes": 3,
     "claude_review_passes": 1,
     "working_copy": "C:\\Users\\BNK-1\\Desktop\\tam-vegan-detail-publish",
     "page_modified": true,
-    "next_action": "Publish and verify the one-line footage/guide clarification; no further redesign recommended."
+    "next_action": "Final owner acceptance. No further redesign recommended; keep Cheek V12 locked. Cafe24 production remains unchanged.",
+    "published_commit": "40443fa",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=40443fa"
   }
 }

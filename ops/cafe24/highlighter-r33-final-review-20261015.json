@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "reviewed_source_commit": "93963b6",
-  "status": "three_codex_passes_and_one_claude_review_complete_caption_fix_local_verified",
+  "status": "three_codex_passes_one_claude_review_complete_fix_published_and_verified",
   "page_modified_in_review": true,
   "passes": [
     {
@@ -66,7 +66,7 @@
     "adjudication": "Keep current owner-directed copy and dimensions. Do not adopt the proposed new formula slogan. Existing separate guide block is sufficient once the footage is labeled.",
     "limits": "Footage reviewed through three decoded frames; no actual cosmetics performance or device colour validation."
   },
-  "judgment": "The three self-review passes and one Claude review are complete. Retain current design and copy; required footage/guide clarification applied. Ready for owner final acceptance after public verification; no additional rewrite recommended.",
+  "judgment": "Three self-review passes and one Claude review complete; required footage/guide caption clarification published and verified. Ready for owner final acceptance. No further redesign or copy expansion recommended.",
   "conversion_or_purchase_lift_measured": false,
   "resolution": {
     "change": "Replaced use-video shade-return link with 실제 사용 장면 · 권장 사용법은 아래에.",
@@ -77,6 +77,8 @@
       "Cheek V12",
       "All other current page copy/layout"
     ],
-    "verification": "Local standalone/integrated checks at 320/390/860px passed; 320px use screenshot visually reviewed."
-  }
+    "verification": "Local standalone/integrated checks at 320/390/860px passed; 320px use screenshot visually reviewed.",
+    "public_verification": "Standalone and integrated pages passed caption/guidance/retained hero link/no-overflow checks at 320/390/860px."
+  },
+  "published_fix_commit": "40443fa"
 }
