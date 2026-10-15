@@ -125,3 +125,7 @@ application followed by sponge blending only where the edge is visible. Do not
 claim that the formula cannot disturb base makeup. Preserve approved footage.
 Mobile shade descriptions use a 14px minimum and tone recommendations 13px,
 with darker text; retain the shared image dimensions and layout.
+
+Owner rejected the abstract closing line on 2026-10-15. Current ending copy:
+화이트 · 핑크 · 골드, / 내게 어울리는 펄 컬러. Keep the original product trio
+and selection link; do not restore 오늘의 메이크업에, 마음에 드는 빛 하나.
