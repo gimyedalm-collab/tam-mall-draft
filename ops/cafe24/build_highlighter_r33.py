@@ -10,14 +10,15 @@ old_info = BeautifulSoup((ROOT/'highlighter-r32/product-information.html').read_
 old_info.h1.decompose()
 information = old_info.decode_contents()
 shades = [
-    ('01','문스톤','MOONSTONE','moonstone','아이시 화이트','맑고 시원하게 빛나는 화이트 펄.'),
-    ('02','구미 핑크','GUMMY PINK','pink','밀키 핑크','부드러운 핑크빛으로 더하는 생기.'),
-    ('03','테디 골드','TEDDY GOLD','gold','베이지 골드','따뜻한 윤기가 감도는 골드 펄.'),
+    ('01','문스톤','MOONSTONE','moonstone','아이시 화이트','밝고 시원한 포인트가 끌리는 날.','쿨톤 추천'),
+    ('02','구미 핑크','GUMMY PINK','pink','밀키 핑크','핑크 메이크업에 생기를 더할 때.','쿨 · 뉴트럴톤 추천'),
+    ('03','테디 골드','TEDDY GOLD','gold','베이지 골드','베이지 · 브라운 룩에 따뜻한 빛.','웜 · 뉴트럴톤 추천'),
 ]
-cards = ''.join('''<figure class="h33-shade"><figcaption><h3>%(n)s %(name)s</h3><p class="h33-shade-en">%(en)s</p></figcaption><div class="h33-cheek"><img src="{{old}}tam-%(key)s.jpg" width="2819" height="3524" loading="lazy" alt="%(name)s 원본 피부 발색"></div><div class="h33-shade-summary"><div class="h33-shade-texture"><img src="{{assets}}shade-%(key)s.webp" loading="lazy" alt="%(name)s 실제 제형"></div><div><p class="h33-tone">%(tone)s</p><p class="h33-shade-description">%(description)s</p></div></div></figure>''' % dict(n=n,name=name,en=en,key=key,tone=tone,description=description) for n,name,en,key,tone,description in shades)
+cards = ''.join('''<figure class="h33-shade"><figcaption><h3>%(n)s %(name)s</h3><p class="h33-shade-en">%(en)s</p></figcaption><div class="h33-cheek"><img src="{{old}}tam-%(key)s.jpg" width="2819" height="3524" loading="lazy" alt="%(name)s 원본 피부 발색"></div><div class="h33-shade-summary"><div class="h33-shade-texture"><img src="{{assets}}shade-%(key)s.webp" loading="lazy" alt="%(name)s 실제 제형"></div><div><p class="h33-tone">%(tone)s</p><p class="h33-shade-description">%(description)s</p><p class="h33-shade-match">%(match)s</p></div></div></figure>''' % dict(n=n,name=name,en=en,key=key,tone=tone,description=description,match=match) for n,name,en,key,tone,description,match in shades)
 template = template.replace('{{shades}}',cards).replace('{{information}}',information)
 def content(prefix):
-    return template.replace('{{old}}',prefix+'highlighter-r30/assets/').replace('{{motion}}',prefix+'highlighter-r32/assets/').replace('{{assets}}',prefix+'highlighter-r33/assets/')
+    choose = '#purchase-options' if prefix=='../../' else '../storefront-v2/preview/product-24.html#purchase-options'
+    return template.replace('{{old}}',prefix+'highlighter-r30/assets/').replace('{{motion}}',prefix+'highlighter-r32/assets/').replace('{{assets}}',prefix+'highlighter-r33/assets/').replace('{{choose}}',choose)
 def revision(name):
     return hashlib.sha256((OUT/name).read_text(encoding='utf-8').encode()).hexdigest()[:12]
 css, js = revision('detail.css'), revision('detail.js')

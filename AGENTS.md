@@ -56,3 +56,13 @@ captures. Record sanitized findings and tests in `ops/cafe24`.
   See `ops/cafe24/highlighter-r33-spec-alignment-20261015.json` for measured
   before/after evidence. Owner design acceptance is pending; passing browser
   checks does not constitute that acceptance.
+
+- Later on 2026-10-15 the owner rejected the lack of purchase appeal and asked
+  for all target-brand persuasion patterns to inform TAM's USP. Keep the shared
+  geometry, but lead with the actual on-skin glow video in the hero; the product
+  trio belongs at the closing selection step. Explain the makeup occasion for
+  each shade, then texture, amount/placement and lower-priority formula support.
+  See `ops/cafe24/highlighter-r33-usp-20261015.json` and
+  `highlighter-r33/review/usp-review-20261015.html`. Do not restore the opening
+  specification strip or present three shades/stick/vegan as exclusive features.
+  The current proposal still awaits owner acceptance of its purchase appeal.

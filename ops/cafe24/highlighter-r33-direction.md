@@ -85,3 +85,28 @@ about conversion or bounce rate. Keep source media colours unchanged.
 
 See `highlighter-r33-spec-alignment-20261015.json` and the two review sheets in
 `highlighter-r33/review/`. This candidate still awaits owner visual acceptance.
+
+## Purchase motivation revision · 2026-10-15
+
+The owner found the aligned page unpersuasive and requested a review of every
+target brand's selling logic, followed by application to TAM's actual USP.
+Reviewed all five positioning targets (hince, fwee, rom&nd, AMUSE, Dinto), the
+two additional prior store references (Laka, 3CE), and five category references
+(Glint, MERIT, Rare Beauty, CHANEL, Westman Atelier). Observed pages and inferred
+persuasion purposes are recorded separately; no conversion uplift is claimed.
+
+Lead with a wanted makeup result: pearl light on cheekbones and the bridge of
+the nose, with white/pink/gold chosen for the desired makeup. The actual glow
+footage now occupies the existing 860:1040 hero frame; the original product
+trio moves to the closing 860:650 frame. The repeated glow header and opening
+three-feature specification strip are removed. Hero headline: 광대 위에 톡,
+빛나는 입체감. At 390px, on-skin footage begins at 322px instead of 1092px.
+
+Keep the Cheek-aligned image geometry and original source colours. Add practical
+shade occasion/established tone recommendations, amount/pearl FAQs and a closing
+link to the real preview purchase-options area. Formula/vegan remain supporting
+information. No proprietary texture, no-sparkle, pore/creasing, duration or new
+certification claims. Three shades, stick format and vegan are not exclusive.
+
+Reference report: `highlighter-r33-usp-20261015.json`. Owner design acceptance
+and actual purchase intent remain unverified. GitHub preview only.

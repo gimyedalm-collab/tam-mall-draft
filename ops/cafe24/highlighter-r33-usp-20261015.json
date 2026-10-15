@@ -1,0 +1,478 @@
+{
+  "date": "2026-10-15",
+  "scope": "기존 브랜드 기획서 핵심 5개 전부, 기존 공식몰 비교군 2개, 직접·해외 하이라이터 비교군 5개. 대표 제품/콜렉션을 검토했으며 전 제품 조사나 실사용 시험은 아님.",
+  "interpretation": "why는 관찰한 페이지에 근거한 기획적 해석이며 브랜드의 내부 의도나 실제 고객 구매동기를 조사한 결과가 아님.",
+  "brands": [
+    {
+      "name": "힌스",
+      "group": "핵심 타겟",
+      "url": "https://hince.co.kr/product/detail.html?product_no=776",
+      "product": "트루 디멘션 래디언스 밤",
+      "observed": "시즌 메이크업 얼굴과 제품을 먼저 제시. 제형·볼 발색을 짝짓고, 부위별 사용법으로 연결.",
+      "why": "고객이 완성된 분위기를 먼저 원하게 하고, 그 분위기를 만들 색과 방법을 뒤에서 고르게 하는 구성.",
+      "apply": "실제 광채 영상을 첫 화면으로 이동. 동일 색의 피부 발색과 제형을 붙여 보여줌.",
+      "exclude": "타사 볼륨·보습 효능, 시즌 색감이나 촬영 구도 복제.",
+      "checked": "현재 공식 상세 이미지 02·04·05·06·10·15 및 제품 페이지"
+    },
+    {
+      "name": "퓌",
+      "group": "핵심 타겟",
+      "url": "https://fwee.kr/product/detail.html?product_no=206",
+      "extra": "https://fwee.us/products/glitz-stone-highlighter",
+      "product": "글리츠 스톤 하이라이터",
+      "observed": "탄생석에서 출발한 12색, 서로 다른 펄 표현, 일상·화려한 메이크업 선택 안내. 제형과 피부 스와치를 강조.",
+      "why": "반짝임을 숨길 결점이 아닌 취향으로 제시하고, 컬러를 고르는 즐거움과 소장 욕구를 만드는 구성.",
+      "apply": "TAM도 실제 펄을 분명히 보여줌. 화이트·핑크·골드 각각을 원하는 메이크업 장면과 연결.",
+      "exclude": "탄생석 이야기, 12색 컬러 맵, 타사 품평 수치.",
+      "checked": "국내 상세 이미지와 글로벌 공식 설명·컬러 차트"
+    },
+    {
+      "name": "롬앤",
+      "group": "핵심 타겟",
+      "url": "https://romand.co.kr/product/detail.html?product_no=540",
+      "product": "시스루 베일라이터",
+      "observed": "제품 특성 요약 뒤 색별 얼굴·제형, 완성된 모델 룩을 제시. 텁텁함·요철 같은 망설임을 다룸.",
+      "why": "원하는 색의 결과를 상상하게 하면서 실패할까 하는 걱정을 줄이려는 구성.",
+      "apply": "색 이름 아래 사용 장면과 톤 추천. 처음 사용할 때 소량부터 조절하는 안내.",
+      "exclude": "TAM에서 검증하지 않은 요철 부각 없음·덧발라도 텁텁함 없음.",
+      "checked": "현재 공식 상세 01·02·04 이미지"
+    },
+    {
+      "name": "어뮤즈",
+      "group": "핵심 타겟",
+      "url": "https://amusemakeup.com/product/detail.html?product_no=1075",
+      "product": "듀 세럼 리퀴드 블러쉬 (인접 카테고리)",
+      "observed": "광채가 보이는 얼굴과 손에 든 제품으로 시작. 세럼 제형·생기 있는 결과·선택 가능한 색을 연결.",
+      "why": "제형이라는 특징을 만지고 싶은 질감과 바르고 싶은 얼굴로 번역하는 구성.",
+      "apply": "스틱·비건 스펙 목록을 첫 화면에서 제거. 실제 펄과 부드러운 제형은 각각 영상·사진으로 설명.",
+      "exclude": "타사 세럼 비율, 기능성, 베이스 까짐 제로.",
+      "checked": "현재 공식 상세 01·03·06·08 이미지; 하이라이터와 동일 제형으로 간주하지 않음"
+    },
+    {
+      "name": "딘토",
+      "group": "핵심 타겟",
+      "url": "https://dinto.co.kr/product/detail.html?product_no=81",
+      "extra": "https://www.dinto.co.kr/collection/view.html?cate_no=55&display_group=1&product_no=213",
+      "product": "블러글로이 립틴트 / 콜렉션 (브랜드 언어 참고)",
+      "observed": "콜렉션 서사·컬러 이름·모델 룩 뒤에 광택, 발림, 유지력 등 제품 특징을 연결.",
+      "why": "색을 고르는 일을 개인 취향과 정체성의 선택으로 확장하는 구성.",
+      "apply": "기존 문스톤·구미 핑크·테디 골드 이름을 유지하고, 색마다 사용할 날의 메이크업을 설명.",
+      "exclude": "새 문학 세계관, 긴 감성 서사, 타사 지속력 주장.",
+      "checked": "현재 공식 상세 이미지와 콜렉션 설명"
+    },
+    {
+      "name": "라카",
+      "group": "기존 공식몰 비교군",
+      "url": "https://lakacosmetics.com/product/detail.html?product_no=167",
+      "product": "드림빔 하이라이터",
+      "observed": "3색 제품 정물, 빛의 인상 설명, 팔 위 세 색 스와치를 순서대로 제시.",
+      "why": "추상적인 광채 이야기를 눈으로 구분할 수 있는 색으로 연결해 선택 부담을 줄이는 구성.",
+      "apply": "3색은 독점적 차별점으로 주장하지 않고, 실제 색과 선택 안내를 구체화.",
+      "exclude": "라카의 색상명·광채 별명·포장 연출.",
+      "checked": "공식 목록과 직접 가져온 상세 01·02·03 이미지; 웹 텍스트 도구의 상세 접근은 실패"
+    },
+    {
+      "name": "3CE",
+      "group": "기존 공식몰 비교군",
+      "url": "https://www.3cecosmetics.co.kr/all-products/face/blush-and-shading/blush/3ce-blushlighter",
+      "product": "블러쉬라이터",
+      "observed": "블러셔와 하이라이터의 조합, 얼굴 근접 사진과 완성된 모델 룩을 제시. 매트·광택의 분위기 차이를 설명.",
+      "why": "단독 제품의 성질보다 메이크업 조합의 완성 모습을 사고 싶게 만드는 설명.",
+      "apply": "색별 메이크업 장면과 메이크업 마지막 사용 위치를 함께 제시.",
+      "exclude": "듀얼 팔레트 구성이나 타사 룩·사진 복제.",
+      "checked": "공식 제품 설명 및 현재 상세 이미지 01·03 직접 시각 검토"
+    },
+    {
+      "name": "글린트",
+      "group": "직접 제품 비교군",
+      "url": "https://glintbeauty.co.kr/product/글린트-스틱-하이라이터/76/",
+      "product": "스틱 하이라이터",
+      "observed": "미세펄의 광 표현과 보습광, 간편한 스틱 사용을 연결. 사용 도구에 따른 표현 차이도 설명.",
+      "why": "원하는 마무리와 그 결과를 만드는 행동을 함께 이해시키는 구성.",
+      "apply": "펄의 결과를 먼저, 소량씩 두드리는 사용법을 뒤에 배치.",
+      "exclude": "타사의 보습광·미세펄 특성을 TAM에 대입하거나 내장 스펀지를 USP로 복귀.",
+      "checked": "공식 제품 설명과 사용법"
+    },
+    {
+      "name": "MERIT",
+      "group": "기존 해외 제품 비교군",
+      "url": "https://www.meritbeauty.com/products/day-glow",
+      "product": "Day Glow",
+      "observed": "낮에 쓰는 자연스러운 마무리를 명시. 색별 얼굴·손끝·팔 발색과 사용 부위·블렌딩을 연결.",
+      "why": "언제 쓰는 제품인지 명확하게 해 일상에 들어갈 이유를 만드는 구성.",
+      "apply": "TAM은 펄 포인트를 원하는 날의 제품으로 설명하고 실제 반짝임을 보여줌.",
+      "exclude": "눈에 보이는 반짝임이 없는 마무리라는 타사 특징.",
+      "checked": "현재 공식 설명·FAQ·이미지 설명"
+    },
+    {
+      "name": "Rare Beauty",
+      "group": "기존 해외 제품 비교군",
+      "url": "https://www.rarebeauty.com/products/positive-light-liquid-luminizer-1",
+      "product": "Positive Light Liquid Luminizer",
+      "observed": "조절 가능한 광채, 색 선택, 소량 도포와 블렌딩 안내, 완성된 룩을 연결.",
+      "why": "원하는 강도로 조절할 수 있다는 감각과 쉽게 따라 할 방법을 전달.",
+      "apply": "손끝에 소량을 묻혀 시작하고 거울로 보며 더하는 안내. 마지막에 실제 컬러 선택 영역으로 연결.",
+      "exclude": "리퀴드의 방울 수 규칙·타사 지속력·모든 베이스와의 호환성.",
+      "checked": "현재 공식 제품 설명과 사용법"
+    },
+    {
+      "name": "CHANEL",
+      "group": "기존 해외 제품 비교군",
+      "url": "https://www.chanel.com/kr/makeup/p/169050/baume-essentiel-multi-use-glow-stick/",
+      "product": "바움 에쌍씨엘",
+      "observed": "색마다 빛의 인상을 짧게 설명하고 빛 받는 얼굴 부위와 입체감 표현을 연결.",
+      "why": "광채라는 추상어를 얼굴의 특정 위치와 완성 결과로 이해시키는 설명.",
+      "apply": "광대와 콧대 각각을 어떤 효과를 원하는 때 쓰는지 설명.",
+      "exclude": "TAM에 확인되지 않은 입술·눈꺼풀 사용 범위.",
+      "checked": "현재 한국 공식 제품 설명·사용법·쉐이드 설명"
+    },
+    {
+      "name": "Westman Atelier",
+      "group": "기존 해외 제품 비교군",
+      "url": "https://www.westman-atelier.com/products/lit-up-highlight-stick-brulee",
+      "product": "Lit Up Highlight Stick",
+      "observed": "관리받은 듯한 피부 인상과 광택 마무리를 먼저 설명하고, 컬러별 결과·사용법·성분으로 이어짐.",
+      "why": "성분을 읽기 전에 갖고 싶은 피부 인상을 제시해 제품의 목적을 분명히 함.",
+      "apply": "원하는 메이크업 결과를 첫 화면에, 성분과 비건은 하단 보조 정보로 이동.",
+      "exclude": "피부 탄력·관리 효과, 타사의 유리광 마무리.",
+      "checked": "현재 공식 제품 설명·쉐이드 안내·FAQ"
+    }
+  ],
+  "diagnosis": [
+    "은은한 광채라는 범용 표현이 실제 보이는 펄 특성을 약화함.",
+    "3색·스틱·비건을 구매 이유처럼 나열했지만 각각은 경쟁사에도 있는 특징.",
+    "얼굴 위 결과가 모바일 첫 화면 아래 1092px에 있어 원하는 모습을 늦게 보여줌.",
+    "색 이름은 있어도 어떤 메이크업에 고르면 좋은지 부족했고, 사용량에 대한 망설임을 해소하지 못함."
+  ],
+  "positioning": "광대와 콧대에 화이트·핑크·골드 펄을 더해 메이크업에 입체적인 포인트를 주는 부드러운 스틱 하이라이터.",
+  "claim_boundary": "3색·스틱·비건·텍스처는 독점 기술이 아니다. 조합의 매력, 실제 발색, 선택의 쉬움을 소구. 기존 기획서의 텍스처 시장 공백 주장은 채택하지 않음.",
+  "changes": [
+    "실제 광채 영상을 첫 화면으로 이동하고 정물은 마지막 선택 단계로 이동.",
+    "히어로를 광대 위에 톡, 빛나는 입체감으로 변경.",
+    "색별 사용 장면·기존 공식 톤 추천을 사진 아래 연결.",
+    "사용 부위를 원하는 결과와 함께 설명하고 펄감·초기 사용량 문답 추가.",
+    "비건·성분은 하단 보조 정보로 유지. 마무리에 실제 컬러 선택 영역으로 이동하는 버튼 추가."
+  ],
+  "preserved": [
+    "치크 V12 전체",
+    "2열 발색 사진과 3번째 중앙 정렬",
+    "히어로·발색·제형·성분·엔딩 프레임 크기",
+    "모든 원본 미디어 파일과 색상",
+    "제품 고시·기존 구매/옵션 영역"
+  ],
+  "status": "local_checks_passed_publication_pending",
+  "design_acceptance": "owner_review_pending",
+  "production_cafe24_changed": false,
+  "verification": [
+    {
+      "width": 320,
+      "first_result_video": {
+        "top": 322.09375,
+        "height": 386.96875
+      },
+      "faq_keyboard": true,
+      "shade_anchor": true,
+      "standalone_and_integrated_choice_links": true
+    },
+    {
+      "width": 390,
+      "first_result_video": {
+        "top": 322.09375,
+        "height": 471.625
+      },
+      "faq_keyboard": true,
+      "shade_anchor": true,
+      "standalone_and_integrated_choice_links": true
+    },
+    {
+      "width": 860,
+      "first_result_video": {
+        "top": 566.359375,
+        "height": 1040
+      },
+      "faq_keyboard": true,
+      "shade_anchor": true,
+      "standalone_and_integrated_choice_links": true
+    }
+  ],
+  "regression": [
+    {
+      "width": 320,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 320,
+          "height": 386.96875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 284.1875,
+          "height": 355.234375,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 320,
+      "shadeColumns": 2,
+      "shadeTops": [
+        -3154.9375,
+        -3154.9375,
+        -2773.890625
+      ],
+      "descriptionWidth": 135.09375,
+      "ingredientColumns": 2,
+      "height": 5091
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 390,
+          "height": 471.625,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 346.34375,
+          "height": 432.921875,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 390,
+      "shadeColumns": 2,
+      "shadeTops": [
+        -3333.28125,
+        -3333.28125,
+        -2929.625
+      ],
+      "descriptionWidth": 166.171875,
+      "ingredientColumns": 2,
+      "height": 5354
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11,
+      "frames": [
+        {
+          "width": 600,
+          "height": 725.578125,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 522,
+          "height": 652.5,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 600,
+      "shadeColumns": 2,
+      "shadeTops": [
+        -4944.203125,
+        -4944.203125,
+        -4381.609375
+      ],
+      "descriptionWidth": 249,
+      "ingredientColumns": 2,
+      "height": 7482
+    },
+    {
+      "width": 720,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 11.736,
+      "frames": [
+        {
+          "width": 720,
+          "height": 870.6875,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 626.40625,
+          "height": 783,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 720,
+      "shadeColumns": 2,
+      "shadeTops": [
+        -5678.59375,
+        -5678.59375,
+        -5024.015625
+      ],
+      "descriptionWidth": 301.203125,
+      "ingredientColumns": 2,
+      "height": 8432
+    },
+    {
+      "width": 800,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 13.04,
+      "frames": [
+        {
+          "width": 800,
+          "height": 967.4375,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 696,
+          "height": 870,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 800,
+      "shadeColumns": 2,
+      "shadeTops": [
+        -6179.28125,
+        -6179.28125,
+        -5463.4375
+      ],
+      "descriptionWidth": 336,
+      "ingredientColumns": 2,
+      "height": 9078
+    },
+    {
+      "width": 860,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 14,
+      "frames": [
+        {
+          "width": 860,
+          "height": 1040,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 748.21875,
+          "height": 935.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 860,
+      "shadeColumns": 2,
+      "shadeTops": [
+        -6551.59375,
+        -6551.59375,
+        -5789.703125
+      ],
+      "descriptionWidth": 362.109375,
+      "ingredientColumns": 2,
+      "height": 9558
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "panels": [
+        "hero",
+        "glow",
+        "shades",
+        "texture",
+        "use",
+        "formula",
+        "ending",
+        "information"
+      ],
+      "shades": 3,
+      "videos": 2,
+      "minNote": 14,
+      "frames": [
+        {
+          "width": 860,
+          "height": 1040,
+          "expected": 0.8311111111111111
+        },
+        {
+          "width": 748.21875,
+          "height": 935.265625,
+          "expected": 0.8201754385964912
+        }
+      ],
+      "rootWidth": 860,
+      "shadeColumns": 2,
+      "shadeTops": [
+        -6551.59375,
+        -6551.59375,
+        -5789.703125
+      ],
+      "descriptionWidth": 362.109375,
+      "ingredientColumns": 2,
+      "height": 9558
+    },
+    {
+      "sources": "Original hero, shade photos, two videos and pearl animation unchanged; existing product information text preserved.",
+      "motion": "Autoplay, persistent user pause, reduced-motion initial stills, explicit video and animated-image play/pause passed.",
+      "integration": "Scoped native detail, no iframe; original commerce DOM preserved; colour and purchase return anchors work."
+    }
+  ]
+}

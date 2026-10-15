@@ -40,7 +40,7 @@ async def main():
                     formula:box(h?'.h33-formula-art, .h33-ingredient-feature>img':'.c12-formula-art'),
                     ending:box('.'+prefix+'-ending-visual'),
                     betweenGlowAndShades:video&&shade?shade.getBoundingClientRect().top-video.getBoundingClientRect().bottom:null,
-                    glowHeadingBeforeVideo:h?q('.h33-heading').getBoundingClientRect().top<video.getBoundingClientRect().top:null};
+                    glowHeadingBeforeVideo:h?q('.h33-hero h2').getBoundingClientRect().top<video.getBoundingClientRect().top:null};
                 }''',{'root':root,'prefix':prefix})
                 row.update(name=name,width=width);rows.append(row)
                 for panel in ['hero','shades' if name=='highlighter' else 'colours','formula','ending']:

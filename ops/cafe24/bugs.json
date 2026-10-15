@@ -216,6 +216,24 @@
       ],
       "evidence": "highlighter-r33-spec-alignment-20261015.json",
       "retest": "Exact 390/860 geometry comparison passed; seven-width regression, narrow-container, original-media, motion and commerce preservation checks passed."
+    },
+    {
+      "id": "TAM-HIGHLIGHTER-PURCHASE-MOTIVE-20261015",
+      "type": "owner_reported_design_issue",
+      "priority": "P1",
+      "status": "revised_candidate_owner_review_pending",
+      "route": "highlighter-r33/ and product-24.html",
+      "actual": "Matched geometry but generic glow/spec copy, delayed on-skin result and weak shade/use motivation.",
+      "expected": "Real product result and clear reason to choose each shade, informed by all documented target brands.",
+      "fix": [
+        "실제 광채 영상을 첫 화면으로 이동하고 정물은 마지막 선택 단계로 이동.",
+        "히어로를 광대 위에 톡, 빛나는 입체감으로 변경.",
+        "색별 사용 장면·기존 공식 톤 추천을 사진 아래 연결.",
+        "사용 부위를 원하는 결과와 함께 설명하고 펄감·초기 사용량 문답 추가.",
+        "비건·성분은 하단 보조 정보로 유지. 마무리에 실제 컬러 선택 영역으로 이동하는 버튼 추가."
+      ],
+      "evidence": "highlighter-r33-usp-20261015.json",
+      "retest": "Seven responsive widths, exact family media geometry, source/commerce preservation plus new anchor and keyboard FAQ checks passed. Purchase appeal requires owner judgment; conversion unmeasured."
     }
   ]
 }

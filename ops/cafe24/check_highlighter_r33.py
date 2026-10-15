@@ -68,7 +68,7 @@ async def main():
             assert abs(values['shadeTops'][0]-values['shadeTops'][1])<1 and values['shadeTops'][2]>values['shadeTops'][1],values
             assert values['descriptionWidth']>=130,values
             assert values['ingredientColumns']==2
-            assert all(abs(f['width']/f['height']-.8)<.005 for f in values['frames'])
+            assert all(abs(f['width']/f['height']-ratio)<.005 for f,ratio in zip(values['frames'],[860/1040,.8]))
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>getComputedStyle(v).objectFit==="contain")')
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>v.paused&&!v.getAttribute("src"))')
             assert (await page.locator('.h33-macro img').get_attribute('src')).endswith('.jpg')
