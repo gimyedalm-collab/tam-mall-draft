@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-15",
+  "status": "local_verified_cross_review_pending",
+  "baseline": "f061e7f",
+  "owner_request": "Current swatches are good, but dark background looks dirty. Review other sources or edit; retain image-only scope.",
+  "source_review": {
+    "additional_edited_videos": 20,
+    "earlier_clean_videos": 9,
+    "finding": "Additional official arm frame in 01.aep.mp4 has warmer skin and embedded labels; other edits mostly reuse footage or face application. Kept original three-colour arm and finished palm segments rather than introducing mismatched faces.",
+    "excluded": "컷편집 완료.mp4 in creator_highlighter folder is Cheek footage, not highlighter."
+  },
+  "selected_edit": {
+    "arm": "Native SVG background and silhouette clip wrapping byte-identical existing JPEG; actual foreground raster not regenerated, recoloured or retouched.",
+    "palm": "Per-frame background matte and solid off-white compositing at original crop, 24fps and79frames. Original opaque skin/pearl footage retained before web re-encoding.",
+    "background": "#faf8f6",
+    "colour_or_exposure_filters": false,
+    "skin_retouch": false,
+    "pearl_regeneration": false,
+    "timing_or_crop_changes": false,
+    "poster_seconds": 1.65,
+    "builder": "ops/cafe24/build_highlighter_swatch_background.py"
+  },
+  "rejected_trials": [
+    {
+      "kind": "Built-in ImageGen background edit",
+      "result": "Rejected: although background cleaner, pearl fine texture and channel means changed. Output not used on page.",
+      "prompt": "Replace ONLY grey tabletop and brown cast shadow with #faf8f6; preserve actual skin, all three swatches, colours, reflectance, texture, shape, placement, anatomy, scale and crop; no relighting, retouching or sparkle changes."
+    },
+    {
+      "kind": "Tighter palm crop",
+      "result": "Rejected: enlarged skin creases and metallic appearance; retain original framing."
+    },
+    {
+      "kind": "Initial silhouette matte",
+      "result": "Rejected: threshold removed a dark skin fold; restored foreground fold in final matte before publication."
+    }
+  ],
+  "verification": {
+    "arm_original_embedded_bytes_equal": true,
+    "video_frames": 79,
+    "video_protected_roi_fully_opaque": true,
+    "video_roi_rgb_encoding_mae_mean": 2.408725494070898,
+    "video_roi_rgb_encoding_mae_max": 2.9401018619537354,
+    "roi_xywh": [
+      300,
+      320,
+      240,
+      300
+    ],
+    "scope": "All template/standalone/product24 bytes match f061e7f after substituting only3assetURLs and normalizing line endings. No copy/CSS/JS/builder/locked product102/product118 changes.",
+    "responsive_widths": [
+      320,
+      390,
+      600,
+      720,
+      800,
+      860,
+      1440
+    ],
+    "motion_and_reduced_motion": true,
+    "commerce_preserved": true,
+    "public": "pending"
+  },
+  "assets": {
+    "arm-three-pearls-clean-261015.svg": {
+      "bytes": 199195,
+      "sha256": "4b4354479a5b8a47cfebe9a433652555b304f5b1a8ef5658e57a0fcac8abb0a7"
+    },
+    "palm-pearl-clean-261015.mp4": {
+      "bytes": 1449705,
+      "sha256": "18d46de918f94f13a3b930f937e4b67e1e3fd6cfbe893244cf448e04eb6ea034"
+    },
+    "palm-pearl-clean-poster-261015.jpg": {
+      "bytes": 62637,
+      "sha256": "1035e7d405e2155dcd08d66b449ba04bd8e7c57f63e84285dec9f558008b989c"
+    }
+  },
+  "production_cafe24_changed": false,
+  "owner_design_acceptance": "pending"
+}

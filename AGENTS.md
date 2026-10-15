@@ -142,3 +142,15 @@ No other section, typography, geometry, heading, body copy or media changed.
 See `ops/cafe24/highlighter-r33-image-only-20261015.json`. Public source commit
 171894c. This is a candidate, not owner design approval. Keep source review
 limits separate from technical QA and Claude opinion. Do not reapply 7a62cae.
+
+## ACTIVE OVERRIDE: original swatch background cleanup · 2026-10-15
+
+Owner liked the two-source revision but called the dark background dirty-looking,
+and authorized reviewing other sources and editing. Keep the exact image-only
+scope, including every caption and layout. Current candidate cleans only the
+backdrop and cast shadow of the same original arm/palm footage. Native SVG wraps
+the byte-identical arm JPEG with a silhouette clip; video uses a per-frame matte
+over pale off-white, preserving foreground before encoding. No exposure/colour
+or pearl/skin retouch. An ImageGen background attempt was rejected because it
+changed pearl microtexture; it is not a published asset. See
+`ops/cafe24/highlighter-r33-background-cleanup-20261015.json` and current state.
