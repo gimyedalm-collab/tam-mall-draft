@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-15",
+  "baseline": "0990a24",
+  "status": "local_verified_ready_to_publish",
+  "owner_instruction": "Apply the option judged best after explaining candidate1 left skin swatch + candidate3 right texture photograph in the existing two frames.",
+  "scope": "Only ON SKIN media and corresponding factual caption/alt. Remove palm video/control/data-motion. Preserve other sections including formula, CSS, JS, geometry and headings.",
+  "selection": {
+    "left": "Candidate1 official three-shade arm photo, unchanged source bytes including original shade labels.",
+    "right": "Candidate3 official product/texture photo, unchanged source bytes.",
+    "rejected": "Candidate2 palm footage: owner dislikes visible skin creases.",
+    "ai": "Two AI cleanup previews not selected due to fine texture and colour drift. No generated swatch used."
+  },
+  "assets": {
+    "official-arm-three-shades-261015.jpg": {
+      "sha256": "6f4542fc20065f58547e7f7abfd6a3e524cb8e8fd50556525d9f48863d4d5d18",
+      "bytes": 1794942
+    },
+    "official-three-pearl-textures-261015.jpg": {
+      "sha256": "aec9221bf2ab5b89fe0f80a10d5f9ffdb1a3fd353ad5f6d3ecd48d3a6a349b02",
+      "bytes": 3647805
+    }
+  },
+  "outside_on_skin_exact_equality": true,
+  "owner_visual_acceptance": "pending",
+  "production_cafe24_changed": false,
+  "verification": {
+    "local": "7 widths320/390/600/720/800/860/1440; existing motion controls and commerce shell passed. ON SKIN has2stills, no stale video/button/data-motion.",
+    "visual": "Inspected390px and860px section captures.4:5frames, equal sizes, unchanged total page heights5681px at390 and10187px at860.",
+    "source": "Both new JPEG files match official source bytes. Other HTML outside ON SKIN, CSS and JS match baseline exactly."
+  }
+}

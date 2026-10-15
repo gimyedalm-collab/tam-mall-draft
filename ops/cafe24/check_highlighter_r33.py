@@ -62,7 +62,7 @@ async def main():
               ingredientColumns:getComputedStyle(document.querySelector('.h33-ingredient-grid')).gridTemplateColumns.split(' ').length,
               height:document.documentElement.scrollHeight})''')
             assert not values['overflow'] and not errors,(values,errors)
-            assert values['panels']==EXPECTED and values['shades']==3 and values['videos']==3
+            assert values['panels']==EXPECTED and values['shades']==3 and values['videos']==2
             assert values['minNote']>=11
             assert values['shadeColumns']==2
             assert abs(values['shadeTops'][0]-values['shadeTops'][1])<1 and values['shadeTops'][2]>values['shadeTops'][1],values
@@ -72,9 +72,12 @@ async def main():
             assert len(swatches)==2 and abs(swatches[0]['top']-swatches[1]['top'])<1
             assert all(abs(f['width']/f['height']-.8)<.005 for f in swatches)
             assert abs(swatches[0]['width']-swatches[1]['width'])<1
-            assert (await page.locator('.h33-swatch-frame img').get_attribute('src')).endswith('arm-three-pearls-clean-261015.svg')
+            assert await page.locator('.h33-swatch-frame img').count()==2
+            assert await page.locator('.h33-on-skin video, .h33-on-skin button, .h33-on-skin [data-motion]').count()==0
+            assert (await page.locator('.h33-swatch-frame img').nth(0).get_attribute('src')).endswith('official-arm-three-shades-261015.jpg')
+            assert (await page.locator('.h33-swatch-frame img').nth(1).get_attribute('src')).endswith('official-three-pearl-textures-261015.jpg')
             assert values['ingredientColumns']==2
-            assert all(abs(f['width']/f['height']-ratio)<.005 for f,ratio in zip(values['frames'],[860/1040,.8,.8]))
+            assert all(abs(f['width']/f['height']-ratio)<.005 for f,ratio in zip(values['frames'],[860/1040,.8]))
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>getComputedStyle(v).objectFit==="contain")')
             assert await page.locator('video').evaluate_all('(els)=>els.every(v=>v.paused&&!v.getAttribute("src"))')
             assert (await page.locator('.h33-macro img').get_attribute('src')).endswith('.jpg')
@@ -84,7 +87,7 @@ async def main():
             assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth')
             if width==390:
                 await page.locator('.h33-information').screenshot(path=str(OUT/'390-information-open.png'))
-                for selector in ['.h33-glow','.h33-on-skin','.h33-use']:
+                for selector in ['.h33-glow','.h33-use']:
                     frame=page.locator(selector+' [data-motion]')
                     await frame.scroll_into_view_if_needed()
                     await frame.locator('button').click()
