@@ -549,6 +549,19 @@
     "claude_review": "Additional review timed out after300s; not completed; no approval claimed.",
     "owner_design_acceptance": "pending",
     "production_cafe24_changed": false,
-    "next_action": "Review owner feedback on clean backdrop only. Preserve current layout/copy; do not broaden into redesign. Read COMPACT-HANDOFF.md."
+    "next_action": "Review owner feedback on clean backdrop only. Preserve current layout/copy; do not broaden into redesign. Read COMPACT-HANDOFF.md.",
+    "superseded_by": "highlighter_video_edge_fix_20261015; arm retained, palm matte repaired after owner reported breakage"
+  },
+  "highlighter_video_edge_fix_20261015": {
+    "status": "published_verified_owner_review_pending",
+    "source_commit": "8503f92",
+    "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=8503f92#h33-on-skin",
+    "scope": "Only ON SKIN palm video and poster. Arm image, copy, layout, CSS, JS and other media unchanged.",
+    "fix": "Regularized jagged matte, motion-aligned adjacent masks within each shot, soft boundary; re-rendered original at30fps with one final encode. Bright backdrop retained.",
+    "report": "ops/cafe24/highlighter-r33-video-edge-fix-20261015.json",
+    "verification": "7 local widths; exact public media bytes and3publicwidths/2routes playback controls passed.",
+    "owner_design_acceptance": "pending",
+    "production_cafe24_changed": false,
+    "next_action": "Await owner video feedback. Preserve image-only scope. Do not run the old background builder over the current files."
   }
 }

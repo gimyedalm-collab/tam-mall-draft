@@ -1,6 +1,16 @@
 # TAM 하이라이터 — 현재 인계 / 2026-10-15
 
-## 최신 진행: 배경 정리
+## 최신 진행: 영상 테두리 깨짐 수정
+
+- 사용자 지적: 배경 정리 후 영상이 조금 깨져 보임. 확인된 문제는 손 윤곽의 톱니 모양 잘림과 회색 테두리.
+- 공개 소스 `8503f92`: https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=8503f92#h33-on-skin
+- **오른쪽 손바닥 영상과 포스터만 교체**. 왼쪽 팔 이미지, 문안, CSS/JS, 규격, 배치, 기타 미디어 그대로.
+- 현재 `palm-pearl-smooth-261015.mp4` / `palm-pearl-smooth-poster-261015.jpg`. 원본의 동일 세 구간을30fps/99프레임/3.3초로 재출력. 경계 정리·인접 프레임 마스크 추적·부드러운 가장자리 처리. 밝은 배경 유지. 발색 중앙 영역은 인코딩 전 원본 픽셀과 동일.
+- 재생성은 `build_highlighter_palm_edge_fix.py --source <original> --review-dir <temp>` 사용. 이전 배경 빌더로 현재 파일 덮어쓰지 말 것.
+-7폭 로컬 검사, 공개3폭/2경로 재생·정지·모션 감소·가로 넘침 및 파일 일치 확인. 전체99프레임 디코딩 정상. 이 결과가 사용자 시각적 승인은 아님.
+- 상세 `highlighter-r33-video-edge-fix-20261015.json`, state `highlighter_video_edge_fix_20261015`. 이번 수정에 새 Claude 검토 완료를 주장하지 않음.
+
+## 직전 진행: 배경 정리
 
 - 공개 소스 커밋 `75c4620`: https://gimyedalm-collab.github.io/tam-mall-draft/highlighter-r33/?v=75c4620#h33-on-skin
 - 이번 배경 편집의 추가 Claude 검토는300초시간초과로 완료되지 않음. 완료/승인으로 보고 금지. 자체 소스·발색보존·레이아웃·브라우저 검증은 완료.

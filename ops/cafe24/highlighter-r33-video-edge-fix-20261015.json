@@ -28,7 +28,7 @@
   "processing": "Original source; one final encode. Spatial matte regularization, motion-aligned adjacent matte smoothing within each cut, 2px feather. No foreground colour/exposure filter.",
   "date": "2026-10-15",
   "baseline": "71f5f4f",
-  "status": "local_review_complete",
+  "status": "published_verified_owner_review_pending",
   "owner_feedback": "Video looks broken after backdrop cleanup.",
   "cause": "Hard per-frame colour-threshold matte produced staircase contours and grey fringes. Prior 24fps clip was encoded multiple times.",
   "scope": "Only ON SKIN palm video and matching poster URLs; left arm SVG, CSS, JS, copy, layout and all other media unchanged.",
@@ -45,5 +45,68 @@
       "bytes": 60847,
       "sha256": "915971470bfda2f2c31fcefd4ac504bbdbb1905c630893e63824312c8ca9df95"
     }
-  }
+  },
+  "source_commit": "8503f92",
+  "public_verification": {
+    "commit": "8503f92",
+    "byte_verification": [
+      "highlighter-r33/index.html",
+      "highlighter-r33/detail.css",
+      "storefront-v2/preview/product-24.html",
+      "highlighter-r33/assets/arm-three-pearls-clean-261015.svg",
+      "highlighter-r33/assets/palm-pearl-smooth-261015.mp4",
+      "highlighter-r33/assets/palm-pearl-smooth-poster-261015.jpg"
+    ],
+    "browser": [
+      {
+        "width": 320,
+        "route": "highlighter-r33/",
+        "new_media_loaded": true,
+        "no_overflow": true,
+        "button_inside_video": true,
+        "reduced_motion_and_play_pause": true
+      },
+      {
+        "width": 320,
+        "route": "storefront-v2/preview/product-24.html",
+        "new_media_loaded": true,
+        "no_overflow": true,
+        "button_inside_video": true,
+        "reduced_motion_and_play_pause": true
+      },
+      {
+        "width": 390,
+        "route": "highlighter-r33/",
+        "new_media_loaded": true,
+        "no_overflow": true,
+        "button_inside_video": true,
+        "reduced_motion_and_play_pause": true
+      },
+      {
+        "width": 390,
+        "route": "storefront-v2/preview/product-24.html",
+        "new_media_loaded": true,
+        "no_overflow": true,
+        "button_inside_video": true,
+        "reduced_motion_and_play_pause": true
+      },
+      {
+        "width": 860,
+        "route": "highlighter-r33/",
+        "new_media_loaded": true,
+        "no_overflow": true,
+        "button_inside_video": true,
+        "reduced_motion_and_play_pause": true
+      },
+      {
+        "width": 860,
+        "route": "storefront-v2/preview/product-24.html",
+        "new_media_loaded": true,
+        "no_overflow": true,
+        "button_inside_video": true,
+        "reduced_motion_and_play_pause": true
+      }
+    ]
+  },
+  "local_verification": "7 widths passed; all 99 frames decode; 30fps / 3.3s / 720x900; exact page scope equality against 71f5f4f except the two media URLs."
 }
