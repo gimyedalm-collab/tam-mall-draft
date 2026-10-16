@@ -1,0 +1,86 @@
+{
+  "round_1": {
+    "stage": "before architecture",
+    "sources": [
+      "Hince Mirror Dew Gloss official detail images inspected",
+      "Dinto Mirrorless Lip Gloss official contact sheet inspected",
+      "Laneige Glaze Craze official image contact sheet inspected",
+      "Clarins Lip Comfort Oil official text",
+      "Dior Lip Glow Oil official text"
+    ],
+    "findings": [
+      "Direct lip-oil category benefits overlap; big tip is not an exclusive TAM invention",
+      "V3 repeated the same heading/body/photo rhythm and generic moisture copy",
+      "Hince differentiates photographic scale; Dinto unifies a campaign; Laneige makes texture desirable"
+    ],
+    "decisions": [
+      "Use homepage film identity in an application action hero",
+      "Use one coherent palette with distinct image purpose",
+      "Concentrate on the combination broad-tip application, cooling feel and jelly-looking gloss"
+    ]
+  },
+  "round_2": {
+    "stage": "after Claude architecture review and Higgsfield images",
+    "comparisons": [
+      {
+        "brand": "Hince",
+        "check": "Hero action and product-scale hierarchy",
+        "decision": "Use the new application portrait; no soft gradient obscuring the product. Put wide-tip macro in its own contrasting composition."
+      },
+      {
+        "brand": "Dinto",
+        "check": "A campaign thread without duplicated product stills",
+        "decision": "Use the product trio once at closing; integrate three key benefits into hero rather than a redundant overview section."
+      },
+      {
+        "brand": "Laneige",
+        "check": "Texture has a visual purpose",
+        "decision": "Add an abstract clear-glow image with explicit campaign label, paired with one small authentic texture reference. Do not copy food props."
+      }
+    ],
+    "claude_adopted": [
+      "Six editorial chapters with distinct layout roles",
+      "Hero action instead of bottle-by-cheek pose",
+      "Actual tip inset and compact actual shade evidence",
+      "Remove repetitive numbered feature lists"
+    ],
+    "claude_rejected_or_corrected": [
+      "The three V3 swatches were authentic official photos, not generated lip renders",
+      "Cooling is not established as exclusive to TAM; no competitor uniqueness claim",
+      "Do not create two generated model looks as proof of solo versus layering performance",
+      "Do not use categorical no-dabbing instructions or a one-swipe completion claim",
+      "Keep ingredient text readable rather than 11px desktop"
+    ]
+  },
+  "round_3": {
+    "stage": "rendered desktop/mobile audit and second Claude review",
+    "complete": true,
+    "sources": [
+      "V4 preview-860.png",
+      "V4 hero/glow/colors/how-to 390px renders",
+      "Hince official contact sheet",
+      "Dinto official contact sheet",
+      "Laneige official contact sheet",
+      "Homepage film poster and frontal source"
+    ],
+    "findings": [
+      "Hero did not show broad tip early enough",
+      "Glass motif looked rigid instead of oily",
+      "AI and actual proof roles needed clearer hierarchy",
+      "Repeated two-clause headings and pale fields needed rhythm",
+      "A regenerated model added freckles and changed the stem"
+    ],
+    "changes": [
+      "Moved official actual tip to hero above model, changed headline to specific wide-sweep jelly-glow message",
+      "Replaced rigid glass with newly generated viscous oil smear labeled as campaign, enlarged actual formula photo",
+      "Simplified tip footer, changed title rhythm, introduced muted deep rose only in use guide",
+      "Rejected freckled replacement and selected localized face edit preserving original product geometry",
+      "Kept three authentic shades compact and did not invent before/after evidence"
+    ],
+    "limits": [
+      "Model remains a reference-based generation, not an exact original photograph",
+      "Actual source photos have limited resolution, shown at restrained sizes",
+      "Claude review 2 applies to pre-correction renders; final corrections visually checked by Codex, owner acceptance pending"
+    ]
+  }
+}

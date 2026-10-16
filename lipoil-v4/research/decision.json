@@ -1,0 +1,20 @@
+{
+  "status": "review_candidate_pending_owner",
+  "version": "lipoil-v4",
+  "date": "2026-10-16",
+  "scope": "lip oil preview only",
+  "model": "Higgsfield nano_banana_2_1 2K",
+  "selected_jobs": [
+    "653e4cd3-bd5b-4ba9-9cdf-1ed37e6bf959",
+    "0c23d3b3-8673-45ec-8e07-507bab9eaa6b",
+    "ffb1c527-90a3-4765-825c-e8e85404d99e",
+    "f5184c18-2632-4275-8790-e01edd0f7bd5"
+  ],
+  "competitor_rounds": 3,
+  "claude_reviews": 2,
+  "claude_local_session_persistence": false,
+  "final_render_qa": "Codex after second Claude review corrections",
+  "no_sites": true,
+  "cafe24_mutated": false,
+  "prior_versions": "preserved"
+}

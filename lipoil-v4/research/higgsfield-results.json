@@ -1,0 +1,44 @@
+[
+  {
+    "name": "campaign-home-model.png",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_060740_e586f8ba-9e3e-494c-acfb-84d877de09d9.png",
+    "job_id": "e586f8ba-9e3e-494c-acfb-84d877de09d9",
+    "selection": "superseded by localized face edit 07"
+  },
+  {
+    "name": "campaign-big-tip.png",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_060741_0c23d3b3-8673-45ec-8e07-507bab9eaa6b.png",
+    "job_id": "0c23d3b3-8673-45ec-8e07-507bab9eaa6b",
+    "selection": "selected"
+  },
+  {
+    "name": "campaign-oil-trio.png",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_060740_f5184c18-2632-4275-8790-e01edd0f7bd5.png",
+    "job_id": "f5184c18-2632-4275-8790-e01edd0f7bd5",
+    "selection": "selected"
+  },
+  {
+    "name": "campaign-glow.png",
+    "job_id": "8ebafd2c-518d-4a9c-a24e-3e0e86b95ce6",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_061122_8ebafd2c-518d-4a9c-a24e-3e0e86b95ce6.png",
+    "selection": "rejected rigid glass motif"
+  },
+  {
+    "name": "campaign-oil-glow.png",
+    "job_id": "ffb1c527-90a3-4765-825c-e8e85404d99e",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_062258_ffb1c527-90a3-4765-825c-e8e85404d99e.png",
+    "selection": "selected"
+  },
+  {
+    "name": "campaign-home-model-refined.png",
+    "job_id": "17a01c24-68de-4d71-8162-ef6d20bf4096",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_062723_17a01c24-68de-4d71-8162-ef6d20bf4096.png",
+    "selection": "rejected invented freckles and changed wand"
+  },
+  {
+    "name": "campaign-home-model-final.png",
+    "job_id": "653e4cd3-bd5b-4ba9-9cdf-1ed37e6bf959",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_063116_653e4cd3-bd5b-4ba9-9cdf-1ed37e6bf959.png",
+    "selection": "selected localized face edit"
+  }
+]
