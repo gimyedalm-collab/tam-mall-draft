@@ -1,0 +1,110 @@
+@font-face{font-family:Cloud;src:url('assets/PretendardVariable.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:CloudEnglish;src:url('assets/ManropeVariable.ttf') format('truetype');font-weight:200 800;font-display:swap}
+*{box-sizing:border-box}body{margin:0;background:#eee}main{max-width:860px;margin:auto}
+#cloud-blush{--ink:#1a1a1a;--muted:#6f6a6b;--rose:#925368;--pink:#f3e8ec;background:#fff;color:var(--ink);font:400 28px/1.6 Cloud,sans-serif;text-align:center;word-break:keep-all;container-type:inline-size}
+#cloud-blush :is(h1,h2,h3,p,figure,ol){margin:0}
+#cloud-blush img{display:block;max-width:100%;height:auto}
+#cloud-blush h1{font:700 clamp(36px,8.37cqw,72px)/1.18 Cloud,sans-serif;letter-spacing:-.045em}
+#cloud-blush h2{font:700 clamp(29px,6.05cqw,52px)/1.25 Cloud,sans-serif;letter-spacing:-.04em}
+#cloud-blush h3{font:600 clamp(15px,3.25cqw,28px)/1.4 Cloud,sans-serif;letter-spacing:-.025em}
+#cloud-blush .section{padding:80px 6.5% 72px}
+#cloud-blush .heading{margin:0 auto 40px}
+#cloud-blush .label{display:inline-block;padding:5px 26px;border:1px solid #292629;border-radius:30px;font:400 clamp(11px,2.32cqw,20px)/1.5 CloudEnglish,sans-serif;letter-spacing:.09em;margin-bottom:28px}
+#cloud-blush .body{font-size:clamp(15px,3.25cqw,28px);line-height:1.65;margin-top:28px}
+#cloud-blush .note{font-size:clamp(11px,1.63cqw,14px);line-height:1.6;color:var(--muted);margin-top:26px}
+#cloud-blush .hero-copy{background:var(--pink);padding:48px 5% 52px}
+#cloud-blush .logo{width:156px;margin:auto}
+#cloud-blush .product-name{font-size:clamp(15px,3.02cqw,26px);margin:26px 0}
+#cloud-blush .campaign{aspect-ratio:860/1040;overflow:hidden}
+#cloud-blush .campaign img{width:100%;height:100%;object-fit:cover}
+#cloud-blush video{display:block;width:100%;height:100%;object-fit:cover;background:#f8f5f7}
+#cloud-blush .film-toggle{display:block;min-height:44px;padding:8px 16px;margin:12px auto 0;border:1px solid #d0c7cc;border-radius:24px;background:#fff;color:var(--ink);font:500 13px Cloud,sans-serif;cursor:pointer}
+#cloud-blush .film-toggle:hover{background:#f3e8ec}
+#cloud-blush .film-toggle:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+#cloud-blush .wide-film{aspect-ratio:16/10;overflow:hidden;border-radius:16px}
+#cloud-blush .colours{background:#f2f0ee;scroll-margin-top:20px}
+#cloud-blush .shade-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px 24px;text-align:left}
+#cloud-blush .shade figcaption{margin:0 0 16px}
+#cloud-blush .shade h3 span{font-family:CloudEnglish,sans-serif;font-weight:500}
+#cloud-blush .english{font:400 clamp(10px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.015em;margin-top:3px;color:var(--muted)}
+#cloud-blush .cheek{aspect-ratio:2812/1870;overflow:hidden;border-radius:16px}
+#cloud-blush .cheek img{width:100%;height:100%;object-fit:cover;object-position:50% 51%}
+#cloud-blush .swatch{width:68%;border-radius:10px;margin:16px auto 0}
+#cloud-blush .tone{font-size:clamp(14px,2.79cqw,24px);margin-top:16px;color:var(--rose);font-weight:500;text-align:center}
+#cloud-blush .texture-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+#cloud-blush .texture-film{aspect-ratio:1;overflow:hidden;border-radius:16px}
+#cloud-blush .texture-grid figcaption{font-size:clamp(13px,2.09cqw,18px);margin-top:16px;color:var(--muted)}
+#cloud-blush .howto{background:#f7f7f7}
+#cloud-blush .steps{display:grid;grid-template-columns:repeat(3,1fr);list-style:none;padding:0;gap:24px}
+#cloud-blush .steps span{display:block;color:var(--rose);font:400 clamp(13px,2.79cqw,24px)/1.5 CloudEnglish,sans-serif;margin-bottom:10px}
+#cloud-blush .steps p{font-size:clamp(13px,2.55cqw,22px);color:var(--muted);margin-top:10px}
+#cloud-blush .formula{background:#fcf8f9}
+#cloud-blush .formula-photo{aspect-ratio:2;overflow:hidden;border-radius:16px}
+#cloud-blush .formula-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 54%}
+#cloud-blush .ingredients{display:grid;grid-template-columns:1fr 1fr;gap:44px 20px;margin-top:44px}
+#cloud-blush .ingredients p{font:400 clamp(10px,1.63cqw,14px)/1.5 CloudEnglish,sans-serif;color:var(--muted);margin-top:12px}
+#cloud-blush .ending-photo{aspect-ratio:4/5;overflow:hidden}
+#cloud-blush .ending-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+#cloud-blush .ending-copy{padding:54px 6.5% 64px;background:var(--pink)}
+#cloud-blush .shade-link{display:inline-flex;align-items:center;gap:30px;margin-top:32px;min-height:48px;padding:10px 24px;border:1px solid #463c40;border-radius:30px;color:#282126;text-decoration:none;font-size:clamp(15px,2.55cqw,22px)}
+#cloud-blush .shade-link:hover{background:#e9d9e0}
+#cloud-blush :is(a,summary,video):focus-visible{outline:3px solid var(--rose);outline-offset:5px}
+#cloud-blush .product-info{padding:25px 6.5%;text-align:left;font-size:14px;line-height:1.75;background:#fff}
+#cloud-blush summary{padding:14px 0;cursor:pointer;font-size:16px}
+#cloud-blush .product-info>div{padding-top:20px}
+#cloud-blush .product-info p{margin-bottom:22px;overflow-wrap:anywhere;word-break:normal}
+#cloud-blush .product-info a{color:#694052}
+@container(max-width:600px){
+ #cloud-blush .section{padding:48px 5.6% 44px}
+ #cloud-blush .heading{margin-bottom:30px}
+ #cloud-blush .label{padding:4px 18px;margin-bottom:22px}
+ #cloud-blush .hero-copy{padding:30px 5% 32px}
+ #cloud-blush .logo{width:105px}
+ #cloud-blush .product-name{margin:20px 0}
+ #cloud-blush .body{margin-top:22px}
+ #cloud-blush .shade-grid{gap:30px 14px}
+ #cloud-blush .shade figcaption{margin-bottom:10px}
+ #cloud-blush .cheek,#cloud-blush .wide-film,#cloud-blush .texture-film,#cloud-blush .formula-photo{border-radius:10px}
+ #cloud-blush .swatch{margin-top:12px;border-radius:7px}
+ #cloud-blush .tone{margin-top:12px}
+ #cloud-blush .texture-grid{gap:14px}
+ #cloud-blush .texture-grid figcaption{margin-top:12px}
+ #cloud-blush .steps{gap:10px}
+ #cloud-blush .steps h3{font-size:14px}
+ #cloud-blush .steps p{font-size:13px;margin-top:7px}
+ #cloud-blush .ingredients{gap:28px 16px;margin-top:30px}
+ #cloud-blush .ending-copy{padding:36px 5.6% 44px}
+ #cloud-blush .note{margin-top:20px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* V2: texture first, one Moa portrait, quieter formula support. */
+#cloud-blush .campaign{aspect-ratio:auto}
+#cloud-blush .campaign img{height:auto;object-fit:contain}
+#cloud-blush .wide-film{aspect-ratio:3/2}
+#cloud-blush .wide-film video{object-fit:contain;background:#fff}
+#cloud-blush .film-actions{min-height:56px;display:flex;justify-content:flex-end;align-items:center}
+#cloud-blush .film-toggle{margin:8px 0;border-radius:24px;min-width:100px}
+#cloud-blush .film-toggle[hidden]{display:none}
+#cloud-blush .texture-stages{display:grid;grid-template-columns:repeat(3,1fr);list-style:none;padding:0;text-align:center;gap:12px;margin-top:12px}
+#cloud-blush .texture-stages li{border-top:2px solid #e1d9dd;padding-top:15px;font-size:clamp(12px,2.55cqw,22px);color:#6f6a6b}
+#cloud-blush .texture-stages li.active{border-color:var(--rose);color:var(--rose)}
+#cloud-blush .texture-stages span{display:block;font:400 clamp(11px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;margin-bottom:5px}
+#cloud-blush .model-photo{aspect-ratio:4/5;overflow:hidden;background:#b2afd0}
+#cloud-blush .model-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 25%}
+#cloud-blush .formula .heading{margin-bottom:0}
+#cloud-blush .formula .ingredients{padding-top:32px;border-top:1px solid #e4d8de}
+@container(max-width:600px){#cloud-blush .texture-stages{gap:8px}#cloud-blush .texture-stages li{padding-top:12px}#cloud-blush .formula .ingredients{padding-top:25px}}
+
+/* V3: shared TAM spacing; product and cheek outrank the model. */
+#cloud-blush .texture{padding-bottom:36px}
+#cloud-blush .model{padding:0 6.5% 72px;background:#fff}
+#cloud-blush .model-photo{aspect-ratio:3/2;border-radius:16px}
+#cloud-blush .model-photo img{object-position:50% 0}
+#cloud-blush .formula{padding-top:48px;padding-bottom:48px}
+#cloud-blush .formula .label{margin-bottom:22px}
+#cloud-blush .formula h2{font-size:clamp(23px,4.18cqw,36px);line-height:1.35}
+#cloud-blush .formula .ingredients{margin-top:28px;padding-top:24px;gap:26px 20px}
+#cloud-blush .formula .ingredients h3{font-size:clamp(15px,2.55cqw,22px)}
+#cloud-blush .formula .ingredients p{margin-top:6px}
+@container(max-width:600px){#cloud-blush .texture{padding-bottom:30px}#cloud-blush .model{padding:0 5.6% 44px}#cloud-blush .model-photo{border-radius:10px}#cloud-blush .formula{padding-top:36px;padding-bottom:36px}}

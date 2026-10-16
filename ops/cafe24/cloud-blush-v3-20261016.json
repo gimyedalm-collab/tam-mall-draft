@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-16",
+  "deliverable": "cloud-blush-v3/",
+  "decisions": "ops/cafe24/cloud-blush-v3-direction-20261016.md",
+  "review": "cloud-blush-v3/review/",
+  "status": "preflight completed; rendered V3 awaits owner assessment",
+  "chosen": "product first; neutral P05 hero; corrected film; restrained Moa crop; original shade comparison",
+  "preflight_variants": [
+    "product plus Moa",
+    "product only",
+    "film first",
+    "model first"
+  ],
+  "hero_variants": [
+    "pink P01",
+    "neutral P05",
+    "sky P03"
+  ],
+  "qa": {
+    "official_info": "unchanged",
+    "viewports": [
+      {
+        "width": 320,
+        "docWidth": 320,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ],
+        "media_sizes": {
+          "model": {
+            "x": 17.90625,
+            "y": 1259.75,
+            "width": 284.1875,
+            "height": 189.453125
+          },
+          "film": {
+            "x": 17.90625,
+            "y": 908.796875,
+            "width": 284.1875,
+            "height": 189.453125
+          }
+        }
+      },
+      {
+        "width": 390,
+        "docWidth": 390,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ],
+        "media_sizes": {
+          "model": {
+            "x": 21.828125,
+            "y": 1388.6875,
+            "width": 346.34375,
+            "height": 230.890625
+          },
+          "film": {
+            "x": 21.828125,
+            "y": 996.296875,
+            "width": 346.34375,
+            "height": 230.890625
+          }
+        }
+      },
+      {
+        "width": 600,
+        "docWidth": 600,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ],
+        "media_sizes": {
+          "model": {
+            "x": 33.59375,
+            "y": 1854.234375,
+            "width": 532.8125,
+            "height": 355.203125
+          },
+          "film": {
+            "x": 33.59375,
+            "y": 1322.6875,
+            "width": 532.8125,
+            "height": 355.203125
+          }
+        }
+      },
+      {
+        "width": 860,
+        "docWidth": 860,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ],
+        "media_sizes": {
+          "model": {
+            "x": 55.890625,
+            "y": 2604.8125,
+            "width": 748.21875,
+            "height": 498.8125
+          },
+          "film": {
+            "x": 55.890625,
+            "y": 1889.78125,
+            "width": 748.21875,
+            "height": 498.8125
+          }
+        }
+      },
+      {
+        "width": 1440,
+        "docWidth": 1440,
+        "shades": 6,
+        "sections": [
+          "hero",
+          "section texture",
+          "model",
+          "section colours",
+          "section howto",
+          "section formula",
+          "ending"
+        ],
+        "media_sizes": {
+          "model": {
+            "x": 345.890625,
+            "y": 2604.8125,
+            "width": 748.21875,
+            "height": 498.8125
+          },
+          "film": {
+            "x": 345.890625,
+            "y": 1889.78125,
+            "width": 748.21875,
+            "height": 498.8125
+          }
+        }
+      }
+    ],
+    "playback": "autoplay in view; manual pause persists; offscreen pause; reduced-motion manual play passed",
+    "named_shade_assets": "12 files byte-identical to V1",
+    "film": "byte-identical to brightness-corrected review sample"
+  },
+  "scope": "standalone candidate; V1/V2 and other products unchanged",
+  "claude_consultation": {
+    "mode": "noninteractive, no-session-persistence, text output, tools disabled",
+    "scope": "copy and decision logic only; not a visual review"
+  }
+}
