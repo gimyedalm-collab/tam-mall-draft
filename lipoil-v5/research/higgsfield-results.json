@@ -1,0 +1,29 @@
+[
+  {
+    "index": 1,
+    "job_id": "7295f2c2-7627-4b5a-9e0e-8004595b3496",
+    "status": "completed",
+    "type": "image",
+    "model": "nano_banana_2_1",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_070750_7295f2c2-7627-4b5a-9e0e-8004595b3496.png",
+    "name": "tip-bright"
+  },
+  {
+    "index": 2,
+    "job_id": "d7192ee8-6737-4190-9903-741f3f10be13",
+    "status": "completed",
+    "type": "image",
+    "model": "nano_banana_2_1",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_070750_d7192ee8-6737-4190-9903-741f3f10be13.png",
+    "name": "glow-bright"
+  },
+  {
+    "index": 3,
+    "job_id": "b7f5e7f5-e38d-4084-a2d3-5d5324504140",
+    "status": "completed",
+    "type": "image",
+    "model": "nano_banana_2_1",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbxZEZsv9tXa2dGmnqk8SB3xr8/hf_20261016_070751_b7f5e7f5-e38d-4084-a2d3-5d5324504140.png",
+    "name": "trio-bright"
+  }
+]

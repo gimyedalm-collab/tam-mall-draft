@@ -1,0 +1,24 @@
+{
+  "version": "V5",
+  "status": "owner_review_pending",
+  "trigger": "V4 rejected for changed face and muddy colors; campaign compositions conditionally liked",
+  "model": "Existing F1 homepage production original m252_left34_4k.png reused byte-identically",
+  "model_repainted": false,
+  "campaign_edits": "Higgsfield lighting and background refresh; existing composition referenced",
+  "design_changes": [
+    "white/pink surfaces",
+    "remove grey and dark mauve blocks",
+    "larger model caption"
+  ],
+  "actual_shades_and_ingredients": "unchanged",
+  "claude": "one scoped review, no-session-persistence",
+  "claude_adopted": [
+    "increase caption readability"
+  ],
+  "claude_not_adopted": [
+    "cream background expansion would reintroduce muted surface; keep bright page and exact original photograph"
+  ],
+  "image_checks": "Codex visually inspected all three full-resolution edited campaign images",
+  "production_store_mutated": false,
+  "sites_used": false
+}
