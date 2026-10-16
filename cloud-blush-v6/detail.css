@@ -1,0 +1,93 @@
+@font-face{font-family:Cloud;src:url('../cloud-blush-v3/assets/PretendardVariable.woff2') format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:CloudEnglish;src:url('../cloud-blush-v3/assets/ManropeVariable.ttf') format('truetype');font-weight:200 800;font-display:swap}
+*{box-sizing:border-box}body{margin:0;background:#ecebea}main{max-width:860px;margin:auto}
+#cloud-blush{--ink:#272329;--muted:#716a73;--accent:#70566f;--lavender:#f4eff6;color:var(--ink);background:#fff;font:400 24px/1.65 Cloud,sans-serif;text-align:center;word-break:keep-all;container-type:inline-size}
+#cloud-blush :is(h1,h2,h3,p,figure,ol){margin:0}
+#cloud-blush img{display:block;width:100%;height:auto}
+#cloud-blush h1{font:700 clamp(20px,6.1cqw,52px)/1.18 Cloud,sans-serif;letter-spacing:-.045em}
+#cloud-blush h2{font:700 clamp(29px,6.05cqw,52px)/1.25 Cloud,sans-serif;letter-spacing:-.045em}
+#cloud-blush h3{font:600 clamp(15px,3.25cqw,28px)/1.4 Cloud,sans-serif;letter-spacing:-.03em}
+#cloud-blush .body{font-size:clamp(15px,2.9cqw,25px);line-height:1.75;margin-top:28px}
+#cloud-blush .eyebrow{font:500 clamp(10px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.13em;color:var(--accent);margin-bottom:24px}
+#cloud-blush .section{padding:100px 6.5% 96px}
+#cloud-blush .heading{margin:0 auto 48px}
+#cloud-blush .note{font-size:clamp(10px,1.63cqw,14px);line-height:1.65;color:var(--muted);margin:36px 5% 0}
+#cloud-blush .hero{position:relative}
+#cloud-blush .hero-copy{position:absolute;left:4%;right:4%;top:3.2%}
+#cloud-blush .product-name{font-size:clamp(12px,2.79cqw,24px);line-height:1.5;margin-bottom:14px}
+#cloud-blush .hero-signature{position:absolute;bottom:3.2%;left:0;width:100%}
+#cloud-blush .hero-signature img,#cloud-blush .ending-footer img{width:clamp(84px,15.1cqw,130px);margin:0 auto}
+#cloud-blush .hero-signature p{font:500 clamp(9px,1.5cqw,13px)/1.5 CloudEnglish,sans-serif;letter-spacing:.12em;margin-top:9px}
+#cloud-blush .wide-film{aspect-ratio:3/2;overflow:hidden}
+#cloud-blush video{display:block;width:100%;height:100%;object-fit:contain;background:#fff}
+#cloud-blush .film-actions{min-height:52px;display:flex;justify-content:center}
+#cloud-blush .film-toggle{margin:8px auto 0;min-height:44px;padding:8px 20px;border:1px solid #d2c9d4;border-radius:24px;background:#fff;color:var(--ink);font:500 13px Cloud,sans-serif;cursor:pointer}
+#cloud-blush .film-toggle[hidden]{display:none}
+#cloud-blush .film-toggle:hover{background:var(--lavender)}
+#cloud-blush .texture-points{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;margin-top:30px;gap:16px}
+#cloud-blush .texture-points div>span{font:500 clamp(11px,1.9cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.12em;color:var(--accent)}
+#cloud-blush .texture-points h3{font-size:clamp(14px,2.8cqw,24px);margin-top:12px}
+#cloud-blush .arrow{color:#9c8b9e;font-size:clamp(20px,3.5cqw,30px)}
+#cloud-blush .finish{padding-top:96px;background:var(--lavender)}
+#cloud-blush .finish .heading{padding:0 6.5%}
+#cloud-blush .finish-photo{width:100%}
+#cloud-blush .finish-caption{padding:28px 6.5% 38px;font-size:clamp(13px,2.6cqw,22px);color:var(--accent)}
+#cloud-blush .colours{background:#fff}
+#cloud-blush .shade-grid{display:grid;grid-template-columns:1fr 1fr;gap:68px 28px}
+#cloud-blush .shade-number{display:block;font:400 clamp(14px,2.56cqw,22px)/1.5 CloudEnglish,sans-serif;color:var(--accent);margin-bottom:8px}
+#cloud-blush .shade h3{font-size:clamp(14px,3.15cqw,27px)}
+#cloud-blush .english{font:400 clamp(8px,1.4cqw,12px)/1.5 CloudEnglish,sans-serif;letter-spacing:.03em;color:var(--muted);margin-top:6px}
+#cloud-blush .shade figcaption{margin-bottom:20px}
+#cloud-blush .cheek{aspect-ratio:4/3;overflow:hidden}
+#cloud-blush .cheek img{height:100%;object-fit:cover;object-position:50% 51%}
+#cloud-blush .swatch{width:45%;margin:14px auto 8px}
+#cloud-blush .tone{font-weight:600;color:var(--accent);font-size:clamp(13px,2.56cqw,22px);line-height:1.5}
+#cloud-blush .shade-description{font-size:clamp(12px,2.32cqw,20px);line-height:1.65;color:var(--muted);margin-top:12px}
+#cloud-blush .formula{background:#f7f4ef;padding:96px 0 64px}
+#cloud-blush .formula .heading{padding:0 5%}
+#cloud-blush .ingredients{display:grid;grid-template-columns:1fr 1fr;gap:36px 20px;margin:44px 8% 0}
+#cloud-blush .ingredients h3{font-size:clamp(16px,3cqw,26px)}
+#cloud-blush .ingredients p{font:400 clamp(9px,1.4cqw,12px)/1.5 CloudEnglish,sans-serif;letter-spacing:.06em;color:var(--muted);margin-top:8px}
+#cloud-blush .steps{display:grid;grid-template-columns:1fr 1fr;gap:28px;list-style:none;padding:0}
+#cloud-blush .step-photo{aspect-ratio:4/3;overflow:hidden}
+#cloud-blush .step-photo img{height:100%;object-fit:cover}
+#cloud-blush .step-number{display:block;font:400 clamp(14px,2.56cqw,22px)/1.5 CloudEnglish,sans-serif;color:var(--accent);margin:24px 0 10px}
+#cloud-blush .steps p{font-size:clamp(12px,2.32cqw,20px);color:var(--muted);line-height:1.7;margin-top:14px}
+#cloud-blush .tip{font-size:clamp(14px,2.56cqw,22px);line-height:1.7;margin-top:44px;padding-top:30px;border-top:1px solid #e7e0e7}
+#cloud-blush .ending{padding-top:92px;background:#f2f1f0}
+#cloud-blush .ending .heading{padding:0 5%}
+#cloud-blush .ending-spec{display:block;font:400 clamp(11px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.1em;margin-top:14px}
+#cloud-blush .ending-photo img{height:auto}
+#cloud-blush .ending-footer{padding:40px}
+#cloud-blush .product-info{padding:25px 6.5%;text-align:left;font-size:14px;line-height:1.75;background:#fff}
+#cloud-blush summary{padding:14px 0;cursor:pointer;font-size:16px}
+#cloud-blush .product-info>div{padding-top:20px}
+#cloud-blush .product-info p{margin-bottom:22px;overflow-wrap:anywhere;word-break:normal}
+#cloud-blush .product-info a{color:var(--accent)}
+#cloud-blush :is(a,summary,button,video):focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+@container(max-width:600px){
+ #cloud-blush .section{padding:58px 5.6% 56px}
+ #cloud-blush .heading{margin-bottom:30px}
+ #cloud-blush .eyebrow{margin-bottom:17px}
+ #cloud-blush .body{margin-top:22px}
+ #cloud-blush .product-name{margin-bottom:8px}
+ #cloud-blush .hero-signature p{margin-top:6px}
+ #cloud-blush .texture-points{margin-top:22px;gap:10px}
+ #cloud-blush .texture-points h3{margin-top:8px}
+ #cloud-blush .finish{padding-top:58px}
+ #cloud-blush .finish-caption{padding:20px 4% 26px}
+ #cloud-blush .shade-grid{gap:42px 16px}
+ #cloud-blush .shade-number{margin-bottom:5px}
+ #cloud-blush .shade figcaption{margin-bottom:14px}
+ #cloud-blush .swatch{margin-top:10px}
+ #cloud-blush .shade-description{margin-top:9px}
+ #cloud-blush .formula{padding:58px 0 42px}
+ #cloud-blush .ingredients{margin-top:30px;gap:26px 12px}
+ #cloud-blush .steps{gap:16px}
+ #cloud-blush .step-number{margin:18px 0 8px}
+ #cloud-blush .steps p{margin-top:10px}
+ #cloud-blush .tip{margin-top:30px;padding-top:24px}
+ #cloud-blush .ending{padding-top:56px}
+ #cloud-blush .ending-footer{padding:30px}
+ #cloud-blush .note{margin-top:24px}
+}

@@ -224,3 +224,18 @@ not mandatory; preserve the source on the review board. Do not reintroduce
 the cropped portrait or tiny side image as an approved solution. Current
 revision remains pending owner review. See the decision record's
 `balance_revision` and `review/balance-qa.json`.
+
+## Cloud V5 rejected again; reference-led V6 - 2026-10-16
+
+The owner rejected the latest V5 as too short, with an unexplained two-tone
+hero and insufficient product description. The owner asked for a single brand
+reference as a possible way to rebuild. V6 uses Freshian Egglike Cream Blush
+as the structural reference: seven illustrated sections covering product,
+cream-to-powder texture, cheek finish, six shades, formula, use and collection.
+The hero uses one full-ratio photograph with transparent overlaid text, without
+a separate coloured header. Original colour images, R2 video and official
+information are preserved. A new Higgsfield ingredient still is illustrative;
+it is not evidence of performance or actual colour. See
+`cloud-blush-v6/review/decision.json` and `ops/cafe24/cloud-blush-v6-20261016.json`.
+V6 remains pending owner review. Do not treat technical checks as acceptance.
+No Cafe24 production change, no ChatGPT Sites copy, no other product changes.

@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-16",
+  "status": "V6 reference-led rebuild pending owner review; not an accepted final",
+  "owner_feedback": "V5 too short; hero two-tone seam; insufficient product description. Select one reference brand and rebuild.",
+  "reference": {
+    "brand": "Freshian",
+    "product": "Egglike Cream Blush",
+    "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000212749",
+    "evidence": "Locally inspected original Olive Young detail images 20,21,23,24 and full contact sheet; local audit/oy-freshian. Actual page accessed again 2026-10-16.",
+    "adopted": [
+      "Separate texture, finish, shade, formula and application explanations",
+      "Each benefit has a clear headline, 2–3 lines and relevant photography",
+      "Actual texture/application imagery carries cream-to-powder explanation"
+    ],
+    "not_transferred": [
+      "Skin-conditioning percentages",
+      "Tone-up or egg-skin claims",
+      "Competitor copy, artwork, logos or product photography"
+    ],
+    "sales_limits": "No new sales claim or causal performance inference. Prior daily rank snapshot does not measure units sold."
+  },
+  "sections": [
+    {
+      "section": "hero",
+      "purpose": "Product identity and central cream-to-powder benefit",
+      "asset": "V5 approved-for-internal-use generated still reused at full original ratio; one image under transparent HTML heading; no separate colour header",
+      "claim": "User-supplied cream-to-powder brief, official melting texture"
+    },
+    {
+      "section": "texture",
+      "purpose": "Explain spread versus finish with moving real product",
+      "asset": "Existing 9.6-second R2 exposure-corrected footage, unchanged",
+      "limit": "Edited source clips are not a controlled same-shade before/after test"
+    },
+    {
+      "section": "finish",
+      "purpose": "Show actual soft blended cheek finish",
+      "asset": "Frame 9.1 seconds of existing footage",
+      "claim": "Official creamblush16_1.png Soft-Focus Blur campaign; no quantitative pore/wrinkle claim"
+    },
+    {
+      "section": "colours",
+      "purpose": "Compare actual product and on-cheek colour; specific qualitative descriptions",
+      "asset": "All six official cheek photographs plus six texture photographs unchanged",
+      "claim": "Official six shade names; qualitative visible colour descriptions"
+    },
+    {
+      "section": "formula",
+      "purpose": "Replace tiny text-only fact note with formula visual and four oil names",
+      "asset": "New Higgsfield ingredient still life",
+      "claim": "All six official INCI lists; brand source 18.png and20.png; vegan formulation wording only"
+    },
+    {
+      "section": "howto",
+      "purpose": "Make dosage and application concrete",
+      "asset": "Frames 1.3 and5.3 seconds of R2 footage",
+      "claim": "Official finger/tool thin application and tapping; incremental layering is a usage suggestion"
+    },
+    {
+      "section": "ending",
+      "purpose": "Close with product collection and identity",
+      "asset": "Existing official six-compact product photo P04; full ratio",
+      "claim": "6 colours, 2.8 g"
+    }
+  ],
+  "asset_ledger": [
+    {
+      "path": "assets/formula-botanicals.jpg",
+      "type": "AI-generated illustrative ingredient photography",
+      "provider": "Higgsfield",
+      "job_id": "13747dca-0683-4b69-96f5-84ba94516a22",
+      "requested_model": "nano_banana_pro",
+      "reported_model": "nano_banana_2",
+      "cost_quote_credits": 2,
+      "submissions": 1,
+      "reference_media": "b6deab66-6dae-488f-a21a-de4b8d86f28c",
+      "visual_inspection": "Image viewed at output resolution; compact silhouette, clear lavender lid, visible markings and four ingredient groups checked. Not a real product/ingredient photograph or efficacy proof.",
+      "processing": "JPEG encoding quality94/subsampling0; no recolour or paint"
+    },
+    {
+      "path": "assets/texture-touch.jpg",
+      "source": "../cloud-blush-v3/assets/cream-to-powder.mp4",
+      "time_seconds": 1.3
+    },
+    {
+      "path": "assets/texture-spread.jpg",
+      "source": "../cloud-blush-v3/assets/cream-to-powder.mp4",
+      "time_seconds": 5.3
+    },
+    {
+      "path": "assets/cheek-finish.jpg",
+      "source": "../cloud-blush-v3/assets/cream-to-powder.mp4",
+      "time_seconds": 9.1
+    }
+  ],
+  "verification": {
+    "widths": [
+      320,
+      390,
+      600,
+      860,
+      1440
+    ],
+    "official_info": "byte identical to V5",
+    "visual_review": [
+      "390px full-page, shades and howto",
+      "860px full hero, formula and full-page overview"
+    ],
+    "technical_qa": "qa.json",
+    "approval": "Only owner can approve the design"
+  },
+  "scope": "Only new cloud-blush-v6 and scoped build/records; historical versions preserved; no Cafe24 production changes or ChatGPT Sites copies"
+}

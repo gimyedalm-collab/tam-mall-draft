@@ -1,0 +1,56 @@
+{
+  "technical_checks": [
+    {
+      "width": 320,
+      "page_height": 5382.921875,
+      "hero_height": 397.234375,
+      "hero_copy_bottom": 85.89,
+      "sections": 7,
+      "loaded_images": 20,
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "page_height": 5770.3125,
+      "hero_height": 484.125,
+      "hero_copy_bottom": 97.64,
+      "sections": 7,
+      "loaded_images": 20,
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "width": 600,
+      "page_height": 7377.609375,
+      "hero_height": 744.8125,
+      "hero_copy_bottom": 143.27,
+      "sections": 7,
+      "loaded_images": 20,
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "width": 860,
+      "page_height": 10545.734375,
+      "hero_height": 1067.578125,
+      "hero_copy_bottom": 206.88,
+      "sections": 7,
+      "loaded_images": 20,
+      "errors": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "page_height": 10545.734375,
+      "hero_height": 1067.578125,
+      "hero_copy_bottom": 206.88,
+      "sections": 7,
+      "loaded_images": 20,
+      "errors": [],
+      "overflow": false
+    }
+  ],
+  "official_info_unchanged": true,
+  "owner_approval": "pending"
+}
