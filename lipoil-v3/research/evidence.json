@@ -1,0 +1,70 @@
+{
+  "version": "V3",
+  "date": "2026-10-16",
+  "owner_direction": "Preserve V2 mood; reduce AI beauty appearance; lead with lip oil purpose and big tip; briefly mention verified ingredients.",
+  "positioning": "Moisture and glossy finish with broad rounded applicator; sheer color is secondary.",
+  "sources": [
+    {
+      "url": "https://tambeauty.kr/product/detail.html?product_no=25",
+      "verified": [
+        "Official use: apply when lips need moisture and vitality",
+        "01/02/03 lists all contain sunflower seed oil and green tea seed oil",
+        "Rosemary leaf extract and tocopheryl acetate also present; not necessary to list every ingredient in marketing block"
+      ],
+      "excluded": [
+        "Cherry blossom extract is not in the three lip oil INCI lists; the combined series also includes 00 gloss"
+      ]
+    },
+    {
+      "url": "https://tambeauty.kr/tam/detail/thejelly/lippies/plum02.png",
+      "verified": [
+        "Original applicator image and broad-tip messaging"
+      ],
+      "limit": "Original 5x phrase omitted because comparison baseline and measurement were not available"
+    },
+    {
+      "url": "https://tambeauty.kr/tam/detail/thejelly/lippies/plum04.jpg",
+      "verified": [
+        "Lip balm-like moisture use",
+        "Topcoat use over lip makeup",
+        "Original formula and cooling/plumping descriptions"
+      ],
+      "limit": "No duration, clinical irritation score, antiaging or certification claims added to V3"
+    },
+    {
+      "url": "https://www.dior.com/en_us/beauty/products/Y0124000-dior-addict-lip-glow-oil-nourishing-lip-oil-intense-gloss-color-awakening",
+      "role": "Category positioning reference: hydration, gloss and soft applicator; no Dior performance claims transferred"
+    },
+    {
+      "url": "https://www.clarins.co.kr/메이크업/립/립-오일-lip_oil/립-컴포트-오일-03-체리-80084589.html",
+      "role": "Category positioning reference: comfortable texture, applicator, solo and layering use; no pH or night mask claims transferred"
+    }
+  ],
+  "claim_limits": [
+    "Ingredient presence does not establish duration, concentration or clinical efficacy",
+    "No categorical claim that all tints dry lips or that all oils do not stain",
+    "Big tip presented as use experience; not exclusive or largest in market"
+  ],
+  "model": {
+    "tool": "built-in image_gen",
+    "input": "V2 campaign portrait",
+    "output": "assets/campaign-model-natural.png",
+    "prompt": "prompts/04-natural-model.txt",
+    "changes": [
+      "less idealized eye and facial proportions",
+      "relaxed asymmetrical expression",
+      "reduced even skin gloss with natural texture"
+    ],
+    "disclosure": "AI campaign label retained; not actual wear evidence"
+  },
+  "unchanged_asset_hashes": {
+    "campaign-still.png": "a6691534213cd75dbffa2182e3b8e4916c44cc21d860124f9c9147301d460e34",
+    "campaign-tip.png": "6e4c9562986240a2f9385d68d80be3c1f08aace916283a209356ad373d994f68",
+    "first-one.png": "fdf8fdc3998a3ba0df2486183715f5102c0f2f8dd4eda22f0817955157764b22",
+    "rose-one.png": "33e2360728cb876e6ea7910028823de9eb95fd8f814924cd063e2f09c91baeb6",
+    "night-one.png": "7a6ad46584bfeca250f7a11fd4f8e608c4800bc530868df5cbadc3c0fd07984b",
+    "product-first.png": "5d9db416d9d777de04742097855f81134861752b7b1331af1029559658b63c5d",
+    "product-rose.png": "da14586aa0324c5b4b74a1d9ff46571eb48b3833a67dcb9f1a63d4d8dee9a511",
+    "product-night.png": "7ebd8b92556ceea4ea033860b6bcdbcc389a29f80e20482a4a7dfb216823b82f"
+  }
+}
