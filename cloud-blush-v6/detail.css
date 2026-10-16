@@ -32,6 +32,7 @@
 #cloud-blush .finish .heading{padding:0 6.5%}
 #cloud-blush .finish-photo{width:100%}
 #cloud-blush .finish-caption{padding:28px 6.5% 38px;font-size:clamp(13px,2.6cqw,22px);color:var(--accent)}
+#cloud-blush .finish-credit{display:block;margin-top:10px;font-size:clamp(10px,1.4cqw,12px);color:var(--muted)}
 #cloud-blush .colours{background:#fff}
 #cloud-blush .shade-grid{display:grid;grid-template-columns:1fr 1fr;gap:68px 28px}
 #cloud-blush .shade-number{display:block;font:400 clamp(14px,2.56cqw,22px)/1.5 CloudEnglish,sans-serif;color:var(--accent);margin-bottom:8px}

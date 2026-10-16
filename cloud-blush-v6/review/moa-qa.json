@@ -1,0 +1,91 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "image": {
+        "src": "assets/moa-finish-editorial.jpg",
+        "natural": [
+          2528,
+          1696
+        ],
+        "rect": [
+          320,
+          215
+        ],
+        "objectFit": "fill"
+      },
+      "errors": [],
+      "no_overflow": true
+    },
+    {
+      "width": 390,
+      "image": {
+        "src": "assets/moa-finish-editorial.jpg",
+        "natural": [
+          2528,
+          1696
+        ],
+        "rect": [
+          390,
+          262
+        ],
+        "objectFit": "fill"
+      },
+      "errors": [],
+      "no_overflow": true
+    },
+    {
+      "width": 600,
+      "image": {
+        "src": "assets/moa-finish-editorial.jpg",
+        "natural": [
+          2528,
+          1696
+        ],
+        "rect": [
+          600,
+          403
+        ],
+        "objectFit": "fill"
+      },
+      "errors": [],
+      "no_overflow": true
+    },
+    {
+      "width": 860,
+      "image": {
+        "src": "assets/moa-finish-editorial.jpg",
+        "natural": [
+          2528,
+          1696
+        ],
+        "rect": [
+          860,
+          577
+        ],
+        "objectFit": "fill"
+      },
+      "errors": [],
+      "no_overflow": true
+    },
+    {
+      "width": 1440,
+      "image": {
+        "src": "assets/moa-finish-editorial.jpg",
+        "natural": [
+          2528,
+          1696
+        ],
+        "rect": [
+          860,
+          577
+        ],
+        "objectFit": "fill"
+      },
+      "errors": [],
+      "no_overflow": true
+    }
+  ],
+  "other_sections_byte_identical": true,
+  "owner_approval": "pending"
+}

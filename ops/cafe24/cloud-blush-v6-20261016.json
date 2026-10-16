@@ -1,10 +1,11 @@
 {
   "date": "2026-10-16",
-  "status": "Reference-led rebuild pending owner review",
+  "status": "Owner says V6 much improved; scoped model image revision pending review",
   "detail": "cloud-blush-v6/index.html",
   "review": "cloud-blush-v6/review/index.html",
   "decision": "cloud-blush-v6/review/decision.json",
   "qa": "cloud-blush-v6/review/qa.json",
   "prior": "V5 latest image-balance revision rejected as too short, with two-tone hero and poor description",
-  "scope": "GitHub Pages review candidate only; no Cafe24 production change"
+  "scope": "GitHub Pages review candidate only; no Cafe24 production change",
+  "model_scene_revision": "cloud-blush-v6/review/moa-revision.json"
 }

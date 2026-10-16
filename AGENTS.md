@@ -239,3 +239,14 @@ it is not evidence of performance or actual colour. See
 `cloud-blush-v6/review/decision.json` and `ops/cafe24/cloud-blush-v6-20261016.json`.
 V6 remains pending owner review. Do not treat technical checks as acceptance.
 No Cafe24 production change, no ChatGPT Sites copy, no other product changes.
+
+## Cloud V6 scoped model scene revision - 2026-10-16
+
+Owner said V6 is much improved and requested replacing only the repetitive
+cheek closeup in the Soft Blur Finish section, permitting new imagery if
+existing Moa photos do not fit. Preserve the V6 structure and other sections.
+The new 3:2 Higgsfield model-and-product editorial uses Moa's existing photo
+and the confirmed product packshot as references. Render the full image
+without cropping the head, hand or product. This is a generated model scene,
+not real shade or finish evidence; original six-colour photography stays below.
+See `cloud-blush-v6/review/moa-revision.json`. Pending owner image review.

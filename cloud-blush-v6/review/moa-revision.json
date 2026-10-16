@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-16",
+  "owner_feedback": "V6 much improved; replace Soft Blur Finish cheek closeup because it repeats the shade imagery. Existing Moa or new generated imagery authorized.",
+  "status": "Scoped image revision pending owner review",
+  "scope": "Only Soft Blur Finish picture and its caption; preserve other six sections, source colour photography, video, product facts and official information.",
+  "decision": "Original Moa 2:3 portrait is too tall for this position. Generate a landscape model-and-product campaign composition with full head, shoulders and holding hand. Display at native aspect ratio without object-fit crop.",
+  "asset": {
+    "path": "assets/moa-finish-editorial.jpg",
+    "type": "AI-generated editorial based on Moa reference",
+    "job_id": "b84c2372-be71-41bb-b38e-a34228779f65",
+    "reference_media": [
+      "9afab7d8-009d-4f43-9e84-10ecd8e2cd1f",
+      "b6deab66-6dae-488f-a21a-de4b8d86f28c"
+    ],
+    "reference_photo": "cloud-blush-v3/assets/moa-blush.jpg",
+    "requested_model": "nano_banana_pro",
+    "reported_model": "nano_banana_2",
+    "generation_submissions": 1,
+    "quoted_credits": 2,
+    "size": [
+      2528,
+      1696
+    ],
+    "processing": "JPEG quality94 subsampling0; no crop or recolour"
+  },
+  "visual_check": "Viewed generated pixels: full head, holding hand, all fingertips and product visible; facial likeness compared to supplied source; closed compact lavender outline and printed marks inspected. Soft smile, contrasting lavender backdrop; distinct from the six clinical-style cheek crops.",
+  "evidence_limit": "Generated model scene illustrates campaign mood; it is not actual finish or shade proof. Caption labels it as a model scene. Real six-shade photography remains the colour reference.",
+  "historical_asset": "cheek-finish.jpg retained as a prior-source asset, no longer used in the detail.",
+  "qa": "moa-qa.json"
+}

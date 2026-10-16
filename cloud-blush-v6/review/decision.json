@@ -34,9 +34,9 @@
     },
     {
       "section": "finish",
-      "purpose": "Show actual soft blended cheek finish",
-      "asset": "Frame 9.1 seconds of existing footage",
-      "claim": "Official creamblush16_1.png Soft-Focus Blur campaign; no quantitative pore/wrinkle claim"
+      "purpose": "Create a distinct model-and-product editorial break before six real shade comparisons",
+      "asset": "New Higgsfield Moa-based landscape editorial; see moa-revision.json",
+      "claim": "Official qualitative Soft-Focus Blur messaging; generated image is not finish evidence"
     },
     {
       "section": "colours",
@@ -91,6 +91,25 @@
       "path": "assets/cheek-finish.jpg",
       "source": "../cloud-blush-v3/assets/cream-to-powder.mp4",
       "time_seconds": 9.1
+    },
+    {
+      "path": "assets/moa-finish-editorial.jpg",
+      "type": "AI-generated editorial based on Moa reference",
+      "job_id": "b84c2372-be71-41bb-b38e-a34228779f65",
+      "reference_media": [
+        "9afab7d8-009d-4f43-9e84-10ecd8e2cd1f",
+        "b6deab66-6dae-488f-a21a-de4b8d86f28c"
+      ],
+      "reference_photo": "cloud-blush-v3/assets/moa-blush.jpg",
+      "requested_model": "nano_banana_pro",
+      "reported_model": "nano_banana_2",
+      "generation_submissions": 1,
+      "quoted_credits": 2,
+      "size": [
+        2528,
+        1696
+      ],
+      "processing": "JPEG quality94 subsampling0; no crop or recolour"
     }
   ],
   "verification": {
@@ -109,5 +128,6 @@
     "technical_qa": "qa.json",
     "approval": "Only owner can approve the design"
   },
-  "scope": "Only new cloud-blush-v6 and scoped build/records; historical versions preserved; no Cafe24 production changes or ChatGPT Sites copies"
+  "scope": "Only new cloud-blush-v6 and scoped build/records; historical versions preserved; no Cafe24 production changes or ChatGPT Sites copies",
+  "model_scene_revision": "moa-revision.json"
 }
