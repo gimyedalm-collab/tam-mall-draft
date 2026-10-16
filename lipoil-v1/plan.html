@@ -1,0 +1,1093 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>탐뷰티 립오일 | 경쟁 분석·상세페이지 기획서</title><style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+      :root {
+        --ink: #2a1820;
+        --ink2: #5a3a48;
+        --ink3: #8a6a78;
+        --pink: #f5cdd3;
+        --pink-deep: #e8a5b0;
+        --pink-bg: #fdf2f4;
+        --cream: #fff7e6;
+        --off: #fefafb;
+        --accent: #e8a5b0;
+        --gold: #d4a574;
+        --rule: #f0dae0;
+        --line: #e8d4da;
+        --bench: #3a2d28;
+        --bench-bg: #f5f0eb;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Noto Sans KR', sans-serif;
+        background: var(--off);
+        color: var(--ink);
+        line-height: 1.7;
+        font-size: 14.5px;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      /* Meta Bar */
+      .meta-bar {
+        background: var(--ink);
+        color: #fce0e5;
+        padding: 14px 30px;
+        font-size: 11px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        letter-spacing: 1px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .meta-bar strong {
+        color: #f5e8c0;
+        font-weight: 600;
+      }
+      .meta-bar .tag {
+        background: #f5e8c0;
+        color: var(--ink);
+        padding: 3px 10px;
+        border-radius: 2px;
+        font-weight: 700;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+      }
+
+      .wrap {
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 60px 44px 100px;
+      }
+
+      /* Cover */
+      .cover {
+        text-align: center;
+        padding: 40px 0 60px;
+        border-bottom: 2px solid var(--ink);
+        margin-bottom: 60px;
+      }
+      .cover .eyebrow {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-size: 13px;
+        color: var(--accent);
+        letter-spacing: 3px;
+        margin-bottom: 14px;
+        font-weight: 600;
+      }
+      .cover h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 44px;
+        font-weight: 500;
+        letter-spacing: -0.5px;
+        margin-bottom: 10px;
+      }
+      .cover h1 .it {
+        font-style: italic;
+        font-weight: 400;
+      }
+      .cover .ko {
+        font-size: 18px;
+        color: var(--ink2);
+        margin-bottom: 22px;
+        font-weight: 600;
+      }
+      .cover .doc-kind {
+        display: inline-block;
+        background: var(--ink);
+        color: var(--cream);
+        padding: 8px 20px;
+        font-size: 11px;
+        letter-spacing: 3px;
+        font-weight: 600;
+      }
+
+      /* Fact Row */
+      .fact-row {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+        margin: 30px 0 0;
+      }
+      .fact-row .cell {
+        background: #fff;
+        padding: 18px 14px;
+        text-align: center;
+        border-radius: 6px;
+        border: 1px solid var(--rule);
+      }
+      .fact-row .k {
+        font-size: 10px;
+        letter-spacing: 2px;
+        color: var(--accent);
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        margin-bottom: 6px;
+        font-weight: 600;
+      }
+      .fact-row .v {
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--ink);
+        font-family: 'Playfair Display', serif;
+      }
+      .fact-row .v small {
+        font-size: 13px;
+        font-weight: 500;
+      }
+
+      section {
+        margin-bottom: 90px;
+      }
+      .sec-no {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-size: 13px;
+        color: var(--accent);
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+      h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        letter-spacing: -0.3px;
+      }
+      h2 + .lede {
+        font-size: 14px;
+        color: var(--ink2);
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--rule);
+      }
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 30px 0 14px;
+      }
+      h4 {
+        font-size: 12px;
+        font-weight: 700;
+        margin: 18px 0 8px;
+        color: var(--accent);
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: var(--ink2);
+      }
+      strong,
+      b {
+        color: var(--ink);
+        font-weight: 700;
+      }
+      code {
+        background: var(--pink-bg);
+        padding: 2px 8px;
+        border-radius: 3px;
+        font-size: 13px;
+        color: #7a2040;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+      }
+
+      /* Asset Library */
+      .asset-lib {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+        margin: 24px 0 14px;
+      }
+      .asset {
+        background: #fff;
+        border: 2px solid var(--ink);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .asset .thumb {
+        aspect-ratio: 4/5;
+        position: relative;
+        overflow: hidden;
+      }
+      .asset .cap {
+        padding: 10px 12px;
+        font-size: 11px;
+        border-top: 1px solid var(--rule);
+      }
+      .asset .cap .code {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: var(--accent);
+        font-size: 13px;
+        letter-spacing: 1px;
+      }
+      .asset .cap .name {
+        display: block;
+        color: var(--ink);
+        font-weight: 600;
+        margin: 3px 0;
+        font-size: 12px;
+      }
+      .asset .cap .use {
+        color: var(--ink2);
+        font-size: 10.5px;
+        line-height: 1.5;
+      }
+
+      /* Asset Thumbnails — CSS 목업 */
+      .thumb-hero {
+        background: linear-gradient(
+          135deg,
+          #fdf2f4 0%,
+          #f5cdd3 60%,
+          #e8a5b0 100%
+        );
+        position: relative;
+      }
+      .thumb-hero::before {
+        content: '';
+        position: absolute;
+        right: 15%;
+        top: 20%;
+        width: 35%;
+        height: 55%;
+        background: radial-gradient(
+          ellipse at 50% 40%,
+          #fce8ea 0%,
+          #e8b5bc 60%,
+          #d4909a 100%
+        );
+        border-radius: 45% 45% 42% 42%;
+      }
+      .thumb-hero::after {
+        content: '';
+        position: absolute;
+        left: 12%;
+        top: 35%;
+        width: 40%;
+        height: 8%;
+        background: var(--ink);
+        border-radius: 2px;
+        opacity: 0.15;
+      }
+
+      .thumb-cheek {
+        background: #f3dccc;
+        position: relative;
+      }
+      .thumb-cheek::before {
+        content: '';
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        width: 50%;
+        height: 40%;
+        background: radial-gradient(
+          ellipse at 50% 50%,
+          #f5cdd3 0%,
+          #f3dccc 70%
+        );
+        border-radius: 50%;
+      }
+
+      .thumb-beam {
+        background: linear-gradient(180deg, #fdf2f4 0%, #fff 50%, #fdf2f4 100%);
+        position: relative;
+      }
+      .thumb-beam::before {
+        content: '';
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 80%;
+        height: 60%;
+        background: repeating-linear-gradient(
+          90deg,
+          var(--pink) 0px,
+          var(--pink) 8px,
+          transparent 8px,
+          transparent 12px
+        );
+        border-radius: 4px;
+        opacity: 0.6;
+      }
+
+      .thumb-ba {
+        background: #f3dccc;
+        position: relative;
+      }
+      .thumb-ba::before {
+        content: '';
+        position: absolute;
+        top: 20%;
+        left: 8%;
+        width: 38%;
+        height: 60%;
+        background: #eedacf;
+        border-radius: 40%;
+      }
+      .thumb-ba::after {
+        content: '';
+        position: absolute;
+        top: 20%;
+        right: 8%;
+        width: 38%;
+        height: 60%;
+        background: radial-gradient(
+          ellipse at 50% 50%,
+          #f5cdd3 30%,
+          #eedacf 70%
+        );
+        border-radius: 40%;
+      }
+
+      .thumb-color {
+        background: linear-gradient(
+          90deg,
+          #f0e8e0 0%,
+          #f5cdd3 50%,
+          #d4a574 100%
+        );
+        position: relative;
+      }
+      .thumb-color::before,
+      .thumb-color::after {
+        content: '';
+        position: absolute;
+        width: 26%;
+        height: 26%;
+        border-radius: 50%;
+        top: 37%;
+      }
+      .thumb-color::before {
+        left: 12%;
+        background: #f0e8e0;
+        border: 2px solid #e0d0c8;
+      }
+      .thumb-color::after {
+        right: 12%;
+        background: #d4a574;
+        border: 2px solid #c49564;
+      }
+
+      .thumb-tone {
+        background: var(--pink-bg);
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 3px;
+        padding: 12%;
+      }
+      .thumb-tone::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: var(--pink-deep);
+      }
+      .thumb-tone::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background: var(--pink-deep);
+      }
+
+      .thumb-howto {
+        background: #f3dccc;
+        position: relative;
+      }
+      .thumb-howto::before {
+        content: '';
+        position: absolute;
+        top: 35%;
+        left: 30%;
+        width: 40%;
+        height: 12%;
+        background: radial-gradient(
+          ellipse at 50% 50%,
+          #f5cdd3 0%,
+          transparent 70%
+        );
+      }
+      .thumb-howto::after {
+        content: '';
+        position: absolute;
+        top: 22%;
+        left: 42%;
+        width: 16%;
+        height: 30%;
+        background: var(--pink-deep);
+        border-radius: 50% 50% 8px 8px;
+        opacity: 0.6;
+      }
+
+      .thumb-time {
+        background: linear-gradient(
+          90deg,
+          #f3dccc 0%,
+          #f3dccc 33%,
+          #f0ddd0 33%,
+          #f0ddd0 66%,
+          #ede0d4 66%
+        );
+        position: relative;
+      }
+      .thumb-time::before {
+        content: "0' → 30' → OUT";
+        position: absolute;
+        bottom: 12%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 9px;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        color: var(--ink3);
+        white-space: nowrap;
+        letter-spacing: 2px;
+      }
+
+      .thumb-close {
+        background: linear-gradient(
+          135deg,
+          #fdf2f4 0%,
+          #f5cdd3 50%,
+          #e8a5b0 100%
+        );
+        position: relative;
+      }
+      .thumb-close::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        height: 50%;
+        background: radial-gradient(
+          ellipse at 50% 40%,
+          #fce8ea 0%,
+          #d4909a 100%
+        );
+        border-radius: 45%;
+        opacity: 0.7;
+      }
+
+      /* 3-Column Section Card */
+      .sec-block {
+        background: #fff;
+        border-radius: 8px;
+        margin-bottom: 24px;
+        border: 1px solid var(--rule);
+        overflow: hidden;
+      }
+      .sec-head {
+        background: var(--ink);
+        color: var(--off);
+        padding: 16px 26px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+      .sec-head .left {
+        display: flex;
+        align-items: baseline;
+        gap: 14px;
+      }
+      .sec-head .no {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        color: #f5e8c0;
+        font-size: 15px;
+        letter-spacing: 2px;
+        font-weight: 600;
+      }
+      .sec-head .title {
+        font-size: 19px;
+        font-weight: 600;
+      }
+      .sec-head .purpose {
+        font-size: 11px;
+        color: #f0c8d0;
+        letter-spacing: 1px;
+      }
+
+      .sec-body {
+        display: grid;
+        grid-template-columns: 220px 1fr 280px;
+        gap: 0;
+      }
+      .sec-shot {
+        background: var(--pink-bg);
+        padding: 18px;
+        border-right: 1px solid var(--rule);
+      }
+      .shot-slot {
+        aspect-ratio: 4/5;
+        border-radius: 6px;
+        overflow: hidden;
+        border: 2px dashed var(--pink-deep);
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .shot-slot.has-asset {
+        border-style: solid;
+        padding: 0;
+        position: relative;
+      }
+      .shot-slot.has-asset .badge {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        background: var(--accent);
+        color: #fff;
+        font-size: 9px;
+        padding: 3px 7px;
+        border-radius: 10px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        z-index: 10;
+      }
+      .shot-slot .mock {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      .shot-info {
+        font-size: 11px;
+        color: var(--ink2);
+        line-height: 1.5;
+      }
+      .shot-info b {
+        color: var(--ink);
+        font-size: 11.5px;
+      }
+
+      .sec-info {
+        padding: 20px 24px;
+      }
+      .sec-info .copy-quote {
+        background: var(--pink-bg);
+        padding: 12px 16px;
+        border-left: 3px solid var(--accent);
+        margin: 8px 0 14px;
+        border-radius: 0 4px 4px 0;
+      }
+      .sec-info .copy-quote .main {
+        font-size: 20px;
+        color: var(--ink);
+        font-weight: 600;
+        display: block;
+        margin-bottom: 3px;
+        line-height: 1.3;
+      }
+      .sec-info .copy-quote .sub {
+        font-size: 13.5px;
+        color: var(--ink2);
+        font-weight: 500;
+      }
+      .sec-info ul {
+        margin: 6px 0 14px 18px;
+      }
+      .sec-info li {
+        font-size: 12.5px;
+        color: var(--ink2);
+        margin-bottom: 3px;
+      }
+      .sec-info li b {
+        color: var(--ink);
+      }
+
+      /* Benchmark Panel */
+      .sec-bench {
+        background: var(--bench-bg);
+        border-left: 1px solid var(--rule);
+        padding: 18px 20px;
+      }
+      .sec-bench .bh {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        color: var(--bench);
+        font-size: 10px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .sec-bench .bh::before {
+        content: '';
+        width: 20px;
+        height: 1px;
+        background: var(--bench);
+      }
+      .sec-bench .brand {
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--ink);
+        margin-bottom: 2px;
+      }
+      .sec-bench .camp {
+        font-size: 11px;
+        color: var(--ink2);
+        margin-bottom: 12px;
+        font-style: italic;
+      }
+      .sec-bench .ref-quote {
+        background: #fff;
+        padding: 10px 12px;
+        border-left: 2px solid var(--bench);
+        font-size: 12px;
+        color: var(--ink);
+        margin: 8px 0 12px;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        line-height: 1.5;
+        border-radius: 0 3px 3px 0;
+      }
+      .sec-bench h6 {
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        margin: 10px 0 4px;
+      }
+      .sec-bench h6.take {
+        color: #2d5a24;
+      }
+      .sec-bench h6.leave {
+        color: #a04054;
+      }
+      .sec-bench ul {
+        margin: 4px 0 8px 16px;
+      }
+      .sec-bench li {
+        font-size: 11px;
+        color: var(--ink2);
+        margin-bottom: 2px;
+      }
+
+      /* TOC */
+      .toc {
+        background: #fff;
+        border: 1px solid var(--rule);
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      .toc table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .toc td {
+        padding: 11px 18px;
+        border-bottom: 1px solid var(--rule);
+        font-size: 13px;
+      }
+      .toc tr:last-child td {
+        border-bottom: none;
+      }
+      .toc .num {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        color: var(--accent);
+        font-weight: 600;
+        width: 40px;
+      }
+      .toc .t {
+        color: var(--ink);
+        font-weight: 600;
+        width: 18%;
+      }
+      .toc .copy-col {
+        color: var(--ink);
+        font-weight: 600;
+        width: 22%;
+      }
+      .toc .desc {
+        color: var(--ink2);
+        width: 28%;
+      }
+      .toc .bench-chip {
+        display: inline-block;
+        background: var(--bench-bg);
+        color: var(--bench);
+        font-size: 11px;
+        padding: 2px 8px;
+        border-radius: 10px;
+        font-weight: 700;
+        margin-right: 3px;
+      }
+      .toc .asset-chip {
+        display: inline-block;
+        background: var(--pink-bg);
+        color: var(--accent);
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-size: 11px;
+        padding: 2px 8px;
+        border-radius: 10px;
+        margin-right: 3px;
+      }
+
+      /* Color Cards */
+      .color-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        margin: 14px 0;
+      }
+      .color-card {
+        background: #fff;
+        border: 1px solid var(--rule);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .color-sw {
+        height: 80px;
+        position: relative;
+      }
+      .color-sw.c1 {
+        background: linear-gradient(135deg, #f8f2ea 0%, #e8ddd0 100%);
+      }
+      .color-sw.c2 {
+        background: linear-gradient(135deg, #fce8ec 0%, #f0b8c4 100%);
+      }
+      .color-sw.c3 {
+        background: linear-gradient(135deg, #f5e8d4 0%, #d4a574 100%);
+      }
+      .color-body {
+        padding: 14px 16px;
+      }
+      .color-body .no {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      .color-body .en {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--ink);
+        margin: 2px 0;
+      }
+      .color-body .kr {
+        font-size: 12px;
+        color: var(--ink2);
+      }
+      .color-body .tone {
+        font-size: 11px;
+        color: var(--accent);
+        font-weight: 600;
+        margin-top: 4px;
+      }
+      .color-body .desc {
+        font-size: 11.5px;
+        color: var(--ink2);
+        margin-top: 4px;
+        line-height: 1.5;
+      }
+
+      /* Motion */
+      .motion-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin: 20px 0;
+      }
+      .motion-card {
+        background: #fff;
+        border: 1px solid var(--rule);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .motion-preview {
+        aspect-ratio: 1;
+        position: relative;
+        overflow: hidden;
+      }
+      .motion-info {
+        padding: 14px 16px;
+      }
+      .motion-info .code {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+      .motion-info .name {
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--ink);
+        margin: 4px 0 8px;
+      }
+      .motion-info .desc {
+        font-size: 11.5px;
+        color: var(--ink2);
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      .motion-info .specs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        padding-top: 8px;
+        border-top: 1px dashed var(--rule);
+      }
+      .motion-info .spec {
+        background: var(--pink-bg);
+        color: var(--accent);
+        font-size: 10px;
+        padding: 2px 7px;
+        border-radius: 10px;
+        font-weight: 600;
+      }
+
+      /* Copy Deck Cards */
+      .copy-deck {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        margin-top: 20px;
+      }
+      .cd-card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 22px 24px;
+        border-left: 4px solid var(--accent);
+      }
+      .cd-card .cd-no {
+        font-size: 10px;
+        font-weight: 700;
+        color: var(--accent);
+        letter-spacing: 1.5px;
+        margin-bottom: 10px;
+      }
+      .cd-card .cd-main {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.3;
+        color: var(--ink);
+      }
+      .cd-card .cd-sub {
+        font-size: 13px;
+        color: var(--ink2);
+        margin-top: 6px;
+      }
+
+      /* Callout */
+      .callout {
+        background: #fff8dc;
+        border-left: 3px solid #d4a017;
+        padding: 14px 18px;
+        margin: 14px 0;
+        font-size: 13px;
+        border-radius: 0 4px 4px 0;
+      }
+      .callout b {
+        color: #8a5a00;
+      }
+
+      /* Checklist */
+      .checklist {
+        background: #fff;
+        border: 1px solid var(--rule);
+        padding: 24px 30px;
+        border-radius: 6px;
+      }
+      .checklist li {
+        font-size: 13px;
+        margin-bottom: 10px;
+        list-style: none;
+        position: relative;
+        padding-left: 28px;
+        color: var(--ink);
+      }
+      .checklist li:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 4px;
+        width: 16px;
+        height: 16px;
+        border: 2px solid var(--accent);
+        border-radius: 3px;
+      }
+
+      .motif-rule {
+        height: 1px;
+        background: var(--rule);
+        position: relative;
+        margin: 50px 0;
+      }
+      .motif-rule::after {
+        content: '✦';
+        position: absolute;
+        left: 50%;
+        top: -10px;
+        transform: translateX(-50%);
+        background: var(--off);
+        color: var(--accent);
+        padding: 0 14px;
+        font-size: 14px;
+      }
+
+      .footer-note {
+        text-align: center;
+        padding: 36px;
+        background: var(--ink);
+        color: #fce0e5;
+        font-size: 11px;
+        letter-spacing: 2px;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+      }
+
+      /* GIF Keyframes */
+      @keyframes beam-shift {
+        0%,
+        100% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+      }
+      @keyframes color-fade {
+        0%,
+        30% {
+          background: #f0e8e0;
+        }
+        35%,
+        65% {
+          background: #f5cdd3;
+        }
+        70%,
+        100% {
+          background: #d4a574;
+        }
+      }
+      @keyframes glow-pulse {
+        0%,
+        100% {
+          opacity: 0.4;
+          transform: scale(0.8);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.1);
+        }
+      }
+
+      .mp-beam {
+        background: #f3dccc;
+      }
+      .mp-beam .cheek {
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        width: 60%;
+        height: 40%;
+        border-radius: 50%;
+        background: linear-gradient(90deg, #f0e8e0, #f5cdd3, #d4a574, #f0e8e0);
+        background-size: 300% 100%;
+        animation: beam-shift 4s ease-in-out infinite;
+      }
+      .mp-color {
+        background: #f3dccc;
+      }
+      .mp-color .cheek {
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        width: 60%;
+        height: 40%;
+        border-radius: 50%;
+        animation: color-fade 4.5s ease-in-out infinite;
+      }
+      .mp-apply {
+        background: #f3dccc;
+      }
+      .mp-apply .dot {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+        background: var(--pink);
+        animation: glow-pulse 2s ease-in-out infinite;
+      }
+      .mp-apply .finger {
+        position: absolute;
+        top: 18%;
+        left: 42%;
+        width: 16%;
+        height: 28%;
+        background: var(--pink-deep);
+        border-radius: 50% 50% 8px 8px;
+        opacity: 0.6;
+        animation: glow-pulse 2s ease-in-out infinite 0.3s;
+      }
+
+      /* Responsive */
+      @media (max-width: 1100px) {
+        .sec-body {
+          grid-template-columns: 1fr;
+        }
+        .sec-shot {
+          border-right: none;
+          border-bottom: 1px solid var(--rule);
+        }
+        .sec-bench {
+          border-left: none;
+          border-top: 1px solid var(--rule);
+        }
+      }
+      @media (max-width: 900px) {
+        .asset-lib {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .color-grid {
+          grid-template-columns: 1fr;
+        }
+        .motion-grid {
+          grid-template-columns: 1fr;
+        }
+        .copy-deck {
+          grid-template-columns: 1fr;
+        }
+        .fact-row {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    @font-face{font-family:Pretendard;src:url(assets/PretendardVariable.woff2)}body{font-family:Pretendard,sans-serif}.wrap{max-width:1240px}section{margin:64px 0}h2{font-size:27px;margin-bottom:20px}h3{font-size:19px;margin:24px 0 12px}p{margin:12px 0}.table-wrap{overflow:auto;margin:24px 0}table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:16px 14px;text-align:left;vertical-align:top;border-bottom:1px solid #e8d4da}th{background:#f5ecef}td{min-width:105px}small,.note{color:#65545b}.note{font-size:13px;background:#f7f4f5;padding:18px}.takeaway{border-left:3px solid #925368;padding:12px 25px;background:#faf5f7}.contents{display:flex;gap:24px;flex-wrap:wrap}.contents a,a{color:#7e4054}.go{display:inline-block;margin-top:20px;padding:12px 22px;background:#2a1820;color:white;text-decoration:none}.cover .eyebrow{color:#925368}.cover .doc-kind{letter-spacing:1px}@media(max-width:650px){.wrap{padding:25px 18px}.cover{padding:22px 0 35px}.cover h1{font-size:32px}.meta-bar{position:static;padding:14px 18px;display:block}.meta-bar span{display:block;font-size:10px;margin-top:5px}section{margin:42px 0}h2{font-size:24px}table{font-size:13px}.contents{gap:15px}}@media print{.meta-bar,.contents,.go{display:none}.wrap{padding:0}section{break-before:page}table{font-size:10px}th,td{padding:9px;min-width:0}}</style></head><body><header class="meta-bar"><strong>TAM BEAUTY · PRODUCT DETAIL</strong><span>RESEARCH & DESIGN HANDOFF · 2026.10.16</span></header><main class="wrap">
+<div class="cover"><div class="eyebrow">The Jelly Line</div><h1>The Jelly Plumping Lip Oil</h1><p class="ko">립오일 상세페이지 리서치 · 기획 · 제작 가이드</p><div class="doc-kind">기존 완성본을 잇는 리뉴얼 1차안</div><p style="margin-top:24px">맑게 감싸는 컬러, 탱글한 젤리광.</p><a class="go" href="index.html">상세페이지 시안 보기 ↗</a></div>
+<p><a class="go" href="references.html">비주얼 레퍼런스 보드 ↗</a></p><nav class="contents"><a href="#direction">방향</a><a href="#benchmark">경쟁 분석</a><a href="#usp">탐 USP</a><a href="#flow">섹션·카피</a><a href="#production">제작 사양</a><a href="#sources">출처</a></nav>
+<section id="direction"><h2>기존 완성본에서 이어갈 것</h2><p>시각 기준은 확정된 밀키치크 V12·하이라이터 R33와 립라이너 R32. 문서 형식은 하이라이터 디자이너 핸드오프 v16의 커버·카피 덱·섹션별 가이드를 계승한다. 이전 립오일의 Y2K 창·스티커 장식을 새 디자인 기준으로 삼지 않는다.</p><div class="table-wrap"><table><thead><tr><th>항목</th><th>유지</th><th>이번에 더할 요소</th></tr></thead><tbody><tr><td>포맷</td><td>860px 단일 세로 상세 / 독립 섹션 이미지</td><td>390px에서 빠르게 읽히는 2행 헤드라인</td></tr><tr><td>색·타입</td><td>밝은 바탕, 차분한 로즈 강조, Pretendard</td><td>제품 3색을 보여주는 실물 사진과 입술 확대</td></tr><tr><td>구성</td><td>큰 실사 컷과 짧은 설명, 마지막 상품고시</td><td>초반 컬러 선택, 1회·2회 도포 비교, 팁 사용법</td></tr><tr><td>브랜드</td><td>THE JELLY LINE의 투명하고 탱글한 감각</td><td>젤리 오브제보다 실제 제형·발색 증거 비중 확대</td></tr></tbody></table></div><p class="note">디자인 판단: 판매용 모바일 상세페이지 / 기존 860px 포맷 우선 / 시각 변화 3·움직임 1·정보 밀도 5. 정적인 1차 시안으로 제작하고 효과 연출보다 사진·카피의 순서에 집중한다.</p></section><section id="benchmark"><h2>경쟁사 USP와 상세페이지의 강점</h2><p>2026년 10월 16일 접근 가능한 올리브영 상품 정보와 브랜드 공식몰을 비교했다. 아래는 관찰한 사례를 바탕으로 한 기획 판단이며, 시장 전체 트렌드나 판매 성과를 입증하는 분석은 아니다.</p><div class="table-wrap"><table><thead><tr><th>브랜드·근거</th><th>USP</th><th>관찰한 강점</th><th>탐에 재조립</th><th>적용하지 않을 것</th></tr></thead><tbody><tr><td>롬앤<br><small>직접 경쟁 / R1·R2</small></td><td>광택 자체를 기억시키는 오일광 메시지. 컬러·플럼퍼 옵션과 미니 입문 구성.</td><td>결과를 한 단어로 기억시키는 캠페인과 구매 진입점을 함께 제시. 상세 이미지 구조에 대한 평가는 보류.</td><td>첫 화면에서 젤리광과 실물 발색을 보여준다. 3색을 초반에 비교하고 제품 이름보다 선택 이유를 먼저 쓴다.</td><td>플래시·캐릭터·캠페인 문구 복제, 행사 조건 전용, 판매 순위 추정.</td></tr><tr><td>딘토<br><small>인접 경쟁 / D1·D2</small></td><td>투명한 광택, 가벼운 사용감, 맑은 컬러를 각각 분리해 설명.</td><td>입술 확대 → 컬러 차트 → 제형 → 팁 구조. 실제 얼굴·립·팁 사진을 번갈아 배치해 텍스트를 줄인다.</td><td>립오일 3색을 동일 크기 립 컷으로 비교. 1회·2회 도포도 같은 조명과 배율로 정리한다.</td><td>사과·거울 세계관, 웜쿨 차트의 임의 전용, 글로스와 오일의 동일 효능 취급.</td></tr><tr><td>라네즈<br><small>인접 경쟁 / L1·L2</small></td><td>립케어와 컬러 메이크업을 연결하는 세럼 포지셔닝. 컬러별 구체적 무드.</td><td>컬러 이름·제품·흐르는 제형이 한 덩어리로 연결된다. 큰 소재 컷이 질감을 설명한다.</td><td>탐의 젤리 라인을 실제 젤리광·제형 확대에 연결. 핑크·로즈·퍼플의 선택을 생활 언어로 설명한다.</td><td>도넛 오브제 복제, 경쟁사의 성분 비율·임상 수치, 탐 제품을 세럼으로 재명명.</td></tr><tr><td>클라랑스<br><small>직접 경쟁 / C1</small></td><td>오일 전문성과 편안한 사용감, 코쿠닝 어플리케이터, 단독·레이어링 활용.</td><td>공식 설명이 바르는 감각과 쓰는 상황을 함께 답한다. 시각 배치는 미평가.</td><td>빅 팁의 실물 확대와 소량 조절법. 단독·립 컬러 위 마무리 사용을 나눠 안내한다.</td><td>pH 반응, 수면팩 용도, 특정 식물 오일·독자 효능의 무단 차용.</td></tr></tbody></table></div><div class="takeaway"><h3>이번 리뉴얼에 가져올 네 가지</h3><p>① 광택의 결과를 첫 화면에서 보여주기　② 동일 조건의 3색 비교　③ 제형을 설명하는 큰 실물 컷　④ 바르는 방법과 상황까지 안내하기.</p><p>경쟁사의 그래픽·문장·수치를 옮기는 대신, 탐의 실제 제품과 소재로 이 구조를 구현한다.</p></div></section><section id="usp"><h2>탐의 USP 우선순위</h2><div class="table-wrap"><table><thead><tr><th>우선순위</th><th>소비자가 얻는 것</th><th>근거</th><th>실제 카피</th></tr></thead><tbody><tr><td>1 · 메인</td><td>맑은 컬러와 젤리 같은 광택</td><td>공식 Juicy Color·Jelly Glow 및 실제 발색</td><td>맑게 감싸는 컬러, 탱글한 젤리광.</td></tr><tr><td>2 · 선택</td><td>3색·도포량으로 바뀌는 립 무드</td><td>공식 01·02·03 및 1 coat / 2 coat</td><td>한 번은 여리게, 한 번 더 생기 있게.</td></tr><tr><td>3 · 사용 편의</td><td>넓은 팁으로 바르는 편안함</td><td>공식 Applicator 사진</td><td>입술 곡면을 따라, 넓고 부드럽게.</td></tr><tr><td>4 · 보조</td><td>오일 포뮬러·쿨링감</td><td>공식 전성분 및 기존 상세 설명</td><td>광택에 촉촉함을 더하는 오일 포뮬러.</td></tr></tbody></table></div><p class="note">기존 상세의 “5배 큰 팁”, 비건 마크, 오래 유지되는 보습 등은 비교 기준·인증 범위·시험 자료 확보 후 확장한다. 1차 시안은 숫자 없는 팁 설명, 확인된 성분 함유, 메이크업 연출 표현을 사용한다. 기존 CRM 증정·특가 조건은 이번 상세에 자동 적용하지 않는다.</p></section><section id="flow"><h2>섹션 구성 + 카피 덱</h2><div class="table-wrap"><table><thead><tr><th>순서</th><th>역할</th><th>메인 카피</th><th>비주얼·구성</th><th>소재·근거</th><th>벤치마크 연결</th></tr></thead><tbody><tr><td>01</td><td>히어로</td><td>맑게 감싸는 컬러,<br>탱글한 젤리광.</td><td>제품 3종과 짧은 영문 제품명. 기존 립라이너처럼 로고 → 제품명 → 한 줄 효익 → 실물.</td><td>확인된 3색 / 원본 팩샷</td><td>롬앤의 결과 중심 메시지</td></tr><tr><td>02</td><td>광택·제형</td><td>입술 위에 올리는<br>맑은 젤리광</td><td>실제 도포 립 확대를 크게. 꾸민 배경보다 반사광과 입술결을 보여준다.</td><td>기존 공식 발색 원본 / 색보정 없음</td><td>딘토의 립 확대</td></tr><tr><td>03</td><td>3색 선택</td><td>세 가지 컬러로<br>더하는 맑은 생기.</td><td>퍼스트 러브 / 인피니트 로즈 / 나이트 뷰. 가로형 립 컷·제형을 2열로 비교. 세 번째는 동일 크기로 중앙 배치.</td><td>01 벚꽃 핑크 / 02 장미빛 / 03 퍼플</td><td>딘토의 비교 차트 + 라네즈의 컬러별 무드</td></tr><tr><td>04</td><td>레이어링</td><td>한 번은 여리게,<br>한 번 더 생기 있게</td><td>원본의 1 coat / 2 coat 3색 비교. 색 변화·광택 차이를 직접 확인.</td><td>공식 1회·2회 도포컷 / 시험 전후 이미지 아님</td><td>딘토의 시각적 증거</td></tr><tr><td>05</td><td>빅 팁</td><td>입술 곡면을 따라,<br>넓고 부드럽게</td><td>빅 팁 실물과 소량 도포법. 5배 수치는 비교 기준 확보 전 생략.</td><td>공식 팁 이미지</td><td>클라랑스의 도구·사용감 설명</td></tr><tr><td>06</td><td>오일 포뮬러</td><td>광택에 촉촉함을 더하는<br>오일 포뮬러</td><td>해바라기씨오일·녹차씨오일 함유만 명확히. 제형 사진에 짧은 성분 설명.</td><td>공식 전성분 / 함량·지속시간 미기재</td><td>라네즈의 메이크업·케어 연결</td></tr><tr><td>07</td><td>쿨링·플럼핑</td><td>시원한 터치로 완성하는<br>탱글한 립 메이크업</td><td>공식 기존 표현 범위의 쿨링감·볼륨감 있는 연출. 사용감 개인차 안내.</td><td>공식 Plump 구간 / 인체적용시험 수치 없음</td><td>경쟁 분석 후 탐 고유 메시지</td></tr><tr><td>08</td><td>사용법</td><td>가볍게 바르고,<br>원하는 만큼 덧바르세요</td><td>팁의 양 조절 → 중앙에서 바깥으로 → 단독 또는 립 메이크업 마무리.</td><td>공식 기본 사용법 + 도포 가이드 제안</td><td>클라랑스의 사용 상황</td></tr><tr><td>09</td><td>상품 정보</td><td>더 젤리 플럼핑 립 오일</td><td>4.3ml, 3색, 사용기한, 책임판매업자, 제조국, 3색 전성분. 가격은 플랫폼 구매 영역에서 관리.</td><td>공식 상품고시 / 02 표기 최종 대조 필요</td><td>기존 탐 마감 포맷</td></tr></tbody></table></div><h3>컬러 설명</h3><div class="table-wrap"><table><thead><tr><th>컬러</th><th>선택 이유</th><th>서브 카피</th></tr></thead><tbody><tr><td>01 퍼스트 러브</td><td>여리게 더하는 핑크빛</td><td>첫사랑처럼 맑고 여린 벚꽃 핑크.</td></tr><tr><td>02 인피니트 로즈</td><td>생기 있는 장미빛</td><td>장미꽃잎을 닮은 생기 있는 로즈.</td></tr><tr><td>03 나이트 뷰</td><td>색다른 퍼플 무드</td><td>입술 위에 맑게 감도는 퍼플.</td></tr></tbody></table></div><p>웜톤·쿨톤 추천은 실제 색 평가 근거 없이 확정하지 않는다. 용기 색이 입술 위에서 그대로 발색되는 것처럼 보이지 않도록 제품과 실제 도포컷을 함께 배치한다. 00 히말라야 핑크는 립 글로스이므로 립오일 3색 차트에 넣지 않는다.</p></section><section id="production"><h2>제작 사양과 소재 매핑</h2><div class="table-wrap"><table><thead><tr><th>항목</th><th>규격·처리</th></tr></thead><tbody><tr><td>마스터</td><td>가로 860px. 세로는 섹션별 내용에 맞춤. HTML 편집 원본 + PNG 섹션 출력 + 연속 미리보기.</td></tr><tr><td>타입</td><td>Pretendard / 860px에서 히어로 64px·제목 48px·본문 24~26px. 모바일은 제목 29~36px·본문 15~17px로 하한 적용. 상품고시는 HTML로 제공.</td></tr><tr><td>색</td><td>화이트 #FFFFFF / 블러시 #F5ECEF / 강조 로즈 #925368 / 본문 #292629. 기존 완성본 계열 유지.</td></tr><tr><td>여백</td><td>좌우 6.5%, 섹션 시작 80px·마감 72px, 비교 간격 24px, 사진 반경 16px. 599px 이하에서 좌우 5.6%·간격 14px·반경 10px.</td></tr><tr><td>사진</td><td>공식 원본의 비율·색 유지. 00 글로스와 01~03 오일 구분. 사용된 원본과 크롭 좌표를 assets.json에 기록.</td></tr><tr><td>금지</td><td>경쟁사 이미지를 탐 제품 이미지로 사용, 생성형 가짜 발색·전후 비교, 추정 후기·랭킹·임상 수치.</td></tr><tr><td>1차 소재</td><td>기존 공식몰 팩샷 3종, 실제 1회·2회 발색컷, 공식 팁·제품 연출 사진. 현재 원본에 합쳐진 스티커는 프레이밍으로 제외.</td></tr><tr><td>후속 촬영 가치</td><td>텍스트 없는 고해상도 입술 3색·팁 매크로·제품 3종 연출컷이 있으면 교체. 1차 시안은 확보된 실제 사진으로 제작.</td></tr></tbody></table></div><h3>최종 반영 전에 대조할 세 가지</h3><p>02 색상명은 상품 옵션의 “인피니트 로즈”와 상품고시의 “인피닛 로즈”가 다르다. 1차는 옵션명을 사용하고 전성분은 원문 표기를 보존한다. 제조업자·사용 주의사항은 현행 패키지와 대조한다. 비건 배지와 정량 플럼핑·보습 주장은 증빙 파일을 확보한 뒤 반영한다.</p><p class="note">제작 상태: 리서치·카피·레이아웃이 포함된 1차 시안. 카페24 운영 상품의 실제 상세 교체는 포함하지 않는다. 신규 리뷰·프로모션은 추가하지 않는다.</p></section><section id="sources"><h2>레퍼런스와 확인 범위</h2><div class="table-wrap"><table><thead><tr><th>ID</th><th>원문</th><th>확인 범위</th></tr></thead><tbody><tr><td>T1</td><td><a href="https://tambeauty.kr/product/detail.html?product_no=25" target="_blank" rel="noopener">탐뷰티 공식 상품·전성분·컬러 ↗</a></td><td>직접 HTML·상세 이미지 확인. 4.3ml, 3색, 사용법, 해바라기씨오일·녹차씨오일 확인.</td></tr><tr><td>R1</td><td><a href="https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000252485" target="_blank" rel="noopener">롬앤 쥬시 플래시 립 오일 / 올리브영 ↗</a></td><td>검색·웹 읽기로 상품·옵션·미니 증정 확인. 상세 본문 이미지 직접 수집은 403으로 미확인.</td></tr><tr><td>R2</td><td><a href="https://romand.co.kr/article/이벤트/13/182566/" target="_blank" rel="noopener">롬앤 공식 론칭 캠페인 ↗</a></td><td>공식 캠페인의 오일광 메시지와 올리브영 론칭 확인. 댓글은 근거에서 제외.</td></tr><tr><td>D1</td><td><a href="https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233692" target="_blank" rel="noopener">딘토 미러리스 / 올리브영 ↗</a></td><td>10종 상품군 확인. 별도 5색 SKU와 구분. 가격·할인율은 옵션 혼합으로 비교 제외.</td></tr><tr><td>D2</td><td><a href="https://dinto.co.kr/product/detail.html?product_no=215" target="_blank" rel="noopener">딘토 공식 상세페이지 ↗</a></td><td>공식 이미지 15개 확인. 색상 차트, 립 확대, 제형, 팁, 연계 제품 비교 확인. 페이지 제목·옵션 수가 달라 고정 색상 수 인용 제외.</td></tr><tr><td>L1</td><td><a href="https://www.laneige.com/product/detail.html?product_no=93" target="_blank" rel="noopener">라네즈 쿨톤 에디션 공식 상세 ↗</a></td><td>공식 이미지에서 컬러별 패키지·제형·도넛 연출 확인. 립 세럼은 인접 카테고리로 분류.</td></tr><tr><td>L2</td><td><a href="https://www.apgroup.com/int/ko/news/2025-12-01-1.html" target="_blank" rel="noopener">라네즈 공식 제품 소개 ↗</a></td><td>크리에이터 공동 개발 로즈잼 출시 설명. 제품별 차이를 보여주는 선택 이유 참고.</td></tr><tr><td>C1</td><td><a href="https://www.clarins.co.kr/메이크업/립/립-오일-lip_oil/립-컴포트-오일-03-체리-80084589.html" target="_blank" rel="noopener">클라랑스 립 컴포트 오일 공식몰 ↗</a></td><td>공식 텍스트의 사용감·어플리케이터·활용법 확인. 전체 이미지 배치 분석은 하지 않음.</td></tr></tbody></table></div><p class="note">상세 이미지의 시각 분석은 딘토·라네즈·탐뷰티 다운로드 원본을 직접 보고 작성했다. 롬앤 올리브영 상세 본문은 직접 요청이 제한되어, 공식 캠페인과 접근 가능한 상품 정보까지만 분석했다. 가격·리뷰 수·행사·옵션은 바뀔 수 있어 상시 카피에 고정하지 않는다.</p><a class="go" href="index.html">상세페이지 1차 시안 보기 ↗</a></section></main></body></html>

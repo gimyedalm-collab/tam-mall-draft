@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-16",
+  "kind": "research-and-design-candidate",
+  "baseline_commit": "54dc648",
+  "scope": "new lipoil-v1 folder only",
+  "source_research": "Olive Young indexed product pages and official brand details",
+  "competitors": [
+    "romand",
+    "Dinto",
+    "LANEIGE",
+    "Clarins"
+  ],
+  "panels": 9,
+  "owner_design_approved": false,
+  "cafe24_production_changed": false,
+  "limitations": [
+    "02 shade naming differs between official options and disclosure",
+    "manufacturer and precautions require current packaging comparison",
+    "source crop resolution limits apply"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "method": "CSS crop rendered in Chromium; originals unmodified; no color changes",
+  "crops": [
+    {
+      "output": "first-one.png",
+      "source": "tam-04.jpg",
+      "referenceWidth": 600,
+      "x": 100,
+      "y": 1602,
+      "width": 192,
+      "height": 125
+    },
+    {
+      "output": "first-two.png",
+      "source": "tam-04.jpg",
+      "referenceWidth": 600,
+      "x": 320,
+      "y": 1602,
+      "width": 192,
+      "height": 125
+    },
+    {
+      "output": "rose-one.png",
+      "source": "tam-04.jpg",
+      "referenceWidth": 600,
+      "x": 100,
+      "y": 1779,
+      "width": 192,
+      "height": 125
+    },
+    {
+      "output": "rose-two.png",
+      "source": "tam-04.jpg",
+      "referenceWidth": 600,
+      "x": 320,
+      "y": 1779,
+      "width": 192,
+      "height": 125
+    },
+    {
+      "output": "night-one.png",
+      "source": "tam-04.jpg",
+      "referenceWidth": 600,
+      "x": 100,
+      "y": 1956,
+      "width": 192,
+      "height": 125
+    },
+    {
+      "output": "night-two.png",
+      "source": "tam-04.jpg",
+      "referenceWidth": 600,
+      "x": 320,
+      "y": 1956,
+      "width": 192,
+      "height": 125
+    },
+    {
+      "output": "tip.png",
+      "source": "tam-02.png",
+      "referenceWidth": 600,
+      "x": 135,
+      "y": 2252,
+      "width": 240,
+      "height": 120
+    },
+    {
+      "output": "model.png",
+      "source": "tam-04.jpg",
+      "referenceWidth": 600,
+      "x": 202,
+      "y": 680,
+      "width": 280,
+      "height": 500
+    },
+    {
+      "output": "model-first.png",
+      "source": "tam-03.jpg",
+      "referenceWidth": 600,
+      "x": 202,
+      "y": 2980,
+      "width": 260,
+      "height": 365
+    },
+    {
+      "output": "texture-rose.png",
+      "source": "tam-photo-01.jpg",
+      "referenceWidth": 840,
+      "x": 420,
+      "y": 0,
+      "width": 420,
+      "height": 420
+    },
+    {
+      "output": "texture-first.png",
+      "source": "tam-photo-01.jpg",
+      "referenceWidth": 840,
+      "x": 0,
+      "y": 420,
+      "width": 420,
+      "height": 420
+    },
+    {
+      "output": "texture-night.png",
+      "source": "tam-photo-01.jpg",
+      "referenceWidth": 840,
+      "x": 420,
+      "y": 420,
+      "width": 420,
+      "height": 420
+    },
+    {
+      "output": "product-first.png",
+      "source": "tam-photo-03.jpg",
+      "referenceWidth": 840,
+      "x": 280,
+      "y": 90,
+      "width": 280,
+      "height": 650
+    },
+    {
+      "output": "product-rose.png",
+      "source": "tam-photo-04.jpg",
+      "referenceWidth": 840,
+      "x": 280,
+      "y": 90,
+      "width": 280,
+      "height": 650
+    },
+    {
+      "output": "product-night.png",
+      "source": "tam-photo-05.jpg",
+      "referenceWidth": 840,
+      "x": 280,
+      "y": 90,
+      "width": 280,
+      "height": 650
+    }
+  ]
+}
