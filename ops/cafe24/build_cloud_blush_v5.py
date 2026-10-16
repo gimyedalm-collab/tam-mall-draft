@@ -27,9 +27,6 @@ body = '''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 �
  <div class="film-actions"><button class="film-toggle" type="button" aria-controls="texture-film" aria-pressed="false" hidden>영상 재생</button></div>
  <p class="body">손끝에 소량을 묻혀 얇게 펴 바른 뒤,<br>가볍게 두드려 주세요.</p>
 </section>
-<section class="model" aria-label="클라우드 블러 크림 블러셔 메이크업 연출">
- <figure class="model-photo"><img src="../cloud-blush-v3/assets/moa-blush.jpg" width="1200" height="1800" loading="lazy" alt="양손과 얼굴, 블러셔가 모두 보이는 모아의 핑크 볼 메이크업 사진"></figure>
-</section>
 <section class="section colours" id="colours">
  <header class="heading"><h2>여섯 가지 컬러,<br>볼 위에서 비교하세요.</h2></header>
 ''' + COLOURS + '''

@@ -1,10 +1,10 @@
 {
   "date": "2026-10-16",
-  "status": "Replanned and rebuilt; awaiting owner review, not accepted",
+  "status": "Original V5 rejected for image imbalance; revised layout pending owner review",
   "detail": "cloud-blush-v5/index.html",
   "review": "cloud-blush-v5/review/index.html",
   "decision_record": "cloud-blush-v5/review/decision.json",
-  "qa": "cloud-blush-v5/review/qa.json",
+  "qa": "cloud-blush-v5/review/balance-qa.json",
   "owner_intent": "The user clarified that 정리하자 means properly replan and rebuild, not stop. Earlier closure interpretation corrected in AGENTS and V4 record.",
   "changes": [
     "New Higgsfield product still without the rejected ribbon or decorative props",
@@ -21,5 +21,13 @@
     "Moa source image pixels",
     "Official product information"
   ],
-  "scope": "GitHub review candidate only. No changes to other product designs or Cafe24 production."
+  "scope": "GitHub review candidate only. No changes to other product designs or Cafe24 production.",
+  "balance_revision": {
+    "owner_feedback": "완성본은 아니겠지? 지금 이미지 밸런스 이게 말이되냐",
+    "hero": "520px to 748.2px wide at an 860px detail; empty background trimmed with CSS, all product geometry stays visible",
+    "model": "Removed from detail. Full-height standalone and tiny side-by-side variants both rejected during visual review. Original remains in review board.",
+    "swatches": "65% to 45% of card width; white background removes sticker-like rectangles",
+    "unchanged": "Copy, product facts, 12 original colour images, 9.6 second video, generated source pixels",
+    "new_generation": false
+  }
 }

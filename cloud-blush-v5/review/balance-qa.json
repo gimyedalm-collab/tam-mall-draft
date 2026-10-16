@@ -1,0 +1,47 @@
+[
+  {
+    "width": 320,
+    "hero_width": 284.2,
+    "video_width": 284.2,
+    "media_height": 177.6,
+    "swatch_height": 60.8,
+    "cheek_height": 89.8,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "hero_width": 346.3,
+    "video_width": 346.3,
+    "media_height": 216.5,
+    "swatch_height": 74.8,
+    "cheek_height": 110.5,
+    "errors": []
+  },
+  {
+    "width": 600,
+    "hero_width": 532.8,
+    "video_width": 532.8,
+    "media_height": 333,
+    "swatch_height": 116.7,
+    "cheek_height": 172.5,
+    "errors": []
+  },
+  {
+    "width": 860,
+    "hero_width": 748.2,
+    "video_width": 748.2,
+    "media_height": 467.6,
+    "swatch_height": 162.9,
+    "cheek_height": 240.8,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "hero_width": 748.2,
+    "video_width": 748.2,
+    "media_height": 467.6,
+    "swatch_height": 162.9,
+    "cheek_height": 240.8,
+    "errors": []
+  }
+]

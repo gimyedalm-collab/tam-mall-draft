@@ -40,5 +40,7 @@
   "user_pause": "persists after scroll",
   "moa": "original 2:3 ratio, no crop",
   "colour_assets": "12 unchanged references",
-  "official_information": "unchanged"
+  "official_information": "unchanged",
+  "initial_v5_only": true,
+  "superseded_by": "balance-qa.json"
 }

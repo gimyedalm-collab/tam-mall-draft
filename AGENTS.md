@@ -211,3 +211,16 @@ reasoning board at `cloud-blush-v5/review/`. It preserves Moa at the original
 actual footage, and ends with the six-colour comparison and compact facts.
 This is pending owner review, not an accepted baseline. Details and evidence
 limits are in `cloud-blush-v5/review/decision.json`. No Cafe24 mutation.
+
+## Cloud V5 image balance rejection and revision - 2026-10-16
+
+The owner rejected the V5 image balance; it is not a completed or approved
+design. The current revision keeps product/copy/footage assets, enlarges the
+hero to match the video width, trims only empty hero background, and reduces
+texture swatches from 65% to 45% of each colour card so cheeks lead. The Moa
+full-body still is removed from the detail: its long standalone version and
+a small side-by-side version both weakened the layout. Moa use was permitted,
+not mandatory; preserve the source on the review board. Do not reintroduce
+the cropped portrait or tiny side image as an approved solution. Current
+revision remains pending owner review. See the decision record's
+`balance_revision` and `review/balance-qa.json`.

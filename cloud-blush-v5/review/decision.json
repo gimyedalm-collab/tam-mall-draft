@@ -1,24 +1,68 @@
 {
   "date": "2026-10-16",
-  "status": "Replanned and built for owner review; not accepted",
+  "status": "Original V5 rejected for image imbalance; revised layout pending owner review",
   "intent_correction": "정리하자 means reorganize and rebuild properly, not stop or close the work.",
   "baseline": "V4 rejected; preserve original TAM family typography, 860px width and two-column shade comparison, not the rejected layout decisions.",
   "design_read": "A TAM Beauty product detail for blush shoppers, using soft product-derived colour, clear actual texture and cheek imagery, and concrete Korean copy.",
-  "dials": {"design_variance": 4, "motion_intensity": 2, "visual_density": 4},
+  "dials": {
+    "design_variance": 4,
+    "motion_intensity": 2,
+    "visual_density": 4
+  },
   "sections": [
-    {"name": "Hero", "purpose": "Recognize the compact and the cream-to-powder benefit", "copy": "부드럽게 펴 바르고, 보송하게 마무리.", "visual": "New prop-free studio product image", "reason": "The rejected ribbon did not explain the product. This photo introduces the package and pan; real footage explains texture."},
-    {"name": "Texture and use", "purpose": "Connect cream application and powdery finish with actual source media", "copy": "크림의 발림성, 파우더리한 마무리.", "visual": "Existing brightness-corrected 9.6 second sequence", "reason": "Usage instructions belong beside the relevant footage, not in a later text-only block."},
-    {"name": "Moa", "purpose": "Show the complete makeup styling", "visual": "Existing photo at full 2:3 source ratio, max-width 520px on desktop", "reason": "Preserve face, hands and product instead of fitting the portrait into a 3:2 landscape frame. No unverified shade label."},
-    {"name": "Shade comparison", "purpose": "Choose among six named colours", "copy": "여섯 가지 컬러, 볼 위에서 비교하세요.", "visual": "Six original cheek and texture pairs in two columns", "reason": "Close with concrete shade selection instead of an abstract vitality slogan."},
-    {"name": "Product facts", "purpose": "Provide concise formula and required product information", "copy": "비건 포뮬러 · 2.8 g", "reason": "Four oil names stay as a short factual note; full official product information is preserved."}
+    {
+      "name": "Hero",
+      "purpose": "Recognize the compact and the cream-to-powder benefit",
+      "copy": "부드럽게 펴 바르고, 보송하게 마무리.",
+      "visual": "Same studio product image, displayed at the video width with only empty background cropped",
+      "reason": "The rejected ribbon did not explain the product. This photo introduces the package and pan; real footage explains texture."
+    },
+    {
+      "name": "Texture and use",
+      "purpose": "Connect cream application and powdery finish with actual source media",
+      "copy": "크림의 발림성, 파우더리한 마무리.",
+      "visual": "Existing brightness-corrected 9.6 second sequence",
+      "reason": "Usage instructions belong beside the relevant footage, not in a later text-only block."
+    },
+    {
+      "name": "Shade comparison",
+      "purpose": "Choose among six named colours",
+      "copy": "여섯 가지 컬러, 볼 위에서 비교하세요.",
+      "visual": "Six original cheek and texture pairs; cheek primary, texture width reduced from 65% to 45% of each card",
+      "reason": "Close with concrete shade selection instead of an abstract vitality slogan."
+    },
+    {
+      "name": "Product facts",
+      "purpose": "Provide concise formula and required product information",
+      "copy": "비건 포뮬러 · 2.8 g",
+      "reason": "Four oil names stay as a short factual note; full official product information is preserved."
+    }
   ],
   "rejected_alternatives": [
-    {"option": "Recrop Moa into the video aspect ratio", "reason": "Repeats the exact owner complaint about missing face/hand composition"},
-    {"option": "Replace Moa with a landscape lip or eye product image", "reason": "A convenient ratio would show a different product interaction"},
-    {"option": "Use a ribbon, fruit or cloud sculpture as a texture metaphor", "reason": "Does not show cream-to-powder behavior; owner rejected this approach"},
-    {"option": "Invent AI application or before/after footage", "reason": "Would not establish actual product performance or colour"},
-    {"option": "Fill lower sections with unrelated ingredient or lifestyle images", "reason": "Adds decoration without answering the buying questions"},
-    {"option": "Keep standalone text-only use, formula and closing panels", "reason": "Repeats the rejected lower-page visual rhythm"}
+    {
+      "option": "Recrop Moa into the video aspect ratio",
+      "reason": "Repeats the exact owner complaint about missing face/hand composition"
+    },
+    {
+      "option": "Replace Moa with a landscape lip or eye product image",
+      "reason": "A convenient ratio would show a different product interaction"
+    },
+    {
+      "option": "Use a ribbon, fruit or cloud sculpture as a texture metaphor",
+      "reason": "Does not show cream-to-powder behavior; owner rejected this approach"
+    },
+    {
+      "option": "Invent AI application or before/after footage",
+      "reason": "Would not establish actual product performance or colour"
+    },
+    {
+      "option": "Fill lower sections with unrelated ingredient or lifestyle images",
+      "reason": "Adds decoration without answering the buying questions"
+    },
+    {
+      "option": "Keep standalone text-only use, formula and closing panels",
+      "reason": "Repeats the rejected lower-page visual rhythm"
+    }
   ],
   "evidence": {
     "product": "https://tambeauty.kr/product/detail.html?product_no=110",
@@ -38,10 +82,21 @@
     "submissions": 1,
     "estimated_credits": 2,
     "aspect_ratio": "4:5",
-    "output_pixels": [1856,2304],
+    "output_pixels": [
+      1856,
+      2304
+    ],
     "role": "Staged product introduction only; not actual shade or efficacy proof",
     "visual_review": "Compared the closed and open source photos: compact shape, visible central mark, curved text, cloud marks and hinge. Product is fully in frame; no ribbon or unrelated props. Exact print fidelity is not certified. Owner acceptance pending."
   },
-  "validation": "320, 390, 600, 860, 1440px: no horizontal overflow, missing image or JS error; Moa is exactly 2:3; playback and persistent manual pause work; reduced-motion disables autoplay. Official information and 12 shade images preserved.",
-  "publication": "GitHub review only. No Cafe24 production changes."
+  "validation": "320,390,600,860,1440px: equal hero/video widths and x positions, no overflow/missing image/JS error; texture height is below 70% of cheek-image height; playback and disclosure work. Whole-page screenshots visually inspected at 390 and 860. This is not owner acceptance.",
+  "publication": "GitHub review only. No Cafe24 production changes.",
+  "balance_revision": {
+    "owner_feedback": "완성본은 아니겠지? 지금 이미지 밸런스 이게 말이되냐",
+    "hero": "520px to 748.2px wide at an 860px detail; empty background trimmed with CSS, all product geometry stays visible",
+    "model": "Removed from detail. Full-height standalone and tiny side-by-side variants both rejected during visual review. Original remains in review board.",
+    "swatches": "65% to 45% of card width; white background removes sticker-like rectangles",
+    "unchanged": "Copy, product facts, 12 original colour images, 9.6 second video, generated source pixels",
+    "new_generation": false
+  }
 }
