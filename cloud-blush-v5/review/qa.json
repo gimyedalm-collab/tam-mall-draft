@@ -1,0 +1,44 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "broken_images": 0,
+      "moa_ratio": 0.6666666666666666,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "broken_images": 0,
+      "moa_ratio": 0.6666666666666666,
+      "errors": []
+    },
+    {
+      "width": 600,
+      "overflow": false,
+      "broken_images": 0,
+      "moa_ratio": 0.6666666666666666,
+      "errors": []
+    },
+    {
+      "width": 860,
+      "overflow": false,
+      "broken_images": 0,
+      "moa_ratio": 0.6666666666666666,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0,
+      "moa_ratio": 0.6666666666666666,
+      "errors": []
+    }
+  ],
+  "reduced_motion": "no autoplay",
+  "user_pause": "persists after scroll",
+  "moa": "original 2:3 ratio, no crop",
+  "colour_assets": "12 unchanged references",
+  "official_information": "unchanged"
+}

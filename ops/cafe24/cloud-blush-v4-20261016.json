@@ -1,6 +1,24 @@
 {
   "date": "2026-10-16",
-  "status": "GitHub review candidate; not owner-accepted; no Cafe24 mutation",
+  "status": "Owner rejected V4; replan and rebuild authorized; previous closure interpretation corrected; no Cafe24 mutation",
+  "owner_review": {
+    "date": "2026-10-16",
+    "accepted": false,
+    "feedback": [
+      "Moa photograph is cropped, compromising the model composition",
+      "The decorative ribbon has no clear product or cream-to-powder meaning",
+      "Lower sections increasingly consist only of text",
+      "The closing line about choosing today's vitality is unclear and unsuitable"
+    ],
+    "restart_criteria": [
+      "Preserve the intended face, hands and product composition in the Moa photograph",
+      "Connect visual staging to a concrete product benefit; do not reuse the rejected decorative ribbon",
+      "Plan useful visuals for the lower sections before building the page",
+      "Use concrete product and shade-selection language; discard the rejected closing line",
+      "Treat competitor research and technical QA as inputs, not owner approval or evidence of purchase appeal"
+    ],
+    "clarified_scope": "Owner clarified that 정리하자 means replan and rebuild properly, not close the task. The earlier stop interpretation is withdrawn. V4 remains rejected; rebuild copy, composition and image strategy. Earlier cloud versions are not thereby approved."
+  },
   "evidence": "cloud-blush-v4/review/evidence.json",
   "board": "cloud-blush-v4/review/index.html",
   "detail": "cloud-blush-v4/index.html",
@@ -9,7 +27,7 @@
     "service": "Higgsfield",
     "requested_model": "nano_banana_pro",
     "reported_model": "nano_banana_2",
-    "selected": {
+    "selected_at_build_time_not_owner_approved": {
       "index": 0,
       "job_id": "7d586b01-11a4-49b1-9f5b-f302ad9d7f16"
     },

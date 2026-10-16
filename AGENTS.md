@@ -187,3 +187,27 @@ owner-review-pending notes for the current result. Reopen design only on a new
 owner request; prior formula feedback is not an unfinished redesign mandate.
 This acceptance concerns the GitHub preview, not Cafe24 production integration.
 See state `highlighter_owner_close_20261015` and the handoff opening section.
+
+## Cloud blush V4 rejected; replan and rebuild authorized - 2026-10-16
+
+The owner rejected cloud blush V4: the Moa image is cropped, the hero ribbon
+has no clear product meaning, lower sections become text-only, and the closing
+line about choosing today's vitality is unsuitable. This is not acceptance.
+The hero selection in the build record was an internal choice only. Technical
+QA and competitor research do not supersede this owner feedback. Do not treat
+V4 or any earlier cloud version as an approved baseline. Preserve the existing
+files as historical candidates. The owner clarified that "정리하자" means
+replan and rebuild properly, NOT stop or close the task. The previous closure
+interpretation was incorrect and is superseded. Continue the cloud detail
+rebuild, including copy, composition and relevant image selection/generation.
+For any restart, preserve Moa's intended composition, show cream-to-powder
+through relevant product imagery, plan the lower-section visuals, and use
+concrete product/colour-selection copy. See
+`ops/cafe24/cloud-blush-v4-20261016.json` for the rejection and restart criteria.
+
+Cloud V5 is now the rebuilt review candidate at `cloud-blush-v5/`, with the
+reasoning board at `cloud-blush-v5/review/`. It preserves Moa at the original
+2:3 ratio, uses a prop-free product still, places use instructions beside the
+actual footage, and ends with the six-colour comparison and compact facts.
+This is pending owner review, not an accepted baseline. Details and evidence
+limits are in `cloud-blush-v5/review/decision.json`. No Cafe24 mutation.

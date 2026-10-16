@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-16",
+  "status": "Replanned and built for owner review; not accepted",
+  "intent_correction": "정리하자 means reorganize and rebuild properly, not stop or close the work.",
+  "baseline": "V4 rejected; preserve original TAM family typography, 860px width and two-column shade comparison, not the rejected layout decisions.",
+  "design_read": "A TAM Beauty product detail for blush shoppers, using soft product-derived colour, clear actual texture and cheek imagery, and concrete Korean copy.",
+  "dials": {"design_variance": 4, "motion_intensity": 2, "visual_density": 4},
+  "sections": [
+    {"name": "Hero", "purpose": "Recognize the compact and the cream-to-powder benefit", "copy": "부드럽게 펴 바르고, 보송하게 마무리.", "visual": "New prop-free studio product image", "reason": "The rejected ribbon did not explain the product. This photo introduces the package and pan; real footage explains texture."},
+    {"name": "Texture and use", "purpose": "Connect cream application and powdery finish with actual source media", "copy": "크림의 발림성, 파우더리한 마무리.", "visual": "Existing brightness-corrected 9.6 second sequence", "reason": "Usage instructions belong beside the relevant footage, not in a later text-only block."},
+    {"name": "Moa", "purpose": "Show the complete makeup styling", "visual": "Existing photo at full 2:3 source ratio, max-width 520px on desktop", "reason": "Preserve face, hands and product instead of fitting the portrait into a 3:2 landscape frame. No unverified shade label."},
+    {"name": "Shade comparison", "purpose": "Choose among six named colours", "copy": "여섯 가지 컬러, 볼 위에서 비교하세요.", "visual": "Six original cheek and texture pairs in two columns", "reason": "Close with concrete shade selection instead of an abstract vitality slogan."},
+    {"name": "Product facts", "purpose": "Provide concise formula and required product information", "copy": "비건 포뮬러 · 2.8 g", "reason": "Four oil names stay as a short factual note; full official product information is preserved."}
+  ],
+  "rejected_alternatives": [
+    {"option": "Recrop Moa into the video aspect ratio", "reason": "Repeats the exact owner complaint about missing face/hand composition"},
+    {"option": "Replace Moa with a landscape lip or eye product image", "reason": "A convenient ratio would show a different product interaction"},
+    {"option": "Use a ribbon, fruit or cloud sculpture as a texture metaphor", "reason": "Does not show cream-to-powder behavior; owner rejected this approach"},
+    {"option": "Invent AI application or before/after footage", "reason": "Would not establish actual product performance or colour"},
+    {"option": "Fill lower sections with unrelated ingredient or lifestyle images", "reason": "Adds decoration without answering the buying questions"},
+    {"option": "Keep standalone text-only use, formula and closing panels", "reason": "Repeats the rejected lower-page visual rhythm"}
+  ],
+  "evidence": {
+    "product": "https://tambeauty.kr/product/detail.html?product_no=110",
+    "cream_to_powder": "User-provided product characteristic",
+    "vegan": "Previously verified brand source; no certification claim",
+    "competitor_snapshot": "2026-10-16 10:02 KST; reuse of recorded research, not a new sales ranking",
+    "freshian": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000212749",
+    "naming": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171371",
+    "limits": "No disclosed sales units or period; promotion and bundled options confound ranking. Page structure is a design inference, not proven sales causality."
+  },
+  "generation": {
+    "service": "Higgsfield",
+    "requested_model": "nano_banana_pro",
+    "reported_model": "nano_banana_2",
+    "job_id": "1a7db8c1-6061-4c0c-ac68-ec38805bf1c1",
+    "status": "completed",
+    "submissions": 1,
+    "estimated_credits": 2,
+    "aspect_ratio": "4:5",
+    "output_pixels": [1856,2304],
+    "role": "Staged product introduction only; not actual shade or efficacy proof",
+    "visual_review": "Compared the closed and open source photos: compact shape, visible central mark, curved text, cloud marks and hinge. Product is fully in frame; no ribbon or unrelated props. Exact print fidelity is not certified. Owner acceptance pending."
+  },
+  "validation": "320, 390, 600, 860, 1440px: no horizontal overflow, missing image or JS error; Moa is exactly 2:3; playback and persistent manual pause work; reduced-motion disables autoplay. Official information and 12 shade images preserved.",
+  "publication": "GitHub review only. No Cafe24 production changes."
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-16",
+  "status": "Replanned and rebuilt; awaiting owner review, not accepted",
+  "detail": "cloud-blush-v5/index.html",
+  "review": "cloud-blush-v5/review/index.html",
+  "decision_record": "cloud-blush-v5/review/decision.json",
+  "qa": "cloud-blush-v5/review/qa.json",
+  "owner_intent": "The user clarified that 정리하자 means properly replan and rebuild, not stop. Earlier closure interpretation corrected in AGENTS and V4 record.",
+  "changes": [
+    "New Higgsfield product still without the rejected ribbon or decorative props",
+    "Concrete application and finish headline",
+    "Original 2:3 Moa composition; no face or hand crop imposed by CSS",
+    "Usage copy moved next to the real texture footage",
+    "Six-colour comparison is the final visual section",
+    "Standalone text-only use/formula/closing sections removed; factual formula note retained"
+  ],
+  "preserved": [
+    "860px TAM family layout and fonts",
+    "12 original cheek and texture assets",
+    "Existing 9.6 second brightness-corrected video",
+    "Moa source image pixels",
+    "Official product information"
+  ],
+  "scope": "GitHub review candidate only. No changes to other product designs or Cafe24 production."
+}
