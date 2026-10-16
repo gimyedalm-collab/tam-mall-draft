@@ -1,0 +1,49 @@
+[
+  {
+    "width": 860,
+    "scroll": 860,
+    "height": 6153,
+    "broken": [],
+    "badAnchors": []
+  },
+  {
+    "width": 390,
+    "scroll": 390,
+    "height": 4479,
+    "broken": [],
+    "badAnchors": []
+  },
+  {
+    "width": 320,
+    "scroll": 320,
+    "height": 4358,
+    "broken": [],
+    "badAnchors": []
+  },
+  {
+    "width": 600,
+    "scroll": 600,
+    "height": 5527,
+    "broken": [],
+    "badAnchors": []
+  },
+  {
+    "width": 1440,
+    "scroll": 1440,
+    "height": 6153,
+    "broken": [],
+    "badAnchors": []
+  },
+  {
+    "page": "review",
+    "width": 390,
+    "scroll": 390,
+    "broken": []
+  },
+  {
+    "page": "review",
+    "width": 1200,
+    "scroll": 1200,
+    "broken": []
+  }
+]
