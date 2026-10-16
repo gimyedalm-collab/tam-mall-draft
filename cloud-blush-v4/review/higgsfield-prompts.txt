@@ -1,0 +1,101 @@
+TAM Beauty / 더 클라우드 블러 크림 블러셔
+2026-10-16 / Higgsfield 촬영 프롬프트 및 검수 기록
+
+원본 제품 01호 닫힘·열림 사진을 참조. C만 실제 1호 제형 사진 추가.
+A: 상세 시안 메인 적용. B와 C: 인쇄 변형으로 미채택. B와 C의 프롬프트는 테스트 기록이며 납품용 이미지로 통과한 것이 아님. 생성 제형은 실제 발색 증거로 사용 금지.
+
+A · 피치 곡면 / 4:5
+목적: 라벤더 용기와 피치 내용물의 대비, 열린 팬과 닫힌 로고를 동시에 보여 소장 욕구와 제품 인지를 연결.
+판단 범위: 곡면과 매트한 종이의 대비가 부드러움을 연상시킨다는 디자인 가설. 판매 효과는 미검증.
+원본: 01호 백도쉐이크 닫힌 컷 + 열린 컷
+검수: 제품 크기, 곡선 로고, 경첩·잠금부, 팬 색, 밝은 부분의 세부 유지.
+
+[SUBJECT]
+Use the supplied photographs as exact product references: TAM Beauty The Cloud Blur Cream Blush, shade 01 White Peach Shake. Preserve the round lavender compact, translucent hinged lid, the small lime cloud motifs, white curved product lettering and white central t logo. Preserve the coral-peach pan from the open reference. Do not redesign the packaging or change its scale proportions. This is a staged product photograph, not an application or efficacy comparison.
+[COMPOSITION]
+Portrait 4:5 studio still. Exactly two compacts of the same shade: one open, large and foremost at lower right, one closed at upper left, slightly behind, its printed lid facing the camera. The pair fills about 68 percent of image width. Camera looks down at 35 degrees, keeping the open pan fully visible. Both rest naturally on a single broad pale peach paper ribbon that curves once across the set. The ribbon is a smooth sculptural surface, not a bow, and its curve subtly echoes the round compact. Avoid blocking either label. Arrange the objects asymmetrically, with a small natural gap.
+[MATERIALS & TEXTURE]
+Uncoated matte paper ribbon over warm off-white seamless paper. Fine, barely visible paper tooth contrasts with the smooth translucent case. Soft directional shadows give the cases weight. No cosmetic smears in this variant.
+
+[LIGHTING]
+Large diffused key from 45 degrees camera-left, neutral 5200K, restrained white bounce from right, subtle negative fill outlining the lavender rim. Keep soft contact shadows and controlled highlights. The translucent lid must remain readable, no clipped white glare over the logo or pan. Background luminosity lower than the palest part of the packaging.
+[LENS & CAMERA]
+85mm lens, f/8, deep product focus, crisp hinge and rim contours without edge halos.
+[COLOR PALETTE]
+Product-derived lavender, soft peach and off-white; no blue sky or dark grey. Preserve the product hue; mood comes from surroundings rather than recoloring the product.
+[STYLE REFERENCE]
+Geometric editorial staging, an unexpected but physically believable arrangement, tactile surface detail, restrained color blocking. Commercial product photography with an inviting beauty register.
+[BRAND INTEGRATION]
+Fresh, approachable and softly playful. Product remains the strongest visual element.
+[QUALITY MARKERS]
+Tack-sharp commercial photography, photorealistic material separation and convincing contact shadows.
+[AVOID]
+No AI artifacts, warped or smeared lettering, fake words, fake logos, melted geometry, doubled hinges, extra products, floating products, mirror lid, metallic packaging, waxy CGI finish, cartoon rendering, oversaturated HDR, halos, oversharpening, flat fluorescent light, harsh on-camera flash, watermarks or signatures. No random props, food, fruit, spilled loose powder, literal clouds, cotton wool, glitter, liquid droplets, added faces or hands. No artificial rectangular color bands. Preserve legitimate molded plastic packaging while avoiding an artificial rendered look.
+
+resolution: 2k
+
+============================================================
+
+B · 번지는 컬러 / 4:5
+목적: 배경의 흐린 컬러 영역과 선명한 제품을 대비시켜 블러의 인상을 만든다.
+판단 범위: 블러 배경은 연출일 뿐 실제 모공 커버·피부 보정의 증거가 아니다.
+원본: A와 동일한 원본 제품 2장
+검수: 첫 결과와 한 차례 수정본에서 인쇄·중앙 로고 변형을 확인했다. B안은 상세에서 제외했다.
+
+[SUBJECT]
+Use the supplied photographs as exact product references: TAM Beauty The Cloud Blur Cream Blush, shade 01 White Peach Shake. Preserve the round lavender compact, translucent hinged lid, the small lime cloud motifs, white curved product lettering and white central t logo. Preserve the coral-peach pan from the open reference. Do not redesign the packaging or change its scale proportions. This is a staged product photograph, not an application or efficacy comparison.
+[COMPOSITION]
+Portrait 4:5 top-down still. Exactly two compacts of the same shade, open reference at lower left and closed reference at upper right, gently staggered on a warm off-white tabletop. Products fill about 70 percent of frame width and neither is cropped. Behind them a single large, deliberately out-of-focus peach circular light projection blends into the tabletop, suggesting softly diffused color. The circle is a photographic light pattern on the surface, not an additional object. Keep the product outlines sharply focused against this diffuse color field. One subtle lavender paper edge enters from the far corner, less than 8 percent of frame.
+[MATERIALS & TEXTURE]
+Matte seamless paper, fine controlled shadow beneath each case. No spills or texture swatches. Transparent lid remains see-through, exact packaging retained.
+
+[LIGHTING]
+Large diffused key from 45 degrees camera-left, neutral 5200K, restrained white bounce from right, subtle negative fill outlining the lavender rim. Keep soft contact shadows and controlled highlights. The translucent lid must remain readable, no clipped white glare over the logo or pan. Background luminosity lower than the palest part of the packaging.
+[LENS & CAMERA]
+85mm lens, f/8, deep product focus, crisp hinge and rim contours without edge halos.
+[COLOR PALETTE]
+Product-derived lavender, soft peach and off-white; no blue sky or dark grey. Preserve the product hue; mood comes from surroundings rather than recoloring the product.
+[STYLE REFERENCE]
+Geometric editorial staging, an unexpected but physically believable arrangement, tactile surface detail, restrained color blocking. Commercial product photography with an inviting beauty register.
+[BRAND INTEGRATION]
+Fresh, approachable and softly playful. Product remains the strongest visual element.
+[QUALITY MARKERS]
+Tack-sharp commercial photography, photorealistic material separation and convincing contact shadows.
+[AVOID]
+No AI artifacts, warped or smeared lettering, fake words, fake logos, melted geometry, doubled hinges, extra products, floating products, mirror lid, metallic packaging, waxy CGI finish, cartoon rendering, oversaturated HDR, halos, oversharpening, flat fluorescent light, harsh on-camera flash, watermarks or signatures. No random props, food, fruit, spilled loose powder, literal clouds, cotton wool, glitter, liquid droplets, added faces or hands. No artificial rectangular color bands. Preserve legitimate molded plastic packaging while avoiding an artificial rendered look.
+
+resolution: 2k
+
+============================================================
+
+C · 크림 근접 / 3:2
+목적: 손에 잡히는 용기와 실제 제형 참조의 굴곡을 함께 보여 촉감을 연상시킨다.
+판단 범위: 생성한 스와치는 캠페인용. 원본 발색 비교·사용 전후·제형 성능 설명을 대체하지 않는다.
+원본: 열린 제품 + 닫힌 제품 + 1호 실제 제형
+검수: 생성 결과에서 로고와 구름 인쇄가 변형되어 미채택. 실제 제형 사진과 사용 영상을 유지한다.
+
+[SUBJECT]
+Use the supplied photographs as exact product references: TAM Beauty The Cloud Blur Cream Blush, shade 01 White Peach Shake. Preserve the round lavender compact, translucent hinged lid, the small lime cloud motifs, white curved product lettering and white central t logo. Preserve the coral-peach pan from the open reference. Do not redesign the packaging or change its scale proportions. This is a staged product photograph, not an application or efficacy comparison.
+[COMPOSITION]
+Landscape 3:2 tactile product closeup. Exactly one open compact on the left and one cream swipe on the right, on a matte off-white surface. Use the third reference for the swipe's peach color, folded ridge and tapered feathered edge. Keep the cream thin and spreadable rather than a mound. Compact fills roughly 42 percent of image width; swipe 35 percent. Camera at 40 degrees down, product and swipe both in focus. Clear gap between them, no overlap and no dust. This image is campaign staging; it does not depict cream transforming into powder.
+[MATERIALS & TEXTURE]
+Preserve the compact as in the first two references. Swipe has the fine satin texture of the supplied real cosmetic reference, no wet gloss, oil puddles, frosting, whipped peaks or invented powder particles. Side light reveals its ridges with restrained sheen. This is cosmetic cream, never food.
+
+[LIGHTING]
+Large diffused key from 45 degrees camera-left, neutral 5200K, restrained white bounce from right, subtle negative fill outlining the lavender rim. Keep soft contact shadows and controlled highlights. The translucent lid must remain readable, no clipped white glare over the logo or pan. Background luminosity lower than the palest part of the packaging.
+[LENS & CAMERA]
+85mm lens, f/8, deep product focus, crisp hinge and rim contours without edge halos.
+[COLOR PALETTE]
+Product-derived lavender, soft peach and off-white; no blue sky or dark grey. Preserve the product hue; mood comes from surroundings rather than recoloring the product.
+[STYLE REFERENCE]
+Geometric editorial staging, an unexpected but physically believable arrangement, tactile surface detail, restrained color blocking. Commercial product photography with an inviting beauty register.
+[BRAND INTEGRATION]
+Fresh, approachable and softly playful. Product remains the strongest visual element.
+[QUALITY MARKERS]
+Tack-sharp commercial photography, photorealistic material separation and convincing contact shadows.
+[AVOID]
+No AI artifacts, warped or smeared lettering, fake words, fake logos, melted geometry, doubled hinges, extra products, floating products, mirror lid, metallic packaging, waxy CGI finish, cartoon rendering, oversaturated HDR, halos, oversharpening, flat fluorescent light, harsh on-camera flash, watermarks or signatures. No random props, food, fruit, spilled loose powder, literal clouds, cotton wool, glitter, liquid droplets, added faces or hands. No artificial rectangular color bands. Preserve legitimate molded plastic packaging while avoiding an artificial rendered look.
+
+resolution: 2k
+
+============================================================

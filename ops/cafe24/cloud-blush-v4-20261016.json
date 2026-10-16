@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-16",
+  "status": "GitHub review candidate; not owner-accepted; no Cafe24 mutation",
+  "evidence": "cloud-blush-v4/review/evidence.json",
+  "board": "cloud-blush-v4/review/index.html",
+  "detail": "cloud-blush-v4/index.html",
+  "source_baseline": "54dc648",
+  "generation": {
+    "service": "Higgsfield",
+    "requested_model": "nano_banana_pro",
+    "reported_model": "nano_banana_2",
+    "selected": {
+      "index": 0,
+      "job_id": "7d586b01-11a4-49b1-9f5b-f302ad9d7f16"
+    },
+    "rejected": [
+      {
+        "index": 1,
+        "reason": "Label font, central logo and open-lid graphics still differ after one refinement"
+      },
+      {
+        "index": 2,
+        "reason": "Logo and cloud count differ from original; first technical attempt failed, one retry completed"
+      }
+    ],
+    "attempts": 5
+  },
+  "unchanged": [
+    "12 named cheek/swatch assets",
+    "9.6 second R2 corrected footage",
+    "Moa photo",
+    "official product information",
+    "860px and two-column comparison layout"
+  ],
+  "changes": [
+    "Generated staged hero A",
+    "Direct texture benefit headline",
+    "Removed repeated support copy",
+    "Revised texture/color/usage/end headings",
+    "Removed repetitive old closing still"
+  ],
+  "qa": "320, 390, 860, 1440px: detail and review; no horizontal overflow, missing images or JS errors; playback, shade anchor and disclosure checked",
+  "limits": [
+    "Category sales-sort snapshot; no disclosed unit sales or period",
+    "Review qualitative samples are not representative",
+    "No conversion test of proposed visuals",
+    "Generated hero is staging, not shade/efficacy evidence"
+  ]
+}
