@@ -583,6 +583,7 @@ Nonpersistent Claude preproduction and rendered review completed; owner visual
 acceptance pending. This supersedes the earlier eight-image packaging record.
 
 
+
 ## Cloud wrist layout compared and selected - 2026-10-19
 
 Owner authorized internal layout comparison and independent review before
@@ -600,3 +601,30 @@ visual comparison recommendedA; do not adopt its stronger blur/transition
 evidence interpretations. Local320/390/860 package and ZIP checks passed;
 owner visual acceptance pending. Review: cafe24-delivery-20261019/
 cloud-swatch-review/index.html. Cafe24 upload remains explicitly deferred.
+
+## Lip oil future integration audit - 2026-10-19
+
+Owner requested checking future connection risks and reconfirmed direct agent
+implementation. Public18/25 and local upload package audited; see
+ops/cafe24/lipoil-connection-audit-20261019.json. Same00 gloss uses different
+public SKU codes (18:P000000S000D,25:P000000Z000O); stock/review equivalence
+is NOT established. Admin browser profile was occupied; no admin verification.
+Seven images and ZIP hashes pass. Full storefront still uses legacy detail;
+Cafe24 paths are planned upload destinations, not deployed files. Agent owns
+actual upload/insertion/native mapping/PC-mobile QA when rollout resumes.
+Back up product settings/detail and Snap mappings as well as skins; a cloned
+skin shares live products. Audit existing00 carts/repurchase/reviews/feeds
+before option removal. Split remains recommendation, not native deletion
+authorization. No design/model/commerce changes in this audit.
+
+## Lip oil current design retained; purchase integration next - 2026-10-19
+
+Owner agreed to proceed after recommendation to retain current design and
+focus on actual price/benefits/shipping/reviews and post-launch funnel evidence.
+Keep original model and current V9 including formula and footnote removal.
+No further speculative model/layout redesign. Execution sequence and acceptance
+criteria: ops/cafe24/lipoil-sales-readiness-20261019.json. Codex directly applies
+and verifies at resumed rollout; upload remains deferred. Inspect existing
+analytics before adding tracking; do not claim conversion improvement without
+data. This does not authorize immediate00 option deletion or policy changes.
+
