@@ -1,0 +1,29 @@
+{
+  "version": "V6",
+  "date": "2026-10-19",
+  "status": "owner_review_pending",
+  "brief": "New understated model in homepage mood; exact identity matching not required. Harmonize with bright product photography and explain lip-oil benefits.",
+  "model_selection": "Composition A: unobstructed branding and both hands, quiet expression, neutral light. B rejected for distracting mirror and obscured label.",
+  "higgsfield_jobs": {
+    "model_A": "7e25ca1d-3285-464e-a1cc-cbf8c7865525",
+    "model_B_not_selected": "e9efb42b-d883-4c30-8b6d-40c642fcec93",
+    "lip_sheen_refinement": "0ad9dd83-a94b-4b4d-8fbe-3fcd84c54680",
+    "model_product_color_refinement": "ae174880-740c-4e67-8cb1-77071b11bcf2",
+    "tip_product_color_refinement": "818fd76e-64f4-4cb4-93d0-9dc2ac4e76c3"
+  },
+  "reference_roles": ["Homepage model: mood only, no exact identity lock", "Official rose packshot: packaging and color", "Official tip photo: applicator shape", "V5 accepted product campaign still: bright lighting and composition"],
+  "visual_changes": ["Neutral white page and bright product pink accents", "Model and headline integrated in desktop composition", "Readable stacked mobile subtitle", "Larger authentic mobile swatches, up to 240px", "Wide-tip section pairs campaign scale with original tip photograph"],
+  "proof": "Official shade, bottle, formula and tip source files retained byte-identically; campaign images are not actual shade evidence.",
+  "ingredients": "Sunflower seed oil and green tea seed oil presence only. No cherry blossom extract claim.",
+  "claude": {"invocation": "noninteractive with --no-session-persistence --output-format text, Read tools only", "scope": "main composition, full page, existing Hince/Dinto/Laneige references", "adopted": ["lip sheen version", "product color consistency refinement", "larger real shade images", "mobile subtitle and English spacing"], "qualified": ["Official tip background pattern exists in source; keep below native width", "Generated image is not labeled as actual shade proof", "Official INCI naming retained"]},
+  "comparison_checks": [
+    {"stage": "direction", "focus": "Understated casting, neutral light and compatible product color"},
+    {"stage": "rendered main and full page", "focus": "Hince image-scale hierarchy, Dinto campaign unity, Laneige visible texture"},
+    {"stage": "final revision", "focus": "Readability, authentic evidence scale, product consistency, no unsupported competitor superiority"}
+  ],
+  "reference_sources": ["https://www.hince.co.kr/product/detail.html?product_no=1192", "https://dinto.co.kr/product/detail.html?product_no=215", "https://www.laneige.com/product/detail.html?product_no=93"],
+  "product_source": "https://tambeauty.kr/product/detail.html?product_no=25",
+  "limits": ["Generated model and campaign stills remain illustrative", "Official photos have finite source resolution", "Claude critique is advisory and owner acceptance is pending"],
+  "production_store_mutated": false,
+  "sites_used": false
+}
