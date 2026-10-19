@@ -614,5 +614,11 @@
     "direct_implementation_owner": "Codex",
     "remaining": "Direct Cafe24 application and PC/mobile verification during previously agreed staged rollout; preserve product25 gloss/other options",
     "media_rule": "No Dasha photos/videos or derivatives"
+  },
+  "lipoil_v9_hybrid_20261019": {
+    "status": "implemented_verified_pending_owner_visual_review",
+    "record": "lipoil-v9-hybrid-20261019.json",
+    "production_cafe24_changed": false,
+    "next_action": "Owner visual review, then preserve chosen revision for agreed whole-store Cafe24 rollout. Codex directly uploads/applies/verifies, preserving product25 gloss and options."
   }
 }

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "direction": "V7 campaign, tip, formula and colour copy; compact mobile shade rows; V8 usage and ending",
+  "owner_instruction": "기존 구성을 기본으로 컬러 비교 개선, 단독으로 은은하게 이후 수정본 유지; ㄱ",
+  "original_sections_equal": {
+    "01-campaign": true,
+    "02-big-tip": true,
+    "03-cool-glow": true,
+    "04-colors": true
+  },
+  "revised_sections_equal": {
+    "05-how-to": true,
+    "06-collection": true
+  },
+  "media_unchanged": true,
+  "cafe24_production_applied": false,
+  "owner_visual_acceptance": "pending"
+}

@@ -382,3 +382,16 @@ review-hosted URLs. Product25 currently combines gloss and oils, so preserve
 the gloss content/options and verify the target before applying an oil section.
 Default Cafe24 shop FTP does not accept MP4 according to official help; external
 video hosting plus HTML is possible, while GIF is an image-upload alternative.
+
+
+## Lip oil hybrid direction authorized - 2026-10-19
+
+Owner preferred V7 overall and V8 from "단독으로 은은하게" onward, then said
+"ㄱ" to the hybrid proposal. V9 preserves V7 hero, tip, formula and colour copy;
+three compact horizontal shade rows replace both tall mobile cards and tiny
+three-column cards. V8 usage/ending remain. Actual shade/media colours are
+unchanged; no Dasha media or derivatives. Current review: lipoil-v9/review.html.
+Seven static panels also retain the shade-row arrangement. Technical QA passed
+320/390/600/860/1440; visual acceptance remains pending. Cafe24 production is
+unchanged and direct application remains part of the agreed whole-store rollout.
+Do not alter other product work. See ops/cafe24/lipoil-v9-hybrid-20261019.json.
