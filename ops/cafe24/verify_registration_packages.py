@@ -2,13 +2,13 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 from PIL import Image
 from bs4 import BeautifulSoup
-import json,hashlib,zipfile
+import json,hashlib,zipfile,sys
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'cafe24-delivery-20261019'
 QA=OUT/'qa';QA.mkdir(exist_ok=True)
 checks=[]
 with sync_playwright() as pw:
     b=pw.chromium.launch()
-    for key in ('cloud-blush','milky-cheek','highlighter','lip-oil','lip-liner'):
+    for key in (sys.argv[1:] or ('cloud-blush','milky-cheek','highlighter','lip-oil','lip-liner')):
         dest=OUT/key;m=json.loads((dest/'manifest.json').read_text(encoding='utf-8'))
         gif_count=0
         for item in m['files']:
@@ -39,5 +39,10 @@ with sync_playwright() as pw:
             widths.append({'width':width,'no_overflow':True,'all_images_loaded':True,'no_seams':True,'javascript_disabled':True});p.close()
         checks.append({'product':key,'files':len(m['files']),'gifs':gif_count,'total_bytes':sum(i['bytes'] for i in m['files']),'largest_file_bytes':max(i['bytes'] for i in m['files']),'widths':widths,'all_gif_frames_decoded':True,'zip_verified':True,'cafe24_actual_upload_verified':False})
     b.close()
-(OUT/'qa.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2),encoding='utf-8')
+if sys.argv[1:] and (OUT/'qa.json').exists():
+    previous=json.loads((OUT/'qa.json').read_text(encoding='utf-8'))
+    updated={c['product']:c for c in checks}
+    records=[updated.get(c['product'],c) for c in previous]
+else:records=checks
+(OUT/'qa.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(checks))

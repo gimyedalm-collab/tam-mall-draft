@@ -7,6 +7,7 @@ from playwright.sync_api import sync_playwright
 from PIL import Image
 from bs4 import BeautifulSoup
 import hashlib, html, json, math, shutil, subprocess, tempfile, zipfile, sys
+from registration_export_utils import prepare_cloud_info, panel_alt
 
 ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'cafe24-delivery-20261019'
@@ -90,6 +91,7 @@ with sync_playwright() as pw:
         p.wait_for_function('[...document.images].every(i=>i.complete&&i.naturalWidth>0)')
         p.evaluate('''()=>{document.querySelectorAll('video').forEach(v=>v.pause());document.querySelectorAll('details').forEach(d=>d.open=true);document.querySelectorAll('button,.film-chapters,.film-actions,.film-caption,.h33-choice-link,.h33-motion-caption a').forEach(e=>e.remove());}''')
         p.add_style_tag(content='html{scroll-behavior:auto!important}body{margin:0!important}*{animation:none!important;transition:none!important}')
+        if key=='cloud-blush':prepare_cloud_info(p)
         body=p.locator(selector);box=body.bounding_box();total=math.ceil(box['y']+box['height']);start=math.floor(box['y'])
         bounds={start,total};motion_rows=[]
         for i,(sel,src) in enumerate(motions):
@@ -121,7 +123,8 @@ with sync_playwright() as pw:
                 file=f'images/{number:02}-detail.jpg'
                 p.screenshot(path=str(dest/file),type='jpeg',quality=95,full_page=True,clip={'x':0,'y':top,'width':430,'height':bottom-top})
                 im=Image.open(dest/file)
-                text=p.evaluate('''([top,bottom])=>[...document.querySelectorAll('h1,h2,h3,p,summary,figcaption')].filter(e=>{let r=e.getBoundingClientRect();return r.top+scrollY>=top&&r.top+scrollY<bottom}).map(e=>e.innerText).join(' ')''',[top,bottom])
+                is_info=key=='cloud-blush' and top>=math.floor(p.locator('.product-info').bounding_box()['y'])
+                text=panel_alt(p,top,bottom,is_info)
                 items.append({'file':file,'width':im.width,'height':im.height,'kind':'jpeg','alt':text[:1800] or name+' 상세 이미지','source_y':[top,bottom]})
         finish(key,name,items,source)
         p.close()

@@ -644,6 +644,12 @@
     "validation": "320/390/860px with JavaScript disabled; all images loaded, no horizontal overflow or seams; all GIF frames decoded and archives checked",
     "highlighter": "GIF fallback and original-MP4 external-host template prepared; production video host not configured",
     "production_cafe24_changed": false,
-    "next_action": "Owner visual review, then agent directly uploads to confirmed Cafe24 destination during agreed store rollout; verify PC/mobile save, image delivery and actual-device playback. Do not ask user to perform manual deployment."
+    "next_action": "Owner visual review, then agent directly uploads to confirmed Cafe24 destination during agreed store rollout; verify PC/mobile save, image delivery and actual-device playback. Do not ask user to perform manual deployment.",
+    "cloud_claude_review": {
+      "status": "independent static review and targeted follow-up completed; reported export defects corrected",
+      "report": "cafe24-delivery-20261019/claude-cloud-review.html",
+      "live_cafe24_and_actual_device_verification": false,
+      "remaining": "Verify GIF lazy loading / finite loops at actual scroll pace, Cafe24 editor/path/mobile save."
+    }
   }
 }
