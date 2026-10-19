@@ -1,37 +1,62 @@
 [
   {
-    "width": 860,
-    "scroll": 860,
+    "width": 320,
+    "scroll": 320,
     "broken": 0,
-    "videos": 0,
-    "disallowedReferences": 0
+    "ingredients": [
+      "해바라기씨오일",
+      "녹차씨오일"
+    ],
+    "scope": "립오일 01 · 02 · 03 공통 함유",
+    "formulaHeight": 189,
+    "originalModel": true
   },
   {
     "width": 390,
     "scroll": 390,
     "broken": 0,
-    "videos": 0,
-    "disallowedReferences": 0
-  },
-  {
-    "width": 320,
-    "scroll": 320,
-    "broken": 0,
-    "videos": 0,
-    "disallowedReferences": 0
+    "ingredients": [
+      "해바라기씨오일",
+      "녹차씨오일"
+    ],
+    "scope": "립오일 01 · 02 · 03 공통 함유",
+    "formulaHeight": 196,
+    "originalModel": true
   },
   {
     "width": 600,
     "scroll": 600,
     "broken": 0,
-    "videos": 0,
-    "disallowedReferences": 0
+    "ingredients": [
+      "해바라기씨오일",
+      "녹차씨오일"
+    ],
+    "scope": "립오일 01 · 02 · 03 공통 함유",
+    "formulaHeight": 196,
+    "originalModel": true
+  },
+  {
+    "width": 860,
+    "scroll": 860,
+    "broken": 0,
+    "ingredients": [
+      "해바라기씨오일",
+      "녹차씨오일"
+    ],
+    "scope": "립오일 01 · 02 · 03 공통 함유",
+    "formulaHeight": 226,
+    "originalModel": true
   },
   {
     "width": 1440,
     "scroll": 1440,
     "broken": 0,
-    "videos": 0,
-    "disallowedReferences": 0
+    "ingredients": [
+      "해바라기씨오일",
+      "녹차씨오일"
+    ],
+    "scope": "립오일 01 · 02 · 03 공통 함유",
+    "formulaHeight": 226,
+    "originalModel": true
   }
 ]

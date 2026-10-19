@@ -527,3 +527,23 @@ customer delivery. Stop further model retouch unless owner explicitly requests
 it again. This supersedes retouch-review-pending and refinement suggestions.
 Existing V9 exports and Cafe24 registration package already use original;
 no rollback needed, no Cafe24 production changes in this turn.
+
+## Lip oil formula visibility and series25 scope - 2026-10-19
+
+Owner authorized the formula support change and raised 00 Himalaya Pink in the
+same purchase options. Live public product25 .xans-product-option confirms 00
+is lip gloss, while01/02/03 are lip oils. Retain native product/option/stock/cart/
+review mappings and all four choices; no commerce settings changed this turn.
+V9 formula now shows sunflower seed oil and green tea seed oil separately,
+without the adjacent decorative rose texture, explicitly scoped to oils01-03.
+Original selected model and actual three shade photos/colours remain unchanged.
+Only static panel03 changed; other six export hashes verified unchanged.
+Cafe24 lip-oil package and source ZIP refreshed;320/390/860 JS-disabled package
+checks passed. Current kit is OIL CONTENT ONLY, NOT a full product25 replacement.
+Full series integration must retain a compliant00 gloss detail/ingredient block
+and a clear four-choice series guide before whole-detail application. Do not
+call the four variants four lip-oil shades or apply oil ingredients to00.
+Builder now carries this integration scope in manifest/README/ZIP. Broader
+product25 integration is pending; do not claim Cafe24 production changed.
+Evidence: ops/cafe24/lipoil-formula-series-20261019.json. New formula visual review
+is pending owner acceptance; accepted model/layout outside formula stay locked.

@@ -74,6 +74,12 @@ def finish(key,name,items,source):
     render='existing860px source panels preserved; animated sources converted only' if key in ('lip-liner','lip-oil') else 'mobile-first 430 CSS pixels at2x; fixed860px static image canvas'
     savejson(dest/'manifest.json',{'product':name,'source':source,'status':'exported; Cafe24 upload and actual-device check pending','render':render,'files':items,'format_limit_bytes':LIMIT,'notes':['No custom JS, external font or animated WebP in default package','GIFs play3cycles then stop; original masters retained','Rasterized text is not selectable; alt text carries section content where available','Highlighter external-MP4 alternative requires verified hosting']})
     (dest/'README.txt').write_text(f'{name} — 카페24 등록 패키지\n\nimages 폴더 파일을 /web/upload/tam-detail-20261019/{key}/ 에 업로드한 뒤 detail.cafe24.html을 상세설명 HTML에 사용합니다.\nindex.html은 동일 파일로 구성한 검토본입니다. 실제 업로드/모바일 상품 저장/기기 검증은 미완료입니다.\n숫자 순서대로 파일을 직접 등록하는 방법도 가능합니다. 모든 파일은 4.9MB 미만입니다.\nGIF는 3회 재생 후 멈춥니다. 원본 색상 보정 없이 팔레트 변환했으나 GIF의 색상수 제한은 있습니다.\n',encoding='utf-8')
+    if key=='lip-oil':
+        manifest=json.loads((dest/'manifest.json').read_text(encoding='utf-8'))
+        manifest['integration_scope']={'product_no':25,'component':'lip oils 01-03 only','safe_to_replace_entire_product_detail':False,'preserve_option':'00 Himalaya Pink lip gloss','requirements':['Preserve native product/option/stock/cart/review mappings','Keep 00 gloss description and its own ingredient/product information','Do not describe all four options as lip oils or apply oil ingredient copy to gloss','Compose the series guide and gloss/oil sections before full product25 replacement']}
+        savejson(dest/'manifest.json',manifest)
+        with (dest/'README.txt').open('a',encoding='utf-8') as note:
+            note.write('\n적용 범위: 상품25 립 시리즈 중 립오일01~03 설명 구간입니다. 00 히말라야 핑크는 립글로스입니다. 이 패키지만으로 상품25 전체 상세를 덮어쓰지 마세요. 기존00 옵션·글로스 설명·전성분을 보존하고, 전체 시리즈 안내와 결합한 뒤 직접 적용·검수합니다.\n')
     with zipfile.ZipFile(OUT/f'{key}-cafe24.zip','w',zipfile.ZIP_DEFLATED) as z:
         for f in sorted(dest.rglob('*')):
             if f.is_file():z.write(f,f.relative_to(dest))

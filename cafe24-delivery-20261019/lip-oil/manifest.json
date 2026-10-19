@@ -2,7 +2,7 @@
   "product": "립오일",
   "source": "lipoil-v9/export (existing approved-direction static panels, unchanged)",
   "status": "exported; Cafe24 upload and actual-device check pending",
-  "render": "Existing860px source panels preserved; animated sources converted only",
+  "render": "existing860px source panels preserved; animated sources converted only",
   "files": [
     {
       "file": "images/01-campaign.png",
@@ -29,13 +29,13 @@
     {
       "file": "images/03-cool-glow.png",
       "width": 860,
-      "height": 833,
+      "height": 877,
       "kind": "static",
       "alt": "립오일 상세 3",
       "source": "lipoil-v9/export/03-cool-glow.png",
-      "source_sha256": "c3b1fcc75dc282c6577b6a5eee9d3571ba1e9b94ce0cd17c6a605200a56edb7c",
-      "bytes": 269926,
-      "sha256": "c3b1fcc75dc282c6577b6a5eee9d3571ba1e9b94ce0cd17c6a605200a56edb7c"
+      "source_sha256": "4c1abf1d28e967aaf70e295447f06ef72a05f0674e719a74c942c698da313d9c",
+      "bytes": 245937,
+      "sha256": "4c1abf1d28e967aaf70e295447f06ef72a05f0674e719a74c942c698da313d9c"
     },
     {
       "file": "images/04-colors.png",
@@ -86,7 +86,19 @@
   "notes": [
     "No custom JS, external font or animated WebP in default package",
     "GIFs play3cycles then stop; original masters retained",
-    "Rasterized text is not selectable; alt text carries section content",
+    "Rasterized text is not selectable; alt text carries section content where available",
     "Highlighter external-MP4 alternative requires verified hosting"
-  ]
+  ],
+  "integration_scope": {
+    "product_no": 25,
+    "component": "lip oils 01-03 only",
+    "safe_to_replace_entire_product_detail": false,
+    "preserve_option": "00 Himalaya Pink lip gloss",
+    "requirements": [
+      "Preserve native product/option/stock/cart/review mappings",
+      "Keep 00 gloss description and its own ingredient/product information",
+      "Do not describe all four options as lip oils or apply oil ingredient copy to gloss",
+      "Compose the series guide and gloss/oil sections before full product25 replacement"
+    ]
+  }
 }

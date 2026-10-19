@@ -659,5 +659,20 @@
       "actual_device_verified": false,
       "next_action": "Keep current deliverable. Apply in Cafe24 only when owner resumes agreed rollout; no login request needed now."
     }
+  },
+  "lipoil_formula_series_20261019": {
+    "status": "formula_revised_series_scope_verified",
+    "review": "lipoil-v9/index.html#03-cool-glow",
+    "registration": "cafe24-delivery-20261019/lip-oil/index.html",
+    "original_model": true,
+    "live_product25_options": [
+      "00 gloss",
+      "01 oil",
+      "02 oil",
+      "03 oil"
+    ],
+    "full_product25_replacement_ready": false,
+    "production_cafe24_changed": false,
+    "next_action": "Preserve 00 gloss options/content, compose series guide and gloss/oil sections before complete product25 rollout; current file is oils-only component."
   }
 }

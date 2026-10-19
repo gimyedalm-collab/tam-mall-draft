@@ -16,3 +16,14 @@ a:focus-visible,summary:focus-visible{outline:2px solid #95536b;outline-offset:5
 }
 @media(max-width:350px){.shade{grid-template-columns:24px minmax(0,.85fr) minmax(0,1.15fr);gap:7px;padding:12px 9px}.shade .bottle{width:24px;height:68px}.shade-name h3{font-size:14px}.shade-name span{font-size:7px}.shade-name p{font-size:10px}.closing h2{font-size:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Formula support: two confirmed ingredients, scoped to lip oils 01–03. */
+.formula{display:block;padding-top:32px;padding-bottom:8px}
+.formula h3{font-size:28px;margin:13px 0 25px}
+.formula-ingredients{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.formula-ingredients>div+div{border-left:1px solid var(--line);padding-left:28px}
+.formula-ingredients span{display:block;font-size:10px;line-height:1.5;letter-spacing:.08em;color:#956575}
+.formula-ingredients p{font-size:24px;font-weight:500;line-height:1.4;margin-top:8px}
+.formula .formula-scope{margin-top:23px;font-size:12px}
+@media(max-width:600px){.formula{padding-top:28px;padding-bottom:4px}.formula h3{font-size:23px;margin-bottom:24px}.formula-ingredients{gap:14px}.formula-ingredients>div+div{padding-left:16px}.formula-ingredients span{font-size:8px;letter-spacing:.03em}.formula-ingredients p{font-size:18px;margin-top:7px}.formula .formula-scope{font-size:11px;margin-top:20px}}
+@media(max-width:350px){.formula h3{font-size:21px}.formula-ingredients{gap:10px}.formula-ingredients>div+div{padding-left:12px}.formula-ingredients p{font-size:16px}.formula-ingredients span{font-size:7px}}

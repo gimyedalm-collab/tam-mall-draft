@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-19",
+  "owner_authorized": "Make the two oil ingredients more visible, remove adjacent decorative texture, retain three actual shade comparisons; inspect 00 gloss series integration.",
+  "changes": [
+    "Larger ingredient heading and two ingredient name columns",
+    "Removed texture-rose image from formula section only",
+    "Explicit scope: lip oil 01 / 02 / 03"
+  ],
+  "original_model_unchanged": true,
+  "actual_shades_unchanged": true,
+  "other_sections_unchanged": true,
+  "rendered_revision_owner_acceptance": "pending",
+  "production_cafe24_changed": false,
+  "product25": {
+    "source": "https://tambeauty.kr/product/detail.html?product_no=25",
+    "evidence": "Live public HTML .xans-product-option checked on 2026-10-19; matches existing catalog",
+    "name": "더 젤리 플럼핑 립 시리즈",
+    "options": [
+      {
+        "number": "00",
+        "name": "히말라야 핑크",
+        "type": "립글로스"
+      },
+      {
+        "number": "01",
+        "name": "퍼스트 러브",
+        "type": "립오일"
+      },
+      {
+        "number": "02",
+        "name": "인피니트 로즈",
+        "type": "립오일"
+      },
+      {
+        "number": "03",
+        "name": "나이트 뷰",
+        "type": "립오일"
+      }
+    ],
+    "integration": "Keep existing native options/product IDs. Series guide includes all four; gloss and oil detail/ingredients remain distinct. Current 7-panel kit is oil section only, not full product25 replacement.",
+    "remaining": "Before actual rollout compose/verify 00 gloss content with oil content, native option stock/cart/review behavior; no admin mutation now."
+  }
+}
