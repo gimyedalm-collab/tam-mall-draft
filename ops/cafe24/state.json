@@ -658,6 +658,22 @@
       "cafe24_changed": false,
       "actual_device_verified": false,
       "next_action": "Keep current deliverable. Apply in Cafe24 only when owner resumes agreed rollout; no login request needed now."
+    },
+    "cloud_shade_rebalance": {
+      "status": "implemented_and_browser_checked; owner_visual_review_pending",
+      "review": "cafe24-delivery-20261019/cloud-rebalance-review/index.html",
+      "change": "Six original wrists restored; cheek family crop retained; full product facts/INCI native HTML12px after seven media",
+      "desktop_info_height_before_after": [
+        3698,
+        1062.5
+      ],
+      "mobile390_info_height_before_after": [
+        1677,
+        1674.5
+      ],
+      "claude": "nonpersistent read-only preproduction and rendered follow-up",
+      "cafe24_upload": "explicitly deferred by owner",
+      "cafe24_editor_and_actual_device_verified": false
     }
   },
   "lipoil_formula_series_20261019": {

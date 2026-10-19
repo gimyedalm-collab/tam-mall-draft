@@ -8,6 +8,7 @@ from PIL import Image
 from bs4 import BeautifulSoup
 import hashlib, html, json, math, shutil, subprocess, tempfile, zipfile, sys
 from registration_export_utils import prepare_cloud_info, panel_alt
+from cloud_information_layout import registration_information
 
 ROOT=Path(__file__).resolve().parents[2]
 OUT=ROOT/'cafe24-delivery-20261019'
@@ -59,20 +60,34 @@ CONFIG=[
  ('highlighter','하이라이터','highlighter-r33/index.html','#beam-highlighter-r33',[('video:nth-of-type(1)','highlighter-r32/assets/real-glow.mp4'),('.h33-macro-image img','highlighter-r30/assets/tam-pearl-detail.webp'),('.h33-use video','highlighter-r32/assets/howto-four-looks-261012.mp4')]),
 ]
 
-def finish(key,name,items,source):
+def finish(key,name,items,source,information=None):
     dest=OUT/key
+    if (dest/'manifest.json').exists():
+        previous=json.loads((dest/'manifest.json').read_text(encoding='utf-8'))
+        active={it['file'] for it in items}
+        for old in previous['files']:
+            if old['file'] not in active:
+                obsolete=(dest/old['file']).resolve()
+                assert obsolete.parent==(dest/'images').resolve()
+                obsolete.unlink(missing_ok=True)
     tags=[]
     for it in items:
         file=dest/it['file'];it.update(bytes=file.stat().st_size,sha256=sha(file))
         assert file.stat().st_size<LIMIT
         alt=html.escape(it.get('alt',name+' 상세 '+str(len(tags)+1)),quote=True)
         tags.append(f'<img src="{it["file"]}" width="{it["width"]}" height="{it["height"]}" alt="{alt}" style="display:block;width:100%;height:auto;border:0;margin:0;"'+(' loading="lazy"' if tags else '')+'>')
-    fragment='<div style="max-width:860px;width:100%;margin:0 auto;line-height:0;font-size:0;">\n'+'\n'.join(tags)+'\n</div>'
+    fragment='<div style="max-width:860px;width:100%;margin:0 auto;line-height:0;font-size:0;">\n'+'\n'.join(tags)+'\n'+(information or '')+'\n</div>'
     (dest/'detail.local.html').write_text(fragment,encoding='utf-8')
     (dest/'detail.cafe24.html').write_text(fragment.replace('src="images/','src="/web/upload/tam-detail-20261019/'+key+'/'),encoding='utf-8')
     (dest/'index.html').write_text('<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>'+name+' · 카페24 등록본</title></head><body style="margin:0;background:#eee;">'+fragment+'</body></html>',encoding='utf-8')
     render='existing860px source panels preserved; animated sources converted only' if key in ('lip-liner','lip-oil') else 'mobile-first 430 CSS pixels at2x; fixed860px static image canvas'
     savejson(dest/'manifest.json',{'product':name,'source':source,'status':'exported; Cafe24 upload and actual-device check pending','render':render,'files':items,'format_limit_bytes':LIMIT,'notes':['No custom JS, external font or animated WebP in default package','GIFs play3cycles then stop; original masters retained','Rasterized text is not selectable; alt text carries section content where available','Highlighter external-MP4 alternative requires verified hosting']})
+    if information:
+        (dest/'product-information.html').write_text(information,encoding='utf-8')
+        m=json.loads((dest/'manifest.json').read_text(encoding='utf-8'))
+        m['product_information']={'file':'product-information.html','sha256':sha(dest/'product-information.html'),'format':'Inline-styled native HTML text and table; all six ordered INCI lists visible; no script or accordion','font_size_css_px':12,'reason':'Readable mobile text without enlarged desktop raster type','cafe24_editor_save_verified':False}
+        m['notes'].append('Cloud product information is included as native HTML after seven media; preserve it when registering.')
+        savejson(dest/'manifest.json',m)
     (dest/'README.txt').write_text(f'{name} — 카페24 등록 패키지\n\nimages 폴더 파일을 /web/upload/tam-detail-20261019/{key}/ 에 업로드한 뒤 detail.cafe24.html을 상세설명 HTML에 사용합니다.\nindex.html은 동일 파일로 구성한 검토본입니다. 실제 업로드/모바일 상품 저장/기기 검증은 미완료입니다.\n숫자 순서대로 파일을 직접 등록하는 방법도 가능합니다. 모든 파일은 4.9MB 미만입니다.\nGIF는 3회 재생 후 멈춥니다. 원본 색상 보정 없이 팔레트 변환했으나 GIF의 색상수 제한은 있습니다.\n',encoding='utf-8')
     if key=='lip-oil':
         manifest=json.loads((dest/'manifest.json').read_text(encoding='utf-8'))
@@ -80,6 +95,8 @@ def finish(key,name,items,source):
         savejson(dest/'manifest.json',manifest)
         with (dest/'README.txt').open('a',encoding='utf-8') as note:
             note.write('\n적용 범위: 상품25 립 시리즈 중 립오일01~03 설명 구간입니다. 00 히말라야 핑크는 립글로스입니다. 이 패키지만으로 상품25 전체 상세를 덮어쓰지 마세요. 기존00 옵션·글로스 설명·전성분을 보존하고, 전체 시리즈 안내와 결합한 뒤 직접 적용·검수합니다.\n')
+    if information:
+        with (dest/'README.txt').open('a',encoding='utf-8') as f:f.write('\n클라우드 등록본은 이미지 7개 뒤에 제품정보·전성분 HTML이 포함됩니다. 이미지 업로드만으로는 정보가 포함되지 않으므로 detail.cafe24.html 전체를 사용합니다. 별도 스크립트나 외부 폰트는 없습니다. 실제 관리자 저장 후 HTML 보존 확인은 추후 적용 단계입니다.\n')
     with zipfile.ZipFile(OUT/f'{key}-cafe24.zip','w',zipfile.ZIP_DEFLATED) as z:
         for f in sorted(dest.rglob('*')):
             if f.is_file():z.write(f,f.relative_to(dest))
@@ -90,6 +107,7 @@ with sync_playwright() as pw:
         if len(sys.argv)>1 and key not in sys.argv[1:]:continue
         print('Building',key,flush=True)
         dest=OUT/key;(dest/'images').mkdir(parents=True,exist_ok=True)
+        cached=json.loads((dest/'manifest.json').read_text(encoding='utf-8'))['files'] if (dest/'manifest.json').exists() else []
         work=WORK/key;work.mkdir(exist_ok=True)
         p=b.new_page(viewport={'width':430,'height':1000},device_scale_factor=2,reduced_motion='reduce')
         p.goto((ROOT/source).as_uri(),wait_until='networkidle');p.evaluate('document.fonts.ready')
@@ -122,17 +140,25 @@ with sync_playwright() as pw:
             number=len(items)+1
             if motion:
                 file=f'images/{number:02}-motion.gif'
-                meta=gif(ROOT/motion['src'],motion['bg'],motion['rect'],dest/file,motion['fit'],key=='cloud-blush')
-                meta.update(file=file,alt=motion['alt'],kind='gif',layout={'x':motion['rect']['x'],'y':motion['rect']['offset'],'width':motion['rect']['width'],'height':motion['rect']['height'],'canvas_width':430,'canvas_height':bottom-top})
+                layout={'x':motion['rect']['x'],'y':motion['rect']['offset'],'width':motion['rect']['width'],'height':motion['rect']['height'],'canvas_width':430,'canvas_height':bottom-top}
+                reuse=next((it for it in cached if key=='cloud-blush' and it.get('source')==motion['src'] and it.get('layout')==layout and it.get('source_sha256')==sha(ROOT/motion['src']) and (dest/it['file']).exists() and it['sha256']==sha(dest/it['file'])),None)
+                if reuse:
+                    meta=dict(reuse)
+                    if meta['file']!=file:shutil.copy2(dest/meta['file'],dest/file)
+                else:meta=gif(ROOT/motion['src'],motion['bg'],motion['rect'],dest/file,motion['fit'],key=='cloud-blush')
+                meta.update(file=file,alt=motion['alt'],kind='gif',layout=layout)
                 items.append(meta)
             else:
-                file=f'images/{number:02}-detail.jpg'
-                p.screenshot(path=str(dest/file),type='jpeg',quality=95,full_page=True,clip={'x':0,'y':top,'width':430,'height':bottom-top})
-                im=Image.open(dest/file)
                 is_info=key=='cloud-blush' and top>=math.floor(p.locator('.product-info').bounding_box()['y'])
+                if is_info:continue
+                file=f'images/{number:02}-detail.'+('png' if is_info else 'jpg')
+                options={'type':'png'} if is_info else {'type':'jpeg','quality':95}
+                p.screenshot(path=str(dest/file),**options,full_page=True,clip={'x':0,'y':top,'width':430,'height':bottom-top})
+                im=Image.open(dest/file)
                 text=panel_alt(p,top,bottom,is_info)
-                items.append({'file':file,'width':im.width,'height':im.height,'kind':'jpeg','alt':text[:1800] or name+' 상세 이미지','source_y':[top,bottom]})
-        finish(key,name,items,source)
+                items.append({'file':file,'width':im.width,'height':im.height,'kind':'png' if is_info else 'jpeg','alt':text[:1800] or name+' 상세 이미지','source_y':[top,bottom]})
+        information=registration_information(p.content()) if key=='cloud-blush' else None
+        finish(key,name,items,source,information)
         p.close()
     b.close()
 

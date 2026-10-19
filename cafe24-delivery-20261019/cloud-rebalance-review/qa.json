@@ -1,0 +1,40 @@
+{
+  "scope": "Local Chromium, not Cafe24 administrator save or physical phone",
+  "full_ordered_INCI_preserved": true,
+  "all_product_facts_preserved": true,
+  "six_original_wrist_files_byte_identical": true,
+  "each_arm_cheek_texture_image_used_once": true,
+  "checks": [
+    {
+      "width": 320,
+      "information_height": 1890.5,
+      "page_height": 5445.4,
+      "information_share_percent": 34.7,
+      "information_font_px": 12,
+      "no_horizontal_overflow": true,
+      "all_images_loaded": true,
+      "javascript_disabled": true
+    },
+    {
+      "width": 390,
+      "information_height": 1674.5,
+      "page_height": 6007.1,
+      "information_share_percent": 27.9,
+      "information_font_px": 12,
+      "no_horizontal_overflow": true,
+      "all_images_loaded": true,
+      "javascript_disabled": true
+    },
+    {
+      "width": 860,
+      "information_height": 1062.5,
+      "page_height": 10616.5,
+      "information_share_percent": 10.0,
+      "information_font_px": 12,
+      "no_horizontal_overflow": true,
+      "all_images_loaded": true,
+      "javascript_disabled": true
+    }
+  ],
+  "owner_visual_acceptance": "pending"
+}

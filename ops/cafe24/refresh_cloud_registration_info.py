@@ -6,6 +6,10 @@ from registration_export_utils import prepare_cloud_info,panel_alt
 import json,math,hashlib,re,html,zipfile
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'cafe24-delivery-20261019';DEST=OUT/'cloud-blush'
 manifest=DEST/'manifest.json';data=json.loads(manifest.read_text(encoding='utf-8'))
+if data.get('product_information'):
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/'ops/cafe24/build_registration_packages.py'),'cloud-blush'],check=True)
+    sys.exit(0)
 before={i['file']:i['sha256'] for i in data['files']}
 with sync_playwright() as pw:
     b=pw.chromium.launch();p=b.new_page(viewport={'width':430,'height':1000},device_scale_factor=2,reduced_motion='reduce')

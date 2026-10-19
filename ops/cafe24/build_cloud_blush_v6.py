@@ -2,12 +2,15 @@
 from pathlib import Path
 import json
 import re
+import hashlib
+from cloud_information_layout import compact_information
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'cloud-blush-v6'
 OUT.mkdir(exist_ok=True)
 OLD = (ROOT / 'cloud-blush-v5/detail.template.html').read_text(encoding='utf-8')
 INFO = re.search(r'<details class="product-info">.*?</details>', OLD, re.S).group()
+INFO = compact_information(INFO)
 A = '../cloud-blush-v3/assets/'
 SHADES = [
  ('백도 쉐이크', 'WHITE PEACH SHAKE', '부드러운 피치 핑크', '복숭아빛을 머금은 핑크로<br>은은하고 부드러운 볼.'),
@@ -21,8 +24,9 @@ cards = '\n'.join(f'''<figure class="shade" id="shade-{i}">
  <figcaption><h3><span class="shade-number">0{i}</span> {name}</h3><p class="english">{english}</p></figcaption>
  <div class="cheek"><img src="{A}cheek-{i}.jpg" width="1100" height="1137" loading="lazy" alt="{name} 실제 볼 발색"></div>
  <img class="swatch" src="{A}swatch-{i}.jpg" width="600" height="600" loading="lazy" alt="{name} 실제 제형 발색">
- <p class="tone">{tone}</p><p class="shade-description">{desc}</p>
+ <p class="tone">{tone}</p>
 </figure>''' for i, (name, english, tone, desc) in enumerate(SHADES, 1))
+arms = '\n'.join(f'''<figure class="arm-shade"><img src="assets/arm-{i}.jpg" width="1933" height="2416" loading="lazy" alt="{name} 원본 손목 발색"><figcaption>0{i} {name}</figcaption></figure>''' for i,(name,*_) in enumerate(SHADES,1))
 
 body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 블러셔 상세페이지">
 <section class="hero" aria-labelledby="hero-title">
@@ -42,8 +46,9 @@ body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 
  <div class="application-guide" id="howto"><p class="application-label">HOW TO USE</p><p class="application-copy">손끝에 소량 묻혀 얇게 펴 바르고,<br>경계를 톡톡 두드려 주세요.</p></div>
 </section>
 <section class="section colours" id="colours">
- <header class="heading"><p class="eyebrow">SIX SHADES OF CLOUD</p><h2>은은한 피치부터<br>선명한 핑크까지.</h2><p class="body">제형과 볼 위 발색을 함께 확인하세요.</p></header>
+ <header class="heading"><p class="eyebrow">SIX SHADES OF CLOUD</p><h2>은은한 피치부터<br>선명한 핑크까지.</h2><p class="body">볼 위의 컬러와 손목 발색을 비교해 보세요.</p></header>
  <div class="shade-grid">{cards}</div>
+ <div class="arm-comparison"><h3>손목 발색 비교</h3><div class="arm-grid">{arms}</div></div>
  <p class="note">피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.</p>
 </section>
 <section class="formula" id="formula">
@@ -61,6 +66,7 @@ body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 
 </article>'''
 (OUT / 'detail.template.html').write_text(body, encoding='utf-8')
 head = '''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="robots" content="noindex,nofollow"><title>탐뷰티 | 더 클라우드 블러 크림 블러셔 · V6</title><meta name="description" content="크림처럼 사르르, 파우더처럼 보송하게. 크림투파우더 제형과 블러 마무리, 여섯 가지 실제 발색을 만나보세요."><link rel="icon" href="../cloud-blush-v3/assets/tam-logo.svg" type="image/svg+xml"><link rel="stylesheet" href="detail.css"><script src="detail.js" defer></script></head><body><main>'''
+head=head.replace('href="detail.css"','href="detail.css?v='+hashlib.sha256((OUT/'detail.css').read_bytes()).hexdigest()[:10]+'"')
 (OUT / 'index.html').write_text(head + body + '</main></body></html>', encoding='utf-8')
 assert INFO in body
 assert all(f'{A}{kind}-{i}.jpg' in body for kind in ('cheek', 'swatch') for i in range(1, 7))

@@ -20,12 +20,19 @@ with sync_playwright() as pw:
                 for i in range(im.n_frames):im.seek(i);im.load()
                 gif_count+=1
         soup=BeautifulSoup((dest/'index.html').read_text(encoding='utf-8'),'html.parser')
+        if m.get('product_information'):
+            info=m['product_information'];path=dest/info['file']
+            assert hashlib.sha256(path.read_bytes()).hexdigest()==info['sha256']
+            for filename in ('index.html','detail.local.html','detail.cafe24.html'):
+                assert path.read_text(encoding='utf-8') in (dest/filename).read_text(encoding='utf-8')
+            assert len(soup.select('[data-tam-product-info]'))==1
         assert not soup.select('script,video,iframe,link,button')
         assert all(Path(i['src']).suffix in ('.jpg','.jpeg','.png','.gif') for i in soup.select('img'))
         assert len(soup.select('img'))==len(m['files'])
         with zipfile.ZipFile(OUT/f'{key}-cafe24.zip') as z:
             assert z.testzip() is None
             assert all(item['file'] in z.namelist() for item in m['files'])
+            if m.get('product_information'):assert z.read(m['product_information']['file'])==(dest/m['product_information']['file']).read_bytes()
         widths=[]
         for width in (320,390,860):
             p=b.new_page(viewport={'width':width,'height':1000},java_script_enabled=False)

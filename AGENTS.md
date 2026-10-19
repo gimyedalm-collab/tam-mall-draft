@@ -567,3 +567,17 @@ without verifying product-specific evidence. Old marketing art4.3g differs from
 archived official product info4.3ml /0.14fl.oz.; verified the latter in original
 research/tam.html and retain current ml. Mixed gloss/oil ingredient prose must
 not be copied wholesale into all shades. No Cafe24 mutation this turn.
+
+## Cloud colour evidence / information balance revision - 2026-10-19
+
+Owner rejected the delivered balance: product information too large and shade
+evidence insufficient. Restore six original outsourced wrist photos once, after
+the existing two-column cheek/texture cards. Keep family crop and original
+colours; no model interlude or new generated shade evidence. Repeated shade
+prose removed. Seven delivery media are followed by full native inline-styled
+product information/ordered INCI at12 CSS px. Do not restore the oversized
+08-detail raster or omit native information when uploading. Full contents and
+order checked; Cafe24 editor save/physical-device checks remain deferred.
+Review: cafe24-delivery-20261019/cloud-rebalance-review/index.html.
+Nonpersistent Claude preproduction and rendered review completed; owner visual
+acceptance pending. This supersedes the earlier eight-image packaging record.

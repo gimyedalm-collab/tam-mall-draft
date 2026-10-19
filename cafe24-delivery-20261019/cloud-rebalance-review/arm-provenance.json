@@ -1,0 +1,44 @@
+[
+  {
+    "file": "cloud-blush-v6/assets/arm-1.jpg",
+    "source_file": "01 백도 쉐이크.JPG",
+    "source_collection": "Cloud blush / outsourced shade photography / second delivery",
+    "sha256": "70e4f2e76820e042d4456259a962325791011412b3af68c801a026bb6eaeed7e",
+    "operation": "byte-identical copy; centered square presentation by CSS; no pixel edits"
+  },
+  {
+    "file": "cloud-blush-v6/assets/arm-2.jpg",
+    "source_file": "02 구아바 쉐이크.JPG",
+    "source_collection": "Cloud blush / outsourced shade photography / second delivery",
+    "sha256": "389669a688ae4ae66edab7e537edfc03d53e46d8c8b03a5cd255803150b8e94c",
+    "operation": "byte-identical copy; centered square presentation by CSS; no pixel edits"
+  },
+  {
+    "file": "cloud-blush-v6/assets/arm-3.jpg",
+    "source_file": "03 아사이베리 쉐이크.JPG",
+    "source_collection": "Cloud blush / outsourced shade photography / second delivery",
+    "sha256": "0e74a2f9c5c68ee468ce8b9b17f1ded2ce1774b5f24953bdbfda512af8dcac4f",
+    "operation": "byte-identical copy; centered square presentation by CSS; no pixel edits"
+  },
+  {
+    "file": "cloud-blush-v6/assets/arm-4.jpg",
+    "source_file": "04 파파야 쉐이크.JPG",
+    "source_collection": "Cloud blush / outsourced shade photography / second delivery",
+    "sha256": "adf0615c9f459f5751bfdf380966df22a2f6adc89fa1f5816e178c05e0bfa68b",
+    "operation": "byte-identical copy; centered square presentation by CSS; no pixel edits"
+  },
+  {
+    "file": "cloud-blush-v6/assets/arm-5.jpg",
+    "source_file": "05 용과 쉐이크.JPG",
+    "source_collection": "Cloud blush / outsourced shade photography / second delivery",
+    "sha256": "9bfc96ff360721a537fad83b978343723ddd739d9a2116c87b42bd0f826fe819",
+    "operation": "byte-identical copy; centered square presentation by CSS; no pixel edits"
+  },
+  {
+    "file": "cloud-blush-v6/assets/arm-6.jpg",
+    "source_file": "06 살구 쉐이크.JPG",
+    "source_collection": "Cloud blush / outsourced shade photography / second delivery",
+    "sha256": "036c370c7b8bc9281eda21dfff997b2eb92484c6293ec3b2355731db81096402",
+    "operation": "byte-identical copy; centered square presentation by CSS; no pixel edits"
+  }
+]
