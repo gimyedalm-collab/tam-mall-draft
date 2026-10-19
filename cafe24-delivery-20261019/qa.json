@@ -1,0 +1,167 @@
+[
+  {
+    "product": "cloud-blush",
+    "files": 8,
+    "gifs": 1,
+    "total_bytes": 5217848,
+    "largest_file_bytes": 3380213,
+    "widths": [
+      {
+        "width": 320,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 390,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 860,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      }
+    ],
+    "all_gif_frames_decoded": true,
+    "zip_verified": true,
+    "cafe24_actual_upload_verified": false
+  },
+  {
+    "product": "milky-cheek",
+    "files": 9,
+    "gifs": 1,
+    "total_bytes": 5392539,
+    "largest_file_bytes": 4454107,
+    "widths": [
+      {
+        "width": 320,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 390,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 860,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      }
+    ],
+    "all_gif_frames_decoded": true,
+    "zip_verified": true,
+    "cafe24_actual_upload_verified": false
+  },
+  {
+    "product": "highlighter",
+    "files": 14,
+    "gifs": 3,
+    "total_bytes": 11491647,
+    "largest_file_bytes": 4504458,
+    "widths": [
+      {
+        "width": 320,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 390,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 860,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      }
+    ],
+    "all_gif_frames_decoded": true,
+    "zip_verified": true,
+    "cafe24_actual_upload_verified": false
+  },
+  {
+    "product": "lip-oil",
+    "files": 7,
+    "gifs": 0,
+    "total_bytes": 2157058,
+    "largest_file_bytes": 568754,
+    "widths": [
+      {
+        "width": 320,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 390,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 860,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      }
+    ],
+    "all_gif_frames_decoded": true,
+    "zip_verified": true,
+    "cafe24_actual_upload_verified": false
+  },
+  {
+    "product": "lip-liner",
+    "files": 16,
+    "gifs": 3,
+    "total_bytes": 11617934,
+    "largest_file_bytes": 3230548,
+    "widths": [
+      {
+        "width": 320,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 390,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      },
+      {
+        "width": 860,
+        "no_overflow": true,
+        "all_images_loaded": true,
+        "no_seams": true,
+        "javascript_disabled": true
+      }
+    ],
+    "all_gif_frames_decoded": true,
+    "zip_verified": true,
+    "cafe24_actual_upload_verified": false
+  }
+]

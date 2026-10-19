@@ -1,0 +1,13 @@
+{
+  "status": "prepared; video hosting and Cafe24 playback unverified",
+  "files": [
+    {
+      "file": "real-glow.mp4",
+      "source_sha256": "57ba2a7a2c439ae14b7c6a90ce02f7909b2fc3f7fd3f51d76322fbd4b2779890"
+    },
+    {
+      "file": "howto-four-looks-261012.mp4",
+      "source_sha256": "8990f498241f6f6ed8d5d541f36dde7bc73b27d54f862f80e8dc423288f6c48f"
+    }
+  ]
+}

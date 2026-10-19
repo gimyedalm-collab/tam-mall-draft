@@ -1,5 +1,20 @@
 # TAM Beauty store
 
+## ACTIVE: Cafe24-first delivery standard - 2026-10-19
+
+Owner explicitly requires all future work to use Cafe24 as the delivery baseline.
+Prepare JPG/PNG and optimized GIF registration packages with matching previews,
+ordered files and a source manifest. Shopping-mall FTP MP4 uploads are unsupported;
+do not assume animated WebP uploads work. GIF exports must preserve actual shade,
+pearl and texture fidelity. For quality-critical video, prepare an external-host
+embedding variant and verify it on real Cafe24 before reporting integration done.
+Default product-detail packages must work without custom scripts, scene-selection
+controls or remotely loaded fonts. Preserve approved copy/layout and original
+masters while making compatibility exports. This instruction authorizes format
+conversion of existing motion assets, not unrelated redesign or live publication.
+GitHub previews are review delivery only; actual Cafe24 upload remains a separate
+verification step. Open the Cafe24-format comparison visibly for owner review.
+
 Current resume entry: `ops/cafe24/COMPACT-HANDOFF.md`. Latest owner instruction is image-only replacement while preserving the restored design. See the final ACTIVE OVERRIDE below.
 
 For Cafe24 implementation and bug work, read
@@ -395,3 +410,20 @@ Seven static panels also retain the shade-row arrangement. Technical QA passed
 320/390/600/860/1440; visual acceptance remains pending. Cafe24 production is
 unchanged and direct application remains part of the agreed whole-store rollout.
 Do not alter other product work. See ops/cafe24/lipoil-v9-hybrid-20261019.json.
+
+
+## Cafe24 registration packages prepared - 2026-10-19
+
+Current upload-format review: cafe24-delivery-20261019/index.html. Five product
+packages contain JPG/PNG and8GIFs, all files below4.9MB. Cloud is4.4seconds with
+three original shots; Milky Cheek uses its original full sequence. Highlighter
+has a GIF fallback and an external-MP4 kit; prefer original video for fine pearl
+quality after real hosting and Cafe24 playback verification. Lip oil uses the
+latest V9 exports unchanged; lip liner uses integrated product118 R34 files,
+not its old standalone. Original masters/design sources remain intact.
+Build with ops/cafe24/build_registration_packages.py; verification and review
+builders sit alongside it. GIF conversion uses FFmpeg plus gifsicle O3/lossy20.
+No creative colour grade. Rendered comparison is pending owner acceptance.
+Do not report actual Cafe24 deployment done: only local/upload-format and
+GitHub preview checks are complete. Direct Cafe24 application by the agent
+remains part of the agreed store rollout, not a manual task handed to owner.

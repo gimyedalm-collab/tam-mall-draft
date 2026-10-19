@@ -1,0 +1,138 @@
+{
+  "product": "밀키치크",
+  "source": "cheek-v12/index.html",
+  "status": "exported; Cafe24 upload and actual-device check pending",
+  "render": "mobile-first 430 CSS pixels at2x; fixed860px image canvas",
+  "files": [
+    {
+      "file": "images/01-detail.jpg",
+      "width": 860,
+      "height": 1888,
+      "kind": "jpeg",
+      "alt": "더 젤리 밀키 치크 블러셔 밀키한 생기,\n은은한 젤리광. 스펀지로 가볍게 톡톡. 원하는 만큼 물들이는 비건 치크. 밀키 컬러\n부드럽게 물드는 생기 스펀지 팁\n용기 하나로 간편하게 비건 포뮬러\n네 가지 컬러 모두",
+      "source_y": [
+        0,
+        944
+      ],
+      "bytes": 230523,
+      "sha256": "ebfdc49caa191e004c7f51a856dfc06a7b903da4e5e01c8e9619bcfe59d2a90f"
+    },
+    {
+      "file": "images/02-detail.jpg",
+      "width": 860,
+      "height": 742,
+      "kind": "jpeg",
+      "alt": "브러시 없이\n볼 위에 바로 톡톡. 바르고 펴 바르는 스펀지 팁\n\n돌려서 여닫는 ON/OFF 조절부",
+      "source_y": [
+        944,
+        1315
+      ],
+      "bytes": 51326,
+      "sha256": "9d86f04c46893056c40f7eba38f2e670162a00ede949a40c1f405d65bd20412a"
+    },
+    {
+      "source": "storefront-v2/preview/assets/milky-cheek-v11/three-steps.mp4",
+      "source_sha256": "dbd65270d112796574136c32b196d69238bec57e5352eda07eef4d09d762695c",
+      "width": 688,
+      "height": 765,
+      "frames": 30,
+      "fps_target": 10,
+      "dither": "bayer:bayer_scale=3",
+      "gifsicle_lossy": 20,
+      "duration_seconds": 3.066667,
+      "loop_repeats": 2,
+      "conversion": "256-colour palette and GIF compression; no creative colour/exposure adjustment; original CSS framing",
+      "segments": "full source",
+      "file": "images/03-motion.gif",
+      "alt": "물풀치크 실제 사용 영상",
+      "kind": "gif",
+      "bytes": 4454107,
+      "sha256": "2a5e85b4bf51873054abc1ab96b7f7eaeaa42b94954b4693e8e67cad8c9bef27"
+    },
+    {
+      "file": "images/04-detail.jpg",
+      "width": 860,
+      "height": 542,
+      "kind": "jpeg",
+      "alt": "볼 위에 가볍게 두드리기 ON으로 열기 팁에 소량 짜 주세요. 톡톡 펴 바르기 볼 위에서 두드려 주세요. OFF로 닫기 사용 후 캡을 닫아 주세요. 처음에는 소량, 원하는 색감만큼 덧발라 주세요.",
+      "source_y": [
+        1793,
+        2064
+      ],
+      "bytes": 48450,
+      "sha256": "cc4a38453682c4cc90297a2ccc8c69c1a3358e5e4742c2f16e76123956cd3c43"
+    },
+    {
+      "file": "images/05-detail.jpg",
+      "width": 860,
+      "height": 2176,
+      "kind": "jpeg",
+      "alt": "나의 볼에 어울리는\n네 가지 밀키 컬러. 볼 위의 발색과 제형을 함께 비교해 보세요. 01 헬로버니\n\nHELLO BUNNY 01 헬로버니 HELLO BUNNY 밀키 핑크 흰빛이 감도는 밝은 핑크. 02 썬플러쉬\n\nSUN FLUSH 02 썬플러쉬 SUN FLUSH 코랄 핑크 코랄빛을 더한 따뜻한 핑크. 03 누드티\n\nNUDE TEA 03 누드티 NUDE TEA 핑크 베이지 핑크를 머금은 부드러운 베이지. 04 로지댄스\n\nROSY DANCE 04 로지댄스 ROSY DANCE 모브 핑크 장밋빛이 감도는 차분한 모브. 피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
+      "source_y": [
+        2064,
+        3152
+      ],
+      "bytes": 238636,
+      "sha256": "f186ccba023e2524b222af49fb328f385ceb7a494f8ea8d7685bfb2ae381257b"
+    },
+    {
+      "file": "images/06-detail.jpg",
+      "width": 860,
+      "height": 1054,
+      "kind": "jpeg",
+      "alt": "부드럽게 펴 바르는\n밀키한 텍스처.",
+      "source_y": [
+        3152,
+        3679
+      ],
+      "bytes": 90476,
+      "sha256": "b3f356b83b0626ca9e678fd8b5322392e55d26e5fbfb4f1f2fc9e372e9bf5621"
+    },
+    {
+      "file": "images/07-detail.jpg",
+      "width": 860,
+      "height": 1830,
+      "kind": "jpeg",
+      "alt": "밀키한 컬러 속에 담은 스킨케어 성분. 히알루론산 계열부터 세라마이드NP까지.\n네 가지 컬러에 공통으로 담았어요. 히알루론산 계열 소듐하이알루로네이트\n하이알루로닉애씨드 스쿠알란 피부를 부드럽게 하는\n스쿠알란* 판테놀·알란토인 피부 컨디셔닝 성분,\n판테놀* 세라마이드NP 전성분명:\n세라마이드엔피 *원료적 특성에 한함.\n위 이미지는 포뮬러를 표현한 연출 이미지입니다.",
+      "source_y": [
+        3679,
+        4594
+      ],
+      "bytes": 155799,
+      "sha256": "d3deb75661762d475e71470fe6806a95d4e61156362dc668ff46a4a892358b7d"
+    },
+    {
+      "file": "images/08-detail.jpg",
+      "width": 860,
+      "height": 814,
+      "kind": "jpeg",
+      "alt": "피부 일차 자극\n시험 완료. 4가지 컬러 각각\n평균 피부반응도 한국피부과학연구원 · 성인 여성 32명\n측정기간 2024.11.25 ~ 2024.11.28\n24시간 첩포 후 제거 30분·24시간·48시간 평가\n시험 조건에 따른 결과이며 개인차가 있습니다.",
+      "source_y": [
+        4594,
+        5001
+      ],
+      "bytes": 64248,
+      "sha256": "fa5006a0363c3b5943ace89d0f29d32232b2ebe372c97a3b602e8758b0678c1e"
+    },
+    {
+      "file": "images/09-detail.jpg",
+      "width": 860,
+      "height": 1020,
+      "kind": "jpeg",
+      "alt": "밀키하게 물드는 나의 컬러.",
+      "source_y": [
+        5001,
+        5512
+      ],
+      "bytes": 58974,
+      "sha256": "a080f475547cb8560a3fcee947eea4cffc6ea897090a7b47564f4b9416adc8f0"
+    }
+  ],
+  "format_limit_bytes": 4900000,
+  "notes": [
+    "No custom JS, external font or animated WebP in default package",
+    "GIFs play3cycles then stop; original masters retained",
+    "Rasterized text is not selectable; alt text carries section content",
+    "Highlighter external-MP4 alternative requires verified hosting"
+  ]
+}

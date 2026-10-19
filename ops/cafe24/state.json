@@ -52,7 +52,7 @@
     "verification": "Browser visual review at 390px content width: hero, shades, texture, how-to, formula. Invariants verified: original media, section heights, product information and commerce unchanged.",
     "production_cafe24_changed": false
   },
-  "updated_at": "2026-10-15",
+  "updated_at": "2026-10-19",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
   "phase": "purchase_ui_popup_shipping_preview_complete; administrator_connection_next",
@@ -620,5 +620,28 @@
     "record": "lipoil-v9-hybrid-20261019.json",
     "production_cafe24_changed": false,
     "next_action": "Owner visual review, then preserve chosen revision for agreed whole-store Cafe24 rollout. Codex directly uploads/applies/verifies, preserving product25 gloss and options."
+  },
+  "cafe24_registration_standard_20261019": {
+    "status": "registration_packages_exported_and_browser_checked; real_store_apply_pending",
+    "owner_instruction": "All future work must be Cafe24-first",
+    "review": "cafe24-delivery-20261019/index.html",
+    "products": [
+      "cloud-blush",
+      "milky-cheek",
+      "highlighter",
+      "lip-oil (latest V9 panels unchanged)",
+      "lip-liner (integrated R34)"
+    ],
+    "default_formats": [
+      "jpg",
+      "png",
+      "gif"
+    ],
+    "maximum_file_bytes": 4900000,
+    "gifs": 8,
+    "validation": "320/390/860px with JavaScript disabled; all images loaded, no horizontal overflow or seams; all GIF frames decoded and archives checked",
+    "highlighter": "GIF fallback and original-MP4 external-host template prepared; production video host not configured",
+    "production_cafe24_changed": false,
+    "next_action": "Owner visual review, then agent directly uploads to confirmed Cafe24 destination during agreed store rollout; verify PC/mobile save, image delivery and actual-device playback. Do not ask user to perform manual deployment."
   }
 }

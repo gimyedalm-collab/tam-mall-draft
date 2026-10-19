@@ -1,0 +1,92 @@
+{
+  "product": "립오일",
+  "source": "lipoil-v9/export (existing approved-direction static panels, unchanged)",
+  "status": "exported; Cafe24 upload and actual-device check pending",
+  "render": "Existing860px source panels preserved; animated sources converted only",
+  "files": [
+    {
+      "file": "images/01-campaign.png",
+      "width": 860,
+      "height": 908,
+      "kind": "static",
+      "alt": "립오일 상세 1",
+      "source": "lipoil-v9/export/01-campaign.png",
+      "source_sha256": "4ebccb28581ef6e75fa8f8cd5246c65ddb887460cdc789d6f3e7177cb43ab116",
+      "bytes": 568754,
+      "sha256": "4ebccb28581ef6e75fa8f8cd5246c65ddb887460cdc789d6f3e7177cb43ab116"
+    },
+    {
+      "file": "images/02-big-tip.png",
+      "width": 860,
+      "height": 1183,
+      "kind": "static",
+      "alt": "립오일 상세 2",
+      "source": "lipoil-v9/export/02-big-tip.png",
+      "source_sha256": "6e6234ed6fee0d19ec30ee3466d21b3e399fd2e8b41216df9cbd3d8c3b860879",
+      "bytes": 420055,
+      "sha256": "6e6234ed6fee0d19ec30ee3466d21b3e399fd2e8b41216df9cbd3d8c3b860879"
+    },
+    {
+      "file": "images/03-cool-glow.png",
+      "width": 860,
+      "height": 833,
+      "kind": "static",
+      "alt": "립오일 상세 3",
+      "source": "lipoil-v9/export/03-cool-glow.png",
+      "source_sha256": "c3b1fcc75dc282c6577b6a5eee9d3571ba1e9b94ce0cd17c6a605200a56edb7c",
+      "bytes": 269926,
+      "sha256": "c3b1fcc75dc282c6577b6a5eee9d3571ba1e9b94ce0cd17c6a605200a56edb7c"
+    },
+    {
+      "file": "images/04-colors.png",
+      "width": 860,
+      "height": 1323,
+      "kind": "static",
+      "alt": "립오일 상세 4",
+      "source": "lipoil-v9/export/04-colors.png",
+      "source_sha256": "227b1ed7b9491198d92fb5cc8405658355022d13d0c29e166b77fbd21256e790",
+      "bytes": 245807,
+      "sha256": "227b1ed7b9491198d92fb5cc8405658355022d13d0c29e166b77fbd21256e790"
+    },
+    {
+      "file": "images/05-how-to.png",
+      "width": 860,
+      "height": 519,
+      "kind": "static",
+      "alt": "립오일 상세 5",
+      "source": "lipoil-v9/export/05-how-to.png",
+      "source_sha256": "edcebedf79ccc21b0142d99f6f0f4ef6ccfeb2f80c93dbd4033c9ff5ef419e96",
+      "bytes": 35627,
+      "sha256": "edcebedf79ccc21b0142d99f6f0f4ef6ccfeb2f80c93dbd4033c9ff5ef419e96"
+    },
+    {
+      "file": "images/06-collection.png",
+      "width": 860,
+      "height": 969,
+      "kind": "static",
+      "alt": "립오일 상세 6",
+      "source": "lipoil-v9/export/06-collection.png",
+      "source_sha256": "eb0f7430667b16fbfb6577338c62554add8052f25510f091b11bd69180144a23",
+      "bytes": 504851,
+      "sha256": "eb0f7430667b16fbfb6577338c62554add8052f25510f091b11bd69180144a23"
+    },
+    {
+      "file": "images/07-product-information.png",
+      "width": 860,
+      "height": 1122,
+      "kind": "static",
+      "alt": "립오일 상세 7",
+      "source": "lipoil-v9/export/07-product-information.png",
+      "source_sha256": "28d84cd729032282ad260004e2ccd3d0dd7f31f1fb798a05e426c542008508d6",
+      "bytes": 112038,
+      "sha256": "28d84cd729032282ad260004e2ccd3d0dd7f31f1fb798a05e426c542008508d6"
+    }
+  ],
+  "format_limit_bytes": 4900000,
+  "notes": [
+    "No custom JS, external font or animated WebP in default package",
+    "GIFs play3cycles then stop; original masters retained",
+    "Rasterized text is not selectable; alt text carries section content",
+    "Highlighter external-MP4 alternative requires verified hosting"
+  ]
+}

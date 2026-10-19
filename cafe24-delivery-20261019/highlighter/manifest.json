@@ -1,0 +1,239 @@
+{
+  "product": "하이라이터",
+  "source": "highlighter-r33/index.html",
+  "status": "exported; Cafe24 upload and actual-device check pending",
+  "render": "mobile-first 430 CSS pixels at2x; fixed860px image canvas",
+  "files": [
+    {
+      "file": "images/01-detail.jpg",
+      "width": 860,
+      "height": 644,
+      "kind": "jpeg",
+      "alt": "더 젤리 빔 하이라이터 광대 위에 톡,\n빛나는 입체감. 화이트 · 핑크 · 골드 펄로\n오늘 메이크업에 빛을 더해요.",
+      "source_y": [
+        0,
+        322
+      ],
+      "bytes": 52136,
+      "sha256": "3afe543896b850971c55193e93c65b4e79e6ee6e763479c2064016c3fb3a3801"
+    },
+    {
+      "source": "highlighter-r32/assets/real-glow.mp4",
+      "source_sha256": "57ba2a7a2c439ae14b7c6a90ce02f7909b2fc3f7fd3f51d76322fbd4b2779890",
+      "width": 600,
+      "height": 727,
+      "frames": 27,
+      "fps_target": 8,
+      "dither": "bayer:bayer_scale=3",
+      "gifsicle_lossy": 20,
+      "duration_seconds": 3.458333,
+      "loop_repeats": 2,
+      "conversion": "256-colour palette and GIF compression; no creative colour/exposure adjustment; original CSS framing",
+      "segments": "full source",
+      "file": "images/02-motion.gif",
+      "alt": "고개를 돌릴 때 광대의 펄이 보이는 실제 사용 영상",
+      "kind": "gif",
+      "layout": {
+        "x": 0,
+        "y": 0.09375,
+        "width": 430,
+        "height": 520,
+        "canvas_width": 430,
+        "canvas_height": 521
+      },
+      "bytes": 4279611,
+      "sha256": "6e4f34ea7b726675fe3162eeb189217ee26a5fc0f38e5674170ed29ca8153002"
+    },
+    {
+      "file": "images/03-detail.jpg",
+      "width": 860,
+      "height": 74,
+      "kind": "jpeg",
+      "alt": "하이라이터 상세 이미지",
+      "source_y": [
+        843,
+        880
+      ],
+      "bytes": 1163,
+      "sha256": "f74cac93727cb83bc19ae97aaf86d876634d9dade8ea5bb7fc51646f30bddf1a"
+    },
+    {
+      "file": "images/04-detail.jpg",
+      "width": 860,
+      "height": 2138,
+      "kind": "jpeg",
+      "alt": "세 가지 펄 컬러. 01 문스톤\n\nMOONSTONE 01 문스톤 MOONSTONE 아이시 화이트 밝고 시원한 포인트가 끌리는 날. 쿨톤 추천 02 구미 핑크\n\nGUMMY PINK 02 구미 핑크 GUMMY PINK 밀키 핑크 핑크 메이크업에 생기를 더할 때. 쿨 · 뉴트럴톤 추천 03 테디 골드\n\nTEDDY GOLD 03 테디 골드 TEDDY GOLD 베이지 골드 베이지 · 브라운 룩에 따뜻한 빛. 웜 · 뉴트럴톤 추천 피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
+      "source_y": [
+        880,
+        1949
+      ],
+      "bytes": 205837,
+      "sha256": "31557b94df661f4693e1a5aaa2084c6beefd2c2a8a5d7844d98a926d5a3d6bb1"
+    },
+    {
+      "file": "images/05-detail.jpg",
+      "width": 860,
+      "height": 992,
+      "kind": "jpeg",
+      "alt": "피부 위에 빛나는 펄. 팔 위의 펄감 세 가지 펄 제형 실제 촬영한 발색과 제형",
+      "source_y": [
+        1949,
+        2445
+      ],
+      "bytes": 133876,
+      "sha256": "330e19f2768a5d28a1aaaf9193e16a0f0a22570d91cef0c165df1afc8ce71d6b"
+    },
+    {
+      "file": "images/06-detail.jpg",
+      "width": 860,
+      "height": 1078,
+      "kind": "jpeg",
+      "alt": "부드러운 스틱에\n펄을 담았어요.",
+      "source_y": [
+        2445,
+        2984
+      ],
+      "bytes": 161960,
+      "sha256": "e824e705b48fd3f727e8368290eb05676c680dfd968aedae523c100cc7977344"
+    },
+    {
+      "source": "highlighter-r30/assets/tam-pearl-detail.webp",
+      "source_sha256": "632191c4c022115f0a78a640e67c7f1a24138a8766f6a14150951122ce1d89f2",
+      "width": 860,
+      "height": 362,
+      "frames": 30,
+      "fps_target": 12,
+      "dither": "sierra2_4a",
+      "gifsicle_lossy": 20,
+      "duration_seconds": 2.56,
+      "loop_repeats": 2,
+      "conversion": "256-colour palette and GIF compression; no creative colour/exposure adjustment; original CSS framing",
+      "segments": "full source",
+      "file": "images/07-motion.gif",
+      "alt": "실제 하이라이터 제형 속 펄을 확대한 모습",
+      "kind": "gif",
+      "layout": {
+        "x": 24.078125,
+        "y": 0,
+        "width": 180.921875,
+        "height": 180.921875,
+        "canvas_width": 430,
+        "canvas_height": 181
+      },
+      "bytes": 1150370,
+      "sha256": "c1a8b1b3b8d6b58b9f61a338ff09f8e4cf53605a1e3d12c5751c83d21c664c87"
+    },
+    {
+      "file": "images/08-detail.jpg",
+      "width": 860,
+      "height": 46,
+      "kind": "jpeg",
+      "alt": "하이라이터 상세 이미지",
+      "source_y": [
+        3165,
+        3188
+      ],
+      "bytes": 1001,
+      "sha256": "5c5b29a9166e0b37aa0b89906c6060892eaf9f740f0c8cc7f983f8a5e9da32be"
+    },
+    {
+      "file": "images/09-detail.jpg",
+      "width": 860,
+      "height": 392,
+      "kind": "jpeg",
+      "alt": "메이크업 마지막,\n빛이 필요한 곳에 톡.",
+      "source_y": [
+        3188,
+        3384
+      ],
+      "bytes": 28368,
+      "sha256": "230138e782fbfba2adc142e6d89ed5e569f1ab9292f62793673053073033633c"
+    },
+    {
+      "source": "highlighter-r32/assets/howto-four-looks-261012.mp4",
+      "source_sha256": "8990f498241f6f6ed8d5d541f36dde7bc73b27d54f862f80e8dc423288f6c48f",
+      "width": 688,
+      "height": 766,
+      "frames": 27,
+      "fps_target": 10,
+      "dither": "bayer:bayer_scale=3",
+      "gifsicle_lossy": 20,
+      "duration_seconds": 2.791667,
+      "loop_repeats": 2,
+      "conversion": "256-colour palette and GIF compression; no creative colour/exposure adjustment; original CSS framing",
+      "segments": "full source",
+      "file": "images/10-motion.gif",
+      "alt": "네 사람의 실제 하이라이터 사용과 메이크업 모습",
+      "kind": "gif",
+      "layout": {
+        "x": 24.078125,
+        "y": 0.921875,
+        "width": 381.84375,
+        "height": 477.296875,
+        "canvas_width": 430,
+        "canvas_height": 479
+      },
+      "bytes": 4504458,
+      "sha256": "c00f54125d1733f346a9dc532c784c82b8e995e40de84729e42da26e12603697"
+    },
+    {
+      "file": "images/11-detail.jpg",
+      "width": 860,
+      "height": 576,
+      "kind": "jpeg",
+      "alt": "실제 사용 장면 · 권장 사용법은 아래에. 손끝으로 톡톡, 스펀지로 경계만. 01 손끝으로 바르기 소량을 덜어 광대나 콧대에\n가볍게 두드려 주세요. 02 스펀지로 마무리 경계가 도드라지는 부분만\n살짝 두드려 풀어 주세요. 베이스 메이크업 위에서는 넓게 문지르지 말고, 가볍게 두드려 마무리해 주세요.",
+      "source_y": [
+        3863,
+        4151
+      ],
+      "bytes": 63623,
+      "sha256": "baca30b33a47af5aa51fffadb5fb62d16663f043fae2f42cbb101b90cec34191"
+    },
+    {
+      "file": "images/12-detail.jpg",
+      "width": 860,
+      "height": 1784,
+      "kind": "jpeg",
+      "alt": "식물성 오일과\n시어버터를 담아. 보습 성분을 더한 비건 포뮬러. 식물성 오일 호호바씨오일 · 로즈힙열매오일\n살구씨오일 시어버터 피부 보습을 돕는\n시어버터* 보습 성분 글리세린 · 스쿠알란\n소듐하이알루로네이트 피부 컨디셔닝 성분 알란토인 · 세라마이드엔피\n피토스핑고신 *원료적 특성에 한함.\n위 이미지는 원료를 표현한 연출 이미지입니다.",
+      "source_y": [
+        4151,
+        5043
+      ],
+      "bytes": 117167,
+      "sha256": "9387a026a5a0952024b6bd4b1fbeb9cd71d188af18f739e6b9cb7ddc646aa120"
+    },
+    {
+      "file": "images/13-detail.jpg",
+      "width": 860,
+      "height": 1146,
+      "kind": "jpeg",
+      "alt": "화이트 · 핑크 · 골드,\n내게 어울리는 펄 컬러. 더 젤리 빔 하이라이터 · 3 COLORS · 9 g",
+      "source_y": [
+        5043,
+        5616
+      ],
+      "bytes": 113859,
+      "sha256": "e8fd1fefc171427845a0a710cdf97d98e38b38b6955f51fa0869de55828d6d05"
+    },
+    {
+      "file": "images/14-detail.jpg",
+      "width": 860,
+      "height": 5212,
+      "kind": "jpeg",
+      "alt": "제품정보 · 전성분 · 사용 시 주의사항 제품명 더 젤리 빔 하이라이터 용량 9g 컬러 01 문스톤 · 02 구미 핑크 · 03 테디 골드 피부 타입 모든 피부 주요 성분 호호바씨오일, 로즈힙열매오일, 살구씨오일, 시어버터 사용기한 개봉 전 36개월 / 개봉 후 12개월 책임판매업자 주식회사 에이위즈 제조국 대한민국 기능성 해당 없음 고객상담실 1668-0868 구성 본품 전성분 01 문스톤 합성플루오르플로고파이트, 트라이에틸헥사노인, 폴리메틸실세스퀴옥세인,\n칼슘티타늄보로실리케이트, 다이메티콘, 아이소노닐아이소노나노에이트,\n세틸에틸헥사노에이트, 합성왁스, 알루미나, 하이드로제네이티드폴리(C6-14올레핀),\n카프릴릭/카프릭트라이글리세라이드, 마이크로크리스탈린왁스,\n솔비탄세스퀴아이소스테아레이트, 칸데릴라왁스, 실리카, 페녹시에탄올,\n스테아랄코늄헥토라이트, 토코페릴아세테이트, 글리세릴카프릴레이트, 틴옥사이드,\n프로필렌카보네이트, 칼슘소듐보로실리케이트, 토코페롤, 에틸헥실글리세린, 스쿠알란,\n로즈힙열매오일, 호호바씨오일, 살구씨오일, 글리세린, 시어버터, 카나우바왁스, 알란토인,\n정제수, 세라마이드엔피, 피토스핑고신, 비에이치티, 1,2-헥산다이올, 소듐하이알루로네이트,\n마이카, 티타늄디옥사이드 02 구미 핑크 합성플루오르플로고파이트, 폴리메틸실세스퀴옥세인, 트라이에틸헥사노인, 다이메티콘,\n아이소노닐아이소노나노에이트, 세틸에틸헥사노에이트, 합성왁스,\n하이드로제네이티드폴리(C6-14올레핀), 카프릴릭/카프릭트라이글리세라이드,\n마이크로크리스탈린왁스, 솔비탄세스퀴아이소스테아레이트, 칸데릴라왁스, 실리카,\n페녹시에탄올, 스테아랄코늄헥토라이트, 칼슘소듐보로실리케이트, 토코페릴아세테이트,\n글리세릴카프릴레이트, 프로필렌카보네이트, 틴옥사이드, 토코페롤, 에틸헥실글리세린,\n폴리글리세릴-2트라이아이소스테아레이트, 스쿠알란, 로즈힙열매오일, 호호바씨오일,\n살구씨오일, 글리세린, 카나우바왁스, 시어버터, 알란토인, 정제수, 세라마이드엔피,\n피토스핑고신, 비에이치티, 1,2-헥산다이올, 소듐하이알루로네이트, 마이카, 티타늄디옥사이드,\n적색산화철, 적색104호의(1), 청색1호, 황색4호 03 테디 골드 폴리메틸실세스퀴옥세인, 트라이에틸헥사노인, 다이메티콘, 아이소노닐아이소노나노에이트,\n세틸에틸헥사노에이트, 합성왁스, 합성플루오르플로고파이트, 알루미나,\n하이드로제네이티드폴리(C6-14올레핀), 카프릴릭/카프릭트라이글리세라이드,\n마이크로크리스탈린왁스, 솔비탄세스퀴아이소스테아레이트, 칸데릴라왁스, 실리카,\n페녹시에탄올, 스테아랄코늄헥토라이트, 토코페릴아세테이트, 글리세릴카프릴레이트,\n프로필렌카보네이트, 틴옥사이드, 토코페롤, 에틸헥실글리세린, 스쿠알란, 로즈힙열매오일,\n호호바씨오일, 살구씨오일, 글리세린, 시어버터, 카나우바왁스, 알란토인, 정제수,\n세라마이드엔피, 피토스핑고신, 비에이치티, 1,2-헥산다이올, 소듐하이알루로네이트, 마이카,\n티타늄디옥사이드, 적색산화철 품질보증 기준 본 제품에 이상이 있을 경우, 공정거래위원회 고시\n소비자 분쟁 해결 기준에 따라 보상해 드립니다. 사용 시 주의사항 사용 중 이상이 있는 경우 사용을 중단하고 전문가와 상담해 주세요.\n상처가 있는 부위 등에는 사용을 자제해 주세요.\n어린이의 손이 닿지 않는 곳에 보관하고, 직사광선을 피해 주세요. 고객상담실 1668-0868 (수신자 요금부담)",
+      "source_y": [
+        5616,
+        8223
+      ],
+      "bytes": 678218,
+      "sha256": "186ade0677210561996e19db13454c87e03fbb0ba31539b3dcff9ebac02af6d2"
+    }
+  ],
+  "format_limit_bytes": 4900000,
+  "notes": [
+    "No custom JS, external font or animated WebP in default package",
+    "GIFs play3cycles then stop; original masters retained",
+    "Rasterized text is not selectable; alt text carries section content",
+    "Highlighter external-MP4 alternative requires verified hosting"
+  ]
+}

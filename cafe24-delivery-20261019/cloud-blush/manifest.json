@@ -1,0 +1,138 @@
+{
+  "product": "클라우드 블러",
+  "source": "cloud-blush-v6/index.html",
+  "status": "exported; Cafe24 upload and actual-device check pending",
+  "render": "mobile-first 430 CSS pixels at2x; fixed860px image canvas",
+  "files": [
+    {
+      "file": "images/01-detail.jpg",
+      "width": 860,
+      "height": 1066,
+      "kind": "jpeg",
+      "alt": "더 클라우드 블러 크림 블러셔 크림처럼 사르르,\n파우더처럼 보송하게. 6 COLOURS · 2.8 g",
+      "source_y": [
+        0,
+        533
+      ],
+      "bytes": 167908,
+      "sha256": "690d6c5a6b155820b777a04f937c490bdb8312c5fb2429f82419693d44e4be54"
+    },
+    {
+      "file": "images/02-detail.jpg",
+      "width": 860,
+      "height": 386,
+      "kind": "jpeg",
+      "alt": "CREAM TO POWDER 펴 바를 땐 부드럽게,\n마무리는 보송하게.",
+      "source_y": [
+        533,
+        726
+      ],
+      "bytes": 29013,
+      "sha256": "747c9fea35b0d2c5db982c4a8b773fe67dff11a57d10ca1efc89d7c72e7164d4"
+    },
+    {
+      "source": "cloud-blush-v3/assets/cream-to-powder.mp4",
+      "source_sha256": "30012c790c4e24af1c6ea50cdbe4619eff98524784665e8ed733f4c58a268d3c",
+      "width": 860,
+      "height": 510,
+      "frames": 52,
+      "fps_target": 12,
+      "dither": "sierra2_4a",
+      "gifsicle_lossy": 20,
+      "duration_seconds": 4.4,
+      "loop_repeats": 2,
+      "conversion": "256-colour palette and GIF compression; no creative colour/exposure adjustment; original CSS framing",
+      "segments": [
+        [
+          0.3,
+          1.5
+        ],
+        [
+          3.1,
+          5.1
+        ],
+        [
+          7.6,
+          8.8
+        ]
+      ],
+      "file": "images/03-motion.gif",
+      "alt": "크림 제형을 만지고 펴 바르는 모습과 볼 메이크업 영상",
+      "kind": "gif",
+      "bytes": 3380213,
+      "sha256": "e985c57eb69f7963d390d14cf7fdd7b300b0ae51f954eef9e2a7ba5eb549c0bc"
+    },
+    {
+      "file": "images/04-detail.jpg",
+      "width": 860,
+      "height": 360,
+      "kind": "jpeg",
+      "alt": "HOW TO USE 손끝에 소량 묻혀 얇게 펴 바르고,\n경계를 톡톡 두드려 주세요.",
+      "source_y": [
+        981,
+        1161
+      ],
+      "bytes": 22406,
+      "sha256": "df8228f8bc23617c9029102fc440fac438ebb76e9a9261f5beccf12c96971caa"
+    },
+    {
+      "file": "images/05-detail.jpg",
+      "width": 860,
+      "height": 2758,
+      "kind": "jpeg",
+      "alt": "SIX SHADES OF CLOUD 은은한 피치부터\n선명한 핑크까지. 제형과 볼 위 발색을 함께 확인하세요. 01 백도 쉐이크\n\nWHITE PEACH SHAKE 01 백도 쉐이크 WHITE PEACH SHAKE 부드러운 피치 핑크 복숭아빛을 머금은 핑크로\n은은하고 부드러운 볼. 02 구아바 쉐이크\n\nGUAVA SHAKE 02 구아바 쉐이크 GUAVA SHAKE 차분한 로지 핑크 차분한 장밋빛으로\n자연스럽게 물든 볼. 03 아사이베리 쉐이크\n\nACAI BERRY SHAKE 03 아사이베리 쉐이크 ACAI BERRY SHAKE 화사한 라벤더 핑크 보랏빛이 감도는 핑크로\n맑고 화사한 볼. 04 파파야 쉐이크\n\nPAPAYA SHAKE 04 파파야 쉐이크 PAPAYA SHAKE 따뜻한 코랄 오렌지 오렌지를 더한 코랄로\n따뜻하고 산뜻한 볼. 05 용과 쉐이크\n\nDRAGON FRUIT SHAKE 05 용과 쉐이크 DRAGON FRUIT SHAKE 선명한 핑크 선명한 핑크 한 겹으로\n또렷한 포인트를 준 볼. 06 살구 쉐이크\n\nAPRICOT SHAKE 06 살구 쉐이크 APRICOT SHAKE 차분한 살구 베이지 베이지가 섞인 살구빛으로\n차분하고 포근한 볼. 피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
+      "source_y": [
+        1161,
+        2540
+      ],
+      "bytes": 349266,
+      "sha256": "bc340b36327a51086749c8549fc03ba689bcb1c0ff729b709712187a0b73d84e"
+    },
+    {
+      "file": "images/06-detail.jpg",
+      "width": 860,
+      "height": 1370,
+      "kind": "jpeg",
+      "alt": "VEGAN FORMULA 보송한 치크에 담은\n네 가지 오일. 식물성 오일을 담은 비건 포뮬러. 살구씨오일 APRICOT KERNEL OIL 동백나무씨오일 CAMELLIA SEED OIL 올리브오일 OLIVE FRUIT OIL 서양자두씨오일 PLUM SEED OIL 원료를 표현한 연출 이미지입니다.",
+      "source_y": [
+        2540,
+        3225
+      ],
+      "bytes": 106815,
+      "sha256": "555c1c7fcc10cf556211f8726ccdb97b51a2a44bd86ec928a4660f488524f29f"
+    },
+    {
+      "file": "images/07-detail.jpg",
+      "width": 860,
+      "height": 1810,
+      "kind": "jpeg",
+      "alt": "THE CLOUD BLUR CREAM BLUSH 부드러운 컬러,\n보송한 블러 치크. 더 클라우드 블러 크림 블러셔\n\n6 COLOURS · 2.8 g",
+      "source_y": [
+        3225,
+        4130
+      ],
+      "bytes": 165931,
+      "sha256": "09c39554c653e04a99a0f020bd61f362f4c655e492b85c93465032ba4d484f2c"
+    },
+    {
+      "file": "images/08-detail.jpg",
+      "width": 860,
+      "height": 3746,
+      "kind": "jpeg",
+      "alt": "제품 정보 · 전성분 용량 및 중량 2.8 g I 0.09oz ﻿ 제품 주요 사양 모든 피부 사용 기한 개봉 전 36개월 / 개봉 후 12개월 사용 방법 손가락이나 도구를 이용해 생기가 필요한 부분에 얇게 펴 바르고 가볍게 두드려 밀착시켜줍니다. 화장품책임판매업자 주식회사 에이위즈 제조국 한국 품질보증 기준 본 제품에 이상이 있을 경우, 공정거래 위원회 고시 소비자 분쟁 해결 기준에 따라 보상해 드립니다. ﻿ 탐뷰티 고객상담실 1668-0868( 수신자 요금부담) [ 탐 뷰티 더 클라우드 블러 크림 블러셔01 백도 쉐이크] 아이소노닐아이소노나노에이트, 실리카, 티타늄디옥사이드, 폴리글리세릴-2트라이아이소스테아레이트, 마이카, 네오펜틸글라이콜다이카프릴레이트/다이카프레이트, 합성왁스, 폴리하이드록시스테아릭애씨드, 세레신, 피이지-10다이메티콘, 메티콘, 황색5호, 레시틴, 글리세릴카프릴레이트, 알루미늄하이드록사이드, 아이소스테아릭애씨드, 아이소프로필미리스테이트, 에틸헥실팔미테이트, 에틸헥실글리세린, 폴리글리세릴-3폴리리시놀리에이트, 적색104호의(1), 토코페릴아세테이트, 적색202호, 동백나무씨오일, 살구씨오일, 올리브오일, 서양자두씨오일 [ 탐 뷰티 더 클라우드 블러 크림 블러셔02 구아바 쉐이크] 아이소노닐아이소노나노에이트, 실리카, 티타늄디옥사이드, 폴리글리세릴-2트라이아이소스테아레이트, 마이카, 네오펜틸글라이콜다이카프릴레이트/다이카프레이트, 합성왁스, 폴리하이드록시스테아릭애씨드, 세레신, 피이지-10다이메티콘, 메티콘, 레시틴, 황색5호, 글리세릴카프릴레이트, 알루미늄하이드록사이드, 아이소스테아릭애씨드, 아이소프로필미리스테이트, 에틸헥실팔미테이트, 적색202호, 에틸헥실글리세린, 폴리글리세릴-3폴리리시놀리에이트, 황색4호, 다이아이소스테아릴말레이트, 흑색산화철, 토코페릴아세테이트, 살구씨오일, 동백나무씨오일, 올리브오일, 서양자두씨오일 [ 탐 뷰티 더 클라우드 블러 크림 블러셔03 아사이베리 쉐이크] 아이소노닐아이소노나노에이트, 실리카, 티타늄디옥사이드, 폴리글리세릴-2트라이아이소스테아레이트, 마이카, 네오펜틸글라이콜다이카프릴레이트/다이카프레이트, 합성왁스, 폴리하이드록시스테아릭애씨드, 세레신, 적색104호의(1), 피이지-10다이메티콘, 메티콘, 레시틴, 글리세릴카프릴레이트, 알루미늄하이드록사이드, 아이소스테아릭애씨드, 아이소프로필미리스테이트, 에틸헥실팔미테이트, 에틸헥실글리세린, 폴리글리세릴-3폴리리시놀리에이트, 황색산화철, 청색1호, 토코페릴아세테이트, 동백나무씨오일, 살구씨오일, 올리브오일, 서양자두씨오일 [ 탐 뷰티 더 클라우드 블러 크림 블러셔04 파파야 쉐이크] 아이소노닐아이소노나노에이트, 실리카, 티타늄디옥사이드, 폴리글리세릴-2트라이아이소스테아레이트, 마이카, 네오펜틸글라이콜다이카프릴레이트/다이카프레이트, 합성왁스, 폴리하이드록시스테아릭애씨드, 세레신, 피이지-10다이메티콘, 황색5호, 메티콘, 레시틴, 글리세릴카프릴레이트, 알루미늄하이드록사이드, 아이소스테아릭애씨드, 아이소프로필미리스테이트, 에틸헥실팔미테이트, 적색104호의(1), 에틸헥실글리세린, 폴리글리세릴-3폴리리시놀리에이트, 황색산화철, 적색202호, 토코페릴아세테이트, 동백나무씨오일, 살구씨오일, 올리브오일, 서양자두씨오일 [ 탐 뷰티 더 클라우드 블러 크림 블러셔05 용과 쉐이크] 아이소노닐아이소노나노에이트, 실리카, 티타늄디옥사이드, 폴리글리세릴-2트라이아이소스테아레이트, 마이카, 네오펜틸글라이콜다이카프릴레이트/다이카프레이트, 합성왁스, 폴리하이드록시스테아릭애씨드, 세레신, 피이지-10다이메티콘, 메티콘, 레시틴, 황색5호, 글리세릴카프릴레이트, 알루미늄하이드록사이드, 적색20",
+      "source_y": [
+        4130,
+        6004
+      ],
+      "bytes": 996296,
+      "sha256": "a659697166a337680305036a5dbfa89275a17a326b4f7926a1ed35c789ab61ee"
+    }
+  ],
+  "format_limit_bytes": 4900000,
+  "notes": [
+    "No custom JS, external font or animated WebP in default package",
+    "GIFs play3cycles then stop; original masters retained",
+    "Rasterized text is not selectable; alt text carries section content",
+    "Highlighter external-MP4 alternative requires verified hosting"
+  ]
+}
