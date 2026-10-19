@@ -701,6 +701,13 @@
     "production_cafe24_changed": false,
     "next_action": "Await meaning of removing00; keep existing options until chosen direction/admin mappings verified. Current oils-only delivery is not full series replacement."
   },
+  "lipoil_sales_readiness_20261019": {
+    "status": "current_design_retained_purchase_integration_next",
+    "record": "ops/cafe24/lipoil-sales-readiness-20261019.json",
+    "design_changes_required": false,
+    "production_changed": false,
+    "next_action": "At resumed rollout Codex verifies native price/benefits/shipping and Snap mapping, directly uploads/applies the detail and tests PC/mobile purchase flow. Use verified existing analytics to assess sales after release."
+  },
   "lipoil_connection_audit_20261019": {
     "status": "public_and_package_audit_complete_admin_mapping_pending",
     "record": "ops/cafe24/lipoil-connection-audit-20261019.json",

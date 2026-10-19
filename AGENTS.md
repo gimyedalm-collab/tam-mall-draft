@@ -597,3 +597,14 @@ Back up product settings/detail and Snap mappings as well as skins; a cloned
 skin shares live products. Audit existing00 carts/repurchase/reviews/feeds
 before option removal. Split remains recommendation, not native deletion
 authorization. No design/model/commerce changes in this audit.
+
+## Lip oil current design retained; purchase integration next - 2026-10-19
+
+Owner agreed to proceed after recommendation to retain current design and
+focus on actual price/benefits/shipping/reviews and post-launch funnel evidence.
+Keep original model and current V9 including formula and footnote removal.
+No further speculative model/layout redesign. Execution sequence and acceptance
+criteria: ops/cafe24/lipoil-sales-readiness-20261019.json. Codex directly applies
+and verifies at resumed rollout; upload remains deferred. Inspect existing
+analytics before adding tracking; do not claim conversion improvement without
+data. This does not authorize immediate00 option deletion or policy changes.

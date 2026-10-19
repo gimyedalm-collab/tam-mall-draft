@@ -1,0 +1,41 @@
+{
+  "status": "current_design_retained_purchase_integration_next",
+  "owner_direction": "Proceed with current design and focus on purchase confidence and actual commerce integration.",
+  "design": {
+    "source": "lipoil-v9/index.html",
+    "package": "cafe24-delivery-20261019/lip-oil/",
+    "preserve": "Original model, current layout/palette, large-tip USP, actual three-shade evidence, two-oil ingredient section and usage copy; removed footnote stays removed.",
+    "sales_performance_proven": false
+  },
+  "implementation_order": [
+    {
+      "step": "Resolve product18/25 structure",
+      "action": "Read actual SKU/stock and Snap review grouping, back up product settings and confirm handling of00 before any option change.",
+      "acceptance": "Displayed product, options, ingredients and reviews agree; existing IDs and order history preserved."
+    },
+    {
+      "step": "Connect purchase information",
+      "action": "Use native current price/discount, real coupon eligibility and actual shipping policy near the purchase controls. Reconcile recorded2000/3000 benefit discrepancy against administrator settings; do not invent a benefit or change policy.",
+      "acceptance": "Displayed amounts/conditions agree with native cart and checkout for eligible and ineligible cases."
+    },
+    {
+      "step": "Connect authentic reviews",
+      "action": "Preserve actual Snap product/widget mappings and link purchase-area review count to the correct review section. Resolve mixed gloss/oil review grouping before describing them as oil-only reviews.",
+      "acceptance": "Actual product reviews load on desktop/mobile; no fabricated reviews or static count presented as live."
+    },
+    {
+      "step": "Upload and verify",
+      "action": "Codex uploads final media, replaces planned paths with verified hosted paths as needed, inserts approved detail and reopens saved PC/mobile pages. Preserve native options, cart and installed integrations.",
+      "acceptance": "All seven images load in order, correct native SKU/quantity/price enters cart, review navigation works and existing product links remain usable."
+    },
+    {
+      "step": "Assess sales after release",
+      "action": "Inspect existing analytics first; use available product-detail views, add-to-cart, checkout starts and purchases. Verify existing event definitions/deduplication before relying on funnel ratios. Avoid adding duplicate tracking.",
+      "acceptance": "Report time range, traffic source, counts and sample size. Separate detail-to-cart weakness from cart-to-payment dropoff; do not attribute causality to design from a simple before/after comparison."
+    }
+  ],
+  "execution_owner": "Codex performs upload, insertion, integration and QA. User supplies login/2FA when required.",
+  "rollout": "Previously deferred Cafe24 rollout remains deferred; current instruction approves direction, not immediate option removal or paid test orders.",
+  "production_changed": false,
+  "next_action": "Resume authenticated commerce audit and implementation when the agreed store rollout resumes. No further speculative model/design iterations."
+}
