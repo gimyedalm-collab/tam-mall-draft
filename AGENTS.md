@@ -517,3 +517,13 @@ Candidate detail differs from V9 only in base href and campaign image source.
 visibly in Chrome. V9 baseline, seven exports, registration package, actual
 shades and Cafe24 production remain unchanged pending retouch visual review.
 Prompt and provenance are in model-retouch-20261019/prompts-and-decision.json.
+
+## Lip oil original model final after retouch comparison - 2026-10-19
+
+Owner rejected even the minimal sheen retouch and said the original is most
+natural. FINAL selected image remains lipoil-v9/assets/model-main.webp unchanged.
+Exclude ALL alternative faces/photo-led candidates AND sheen retouch from
+customer delivery. Stop further model retouch unless owner explicitly requests
+it again. This supersedes retouch-review-pending and refinement suggestions.
+Existing V9 exports and Cafe24 registration package already use original;
+no rollback needed, no Cafe24 production changes in this turn.

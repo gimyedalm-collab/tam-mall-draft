@@ -1,5 +1,5 @@
 {
-  "status": "minimal_highlight_retouch_candidate",
+  "status": "owner_rejected_retouch_original_v9_selected_final",
   "baseline": "../assets/model-main.webp",
   "candidate": "model-retouch.png",
   "engine": "built-in image_gen.imagegen",

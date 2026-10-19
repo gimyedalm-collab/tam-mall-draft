@@ -8,7 +8,7 @@
   "production_cafe24_changed": false,
   "accepted_layout_and_shades_unchanged": true,
   "existing_v9_and_registration_package_unchanged": true,
-  "next_action": "Owner explicitly chose original V9 model. Keep assets/model-main.webp and existing exports/registration package. A/B and photo-led candidate are excluded. Owner asks to think further about minimal realism improvements only; no new face regeneration or cosmetic edits were performed in this decision turn. Consider localized highlight/retouch refinements while preserving original face, expression, composition and palette.",
+  "next_action": "FINAL owner selection after comparing minimal retouch: use original V9 assets/model-main.webp unchanged. A/B, photo-led candidate AND sheen retouch are rejected/excluded. Stop model refinement unless owner explicitly reopens it. Existing exports and Cafe24 registration package already use original; preserve them for agreed direct Cafe24 rollout.",
   "engine": "built-in image_gen.imagegen",
   "claude_review_this_revision": false,
   "qa": "Candidate pages match V9 byte-for-byte after removing base href and restoring model src; no overflow or broken images at 320/390/860. Review verified at 390/1440. Visually inspected generated full portraits and rendered comparison."
