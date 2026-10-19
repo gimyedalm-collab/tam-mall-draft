@@ -491,3 +491,15 @@ reference links are adjacent; original competitor files remain local only.
 New candidate is NOT accepted and photorealism is NOT declared solved. Compare
 visibly with original V9; preserve V9 layout/copy/shades/exports/registration kit
 until model selection. No Cafe24 mutation, no Dasha assets, no Claude this round.
+
+## Lip oil original model selected again - 2026-10-19
+
+Owner explicitly said to use the original and only think further about small
+ways to reduce the AI impression. Original lipoil-v9/assets/model-main.webp is
+selected; A/B and the photo-reference candidate are excluded from delivery.
+This supersedes all model-selection-pending notes above. V9 and the Cafe24
+registration package already use the original, so no asset rollback is needed.
+Preserve face/eyes/jaw/expression, layout, palette and actual shade evidence.
+Current turn records selection and offers minimal retouch considerations only;
+no image changes or face generation. Future refinement must stay small and
+must not silently substitute a new face. Cafe24 production remains unchanged.

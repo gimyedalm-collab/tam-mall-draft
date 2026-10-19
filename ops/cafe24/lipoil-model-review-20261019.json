@@ -1,5 +1,5 @@
 {
-  "status": "A_B_rejected_original_face_preferred_new_photo_candidate_pending",
+  "status": "owner_selected_original_v9_model_all_new_candidates_excluded",
   "owner_request": "Make lip oil campaign model look less AI-generated; authorized two proposed face directions",
   "review": "lipoil-v9/model-review-20261019/index.html",
   "recommended_candidate": null,
@@ -8,7 +8,7 @@
   "production_cafe24_changed": false,
   "accepted_layout_and_shades_unchanged": true,
   "existing_v9_and_registration_package_unchanged": true,
-  "next_action": "Owner clarified original V9 was prettiest and A/B were more awkward. A/B rejected. New reference-led candidate is lipoil-v9/model-photo-review-20261019/index.html; pending owner visual review. Preserve accepted layout and official shade evidence. No final model acceptance inferred.",
+  "next_action": "Owner explicitly chose original V9 model. Keep assets/model-main.webp and existing exports/registration package. A/B and photo-led candidate are excluded. Owner asks to think further about minimal realism improvements only; no new face regeneration or cosmetic edits were performed in this decision turn. Consider localized highlight/retouch refinements while preserving original face, expression, composition and palette.",
   "engine": "built-in image_gen.imagegen",
   "claude_review_this_revision": false,
   "qa": "Candidate pages match V9 byte-for-byte after removing base href and restoring model src; no overflow or broken images at 320/390/860. Review verified at 390/1440. Visually inspected generated full portraits and rendered comparison."
