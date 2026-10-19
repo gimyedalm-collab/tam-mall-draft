@@ -30,5 +30,17 @@
   ],
   "claude": "Read-only noninteractive, --no-session-persistence --output-format text",
   "sites_used": false,
-  "production_store_mutated": false
+  "production_store_mutated": false,
+  "copy_revision": {
+    "date": "2026-10-19",
+    "owner_request": "Remove production annotations and review copy",
+    "applied": true,
+    "copy_focus": [
+      "wide tip usage",
+      "moisture and gloss occasion",
+      "two use cases",
+      "ingredient presence only"
+    ],
+    "review_page": "Updated to current copy review; original production records retained in research files"
+  }
 }

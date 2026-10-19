@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-19",
+  "request": "Remove AI production annotations from all customer-facing detail content and review copy",
+  "changes": [
+    {
+      "before": "탐뷰티 기존 화보의 로즈 메이크업과 헤어를 참고한 GPT 모델 캠페인",
+      "after": "탐 립오일을 바르는 모델"
+    },
+    {
+      "before": "넓고 둥근 어플리케이터의 표면을 보여주는 AI 제품 연출",
+      "after": "탐 립오일의 넓고 둥근 어플리케이터"
+    },
+    {
+      "before": "투명한 오일을 펴 바른 질감으로 젤리광을 표현한 캠페인",
+      "after": "맑은 윤기와 오일의 질감"
+    },
+    {
+      "before": "탐 립오일 세 가지 컬러의 AI 캠페인 연출",
+      "after": "탐 립오일 세 가지 컬러"
+    },
+    {
+      "before": "넉넉한 팁으로,<br>촉촉한 젤리광.",
+      "after": "넓게 펴 바르는<br>촉촉한 젤리광."
+    },
+    {
+      "before": "은은한 생기 위에<br> 촉촉함과 윤기를 더해요.",
+      "after": "촉촉함이 필요한 순간,<br> 은은한 컬러와 윤기를 더해요."
+    },
+    {
+      "before": "<small>입술을 감싸듯</small>",
+      "after": "<small>부드럽게 펴 바르는</small>"
+    },
+    {
+      "before": "<strong>시원한 터치</strong><small>쿨한 사용감</small>",
+      "after": "<strong>시원한 쿨링감</strong><small>입술에 닿는 쿨 터치</small>"
+    },
+    {
+      "before": "<strong>촉촉한 젤리광</strong><small>윤기를 더하는 오일</small>",
+      "after": "<strong>촉촉한 오일광</strong><small>은은한 컬러와 윤기</small>"
+    },
+    {
+      "before": "한눈에 보이는<br>넉넉한 팁.",
+      "after": "넓은 면으로,<br>부드럽게."
+    },
+    {
+      "before": "입술 중앙은 넓은 면으로,<br>가장자리는 둥근 끝으로 부드럽게 펴 발라요.",
+      "after": "도톰하고 둥근 팁으로<br>입술 곡면을 따라 오일을 펴 발라요."
+    },
+    {
+      "before": "넓은 면으로 펴 바르고,<br>둥근 끝으로 마무리.",
+      "after": "중앙은 넓게,<br>가장자리는 섬세하게."
+    },
+    {
+      "before": "입술 중앙부터 가장자리까지<br>원하는 양을 부드럽게 펴 발라요.",
+      "after": "넓은 면으로 펴 바른 뒤,<br>둥근 끝으로 입술선을 정돈해요."
+    },
+    {
+      "before": "탐 립오일 실제 팁",
+      "after": "넓고 둥근 어플리케이터"
+    },
+    {
+      "before": "촉촉함이 필요할 때,<br>윤기를 한 겹.",
+      "after": "촉촉한 윤기,<br>시원한 마무리."
+    },
+    {
+      "before": "입술을 감싸는 오일광에<br>시원한 쿨링감을 더했어요.<br>맑은 윤기로 도톰해 보이는 립을 연출해요.",
+      "after": "입술을 감싸는 촉촉한 오일광과<br>시원한 쿨링감을 함께.<br>맑은 윤기로 도톰해 보이는 립을 연출해요."
+    },
+    {
+      "before": "윤기 안에 담은 두 가지 오일",
+      "after": "두 가지 오일을 담았어요"
+    },
+    {
+      "before": "세 가지 립오일 컬러에 공통으로 담았어요.",
+      "after": "세 가지 컬러 모두에 함유되어 있어요."
+    },
+    {
+      "before": "인피니트 로즈의 공식 실제 제형 사진",
+      "after": "인피니트 로즈 제형"
+    },
+    {
+      "before": "02 인피니트 로즈 · 실제 제형",
+      "after": "02 인피니트 로즈"
+    },
+    {
+      "before": "세 가지 색으로<br>골라 담는 생기.",
+      "after": "맑게 더하는<br>세 가지 컬러."
+    },
+    {
+      "before": "은은한 핑크부터 맑은 퍼플까지.<br>오늘의 립에 원하는 생기를 더해요.",
+      "after": "은은한 핑크부터 맑은 퍼플까지.<br>취향에 맞는 컬러로 윤기를 더해요."
+    },
+    {
+      "before": "여린 벚꽃 핑크",
+      "after": "여린 핑크"
+    },
+    {
+      "before": "실제 1회 도포 발색",
+      "after": "1회 도포 발색"
+    },
+    {
+      "before": "제품·발색은 탐뷰티 공식 원본 사진입니다.<br>",
+      "after": ""
+    },
+    {
+      "before": "어떻게 바를까요?",
+      "after": "단독으로도,<br>립 컬러 위에도."
+    },
+    {
+      "before": "촉촉한 생기가<br>필요할 때",
+      "after": "맨 입술에<br>생기를 더할 때"
+    },
+    {
+      "before": "광택을 더해<br>마무리할 때",
+      "after": "립 컬러 위에<br>윤기를 더할 때"
+    },
+    {
+      "before": "바른 립 컬러 위에 소량 덧발라<br>젤리 같은 오일광을 더해요.",
+      "after": "립 컬러 위에 소량 덧발라<br>촉촉한 오일광으로 마무리해요."
+    },
+    {
+      "before": "조금씩, 원하는 만큼.",
+      "after": "양은 조금씩 조절해 주세요."
+    },
+    {
+      "before": "용기 입구에서 양을 가볍게 덜어내고,<br>입술 중앙부터 부드럽게 펴 발라 주세요.",
+      "after": "용기 입구에서 팁에 묻은 양을 덜어낸 뒤,<br>입술 중앙부터 가장자리로 펴 발라 주세요."
+    },
+    {
+      "before": "나의 컬러 다시 보기 ↗",
+      "after": "컬러 다시 보기 ↗"
+    },
+    {
+      "before": "탐 더젤리 플럼핑 립 오일 · V7",
+      "after": "탐 더젤리 플럼핑 립 오일"
+    }
+  ],
+  "preserved": [
+    "official shade/product source images",
+    "INCI and product disclosure",
+    "makeup-effect/cooling/shade variation qualifications"
+  ],
+  "customer_detail_has_generation_annotations": false
+}

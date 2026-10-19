@@ -300,6 +300,13 @@ Keep actual official shade/ingredient evidence and the product-focused page
 structure. `lipoil-v7/review.html` records the references and prompt. V6 remains
 rejected; V7 remains pending owner visual acceptance. No Cafe24 mutation.
 
+Owner then requested removal of all AI/generation annotations and a copy review.
+Keep customer-facing lip oil HTML, image alt text and section exports free of
+production annotations and review-navigation chrome. Use product/use-benefit
+copy; retain ingredient facts, shade-variation and cooling/makeup qualifications.
+Production provenance remains in separate research records. Do not restore
+removed captions when regenerating the page or exports.
+
 ## Cloud product-led scope selected - 2026-10-19
 
 Owner clarified that current shade shots are fine, but Moa is weak, the fruit/oil
