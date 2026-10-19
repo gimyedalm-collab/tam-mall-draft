@@ -1,0 +1,12 @@
+{
+  "status": "minimal_highlight_retouch_candidate",
+  "baseline": "../assets/model-main.webp",
+  "candidate": "model-retouch.png",
+  "engine": "built-in image_gen.imagegen",
+  "prompt": "Use case: lighting-weather / precise localized retouch.\nEdit the supplied TAM lip oil portrait with an extremely restrained photographic retouch. The owner has chosen this exact original face after rejecting alternative faces. Preserve this image, do not reinterpret or regenerate the portrait.\nONLY CHANGE: slightly reduce the broad glossy sheen on the cheek highlight, bridge/tip of the nose, and neck/collarbone. Reduce the intensity gently, roughly one small retouching pass, to make these skin areas a soft satin finish. Preserve their original blush, skin hue, texture and overall brightness. Blend naturally; no flat gray patches, no darkening the whole photograph. Keep beautiful fresh luminous skin, not fully matte skin.\nLOCK EVERYTHING ELSE: exact same face identity, facial geometry, eyes, gaze, eyelids, eyebrows, lashes, nose shape, lips and mouth expression, jaw, pose, head angle, hair and every hair strand, hands/fingers/nails, clothes, pink background, framing, light direction, shadows, packaging/label, bottle shape and contents, clear cap, wand and tip. Especially preserve the original lip gloss shine and lip color exactly. Product and lip highlights must remain intact. Do not alter eyes or lashes in this pass. No skin texture addition, freckles, pores, grain, blur, reshaping, smoothing, color grading or global contrast change. Do not make her older, tired or change makeup.\nMatch original 1122 x 1402 portrait dimensions/aspect ratio as closely as possible. Output one image almost identical to the original, with only slightly more controlled cheek/nose/neck sheen. No text, overlay or watermark.",
+  "owner_request": "Try only minimal original-image highlight retouch; original model selected, alternative faces rejected.",
+  "visual_observation": "Broad cheek/nose/neck sheen reduced; original overall appearance and pose remain close. Generated edit is not asserted pixel-identical outside target regions.",
+  "production_cafe24_changed": false,
+  "accepted_v9_replaced": false,
+  "official_shades_unchanged": true
+}

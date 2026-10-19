@@ -503,3 +503,17 @@ Preserve face/eyes/jaw/expression, layout, palette and actual shade evidence.
 Current turn records selection and offers minimal retouch considerations only;
 no image changes or face generation. Future refinement must stay small and
 must not silently substitute a new face. Cafe24 production remains unchanged.
+
+## Lip oil minimal sheen retouch tried - 2026-10-19
+
+Owner authorized trying the proposed small retouch on the original V9 portrait.
+Built-in imagegen produced one restrained cheek/nose/neck sheen reduction;
+no face reshaping or eye edits were requested. Review and toggled comparison:
+lipoil-v9/model-retouch-20261019/index.html. Original remains the selected face;
+this is a minor retouch candidate, not approval of any rejected new face.
+Generated retouch is not claimed pixel-identical outside the target areas.
+Candidate detail differs from V9 only in base href and campaign image source.
+320/390/860 layout/image checks and comparison toggles passed. Review opened
+visibly in Chrome. V9 baseline, seven exports, registration package, actual
+shades and Cafe24 production remain unchanged pending retouch visual review.
+Prompt and provenance are in model-retouch-20261019/prompts-and-decision.json.
