@@ -700,5 +700,15 @@
     "native_options_changed": false,
     "production_cafe24_changed": false,
     "next_action": "Await meaning of removing00; keep existing options until chosen direction/admin mappings verified. Current oils-only delivery is not full series replacement."
+  },
+  "lipoil_connection_audit_20261019": {
+    "status": "public_and_package_audit_complete_admin_mapping_pending",
+    "record": "ops/cafe24/lipoil-connection-audit-20261019.json",
+    "different_gloss_sku_codes_confirmed": true,
+    "admin_stock_review_mapping_verified": false,
+    "full_product25_replacement_ready": false,
+    "production_changed": false,
+    "execution_owner": "Codex directly uploads/applies/connects and verifies at resumed rollout; owner login/2FA only when needed.",
+    "next_action": "At resumed rollout inspect actual admin SKU/stock/review mapping and backup product settings before final split. Preserve current options until direction and dependencies resolved."
   }
 }

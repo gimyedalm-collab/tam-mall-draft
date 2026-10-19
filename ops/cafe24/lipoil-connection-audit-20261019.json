@@ -1,0 +1,404 @@
+{
+  "checked_at": "2026-10-19T08:30:17.179413+00:00",
+  "scope": "Public read-only option selection and local package checks. No cart/order/admin mutation.",
+  "products": [
+    {
+      "product_no": 18,
+      "width": 390,
+      "http_status": 200,
+      "final_url": "https://tambeauty.kr/product/detail.html?product_no=18",
+      "native_options": [
+        {
+          "value": "P000000S000D",
+          "label": "<b>[립글로스]</b> 00. 히말라야 핑크 Himalaya pink<br> <b>17000원</b> <span>영롱반짝 플럼핑 펄 글로스</span>",
+          "disabled": false
+        }
+      ],
+      "review_hooks": {
+        "script": true,
+        "widgets": [
+          {
+            "id": "sfsnapfit_store_id",
+            "cls": "",
+            "product": null
+          },
+          {
+            "id": "4",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "jsReviewCount snap_review_avg_score noset",
+            "product": null
+          },
+          {
+            "id": "5",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "xans-element- xans-product xans-product-additional review-count jsReviewCount snap_review_avg_score noset ",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "board-count jsReviewCount snap_review_count noset",
+            "product": null
+          },
+          {
+            "id": "1",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "snapreview_hidden",
+            "product": null
+          },
+          {
+            "id": "3",
+            "cls": "snap_widget",
+            "product": null
+          }
+        ]
+      },
+      "selection_checks": [
+        {
+          "value": "P000000S000D",
+          "label": "<b>[립글로스]</b> 00. 히말라야 핑크 Himalaya pink<br> <b>17000원</b> <span>영롱반짝 플럼핑 펄 글로스</span>",
+          "selected_rows": "더 젤리 플럼핑 립 글로스 -\n[립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원",
+          "total": "총 구매 금액\n17,000원 (1개)",
+          "selected_sku_present": true
+        }
+      ]
+    },
+    {
+      "product_no": 25,
+      "width": 390,
+      "http_status": 200,
+      "final_url": "https://tambeauty.kr/product/detail.html?product_no=25",
+      "native_options": [
+        {
+          "value": "P000000Z000O",
+          "label": "<b>[립글로스]</b> 00. 히말라야 핑크 Himalaya pink<br> <b>17000원</b> <span>영롱반짝 플럼핑 펄 글로스</span>",
+          "disabled": false
+        },
+        {
+          "value": "P000000Z000P",
+          "label": "<b>[립오일]</b> 01. 퍼스트 러브 First love<br> <b>17000원</b> <span>다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일</span>",
+          "disabled": false
+        },
+        {
+          "value": "P000000Z000Q",
+          "label": "<b>[립오일]</b> 02. 인피니트 로즈 Infinite rose<br> <b>17000원</b> <span>오묘한 장미꽃잎 컬러 플럼핑 오일</span>",
+          "disabled": false
+        },
+        {
+          "value": "P000000Z000R",
+          "label": "<b>[립오일]</b> 03. 나이트 뷰 Night view<br> <b>17000원</b> <span>청량한 퍼플 컬러 플럼핑 오일</span>",
+          "disabled": false
+        }
+      ],
+      "review_hooks": {
+        "script": true,
+        "widgets": [
+          {
+            "id": "sfsnapfit_store_id",
+            "cls": "",
+            "product": null
+          },
+          {
+            "id": "4",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "jsReviewCount snap_review_avg_score noset",
+            "product": null
+          },
+          {
+            "id": "5",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "xans-element- xans-product xans-product-additional review-count jsReviewCount snap_review_avg_score noset ",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "board-count jsReviewCount snap_review_count noset",
+            "product": null
+          },
+          {
+            "id": "1",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "snapreview_hidden",
+            "product": null
+          },
+          {
+            "id": "3",
+            "cls": "snap_widget",
+            "product": null
+          }
+        ]
+      },
+      "selection_checks": [
+        {
+          "value": "P000000Z000O",
+          "label": "<b>[립글로스]</b> 00. 히말라야 핑크 Himalaya pink<br> <b>17000원</b> <span>영롱반짝 플럼핑 펄 글로스</span>",
+          "selected_rows": "더 젤리 플럼핑 립 시리즈 -\n[립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원",
+          "total": "총 구매 금액\n17,000원 (1개)",
+          "selected_sku_present": true
+        },
+        {
+          "value": "P000000Z000P",
+          "label": "<b>[립오일]</b> 01. 퍼스트 러브 First love<br> <b>17000원</b> <span>다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일</span>",
+          "selected_rows": "더 젤리 플럼핑 립 시리즈 -\n[립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 -\n[립오일] 01. 퍼스트 러브 First love 17000원 다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일\n\n17,000원",
+          "total": "총 구매 금액\n34,000원 (2개)",
+          "selected_sku_present": true
+        },
+        {
+          "value": "P000000Z000Q",
+          "label": "<b>[립오일]</b> 02. 인피니트 로즈 Infinite rose<br> <b>17000원</b> <span>오묘한 장미꽃잎 컬러 플럼핑 오일</span>",
+          "selected_rows": "더 젤리 플럼핑 립 시리즈 -\n[립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 -\n[립오일] 01. 퍼스트 러브 First love 17000원 다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 -\n[립오일] 02. 인피니트 로즈 Infinite rose 17000원 오묘한 장미꽃잎 컬러 플럼핑 오일\n\n17,000원",
+          "total": "총 구매 금액\n51,000원 (3개)",
+          "selected_sku_present": true
+        },
+        {
+          "value": "P000000Z000R",
+          "label": "<b>[립오일]</b> 03. 나이트 뷰 Night view<br> <b>17000원</b> <span>청량한 퍼플 컬러 플럼핑 오일</span>",
+          "selected_rows": "더 젤리 플럼핑 립 시리즈 -\n[립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 -\n[립오일] 01. 퍼스트 러브 First love 17000원 다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 -\n[립오일] 02. 인피니트 로즈 Infinite rose 17000원 오묘한 장미꽃잎 컬러 플럼핑 오일\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 -\n[립오일] 03. 나이트 뷰 Night view 17000원 청량한 퍼플 컬러 플럼핑 오일\n\n17,000원",
+          "total": "총 구매 금액\n68,000원 (4개)",
+          "selected_sku_present": true
+        }
+      ]
+    },
+    {
+      "product_no": 18,
+      "width": 1440,
+      "http_status": 200,
+      "final_url": "https://tambeauty.kr/product/detail.html?product_no=18",
+      "native_options": [
+        {
+          "value": "P000000S000D",
+          "label": "<b>[립글로스]</b> 00. 히말라야 핑크 Himalaya pink<br> <b>17000원</b> <span>영롱반짝 플럼핑 펄 글로스</span>",
+          "disabled": false
+        }
+      ],
+      "review_hooks": {
+        "script": true,
+        "widgets": [
+          {
+            "id": "sfsnapfit_store_id",
+            "cls": "",
+            "product": null
+          },
+          {
+            "id": "4",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "jsReviewCount snap_review_avg_score noset",
+            "product": null
+          },
+          {
+            "id": "5",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "xans-element- xans-product xans-product-additional review-count jsReviewCount snap_review_avg_score noset ",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "board-count jsReviewCount snap_review_count noset",
+            "product": null
+          },
+          {
+            "id": "1",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "snapreview_hidden",
+            "product": null
+          },
+          {
+            "id": "3",
+            "cls": "snap_widget",
+            "product": null
+          }
+        ]
+      },
+      "selection_checks": [
+        {
+          "value": "P000000S000D",
+          "label": "<b>[립글로스]</b> 00. 히말라야 핑크 Himalaya pink<br> <b>17000원</b> <span>영롱반짝 플럼핑 펄 글로스</span>",
+          "selected_rows": "더 젤리 플럼핑 립 글로스 - [립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원",
+          "total": "총 구매 금액\n17,000원 (1개)",
+          "selected_sku_present": true
+        }
+      ]
+    },
+    {
+      "product_no": 25,
+      "width": 1440,
+      "http_status": 200,
+      "final_url": "https://tambeauty.kr/product/detail.html?product_no=25",
+      "native_options": [
+        {
+          "value": "P000000Z000O",
+          "label": "<b>[립글로스]</b> 00. 히말라야 핑크 Himalaya pink<br> <b>17000원</b> <span>영롱반짝 플럼핑 펄 글로스</span>",
+          "disabled": false
+        },
+        {
+          "value": "P000000Z000P",
+          "label": "<b>[립오일]</b> 01. 퍼스트 러브 First love<br> <b>17000원</b> <span>다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일</span>",
+          "disabled": false
+        },
+        {
+          "value": "P000000Z000Q",
+          "label": "<b>[립오일]</b> 02. 인피니트 로즈 Infinite rose<br> <b>17000원</b> <span>오묘한 장미꽃잎 컬러 플럼핑 오일</span>",
+          "disabled": false
+        },
+        {
+          "value": "P000000Z000R",
+          "label": "<b>[립오일]</b> 03. 나이트 뷰 Night view<br> <b>17000원</b> <span>청량한 퍼플 컬러 플럼핑 오일</span>",
+          "disabled": false
+        }
+      ],
+      "review_hooks": {
+        "script": true,
+        "widgets": [
+          {
+            "id": "sfsnapfit_store_id",
+            "cls": "",
+            "product": null
+          },
+          {
+            "id": "4",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "jsReviewCount snap_review_avg_score noset",
+            "product": null
+          },
+          {
+            "id": "5",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "xans-element- xans-product xans-product-additional review-count jsReviewCount snap_review_avg_score noset ",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "board-count jsReviewCount snap_review_count noset",
+            "product": null
+          },
+          {
+            "id": "1",
+            "cls": "snap_widget",
+            "product": null
+          },
+          {
+            "id": "",
+            "cls": "snapreview_hidden",
+            "product": null
+          },
+          {
+            "id": "3",
+            "cls": "snap_widget",
+            "product": null
+          }
+        ]
+      },
+      "selection_checks": [
+        {
+          "value": "P000000Z000O",
+          "label": "<b>[립글로스]</b> 00. 히말라야 핑크 Himalaya pink<br> <b>17000원</b> <span>영롱반짝 플럼핑 펄 글로스</span>",
+          "selected_rows": "더 젤리 플럼핑 립 시리즈 - [립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원",
+          "total": "총 구매 금액\n17,000원 (1개)",
+          "selected_sku_present": true
+        },
+        {
+          "value": "P000000Z000P",
+          "label": "<b>[립오일]</b> 01. 퍼스트 러브 First love<br> <b>17000원</b> <span>다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일</span>",
+          "selected_rows": "더 젤리 플럼핑 립 시리즈 - [립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 - [립오일] 01. 퍼스트 러브 First love 17000원 다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일\n\n17,000원",
+          "total": "총 구매 금액\n34,000원 (2개)",
+          "selected_sku_present": true
+        },
+        {
+          "value": "P000000Z000Q",
+          "label": "<b>[립오일]</b> 02. 인피니트 로즈 Infinite rose<br> <b>17000원</b> <span>오묘한 장미꽃잎 컬러 플럼핑 오일</span>",
+          "selected_rows": "더 젤리 플럼핑 립 시리즈 - [립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 - [립오일] 01. 퍼스트 러브 First love 17000원 다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 - [립오일] 02. 인피니트 로즈 Infinite rose 17000원 오묘한 장미꽃잎 컬러 플럼핑 오일\n\n17,000원",
+          "total": "총 구매 금액\n51,000원 (3개)",
+          "selected_sku_present": true
+        },
+        {
+          "value": "P000000Z000R",
+          "label": "<b>[립오일]</b> 03. 나이트 뷰 Night view<br> <b>17000원</b> <span>청량한 퍼플 컬러 플럼핑 오일</span>",
+          "selected_rows": "더 젤리 플럼핑 립 시리즈 - [립글로스] 00. 히말라야 핑크 Himalaya pink 17000원 영롱반짝 플럼핑 펄 글로스\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 - [립오일] 01. 퍼스트 러브 First love 17000원 다샤's Pick! 여릿한 벚꽃 컬러 플럼핑 오일\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 - [립오일] 02. 인피니트 로즈 Infinite rose 17000원 오묘한 장미꽃잎 컬러 플럼핑 오일\n\n17,000원\n\n더 젤리 플럼핑 립 시리즈 - [립오일] 03. 나이트 뷰 Night view 17000원 청량한 퍼플 컬러 플럼핑 오일\n\n17,000원",
+          "total": "총 구매 금액\n68,000원 (4개)",
+          "selected_sku_present": true
+        }
+      ]
+    }
+  ],
+  "package": {
+    "files": 7,
+    "hashes_match": true,
+    "largest_bytes": 568754,
+    "integration_scope": {
+      "product_no": 25,
+      "component": "lip oils 01-03 only",
+      "safe_to_replace_entire_product_detail": false,
+      "preserve_option": "00 Himalaya Pink lip gloss",
+      "requirements": [
+        "Preserve native product/option/stock/cart/review mappings",
+        "Keep 00 gloss description and its own ingredient/product information",
+        "Do not describe all four options as lip oils or apply oil ingredient copy to gloss",
+        "Compose the series guide and gloss/oil sections before full product25 replacement"
+      ]
+    },
+    "zip_valid": true,
+    "zip_images_match": true
+  },
+  "status": "public_and_package_audit_complete_admin_mapping_pending",
+  "admin_access": "Existing MCP browser returned profile-in-use. No authenticated admin inspection performed; do not terminate user session.",
+  "finding": "00 gloss has different public SKU codes in product18 (P000000S000D) and product25 (P000000Z000O). This does not establish independent or shared inventory.",
+  "preview_integration": "storefront-v2/preview/product-25.html still references four legacy plum panels and four choices. New V9 package is not wired into full storefront.",
+  "hosting": "detail.cafe24.html targets /web/upload/tam-detail-20261019/lip-oil/. Paths are planned, not verified uploaded URLs. Agent must upload, verify URLs, save and reopen PC/mobile detail.",
+  "decision": "Split18gloss/25oil remains recommendation; user requested future-risk audit and confirmed agent execution responsibility, not immediate native option deletion.",
+  "deployment_owner": "Codex directly performs upload, insertion, native commerce/review mapping and PC/mobile QA during resumed rollout. Owner supplies login/2FA if needed.",
+  "pre_rollout_requirements": [
+    "Back up active PC/mobile skins AND product18/25 detail HTML/options/SKU/stock/visibility/settings and Snap mapping locally; cloning a skin does not isolate product settings.",
+    "Verify whether both00 SKUs share ERP/stock and any external shopping feed links. Preserve existing product IDs and oils01-03 SKU codes.",
+    "Check Snap grouping and whether product25 reviews include gloss; do not delete or relabel historical reviews/orders.",
+    "Inspect existing cart/wishlist/repurchase behavior for product25 00 before removing or disabling an option; handle historical links with a clear route to18.",
+    "Match final product name, option labels, gallery, ingredients, category/search/recommendation links and advertising/feed targets to approved structure.",
+    "Upload seven files, verify actual image URLs and saved detail while preserving native review/widget markup.",
+    "Verify option quantities, price/stock, cart and checkout entry, coupon/shipping preservation on PC/mobile; no paid order without test terms.",
+    "Keep rollback content/settings and verify original links after release."
+  ],
+  "production_changed": false,
+  "customer_data_included": false
+}

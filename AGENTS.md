@@ -581,3 +581,19 @@ order checked; Cafe24 editor save/physical-device checks remain deferred.
 Review: cafe24-delivery-20261019/cloud-rebalance-review/index.html.
 Nonpersistent Claude preproduction and rendered review completed; owner visual
 acceptance pending. This supersedes the earlier eight-image packaging record.
+
+
+## Lip oil future integration audit - 2026-10-19
+
+Owner requested checking future connection risks and reconfirmed direct agent
+implementation. Public18/25 and local upload package audited; see
+ops/cafe24/lipoil-connection-audit-20261019.json. Same00 gloss uses different
+public SKU codes (18:P000000S000D,25:P000000Z000O); stock/review equivalence
+is NOT established. Admin browser profile was occupied; no admin verification.
+Seven images and ZIP hashes pass. Full storefront still uses legacy detail;
+Cafe24 paths are planned upload destinations, not deployed files. Agent owns
+actual upload/insertion/native mapping/PC-mobile QA when rollout resumes.
+Back up product settings/detail and Snap mappings as well as skins; a cloned
+skin shares live products. Audit existing00 carts/repurchase/reviews/feeds
+before option removal. Split remains recommendation, not native deletion
+authorization. No design/model/commerce changes in this audit.
