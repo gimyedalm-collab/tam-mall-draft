@@ -674,6 +674,15 @@
       "claude": "nonpersistent read-only preproduction and rendered follow-up",
       "cafe24_upload": "explicitly deferred by owner",
       "cafe24_editor_and_actual_device_verified": false
+    },
+    "cloud_swatch_layout": {
+      "status": "selected_implemented_and_browser_checked; owner_visual_acceptance_pending",
+      "review": "cafe24-delivery-20261019/cloud-swatch-review/index.html",
+      "selection": "2x3 original wrists before cheek/texture cards; horizontal strips rejected after actual raster comparison",
+      "claude": "nonpersistent read-only comparative visual review, exit0; advisory not consumer test",
+      "evidence_limit": "Competitors support overview plus detail, not exact layout or order; original photographs not controlled same-condition swatches",
+      "cafe24_upload": "deferred_by_owner",
+      "actual_device_verified": false
     }
   },
   "lipoil_formula_series_20261019": {

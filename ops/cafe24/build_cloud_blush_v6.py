@@ -46,9 +46,9 @@ body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 
  <div class="application-guide" id="howto"><p class="application-label">HOW TO USE</p><p class="application-copy">손끝에 소량 묻혀 얇게 펴 바르고,<br>경계를 톡톡 두드려 주세요.</p></div>
 </section>
 <section class="section colours" id="colours">
- <header class="heading"><p class="eyebrow">SIX SHADES OF CLOUD</p><h2>은은한 피치부터<br>선명한 핑크까지.</h2><p class="body">볼 위의 컬러와 손목 발색을 비교해 보세요.</p></header>
- <div class="shade-grid">{cards}</div>
+ <header class="heading"><p class="eyebrow">SIX SHADES OF CLOUD</p><h2>은은한 피치부터<br>선명한 핑크까지.</h2></header>
  <div class="arm-comparison"><h3>손목 발색 비교</h3><div class="arm-grid">{arms}</div></div>
+ <div class="cheek-comparison"><h3>볼 위의 발색</h3><div class="shade-grid">{cards}</div></div>
  <p class="note">피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.</p>
 </section>
 <section class="formula" id="formula">

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-19",
+  "status": "selected_and_implemented; owner_visual_acceptance_pending",
+  "selected": "A: six square-framed wrist photographs in two columns and three rows, before cheek/texture details",
+  "why": [
+    "Original soft shade boundaries and skin context remain visible",
+    "Same two-column geometry, gutters, palette and original cheek crop as TAM family",
+    "Overview appears immediately below the six-shade heading; individual cheek/texture detail follows",
+    "Wrist labels enlarged to 12.06 effective CSS px at320"
+  ],
+  "rejected": "B: six horizontal strips; shorter but crops the diffuse swatch boundaries and skin context",
+  "competitor_evidence": [
+    {
+      "brand": "Freshian",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000212749",
+      "observed": "Saved 2026-10-16 detail: separate individual cheek/texture content and three-column texture overview near bottom",
+      "source_record": "cloud-blush-v4/review/evidence.json"
+    },
+    {
+      "brand": "NAMING",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171371",
+      "observed": "Saved 2026-10-16 detail: shade/tone-grouped cheek and texture rows plus overview",
+      "source_record": "cloud-blush-v4/review/evidence.json"
+    }
+  ],
+  "inference_not_competitor_fact": "Overview/detail roles are supported by references. Exact two-column wrist geometry and overview-first order are our source-specific design decision, not a copied or sales-validated standard.",
+  "comparison": {
+    "baseline": {
+      "wrist_block_height_at390": 684.1,
+      "colour_section_height_at390": 1837.0,
+      "photo_height_visible_fraction": 0.8001
+    },
+    "a": {
+      "wrist_block_height_at390": 658.9,
+      "colour_section_height_at390": 1834.1,
+      "photo_height_visible_fraction": 0.8001
+    },
+    "b": {
+      "wrist_block_height_at390": 547.9,
+      "colour_section_height_at390": 1723.1,
+      "photo_height_visible_fraction": 0.2909
+    }
+  },
+  "metrics_limit": "Visible fraction refers to original PHOTO height, not pigment quantity, shade strength or product performance. Shorter overall mobile page is not claimed.",
+  "claude": {
+    "mode": "read-only, claude -p --no-session-persistence --output-format text",
+    "process_exit": 0,
+    "recommendation": "A and overview-first; no must-fix at320/390",
+    "raw_review": "**결론: A(정사각 2×3)를 추천하고, 손목 비교를 볼 카드 앞으로 옮기는 것도 권장합니다. 320/390에서 반드시 고쳐야 할 항목은 없습니다.**\r\n\r\n| | A | B |\r\n|---|---|---|\r\n| 원본 사진 높이 노출 | 80% | 29% |\r\n| 손목 블록 높이, 430 기준 | 726px | 604px |\r\n| 라벨 크기, 320 환산 | 12.1px | 12.1px |\r\n\r\n**1) A 추천 이유와 단점**\r\n\r\n- **A는 증거가 살아 있음.** 손목 피부, 둥근 발색 덩어리, 가장자리가 번져 사라지는 경계가 다 보입니다. 이 경계가 곧 블러 마무리의 증거라서 직전 크림→파우더 영상과 이어집니다.\r\n- **B는 사진이 아니라 색 띠로 읽힘.** 높이 29%만 남기니 덩어리 위아래가 잘려 손목이라는 맥락이 사라집니다. 01·02·06은 거의 균일한 색 밴드로 보여 실제보다 커버력이 높아 보이고, 보정이나 생성 스와치로 오해받을 여지가 생깁니다. 보정을 안 했어도 보는 사람은 구별할 수 없습니다. 프레시안 톤 섹션의 제형 스트립과 형식이 겹쳐 피부 증거가 아니라 제형 칩처럼 보이는 점도 같은 문제입니다.\r\n- **B의 장점은 작음.** 한 열 세로 비교와 라벨 나란히 배치, 높이 약 122px 절감이 전부입니다. A도 390에서 여섯 장이 한 화면에 거의 들어오므로 비교 편의 차이는 크지 않습니다.\r\n- **A의 단점.** 두 열이라 01과 06 같은 대각선 비교는 시선이 두 번 움직입니다. 사진이 많이 보이는 만큼 원본 차이도 드러납니다. 01·05 왼쪽 아래 팔 가장자리, 02 왼쪽 위 밝은 부분, 04 손목이 더 어둡고 붉은 점이 눈에 띕니다. 보정 금지라 받아들여야 하는 부분입니다.\r\n\r\n**2) 순서: 손목 비교를 먼저**\r\n\r\n- 헤드라인 \"은은한 피치부터 선명한 핑크까지\"는 범위 주장입니다. 그 범위를 한눈에 증명하는 블록은 손목 그리드뿐입니다. 볼 카드는 여섯 장을 다 보려면 약 1,200px을 내려야 하고, 볼 사진에서는 01·02·06 차이가 미세합니다. 주장 바로 아래 증거, 그다음 상세가 자연스러운 위계입니다.\r\n- 직전 영상이 한 색의 변환이라면 손목 그리드는 변환이 끝난 여섯 색의 결과, 볼 카드는 적용 장면입니다. 영상 → 결과 → 적용 순서가 이어집니다.\r\n- 기존 안의 \"볼 위의 컬러와 손목 발색을 비교해 보세요\"는 손목이 1,200px 아래라 문구가 약속한 비교가 실제로 안 됐습니다. A안은 문구를 빼고 구조로 해결했습니다.\r\n- 경쟁사 두 곳은 상세 → 개요 순이 맞습니다. 다만 둘은 12~20색을 톤별로 묶어 상세 자체가 개요 역할을 합니다. 우리는 6색이고 톤 묶음이 없어 범위를 보여주는 건 손목 그리드뿐입니다. 따라 하거나 거스르는 게 아니라 조건이 다릅니다.\r\n- **옮길 때의 비용.** 섹션 첫 줄이 가장 옅은 01·02라 얼굴로 시작하던 기존보다 첫인상이 약합니다. 390에서는 첫 화면에 두 줄이 들어와 03·04까지 보이므로 감수할 만합니다. 또 면책 한 줄이 섹션 끝에 남아 손목 그리드와 약 1,800px 떨어집니다. 손목 사진은 별개 촬영이라 이 문구가 가장 필요한 곳은 그리드 바로 아래입니다. 중복 없이 그 한 줄만 옮기는 것을 권장합니다. 필수는 아닙니다.\r\n\r\n**3) 320/390 필수 수정**\r\n\r\n없음. 참고 두 가지만 남깁니다.\r\n- A 라벨은 320 환산 12.06px로 목표 하한에 딱 걸립니다. 2x 기기에서는 문제없고 1x 화면은 확인하지 못했습니다.\r\n- B를 쓸 경우 \"03 아사이베리 쉐이크\" 라벨이 320에서 오른쪽 여백 약 20px로 빡빡합니다. 래스터 이미지라 줄바꿈 위험은 없습니다.\r\n\r\n**4) 증거 한계**\r\n\r\n- 스크린샷 육안 검토입니다. 소비자 테스트나 전환 데이터는 없습니다.\r\n- 80%·29%는 사진 높이 비율이며 안료나 발색 정도의 측정치가 아닙니다.\r\n- 손목 사진 6장은 별개 촬영입니다. 피부톤·노출·손목 각도가 다르므로 동일 조건 비교로 말하면 안 됩니다.\r\n- 경쟁사 캡처로는 구조만 확인했고 성과 근거는 없습니다.\r\n- 320/390은 430@2x를 축소한 결과입니다. 실제 카페24 기기 렌더링과 JPEG 압축은 미검증입니다.\r\n- 직전 영상 섹션과 페이지 전체 흐름은 보지 못했습니다. 이 섹션만 본 판단입니다.\r\n",
+    "codex_corrections": [
+      "Do not adopt the reviewer phrases that call the wrist edge proof of blur efficacy or a completed cream-to-powder transition. Separate source photos are not a controlled transformation test.",
+      "Reviewer did not inspect the previous film or full page; Codex separately inspected the final full-page capture.",
+      "Review screenshots did include JPEG export compression; actual Cafe24 editor and physical-device rendering remain untested."
+    ],
+    "optional_not_adopted": "Retain the existing single environmental colour notice at the end of the full colour section so it covers wrist and cheek sources; no duplicate new disclaimer."
+  },
+  "constraints": [
+    "Original wrist/cheek/texture files and colours unchanged",
+    "Each photograph used once",
+    "No model interlude or AI swatches",
+    "No live Cafe24 upload",
+    "Hero/application/GIF byte-identical; full native information byte-identical",
+    "Formula and ending source unchanged; regenerated raster boundaries may differ"
+  ],
+  "qa": "qa.json",
+  "sales_or_consumer_test": false,
+  "owner_acceptance": false
+}

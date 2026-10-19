@@ -92,12 +92,14 @@
 #cloud-blush .application-label{font:500 clamp(10px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.13em;color:var(--accent);margin-bottom:12px}
 #cloud-blush .application-copy{font-size:clamp(15px,2.9cqw,25px);line-height:1.75}
 
-/* Distinct original wrist evidence; established cheek-card framing retained. */
-#cloud-blush .arm-comparison{margin-top:60px;padding-top:40px;border-top:1px solid #e7e0e7}
-#cloud-blush .arm-comparison>h3{margin-bottom:26px}
-#cloud-blush .arm-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 24px;text-align:left}
+/* Compare all six original wrists before the established cheek/texture cards. */
+#cloud-blush .arm-comparison{margin-top:0;padding-top:0}
+#cloud-blush .arm-comparison>h3{margin-bottom:22px;font-size:clamp(17px,3.25cqw,28px)}
+#cloud-blush .arm-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;text-align:left}
 #cloud-blush .arm-shade img{aspect-ratio:1;object-fit:cover;object-position:center;border-radius:16px}
-#cloud-blush .arm-shade figcaption{font-size:clamp(13px,2.7cqw,23px);line-height:1.5;margin-top:10px;letter-spacing:-.04em}
+#cloud-blush .arm-shade figcaption{font-size:clamp(16.2px,2.7cqw,23px);font-weight:500;line-height:1.5;margin-top:8px;letter-spacing:-.04em}
+#cloud-blush .cheek-comparison{margin-top:52px;padding-top:36px;border-top:1px solid #e7e0e7}
+#cloud-blush .cheek-comparison>h3{margin-bottom:30px;font-size:clamp(17px,3.25cqw,28px)}
 #cloud-blush .product-info{padding:22px 4%;font-size:13px;line-height:1.5;color:#49434b}
 #cloud-blush .product-info summary{font-size:15px;padding:8px 0;color:var(--ink)}
 #cloud-blush .product-info>div{padding-top:12px}
@@ -110,8 +112,9 @@
 #cloud-blush .product-info .inci-shade h3{font-size:14px;line-height:1.5;margin:0 0 4px;font-weight:600}
 #cloud-blush .product-info .inci-shade p{margin:0;font-size:13px;line-height:1.5}
 @container(max-width:600px){
- #cloud-blush .arm-comparison{margin-top:38px;padding-top:28px}
- #cloud-blush .arm-comparison>h3{margin-bottom:20px}
- #cloud-blush .arm-grid{gap:22px 14px}
+ #cloud-blush .arm-comparison>h3{margin-bottom:18px}
+ #cloud-blush .arm-grid{gap:18px 14px}
  #cloud-blush .arm-shade img{border-radius:10px}
+ #cloud-blush .cheek-comparison{margin-top:36px;padding-top:26px}
+ #cloud-blush .cheek-comparison>h3{margin-bottom:24px}
 }

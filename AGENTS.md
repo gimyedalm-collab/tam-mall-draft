@@ -581,3 +581,22 @@ order checked; Cafe24 editor save/physical-device checks remain deferred.
 Review: cafe24-delivery-20261019/cloud-rebalance-review/index.html.
 Nonpersistent Claude preproduction and rendered review completed; owner visual
 acceptance pending. This supersedes the earlier eight-image packaging record.
+
+
+## Cloud wrist layout compared and selected - 2026-10-19
+
+Owner authorized internal layout comparison and independent review before
+presentation. Actual Cafe24-style raster comparison selects2x3 square-framed
+original wrists; six horizontal strips are rejected because they show only
+29% of source photo height versus80% and lose soft swatch boundaries. These
+are photo crop metrics, NOT pigment/performance measurements. Wrist overview
+now precedes the unchanged cheek/texture cards. New wrist labels render at
+12.06px at320; remove the redundant comparison instruction, add the concise
+cheek subheading. Keep original source colours, images once each, full native
+information and hero/film. No model interlude or AI swatch.
+Competitor evidence supports overview and individual detail roles but DOES NOT
+prove this exact layout/order or conversion benefit. Nonpersistent Claude
+visual comparison recommendedA; do not adopt its stronger blur/transition
+evidence interpretations. Local320/390/860 package and ZIP checks passed;
+owner visual acceptance pending. Review: cafe24-delivery-20261019/
+cloud-swatch-review/index.html. Cafe24 upload remains explicitly deferred.
