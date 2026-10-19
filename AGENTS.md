@@ -427,3 +427,14 @@ No creative colour grade. Rendered comparison is pending owner acceptance.
 Do not report actual Cafe24 deployment done: only local/upload-format and
 GitHub preview checks are complete. Direct Cafe24 application by the agent
 remains part of the agreed store rollout, not a manual task handed to owner.
+
+
+## Lip oil V9 accepted - 2026-10-19
+
+Owner accepted the rendered hybrid with "그래 그렇게 가 그럼 나쁘지 않은 것 같아".
+This supersedes V9 visual-review-pending notes above. Preserve source 20589e1:
+existing upper campaign/tip/formula, larger three-row shade comparison, and
+revised usage/ending. Reopen design only on owner request. Cafe24 production
+has not been changed; Codex remains responsible for direct uploads/application
+and PC/mobile verification during the agreed whole-store rollout, preserving
+product25 gloss content/options. Dasha media and derivatives remain prohibited.

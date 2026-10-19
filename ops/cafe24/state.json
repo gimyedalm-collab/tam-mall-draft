@@ -616,10 +616,12 @@
     "media_rule": "No Dasha photos/videos or derivatives"
   },
   "lipoil_v9_hybrid_20261019": {
-    "status": "implemented_verified_pending_owner_visual_review",
+    "status": "owner_accepted_design_ready_for_staged_cafe24_rollout",
     "record": "lipoil-v9-hybrid-20261019.json",
     "production_cafe24_changed": false,
-    "next_action": "Owner visual review, then preserve chosen revision for agreed whole-store Cafe24 rollout. Codex directly uploads/applies/verifies, preserving product25 gloss and options."
+    "next_action": "Preserve owner-accepted V9. During agreed whole-store Cafe24 rollout, Codex directly uploads/applies and verifies PC/mobile, preserving product25 gloss content and options. Reopen design only on owner request.",
+    "owner_visual_acceptance": "accepted_current_version_20261019",
+    "accepted_source_commit": "20589e15a3ab154491c4b5a837eee05be365084f"
   },
   "cafe24_registration_standard_20261019": {
     "status": "registration_packages_exported_and_browser_checked; real_store_apply_pending",

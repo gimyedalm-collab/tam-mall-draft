@@ -14,7 +14,7 @@
   },
   "media_unchanged": true,
   "cafe24_production_applied": false,
-  "owner_visual_acceptance": "pending",
+  "owner_visual_acceptance": "accepted_current_version_20261019",
   "public_url": "https://gimyedalm-collab.github.io/tam-mall-draft/lipoil-v9/",
   "review_url": "https://gimyedalm-collab.github.io/tam-mall-draft/lipoil-v9/review.html",
   "qa_widths": [
@@ -24,8 +24,10 @@
     860,
     1440
   ],
-  "next_action": "Owner visual review, then preserve chosen revision for agreed whole-store Cafe24 rollout. Codex directly uploads/applies/verifies, preserving product25 gloss and options.",
+  "next_action": "Preserve owner-accepted V9. During agreed whole-store Cafe24 rollout, Codex directly uploads/applies and verifies PC/mobile, preserving product25 gloss content and options. Reopen design only on owner request.",
   "upper_mobile_pixel_equal": {
     "01-campaign-mobile.png": true
-  }
+  },
+  "owner_acceptance_statement": "그래 그렇게 가 그럼 나쁘지 않은 것 같아",
+  "accepted_source_commit": "20589e15a3ab154491c4b5a837eee05be365084f"
 }
