@@ -467,3 +467,13 @@ Do not deploy the old face as newly accepted or silently replace it with B.
 Next: owner visual comparison, then chosen model export/package replacement.
 Prompts and provenance are separate from customer detail HTML. See
 ops/cafe24/lipoil-model-review-20261019.json. Review opened visibly in Chrome.
+
+
+## Cafe24 upload deferred by owner - 2026-10-19
+
+Owner explicitly clarified that actual Cafe24 upload is not needed now.
+Finish delivery preparation and preview verification only; do not interpret
+continuing Cloud detail work as immediate live upload or request login for it.
+Keep actual upload/administrator save/physical-device verification for the
+agreed rollout when resumed. Cloud browser scroll QA is recorded in
+cafe24-delivery-20261019/cloud-scroll-qa.json; all eight media are unchanged.

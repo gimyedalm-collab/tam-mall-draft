@@ -1,0 +1,38 @@
+{
+  "scope": "Chromium desktop engine at mobile viewport; not physical device or live Cafe24",
+  "scenarios": [
+    {
+      "delay_seconds": 0,
+      "sample_hashes": [
+        "c27806fad00873b61ebda29a66ce3683613da970ef168e43fef62243a1c2e487",
+        "329c4a9eb2f2a16ef26ca4dca5a6a6e51516a2993c7f5ab84c896f9a8fda08b8",
+        "dc7bd18f7dd0cace7f891fae7b17420f66acab8a01206e83a11fe895b047c007",
+        "208f12e225e2f69a687cfcf05a81054b5e69eaf031076ba5f9a7d38762cd9d5e",
+        "d4ffe4c99eba98d60aedfef964c8f5dba4cac2bc720d6bc4c03f9a898dd19729"
+      ],
+      "distinct_frames": 5
+    },
+    {
+      "delay_seconds": 20,
+      "sample_hashes": [
+        "c27806fad00873b61ebda29a66ce3683613da970ef168e43fef62243a1c2e487",
+        "329c4a9eb2f2a16ef26ca4dca5a6a6e51516a2993c7f5ab84c896f9a8fda08b8",
+        "dc7bd18f7dd0cace7f891fae7b17420f66acab8a01206e83a11fe895b047c007",
+        "208f12e225e2f69a687cfcf05a81054b5e69eaf031076ba5f9a7d38762cd9d5e",
+        "d4ffe4c99eba98d60aedfef964c8f5dba4cac2bc720d6bc4c03f9a898dd19729"
+      ],
+      "distinct_frames": 5
+    },
+    {
+      "scenario": "visible for 16 seconds, scroll away and return",
+      "stopped_distinct_frames": 1,
+      "returned_distinct_frames": 1,
+      "same_final_frame": true
+    }
+  ],
+  "owner_scope": "Preparation and verification only; owner explicitly deferred actual Cafe24 upload on 2026-10-19.",
+  "all_eight_media_unchanged": true,
+  "cafe24_mutations": false,
+  "physical_device_verified": false,
+  "interpretation": "Offscreen early completion did not reproduce in tested Chromium viewport. Three-cycle playback stops as configured and does not restart on return. Real device behavior remains unverified."
+}

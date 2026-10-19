@@ -650,6 +650,14 @@
       "report": "cafe24-delivery-20261019/claude-cloud-review.html",
       "live_cafe24_and_actual_device_verification": false,
       "remaining": "Verify GIF lazy loading / finite loops at actual scroll pace, Cafe24 editor/path/mobile save."
+    },
+    "cloud_preflight_20261019": {
+      "status": "prepared_and_browser_checked; owner_deferred_live_upload",
+      "owner_instruction": "지금 당장 카페24에 업로드할 필요는 없어",
+      "report": "cafe24-delivery-20261019/cloud-scroll-qa.json",
+      "cafe24_changed": false,
+      "actual_device_verified": false,
+      "next_action": "Keep current deliverable. Apply in Cafe24 only when owner resumes agreed rollout; no login request needed now."
     }
   }
 }
