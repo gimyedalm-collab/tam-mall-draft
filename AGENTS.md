@@ -453,3 +453,17 @@ Other7media hashes are unchanged. Shared registration_export_utils.py keeps the
 exporter and targeted refresh consistent. Cafe24 live upload and actual-device
 GIF lazy-load/finite-loop checks remain pending; no owner acceptance or sales
 effect is inferred from model review. Open the review report visibly.
+
+## Lip oil model revision reopened - 2026-10-19
+
+Owner says V9 face still looks too AI-generated and authorized two natural-face
+candidates after discussion. Only the campaign model is reopened; accepted V9
+layout/copy and actual shade evidence remain. GPT image edits A/B are in
+lipoil-v9/model-review-20261019/index.html with full detail previews. A keeps
+current likeness, B uses calmer elongated eyes and revised contours. B is the
+agent recommendation, NOT owner visual acceptance. No Dasha references used.
+Existing V9 assets/exports/registration package and Cafe24 production unchanged.
+Do not deploy the old face as newly accepted or silently replace it with B.
+Next: owner visual comparison, then chosen model export/package replacement.
+Prompts and provenance are separate from customer detail HTML. See
+ops/cafe24/lipoil-model-review-20261019.json. Review opened visibly in Chrome.

@@ -1,0 +1,15 @@
+{
+  "status": "two_model_candidates_pending_owner_visual_review",
+  "owner_request": "Make lip oil campaign model look less AI-generated; authorized two proposed face directions",
+  "review": "lipoil-v9/model-review-20261019/index.html",
+  "recommended_candidate": "B",
+  "recommendation_is_owner_acceptance": false,
+  "candidate_details": ["detail-a.html", "detail-b.html"],
+  "production_cafe24_changed": false,
+  "accepted_layout_and_shades_unchanged": true,
+  "existing_v9_and_registration_package_unchanged": true,
+  "next_action": "Owner reopened only the model face. Compare two candidates before replacing accepted V9 campaign and rebuilding its export/package. Do not deploy the old model as newly reapproved. Preserve other sections and official shade evidence.",
+  "engine": "built-in image_gen.imagegen",
+  "claude_review_this_revision": false,
+  "qa": "Candidate pages match V9 byte-for-byte after removing base href and restoring model src; no overflow or broken images at 320/390/860. Review verified at 390/1440. Visually inspected generated full portraits and rendered comparison."
+}
