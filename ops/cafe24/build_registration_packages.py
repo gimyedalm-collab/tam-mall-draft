@@ -75,7 +75,8 @@ def finish(key,name,items,source,information=None):
         file=dest/it['file'];it.update(bytes=file.stat().st_size,sha256=sha(file))
         assert file.stat().st_size<LIMIT
         alt=html.escape(it.get('alt',name+' 상세 '+str(len(tags)+1)),quote=True)
-        tags.append(f'<img src="{it["file"]}" width="{it["width"]}" height="{it["height"]}" alt="{alt}" style="display:block;width:100%;height:auto;border:0;margin:0;"'+(' loading="lazy"' if tags else '')+'>')
+        url=it['file']+('?v='+it['sha256'][:10] if key=='cloud-blush' else '')
+        tags.append(f'<img src="{url}" width="{it["width"]}" height="{it["height"]}" alt="{alt}" style="display:block;width:100%;height:auto;border:0;margin:0;"'+(' loading="lazy"' if tags else '')+'>')
     fragment='<div style="max-width:860px;width:100%;margin:0 auto;line-height:0;font-size:0;">\n'+'\n'.join(tags)+'\n'+(information or '')+'\n</div>'
     (dest/'detail.local.html').write_text(fragment,encoding='utf-8')
     (dest/'detail.cafe24.html').write_text(fragment.replace('src="images/','src="/web/upload/tam-detail-20261019/'+key+'/'),encoding='utf-8')

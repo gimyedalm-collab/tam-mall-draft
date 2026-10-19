@@ -33,7 +33,7 @@ with sync_playwright() as pw:
         height=info.bounding_box()['height'];total=p.locator('body>div').bounding_box()['height']
         if width in (390,860):
             info.screenshot(path=str(REVIEW/f'after-info-{width}.png'))
-            p.locator('img[src$="05-detail.jpg"]').screenshot(path=str(REVIEW/f'after-colours-{width}.png'))
+            p.locator('img[src*="/05-detail.jpg"]').screenshot(path=str(REVIEW/f'after-colours-{width}.png'))
         results.append({'width':width,'information_height':round(height,1),'page_height':round(total,1),'information_share_percent':round(height/total*100,1),'information_font_px':12,'no_horizontal_overflow':True,'all_images_loaded':True,'javascript_disabled':True})
         p.close()
     p=browser.new_page(viewport={'width':390,'height':900})

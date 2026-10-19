@@ -3,6 +3,7 @@ from playwright.sync_api import sync_playwright
 from PIL import Image
 from bs4 import BeautifulSoup
 import json,hashlib,zipfile,sys
+from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'cafe24-delivery-20261019'
 QA=OUT/'qa';QA.mkdir(exist_ok=True)
 checks=[]
@@ -27,7 +28,7 @@ with sync_playwright() as pw:
                 assert path.read_text(encoding='utf-8') in (dest/filename).read_text(encoding='utf-8')
             assert len(soup.select('[data-tam-product-info]'))==1
         assert not soup.select('script,video,iframe,link,button')
-        assert all(Path(i['src']).suffix in ('.jpg','.jpeg','.png','.gif') for i in soup.select('img'))
+        assert all(Path(urlsplit(i['src']).path).suffix in ('.jpg','.jpeg','.png','.gif') for i in soup.select('img'))
         assert len(soup.select('img'))==len(m['files'])
         with zipfile.ZipFile(OUT/f'{key}-cafe24.zip') as z:
             assert z.testzip() is None
