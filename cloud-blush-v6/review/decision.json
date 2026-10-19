@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "status": "V6 reference-led rebuild pending owner review; not an accepted final",
+  "status": "Direction approved; rendered revision pending owner review",
   "owner_feedback": "V5 too short; hero two-tone seam; insufficient product description. Select one reference brand and rebuild.",
   "reference": {
     "brand": "Freshian",
@@ -34,8 +34,8 @@
     },
     {
       "section": "finish",
-      "purpose": "Create a distinct model-and-product editorial break before six real shade comparisons",
-      "asset": "New Higgsfield Moa-based landscape editorial; see moa-revision.json",
+      "purpose": "Original model/product campaign scene; no AI face or colour alteration",
+      "asset": "Unchanged original Moa photograph; top-aligned 4:3 CSS frame",
       "claim": "Official qualitative Soft-Focus Blur messaging; generated image is not finish evidence"
     },
     {
@@ -129,5 +129,6 @@
     "approval": "Only owner can approve the design"
   },
   "scope": "Only new cloud-blush-v6 and scoped build/records; historical versions preserved; no Cafe24 production changes or ChatGPT Sites copies",
-  "model_scene_revision": "moa-revision.json"
+  "model_scene_revision": "moa-revision.json (rejected and superseded by 2026-10-19 original-source restoration)",
+  "current_revision": "alignment-decision-20261019.json"
 }

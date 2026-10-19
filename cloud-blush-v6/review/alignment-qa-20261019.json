@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "frame": {
+        "width": 135.09375,
+        "height": 89.828125,
+        "radius": "10px"
+      },
+      "model_frame": [
+        284.15625,
+        213.109375
+      ],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "frame": {
+        "width": 166.171875,
+        "height": 110.5,
+        "radius": "10px"
+      },
+      "model_frame": [
+        346.3125,
+        259.734375
+      ],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 600,
+      "frame": {
+        "width": 259.40625,
+        "height": 172.5,
+        "radius": "10px"
+      },
+      "model_frame": [
+        532.796875,
+        399.59375
+      ],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 860,
+      "frame": {
+        "width": 362.109375,
+        "height": 240.796875,
+        "radius": "16px"
+      },
+      "model_frame": [
+        748.1875,
+        561.140625
+      ],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "frame": {
+        "width": 362.109375,
+        "height": 240.796875,
+        "radius": "16px"
+      },
+      "model_frame": [
+        748.1875,
+        561.140625
+      ],
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "geometry_matches_accepted_family": true,
+  "other_sections_byte_identical": true,
+  "source_assets_recoloured": false,
+  "design_acceptance": "pending owner review"
+}

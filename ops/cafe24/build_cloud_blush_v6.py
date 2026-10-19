@@ -18,7 +18,7 @@ SHADES = [
  ('살구 쉐이크', 'APRICOT SHAKE', '차분한 살구 베이지', '베이지가 섞인 살구빛으로<br>차분하고 포근한 볼.'),
 ]
 cards = '\n'.join(f'''<figure class="shade" id="shade-{i}">
- <figcaption><span class="shade-number">0{i}</span><h3>{name}</h3><p class="english">{english}</p></figcaption>
+ <figcaption><h3><span class="shade-number">0{i}</span> {name}</h3><p class="english">{english}</p></figcaption>
  <div class="cheek"><img src="{A}cheek-{i}.jpg" width="1100" height="1137" loading="lazy" alt="{name} 실제 볼 발색"></div>
  <img class="swatch" src="{A}swatch-{i}.jpg" width="600" height="600" loading="lazy" alt="{name} 실제 제형 발색">
  <p class="tone">{tone}</p><p class="shade-description">{desc}</p>
@@ -38,8 +38,8 @@ body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 
 </section>
 <section class="finish" id="finish">
  <header class="heading"><p class="eyebrow">SOFT BLUR FINISH</p><h2>부드럽게 물든<br>블러 치크.</h2><p class="body">색의 경계를 가볍게 두드려 풀어주면<br>볼 위에 은은하게 번지는 컬러와<br>보송한 피부 표현을 연출할 수 있어요.</p></header>
- <figure class="finish-photo"><img src="assets/moa-finish-editorial.jpg" width="2528" height="1696" loading="lazy" alt="모아 원본을 바탕으로 제작한, 블러셔를 볼 옆에 든 모델 연출 이미지"></figure>
- <p class="finish-caption">부드러운 컬러로 완성하는 블러 치크.<span class="finish-credit">모델 연출 이미지</span></p>
+ <figure class="finish-photo"><img src="{A}moa-blush.jpg" width="1200" height="1800" loading="lazy" alt="블러셔를 볼 옆에 든 모아의 원본 촬영 사진"></figure>
+ <p class="finish-caption">부드러운 컬러로 완성하는 블러 치크.</p>
 </section>
 <section class="section colours" id="colours">
  <header class="heading"><p class="eyebrow">SIX SHADES OF CLOUD</p><h2>은은한 피치부터<br>선명한 핑크까지.</h2><p class="body">부드러운 크림 텍스처에 담은 여섯 가지 컬러.<br>제형의 색과 볼 위에 펴 바른 색을<br>함께 비교해 보세요.</p></header>

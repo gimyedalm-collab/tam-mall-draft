@@ -250,3 +250,38 @@ and the confirmed product packshot as references. Render the full image
 without cropping the head, hand or product. This is a generated model scene,
 not real shade or finish evidence; original six-colour photography stays below.
 See `cloud-blush-v6/review/moa-revision.json`. Pending owner image review.
+
+## Cloud preproduction correction requested - 2026-10-19
+
+Owner rejected unnecessary AI recreation of Moa, criticized colour appearance,
+and required ideas and cross-validation before production, with consistency to
+previous TAM detail formats. Use original Moa photography; do not generate or
+recolour her face. Do not assume the criticism authorizes changing all six real
+shade photographs: clarification is pending whether it refers to the AI model,
+the six-shade comparison, or both. Accepted Milky Cheek V12 and Highlighter R33
+are the format baselines; Freshian is supporting persuasion research only.
+Preproduction audit and read-only Claude review are saved locally under
+`C:/Users/BNK-1/Desktop/tam-cloud-blush-20261015/preproduction-20261019/`.
+The report `review.html` separates measured facts, chosen ideas and rejected
+review suggestions. Original Moa fits a top-aligned 4:3 study without cutting
+head, fingers or compact. No production page or generated asset was changed
+during this audit. The published AI model version remains rejected, not approved.
+Do not treat independent model agreement as visual or owner acceptance.
+
+## Review presentation preference - 2026-10-19
+
+When preparing a review, comparison or design proposal, open it visibly for the
+owner as part of delivery; do not provide only a file path or link. Open relevant
+comparison material alongside it in separate browser tabs when useful, and
+leave the main review visible. This preference applies to future TAM work too.
+
+## Cloud reviewed direction implemented - 2026-10-19
+
+Owner approved proceeding with the reviewed direction ("그래 그렇게 가자").
+Original Moa photography now replaces the rejected generated model scene.
+The six-shade cards follow accepted Milky Cheek V12 / Highlighter R33 alignment,
+photo ratio, corner radius and spacing. Preserve source shade colours and the
+45% texture swatch size; colour criticism was not clarified further. No new
+image generation. Other V6 sections are unchanged. Current comparison is
+`cloud-blush-v6/review/index.html`; measurements and source provenance are in
+the adjacent alignment records. Direction approval is not final visual approval.

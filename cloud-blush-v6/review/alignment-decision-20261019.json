@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-19",
+  "owner_direction": "Proceed with original Moa and accepted TAM family format after preproduction comparison and independent critique. Open review pages visibly.",
+  "status": "Direction approved; rendered revision pending owner review",
+  "model": {
+    "source": "cloud-blush-v3/assets/moa-blush.jpg",
+    "source_sha256": "72490eff727aab6b027f3ad9a03ef2d8092b216f915ffe71f148dcd3d95d08bc",
+    "frame": "4:3 top aligned, shared horizontal gutters; lower torso excluded, head/fingers/compact inside frame",
+    "AI": false,
+    "colour_edit": false
+  },
+  "shade_format": {
+    "columns": 2,
+    "ratio": "2812:1870",
+    "gap_desktop": [
+      48,
+      24
+    ],
+    "gap_mobile": [
+      30,
+      14
+    ],
+    "radius_desktop": 16,
+    "radius_mobile": 10,
+    "titles": "Number and shade name on one line, left aligned",
+    "swatch_width": "45%, retained because past enlargement was rejected",
+    "shade_photographs": "Original files unchanged; no recolour or unsupported asset replacement"
+  },
+  "preserved": [
+    "Hero",
+    "Cream-to-powder footage",
+    "All six real cheek and texture photographs",
+    "Formula",
+    "How to use",
+    "Ending",
+    "Official product information"
+  ],
+  "prior_AI_revision": "Rejected; generated asset retained only as historical file, not used in active page",
+  "preproduction": "Source and rendered baseline audit plus read-only Claude consultation with --no-session-persistence. Unsupported review claims were rejected; original 4:3 composition independently checked.",
+  "verification": "alignment-qa-20261019.json",
+  "scope": "GitHub preview only; no Cafe24 production change"
+}
