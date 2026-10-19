@@ -29,13 +29,13 @@
     {
       "file": "images/03-cool-glow.png",
       "width": 860,
-      "height": 877,
+      "height": 838,
       "kind": "static",
       "alt": "립오일 상세 3",
       "source": "lipoil-v9/export/03-cool-glow.png",
-      "source_sha256": "4c1abf1d28e967aaf70e295447f06ef72a05f0674e719a74c942c698da313d9c",
-      "bytes": 245937,
-      "sha256": "4c1abf1d28e967aaf70e295447f06ef72a05f0674e719a74c942c698da313d9c"
+      "source_sha256": "ef1c68ba3aa8bd654192384432df1545be32a144ce37019cd0e7befa162705b4",
+      "bytes": 241475,
+      "sha256": "ef1c68ba3aa8bd654192384432df1545be32a144ce37019cd0e7befa162705b4"
     },
     {
       "file": "images/04-colors.png",

@@ -674,5 +674,15 @@
     "full_product25_replacement_ready": false,
     "production_cafe24_changed": false,
     "next_action": "Preserve 00 gloss options/content, compose series guide and gloss/oil sections before complete product25 rollout; current file is oils-only component."
+  },
+  "lipoil_legacy_audit_20261019": {
+    "status": "note_removed_legacy_comparison_complete_series_choice_pending",
+    "review": "lipoil-v9/research/legacy-comparison-20261019.html",
+    "product18_gloss_confirmed": true,
+    "product25_four_options_confirmed": true,
+    "volume_official_record": "4.3ml / 0.14fl.oz.",
+    "native_options_changed": false,
+    "production_cafe24_changed": false,
+    "next_action": "Await meaning of removing00; keep existing options until chosen direction/admin mappings verified. Current oils-only delivery is not full series replacement."
   }
 }

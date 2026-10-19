@@ -547,3 +547,23 @@ Builder now carries this integration scope in manifest/README/ZIP. Broader
 product25 integration is pending; do not claim Cafe24 production changed.
 Evidence: ops/cafe24/lipoil-formula-series-20261019.json. New formula visual review
 is pending owner acceptance; accepted model/layout outside formula stay locked.
+
+## Lip oil note removed; old detail audited - 2026-10-19
+
+Owner explicitly requested removal of the makeup-effect/cooling-individual-
+variation footnote. Removed that paragraph from active V9, panel03, both ZIPs
+and Cafe24 image package. Do not restore it from older builders or candidates.
+All other customer copy, original model, actual shades and six other panels
+unchanged; package320/390/860 checks passed. No new qualification text added.
+Compared all four live series source images with current content. Review:
+lipoil-v9/research/legacy-comparison-20261019.html; ops record:
+ops/cafe24/lipoil-legacy-audit-20261019.json. Public product18 independently has
+00 Himalaya Pink gloss;25 has00 gloss+01-03 oil. Their admin stock/review linkage
+is NOT verified. Owner wording about removing entirely is ambiguous; asked
+whether00 should be separated, no reply yet. Do not remove native options or
+rename product25 based on elapsed time. Current kit remains oils-only.
+Old art has5x/irritation0.0/vegan/long-moisture claims; do not restore indiscriminately
+without verifying product-specific evidence. Old marketing art4.3g differs from
+archived official product info4.3ml /0.14fl.oz.; verified the latter in original
+research/tam.html and retain current ml. Mixed gloss/oil ingredient prose must
+not be copied wholesale into all shades. No Cafe24 mutation this turn.

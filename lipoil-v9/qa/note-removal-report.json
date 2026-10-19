@@ -1,0 +1,74 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "scroll": 320,
+      "broken": 0,
+      "ingredients": [
+        "해바라기씨오일",
+        "녹차씨오일"
+      ],
+      "scope": "립오일 01 · 02 · 03 공통 함유",
+      "formulaHeight": 189,
+      "originalModel": true
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "broken": 0,
+      "ingredients": [
+        "해바라기씨오일",
+        "녹차씨오일"
+      ],
+      "scope": "립오일 01 · 02 · 03 공통 함유",
+      "formulaHeight": 196,
+      "originalModel": true
+    },
+    {
+      "width": 600,
+      "scroll": 600,
+      "broken": 0,
+      "ingredients": [
+        "해바라기씨오일",
+        "녹차씨오일"
+      ],
+      "scope": "립오일 01 · 02 · 03 공통 함유",
+      "formulaHeight": 196,
+      "originalModel": true
+    },
+    {
+      "width": 860,
+      "scroll": 860,
+      "broken": 0,
+      "ingredients": [
+        "해바라기씨오일",
+        "녹차씨오일"
+      ],
+      "scope": "립오일 01 · 02 · 03 공통 함유",
+      "formulaHeight": 226,
+      "originalModel": true
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "broken": 0,
+      "ingredients": [
+        "해바라기씨오일",
+        "녹차씨오일"
+      ],
+      "scope": "립오일 01 · 02 · 03 공통 함유",
+      "formulaHeight": 226,
+      "originalModel": true
+    }
+  ],
+  "outside_removed_note_html_unchanged": true,
+  "other_export_hashes": {
+    "01-campaign.png": "4ebccb28581ef6e75fa8f8cd5246c65ddb887460cdc789d6f3e7177cb43ab116",
+    "02-big-tip.png": "6e6234ed6fee0d19ec30ee3466d21b3e399fd2e8b41216df9cbd3d8c3b860879",
+    "04-colors.png": "227b1ed7b9491198d92fb5cc8405658355022d13d0c29e166b77fbd21256e790",
+    "05-how-to.png": "edcebedf79ccc21b0142d99f6f0f4ef6ccfeb2f80c93dbd4033c9ff5ef419e96",
+    "06-collection.png": "eb0f7430667b16fbfb6577338c62554add8052f25510f091b11bd69180144a23",
+    "07-product-information.png": "28d84cd729032282ad260004e2ccd3d0dd7f31f1fb798a05e426c542008508d6"
+  },
+  "production_cafe24_changed": false
+}

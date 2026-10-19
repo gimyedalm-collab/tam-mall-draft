@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-19",
+  "owner_request": "Remove the makeup/cooling note; compare old detail against current and inspect possible series conflicts. Clarify whether removing 00 from series is intended.",
+  "removed": "도톰해 보이는 표현은 메이크업 연출 효과입니다. 쿨링감에는 개인차가 있습니다.",
+  "current_revision": "Only this note removed from active HTML and panel03; original model, formula, actual shades, other six panels preserved.",
+  "sources": {
+    "product25": "https://tambeauty.kr/product/detail.html?product_no=25",
+    "product18": "https://tambeauty.kr/product/detail.html?product_no=18",
+    "legacy_panels": [
+      "https://tambeauty.kr/tam/detail/thejelly/lippies/plum01.png",
+      "https://tambeauty.kr/tam/detail/thejelly/lippies/plum02.png",
+      "https://tambeauty.kr/tam/detail/thejelly/lippies/plum03.jpg",
+      "https://tambeauty.kr/tam/detail/thejelly/lippies/plum04.jpg"
+    ]
+  },
+  "findings": {
+    "product25": "Native public options:00 gloss plus oils01-03",
+    "product18": "Separate existing 00 Himalaya Pink gloss product, public option confirmed. No admin stock equivalence assumed.",
+    "ingredients": "Legacy combined ingredient explanation must not be indiscriminately applied to every option. Current two-oil shared scope and separate INCI retained.",
+    "claims": "5x tip, irritation0.0, vegan certification and longevity appear on old art but are not in new copy. Inclusion requires exact comparison/test/certification scope evidence; no new customer-facing caveat added.",
+    "volume": "Legacy marketing panel says4.3g; archived official product information HTML explicitly says4.3ml /0.14fl.oz. Current ml retained.",
+    "visuals": "Current oil-only three original one-coat swatches retained; repeated model pictures, tone chart, old promotions not restored."
+  },
+  "choice_pending": "Whether owner means remove00 from series and keep it via existing product18; asynchronous clarification asked. No native option, stock, product name or customer data change.",
+  "options": [
+    {
+      "direction": "Keep combined product25",
+      "needs": "Preserve00 option and gloss-specific content; combine clear gloss/oil sections."
+    },
+    {
+      "direction": "Separate existing gloss18 and oil25",
+      "needs": "Owner choice, admin mapping audit, preserve old orders/reviews, retain01-03 SKU values, update name/list links; execute only at agreed rollout."
+    }
+  ],
+  "production_cafe24_changed": false,
+  "comparison": "lipoil-v9/research/legacy-comparison-20261019.html"
+}
