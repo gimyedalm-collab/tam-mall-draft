@@ -4,10 +4,9 @@
   "approval": "Owner approved proceeding after competitor/Claude audit; final rendered design review pending",
   "changes": [
     "purpose-led hero",
-    "two original brand application/layering videos",
-    "three-column mobile shade comparison",
-    "short ingredient support",
-    "repeated copy reduced"
+    "product/applicator stills",
+    "three-column original shade comparison",
+    "brief formula support"
   ],
   "evidence": {
     "cooling": "Original plum04.jpg and prior verified source record; retain qualitative cooling only, no measured effect",
@@ -35,18 +34,9 @@
     "texture-rose.png": "c2659b815ab0df5a6926fa211a9be35b3c4630dc890a5b44b73bdb69c6e337eb",
     "tip.png": "a527f688948a12bef652ff05a395b797b2c48f620faa6451c075d0a272126856"
   },
-  "media": [
-    {
-      "file": "application.mp4",
-      "source": "Existing TAM archive / lip oil / Infinite Rose / IMG_6416.MOV",
-      "use": "application",
-      "colour_edit": false
-    },
-    {
-      "file": "layering.mp4",
-      "source": "Existing TAM archive / lip oil / Night View / lipliner+oil.MOV",
-      "use": "liner and oil layering",
-      "colour_edit": false
-    }
-  ]
+  "media": [],
+  "revision": "no-dasha",
+  "owner_restriction": "Dasha images/videos and derived posters must not be used. Removed from active page, exports, comparison captures, media assets and ZIP. Original user archive untouched.",
+  "cafe24_status": "Prepared for direct agent implementation; no Cafe24 production application yet. Existing staged rollout policy retained.",
+  "delivery_format": "Static PNG panels plus responsive preview. No video or GIF in this corrected candidate."
 }

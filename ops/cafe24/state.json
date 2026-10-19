@@ -606,5 +606,13 @@
     "scope": "Current highlighter position/detail version accepted for now, including official arm+texture pair and PC typography finish.",
     "next_action": "Preserve current version as working baseline. Reopen only on a new owner request. Prior formula discussion is not an outstanding redesign task.",
     "production_cafe24_changed": false
+  },
+  "lipoil_v8_media_correction_20261019": {
+    "status": "dasha_media_removed_from_active_delivery",
+    "record": "lipoil-v8-cafe24-handoff-20261019.json",
+    "production_cafe24_changed": false,
+    "direct_implementation_owner": "Codex",
+    "remaining": "Direct Cafe24 application and PC/mobile verification during previously agreed staged rollout; preserve product25 gloss/other options",
+    "media_rule": "No Dasha photos/videos or derivatives"
   }
 }

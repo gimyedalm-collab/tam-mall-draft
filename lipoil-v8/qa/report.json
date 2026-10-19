@@ -2,210 +2,36 @@
   {
     "width": 860,
     "scroll": 860,
-    "height": 5754,
-    "broken": [],
-    "badAnchors": [],
-    "videos": [
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      },
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      }
-    ],
-    "shadeRects": [
-      {
-        "x": 76.59375,
-        "y": 3361.421875,
-        "width": 200
-      },
-      {
-        "x": 330,
-        "y": 3361.421875,
-        "width": 200
-      },
-      {
-        "x": 583.40625,
-        "y": 3361.421875,
-        "width": 200
-      }
-    ]
+    "broken": 0,
+    "videos": 0,
+    "disallowedReferences": 0
   },
   {
     "width": 390,
     "scroll": 390,
-    "height": 4307,
-    "broken": [],
-    "badAnchors": [],
-    "videos": [
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      },
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      }
-    ],
-    "shadeRects": [
-      {
-        "x": 28.828125,
-        "y": 2841.9375,
-        "width": 96.78125
-      },
-      {
-        "x": 146.609375,
-        "y": 2841.9375,
-        "width": 96.78125
-      },
-      {
-        "x": 264.390625,
-        "y": 2841.9375,
-        "width": 96.78125
-      }
-    ]
+    "broken": 0,
+    "videos": 0,
+    "disallowedReferences": 0
   },
   {
     "width": 320,
     "scroll": 320,
-    "height": 4043,
-    "broken": [],
-    "badAnchors": [],
-    "videos": [
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      },
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      }
-    ],
-    "shadeRects": [
-      {
-        "x": 22.90625,
-        "y": 2691.578125,
-        "width": 80.0625
-      },
-      {
-        "x": 119.96875,
-        "y": 2691.578125,
-        "width": 80.0625
-      },
-      {
-        "x": 217.03125,
-        "y": 2691.578125,
-        "width": 80.0625
-      }
-    ]
+    "broken": 0,
+    "videos": 0,
+    "disallowedReferences": 0
   },
   {
     "width": 600,
     "scroll": 600,
-    "height": 5043,
-    "broken": [],
-    "badAnchors": [],
-    "videos": [
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      },
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      }
-    ],
-    "shadeRects": [
-      {
-        "x": 40.59375,
-        "y": 3231.1875,
-        "width": 158.9375
-      },
-      {
-        "x": 220.53125,
-        "y": 3231.1875,
-        "width": 158.9375
-      },
-      {
-        "x": 400.46875,
-        "y": 3231.1875,
-        "width": 158.9375
-      }
-    ]
+    "broken": 0,
+    "videos": 0,
+    "disallowedReferences": 0
   },
   {
     "width": 1440,
     "scroll": 1440,
-    "height": 5754,
-    "broken": [],
-    "badAnchors": [],
-    "videos": [
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      },
-      {
-        "width": 720,
-        "height": 1280,
-        "duration": 15.033333,
-        "paused": true,
-        "error": null
-      }
-    ],
-    "shadeRects": [
-      {
-        "x": 366.59375,
-        "y": 3361.421875,
-        "width": 200
-      },
-      {
-        "x": 620,
-        "y": 3361.421875,
-        "width": 200
-      },
-      {
-        "x": 873.40625,
-        "y": 3361.421875,
-        "width": 200
-      }
-    ]
-  },
-  {
-    "playback": {
-      "t1": 1.478912,
-      "t2": 2.190196,
-      "advancing": true,
-      "pausedOffscreen": true
-    },
-    "errors": []
+    "broken": 0,
+    "videos": 0,
+    "disallowedReferences": 0
   }
 ]

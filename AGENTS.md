@@ -365,3 +365,20 @@ use authentic video posters; the HTML plays video. Decision and QA live in
 `lipoil-v8/research/decision.json` and `lipoil-v8/qa/report.json`. Open
 `lipoil-v8/review.html` visibly for comparison. Direction is authorized; final
 rendered acceptance is still pending. No Cafe24 production mutation.
+
+## Owner prohibits Dasha imagery; lip oil correction - 2026-10-19
+
+Owner explicitly said Dasha images cannot be used. Do not use Dasha photos,
+videos, still frames or GIF derivatives in TAM deliverables. This supersedes
+the V8 film selection above. Remove both lip oil films and posters from active
+V8, regenerate section exports and comparison captures, and replace its ZIP.
+Keep the user's original source archive intact. Current V8 uses product/tip
+stills, original shade comparison and concise use copy; no video or GIF.
+The owner reaffirmed that Codex must directly apply the finished work in Cafe24,
+including uploads and PC/mobile verification. This is not a manual handoff.
+The existing whole-store staged rollout is unchanged; GitHub preview is not
+Cafe24 production completion. The image-only HTML fragment is prepared with
+review-hosted URLs. Product25 currently combines gloss and oils, so preserve
+the gloss content/options and verify the target before applying an oil section.
+Default Cafe24 shop FTP does not accept MP4 according to official help; external
+video hosting plus HTML is possible, while GIF is an image-upload alternative.

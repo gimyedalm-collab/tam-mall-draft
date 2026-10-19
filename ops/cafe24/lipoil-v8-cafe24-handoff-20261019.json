@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "prohibited_media": "Dasha photos, videos and derivatives excluded from active lip oil deliverables",
+  "direct_implementation_owner": "Codex",
+  "cafe24_production_applied": false,
+  "rollout": "Existing whole-store staged rollout remains; user reaffirmed agent must apply directly",
+  "prepared": "7 PNG panels and image-only HTML fragment; current URLs are GitHub review hosting",
+  "mp4": "Cafe24 official help says default shop FTP does not accept MP4; external video hosting plus video/embed HTML supported",
+  "gif": "Image-upload animation alternative; not required for the current static candidate",
+  "official_help": "https://support.cafe24.com/hc/ko/articles/17460428614041",
+  "next_action": "At scheduled Cafe24 rollout: backup current product description; verify combined lip-series product 25 includes gloss and oils; preserve gloss/other options; upload corrected assets and apply appropriate oil section; verify PC/mobile.",
+  "public_product_http": 200,
+  "public_detail_assets": [],
+  "public_source_note": "Public HTML inspection only, not authenticated admin editor verification."
+}
