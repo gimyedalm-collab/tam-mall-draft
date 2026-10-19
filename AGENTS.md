@@ -348,3 +348,20 @@ At390px texture section measures714px versus1016px; visible non-space characters
 92 versus230. Current review: cloud-blush-v6/review/index.html; decision and QA
 are mobile-copy-decision-20261019.json and mobile-copy-qa-20261019.json.
 Rendered revision awaits owner visual acceptance; show comparison visibly.
+
+## Lip oil competitor-reviewed V8 direction implemented - 2026-10-19
+
+Owner approved proceeding after the Clarins/Dior/e.l.f. lip oil comparison and
+nonpersistent Claude review. Candidate `lipoil-v8/` now leads with bare-lip colour
+and layering use, shows two existing TAM archive films (Infinite Rose application
+and Night View over lipliner), and aligns three original shades side by side on
+mobile. V7 campaign model and official product/shade/ingredient assets remain.
+No new generated media or performance claims. Source films are web transcoded
+at original duration, without grading, reframing, retiming or generated frames.
+Keep the brief two-oil formula support. One-coat labels and qualitative cooling
+were rechecked against original plum04.jpg; neither is a clinical result.
+Public detail and review remain free of production annotations. Static exports
+use authentic video posters; the HTML plays video. Decision and QA live in
+`lipoil-v8/research/decision.json` and `lipoil-v8/qa/report.json`. Open
+`lipoil-v8/review.html` visibly for comparison. Direction is authorized; final
+rendered acceptance is still pending. No Cafe24 production mutation.

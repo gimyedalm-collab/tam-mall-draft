@@ -1,0 +1,52 @@
+{
+  "version": "V8",
+  "date": "2026-10-19",
+  "approval": "Owner approved proceeding after competitor/Claude audit; final rendered design review pending",
+  "changes": [
+    "purpose-led hero",
+    "two original brand application/layering videos",
+    "three-column mobile shade comparison",
+    "short ingredient support",
+    "repeated copy reduced"
+  ],
+  "evidence": {
+    "cooling": "Original plum04.jpg and prior verified source record; retain qualitative cooling only, no measured effect",
+    "one_coat": "Original plum04.jpg explicitly labels left column 1 coat; crops match preserved assets.json",
+    "layering": "Original archive Night View / lipliner+oil footage; caption explicitly names lipliner"
+  },
+  "review_reconciliation": {
+    "accepted": [
+      "purpose and application structure",
+      "clarify liner layering caption"
+    ],
+    "not_adopted": [
+      "Delete verified cooling based only on omitted evidence in reviewer prompt",
+      "Delete source-labeled 1-coat swatches",
+      "Treat ingredient presence as enough to prove finished-product performance"
+    ]
+  },
+  "actual_asset_sha256": {
+    "first-one.png": "fdf8fdc3998a3ba0df2486183715f5102c0f2f8dd4eda22f0817955157764b22",
+    "rose-one.png": "33e2360728cb876e6ea7910028823de9eb95fd8f814924cd063e2f09c91baeb6",
+    "night-one.png": "7a6ad46584bfeca250f7a11fd4f8e608c4800bc530868df5cbadc3c0fd07984b",
+    "product-first.png": "5d9db416d9d777de04742097855f81134861752b7b1331af1029559658b63c5d",
+    "product-rose.png": "da14586aa0324c5b4b74a1d9ff46571eb48b3833a67dcb9f1a63d4d8dee9a511",
+    "product-night.png": "7ebd8b92556ceea4ea033860b6bcdbcc389a29f80e20482a4a7dfb216823b82f",
+    "texture-rose.png": "c2659b815ab0df5a6926fa211a9be35b3c4630dc890a5b44b73bdb69c6e337eb",
+    "tip.png": "a527f688948a12bef652ff05a395b797b2c48f620faa6451c075d0a272126856"
+  },
+  "media": [
+    {
+      "file": "application.mp4",
+      "source": "Existing TAM archive / lip oil / Infinite Rose / IMG_6416.MOV",
+      "use": "application",
+      "colour_edit": false
+    },
+    {
+      "file": "layering.mp4",
+      "source": "Existing TAM archive / lip oil / Night View / lipliner+oil.MOV",
+      "use": "liner and oil layering",
+      "colour_edit": false
+    }
+  ]
+}
