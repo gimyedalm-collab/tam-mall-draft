@@ -1,0 +1,34 @@
+{
+  "version": "V7",
+  "status": "owner_review_pending",
+  "trigger": "Owner rejected V6 model and asked for GPT generation informed by existing TAM sources",
+  "engine": "built-in image_gen.imagegen",
+  "source_inspection": [
+    "Official TAM lip oil model thumbnail",
+    "Official TAM gloss model thumbnail",
+    "Official studio campaign photos 12,17,24",
+    "Homepage model candidates D / Y2K / C contact sheets",
+    "Homepage film poster"
+  ],
+  "references_used": [
+    "research/studio-reference-board.png",
+    "assets/product-rose.png",
+    "assets/tip.png",
+    "assets/tip-bright.webp"
+  ],
+  "selected_image": "assets/model-main.png",
+  "size": [
+    1122,
+    1402
+  ],
+  "direction": "Groomed long dark hair, clear even beauty makeup, rosy gloss, engaged expression, clean bright lighting; no deliberately added freckles or documentary skin treatment",
+  "preserved": "V6 page structure, factual copy, ingredient presence, actual official shades and accepted product composition",
+  "limits": [
+    "Generated model is illustrative; not actual shade or efficacy evidence",
+    "Studio references inform styling, not identity replication",
+    "Owner review pending"
+  ],
+  "claude": "Read-only noninteractive, --no-session-persistence --output-format text",
+  "sites_used": false,
+  "production_store_mutated": false
+}

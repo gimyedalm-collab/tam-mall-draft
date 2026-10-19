@@ -285,3 +285,17 @@ photo ratio, corner radius and spacing. Preserve source shade colours and the
 image generation. Other V6 sections are unchanged. Current comparison is
 `cloud-blush-v6/review/index.html`; measurements and source provenance are in
 the adjacent alignment records. Direction approval is not final visual approval.
+
+## Lip oil V6 model rejected; GPT reference-led V7 - 2026-10-19
+
+Owner rejected the V6 model's deliberately freckled, tired-looking, casual
+styling and requested GPT image generation informed by existing TAM sources.
+For lip oil, inspect official studio campaign photos and lip oil/gloss model
+assets alongside homepage candidates. Use polished makeup, groomed hair,
+engaged expression and clear skin appropriate to TAM beauty campaigns; do not
+equate realism with adding freckles or rough skin. Exact identity copying is
+not required. This instruction is for lip oil, not the separate Moa restriction.
+V7 is the new model candidate, generated with the built-in imagegen tool.
+Keep actual official shade/ingredient evidence and the product-focused page
+structure. `lipoil-v7/review.html` records the references and prompt. V6 remains
+rejected; V7 remains pending owner visual acceptance. No Cafe24 mutation.
