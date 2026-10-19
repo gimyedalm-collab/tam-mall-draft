@@ -299,3 +299,19 @@ V7 is the new model candidate, generated with the built-in imagegen tool.
 Keep actual official shade/ingredient evidence and the product-focused page
 structure. `lipoil-v7/review.html` records the references and prompt. V6 remains
 rejected; V7 remains pending owner visual acceptance. No Cafe24 mutation.
+
+## Cloud product-led scope selected - 2026-10-19
+
+Owner clarified that current shade shots are fine, but Moa is weak, the fruit/oil
+still is muddy, and repeated images are unacceptable. Owner then explicitly
+selected "모델 구간 없이 제품·제형 중심". Remove the independent model section;
+do not restore Moa or another model interlude without a new request. Preserve
+the actual six-shade cards, source colours and layout. Keep hero, original film,
+collection ending and official information. Usage stills repeated film scenes
+at1.3s and5.3s: remove those images and integrate the two instructions and layering
+tip under the film. The new small clear-oil illustration replaces the fruit/seed/
+compact scene; it is ingredient support only, not actual shade/finish evidence.
+Current review and evidence: cloud-blush-v6/review/index.html and
+visual-decision-20261019.json. Plan was cross-checked with local originals and a
+nonpersistent read-only Claude consultation; final direction follows owner input.
+Current rendered result awaits visual review. Open the updated review visibly.

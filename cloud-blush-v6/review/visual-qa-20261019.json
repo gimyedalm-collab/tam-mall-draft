@@ -1,0 +1,59 @@
+[
+  {
+    "width": 320,
+    "page_height": 4084.453125,
+    "image_count": 17,
+    "no_overflow": true,
+    "no_model_interlude": true,
+    "texture_direct_to_shades": true,
+    "video_toggle": true,
+    "errors": [],
+    "status": 200
+  },
+  {
+    "width": 390,
+    "page_height": 4382.4375,
+    "image_count": 17,
+    "no_overflow": true,
+    "no_model_interlude": true,
+    "texture_direct_to_shades": true,
+    "video_toggle": true,
+    "errors": [],
+    "status": 200,
+    "before_height": 5596.28125
+  },
+  {
+    "width": 600,
+    "page_height": 5639.140625,
+    "image_count": 17,
+    "no_overflow": true,
+    "no_model_interlude": true,
+    "texture_direct_to_shades": true,
+    "video_toggle": true,
+    "errors": [],
+    "status": 200
+  },
+  {
+    "width": 860,
+    "page_height": 7976.046875,
+    "image_count": 17,
+    "no_overflow": true,
+    "no_model_interlude": true,
+    "texture_direct_to_shades": true,
+    "video_toggle": true,
+    "errors": [],
+    "status": 200,
+    "before_height": 10223.671875
+  },
+  {
+    "width": 1440,
+    "page_height": 7976.046875,
+    "image_count": 17,
+    "no_overflow": true,
+    "no_model_interlude": true,
+    "texture_direct_to_shades": true,
+    "video_toggle": true,
+    "errors": [],
+    "status": 200
+  }
+]

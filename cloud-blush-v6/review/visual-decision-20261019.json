@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-19",
+  "status": "Owner selected no model interlude; rendered revision pending visual review",
+  "owner_feedback": "Shade shots are fine; Moa ambiguous; fruit/oil too muddy; repeated imagery unacceptable.",
+  "owner_clarification": "모델 구간 없이 제품·제형 중심",
+  "sections": [
+    "hero",
+    "texture and application",
+    "six actual shades",
+    "formula",
+    "collection"
+  ],
+  "changes": [
+    "Removed independent Moa/finish section per explicit owner selection",
+    "Replaced brown/beige fruit-and-compact formula still with small clear oil illustration on white",
+    "Integrated two usage instructions and layering tip beneath original texture film; removed reused 1.3s/5.3s film stills and standalone howto panel"
+  ],
+  "preserved": [
+    "Hero HTML",
+    "Six-shade HTML and all actual cheek/texture image pixels",
+    "Original film including source and poster",
+    "Ending collection HTML",
+    "Official product information"
+  ],
+  "asset": {
+    "path": "assets/formula-clear-oil-261019.jpg",
+    "type": "AI illustrative oil ingredient scene, not actual blush/colour/finish evidence",
+    "provider": "built-in image_gen",
+    "submissions": 1,
+    "prompt": "oil-prompt-20261019.txt",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "processing": "JPEG quality94 subsampling0 only; no crop or colour edit"
+  },
+  "duplicate_audit": {
+    "exact_static_image_duplicates": "Only intentional TAM logo; photographs had unique hashes",
+    "source_scene_reuse_removed": [
+      "texture-touch.jpg = film1.3s",
+      "texture-spread.jpg = film5.3s"
+    ],
+    "distinct_collection_images": "Hero shows studio compact pair; ending shows original six-compact collection",
+    "no_new_model_image_published": true
+  },
+  "source_review": {
+    "retouched_moa_images_reviewed": 10,
+    "raw_shoot_count": 1332,
+    "raw_broad_sample": 36,
+    "blush_range_count": 125,
+    "blush_range_sample": 36,
+    "candidate_44940": "Prepared from original, then excluded following owner selection; local only"
+  },
+  "cross_validation": {
+    "method": "Local originals, provenance and prior accepted TAM formats plus nonpersistent read-only Claude consultation",
+    "adopted": [
+      "Remove ingredient still life",
+      "Consolidate repeat usage scenes",
+      "Keep layering guidance",
+      "Oil illustration must remain ingredient support, not powder finish proof"
+    ],
+    "not_adopted": [
+      "Portrait frame recommendations conflicted with crop constraints",
+      "Matte oil recommendation was physically inappropriate",
+      "Claim current photo had nearly no cast shadow was not supported",
+      "No independent model recommendation overrides explicit owner removal"
+    ]
+  },
+  "qa": "visual-qa-20261019.json",
+  "scope": "Cloud V6 and scoped records only; GitHub preview, no Cafe24 production or Sites changes"
+}

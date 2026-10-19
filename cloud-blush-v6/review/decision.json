@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
-  "status": "Direction approved; rendered revision pending owner review",
-  "owner_feedback": "V5 too short; hero two-tone seam; insufficient product description. Select one reference brand and rebuild.",
+  "status": "Owner selected no model interlude; rendered revision pending visual review",
+  "owner_feedback": "Shade shots are fine; Moa ambiguous; fruit/oil too muddy; repeated imagery unacceptable.",
   "reference": {
     "brand": "Freshian",
     "product": "Egglike Cream Blush",
@@ -28,15 +28,9 @@
     },
     {
       "section": "texture",
-      "purpose": "Explain spread versus finish with moving real product",
+      "purpose": "Actual cream-to-powder footage with two concise application steps and layering tip",
       "asset": "Existing 9.6-second R2 exposure-corrected footage, unchanged",
       "limit": "Edited source clips are not a controlled same-shade before/after test"
-    },
-    {
-      "section": "finish",
-      "purpose": "Original model/product campaign scene; no AI face or colour alteration",
-      "asset": "Unchanged original Moa photograph; top-aligned 4:3 CSS frame",
-      "claim": "Official qualitative Soft-Focus Blur messaging; generated image is not finish evidence"
     },
     {
       "section": "colours",
@@ -47,14 +41,8 @@
     {
       "section": "formula",
       "purpose": "Replace tiny text-only fact note with formula visual and four oil names",
-      "asset": "New Higgsfield ingredient still life",
+      "asset": "Small clear oil ingredient illustration; old fruit/compact scene superseded",
       "claim": "All six official INCI lists; brand source 18.png and20.png; vegan formulation wording only"
-    },
-    {
-      "section": "howto",
-      "purpose": "Make dosage and application concrete",
-      "asset": "Frames 1.3 and5.3 seconds of R2 footage",
-      "claim": "Official finger/tool thin application and tapping; incremental layering is a usage suggestion"
     },
     {
       "section": "ending",
@@ -110,6 +98,18 @@
         1696
       ],
       "processing": "JPEG quality94 subsampling0; no crop or recolour"
+    },
+    {
+      "path": "assets/formula-clear-oil-261019.jpg",
+      "type": "AI illustrative oil ingredient scene, not actual blush/colour/finish evidence",
+      "provider": "built-in image_gen",
+      "submissions": 1,
+      "prompt": "oil-prompt-20261019.txt",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "processing": "JPEG quality94 subsampling0 only; no crop or colour edit"
     }
   ],
   "verification": {
@@ -130,5 +130,5 @@
   },
   "scope": "Only new cloud-blush-v6 and scoped build/records; historical versions preserved; no Cafe24 production changes or ChatGPT Sites copies",
   "model_scene_revision": "moa-revision.json (rejected and superseded by 2026-10-19 original-source restoration)",
-  "current_revision": "alignment-decision-20261019.json"
+  "current_revision": "visual-decision-20261019.json"
 }

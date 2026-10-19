@@ -24,15 +24,6 @@
 #cloud-blush .film-toggle{margin:8px auto 0;min-height:44px;padding:8px 20px;border:1px solid #d2c9d4;border-radius:24px;background:#fff;color:var(--ink);font:500 13px Cloud,sans-serif;cursor:pointer}
 #cloud-blush .film-toggle[hidden]{display:none}
 #cloud-blush .film-toggle:hover{background:var(--lavender)}
-#cloud-blush .texture-points{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;margin-top:30px;gap:16px}
-#cloud-blush .texture-points div>span{font:500 clamp(11px,1.9cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.12em;color:var(--accent)}
-#cloud-blush .texture-points h3{font-size:clamp(14px,2.8cqw,24px);margin-top:12px}
-#cloud-blush .arrow{color:#9c8b9e;font-size:clamp(20px,3.5cqw,30px)}
-#cloud-blush .finish{padding-top:96px;background:var(--lavender)}
-#cloud-blush .finish .heading{padding:0 6.5%}
-#cloud-blush .finish-photo{width:87%;aspect-ratio:4/3;overflow:hidden;margin:0 auto}
-#cloud-blush .finish-photo img{height:100%;object-fit:cover;object-position:50% 0}
-#cloud-blush .finish-caption{padding:28px 6.5% 38px;font-size:clamp(13px,2.6cqw,22px);color:var(--accent)}
 #cloud-blush .colours{background:#fff;padding:80px 6.5% 72px}
 #cloud-blush .colours .heading{margin-bottom:40px}
 #cloud-blush .shade-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px 24px;text-align:left}
@@ -45,14 +36,12 @@
 #cloud-blush .swatch{width:45%;margin:14px auto 8px}
 #cloud-blush .tone{font-weight:500;color:var(--accent);font-size:clamp(14px,2.79cqw,24px);line-height:1.5}
 #cloud-blush .shade-description{font-size:clamp(12px,2.09cqw,18px);line-height:1.65;color:var(--muted);margin-top:12px}
-#cloud-blush .formula{background:#f7f4ef;padding:96px 0 64px}
+#cloud-blush .formula{background:#fff;padding:96px 0 64px}
 #cloud-blush .formula .heading{padding:0 5%}
 #cloud-blush .ingredients{display:grid;grid-template-columns:1fr 1fr;gap:36px 20px;margin:44px 8% 0}
 #cloud-blush .ingredients h3{font-size:clamp(16px,3cqw,26px)}
 #cloud-blush .ingredients p{font:400 clamp(9px,1.4cqw,12px)/1.5 CloudEnglish,sans-serif;letter-spacing:.06em;color:var(--muted);margin-top:8px}
 #cloud-blush .steps{display:grid;grid-template-columns:1fr 1fr;gap:28px;list-style:none;padding:0}
-#cloud-blush .step-photo{aspect-ratio:4/3;overflow:hidden}
-#cloud-blush .step-photo img{height:100%;object-fit:cover}
 #cloud-blush .step-number{display:block;font:400 clamp(14px,2.56cqw,22px)/1.5 CloudEnglish,sans-serif;color:var(--accent);margin:24px 0 10px}
 #cloud-blush .steps p{font-size:clamp(12px,2.32cqw,20px);color:var(--muted);line-height:1.7;margin-top:14px}
 #cloud-blush .tip{font-size:clamp(14px,2.56cqw,22px);line-height:1.7;margin-top:44px;padding-top:30px;border-top:1px solid #e7e0e7}
@@ -74,11 +63,6 @@
  #cloud-blush .body{margin-top:22px}
  #cloud-blush .product-name{margin-bottom:8px}
  #cloud-blush .hero-signature p{margin-top:6px}
- #cloud-blush .texture-points{margin-top:22px;gap:10px}
- #cloud-blush .texture-points h3{margin-top:8px}
- #cloud-blush .finish{padding-top:58px}
- #cloud-blush .finish-photo{width:88.8%}
- #cloud-blush .finish-caption{padding:20px 4% 26px}
  #cloud-blush .colours{padding:40px 5.6% 38px}
  #cloud-blush .colours .heading{margin-bottom:24px}
  #cloud-blush .shade-grid{gap:30px 14px}
@@ -95,4 +79,17 @@
  #cloud-blush .ending{padding-top:56px}
  #cloud-blush .ending-footer{padding:30px}
  #cloud-blush .note{margin-top:24px}
+}
+
+/* Clean supporting oil; application lives with its film; no model interlude. */
+#cloud-blush .formula-photo{width:64%;margin:0 auto}
+#cloud-blush .application-guide{margin-top:36px;padding-top:30px;border-top:1px solid #e7e0e7}
+#cloud-blush .application-label{font:500 clamp(10px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.13em;color:var(--accent);margin-bottom:22px}
+#cloud-blush .application-guide .step-number{margin:0 0 8px}
+#cloud-blush .application-guide .tip{margin-top:28px;padding-top:0;border:0;font-size:clamp(12px,2.09cqw,18px)}
+@container(max-width:600px){
+ #cloud-blush .formula-photo{width:76%}
+ #cloud-blush .application-guide{margin-top:22px;padding-top:22px}
+ #cloud-blush .application-label{margin-bottom:18px}
+ #cloud-blush .application-guide .tip{margin-top:22px}
 }
