@@ -477,3 +477,17 @@ continuing Cloud detail work as immediate live upload or request login for it.
 Keep actual upload/administrator save/physical-device verification for the
 agreed rollout when resumed. Cloud browser scroll QA is recorded in
 cafe24-delivery-20261019/cloud-scroll-qa.json; all eight media are unchanged.
+
+## Lip oil A/B rejected; original prettiness retained as criterion - 2026-10-19
+
+Owner clarified that 'first' meant the original V9 portrait, which was prettier;
+the new A/B faces were more awkward. A/B are rejected, superseding recommendation
+B above. Owner authorized competitor-photo references and a changed face.
+Inspected rom&nd Olive Young and Dior official photography. First original-based
+iteration retained excessive synthetic rendering and was not proposed. New
+photo-led candidate changes pose/lighting/hair with a fictional face and TAM
+packaging. Review: lipoil-v9/model-photo-review-20261019/index.html. Prompts and
+reference links are adjacent; original competitor files remain local only.
+New candidate is NOT accepted and photorealism is NOT declared solved. Compare
+visibly with original V9; preserve V9 layout/copy/shades/exports/registration kit
+until model selection. No Cafe24 mutation, no Dasha assets, no Claude this round.
