@@ -322,3 +322,16 @@ Current review and evidence: cloud-blush-v6/review/index.html and
 visual-decision-20261019.json. Plan was cross-checked with local originals and a
 nonpersistent read-only Claude consultation; final direction follows owner input.
 Current rendered result awaits visual review. Open the updated review visibly.
+
+## Cloud cream-to-powder benefit direction implemented - 2026-10-19
+
+Owner approved trying the reviewed USP direction. Texture copy now links soft
+application to a powdery finish; usage highlights fingertip application. The
+existing unchanged film has three native web scene buttons and descriptions
+synchronized at0/2.6/7.4seconds. Describe the final scene as cheek makeup, not a
+matte-finish test. Current video joins different real shots; no same-condition
+transformation or one/two-coat comparison is verified. Do not fabricate those
+assets or treat competitor claims as TAM evidence. Hero, six-shade photos/layout,
+formula, ending and official information remain unchanged. Keep the owner-selected
+no-model structure. Current records: cloud-blush-v6/review/usp-decision-20261019.json
+and usp-qa-20261019.json. Rendered result awaits visual review; open comparison.

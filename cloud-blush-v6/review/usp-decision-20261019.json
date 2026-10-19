@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-19",
+  "status": "Owner approved trying the USP direction; rendered revision pending visual review",
+  "owner_instruction": "그럼 해보자 한번",
+  "scope": "Texture section wording, finger-application heading and scene navigation with synced text below existing video. Five-section structure preserved. No model interlude.",
+  "copy": {
+    "headline": "부드럽게 펴 바르고, 보송하게 완성하는 치크.",
+    "body": "손끝에 부드럽게 풀리는 크림 텍스처. 얇게 펴 바르고 경계를 톡톡 두드려 은은하고 보송한 볼을 완성해 보세요.",
+    "usage": "브러시 없이, 손끝으로 톡톡."
+  },
+  "chapters": [
+    {
+      "start": 0,
+      "label": "부드러운 크림",
+      "caption": "손끝에 부드럽게 풀리는 크림 텍스처."
+    },
+    {
+      "start": 2.6,
+      "label": "얇게 펴 바르기",
+      "caption": "소량을 얇게 펴 바르는 모습."
+    },
+    {
+      "start": 7.4,
+      "label": "볼 메이크업",
+      "caption": "볼 위에 은은하게 더하는 컬러."
+    }
+  ],
+  "media": {
+    "file": "cloud-blush-v3/assets/cream-to-powder.mp4",
+    "sha256": "30012c790c4e24af1c6ea50cdbe4619eff98524784665e8ed733f4c58a268d3c",
+    "changed": false,
+    "method": "Native web video timeupdate/seeked text and scene buttons, no video render or pixel changes",
+    "limit": "Montage of different source scenes; not a controlled same-shade transformation, matte-finish test, or one/two coat comparison"
+  },
+  "claim_basis": [
+    "Official TAM source15.webp: melting texture and lightweight language",
+    "Official TAM creamblush16_1.png: Soft-Focus Blur positioning",
+    "Official product usage: thin finger/tool application and tapping",
+    "Owner supplied cream-to-powder product brief"
+  ],
+  "reference_method": [
+    {
+      "url": "https://www.elfcosmetics.com/products/putty-blush/",
+      "use": "Describe consumer benefits with texture: lightweight, blending and buildable coverage; no competitor performance transfer"
+    },
+    {
+      "url": "https://brand.shiseido.co.jp/shiseido-minimalist-whipped-powder-blush-4514254085509.html",
+      "use": "Connect texture transformation with application experience; no competitor efficacy transfer"
+    }
+  ],
+  "future_evidence": "Same shade/skin/light continuous application and finish, and separate one/two-coat photography, require authentic footage not currently verified. Not generated or fabricated.",
+  "preserved": [
+    "Hero",
+    "All six real cheek and texture images and colour layout",
+    "Formula including clear oil illustration",
+    "Ending collection",
+    "Official information",
+    "Original video and poster",
+    "No independent model section"
+  ],
+  "qa": "usp-qa-20261019.json",
+  "production": "GitHub preview only. No Cafe24 production or ChatGPT Sites changes."
+}

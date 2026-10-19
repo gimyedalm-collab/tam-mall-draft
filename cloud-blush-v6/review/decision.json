@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "status": "Owner selected no model interlude; rendered revision pending visual review",
+  "status": "Owner approved trying the USP direction; rendered revision pending visual review",
   "owner_feedback": "Shade shots are fine; Moa ambiguous; fruit/oil too muddy; repeated imagery unacceptable.",
   "reference": {
     "brand": "Freshian",
@@ -28,7 +28,7 @@
     },
     {
       "section": "texture",
-      "purpose": "Actual cream-to-powder footage with two concise application steps and layering tip",
+      "purpose": "Consumer benefit copy with synchronized scene descriptions, direct scene navigation and fingertip application instructions",
       "asset": "Existing 9.6-second R2 exposure-corrected footage, unchanged",
       "limit": "Edited source clips are not a controlled same-shade before/after test"
     },
@@ -130,5 +130,5 @@
   },
   "scope": "Only new cloud-blush-v6 and scoped build/records; historical versions preserved; no Cafe24 production changes or ChatGPT Sites copies",
   "model_scene_revision": "moa-revision.json (rejected and superseded by 2026-10-19 original-source restoration)",
-  "current_revision": "visual-decision-20261019.json"
+  "current_revision": "usp-decision-20261019.json"
 }

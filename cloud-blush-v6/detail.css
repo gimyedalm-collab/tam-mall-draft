@@ -24,6 +24,12 @@
 #cloud-blush .film-toggle{margin:8px auto 0;min-height:44px;padding:8px 20px;border:1px solid #d2c9d4;border-radius:24px;background:#fff;color:var(--ink);font:500 13px Cloud,sans-serif;cursor:pointer}
 #cloud-blush .film-toggle[hidden]{display:none}
 #cloud-blush .film-toggle:hover{background:var(--lavender)}
+#cloud-blush .film-chapters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}
+#cloud-blush .film-chapters[hidden]{display:none}
+#cloud-blush .film-chapters button{min-height:46px;padding:10px 2px;border:0;border-bottom:2px solid #e8e1eb;background:transparent;color:var(--muted);font:500 clamp(11px,1.95cqw,17px)/1.5 Cloud,sans-serif;cursor:pointer}
+#cloud-blush .film-chapters button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+#cloud-blush .film-chapters button span{font-family:CloudEnglish,sans-serif;margin-right:5px}
+#cloud-blush .film-caption{min-height:2em;margin-top:14px;font-size:clamp(12px,2.1cqw,18px);color:var(--accent)}
 #cloud-blush .colours{background:#fff;padding:80px 6.5% 72px}
 #cloud-blush .colours .heading{margin-bottom:40px}
 #cloud-blush .shade-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px 24px;text-align:left}
@@ -86,10 +92,15 @@
 #cloud-blush .application-guide{margin-top:36px;padding-top:30px;border-top:1px solid #e7e0e7}
 #cloud-blush .application-label{font:500 clamp(10px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.13em;color:var(--accent);margin-bottom:22px}
 #cloud-blush .application-guide .step-number{margin:0 0 8px}
+#cloud-blush .application-guide .application-label{margin-bottom:14px}
+#cloud-blush .application-guide .application-title{margin-bottom:30px;font-size:clamp(19px,3.7cqw,32px)}
 #cloud-blush .application-guide .tip{margin-top:28px;padding-top:0;border:0;font-size:clamp(12px,2.09cqw,18px)}
 @container(max-width:600px){
  #cloud-blush .formula-photo{width:76%}
  #cloud-blush .application-guide{margin-top:22px;padding-top:22px}
  #cloud-blush .application-label{margin-bottom:18px}
+ #cloud-blush .film-chapters{gap:8px;margin-top:12px}
+ #cloud-blush .film-chapters button span{margin-right:2px}
+ #cloud-blush .application-guide .application-title{margin-bottom:24px}
  #cloud-blush .application-guide .tip{margin-top:22px}
 }

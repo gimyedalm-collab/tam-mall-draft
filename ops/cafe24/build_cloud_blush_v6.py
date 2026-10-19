@@ -31,10 +31,16 @@ body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 
  <div class="hero-signature"><img src="{A}tam-logo.svg" width="156" height="44" alt="TAM BEAUTY"><p>6 COLOURS · 2.8 g</p></div>
 </section>
 <section class="section texture" id="texture">
- <header class="heading"><p class="eyebrow">CREAM TO POWDER</p><h2>손끝에는 부드럽게,<br>피부 위에는 가볍게.</h2><p class="body">손끝의 온기에 부드럽게 풀리는 크림 텍스처.<br>얇게 펴 바르면 파우더리하게 마무리되는<br>크림투파우더 블러셔입니다.</p></header>
+ <header class="heading"><p class="eyebrow">CREAM TO POWDER</p><h2>부드럽게 펴 바르고,<br>보송하게 완성하는 치크.</h2><p class="body">손끝에 부드럽게 풀리는 크림 텍스처.<br>얇게 펴 바르고 경계를 톡톡 두드려<br>은은하고 보송한 볼을 완성해 보세요.</p></header>
  <div class="wide-film"><video id="texture-film" controls muted loop playsinline preload="metadata" poster="{A}cream-to-powder-poster.jpg" aria-label="크림 제형을 만지고 펴 바르는 모습과 볼 메이크업 영상"><source src="{A}cream-to-powder.mp4" type="video/mp4"></video></div>
+ <div class="film-chapters" role="group" aria-label="제형 영상 장면 선택" hidden>
+  <button type="button" data-start="0" data-caption="손끝에 부드럽게 풀리는 크림 텍스처." aria-controls="texture-film" aria-pressed="true"><span>01</span> 부드러운 크림</button>
+  <button type="button" data-start="2.6" data-caption="소량을 얇게 펴 바르는 모습." aria-controls="texture-film" aria-pressed="false"><span>02</span> 얇게 펴 바르기</button>
+  <button type="button" data-start="7.4" data-caption="볼 위에 은은하게 더하는 컬러." aria-controls="texture-film" aria-pressed="false"><span>03</span> 볼 메이크업</button>
+ </div>
+ <p class="film-caption">크림 제형을 묻히고 펴 바르는 실제 사용 모습.</p>
  <div class="film-actions"><button class="film-toggle" type="button" aria-controls="texture-film" aria-pressed="false" hidden>영상 재생</button></div>
- <div class="application-guide" id="howto"><p class="application-label">HOW TO USE</p><ol class="steps"><li><span class="step-number">01</span><h3>소량 묻히기</h3><p>깨끗한 손끝이나 도구에<br>제형을 조금씩 묻혀 주세요.</p></li><li><span class="step-number">02</span><h3>얇게 펴 바르기</h3><p>원하는 부위에 얇게 펴 바른 뒤<br>경계를 가볍게 두드려 주세요.</p></li></ol><p class="tip">진한 발색을 원할 때는<br>소량씩 덧발라 농도를 조절해 보세요.</p></div>
+ <div class="application-guide" id="howto"><p class="application-label">HOW TO USE</p><h3 class="application-title">브러시 없이, 손끝으로 톡톡.</h3><ol class="steps"><li><span class="step-number">01</span><h3>소량 묻히기</h3><p>깨끗한 손끝이나 도구에<br>제형을 조금씩 묻혀 주세요.</p></li><li><span class="step-number">02</span><h3>얇게 펴 바르기</h3><p>원하는 부위에 얇게 펴 바른 뒤<br>경계를 가볍게 두드려 주세요.</p></li></ol><p class="tip">진한 발색을 원할 때는<br>소량씩 덧발라 농도를 조절해 보세요.</p></div>
 </section>
 <section class="section colours" id="colours">
  <header class="heading"><p class="eyebrow">SIX SHADES OF CLOUD</p><h2>은은한 피치부터<br>선명한 핑크까지.</h2><p class="body">부드러운 크림 텍스처에 담은 여섯 가지 컬러.<br>제형의 색과 볼 위에 펴 바른 색을<br>함께 비교해 보세요.</p></header>
@@ -55,7 +61,7 @@ body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 
 {INFO}
 </article>'''
 (OUT / 'detail.template.html').write_text(body, encoding='utf-8')
-head = '''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="robots" content="noindex,nofollow"><title>탐뷰티 | 더 클라우드 블러 크림 블러셔 · V6</title><meta name="description" content="크림처럼 사르르, 파우더처럼 보송하게. 크림투파우더 제형과 블러 마무리, 여섯 가지 실제 발색을 만나보세요."><link rel="icon" href="../cloud-blush-v3/assets/tam-logo.svg" type="image/svg+xml"><link rel="stylesheet" href="detail.css"><script src="../cloud-blush-v3/detail.js" defer></script></head><body><main>'''
+head = '''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="robots" content="noindex,nofollow"><title>탐뷰티 | 더 클라우드 블러 크림 블러셔 · V6</title><meta name="description" content="크림처럼 사르르, 파우더처럼 보송하게. 크림투파우더 제형과 블러 마무리, 여섯 가지 실제 발색을 만나보세요."><link rel="icon" href="../cloud-blush-v3/assets/tam-logo.svg" type="image/svg+xml"><link rel="stylesheet" href="detail.css"><script src="detail.js" defer></script></head><body><main>'''
 (OUT / 'index.html').write_text(head + body + '</main></body></html>', encoding='utf-8')
 assert INFO in body
 assert all(f'{A}{kind}-{i}.jpg' in body for kind in ('cheek', 'swatch') for i in range(1, 7))

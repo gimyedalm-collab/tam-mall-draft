@@ -1,0 +1,55 @@
+[
+  {
+    "width": 320,
+    "no_overflow": true,
+    "three_scene_buttons": true,
+    "seeking_and_sync": true,
+    "play_pause": true,
+    "reduced_motion": true,
+    "unchanged_other_sections": true,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "no_overflow": true,
+    "three_scene_buttons": true,
+    "seeking_and_sync": true,
+    "play_pause": true,
+    "reduced_motion": true,
+    "unchanged_other_sections": true,
+    "errors": []
+  },
+  {
+    "width": 600,
+    "no_overflow": true,
+    "three_scene_buttons": true,
+    "seeking_and_sync": true,
+    "play_pause": true,
+    "reduced_motion": true,
+    "unchanged_other_sections": true,
+    "errors": []
+  },
+  {
+    "width": 860,
+    "no_overflow": true,
+    "three_scene_buttons": true,
+    "seeking_and_sync": true,
+    "play_pause": true,
+    "reduced_motion": true,
+    "unchanged_other_sections": true,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "no_overflow": true,
+    "three_scene_buttons": true,
+    "seeking_and_sync": true,
+    "play_pause": true,
+    "reduced_motion": true,
+    "unchanged_other_sections": true,
+    "errors": []
+  },
+  {
+    "javascript_disabled_native_video": true
+  }
+]
