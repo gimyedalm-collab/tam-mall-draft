@@ -335,3 +335,16 @@ assets or treat competitor claims as TAM evidence. Hero, six-shade photos/layout
 formula, ending and official information remain unchanged. Keep the owner-selected
 no-model structure. Current records: cloud-blush-v6/review/usp-decision-20261019.json
 and usp-qa-20261019.json. Rendered result awaits visual review; open comparison.
+
+
+## Cloud mobile copy reduced - 2026-10-19
+
+Owner found the approved USP implementation too text-heavy on mobile. Keep one
+texture benefit headline and two-line application instructions. Removed repeated
+texture body, dynamic scene captions, numbered steps and layering tip. Scene
+navigation and unchanged original film remain. Shade/formula intros are concise;
+actual shade cards, image colours, font sizes and official info are preserved.
+At390px texture section measures714px versus1016px; visible non-space characters
+92 versus230. Current review: cloud-blush-v6/review/index.html; decision and QA
+are mobile-copy-decision-20261019.json and mobile-copy-qa-20261019.json.
+Rendered revision awaits owner visual acceptance; show comparison visibly.

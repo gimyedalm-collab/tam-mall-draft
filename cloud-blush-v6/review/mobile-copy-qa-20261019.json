@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "no_overflow": true,
+      "scene_navigation": true,
+      "play_pause": true,
+      "no_errors": true
+    },
+    {
+      "width": 390,
+      "no_overflow": true,
+      "scene_navigation": true,
+      "play_pause": true,
+      "no_errors": true
+    },
+    {
+      "width": 600,
+      "no_overflow": true,
+      "scene_navigation": true,
+      "play_pause": true,
+      "no_errors": true
+    },
+    {
+      "width": 860,
+      "no_overflow": true,
+      "scene_navigation": true,
+      "play_pause": true,
+      "no_errors": true
+    },
+    {
+      "width": 1440,
+      "no_overflow": true,
+      "scene_navigation": true,
+      "play_pause": true,
+      "no_errors": true
+    },
+    {
+      "no_js_native_video": true,
+      "source_images_and_video_markup_preserved": true
+    }
+  ],
+  "metrics": {
+    "after-390": {
+      "height": 714,
+      "characters": 92
+    },
+    "after-860": {
+      "height": 1229,
+      "characters": 92
+    },
+    "before-390": {
+      "height": 1016,
+      "characters": 230
+    },
+    "before-860": {
+      "height": 1677,
+      "characters": 230
+    }
+  }
+}

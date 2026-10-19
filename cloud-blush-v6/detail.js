@@ -5,7 +5,6 @@
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const chapters = document.querySelector('#cloud-blush .film-chapters');
   const chapterButtons = [...(chapters?.querySelectorAll('button') || [])];
-  const caption = document.querySelector('#cloud-blush .film-caption');
   let inView = false;
   let userPaused = false;
   let activeChapter = -1;
@@ -19,7 +18,6 @@
     if (index === activeChapter || !chapterButtons.length) return;
     activeChapter = index;
     chapterButtons.forEach((item, i) => item.setAttribute('aria-pressed', String(i === index)));
-    if (caption) caption.textContent = chapterButtons[index].dataset.caption;
   };
   const enableChapters = () => {
     if (chapters && Number.isFinite(video.duration) && video.duration > 7.4) chapters.hidden = false;
@@ -51,7 +49,6 @@
     video.controls = true;
     button.hidden = true;
     if (chapters) chapters.hidden = true;
-    if (caption) caption.textContent = '크림 제형을 묻히고 펴 바르는 실제 사용 모습.';
   });
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-19",
+  "feedback": "모바일 기준 문안이 너무 많음",
+  "status": "Simplified and rendered; pending owner visual review",
+  "changes": [
+    "Texture: one benefit headline, original film and two-line application",
+    "Removed duplicate texture paragraph, scene captions, numbered instructions and layering tip",
+    "Shortened shade and formula introductions; retained actual shade cards and ingredient names"
+  ],
+  "preserved": [
+    "Original images and film",
+    "Five-section product-led structure",
+    "No independent model section",
+    "Font sizes and official product information"
+  ],
+  "metrics": {
+    "after-390": {
+      "height": 714,
+      "characters": 92
+    },
+    "after-860": {
+      "height": 1229,
+      "characters": 92
+    },
+    "before-390": {
+      "height": 1016,
+      "characters": 230
+    },
+    "before-860": {
+      "height": 1677,
+      "characters": 230
+    }
+  },
+  "basis": "Existing source-grounded USP direction; no new efficacy claim or image generation",
+  "previous_review": "usp-review-20261019.html"
+}

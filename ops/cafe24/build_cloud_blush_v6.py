@@ -31,24 +31,23 @@ body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 
  <div class="hero-signature"><img src="{A}tam-logo.svg" width="156" height="44" alt="TAM BEAUTY"><p>6 COLOURS · 2.8 g</p></div>
 </section>
 <section class="section texture" id="texture">
- <header class="heading"><p class="eyebrow">CREAM TO POWDER</p><h2>부드럽게 펴 바르고,<br>보송하게 완성하는 치크.</h2><p class="body">손끝에 부드럽게 풀리는 크림 텍스처.<br>얇게 펴 바르고 경계를 톡톡 두드려<br>은은하고 보송한 볼을 완성해 보세요.</p></header>
+ <header class="heading"><p class="eyebrow">CREAM TO POWDER</p><h2>펴 바를 땐 부드럽게,<br>마무리는 보송하게.</h2></header>
  <div class="wide-film"><video id="texture-film" controls muted loop playsinline preload="metadata" poster="{A}cream-to-powder-poster.jpg" aria-label="크림 제형을 만지고 펴 바르는 모습과 볼 메이크업 영상"><source src="{A}cream-to-powder.mp4" type="video/mp4"></video></div>
  <div class="film-chapters" role="group" aria-label="제형 영상 장면 선택" hidden>
-  <button type="button" data-start="0" data-caption="손끝에 부드럽게 풀리는 크림 텍스처." aria-controls="texture-film" aria-pressed="true"><span>01</span> 부드러운 크림</button>
-  <button type="button" data-start="2.6" data-caption="소량을 얇게 펴 바르는 모습." aria-controls="texture-film" aria-pressed="false"><span>02</span> 얇게 펴 바르기</button>
-  <button type="button" data-start="7.4" data-caption="볼 위에 은은하게 더하는 컬러." aria-controls="texture-film" aria-pressed="false"><span>03</span> 볼 메이크업</button>
+  <button type="button" data-start="0" aria-controls="texture-film" aria-pressed="true"><span>01</span> 부드러운 크림</button>
+  <button type="button" data-start="2.6" aria-controls="texture-film" aria-pressed="false"><span>02</span> 얇게 펴 바르기</button>
+  <button type="button" data-start="7.4" aria-controls="texture-film" aria-pressed="false"><span>03</span> 볼 메이크업</button>
  </div>
- <p class="film-caption">크림 제형을 묻히고 펴 바르는 실제 사용 모습.</p>
  <div class="film-actions"><button class="film-toggle" type="button" aria-controls="texture-film" aria-pressed="false" hidden>영상 재생</button></div>
- <div class="application-guide" id="howto"><p class="application-label">HOW TO USE</p><h3 class="application-title">브러시 없이, 손끝으로 톡톡.</h3><ol class="steps"><li><span class="step-number">01</span><h3>소량 묻히기</h3><p>깨끗한 손끝이나 도구에<br>제형을 조금씩 묻혀 주세요.</p></li><li><span class="step-number">02</span><h3>얇게 펴 바르기</h3><p>원하는 부위에 얇게 펴 바른 뒤<br>경계를 가볍게 두드려 주세요.</p></li></ol><p class="tip">진한 발색을 원할 때는<br>소량씩 덧발라 농도를 조절해 보세요.</p></div>
+ <div class="application-guide" id="howto"><p class="application-label">HOW TO USE</p><p class="application-copy">손끝에 소량 묻혀 얇게 펴 바르고,<br>경계를 톡톡 두드려 주세요.</p></div>
 </section>
 <section class="section colours" id="colours">
- <header class="heading"><p class="eyebrow">SIX SHADES OF CLOUD</p><h2>은은한 피치부터<br>선명한 핑크까지.</h2><p class="body">부드러운 크림 텍스처에 담은 여섯 가지 컬러.<br>제형의 색과 볼 위에 펴 바른 색을<br>함께 비교해 보세요.</p></header>
+ <header class="heading"><p class="eyebrow">SIX SHADES OF CLOUD</p><h2>은은한 피치부터<br>선명한 핑크까지.</h2><p class="body">제형과 볼 위 발색을 함께 확인하세요.</p></header>
  <div class="shade-grid">{cards}</div>
  <p class="note">피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.</p>
 </section>
 <section class="formula" id="formula">
- <header class="heading"><p class="eyebrow">VEGAN FORMULA</p><h2>보송한 치크에 담은<br>네 가지 오일.</h2><p class="body">살구씨·동백나무씨·올리브·서양자두씨 오일을<br>함께 담은 비건 포뮬러입니다.</p></header>
+ <header class="heading"><p class="eyebrow">VEGAN FORMULA</p><h2>보송한 치크에 담은<br>네 가지 오일.</h2><p class="body">식물성 오일을 담은 비건 포뮬러.</p></header>
  <figure class="formula-photo"><img src="assets/formula-clear-oil-261019.jpg" width="1536" height="1024" loading="lazy" alt="화이트 배경 위 맑은 식물성 오일을 표현한 원료 연출 이미지"></figure>
  <div class="ingredients"><div><h3>살구씨오일</h3><p>APRICOT KERNEL OIL</p></div><div><h3>동백나무씨오일</h3><p>CAMELLIA SEED OIL</p></div><div><h3>올리브오일</h3><p>OLIVE FRUIT OIL</p></div><div><h3>서양자두씨오일</h3><p>PLUM SEED OIL</p></div></div>
  <p class="note">원료를 표현한 연출 이미지입니다.</p>

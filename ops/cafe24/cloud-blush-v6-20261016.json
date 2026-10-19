@@ -1,12 +1,12 @@
 {
   "date": "2026-10-16",
-  "status": "Owner approved trying the USP direction; rendered revision pending visual review",
+  "status": "Simplified and rendered; pending owner visual review",
   "detail": "cloud-blush-v6/index.html",
   "review": "cloud-blush-v6/review/index.html",
   "decision": "cloud-blush-v6/review/decision.json",
-  "qa": "cloud-blush-v6/review/usp-qa-20261019.json",
+  "qa": "cloud-blush-v6/review/mobile-copy-qa-20261019.json",
   "prior": "V5 latest image-balance revision rejected as too short, with two-tone hero and poor description",
   "scope": "GitHub Pages review candidate only; no Cafe24 production change",
   "model_scene_revision": "cloud-blush-v6/review/moa-revision.json",
-  "current_revision": "cloud-blush-v6/review/usp-decision-20261019.json"
+  "current_revision": "cloud-blush-v6/review/mobile-copy-decision-20261019.json"
 }
