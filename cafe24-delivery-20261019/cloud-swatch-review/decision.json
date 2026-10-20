@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "status": "selected_and_implemented; owner_visual_acceptance_pending",
+  "status": "rejected_by_owner_2026-10-20; superseded_by_cloud-unified-review",
   "selected": "A: six square-framed wrist photographs in two columns and three rows, before cheek/texture details",
   "why": [
     "Original soft shade boundaries and skin context remain visible",
@@ -64,5 +64,6 @@
   ],
   "qa": "qa.json",
   "sales_or_consumer_test": false,
-  "owner_acceptance": false
+  "owner_acceptance": false,
+  "owner_rejection": "Separate wrist overview and cheek sequence repeat the same shade choices"
 }

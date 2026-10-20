@@ -86,28 +86,28 @@
     {
       "file": "images/05-detail.jpg",
       "width": 860,
-      "height": 4044,
+      "height": 2492,
       "kind": "jpeg",
-      "alt": "SIX SHADES OF CLOUD 은은한 피치부터 선명한 핑크까지. 손목 발색 비교 01 백도 쉐이크 02 구아바 쉐이크 03 아사이베리 쉐이크 04 파파야 쉐이크 05 용과 쉐이크 06 살구 쉐이크 볼 위의 발색 01 백도 쉐이크 WHITE PEACH SHAKE 부드러운 피치 핑크 02 구아바 쉐이크 GUAVA SHAKE 차분한 로지 핑크 03 아사이베리 쉐이크 ACAI BERRY SHAKE 화사한 라벤더 핑크 04 파파야 쉐이크 PAPAYA SHAKE 따뜻한 코랄 오렌지 05 용과 쉐이크 DRAGON FRUIT SHAKE 선명한 핑크 06 살구 쉐이크 APRICOT SHAKE 차분한 살구 베이지 피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
+      "alt": "SIX SHADES OF CLOUD 은은한 피치부터 선명한 핑크까지. 01 백도 쉐이크 부드러운 피치 핑크 02 구아바 쉐이크 차분한 로지 핑크 03 아사이베리 쉐이크 화사한 라벤더 핑크 04 파파야 쉐이크 따뜻한 코랄 오렌지 05 용과 쉐이크 선명한 핑크 06 살구 쉐이크 차분한 살구 베이지 피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
       "source_y": [
         1161,
-        3183
+        2407
       ],
-      "bytes": 482366,
-      "sha256": "c0abff4a36fb82804744645ffd5b4f7d2185fdcfd33b1d5f0ef3dfbbaf1deed2"
+      "bytes": 318782,
+      "sha256": "9c5c3c5209402d7197d626e705738fe3349be3ce46bf8cd5cf533814273569be"
     },
     {
       "file": "images/06-detail.jpg",
       "width": 860,
-      "height": 1370,
+      "height": 1368,
       "kind": "jpeg",
       "alt": "VEGAN FORMULA 보송한 치크에 담은 네 가지 오일. 식물성 오일을 담은 비건 포뮬러. 살구씨오일 APRICOT KERNEL OIL 동백나무씨오일 CAMELLIA SEED OIL 올리브오일 OLIVE FRUIT OIL 서양자두씨오일 PLUM SEED OIL 원료를 표현한 연출 이미지입니다.",
       "source_y": [
-        3183,
-        3868
+        2407,
+        3091
       ],
-      "bytes": 106852,
-      "sha256": "77084c81a4877ad21d522b60ffffa15cdfdcad6f92833f3715d55d69d0c6b3b6"
+      "bytes": 107599,
+      "sha256": "302e093524fecf027d2ff49d0b89ddd7b5949d02f7cb655888939c8fcaabe008"
     },
     {
       "file": "images/07-detail.jpg",
@@ -116,11 +116,11 @@
       "kind": "jpeg",
       "alt": "THE CLOUD BLUR CREAM BLUSH 부드러운 컬러, 보송한 블러 치크. 더 클라우드 블러 크림 블러셔 6 COLOURS · 2.8 g",
       "source_y": [
-        3868,
-        4774
+        3091,
+        3997
       ],
-      "bytes": 166157,
-      "sha256": "c7bab331c39493c623e558250abde34b751fb119dd0f329b2b9d4ffdb7a84d08"
+      "bytes": 164959,
+      "sha256": "69d76cbd1856444d6e5447662d8f111c4a2329a7fdbba3989f7e2946fd522d33"
     }
   ],
   "format_limit_bytes": 4900000,

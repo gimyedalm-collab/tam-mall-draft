@@ -1,0 +1,34 @@
+{
+  "single_shade_group": true,
+  "shade_names_once_each": true,
+  "six_original_cheek_wrist_texture_sets": true,
+  "original_cheek_crop_unchanged": true,
+  "other_sections_source_unchanged": true,
+  "hero_and_film_export_byte_identical": true,
+  "native_information_byte_identical": true,
+  "colour_height_at390_before": 1833.9,
+  "colour_height_at390_after": 1130.1,
+  "reduction_percent": 38.4,
+  "checks": [
+    {
+      "width": 320,
+      "all_images_loaded": true,
+      "no_horizontal_overflow": true,
+      "JS_disabled": true
+    },
+    {
+      "width": 390,
+      "all_images_loaded": true,
+      "no_horizontal_overflow": true,
+      "JS_disabled": true
+    },
+    {
+      "width": 860,
+      "all_images_loaded": true,
+      "no_horizontal_overflow": true,
+      "JS_disabled": true
+    }
+  ],
+  "cafe24_upload": false,
+  "owner_visual_acceptance": "pending"
+}

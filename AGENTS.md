@@ -628,3 +628,18 @@ and verifies at resumed rollout; upload remains deferred. Inspect existing
 analytics before adding tracking; do not claim conversion improvement without
 data. This does not authorize immediate00 option deletion or policy changes.
 
+
+
+## Cloud owner rejects repeated colour groups; unify - 2026-10-20
+
+Owner rejected the separate wrist overview followed by the repeated six cheek
+cards and explicitly requested one combined colour presentation. Supersedes
+the previous overview-first selection. Current colour section is one2x3 grid;
+each shade name occurs once, with unchanged cheek image/crop and original
+wrist+texture together under it. Remove both redundant subheadings and English
+name repetition. Original source colours, hero/texture film/formula/ending and
+full native information remain. Colour height at390 drops1834 to1130px.
+Read-only nonpersistent Claude review and320/390/860 package checks completed;
+visual acceptance remains pending. Review: cafe24-delivery-20261019/
+cloud-unified-review/index.html. Older cloud-swatch-review is rejected history,
+not an approved baseline. Actual Cafe24 upload remains deferred.

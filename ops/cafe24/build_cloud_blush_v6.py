@@ -21,12 +21,11 @@ SHADES = [
  ('살구 쉐이크', 'APRICOT SHAKE', '차분한 살구 베이지', '베이지가 섞인 살구빛으로<br>차분하고 포근한 볼.'),
 ]
 cards = '\n'.join(f'''<figure class="shade" id="shade-{i}">
- <figcaption><h3><span class="shade-number">0{i}</span> {name}</h3><p class="english">{english}</p></figcaption>
+ <figcaption><h3><span class="shade-number">0{i}</span> {name}</h3></figcaption>
  <div class="cheek"><img src="{A}cheek-{i}.jpg" width="1100" height="1137" loading="lazy" alt="{name} 실제 볼 발색"></div>
- <img class="swatch" src="{A}swatch-{i}.jpg" width="600" height="600" loading="lazy" alt="{name} 실제 제형 발색">
+ <div class="shade-evidence"><img class="wrist" src="assets/arm-{i}.jpg" width="1933" height="2416" loading="lazy" alt="{name} 원본 손목 발색"><img class="swatch" src="{A}swatch-{i}.jpg" width="600" height="600" loading="lazy" alt="{name} 실제 제형 발색"></div>
  <p class="tone">{tone}</p>
 </figure>''' for i, (name, english, tone, desc) in enumerate(SHADES, 1))
-arms = '\n'.join(f'''<figure class="arm-shade"><img src="assets/arm-{i}.jpg" width="1933" height="2416" loading="lazy" alt="{name} 원본 손목 발색"><figcaption>0{i} {name}</figcaption></figure>''' for i,(name,*_) in enumerate(SHADES,1))
 
 body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 블러셔 상세페이지">
 <section class="hero" aria-labelledby="hero-title">
@@ -47,8 +46,7 @@ body = f'''<article id="cloud-blush" aria-label="더 클라우드 블러 크림 
 </section>
 <section class="section colours" id="colours">
  <header class="heading"><p class="eyebrow">SIX SHADES OF CLOUD</p><h2>은은한 피치부터<br>선명한 핑크까지.</h2></header>
- <div class="arm-comparison"><h3>손목 발색 비교</h3><div class="arm-grid">{arms}</div></div>
- <div class="cheek-comparison"><h3>볼 위의 발색</h3><div class="shade-grid">{cards}</div></div>
+ <div class="shade-grid">{cards}</div>
  <p class="note">피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.</p>
 </section>
 <section class="formula" id="formula">

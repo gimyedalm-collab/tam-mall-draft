@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-20",
+  "status": "unified_colour_group_implemented; owner_visual_acceptance_pending",
+  "owner_correction": "One unified colour comparison; stop repeating the wrist and cheek sequences",
+  "supersedes": "cloud-swatch-review: separate overview first rejected by owner",
+  "structure": "Six cards in2x3, one shade name per card, unchanged cheek photo above original wrist and texture pair, one tone phrase",
+  "removed": [
+    "separate wrist comparison",
+    "separate cheek comparison",
+    "repeated six shade names",
+    "redundant English shade names"
+  ],
+  "scope": "Colour section only; product, cream-to-powder film, formula, ending and full product information unchanged",
+  "basis": "Direct owner correction and same-source mobile layout inspection; do not claim sales validation or competitor endorsement of exact geometry",
+  "qa": {
+    "single_shade_group": true,
+    "shade_names_once_each": true,
+    "six_original_cheek_wrist_texture_sets": true,
+    "original_cheek_crop_unchanged": true,
+    "other_sections_source_unchanged": true,
+    "hero_and_film_export_byte_identical": true,
+    "native_information_byte_identical": true,
+    "colour_height_at390_before": 1833.9,
+    "colour_height_at390_after": 1130.1,
+    "reduction_percent": 38.4,
+    "checks": [
+      {
+        "width": 320,
+        "all_images_loaded": true,
+        "no_horizontal_overflow": true,
+        "JS_disabled": true
+      },
+      {
+        "width": 390,
+        "all_images_loaded": true,
+        "no_horizontal_overflow": true,
+        "JS_disabled": true
+      },
+      {
+        "width": 860,
+        "all_images_loaded": true,
+        "no_horizontal_overflow": true,
+        "JS_disabled": true
+      }
+    ],
+    "cafe24_upload": false,
+    "owner_visual_acceptance": "pending"
+  },
+  "claude": {
+    "mode": "read-only, claude -p --no-session-persistence --output-format text",
+    "exit_code": 0,
+    "raw": "## 판정: 반복 문제는 해결됐습니다. 이미지만 보면 내보내기 전에 꼭 고칠 것은 없습니다\r\n\r\n**반복이 없어졌다고 보는 이유**\r\n- 색상 이름 6개가 각 칸 맨 위에 한 번씩만 나옵니다. 이전 판(final-colours-390)은 「손목 발색 비교」와 「볼 위의 발색」 두 구간에서 01~06 이름을 한 번씩 더 보여줬습니다. 이번 판에는 이 두 소제목이 없어져서 같은 순서가 두 번 나오는 일이 없습니다.\r\n- 색 설명 문구(부드러운 피치 핑크 등)도 칸마다 한 번씩만 있습니다.\r\n- 한 칸이 위에서부터 이름 → 볼 사진 → 손목+제형 → 색 설명 순서라서 한 색의 자료가 한곳에 모여 있습니다. 칸끼리 사이 간격도 충분해서 설명 문구가 다음 칸 이름에 붙어 보이지 않습니다.\r\n- 높이가 1834px에서 1130px로 줄어서 6색을 비교하려고 위아래로 오가는 거리가 짧아졌습니다.\r\n\r\n**320/390 화면에서 사진이 보이는지**\r\n- 볼 사진: 이전 판과 크기와 잘린 범위가 같아 보이고, 320에서도 볼 색이 서로 구분됩니다.\r\n- 손목 사진: 이전 판보다 작아졌습니다. 390에서는 약 105px, 320에서는 약 85px로 보입니다. 그래도 6색 모두 색 차이는 보입니다. 다만 01 백도와 06 살구처럼 비슷한 색끼리는 작은 크기에서 차이가 약하게 보입니다. 이건 원래 색이 비슷해서이기도 하고, 사진이 작아진 영향도 있습니다.\r\n- 제형 사진: 320에서는 지름 약 40px 정도지만 색과 광은 알아볼 수 있습니다.\r\n- 맨 아래 안내 문구(피부 톤과 사용량…)는 320에서 매우 작습니다. 이전 판과 같은 크기라서 새로 생긴 문제는 아닙니다.\r\n\r\n**꼭 고칠 것:** 없음\r\n\r\n**선택 사항(꼭 할 필요 없음)**\r\n1. 손목 사진 오른쪽에 빈 공간이 남아 칸이 왼쪽으로 쏠려 보입니다. 제형 사진을 세로 가운데에 맞추는 정도면 충분합니다.\r\n2. 영문 이름(WHITE PEACH SHAKE 등)이 이번 판에서 빠졌습니다. 일부러 뺀 것인지만 확인해 주세요.\r\n\r\n**확인하지 못한 것**\r\n- 실제 카페24 화면이나 기기별 화면 밝기·색 표현은 보지 않았습니다. PNG 3장만 봤습니다.\r\n- 손목 사진이 원본과 같은 범위로 잘렸는지는 원본 파일과 대조하지 않았습니다.\r\n- 고객 반응이나 판매에 미치는 영향은 판단할 수 없습니다.\r\n- 이 의견은 모델 검토일 뿐이고 사용자 승인을 대신하지 않습니다.\r\n",
+    "advisory_not_user_acceptance": true,
+    "tradeoff": "Wrist photos are smaller than rejected standalone panel; original cheek size and wrist crop retained."
+  },
+  "cafe24_upload": false
+}
