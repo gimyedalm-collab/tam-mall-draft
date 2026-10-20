@@ -1,0 +1,63 @@
+{
+  "version": "v2-20261020",
+  "images": [
+    {
+      "order": 1,
+      "file": "images/01-scene.jpg",
+      "width": 1680,
+      "height": 2460,
+      "display_width": 840,
+      "bytes": 380116,
+      "sha256": "64a97905e7ad551e34a922d7a232c9b2f6a8faed42ab78ffd73c036514381d5b",
+      "alt": "콧대는 은은하게, 윤곽은 또렷하게. 더 클라우드 하트 쉐이딩 듀오 LIGHT + DEEP 2 SHADES IN 1"
+    },
+    {
+      "order": 2,
+      "file": "images/02-results.jpg",
+      "width": 1680,
+      "height": 2520,
+      "display_width": 840,
+      "bytes": 508607,
+      "sha256": "2090460a7690d03f554a7dd6a8861b42c2b966fce86e345b7edda735d2bac1a2",
+      "alt": "MAKEUP LOOK 바르기 전과 후, 음영의 차이를 보세요. 콧대·코끝 라이트로 은은한 음영 BEFORE AFTER 광대 아래·턱선 딥으로 윤곽 정리 BEFORE AFTER 메이크업 연출 예시입니다. 피부 톤과 얼굴형, 사용량에 따라 표현이 달라질 수 있습니다."
+    },
+    {
+      "order": 3,
+      "file": "images/03-two-tones.jpg",
+      "width": 1680,
+      "height": 2020,
+      "display_width": 840,
+      "bytes": 278823,
+      "sha256": "ea5bc5af8bfc221203a511a134bc80ad712a212411023c0776d53ff696edcf01",
+      "alt": "LIGHT & DEEP 콧대부터 턱선까지, 한 제품으로. 가볍게 음영을 줄 때도, 윤곽을 더 잡고 싶을 때도. 양쪽에 담긴 두 색을 부위에 맞춰 골라 쓰세요. LIGHT · 옐로 케이스 콧대에는 밝은 색 눈썹 아래와 콧대 옆에 조금씩 바르고 펴주세요. DEEP · 블루 케이스 윤곽에는 진한 색 광대 아래와 턱선을 따라 바른 뒤 경계가 남지 않게 풀어주세요."
+    },
+    {
+      "order": 4,
+      "file": "images/04-real-colors.jpg",
+      "width": 1680,
+      "height": 2960,
+      "display_width": 840,
+      "bytes": 424567,
+      "sha256": "e3504440c8566c8b9591551e071a9b21e1c991db00c2d292f179dd279dbeb229",
+      "alt": "COLOR GUIDE 샌드와 포그, 피부 위에서 비교해보세요. 01 샌드 쉐이더 뉴트럴 소프트 브라운 · 웜 / 뉴트럴 톤 추천 라이트 딥 02 포그 쉐이더 차분한 애쉬 브라운 · 쿨 톤 추천 라이트 딥 피부에 올렸을 때의 색도 확인하세요. 위쪽 두 색 — 샌드 아래쪽 두 색 — 포그 발색은 피부 톤과 사용량, 화면 설정에 따라 다르게 보일 수 있습니다."
+    },
+    {
+      "order": 5,
+      "file": "images/05-how-to.jpg",
+      "width": 1680,
+      "height": 2200,
+      "display_width": 840,
+      "bytes": 320144,
+      "sha256": "99b20bcb46961b9ec7b2efed840a5b4b7b837f6a8b682e75434d386f42934cb4",
+      "alt": "HOW TO USE 돌려서 열고, 바르고, 펴주세요. 손끝이나 브러시로 경계를 풀어주면 음영이 자연스럽게 이어집니다. 01 하트 모양으로 돌려 펼치기 사용할 색이 있는 쪽의 캡을 열어주세요. 02 필요한 부위에 조금씩 바르기 콧대에는 라이트, 광대 아래와 턱선에는 딥. 03 손끝이나 브러시로 경계 풀기 가장자리부터 가볍게 두드리며 펴주세요. 더 클라우드 하트 쉐이딩 듀오 2.1g × 2"
+    }
+  ],
+  "composition": "high-resolution scenes, existing makeup comparisons, two-tone usage, skin swatches, how-to, product information",
+  "status": {
+    "prepared": true,
+    "owner_visual_acceptance": "pending",
+    "cafe24_upload": "deferred_by_owner",
+    "physical_device_qa": "not_performed"
+  },
+  "media_note": "Makeup examples and skin swatches reuse embedded images from the existing model-removed detail master. Before/after order and original color are retained. No new face retouching or generative effects."
+}
