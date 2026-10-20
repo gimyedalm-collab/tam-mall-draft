@@ -762,7 +762,7 @@
       "cafe24_upload": "deferred_by_owner"
     },
     "cloud_typography_refinement_v9_20261020": {
-      "status": "package_verified; owner_visual_acceptance_pending",
+      "status": "archived_baseline; owner_authorized_targeted_refinement_v10",
       "source": "cloud-blush-v9/index.html",
       "review": "cloud-blush-v9/review/index.html",
       "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
@@ -770,6 +770,18 @@
       "qa": "cloud-blush-v9/qa.json",
       "change": "Remove reference-specific serif/italic/halos/chips/oval/frame; TAM sans typography; shorter duplicate copy",
       "preserved": "V8 section order, hero/photo/crop geometry, all source image bytes, two delivery GIF bytes, native information",
+      "physical_shade_verified": false,
+      "cafe24_upload": "deferred_by_owner"
+    },
+    "cloud_mobile_refinement_v10_20261020": {
+      "status": "package_verified; owner_visual_acceptance_pending",
+      "source": "cloud-blush-v10/index.html",
+      "review": "cloud-blush-v10/review/index.html",
+      "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
+      "plan": "cloud-blush-v10/plan.json",
+      "qa": "cloud-blush-v10/qa.json",
+      "changes": "Stronger hero/texture hierarchy, smaller regular headings, shorter introduction, 60/40 cheek rows, native Korean information style",
+      "preserved": "Section order, claims, all source image bytes, original colour, both delivery GIF bytes, product facts and INCI text",
       "physical_shade_verified": false,
       "cafe24_upload": "deferred_by_owner"
     }

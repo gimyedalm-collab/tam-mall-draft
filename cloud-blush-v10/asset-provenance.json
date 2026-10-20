@@ -1,0 +1,152 @@
+{
+  "images": [
+    {
+      "file": "cloud-blush-v8/assets/product-1-2.png",
+      "sha256": "2f6038eda6b2fc3515283acdb9bb855fc2ddf0df6740f37acd177d8a057cbcf9",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v8/assets/product-6-2.png",
+      "sha256": "ceafbb8619fe13b8629eaa4f385e7ff4f505b64808e78e48cba1e8b178b8d48e",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v8/assets/product-2-1.png",
+      "sha256": "ff2ce2230f3808caa8c89550ba1eac7f216dd39099d72f8e77fd22d2a06a6900",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v3/assets/ending.jpg",
+      "sha256": "1ea4efb6e4bb61c241fd72368da8a2dd7419eb47a372fb6febaa9f23d2ad819d",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v6/assets/arm-1.jpg",
+      "sha256": "70e4f2e76820e042d4456259a962325791011412b3af68c801a026bb6eaeed7e",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v6/assets/arm-2.jpg",
+      "sha256": "389669a688ae4ae66edab7e537edfc03d53e46d8c8b03a5cd255803150b8e94c",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v6/assets/arm-3.jpg",
+      "sha256": "0e74a2f9c5c68ee468ce8b9b17f1ded2ce1774b5f24953bdbfda512af8dcac4f",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v6/assets/arm-4.jpg",
+      "sha256": "adf0615c9f459f5751bfdf380966df22a2f6adc89fa1f5816e178c05e0bfa68b",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v6/assets/arm-5.jpg",
+      "sha256": "9bfc96ff360721a537fad83b978343723ddd739d9a2116c87b42bd0f826fe819",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v6/assets/arm-6.jpg",
+      "sha256": "036c370c7b8bc9281eda21dfff997b2eb92484c6293ec3b2355731db81096402",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/texture-1-original.png",
+      "sha256": "8d03cf9dfc1c5508a302ac15ec1e33680d336c41ba701f32183157f9b69f4a69",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/texture-2-original.png",
+      "sha256": "7bd709c9870012c0f234a8380d9f5c6f53d093aba1ec880e160e8ee3bdff7985",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/texture-3-original.png",
+      "sha256": "4434bdb1c86b51fc8142814657ec2aab321bb7f5eb6432ae7e541797503573fe",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/texture-4-original.png",
+      "sha256": "cbf40a7b4f3e2f4b2e35ac05abf0e6480efbf395f3de9dbe92e6995dbbe29579",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/texture-5-original.png",
+      "sha256": "4365ea741e2460824bbd428b9f9d66d561f0a0fb3c5e4e5a95805567f2e22300",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/texture-6-original.png",
+      "sha256": "77c63ea13887a058b9c988774ad0f38f85fe357dd1e335c69258e1e539dbdf82",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/cheek-1-r1.jpg",
+      "sha256": "fe35da2bb1900331e158bc5909c47a61ab55adaa970c1264577d772eef8591ec",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/cheek-2-r1.jpg",
+      "sha256": "75715a79385414b326d5d81aebb29c7f591aa4bbb9b0e1f30f1caf40a5b251fb",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/cheek-3-r1.jpg",
+      "sha256": "74f4ca7543f76fb4d8fb78ba9b81acd66fc846c11d3084c121a515b3b9e2a8b4",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/cheek-4-r1.jpg",
+      "sha256": "7ce31048ad1012bf61a61e19899a859b960fea81ad5a63ed062e2e124637e52e",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/cheek-5-r1.jpg",
+      "sha256": "b1fe596da14f752c47ef49e5433c1dbf5ab9ee8ee03127977a8b93219fbb0125",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/cheek-6-r1.jpg",
+      "sha256": "e8aed14322bc392b5a0cf295cf61a845f28d3d81a4a811c0c690fa528bc903ac",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/texture-touch.gif",
+      "sha256": "431bb7dff71d754d8dee05e5e3a7f9812589733ace75f0e04d373f96c634d034",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v6/assets/formula-clear-oil-261019.jpg",
+      "sha256": "34928aa85ac24b5f28749427790dca77e78cd2ad91b6d02953c3c1bce0186d27",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v8/assets/product-4-1.png",
+      "sha256": "c433fdd035f5d2e88832bd6dd117d4d80a19ef6530d7cd390d115a2a0ed4684c",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/howto-spread.gif",
+      "sha256": "305361ca015fa75fbc6356f9bdc4caa65c808df81f3edb5080afe2d3f5457c28",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/vegan-background.png",
+      "sha256": "b0c27f767018797efea4ee8b0fd448ce72d6390265611d829c0d611dc71dafd1",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v7/assets/compact-original.png",
+      "sha256": "f4a16649e0dd557b1db760348db301004f72dd071b49d0aa9875ed883f8df35d",
+      "unchanged_from_v9": true
+    },
+    {
+      "file": "cloud-blush-v3/assets/tam-logo.svg",
+      "sha256": "ab3c90286c5440ceb11a4ac591cbbc10a049a659b57fe7316363a3706a869e24",
+      "unchanged_from_v9": true
+    }
+  ],
+  "two_delivery_GIFs_byte_identical_to_v9": true,
+  "recolouring": false,
+  "new_generation": false
+}

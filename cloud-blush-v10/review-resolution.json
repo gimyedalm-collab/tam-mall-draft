@@ -1,0 +1,20 @@
+{
+  "basis": "Owner-approved V9 mobile audit, including earlier read-only nonpersistent Claude consultation. No new Claude consultation claimed for V10.",
+  "changes": [
+    "Hero34px and texture32px versus regular26px source titles; body and colour labels remain readable.",
+    "Remove generic English eyebrows, reduce hero and introduction spacing; preserve section order.",
+    "60/40 cheek rows with132px height; widen framing while preserving original photo rendering size. Longest colour name visually checked at320px.",
+    "Native information12px, Korean system font, narrower table labels, word wrapping and INCI rules; facts/text equality verified.",
+    "Avoid neighboring-photo strips caused by outward locator screenshot rounding. Export clips aligned inside panel bounds; all six row footers pixel-checked."
+  ],
+  "preserved": [
+    "Six simultaneous wrist swatches and six named real cheek swatches",
+    "All source image files and both exported GIF hashes",
+    "Claim scope and complete ingredient text"
+  ],
+  "not_changed": "Existing touch/application footage does not become a new powder-transformation test. No fabricated finish image added.",
+  "verification": "320/390/860 packaged browser checks, source typography and clipping, ZIP/hash checks, original-source comparisons",
+  "owner_visual_acceptance": "pending",
+  "physical_shade_match": "unverified",
+  "cafe24_upload": "deferred_by_owner"
+}

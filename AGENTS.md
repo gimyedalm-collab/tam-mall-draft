@@ -793,3 +793,19 @@ are preserved. Six wrist shades and six named face swatches remain present.
 Source fonts are rasterized in delivery. Actual Cafe24 upload/save/device
 verification remain deferred; owner visual acceptance and physical shade match
 are distinct from passed package QA. V8 remains archived as comparison.
+
+
+## Cloud V10 modest mobile refinement - 2026-10-20
+
+Owner approves a small refinement after the V9 typography audit. Current source
+cloud-blush-v10; comparison cloud-blush-v10/review; Cafe24 delivery URL unchanged.
+Hero34 and texture32 source px have stronger hierarchy than regular26px titles.
+Generic English labels and introduction spacing reduced. Six cheek rows use
+60/40 photo-to-label ratio; photo rendering size preserved while framing widens.
+All original asset paths and two exported GIF hashes are unchanged; no colour
+grading or new imagery. Native information remains12px; Korean system font,
+table wrapping and INCI separators refined. Product facts and INCI text remain
+identical, but HTML bytes intentionally differ due to formatting. Source order
+and product claims unchanged. Existing touch footage is not a new proof of
+powder transformation. Owner acceptance and physical shade validation remain
+pending; actual Cafe24 upload/save/device verification explicitly deferred.
