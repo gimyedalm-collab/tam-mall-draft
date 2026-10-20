@@ -742,3 +742,18 @@ oil-control/blur language is cosmetic positioning, not new clinical proof.
 Owner visual acceptance remains pending. Actual Cafe24 upload, administrator
 save and physical-device verification remain explicitly deferred. Other product
 details and native commerce are unchanged.
+
+## Powder Balm V2 benefit-led TAM revision - 2026-10-20
+
+Owner finds V1 too different from existing TAM detail and wants more value than
+a blotting-paper substitute. Owner explicitly approves revised direction and
+copy: “번들거림 잡고, 피부결까지 매끈하게.” This supersedes the V1 hero hook.
+Current source: powder-balm-v2/layout.html. The existing Cafe24 preview/package
+URL now serves V2. Large supplied product/puff/texture flatlay, centered benefit
+copy, neutral type and white/pale-blue sections restore the TAM family tone.
+Literal nose/forehead use definition precedes the photo; actual puff footage
+follows directly. Blotting-paper wording remains only in touch-up use guidance.
+No source colour/exposure correction, synthetic efficacy or quantified direct
+comparison. V1 source and masters retained. Native product facts unchanged.
+Record: ops/cafe24/powder-balm-v2-20261020.json. Visual acceptance pending;
+actual Cafe24 upload and physical-device checks remain deferred.

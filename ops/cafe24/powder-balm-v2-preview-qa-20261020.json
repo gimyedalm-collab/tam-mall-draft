@@ -1,0 +1,267 @@
+{
+  "version": 2,
+  "product_no": 111,
+  "viewports": [
+    {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "01-hero.jpg?v=2",
+          "loaded": true,
+          "width": 320,
+          "height": 411
+        },
+        {
+          "src": "02-where-to-use.gif?v=2",
+          "loaded": true,
+          "width": 320,
+          "height": 193
+        },
+        {
+          "src": "03-blur.gif?v=2",
+          "loaded": true,
+          "width": 320,
+          "height": 376
+        },
+        {
+          "src": "04-balm-texture.jpg?v=2",
+          "loaded": true,
+          "width": 320,
+          "height": 409
+        },
+        {
+          "src": "05-three-uses.jpg?v=2",
+          "loaded": true,
+          "width": 320,
+          "height": 489
+        },
+        {
+          "src": "06-how-to.jpg?v=2",
+          "loaded": true,
+          "width": 320,
+          "height": 424
+        },
+        {
+          "src": "07-product.jpg?v=2",
+          "loaded": true,
+          "width": 320,
+          "height": 474
+        }
+      ],
+      "heroAndApplicationHeight": 604.265625,
+      "height": 3774
+    },
+    {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "01-hero.jpg?v=2",
+          "loaded": true,
+          "width": 390,
+          "height": 501
+        },
+        {
+          "src": "02-where-to-use.gif?v=2",
+          "loaded": true,
+          "width": 390,
+          "height": 236
+        },
+        {
+          "src": "03-blur.gif?v=2",
+          "loaded": true,
+          "width": 390,
+          "height": 458
+        },
+        {
+          "src": "04-balm-texture.jpg?v=2",
+          "loaded": true,
+          "width": 390,
+          "height": 499
+        },
+        {
+          "src": "05-three-uses.jpg?v=2",
+          "loaded": true,
+          "width": 390,
+          "height": 596
+        },
+        {
+          "src": "06-how-to.jpg?v=2",
+          "loaded": true,
+          "width": 390,
+          "height": 517
+        },
+        {
+          "src": "07-product.jpg?v=2",
+          "loaded": true,
+          "width": 390,
+          "height": 578
+        }
+      ],
+      "heroAndApplicationHeight": 736.453125,
+      "height": 4285
+    },
+    {
+      "viewport": 430,
+      "scrollWidth": 430,
+      "images": [
+        {
+          "src": "01-hero.jpg?v=2",
+          "loaded": true,
+          "width": 430,
+          "height": 552
+        },
+        {
+          "src": "02-where-to-use.gif?v=2",
+          "loaded": true,
+          "width": 430,
+          "height": 260
+        },
+        {
+          "src": "03-blur.gif?v=2",
+          "loaded": true,
+          "width": 430,
+          "height": 505
+        },
+        {
+          "src": "04-balm-texture.jpg?v=2",
+          "loaded": true,
+          "width": 430,
+          "height": 550
+        },
+        {
+          "src": "05-three-uses.jpg?v=2",
+          "loaded": true,
+          "width": 430,
+          "height": 657
+        },
+        {
+          "src": "06-how-to.jpg?v=2",
+          "loaded": true,
+          "width": 430,
+          "height": 570
+        },
+        {
+          "src": "07-product.jpg?v=2",
+          "loaded": true,
+          "width": 430,
+          "height": 637
+        }
+      ],
+      "heroAndApplicationHeight": 812,
+      "height": 4594
+    },
+    {
+      "viewport": 860,
+      "scrollWidth": 860,
+      "images": [
+        {
+          "src": "01-hero.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1104
+        },
+        {
+          "src": "02-where-to-use.gif?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 520
+        },
+        {
+          "src": "03-blur.gif?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1010
+        },
+        {
+          "src": "04-balm-texture.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1100
+        },
+        {
+          "src": "05-three-uses.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1314
+        },
+        {
+          "src": "06-how-to.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1140
+        },
+        {
+          "src": "07-product.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1274
+        }
+      ],
+      "heroAndApplicationHeight": 1624,
+      "height": 8172
+    },
+    {
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "01-hero.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1104
+        },
+        {
+          "src": "02-where-to-use.gif?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 520
+        },
+        {
+          "src": "03-blur.gif?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1010
+        },
+        {
+          "src": "04-balm-texture.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1100
+        },
+        {
+          "src": "05-three-uses.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1314
+        },
+        {
+          "src": "06-how-to.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1140
+        },
+        {
+          "src": "07-product.jpg?v=2",
+          "loaded": true,
+          "width": 860,
+          "height": 1274
+        }
+      ],
+      "heroAndApplicationHeight": 1624,
+      "height": 8172
+    }
+  ],
+  "composition_matches_cafe24_fragment": true,
+  "source_media_count": 7,
+  "custom_js_fonts_or_video_host_required": false,
+  "all_media_below_4_9_MB": true,
+  "native_information_rows": 9,
+  "cafe24_live_upload_verified": false,
+  "physical_device_verified": false,
+  "source_text_and_image_clipping": [],
+  "visual_review": "Passed: mobile first screen and full scroll, larger original flatlay, readable headline/use definition, product/texture panels and GIF application frames.",
+  "native_information_byte_identical_to_v1": true,
+  "v1_source_files_unchanged": true
+}

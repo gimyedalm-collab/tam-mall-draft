@@ -10,7 +10,7 @@ from PIL import Image
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[2]
-DESIGN = ROOT / 'powder-balm-v1'
+DESIGN = ROOT / 'powder-balm-v2'
 OUT = ROOT / 'cafe24-delivery-20261020/powder-balm'
 
 def digest(p):
@@ -24,7 +24,7 @@ def main():
     parser.add_argument('--source',type=Path,required=True)
     parser.add_argument('--facts',type=Path,required=True)
     args=parser.parse_args()
-    assets=DESIGN/'assets'; assets.mkdir(parents=True,exist_ok=True)
+    assets=ROOT/'powder-balm-v1/assets'; assets.mkdir(parents=True,exist_ok=True)
     OUT.mkdir(parents=True,exist_ok=True)
     provenance=[]
     for key,rel,box in [
@@ -39,6 +39,10 @@ def main():
     still=next((args.source/'연출컷').glob('*２.jpg'))
     shutil.copy2(still,assets/'still-life.jpg')
     provenance.append({'asset':'powder-balm-v1/assets/still-life.jpg','source_relative':still.relative_to(args.source).as_posix(),'sha256':digest(still),'treatment':'Original bytes; square fit.'})
+    hero=next((args.source/'연출컷').glob('*１.jpg'))
+    hero_dest=DESIGN/'assets/hero-flatlay.jpg'; hero_dest.parent.mkdir(parents=True,exist_ok=True)
+    shutil.copy2(hero,hero_dest)
+    provenance.append({'asset':hero_dest.relative_to(ROOT).as_posix(),'source_relative':hero.relative_to(args.source).as_posix(),'sha256':digest(hero),'treatment':'Original bytes; browser geometric crop only. No creative colour or exposure adjustment.'})
     clips={}
     for key,name,start,duration in [('forehead','이마 수정.mp4',.8,3),('nose','코 수정.mp4',.8,3),('cheek','나비존 수정.mp4',1.2,3)]:
         src=args.source/'외주/파우더 밤 수정'/name
@@ -94,15 +98,15 @@ def main():
     info=f'<div data-tam-product-info="powder-balm" style="padding:30px 5%;background:#fff;color:#40545b;text-align:left;font-family:Arial,sans-serif;font-size:12px;line-height:1.6;box-sizing:border-box"><h2 style="font-size:16px;margin:0 0 16px">상품 정보 · 전성분</h2><table style="border-collapse:collapse;width:100%;table-layout:fixed;font-size:12px;line-height:1.6"><tbody>{rows}</tbody></table><h3 style="font-size:14px;margin:25px 0 8px">전성분</h3><p style="margin:0;overflow-wrap:anywhere">{html.escape(inci)}</p><h3 style="font-size:14px;margin:25px 0 8px">보관 안내</h3><p style="margin:0">고온에 장시간 노출될 경우 내용물 색상이 하늘색에서 연두색으로 변할 수 있습니다. 직사광선을 피해 서늘한 곳에 보관해주세요.</p></div>'
     (OUT/'product-information.html').write_text(info,encoding='utf-8')
     def fragment(prefix):
-        tags=''.join(f'<img src="{prefix}{m["file"]}" width="{m["width"]}" height="{m["height"]}" alt="{html.escape(m["alt"],quote=True)}" style="display:block;width:100%;height:auto;border:0;margin:0"'+(' fetchpriority="high"' if m['order']==1 else '')+'>' for m in media)
+        tags=''.join(f'<img src="{prefix}{m["file"]}?v=2" width="{m["width"]}" height="{m["height"]}" alt="{html.escape(m["alt"],quote=True)}" style="display:block;width:100%;height:auto;border:0;margin:0"'+(' fetchpriority="high"' if m['order']==1 else '')+'>' for m in media)
         return f'<div style="max-width:860px;margin:0 auto;background:#fff">{tags}{info}</div>'
     local=fragment('')
     (OUT/'detail.local.html').write_text(local,encoding='utf-8')
     (OUT/'detail.cafe24.html').write_text(fragment('/web/upload/tam-detail-20261020/powder-balm/'),encoding='utf-8')
     (OUT/'index.html').write_text('<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>탐뷰티 더 클라우드 필터 파우더 밤</title><meta name="robots" content="noindex"><style>body{margin:0;background:#eef3f4}img{max-width:100%}</style></head><body>'+local+'</body></html>',encoding='utf-8')
-    manifest={'product_no':111,'product':'더 클라우드 필터 파우더 밤','date':'2026-10-20','version':1,'status':{'delivery_prepared':True,'preview_verified':False,'owner_visual_acceptance':'pending','cafe24_uploaded':False,'actual_device_verified':False},'delivery_prefix':'/web/upload/tam-detail-20261020/powder-balm/','hero_intent':'First 540 CSS px at 430 wide: use location (nose/forehead), function (oil-control balm powder), supplied puff application.','media':media,'product_information_sha256':digest(OUT/'product-information.html'),'source_manifest':'../../powder-balm-v1/source-manifest.json','claims_note':'Oil-control/blur and three use cases reflect existing official product positioning, not new clinical substantiation. No 6h, ZERO, unqualified non-irritation, review counts, or unverified certification claim.','media_note':'Supplied product-specific footage. No Dasha archive imagery or unverified vertical V1–V3 footage. No AI-generated product or skin images. GIF colour quantization is unavoidable; no creative colour correction or claim of physically validated colour.','upload_note':'Owner deferred actual Cafe24 upload. Paths are planned, not live.'}
+    manifest={'product_no':111,'product':'더 클라우드 필터 파우더 밤','date':'2026-10-20','version':2,'status':{'delivery_prepared':True,'preview_verified':False,'owner_visual_acceptance':'pending','cafe24_uploaded':False,'actual_device_verified':False},'delivery_prefix':'/web/upload/tam-detail-20261020/powder-balm/','hero_intent':'Benefit-led headline, literal use definition before 200 CSS px, large original product/puff/texture photograph, followed immediately by actual forehead/nose application.','media':media,'product_information_sha256':digest(OUT/'product-information.html'),'source_manifest':'../../powder-balm-v2/source-manifest.json','claims_note':'Oil-control/blur and three use cases reflect existing official product positioning, not new clinical substantiation. No 6h, ZERO, unqualified non-irritation, review counts, or unverified certification claim.','media_note':'Supplied product-specific footage. No Dasha archive imagery or unverified vertical V1–V3 footage. No AI-generated product or skin images. GIF colour quantization is unavoidable; no creative colour correction or claim of physically validated colour.','upload_note':'Owner deferred actual Cafe24 upload. Paths are planned, not live.'}
     (OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
-    (OUT/'README.txt').write_text('TAM 파우더 밤 · 카페24 등록 준비본 V1\n\n01~07 파일을 번호순으로 사용합니다. index.html은 동일 파일과 동일 상품정보의 미리보기입니다.\nGIF는 원본 속도, 12fps, 3회 재생 후 정지합니다. 모든 파일은 4.9MB 미만입니다.\n\n예정 업로드 경로: /web/upload/tam-detail-20261020/powder-balm/\n업로드 후 detail.cafe24.html을 상품 111 상세 영역에 사용합니다.\n실제 업로드/관리자 저장/실기기 검증은 소유자 요청으로 보류 상태입니다.\n제작 완료, 소유자 시안 승인, 실제 업로드는 별도 상태입니다.\n\n외부 폰트, 사용자 정의 JavaScript, 영상 호스팅은 업로드 패키지에 필요하지 않습니다.\n원본과 출처·도포 영상 구간은 powder-balm-v1/source-manifest.json에 기록했습니다.\n원본 색상에 새로운 보정을 하지 않았으며 상류 보정 여부나 실물 색 정확도를 보증하지 않습니다.\n',encoding='utf-8')
+    (OUT/'README.txt').write_text('TAM 파우더 밤 · 카페24 등록 준비본 V2\n\n01~07 파일을 번호순으로 사용합니다. index.html은 동일 파일과 동일 상품정보의 미리보기입니다.\nGIF는 원본 속도, 12fps, 3회 재생 후 정지합니다. 모든 파일은 4.9MB 미만입니다.\n\n예정 업로드 경로: /web/upload/tam-detail-20261020/powder-balm/\n업로드 후 detail.cafe24.html을 상품 111 상세 영역에 사용합니다.\n실제 업로드/관리자 저장/실기기 검증은 소유자 요청으로 보류 상태입니다.\n제작 완료, 소유자 시안 승인, 실제 업로드는 별도 상태입니다.\n\n외부 폰트, 사용자 정의 JavaScript, 영상 호스팅은 업로드 패키지에 필요하지 않습니다.\n원본과 출처·도포 영상 구간은 powder-balm-v2/source-manifest.json에 기록했습니다.\n원본 색상에 새로운 보정을 하지 않았으며 상류 보정 여부나 실물 색 정확도를 보증하지 않습니다.\n',encoding='utf-8')
     pack=OUT.parent/'powder-balm-cafe24.zip'
     with zipfile.ZipFile(pack,'w',zipfile.ZIP_DEFLATED) as z:
         for f in sorted(OUT.iterdir()):

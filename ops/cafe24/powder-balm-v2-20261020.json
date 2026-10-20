@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-20",
+  "product_no": 111,
+  "version": 2,
+  "owner_direction": "기존 탐뷰티 상세의 결에 맞추고 기름종이 대체를 넘어 피부 표현의 이점을 전달하는 방향으로 제작 승인.",
+  "approved_headline": "번들거림 잡고, 피부결까지 매끈하게.",
+  "definition": "코·이마의 번들거림과 모공 부각을 정돈하는 밤 타입 파우더.",
+  "changes": [
+    "Original product/puff/texture flatlay enlarged in hero",
+    "Centered benefit copy, neutral text, white and pale-blue surfaces",
+    "Use definition above photo; forehead/nose footage immediately after hero",
+    "Blotting-paper language retained only for touch-up use"
+  ],
+  "preview": "cafe24-delivery-20261020/powder-balm/index.html",
+  "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
+  "source_layout": "powder-balm-v2/layout.html",
+  "source_manifest": "powder-balm-v2/source-manifest.json",
+  "qa": "ops/cafe24/powder-balm-v2-preview-qa-20261020.json",
+  "evidence_base": "ops/cafe24/powder-balm-v1-20261020.json",
+  "claim_scope": "Existing cosmetic oil-control and blur positioning, not new clinical proof or quantified superiority to blotting paper.",
+  "native_information_byte_identical_to_v1": true,
+  "v1_source_files_unchanged": true,
+  "package_sha256": "ca5c8034588f78a4cb9f939f0964408a6ee82d6a976db41cd318ee48a3072e3d",
+  "package_bytes": 8305841,
+  "status": {
+    "delivery_prepared": true,
+    "preview_verified": true,
+    "owner_visual_acceptance": "pending",
+    "production_cafe24_changed": false,
+    "actual_device_verified": false,
+    "upload": "Deferred by owner"
+  },
+  "media_treatment": "Provided originals and existing application segments; geometric framing and GIF conversion only. No synthetic skin, Dasha material or creative colour/exposure edits. Upstream treatment and physical colour accuracy unverified."
+}
