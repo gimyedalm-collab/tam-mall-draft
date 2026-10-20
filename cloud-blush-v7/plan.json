@@ -1,0 +1,25 @@
+{
+  "status": "assembly_plan_before_design",
+  "reference": "https://www.freshian.com/product/detail.html?product_no=157",
+  "reference_snapshot": "../cloud-blush-v6/review/reference-exact-20261020/reference.jpg",
+  "principle": "기존에 대조한 프레시안의 섹션 순서와 이미지 역할을 유지하고 탐뷰티의 서체·라벤더·플럼 색감을 적용한다.",
+  "sections": [
+    {"id":"hero","ref":"01","purpose":"제품명과 크림투파우더 USP 인지","evidence":"기존 TAM 히어로와 사용자 확인 제형","asset":"기존 히어로 유지 + 원본 6종 제품 사진 1회"},
+    {"id":"palette","ref":"03","purpose":"여섯 색 전체를 한 화면 단위에서 비교","evidence":"공식 6종명, 제공 손목 사진, 제공 제형 사진","asset":"손목 3열×2행, 제형 3열×2행; 서로 다른 사진을 한 팔처럼 합성하지 않음"},
+    {"id":"faces","ref":"04–06","purpose":"각 색이 얼굴에서 보이는 결과 확인","evidence":"제공 외주 발색 1차 세트 전체; 실물 색 검수 미완료","asset":"얼굴 왼쪽/색상 설명 오른쪽의 큰 가로 행 6개; AI 발색·색 보정 없음"},
+    {"id":"texture","ref":"07","purpose":"바를 때의 크림과 보송한 마무리의 차이 전달","evidence":"사용자 제형 설명 + 기존 원본 제형 영상","asset":"원본 0.3–1.5초 짧은 GIF; 연속 변환 실험으로 주장하지 않음"},
+    {"id":"formula","ref":"09","purpose":"배합된 네 가지 식물성 오일 설명","evidence":"모든 6종 전성분에 같은 네 오일 존재","asset":"기존 맑은 오일 연출 이미지 1회; 함량·보습 수치 없음"},
+    {"id":"howto","ref":"10","purpose":"소량 도포와 경계 풀기 안내","evidence":"기존 제품 사용법","asset":"원본 3.1–5.1초 도포 GIF; 제품 모음 사진으로 대체하지 않음"},
+    {"id":"vegan","ref":"11","purpose":"브랜드 비건 포뮬러 정보 전달","evidence":"기존 TAM 공식 비건 문구","asset":"원본 제품 누끼를 활용한 독립적인 밝은 정물 디자인; 새 인증·무첨가 주장 없음"},
+    {"id":"check","ref":"12","purpose":"공식 사용 기한과 구매 정보 확인","evidence":"기존 공식 상품정보·전성분 HTML의 개봉 전 36개월·개봉 후 12개월","asset":"짧은 사용 기한 안내 후 기존 12px 네이티브 정보 그대로"}
+  ],
+  "exceptions": ["02 신규 컬러: 신규 출시 근거가 없어 생략", "08 공동개발 스토리: 자료가 없어 생략", "웜·뮤트·쿨 분류: 확인된 기준이 없어 색상 번호/이름으로 대체", "12색은 TAM 6색으로 변경", "타사 비교·77%·효능 수치는 전용하지 않음"],
+  "claims": [
+    {"copy":"크림처럼 사르르, 파우더처럼 보송하게.","evidence":"사용자가 명시한 크림투파우더 제형 + 기존 브랜드 문안","grade":"supported_product_description","limit":"임상 입증 또는 원본 영상의 연속 변화 증명으로 표현하지 않음"},
+    {"copy":"여섯 가지 컬러","evidence":"공식 제품 110 색상명과 제공 6종 원본","grade":"supported"},
+    {"copy":"네 가지 식물성 오일 함유","evidence":"기존 전성분의 살구씨·동백나무씨·올리브·서양자두씨오일","grade":"supported","limit":"성분 함유만; 보습·저자극 효능 확장 없음"},
+    {"copy":"비건 포뮬러","evidence":"기존 TAM 공식 문구","grade":"brand_claim","limit":"새 인증마크·기관명·무첨가 항목 없음"},
+    {"copy":"얼굴 발색 사진","evidence":"제공 외주 1차 사진 6장","grade":"provisional_visual","limit":"원본 사진 재사용 여부와 실물 색 정확성은 별개. 후자 미검수"}
+  ],
+  "delivery": {"format":"Cafe24 JPG/PNG + GIF + native product information","no_js":true,"no_external_fonts":true,"upload":"deferred_by_owner","owner_acceptance":"pending"}
+}

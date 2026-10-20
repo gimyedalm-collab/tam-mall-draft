@@ -674,3 +674,50 @@ required a one-output-pixel compositing shift on re-export. No new creative
 colour/exposure change. Read-only nonpersistent Claude planning/render critique
 and 320/390/860 package QA completed. Owner acceptance remains pending.
 Review: cafe24-delivery-20261019/cloud-reference-review/. Cafe24 upload deferred.
+
+
+## Cloud owner challenges colour-first and missing face swatches - 2026-10-20
+
+Owner rejects the missing face-swatch role and questions swatches immediately
+after hero. 7235d65 is not accepted. Separate optional model mood content from
+essential named cheek evidence. Current turn is planning only: recommend hero,
+texture/use, ONE face+wrist six-colour group, formula, product ending, native
+information. Do not restore the strong second-revision cheeks automatically or
+assume first revision is physically accurate. Keep colour sources unrecoloured,
+revisions consistent, and colour-baseline uncertainty explicit. Plan/read-only
+nonpersistent Claude critique: cloud-blush-v6/review/face-order-20261020.html.
+No customer page or Cafe24 upload was changed in this planning turn.
+
+
+## Cloud owner requests direct reference structure - 2026-10-20
+
+Supersedes the immediately preceding texture-first replan: owner requests one
+previously collected reference copied in section order/layout, adjusting TAM
+design colours only. Preserve original product/shade colours. Current working
+reference remains Freshian official product157; the full source and all visible
+heading regions are mapped in cloud-blush-v6/review/reference-exact-20261020/.
+Do not call the earlier condensed six-section plan an exact reference match.
+New-colour, tone classification and artist-development sections have source
+fact/asset gaps; record them openly, never invent corresponding TAM claims.
+This turn creates the literal crosswalk only; customer detail remains unchanged.
+
+
+## Cloud reference assembly V7 - 2026-10-20
+
+Owner authorizes section-by-section assembly using the frozen Freshian product157
+reference and evidence before design. Current source is cloud-blush-v7; review
+is cloud-blush-v7/review/. Current Cafe24 preparation package is the matching
+cafe24-delivery-20261019/cloud-blush/. Hero and native information unchanged.
+Whole-palette wrist/texture overview precedes six large horizontal cheek rows,
+then cream-to-powder, four oils, actual use, vegan, official expiry and info.
+Latest direct-reference instruction governs role-specific palette/face labels;
+do not revert to the earlier condensed v6 one-grid plan. No new-colour, tone
+classification, artist development or competitor efficacy claims.
+Faces use the entire supplied first revision, without recolouring; physical
+shade accuracy remains unverified. Texture photos use all six original
+transparent sources after a visible discrepancy in supplied 04 background art.
+No Dasha portrait assets. Only the new vegan background was generated; original
+product cutout is composited separately. Two short GIFs use different original
+segments; no MP4 dependency. 320/390/860 package checks and nonpersistent
+read-only Claude critique completed; dispositions are recorded, not blanket
+approval. Owner visual approval pending; actual Cafe24 upload remains deferred.

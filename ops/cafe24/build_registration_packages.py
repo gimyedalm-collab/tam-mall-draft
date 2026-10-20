@@ -111,6 +111,12 @@ with sync_playwright() as pw:
     b=pw.chromium.launch()
     for key,name,source,selector,motions in CONFIG:
         if len(sys.argv)>1 and key not in sys.argv[1:]:continue
+        if key=='cloud-blush' and (ROOT/'cloud-blush-v7/index.html').exists():
+            # Preserve the owner's current literal-reference assembly, including
+            # six first-revision cheeks and two separate source GIFs.
+            for script in ('export_cloud_blush_v7.py','verify_cloud_blush_v7.py','promote_cloud_blush_v7.py'):
+                subprocess.run([sys.executable,str(ROOT/'ops/cafe24'/script)],check=True)
+            continue
         print('Building',key,flush=True)
         dest=OUT/key;(dest/'images').mkdir(parents=True,exist_ok=True)
         cached=json.loads((dest/'manifest.json').read_text(encoding='utf-8'))['files'] if (dest/'manifest.json').exists() else []

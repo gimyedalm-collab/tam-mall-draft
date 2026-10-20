@@ -703,7 +703,7 @@
       "cafe24_upload": false
     },
     "cloud_reference_usp_20261020": {
-      "status": "implemented_and_local_QA_complete; owner_visual_acceptance_pending",
+      "status": "owner_requires_revision_order_and_face_swatches; not_accepted",
       "review": "cafe24-delivery-20261019/cloud-reference-review/index.html",
       "record": "ops/cafe24/cloud-reference-usp-20261020.json",
       "sequence": [
@@ -717,6 +717,34 @@
       "physical_colour_verified": false,
       "cafe24_upload": "deferred_by_owner",
       "actual_device_verified": false
+    },
+    "cloud_face_order_rethink_20261020": {
+      "status": "superseded_by_owner_direct_reference_instruction; do_not_implement_reordered_plan",
+      "record": "ops/cafe24/cloud-face-order-rethink-20261020.json",
+      "review": "cloud-blush-v6/review/face-order-20261020.html",
+      "colour_baseline": "still_unverified",
+      "customer_design_changed": false
+    },
+    "cloud_reference_exact_crosswalk_20261020": {
+      "status": "literal_reference_crosswalk; not_a_customer_design",
+      "reference": "https://www.freshian.com/product/detail.html?product_no=157",
+      "review": "cloud-blush-v6/review/reference-exact-20261020/index.html",
+      "record": "ops/cafe24/cloud-reference-exact-crosswalk-20261020.json",
+      "customer_page_changed": false
+    },
+    "cloud_reference_assembly_v7_20261020": {
+      "status": "assembled_and_package_verified; owner_visual_acceptance_pending",
+      "source": "cloud-blush-v7/index.html",
+      "review": "cloud-blush-v7/review/index.html",
+      "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
+      "plan": "cloud-blush-v7/plan.json",
+      "qa": "cloud-blush-v7/qa.json",
+      "claude_review": "cloud-blush-v7/claude-review.txt",
+      "review_disposition": "cloud-blush-v7/claude-review-resolution.json",
+      "face_revision": "provided_first_revision_consistent_set",
+      "physical_colour_verified": false,
+      "generated_scope": "decorative vegan background only; original product cutout unchanged",
+      "cafe24_upload": "deferred_by_owner"
     }
   },
   "lipoil_formula_series_20261019": {

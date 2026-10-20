@@ -1,0 +1,13 @@
+{
+  "consultation": "Local Claude CLI, read-only, --no-session-persistence --output-format text; UTF-8 stdin",
+  "completed_review": "claude-review.txt",
+  "not_a_blanket_approval": true,
+  "responses": [
+    {"issue":"Repeated colour labels conflict with older instructions","decision":"Keep role-specific labels","reason":"Latest explicit owner direction supersedes condensed one-group plan and requests reference sequence. Palette identifies all six shades; faces identify individual applied results. No repeated tabs or identical photographs. Exact adaptation already documented before build."},
+    {"issue":"Relative source paths might fail Cafe24","decision":"Source/delivery distinction verified; QA enhanced","reason":"Claude read authoring markup. Actual Cafe24 export contains only images/ paths or /web/upload/ paths and native info. No external PNG layers or fonts. File hashes, largest individual asset and both GIF sizes now reported."},
+    {"issue":"Tone descriptions and texture colours differ","decision":"Re-audited original texture files; use consistent transparent source set","reason":"Supplied 04 transparent and background files visibly differ. Use all six original transparent textures, preserving colour; no subjective recolouring, reassignment or new tone claims. Physical match of all shade evidence remains unverified."},
+    {"issue":"Texture GIF does not demonstrate powder finish","decision":"Keep reference section order; narrow evidence claim","reason":"Cream-to-powder copy is based on user product description. GIF is labelled as touching cream, not a measured transition. Application GIF remains in reference how-to position. No comparative test or proof badge."},
+    {"issue":"Vegan product appears pasted onto generated background","decision":"Adjusted composition and contact shadow","reason":"Preserved original cutout pixels; reduced size, added floor clearance and directional/contact shadow in HTML. Background generation recorded separately."}
+  ],
+  "remaining": ["Owner visual acceptance pending", "Physical shade verification pending", "Actual Cafe24 save and physical-device playback deferred by owner"]
+}

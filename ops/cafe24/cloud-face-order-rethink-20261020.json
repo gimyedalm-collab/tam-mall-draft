@@ -1,0 +1,53 @@
+{
+  "status": "planning_review_completed; no_customer_design_change",
+  "owner_feedback": "Swatches appear too soon; missing face swatches unacceptable; rethink method",
+  "current_public_version": "7235d65",
+  "current_public_version_accepted": false,
+  "recommended_order": [
+    "existing hero",
+    "texture and one use instruction",
+    "one six-colour face+wrist group",
+    "formula support",
+    "product collection ending",
+    "native information"
+  ],
+  "colour_card": [
+    "name once",
+    "cheek lead",
+    "same-shade wrist",
+    "one-line tone"
+  ],
+  "preserve": [
+    "TAM palette typography spacing and hero",
+    "one2x3 colour group",
+    "original sources with no AI recolour",
+    "Cafe24 image/GIF delivery",
+    "complete native information"
+  ],
+  "selection_limits": [
+    "first revision is not automatically more accurate",
+    "physical colour baseline still unknown",
+    "do not mix revisions by shade",
+    "no arbitrary saturation edits"
+  ],
+  "claude": {
+    "read_only": true,
+    "no_session_persistence": true,
+    "completed": true,
+    "adopted": [
+      "different roles for face and wrist",
+      "one name per shade",
+      "consistent source revision and colour baseline",
+      "mobile length and wrist cropping check before production"
+    ],
+    "deferred": [
+      "extra single texture still only if existing GIF/static material is insufficient"
+    ],
+    "not_adopted": [
+      "blanket claim that original4:5 wrist is only safe in one column; must be measured rather than assumed"
+    ]
+  },
+  "customer_files_changed": false,
+  "cafe24_uploaded": false,
+  "review": "cloud-blush-v6/review/face-order-20261020.html"
+}

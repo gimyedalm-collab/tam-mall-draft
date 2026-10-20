@@ -1,0 +1,90 @@
+Read only. Do not edit or invoke agents. Review this complete plan and actual rendered candidate. Previous attempt had Windows argument truncation; it was not a valid completed review. This prompt is supplied through stdin in full. Owner wants the already chosen Freshian section order and image roles, TAM colours and cream-to-powder USP. Do not invent claims or reorder the page. Cafe24 upload is deferred. Review up to 5 concrete issues: source-only first-revision cheeks, palette/face role, copy evidence, mobile readability, duplicate assets, Cafe24 package limits. Distinguish code review from physical colour validation and owner approval. You may only Read the following image files for visual review:
+cloud-blush-v7/review-palette-430.png
+cloud-blush-v7/review-faces-430.png
+cloud-blush-v7/review-texture-430.png
+cloud-blush-v7/review-vegan-430.png
+cloud-blush-v7/review-delivery-390.jpg
+Give a concise Korean verdict with material blockers and optional refinements. Do not demand fabricated proof. Full plan follows:
+{
+  "status": "assembly_plan_before_design",
+  "reference": "https://www.freshian.com/product/detail.html?product_no=157",
+  "reference_snapshot": "../cloud-blush-v6/review/reference-exact-20261020/reference.jpg",
+  "principle": "기존에 대조한 프레시안의 섹션 순서와 이미지 역할을 유지하고 탐뷰티의 서체·라벤더·플럼 색감을 적용한다.",
+  "sections": [
+    {"id":"hero","ref":"01","purpose":"제품명과 크림투파우더 USP 인지","evidence":"기존 TAM 히어로와 사용자 확인 제형","asset":"기존 히어로 유지 + 원본 6종 제품 사진 1회"},
+    {"id":"palette","ref":"03","purpose":"여섯 색 전체를 한 화면 단위에서 비교","evidence":"공식 6종명, 제공 손목 사진, 제공 제형 사진","asset":"손목 3열×2행, 제형 3열×2행; 서로 다른 사진을 한 팔처럼 합성하지 않음"},
+    {"id":"faces","ref":"04–06","purpose":"각 색이 얼굴에서 보이는 결과 확인","evidence":"제공 외주 발색 1차 세트 전체; 실물 색 검수 미완료","asset":"얼굴 왼쪽/색상 설명 오른쪽의 큰 가로 행 6개; AI 발색·색 보정 없음"},
+    {"id":"texture","ref":"07","purpose":"바를 때의 크림과 보송한 마무리의 차이 전달","evidence":"사용자 제형 설명 + 기존 원본 제형 영상","asset":"원본 0.3–1.5초 짧은 GIF; 연속 변환 실험으로 주장하지 않음"},
+    {"id":"formula","ref":"09","purpose":"배합된 네 가지 식물성 오일 설명","evidence":"모든 6종 전성분에 같은 네 오일 존재","asset":"기존 맑은 오일 연출 이미지 1회; 함량·보습 수치 없음"},
+    {"id":"howto","ref":"10","purpose":"소량 도포와 경계 풀기 안내","evidence":"기존 제품 사용법","asset":"원본 3.1–5.1초 도포 GIF; 제품 모음 사진으로 대체하지 않음"},
+    {"id":"vegan","ref":"11","purpose":"브랜드 비건 포뮬러 정보 전달","evidence":"기존 TAM 공식 비건 문구","asset":"원본 제품 누끼를 활용한 독립적인 밝은 정물 디자인; 새 인증·무첨가 주장 없음"},
+    {"id":"check","ref":"12","purpose":"공식 보관·사용 안내와 구매 정보 확인","evidence":"기존 공식 상품정보·전성분 HTML","asset":"짧은 보관 안내 후 기존 12px 네이티브 정보 그대로"}
+  ],
+  "exceptions": ["02 신규 컬러: 신규 출시 근거가 없어 생략", "08 공동개발 스토리: 자료가 없어 생략", "웜·뮤트·쿨 분류: 확인된 기준이 없어 색상 번호/이름으로 대체", "12색은 TAM 6색으로 변경", "타사 비교·77%·효능 수치는 전용하지 않음"],
+  "claims": [
+    {"copy":"크림처럼 사르르, 파우더처럼 보송하게.","evidence":"사용자가 명시한 크림투파우더 제형 + 기존 브랜드 문안","grade":"supported_product_description","limit":"임상 입증 또는 원본 영상의 연속 변화 증명으로 표현하지 않음"},
+    {"copy":"여섯 가지 컬러","evidence":"공식 제품 110 색상명과 제공 6종 원본","grade":"supported"},
+    {"copy":"네 가지 식물성 오일 함유","evidence":"기존 전성분의 살구씨·동백나무씨·올리브·서양자두씨오일","grade":"supported","limit":"성분 함유만; 보습·저자극 효능 확장 없음"},
+    {"copy":"비건 포뮬러","evidence":"기존 TAM 공식 문구","grade":"brand_claim","limit":"새 인증마크·기관명·무첨가 항목 없음"},
+    {"copy":"얼굴 발색 사진","evidence":"제공 외주 1차 사진 6장","grade":"provisional_visual","limit":"원본 사진 재사용 여부와 실물 색 정확성은 별개. 후자 미검수"}
+  ],
+  "delivery": {"format":"Cafe24 JPG/PNG + GIF + native product information","no_js":true,"no_external_fonts":true,"upload":"deferred_by_owner","owner_acceptance":"pending"}
+}
+
+ACTUAL QA:
+{
+  "status": "candidate_package_qa_pass",
+  "files": 19,
+  "gifs": 2,
+  "bytes": 7630162,
+  "duplicate_export_images": false,
+  "full_gif_decode": true,
+  "zip_verified": true,
+  "information_unchanged": true,
+  "oil_INCI_occurrences_each": 6,
+  "colour_note_min_effective_px_320": 12.055813953488371,
+  "widths": [
+    {
+      "width": 320,
+      "no_overflow": true,
+      "no_seams": true,
+      "images_loaded": true,
+      "js_disabled": true,
+      "information_font": "12px",
+      "height": 6964
+    },
+    {
+      "width": 390,
+      "no_overflow": true,
+      "no_seams": true,
+      "images_loaded": true,
+      "js_disabled": true,
+      "information_font": "12px",
+      "height": 7858
+    },
+    {
+      "width": 860,
+      "no_overflow": true,
+      "no_seams": true,
+      "images_loaded": true,
+      "js_disabled": true,
+      "information_font": "12px",
+      "height": 14699
+    }
+  ],
+  "owner_acceptance": "pending",
+  "physical_shade_match": "unverified",
+  "cafe24_upload": "deferred_by_owner",
+  "physical_device_playback": "pending_at_rollout"
+}
+ACTUAL COPY/STRUCTURE:
+<article id="cloud-blush">
+<div class="export-panel" data-ref="01"><section class="hero"><img src="assets/hero-preserved.jpg" width="860" height="1066" alt="더 클라우드 블러 크림 블러셔. 크림처럼 사르르, 파우더처럼 보송하게. 6 COLOURS · 2.8 g"></section></div>
+<section id="introduction" class="introduction export-panel" data-ref="01"><header class="heading"><p class="eyebrow">THE CLOUD BLUR CREAM BLUSHER</p><h2>더 클라우드 블러<br>크림 블러셔.</h2><p class="body">크림의 부드러운 발림,<br>파우더의 보송한 마무리.</p></header><img src="../cloud-blush-v3/assets/ending.jpg" alt="탐뷰티 여섯 가지 크림 블러셔 원본 제품 사진"></section>
+<section id="palette" class="palette export-panel" data-ref="03"><header class="heading"><p class="eyebrow">BLUSH COLOUR SHADES</p><h2>여섯 가지 컬러를<br>한눈에.</h2></header><div class="wrist-grid"><figure><img src="../cloud-blush-v6/assets/arm-1.jpg" alt="01 백도 쉐이크 제공 손목 발색"><figcaption><span>01</span> 백도<br>쉐이크</figcaption></figure><figure><img src="../cloud-blush-v6/assets/arm-2.jpg" alt="02 구아바 쉐이크 제공 손목 발색"><figcaption><span>02</span> 구아바<br>쉐이크</figcaption></figure><figure><img src="../cloud-blush-v6/assets/arm-3.jpg" alt="03 아사이베리 쉐이크 제공 손목 발색"><figcaption><span>03</span> 아사이베리<br>쉐이크</figcaption></figure><figure><img src="../cloud-blush-v6/assets/arm-4.jpg" alt="04 파파야 쉐이크 제공 손목 발색"><figcaption><span>04</span> 파파야<br>쉐이크</figcaption></figure><figure><img src="../cloud-blush-v6/assets/arm-5.jpg" alt="05 용과 쉐이크 제공 손목 발색"><figcaption><span>05</span> 용과<br>쉐이크</figcaption></figure><figure><img src="../cloud-blush-v6/assets/arm-6.jpg" alt="06 살구 쉐이크 제공 손목 발색"><figcaption><span>06</span> 살구<br>쉐이크</figcaption></figure></div><div class="texture-grid"><figure><img src="../cloud-blush-v3/assets/swatch-1.jpg" alt="01 백도 쉐이크 제형 색상"><figcaption>01</figcaption></figure><figure><img src="../cloud-blush-v3/assets/swatch-2.jpg" alt="02 구아바 쉐이크 제형 색상"><figcaption>02</figcaption></figure><figure><img src="../cloud-blush-v3/assets/swatch-3.jpg" alt="03 아사이베리 쉐이크 제형 색상"><figcaption>03</figcaption></figure><figure><img src="../cloud-blush-v3/assets/swatch-4.jpg" alt="04 파파야 쉐이크 제형 색상"><figcaption>04</figcaption></figure><figure><img src="../cloud-blush-v3/assets/swatch-5.jpg" alt="05 용과 쉐이크 제형 색상"><figcaption>05</figcaption></figure><figure><img src="../cloud-blush-v3/assets/swatch-6.jpg" alt="06 살구 쉐이크 제형 색상"><figcaption>06</figcaption></figure></div><p class="note">피부색·사용량·조명 및 화면 환경에 따라<br>발색이 다르게 보일 수 있습니다.</p></section>
+<section id="faces" class="faces" data-ref="04–06"><div class="export-panel face-heading"><header class="heading"><p class="eyebrow">COLOUR ON CHEEKS</p><h2>볼 위에서 만나는<br>여섯 가지 컬러.</h2></header></div><figure class="face-row export-panel" id="face-1" data-ref="04–06"><img src="assets/cheek-1-r1.jpg" alt="01 백도 쉐이크 얼굴 발색"><figcaption><p class="shade-number">01</p><h3>백도<br>쉐이크</h3><p class="tone">부드러운 피치 핑크</p></figcaption></figure><figure class="face-row export-panel" id="face-2" data-ref="04–06"><img src="assets/cheek-2-r1.jpg" alt="02 구아바 쉐이크 얼굴 발색"><figcaption><p class="shade-number">02</p><h3>구아바<br>쉐이크</h3><p class="tone">차분한 로지 핑크</p></figcaption></figure><figure class="face-row export-panel" id="face-3" data-ref="04–06"><img src="assets/cheek-3-r1.jpg" alt="03 아사이베리 쉐이크 얼굴 발색"><figcaption><p class="shade-number">03</p><h3>아사이베리<br>쉐이크</h3><p class="tone">화사한 라벤더 핑크</p></figcaption></figure><figure class="face-row export-panel" id="face-4" data-ref="04–06"><img src="assets/cheek-4-r1.jpg" alt="04 파파야 쉐이크 얼굴 발색"><figcaption><p class="shade-number">04</p><h3>파파야<br>쉐이크</h3><p class="tone">따뜻한 코랄 오렌지</p></figcaption></figure><figure class="face-row export-panel" id="face-5" data-ref="04–06"><img src="assets/cheek-5-r1.jpg" alt="05 용과 쉐이크 얼굴 발색"><figcaption><p class="shade-number">05</p><h3>용과<br>쉐이크</h3><p class="tone">선명한 핑크</p></figcaption></figure><figure class="face-row export-panel" id="face-6" data-ref="04–06"><img src="assets/cheek-6-r1.jpg" alt="06 살구 쉐이크 얼굴 발색"><figcaption><p class="shade-number">06</p><h3>살구<br>쉐이크</h3><p class="tone">차분한 살구 베이지</p></figcaption></figure><p class="note export-panel face-note">피부색·사용량·조명 및 화면 환경에 따라<br>발색이 다르게 보일 수 있습니다.</p></section>
+<section id="texture" class="texture" data-ref="07"><div class="export-panel texture-heading"><header class="heading"><p class="eyebrow">CREAM TO POWDER</p><h2>펴 바를 땐 부드럽게,<br>마무리는 보송하게.</h2></header></div><img class="motion export-motion" src="assets/texture-touch.gif" alt="원본 영상의 크림 제형을 손가락으로 묻히는 장면"><div class="texture-pair export-panel"><div><span>CREAM</span><p>부드러운 발림</p></div><div><span>POWDER</span><p>보송한 마무리</p></div></div></section>
+<section id="formula" class="formula export-panel" data-ref="09"><header class="heading"><p class="eyebrow">FOUR BOTANICAL OILS</p><h2>네 가지<br>식물성 오일 함유.</h2></header><img class="oil-photo" src="../cloud-blush-v6/assets/formula-clear-oil-261019.jpg" alt="맑은 오일을 표현한 원료 연출 이미지"><div class="ingredients"><p>살구씨오일</p><p>동백나무씨오일</p><p>올리브오일</p><p>서양자두씨오일</p></div><p class="note">원료를 표현한 연출 이미지입니다.</p></section>
+<section id="howto" class="howto" data-ref="10"><div class="howto-heading export-panel"><header class="heading"><p class="eyebrow">HOW TO USE</p><h2>소량으로 얇게,<br>경계는 톡톡.</h2><p class="body">손끝이나 도구로 얇게 펴 바른 뒤<br>경계를 가볍게 두드려 주세요.</p></header></div><img class="motion export-motion" src="assets/howto-spread.gif" alt="원본 영상의 손으로 크림 블러셔를 얇게 펴 바르는 장면"></section>
+<section id="vegan" class="vegan export-panel" data-ref="11"><header class="heading"><p class="eyebrow">VEGAN FORMULA</p><h2>탐뷰티의<br>비건 포뮬러.</h2></header><figure class="vegan-still"><img class="vegan-bg" src="assets/vegan-background.png" alt="밝은 식물 배경"><img class="vegan-product" src="assets/compact-original.png" alt="원본 탐뷰티 블러셔 제품 누끼"></figure></section>
+<section id="check" class="check export-panel" data-ref="12"><p class="eyebrow">CHECK POINT</p><h2>개봉 후 12개월 이내<br>사용해 주세요.</h2><p class="body">개봉 전 사용 기한은 36개월입니다.</p><img class="logo" src="../cloud-blush-v3/assets/tam-logo.svg" alt="TAM BEAUTY"></section>
