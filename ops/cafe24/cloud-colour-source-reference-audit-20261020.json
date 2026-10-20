@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-20",
+  "status": "provenance_verified_reference_plan_fixed; colour_baseline_information_pending; no_new_customer_page_applied",
+  "cheek_source_audit": [
+    {
+      "asset": "cloud-blush-v3/assets/cheek-1.jpg",
+      "source_collection": "Provided archive / outsourced swatches / second revision / cream blush revised",
+      "source_filename": "01 백도쉐이크.JPG",
+      "source_sha256": "779f85f41cb9d5ce8ca3a0e9f1cfe3d5917822e02260b1b10ea94f05dcab0e73",
+      "source_hash_matches_previous_ledger": true,
+      "software_metadata": "Adobe Photoshop 22.0 (Windows)",
+      "exact_resize_encode_matches_current_asset": true
+    },
+    {
+      "asset": "cloud-blush-v3/assets/cheek-2.jpg",
+      "source_collection": "Provided archive / outsourced swatches / second revision / cream blush revised",
+      "source_filename": "02 구아바쉐이크.JPG",
+      "source_sha256": "282f7a32d92be0f31f3b35fc2d166ae9ba1aba4dbab129aba9b02646d48eef24",
+      "source_hash_matches_previous_ledger": true,
+      "software_metadata": "Adobe Photoshop 22.0 (Windows)",
+      "exact_resize_encode_matches_current_asset": true
+    },
+    {
+      "asset": "cloud-blush-v3/assets/cheek-3.jpg",
+      "source_collection": "Provided archive / outsourced swatches / second revision / cream blush revised",
+      "source_filename": "03 아사이베리쉐이크.JPG",
+      "source_sha256": "aa128f73d659b2cf7f20e195d12aafc06fea73038076d7f7a3f07f13da10e414",
+      "source_hash_matches_previous_ledger": true,
+      "software_metadata": "Adobe Photoshop 22.0 (Windows)",
+      "exact_resize_encode_matches_current_asset": true
+    },
+    {
+      "asset": "cloud-blush-v3/assets/cheek-4.jpg",
+      "source_collection": "Provided archive / outsourced swatches / second revision / cream blush revised",
+      "source_filename": "04 파파야쉐이크.JPG",
+      "source_sha256": "27e08536afb22e2ea8cf03c5b5750ff99bb8aaa00ae2df507eef8814aaf4fb3d",
+      "source_hash_matches_previous_ledger": true,
+      "software_metadata": "Adobe Photoshop 22.0 (Windows)",
+      "exact_resize_encode_matches_current_asset": true
+    },
+    {
+      "asset": "cloud-blush-v3/assets/cheek-5.jpg",
+      "source_collection": "Provided archive / outsourced swatches / second revision / cream blush revised",
+      "source_filename": "05 용과쉐이크.JPG",
+      "source_sha256": "4abd4f323cebd20a141e24c9208e42e73d8981d277ad34e3ee06c9b67b727a28",
+      "source_hash_matches_previous_ledger": true,
+      "software_metadata": "Adobe Photoshop 22.0 (Windows)",
+      "exact_resize_encode_matches_current_asset": true
+    },
+    {
+      "asset": "cloud-blush-v3/assets/cheek-6.jpg",
+      "source_collection": "Provided archive / outsourced swatches / second revision / cream blush revised",
+      "source_filename": "06 살구쉐이크.JPG",
+      "source_sha256": "81bccf33416b1f3a8541783f0fd6c63bd6941adc86b6e8620390dc4e7ddb767f",
+      "source_hash_matches_previous_ledger": true,
+      "software_metadata": "Adobe Photoshop 22.0 (Windows)",
+      "exact_resize_encode_matches_current_asset": true
+    }
+  ],
+  "conclusions": [
+    "These six assets were not generated or recoloured by Codex: all reproduce exactly through orientation/resize/JPEG encode of supplied external revised files.",
+    "Adobe Photoshop metadata establishes editing-software provenance, not the type or amount of retouching and not proof of AI use.",
+    "Actual product colour accuracy and upstream AI/retouch history are NOT verified. Earlier unqualified actual-colour claims were too strong.",
+    "Current externally revised cheek pictures are excluded as the colour baseline for the next version; do not simply lower saturation or generate substitute swatches."
+  ],
+  "reference": {
+    "page": "https://www.freshian.com/product/detail.html?product_no=157",
+    "image": "https://www.freshian.com/web/upload/NNEditor/20260827/copy-1787807613-ED9484EBA088EC8B9CEC9588_EBB894EB9FACEC89AC_112C12ED98B820EBB894EB9FACEC89AC20EC8381ED8E98_EBAAA8EB8DB82CEC9DB8ED948CECBBB720ECA09CEAB1B0_08272028129.jpg",
+    "size": [
+      860,
+      22041
+    ],
+    "observed": "2026-10-20",
+    "scope": "Only active #prdDetail image, commented legacy images excluded"
+  },
+  "reference_sequence_observed": [
+    "Product and edition hero",
+    "New colours, full palette, individual tone-grouped shades",
+    "Cream/powder texture and finish",
+    "Artist development story",
+    "Skin-care support",
+    "How to use",
+    "Clean/vegan formula",
+    "Product handling notes"
+  ],
+  "TAM_structure_locked": [
+    "Product hero",
+    "One unified six-colour comparison",
+    "Cream-to-powder texture",
+    "Formula support",
+    "How to use",
+    "Product information and full INCI"
+  ],
+  "explicit_adaptations": [
+    "Consolidate multiple reference colour presentations into one because owner explicitly rejected repeated colour sections.",
+    "Exclude competitor limited-edition/new-launch material, artist co-development and unsupported efficacy figures.",
+    "Keep verified ingredient/vegan facts together in one formula section instead of splitting duplicate support sections.",
+    "Reuse section roles/order only; competitor copy, images and claims do not enter customer deliverable."
+  ],
+  "not_claimed": "This is a disclosed adaptation of one reference, not an exact copy of all Freshian sections or proof of sales effect.",
+  "required_information": "Owner-designated colour reference or externally documented colour-checked original. Asked asynchronously; no answer inferred.",
+  "cafe24_upload": false
+}

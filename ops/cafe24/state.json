@@ -685,7 +685,7 @@
       "actual_device_verified": false
     },
     "cloud_unified_colours": {
-      "status": "implemented_and_checked; owner_visual_acceptance_pending",
+      "status": "owner_questions_colour_accuracy_and_requests_single_reference; not_accepted",
       "review": "cafe24-delivery-20261019/cloud-unified-review/index.html",
       "structure": "One6-colour group, names once, cheek+wrist+texture together",
       "colour_height_at390": [
@@ -693,6 +693,30 @@
         1130.1
       ],
       "cafe24_upload": "deferred"
+    },
+    "cloud_reference_lock_20261020": {
+      "status": "historical_planning_audit; implemented_in_cloud_reference_usp_20261020",
+      "reference": "https://www.freshian.com/product/detail.html?product_no=157",
+      "report": "cloud-blush-v6/review/reference-lock-20261020.html",
+      "audit": "ops/cafe24/cloud-colour-source-reference-audit-20261020.json",
+      "customer_page_changed": false,
+      "cafe24_upload": false
+    },
+    "cloud_reference_usp_20261020": {
+      "status": "implemented_and_local_QA_complete; owner_visual_acceptance_pending",
+      "review": "cafe24-delivery-20261019/cloud-reference-review/index.html",
+      "record": "ops/cafe24/cloud-reference-usp-20261020.json",
+      "sequence": [
+        "hero",
+        "unified six colours",
+        "cream to powder",
+        "formula",
+        "how to use with collection still",
+        "native information"
+      ],
+      "physical_colour_verified": false,
+      "cafe24_upload": "deferred_by_owner",
+      "actual_device_verified": false
     }
   },
   "lipoil_formula_series_20261019": {

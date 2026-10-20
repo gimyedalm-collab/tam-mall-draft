@@ -20,15 +20,28 @@
     {
       "file": "images/02-detail.jpg",
       "width": 860,
+      "height": 2748,
+      "kind": "jpeg",
+      "alt": "SIX SHADES OF CLOUD 부드럽게 물드는 여섯 가지 컬러. 01 백도 쉐이크 부드러운 피치 핑크 02 구아바 쉐이크 차분한 로지 핑크 03 아사이베리 쉐이크 화사한 라벤더 핑크 04 파파야 쉐이크 따뜻한 코랄 오렌지 05 용과 쉐이크 선명한 핑크 06 살구 쉐이크 차분한 살구 베이지 피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
+      "source_y": [
+        533,
+        1907
+      ],
+      "bytes": 298498,
+      "sha256": "8a8ea44637e0bb3a718fce26f9edec3c58fea652634351abece2c7ff39d571c8"
+    },
+    {
+      "file": "images/03-detail.jpg",
+      "width": 860,
       "height": 386,
       "kind": "jpeg",
       "alt": "CREAM TO POWDER 펴 바를 땐 부드럽게, 마무리는 보송하게.",
       "source_y": [
-        533,
-        726
+        1907,
+        2100
       ],
-      "bytes": 29013,
-      "sha256": "747c9fea35b0d2c5db982c4a8b773fe67dff11a57d10ca1efc89d7c72e7164d4"
+      "bytes": 27108,
+      "sha256": "c02db91b922cc7774f117f6670d68544b711e9983dc9f80fba2b3b46c522ee9f"
     },
     {
       "source": "cloud-blush-v3/assets/cream-to-powder.mp4",
@@ -56,71 +69,58 @@
           8.8
         ]
       ],
-      "file": "images/03-motion.gif",
+      "file": "images/04-motion.gif",
       "alt": "크림 제형을 만지고 펴 바르는 모습과 볼 메이크업 영상",
       "kind": "gif",
       "layout": {
         "x": 24.078125,
-        "y": 0.28125,
+        "y": 0.171875,
         "width": 381.84375,
         "height": 254.5625,
         "canvas_width": 430,
         "canvas_height": 255
       },
-      "bytes": 3380213,
-      "sha256": "e985c57eb69f7963d390d14cf7fdd7b300b0ae51f954eef9e2a7ba5eb549c0bc"
-    },
-    {
-      "file": "images/04-detail.jpg",
-      "width": 860,
-      "height": 360,
-      "kind": "jpeg",
-      "alt": "HOW TO USE 손끝에 소량 묻혀 얇게 펴 바르고, 경계를 톡톡 두드려 주세요.",
-      "source_y": [
-        981,
-        1161
-      ],
-      "bytes": 22406,
-      "sha256": "df8228f8bc23617c9029102fc440fac438ebb76e9a9261f5beccf12c96971caa"
+      "bytes": 3380217,
+      "sha256": "cc6ce58cc9d926c12e77f4d90b54b716bc4e17e004c5119a76e17a7c421a72bc"
     },
     {
       "file": "images/05-detail.jpg",
       "width": 860,
-      "height": 2492,
+      "height": 110,
       "kind": "jpeg",
-      "alt": "SIX SHADES OF CLOUD 은은한 피치부터 선명한 핑크까지. 01 백도 쉐이크 부드러운 피치 핑크 02 구아바 쉐이크 차분한 로지 핑크 03 아사이베리 쉐이크 화사한 라벤더 핑크 04 파파야 쉐이크 따뜻한 코랄 오렌지 05 용과 쉐이크 선명한 핑크 06 살구 쉐이크 차분한 살구 베이지 피부 톤과 사용량, 조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
+      "alt": "클라우드 블러 상세 이미지",
       "source_y": [
-        1161,
-        2407
+        2355,
+        2410
       ],
-      "bytes": 318782,
-      "sha256": "9c5c3c5209402d7197d626e705738fe3349be3ce46bf8cd5cf533814273569be"
+      "bytes": 1325,
+      "sha256": "589f9c0d4771169c0acb9f88734b5358d6c3b5dc21088887ed6dcc1836f24dca"
     },
     {
       "file": "images/06-detail.jpg",
       "width": 860,
-      "height": 1368,
+      "height": 1294,
       "kind": "jpeg",
-      "alt": "VEGAN FORMULA 보송한 치크에 담은 네 가지 오일. 식물성 오일을 담은 비건 포뮬러. 살구씨오일 APRICOT KERNEL OIL 동백나무씨오일 CAMELLIA SEED OIL 올리브오일 OLIVE FRUIT OIL 서양자두씨오일 PLUM SEED OIL 원료를 표현한 연출 이미지입니다.",
+      "alt": "VEGAN FORMULA 네 가지 식물성 오일, 비건 포뮬러. 살구씨오일 APRICOT KERNEL OIL 동백나무씨오일 CAMELLIA SEED OIL 올리브오일 OLIVE FRUIT OIL 서양자두씨오일 PLUM SEED OIL 원료를 표현한 연출 이미지입니다.",
       "source_y": [
-        2407,
-        3091
+        2410,
+        3057
       ],
-      "bytes": 107599,
-      "sha256": "302e093524fecf027d2ff49d0b89ddd7b5949d02f7cb655888939c8fcaabe008"
+      "bytes": 101034,
+      "sha256": "83de9e366813eb3cd844e10f18a83ceb966911f49ba67031d79c763928e17749"
     },
     {
       "file": "images/07-detail.jpg",
       "width": 860,
-      "height": 1812,
+      "height": 1972,
       "kind": "jpeg",
-      "alt": "THE CLOUD BLUR CREAM BLUSH 부드러운 컬러, 보송한 블러 치크. 더 클라우드 블러 크림 블러셔 6 COLOURS · 2.8 g",
+      "alt": "HOW TO USE 소량으로 얇게, 경계는 톡톡. 손끝에 소량 묻혀 볼에 펴 바른 뒤, 경계를 가볍게 두드려 주세요. 더 클라우드 블러 크림 블러셔",
       "source_y": [
-        3091,
-        3997
+        3057,
+        4043
       ],
-      "bytes": 164959,
-      "sha256": "69d76cbd1856444d6e5447662d8f111c4a2329a7fdbba3989f7e2946fd522d33"
+      "bytes": 181076,
+      "sha256": "062ad98ea1fde7340a5ed40479b34d4407694d91d5ce8f3b950673df58191333"
     }
   ],
   "format_limit_bytes": 4900000,

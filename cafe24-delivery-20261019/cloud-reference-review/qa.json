@@ -1,0 +1,99 @@
+{
+  "render_checks": [
+    {
+      "width": 320,
+      "no_overflow": true,
+      "information_font_px": "12px"
+    },
+    {
+      "width": 390,
+      "no_overflow": true,
+      "information_font_px": "12px"
+    },
+    {
+      "width": 860,
+      "no_overflow": true,
+      "information_font_px": "12px"
+    }
+  ],
+  "source_metrics": {
+    "sections": [
+      "hero",
+      "colours",
+      "texture",
+      "formula",
+      "howto"
+    ],
+    "gridCount": 1,
+    "cards": [
+      {
+        "id": "shade-1",
+        "name": "01 백도 쉐이크",
+        "wristWidth": 183.921875,
+        "textureWidth": 82.75,
+        "titleFont": 16.2
+      },
+      {
+        "id": "shade-2",
+        "name": "02 구아바 쉐이크",
+        "wristWidth": 183.921875,
+        "textureWidth": 82.75,
+        "titleFont": 16.2
+      },
+      {
+        "id": "shade-3",
+        "name": "03 아사이베리 쉐이크",
+        "wristWidth": 183.921875,
+        "textureWidth": 82.75,
+        "titleFont": 16.2
+      },
+      {
+        "id": "shade-4",
+        "name": "04 파파야 쉐이크",
+        "wristWidth": 183.921875,
+        "textureWidth": 82.75,
+        "titleFont": 16.2
+      },
+      {
+        "id": "shade-5",
+        "name": "05 용과 쉐이크",
+        "wristWidth": 183.921875,
+        "textureWidth": 82.75,
+        "titleFont": 16.2
+      },
+      {
+        "id": "shade-6",
+        "name": "06 살구 쉐이크",
+        "wristWidth": 183.921875,
+        "textureWidth": 82.75,
+        "titleFont": 16.2
+      }
+    ]
+  },
+  "hero_byte_identical": true,
+  "gif_byte_identical": false,
+  "information_byte_identical": true,
+  "single_six_colour_group": true,
+  "disputed_cheek_stills_removed": true,
+  "source_colours_changed": false,
+  "physical_colour_accuracy_verified": false,
+  "cafe24_uploaded": false,
+  "gif_change": "Same original MP4, segments, 52 frames, 860x510 and conversion settings; re-export after text reflow shifts compositing y by 1 output pixel. Three representative before/after frames visually checked; no creative colour or exposure change.",
+  "font_size_effective_at320": {
+    ".shade h3": 12.06,
+    ".shade .tone": 12.06,
+    ".colours .note": 12.06
+  },
+  "review_page_checks": [
+    {
+      "width": 390,
+      "no_overflow": true,
+      "images_loaded": true
+    },
+    {
+      "width": 1080,
+      "no_overflow": true,
+      "images_loaded": true
+    }
+  ]
+}

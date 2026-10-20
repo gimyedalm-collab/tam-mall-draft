@@ -20,6 +20,11 @@ def run(args):
     p=subprocess.run(args,capture_output=True,text=True,encoding='utf-8',errors='replace')
     if p.returncode:raise RuntimeError(p.stderr[-3000:])
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def same_gif_pixels(previous,current,width):
+    """Subpixel page reordering may change CSS offsets without changing GIF pixels."""
+    if not previous:return False
+    scale=width/430
+    return all(round(previous[k]*scale)==round(current[k]*scale) for k in ('x','y','width','height','canvas_width','canvas_height'))
 def savejson(p,d):p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8')
 def decode_webp(src):
     dest=WORK/src.stem;dest.mkdir(exist_ok=True)
@@ -142,7 +147,7 @@ with sync_playwright() as pw:
             if motion:
                 file=f'images/{number:02}-motion.gif'
                 layout={'x':motion['rect']['x'],'y':motion['rect']['offset'],'width':motion['rect']['width'],'height':motion['rect']['height'],'canvas_width':430,'canvas_height':bottom-top}
-                reuse=next((it for it in cached if key=='cloud-blush' and it.get('source')==motion['src'] and it.get('layout')==layout and it.get('source_sha256')==sha(ROOT/motion['src']) and (dest/it['file']).exists() and it['sha256']==sha(dest/it['file'])),None)
+                reuse=next((it for it in cached if key=='cloud-blush' and it.get('source')==motion['src'] and same_gif_pixels(it.get('layout'),layout,it['width']) and it.get('source_sha256')==sha(ROOT/motion['src']) and (dest/it['file']).exists() and it['sha256']==sha(dest/it['file'])),None)
                 if reuse:
                     meta=dict(reuse)
                     if meta['file']!=file:shutil.copy2(dest/meta['file'],dest/file)

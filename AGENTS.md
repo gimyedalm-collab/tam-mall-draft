@@ -643,3 +643,34 @@ Read-only nonpersistent Claude review and320/390/860 package checks completed;
 visual acceptance remains pending. Review: cafe24-delivery-20261019/
 cloud-unified-review/index.html. Older cloud-swatch-review is rejected history,
 not an approved baseline. Actual Cafe24 upload remains deferred.
+
+## Cloud colour provenance challenged; single reference plan - 2026-10-20
+
+Owner questions excessive cheek colour and asks if Codex generated it with AI.
+All six current cheek assets reproduce exactly by EXIF orientation, resizing
+and JPEG encoding the provided outsourced second-revision files. Photoshop
+metadata does not establish upstream retouch/AI scope or actual colour accuracy.
+Do not describe these as verified actual colours or unretouched photography.
+Current unified version is not accepted. Do not fix colour through arbitrary
+saturation edits or generated swatches. Reference plan uses Freshian official
+product157 current detail, with disclosed consolidation of repeated shade
+sections and omission of unsupported claims/story. See
+ops/cafe24/cloud-colour-source-reference-audit-20261020.json and
+cloud-blush-v6/review/reference-lock-20261020.html. Owner-designated colour
+reference was requested; no answer inferred. No new customer design or actual
+Cafe24 upload has been applied in this audit.
+
+
+## Cloud fixed-reference revision with TAM identity - 2026-10-20
+
+Owner authorizes the single-reference direction while preserving TAM identity
+and cream-to-powder USP. Implemented order: unchanged hero, one wrist/texture
+6-colour grid, original texture film, ingredient support, use/collection, native
+information. Remove six disputed cheek stills; source files stay archived.
+No AI recolour or saturation edit. All wrists match both supplied revisions;
+upstream retouch and physical colour accuracy remain unverified. Hero and native
+information are byte-identical. GIF uses the same footage/segments; text reflow
+required a one-output-pixel compositing shift on re-export. No new creative
+colour/exposure change. Read-only nonpersistent Claude planning/render critique
+and 320/390/860 package QA completed. Owner acceptance remains pending.
+Review: cafe24-delivery-20261019/cloud-reference-review/. Cafe24 upload deferred.

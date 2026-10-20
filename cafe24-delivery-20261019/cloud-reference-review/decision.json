@@ -1,0 +1,213 @@
+{
+  "status": "implemented_and_local_QA_complete; owner_visual_acceptance_pending",
+  "reference": "https://www.freshian.com/product/detail.html?product_no=157",
+  "sequence": [
+    "hero",
+    "unified six colours",
+    "cream to powder",
+    "formula",
+    "how to use with collection still",
+    "native information"
+  ],
+  "preserved": [
+    "hero artwork and copy",
+    "TAM lavender/plum palette",
+    "Pretendard and Manrope",
+    "two-column grid and existing spacing",
+    "source wrist and texture images without colour edits",
+    "existing texture GIF sequence",
+    "native 12px information"
+  ],
+  "changes": [
+    "remove disputed cheek stills",
+    "move one shade grid before texture",
+    "wrist enlarged from supporting thumbnail to lead image",
+    "remove repeated use copy from texture section",
+    "formula copy separates ingredient facts from finish",
+    "use instructions once in final collection section"
+  ],
+  "claude_adopted": [
+    "remove repeated instructional copy",
+    "verify wrist source matches",
+    "inspect GIF final shot",
+    "verify four oils in all six INCI lists",
+    "avoid oil-to-powder causal wording"
+  ],
+  "claude_not_adopted": {
+    "request_new_approval_for_removing_cheeks": "User already authorizes product/texture focus and disputed cheek exclusion; reversible review revision within scope.",
+    "move_use_back_under_GIF": "Would abandon agreed six-role order. HOW TO USE remains final section; collection photograph is product display, not claimed instructional evidence."
+  },
+  "limits": [
+    "no physical colour validation",
+    "existing GIF shows separate texture/use/finish shots, not a controlled cream-to-powder transition",
+    "last GIF shot is unnamed makeup illustration, not six-shade colour benchmark",
+    "no conversion or best-seller claim",
+    "no new certification claim",
+    "no Cafe24 upload"
+  ],
+  "wrist_provenance": [
+    {
+      "shade": 1,
+      "sha256": "70e4f2e76820e042d4456259a962325791011412b3af68c801a026bb6eaeed7e",
+      "matches": [
+        "2차\\크림 블러셔 수정\\01 백도 쉐이크.JPG",
+        "1차\\크림 블러셔\\01 백도 쉐이크.JPG"
+      ],
+      "software": "Adobe Photoshop 22.0 (Windows)",
+      "physical_colour_verified": false
+    },
+    {
+      "shade": 2,
+      "sha256": "389669a688ae4ae66edab7e537edfc03d53e46d8c8b03a5cd255803150b8e94c",
+      "matches": [
+        "2차\\크림 블러셔 수정\\02 구아바 쉐이크.JPG",
+        "1차\\크림 블러셔\\02 구아바 쉐이크.JPG"
+      ],
+      "software": "Adobe Photoshop 22.0 (Windows)",
+      "physical_colour_verified": false
+    },
+    {
+      "shade": 3,
+      "sha256": "0e74a2f9c5c68ee468ce8b9b17f1ded2ce1774b5f24953bdbfda512af8dcac4f",
+      "matches": [
+        "2차\\크림 블러셔 수정\\03 아사이베리 쉐이크.JPG",
+        "1차\\크림 블러셔\\03 아사이베리 쉐이크.JPG"
+      ],
+      "software": "Adobe Photoshop 22.0 (Windows)",
+      "physical_colour_verified": false
+    },
+    {
+      "shade": 4,
+      "sha256": "adf0615c9f459f5751bfdf380966df22a2f6adc89fa1f5816e178c05e0bfa68b",
+      "matches": [
+        "2차\\크림 블러셔 수정\\04 파파야 쉐이크.JPG",
+        "1차\\크림 블러셔\\04 파파야 쉐이크.JPG"
+      ],
+      "software": "Adobe Photoshop 22.0 (Windows)",
+      "physical_colour_verified": false
+    },
+    {
+      "shade": 5,
+      "sha256": "9bfc96ff360721a537fad83b978343723ddd739d9a2116c87b42bd0f826fe819",
+      "matches": [
+        "2차\\크림 블러셔 수정\\05 용과 쉐이크.JPG",
+        "1차\\크림 블러셔\\05 용과 쉐이크.JPG"
+      ],
+      "software": "Adobe Photoshop 22.0 (Windows)",
+      "physical_colour_verified": false
+    },
+    {
+      "shade": 6,
+      "sha256": "036c370c7b8bc9281eda21dfff997b2eb92484c6293ec3b2355731db81096402",
+      "matches": [
+        "2차\\크림 블러셔 수정\\06 살구 쉐이크.JPG",
+        "1차\\크림 블러셔\\06 살구 쉐이크.JPG"
+      ],
+      "software": "Adobe Photoshop 22.0 (Windows)",
+      "physical_colour_verified": false
+    }
+  ],
+  "review": "cafe24-delivery-20261019/cloud-reference-review/index.html",
+  "package": "cafe24-delivery-20261019/cloud-blush",
+  "gif_final": "Same original MP4, segments, 52 frames, 860x510 and conversion settings; re-export after text reflow shifts compositing y by 1 output pixel. Three representative before/after frames visually checked; no creative colour or exposure change.",
+  "final_claude_review": {
+    "completed": true,
+    "no_session_persistence": true,
+    "adopted": [
+      "increase mobile tone and note to minimum effective12px at320",
+      "restore product name/volume caption separating collection from usage"
+    ],
+    "not_adopted": {
+      "normalize_skin_frame_coverage": "Same square window and centre alignment preserve80% source height; different anatomical backgrounds are source variation. Additional shade-specific crops would remove context without creating controlled photography.",
+      "normalize_texture_shapes": "Original smear shape and fixed45% frame retained. Shape/area differences do not establish quantity or viscosity; no unsupported normalization."
+    },
+    "opinion_not_owner_acceptance": true
+  },
+  "qa": {
+    "render_checks": [
+      {
+        "width": 320,
+        "no_overflow": true,
+        "information_font_px": "12px"
+      },
+      {
+        "width": 390,
+        "no_overflow": true,
+        "information_font_px": "12px"
+      },
+      {
+        "width": 860,
+        "no_overflow": true,
+        "information_font_px": "12px"
+      }
+    ],
+    "source_metrics": {
+      "sections": [
+        "hero",
+        "colours",
+        "texture",
+        "formula",
+        "howto"
+      ],
+      "gridCount": 1,
+      "cards": [
+        {
+          "id": "shade-1",
+          "name": "01 백도 쉐이크",
+          "wristWidth": 183.921875,
+          "textureWidth": 82.75,
+          "titleFont": 16.2
+        },
+        {
+          "id": "shade-2",
+          "name": "02 구아바 쉐이크",
+          "wristWidth": 183.921875,
+          "textureWidth": 82.75,
+          "titleFont": 16.2
+        },
+        {
+          "id": "shade-3",
+          "name": "03 아사이베리 쉐이크",
+          "wristWidth": 183.921875,
+          "textureWidth": 82.75,
+          "titleFont": 16.2
+        },
+        {
+          "id": "shade-4",
+          "name": "04 파파야 쉐이크",
+          "wristWidth": 183.921875,
+          "textureWidth": 82.75,
+          "titleFont": 16.2
+        },
+        {
+          "id": "shade-5",
+          "name": "05 용과 쉐이크",
+          "wristWidth": 183.921875,
+          "textureWidth": 82.75,
+          "titleFont": 16.2
+        },
+        {
+          "id": "shade-6",
+          "name": "06 살구 쉐이크",
+          "wristWidth": 183.921875,
+          "textureWidth": 82.75,
+          "titleFont": 16.2
+        }
+      ]
+    },
+    "hero_byte_identical": true,
+    "gif_byte_identical": false,
+    "information_byte_identical": true,
+    "single_six_colour_group": true,
+    "disputed_cheek_stills_removed": true,
+    "source_colours_changed": false,
+    "physical_colour_accuracy_verified": false,
+    "cafe24_uploaded": false,
+    "gif_change": "Same original MP4, segments, 52 frames, 860x510 and conversion settings; re-export after text reflow shifts compositing y by 1 output pixel. Three representative before/after frames visually checked; no creative colour or exposure change.",
+    "font_size_effective_at320": {
+      ".shade h3": 12.06,
+      ".shade .tone": 12.06,
+      ".colours .note": 12.06
+    }
+  }
+}

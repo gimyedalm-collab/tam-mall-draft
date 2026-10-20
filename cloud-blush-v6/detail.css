@@ -7,11 +7,11 @@
 #cloud-blush h1{font:700 clamp(20px,6.1cqw,52px)/1.18 Cloud,sans-serif;letter-spacing:-.045em}
 #cloud-blush h2{font:700 clamp(29px,6.05cqw,52px)/1.25 Cloud,sans-serif;letter-spacing:-.045em}
 #cloud-blush h3{font:600 clamp(15px,3.25cqw,28px)/1.4 Cloud,sans-serif;letter-spacing:-.03em}
-#cloud-blush .body{font-size:clamp(15px,2.9cqw,25px);line-height:1.75;margin-top:28px}
+#cloud-blush .body{font-size:clamp(16.2px,2.9cqw,25px);line-height:1.75;margin-top:28px}
 #cloud-blush .eyebrow{font:500 clamp(10px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.13em;color:var(--accent);margin-bottom:24px}
 #cloud-blush .section{padding:100px 6.5% 96px}
 #cloud-blush .heading{margin:0 auto 48px}
-#cloud-blush .note{font-size:clamp(10px,1.63cqw,14px);line-height:1.65;color:var(--muted);margin:36px 5% 0}
+#cloud-blush .note{font-size:clamp(16.2px,1.9cqw,17px);line-height:1.65;color:#645b67;margin:36px 5% 0}
 #cloud-blush .hero{position:relative}
 #cloud-blush .hero-copy{position:absolute;left:4%;right:4%;top:3.2%}
 #cloud-blush .product-name{font-size:clamp(12px,2.79cqw,24px);line-height:1.5;margin-bottom:14px}
@@ -39,7 +39,7 @@
 #cloud-blush .cheek{aspect-ratio:2812/1870;overflow:hidden;border-radius:16px}
 #cloud-blush .cheek img{height:100%;object-fit:cover;object-position:50% 51%}
 #cloud-blush .swatch{width:45%;margin:14px auto 8px}
-#cloud-blush .tone{font-weight:500;color:var(--accent);font-size:clamp(14px,2.79cqw,24px);line-height:1.5}
+#cloud-blush .tone{font-weight:500;color:var(--accent);font-size:clamp(16.2px,2.79cqw,24px);line-height:1.5}
 #cloud-blush .shade-description{font-size:clamp(12px,2.09cqw,18px);line-height:1.65;color:var(--muted);margin-top:12px}
 #cloud-blush .formula{background:#fff;padding:96px 0 64px}
 #cloud-blush .formula .heading{padding:0 5%}
@@ -92,10 +92,10 @@
 #cloud-blush .application-label{font:500 clamp(10px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.13em;color:var(--accent);margin-bottom:12px}
 #cloud-blush .application-copy{font-size:clamp(15px,2.9cqw,25px);line-height:1.75}
 
-/* One shade name and one set of cheek, wrist and texture evidence per card. */
-#cloud-blush .shade-evidence{display:grid;grid-template-columns:2fr 1fr;gap:12px;align-items:center;margin-top:14px}
+/* One shade name; the supplied wrist image leads, with a smaller texture image. */
+#cloud-blush .shade-evidence{display:block;margin-top:0}
 #cloud-blush .shade-evidence .wrist{aspect-ratio:1;object-fit:cover;object-position:center;border-radius:10px}
-#cloud-blush .shade-evidence .swatch{width:100%;margin:0}
+#cloud-blush .shade-evidence .swatch{width:45%;margin:14px auto 8px}
 #cloud-blush .shade .tone{margin-top:12px}
 #cloud-blush .product-info{padding:22px 4%;font-size:13px;line-height:1.5;color:#49434b}
 #cloud-blush .product-info summary{font-size:15px;padding:8px 0;color:var(--ink)}
@@ -109,7 +109,12 @@
 #cloud-blush .product-info .inci-shade h3{font-size:14px;line-height:1.5;margin:0 0 4px;font-weight:600}
 #cloud-blush .product-info .inci-shade p{margin:0;font-size:13px;line-height:1.5}
 @container(max-width:600px){
- #cloud-blush .shade-evidence{gap:8px;margin-top:10px}
- #cloud-blush .shade-evidence .wrist{border-radius:7px}
+ #cloud-blush .shade-evidence{margin-top:0}
+ #cloud-blush .shade-evidence .wrist{border-radius:10px}
+ #cloud-blush .shade-evidence .swatch{margin-top:10px}
  #cloud-blush .shade .tone{margin-top:10px}
 }
+
+/* Identify the closing product photograph separately from the use instruction. */
+#cloud-blush .collection-caption{padding:0 5% 28px;font-size:clamp(16.2px,2.79cqw,24px);line-height:1.6}
+#cloud-blush .collection-caption span{display:block;font:400 clamp(12px,1.86cqw,16px)/1.5 CloudEnglish,sans-serif;letter-spacing:.1em;margin-top:8px;color:var(--muted)}
