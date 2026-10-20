@@ -1,0 +1,50 @@
+{
+  "version": "v1-20261020",
+  "composition": "four-static-images-plus-native-product-info",
+  "images": [
+    {
+      "order": 1,
+      "file": "images/01-hero.jpg",
+      "width": 860,
+      "height": 1100,
+      "bytes": 86974,
+      "sha256": "875eeca31bffe3e8a125e67bc82b7660b4088646f9fc52ab99fcdde2bee69425",
+      "alt": "더 클라우드 하트 쉐이딩 듀오. 콧대부터 턱선까지, 두 가지 음영으로. 한 제품에 두 가지 쉐딩."
+    },
+    {
+      "order": 2,
+      "file": "images/02-duo.jpg",
+      "width": 860,
+      "height": 990,
+      "bytes": 91831,
+      "sha256": "5f1dfc25726114bad6272d9035ccaee06061ccb1a86c5b59f771c871cbe3e83c",
+      "alt": "부위에 맞춰 쓰는 두 가지 쉐딩. 밝은 색과 진한 색을 하나에 담았어요. 옐로 케이스는 라이트, 블루 케이스는 딥. 콧대에는 라이트: 눈썹 아래부터 콧대 옆을 따라 가볍게 발라주세요. 윤곽에는 딥: 턱선과 광대 아래에 바르고 경계를 풀어주세요."
+    },
+    {
+      "order": 3,
+      "file": "images/03-colors.jpg",
+      "width": 860,
+      "height": 1050,
+      "bytes": 120569,
+      "sha256": "442cb8a21ff1f7c537225e3c9d867a73365d90ed83bce021831bd89049a58a9a",
+      "alt": "내 피부 톤에 맞는 브라운. 01 샌드 쉐이더: 부드러운 뉴트럴 브라운, 웜·뉴트럴 톤에 추천. 02 포그 쉐이더: 차분한 애쉬 브라운, 쿨 톤에 추천. 각 색상은 라이트와 딥으로 구성됩니다. 발색은 피부 톤과 사용량에 따라 달라질 수 있습니다. 화면 설정에 따라 실제 색상과 차이가 있을 수 있습니다."
+    },
+    {
+      "order": 4,
+      "file": "images/04-how-to.jpg",
+      "width": 860,
+      "height": 1110,
+      "bytes": 137661,
+      "sha256": "450f87835884b23724cd7bc2ee068947fd5f46de42c0933ff4b9d6f81b815148",
+      "alt": "조금씩 바르고, 경계를 풀어주세요. 손끝이나 브러시로 가볍게 블렌딩해주세요. 1. 용기를 돌려 펼친 뒤, 사용할 쪽의 캡을 열어주세요. 2. 콧대에는 라이트, 턱선과 광대 아래에는 딥을 발라주세요. 3. 바른 부분의 가장자리를 두드리며 펴주세요."
+    }
+  ],
+  "status": {
+    "delivery_prepared": true,
+    "owner_visual_acceptance": "pending",
+    "cafe24_upload": "deferred_by_owner",
+    "physical_device_qa": "not_performed"
+  },
+  "product_info_source": "https://tambeauty.kr/product/detail.html?product_no=109",
+  "source_read_date": "2026-10-20"
+}
