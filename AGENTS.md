@@ -721,3 +721,24 @@ product cutout is composited separately. Two short GIFs use different original
 segments; no MP4 dependency. 320/390/860 package checks and nonpersistent
 read-only Claude critique completed; dispositions are recorded, not blanket
 approval. Owner visual approval pending; actual Cafe24 upload remains deferred.
+
+## Powder Balm first-use clarity V1 - 2026-10-20
+
+Owner authorizes production and repeatedly prioritizes instantly understanding
+where the product is used. Preserve the hook “기름종이를 바르다.” with the plain
+definition “코·이마의 번들거림을 잡는 밤 타입 파우더” and supplied forehead/nose
+puff footage directly below. This introduction is 490px high at 390px viewport.
+Source: powder-balm-v1/layout.html. Actual Cafe24 composition preview:
+cafe24-delivery-20261020/powder-balm/. Package: powder-balm-cafe24.zip adjacent.
+Five JPGs, two 3-second GIFs (3 cycles), native product information/full INCI.
+All media under 4.9MB; no custom JS, external fonts or video hosting required.
+320/390/430/860/1280 preview checks, source clipping, GIF frame review and ZIP
+byte matching completed. Record: ops/cafe24/powder-balm-v1-20261020.json.
+Supplied product footage and cutouts only; original masters preserved. No new
+creative colour/exposure correction, generated skin or synthetic before/after.
+Exclude Dasha media and uncertain vertical V1-V3 videos. No six-hour/zero/
+non-irritation absolutes or unverified certification in this version. Existing
+oil-control/blur language is cosmetic positioning, not new clinical proof.
+Owner visual acceptance remains pending. Actual Cafe24 upload, administrator
+save and physical-device verification remain explicitly deferred. Other product
+details and native commerce are unchanged.

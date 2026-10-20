@@ -788,5 +788,14 @@
     "production_changed": false,
     "execution_owner": "Codex directly uploads/applies/connects and verifies at resumed rollout; owner login/2FA only when needed.",
     "next_action": "At resumed rollout inspect actual admin SKU/stock/review mapping and backup product settings before final split. Preserve current options until direction and dependencies resolved."
+  },
+  "powder_balm_v1_20261020": {
+    "status": "delivery_prepared_preview_verified_owner_acceptance_pending",
+    "record": "ops/cafe24/powder-balm-v1-20261020.json",
+    "preview": "cafe24-delivery-20261020/powder-balm/index.html",
+    "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
+    "first_screen": "Use location + oil-control balm definition + actual forehead/nose puff application in 490px at 390px viewport.",
+    "production_changed": false,
+    "next_action": "Owner visual review. Cafe24 upload remains deferred; actual integration and physical-device verification when rollout resumes."
   }
 }
