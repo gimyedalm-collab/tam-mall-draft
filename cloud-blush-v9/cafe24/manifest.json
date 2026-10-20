@@ -1,0 +1,203 @@
+{
+  "product": "클라우드 블러",
+  "source": "cloud-blush-v9/index.html",
+  "status": "exported_candidate; owner acceptance pending; Cafe24 upload deferred",
+  "render": "430 CSS px at 2x; static raster panels and two distinct source GIFs; native information",
+  "files": [
+    {
+      "file": "images/01-detail.jpg",
+      "width": 860,
+      "height": 1960,
+      "kind": "jpeg",
+      "alt": "THE CLOUD BLUR 크림처럼 사르르, 파우더처럼 보송하게. 탐뷰티 백도 쉐이크 열린 제품 원본 / 탐뷰티 살구 쉐이크 열린 제품 원본 / 탐뷰티 구아바 쉐이크 닫힌 제품 원본",
+      "bytes": 221175,
+      "sha256": "ad427a81e84d681cf805b734c5c14df2a36c05b647cd74c6e371799093325b4c",
+      "reference_region": "01"
+    },
+    {
+      "file": "images/02-detail.jpg",
+      "width": 860,
+      "height": 1590,
+      "kind": "jpeg",
+      "alt": "TAM BEAUTY  더 클라우드 블러 크림 블러셔  6가지 컬러 · 2.8 g 탐뷰티 여섯 컬러 제품 원본 사진",
+      "bytes": 164898,
+      "sha256": "48e10cd4c26f43587cc7934ae10e680c4bfe1b877a63176a0fcaec011fb3d4a3",
+      "reference_region": "01"
+    },
+    {
+      "file": "images/03-detail.jpg",
+      "width": 860,
+      "height": 1990,
+      "kind": "jpeg",
+      "alt": "COLOUR PALETTE  여섯 가지 컬러 01 백도 02 구아바 03 아사이베리 04 파파야 05 용과 06 살구 01  백도  02  구아바  03  아사이베리  04  파파야  05  용과  06  살구  피부색·사용량·조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다. 01 백도 쉐이크 손목 발색 / 02 구아바 쉐이크 손목 발색 / 03 아사이베리 쉐이크 손목 발색 / 04 파파야 쉐이크 손목 발색 / 05 용과 쉐이크 손목 발색 / 06 살구 쉐이크 손목 발색 / 01 백도 쉐이크 제형 원본 / 02 구아바 쉐이크 제형 원본 / 03 아사이베리 쉐이크 제형 원본 / 04 파파야 쉐이크 제형 원본 / 05 용과 쉐이크 제형 원본 / 06 살구 쉐이크 제형 원본",
+      "bytes": 250868,
+      "sha256": "c5b7963825a409ccaf55d3060c26eebe965a482f1d901d1b82820a48694eac03",
+      "reference_region": "03"
+    },
+    {
+      "file": "images/04-detail.jpg",
+      "width": 860,
+      "height": 348,
+      "kind": "jpeg",
+      "alt": "ON CHEEKS  볼 위에 올린 컬러",
+      "bytes": 18934,
+      "sha256": "97df246b55b99b2cd053c39aead1f2ec2152591bd52273affd9907654b62bb2b",
+      "reference_region": null
+    },
+    {
+      "file": "images/05-detail.jpg",
+      "width": 860,
+      "height": 294,
+      "kind": "jpeg",
+      "alt": "01  백도 쉐이크  피치 핑크 01 백도 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 31116,
+      "sha256": "c69796bab9b743921072cba728733538a71649baf106deb10b4e2a23461d7df6",
+      "reference_region": "04–06"
+    },
+    {
+      "file": "images/06-detail.jpg",
+      "width": 860,
+      "height": 294,
+      "kind": "jpeg",
+      "alt": "02  구아바 쉐이크  로지 핑크 02 구아바 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 32547,
+      "sha256": "823f991786c81594573fe5a8024e0e1442b79cf0883182c41a619e7b52dabda0",
+      "reference_region": "04–06"
+    },
+    {
+      "file": "images/07-detail.jpg",
+      "width": 860,
+      "height": 294,
+      "kind": "jpeg",
+      "alt": "03  아사이베리 쉐이크  라벤더 핑크 03 아사이베리 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 35039,
+      "sha256": "c0b35c52c4b115a977dbb4bb17a20c0e0f66a9ff47170ed079c9d94299e3c876",
+      "reference_region": "04–06"
+    },
+    {
+      "file": "images/08-detail.jpg",
+      "width": 860,
+      "height": 294,
+      "kind": "jpeg",
+      "alt": "04  파파야 쉐이크  코랄 오렌지 04 파파야 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 33179,
+      "sha256": "b836bf22f26aba6b347d2bcfc4ab3faabad6147ace8f2a4491052adcead0eb6a",
+      "reference_region": "04–06"
+    },
+    {
+      "file": "images/09-detail.jpg",
+      "width": 860,
+      "height": 294,
+      "kind": "jpeg",
+      "alt": "05  용과 쉐이크  선명한 핑크 05 용과 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 33192,
+      "sha256": "31139d799cbdc639b68b2c1445d2fb74f00552e61a43a820ba7e8fbc64bb4a74",
+      "reference_region": "04–06"
+    },
+    {
+      "file": "images/10-detail.jpg",
+      "width": 860,
+      "height": 294,
+      "kind": "jpeg",
+      "alt": "06  살구 쉐이크  살구 베이지 06 살구 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 31567,
+      "sha256": "efcce449e4fd37d650ec1cdd6ed9b944f354bedc1c652092db8709a5f26f53f2",
+      "reference_region": "04–06"
+    },
+    {
+      "file": "images/11-detail.jpg",
+      "width": 860,
+      "height": 198,
+      "kind": "jpeg",
+      "alt": "피부색·사용량·조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
+      "bytes": 24280,
+      "sha256": "8301ff85b5b82a84e8d11875b2d1698fc58ec9d220e1dfed383e58aa59e9e070",
+      "reference_region": null
+    },
+    {
+      "file": "images/12-detail.jpg",
+      "width": 860,
+      "height": 418,
+      "kind": "jpeg",
+      "alt": "CREAM TO POWDER  펴 바를 땐 부드럽게, 마무리는 보송하게.",
+      "bytes": 31207,
+      "sha256": "e54e2c514b8fbb0d6d19567f1fa903204f5e4eac8ca8999074fc39a9da686a27",
+      "reference_region": null
+    },
+    {
+      "file": "images/13-motion.gif",
+      "width": 860,
+      "height": 573,
+      "kind": "gif",
+      "alt": "제공 원본의 크림 제형을 손끝에 묻히는 장면",
+      "bytes": 2292738,
+      "sha256": "431bb7dff71d754d8dee05e5e3a7f9812589733ace75f0e04d373f96c634d034",
+      "reference_region": null
+    },
+    {
+      "file": "images/14-detail.jpg",
+      "width": 860,
+      "height": 1338,
+      "kind": "jpeg",
+      "alt": "FORMULA  네 가지 식물성 오일 함유  살구씨 · 동백나무씨 올리브 · 서양자두씨오일  원료를 표현한 연출 이미지입니다. 맑은 오일을 표현한 기존 원료 연출 이미지 / 탐뷰티 파파야 쉐이크 닫힌 제품 원본",
+      "bytes": 164308,
+      "sha256": "f22cb1736cf1a1a7b50b7a37a73351fdb5b8a2355630f5e6499e8fea9d9f3850",
+      "reference_region": "09"
+    },
+    {
+      "file": "images/15-detail.jpg",
+      "width": 860,
+      "height": 544,
+      "kind": "jpeg",
+      "alt": "HOW TO USE  얇게 펴 바르고, 가볍게 톡톡.  손끝이나 도구로 얇게 펴 바른 뒤 경계를 가볍게 두드려 주세요.",
+      "bytes": 41736,
+      "sha256": "ed75f2f63b3eb83737790f364949c1d31ef54d54872081b84a97465bcbce4fd6",
+      "reference_region": null
+    },
+    {
+      "file": "images/16-motion.gif",
+      "width": 860,
+      "height": 447,
+      "kind": "gif",
+      "alt": "제공 원본의 블러셔를 손으로 얇게 펴 바르는 장면",
+      "bytes": 3957922,
+      "sha256": "e9aea18c88b529a54da924783e5c2978e7d2727746fd4fcfd08c50b43c777d9b",
+      "reference_region": null
+    },
+    {
+      "file": "images/17-detail.jpg",
+      "width": 860,
+      "height": 802,
+      "kind": "jpeg",
+      "alt": "VEGAN FORMULA  탐뷰티의 비건 포뮬러 기존 생성 식물 장식 배경 / 탐뷰티 백도 쉐이크 원본 제품 누끼",
+      "bytes": 101901,
+      "sha256": "46dd39e725044e8a829ecf19d4d2ad261299b90a254c1ec0d1dbcc6ec4472ceb",
+      "reference_region": "11"
+    },
+    {
+      "file": "images/18-detail.jpg",
+      "width": 860,
+      "height": 468,
+      "kind": "jpeg",
+      "alt": "사용 기한  개봉 후 12개월 · 개봉 전 36개월 TAM BEAUTY",
+      "bytes": 24074,
+      "sha256": "de540f94ffb7b92e2d3b19ebdfe6ba1b06451919040422716210ad4bec7d8b9c",
+      "reference_region": "12"
+    }
+  ],
+  "format_limit_bytes": 4900000,
+  "product_information": {
+    "file": "product-information.html",
+    "sha256": "e0b8319fe00e1d22bef8c210ab602130896d491b21fd0158fdaabd006e35dfca",
+    "font_size_css_px": 12,
+    "cafe24_editor_save_verified": false
+  },
+  "notes": [
+    "No custom JS, external fonts, MP4, animated WebP, iframe or buttons in delivery",
+    "Two source GIFs each play 3 cycles and stop; second GIF padded to reference inset; no creative colour grading",
+    "All six cheek assets are provided first revision, not generated; physical shade match unverified",
+    "Reference new colours and co-development omitted because TAM evidence unavailable",
+    "Original product information is byte-identical to prior delivery",
+    "Generated background is decorative; product cutout remains original"
+  ]
+}

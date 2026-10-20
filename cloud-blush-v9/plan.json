@@ -1,0 +1,24 @@
+{
+  "intent": "V8 배치와 사진 비율을 유지하며 서체·장식·중복 문안을 덜어 탐뷰티 톤으로 정리",
+  "retain": [
+    "섹션 순서",
+    "3개 제품 히어로",
+    "한눈에 보는 6색 손목 발색",
+    "6개 얼굴 발색과 크롭",
+    "원본 제형·발색 색상",
+    "크림투파우더 USP",
+    "전성분"
+  ],
+  "remove": [
+    "Bodoni 세리프·이탤릭",
+    "글자 뒤 흐림 장식",
+    "해시태그·키워드 칩",
+    "영문 색상명 중복",
+    "사용법 타원",
+    "사용기한 연결선·박스",
+    "제형 설명 반복"
+  ],
+  "type": "Pretendard Korean / Manrope English; source-only local fonts, baked into Cafe24 images",
+  "evidence": "Existing V8 assets, source provenance and claims retained. This is visual simplification, not a new efficacy or shade claim.",
+  "cafe24_upload": "deferred_by_owner"
+}

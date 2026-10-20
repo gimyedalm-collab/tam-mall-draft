@@ -1,0 +1,22 @@
+{
+  "review": "claude-review.txt",
+  "consultation": "Read-only CLI --no-session-persistence --output-format text",
+  "decisions": [
+    {
+      "issue": "Two blank spacer JPGs remained after copy removal",
+      "action": "Remove both spacer elements from the authoring source and export. Following section headings provide separation. Do not merely remove export-panel class, which would leave source/actual-delivery spacing inconsistent."
+    },
+    {
+      "issue": "Viewing-condition note repeated after wrist and face groups",
+      "action": "Retain near each independent evidence group so interpretation caveat remains visible with the relevant photos."
+    },
+    {
+      "issue": "Korean names repeated on wrist and texture grids",
+      "action": "Retain short labels on each photograph group; identifying a texture must not require scrolling back to map numbers. English names and repeated tone descriptions already removed."
+    }
+  ],
+  "reviewer_correction": "Supporting source text is 16.2px at 430px canvas; effective 12.06px at320, not16.2px atboth. Technical QA is authoritative for this measurement.",
+  "owner_visual_acceptance": "pending",
+  "physical_shade_match": "unverified",
+  "cafe24_upload": "deferred_by_owner"
+}

@@ -747,7 +747,7 @@
       "cafe24_upload": "deferred_by_owner"
     },
     "cloud_reference_design_v8_20261020": {
-      "status": "reference_design_substitution_assembled_and_verified; owner_acceptance_pending",
+      "status": "reference_geometry_baseline_preserved; typography_refined_in_v9",
       "source": "cloud-blush-v8/index.html",
       "review": "cloud-blush-v8/review/index.html",
       "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
@@ -758,6 +758,18 @@
       "hero": "rebuilt from original product cutouts; earlier preserve-hero preference superseded by latest direction",
       "face_source": "same supplied first revision, cheek-focused CSS crop only",
       "new_AI_generation": false,
+      "physical_shade_verified": false,
+      "cafe24_upload": "deferred_by_owner"
+    },
+    "cloud_typography_refinement_v9_20261020": {
+      "status": "package_verified; owner_visual_acceptance_pending",
+      "source": "cloud-blush-v9/index.html",
+      "review": "cloud-blush-v9/review/index.html",
+      "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
+      "plan": "cloud-blush-v9/plan.json",
+      "qa": "cloud-blush-v9/qa.json",
+      "change": "Remove reference-specific serif/italic/halos/chips/oval/frame; TAM sans typography; shorter duplicate copy",
+      "preserved": "V8 section order, hero/photo/crop geometry, all source image bytes, two delivery GIF bytes, native information",
       "physical_shade_verified": false,
       "cafe24_upload": "deferred_by_owner"
     }
