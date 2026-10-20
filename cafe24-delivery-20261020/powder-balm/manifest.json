@@ -1,0 +1,92 @@
+{
+  "product_no": 111,
+  "product": "더 클라우드 필터 파우더 밤",
+  "date": "2026-10-20",
+  "version": 1,
+  "status": {
+    "delivery_prepared": true,
+    "preview_verified": true,
+    "owner_visual_acceptance": "pending",
+    "cafe24_uploaded": false,
+    "actual_device_verified": false
+  },
+  "delivery_prefix": "/web/upload/tam-detail-20261020/powder-balm/",
+  "hero_intent": "First 540 CSS px at 430 wide: use location (nose/forehead), function (oil-control balm powder), supplied puff application.",
+  "media": [
+    {
+      "order": 1,
+      "file": "01-hero.jpg",
+      "width": 860,
+      "height": 640,
+      "bytes": 68962,
+      "sha256": "d891899406f823c476e1637bf749a1fb9c397bfb9afd66f59f641aa7155535b8",
+      "alt": "더 클라우드 필터 파우더 밤 기름종이를 바르다. 코·이마의 번들거림을 잡는 밤 타입 파우더."
+    },
+    {
+      "order": 2,
+      "file": "02-where-to-use.gif",
+      "width": 688,
+      "height": 352,
+      "bytes": 3082531,
+      "sha256": "ef38f1e13b33757a4e22b667668ae4a8330661972947f696e744c29772ec24c8",
+      "alt": "이마 · T존 코 · 콧볼 번들거리는 곳에, 내장 퍼프로 톡톡.",
+      "frames": 36,
+      "loop": 2,
+      "duration_ms": 3000
+    },
+    {
+      "order": 3,
+      "file": "03-blur.gif",
+      "width": 688,
+      "height": 808,
+      "bytes": 4526202,
+      "sha256": "17d0f7a012e19bf498d0e349ee1f4a83cf206809f1d6c6668ebbfe8de6089946",
+      "alt": "OIL CONTROL & BLUR 번들거림 잡고, 모공은 블러. 유분이 신경 쓰이는 코 옆 나비존까지. 소량씩 두드려 매끈한 피부 표현을 완성해요. 메이크업 효과이며, 사용 결과는 개인에 따라 다를 수 있습니다.",
+      "frames": 36,
+      "loop": 2,
+      "duration_ms": 3000
+    },
+    {
+      "order": 4,
+      "file": "04-balm-texture.jpg",
+      "width": 860,
+      "height": 1140,
+      "bytes": 99478,
+      "sha256": "be00f1bdcc9c64be689e8fcdfb2affc03dbf503d74f82450104664fb899f8d54",
+      "alt": "BALM TO POWDER 밤으로 얇게, 마무리는 보송하게. 흩날리는 가루 대신, 부드러운 고체 밤. 퍼프로 얇게 펴 바르는 파우더예요."
+    },
+    {
+      "order": 5,
+      "file": "05-three-uses.jpg",
+      "width": 860,
+      "height": 1358,
+      "bytes": 146942,
+      "sha256": "9af17eff70f75b6c9e09af0ae8c2582fa3b6bf9a436a32cda9078c5198d5bbaf",
+      "alt": "ONE BALM, THREE MOMENTS 프라이머부터 수정 화장까지, 작은 밤 하나로. 01 메이크업 전 모공이 신경 쓰일 때, 프라이머로 베이스를 바르기 전, 코 옆과 요철이 신경 쓰이는 부위에 얇게 발라주세요. 02 메이크업 후 보송하게 마무리할 때, 파우더로 베이스 메이크업 후 번들거리는 부위를 가볍게 두드려 마무리해주세요. 03 외출 중 유분이 올라올 때, 기름종이처럼 수정이 필요한 부위에 소량씩 톡톡. 내장 거울과 퍼프로 간편하게 정리해요."
+    },
+    {
+      "order": 6,
+      "file": "06-how-to.jpg",
+      "width": 860,
+      "height": 1150,
+      "bytes": 124319,
+      "sha256": "e547d99b0471bfead6a747396c4ead9b271d08559a1389fa127f8ffaf2828dde",
+      "alt": "HOW TO USE 많이 말고, 조금씩. 쓸지 말고, 톡톡. 1 퍼프에 소량 묻혀주세요. 사용 전, 티슈나 화장솜으로 내용물 표면을 가볍게 닦아주세요. 2 손등에서 한 번, 양을 조절해요. 얼굴에 바르기 전, 퍼프를 손등에 가볍게 쓸어 내용물이 고르게 묻게 해주세요. 3 유분이 있는 부위에 가볍게 두드려요. 코·콧볼·이마 등 필요한 부위에 톡톡. 얼굴을 쓸어내리지 않고 밀착시켜주세요. 한 번에 많이 바르기보다, 필요한 곳에 얇게 사용해주세요."
+    },
+    {
+      "order": 7,
+      "file": "07-product.jpg",
+      "width": 860,
+      "height": 1334,
+      "bytes": 138545,
+      "sha256": "e3f5f58c817c7164cf648ecd54464ccac4fdd7d040c7a4317363cc0794fc625e",
+      "alt": "THE CLOUD FILTER POWDER BALM 더 클라우드 필터 파우더 밤 3.5g · 거울 & 퍼프 내장"
+    }
+  ],
+  "product_information_sha256": "c08d0a5089521d3c7fde0d8a75f0d7884cd084132dad0e9cf04e3998cc72bd08",
+  "source_manifest": "../../powder-balm-v1/source-manifest.json",
+  "claims_note": "Oil-control/blur and three use cases reflect existing official product positioning, not new clinical substantiation. No 6h, ZERO, unqualified non-irritation, review counts, or unverified certification claim.",
+  "media_note": "Supplied product-specific footage. No Dasha archive imagery or unverified vertical V1–V3 footage. No AI-generated product or skin images. GIF colour quantization is unavoidable; no creative colour correction or claim of physically validated colour.",
+  "upload_note": "Owner deferred actual Cafe24 upload. Paths are planned, not live.",
+  "qa_record": "../../ops/cafe24/powder-balm-preview-qa-20261020.json"
+}

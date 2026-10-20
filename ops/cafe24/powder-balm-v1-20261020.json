@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-20",
+  "product_no": 111,
+  "product": "더 클라우드 필터 파우더 밤",
+  "owner_priority": "한 번에 어디에 쓰는 제품인지 보여야 한다. 후킹을 살리되 사용 부위, 용도, 도포 동작을 상단에서 연결한다.",
+  "preview": "cafe24-delivery-20261020/powder-balm/index.html",
+  "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
+  "source_layout": "powder-balm-v1/layout.html",
+  "source_manifest": "powder-balm-v1/source-manifest.json",
+  "qa": "ops/cafe24/powder-balm-preview-qa-20261020.json",
+  "evidence": {
+    "official_product": "https://tambeauty.kr/product/detail.html?product_no=111",
+    "facts_observed": "2026-10-20",
+    "brand_hook": "기름종이를 바르다.",
+    "explicit_definition": "코·이마의 번들거림을 잡는 밤 타입 파우더.",
+    "application": "Original product-specific revised forehead, nose and cheek application footage. Relative paths, SHA-256 hashes and exact segments in source manifest.",
+    "claims": [
+      {
+        "copy": "기름종이를 바르다 / 번들거림 잡고",
+        "support": "Existing official oil-control / blotting-paper use positioning and instructions to tap onto oily areas.",
+        "limit": "Marketing metaphor and intended cosmetic function; no quantified reduction or duration promise."
+      },
+      {
+        "copy": "모공은 블러",
+        "support": "Existing official cosmetic blur/primer positioning.",
+        "limit": "Makeup appearance only, variable results. Footage demonstrates application, not a controlled efficacy study."
+      },
+      {
+        "copy": "밤 타입 파우더 / 고체 밤",
+        "support": "Product name, supplied texture photograph and open product pan."
+      },
+      {
+        "copy": "프라이머 / 파우더 / 기름종이처럼",
+        "support": "Official 3-in-1 detail image and application instructions."
+      },
+      {
+        "copy": "거울과 퍼프 내장",
+        "support": "Original product photographs visibly show mirror and puff."
+      },
+      {
+        "copy": "소량, 손등에서 양 조절, 가볍게 두드리기",
+        "support": "Official detail powderbalm11.webp tips and native product instructions."
+      },
+      {
+        "copy": "3.5g, 사용기한, 전성분, 책임판매업자, 상담실",
+        "support": "Native product information extracted from the official product111 HTML; ingredient order retained."
+      }
+    ],
+    "excluded_claims": [
+      "6시간 지속 보장",
+      "ZERO 절대 표현",
+      "무자극 보장",
+      "현행 유효성 미확인 인증",
+      "리뷰 수를 효능 증거로 사용"
+    ],
+    "excluded_media": [
+      "Known Dasha imagery and derivatives",
+      "Unverified vertical powder-balm V1/V2/V3 videos",
+      "Separate before/after footage with unverified matching capture conditions"
+    ]
+  },
+  "status": {
+    "delivery_prepared": true,
+    "owner_visual_acceptance": "pending",
+    "production_cafe24_changed": false,
+    "actual_device_verified": false,
+    "upload": "Deferred by owner; prepare delivery and verify preview only.",
+    "preview_verified": true
+  },
+  "limitations": [
+    "Original source appearance retained; no new creative colour or exposure adjustment. GIF palette quantization and geometric scaling are required output conversions.",
+    "No claim of upstream unretouched footage, physical shade validation, clinical validation or live Cafe24 verification.",
+    "Other accepted TAM detail pages, storefront commerce, product settings and native review mappings are unchanged."
+  ],
+  "package_sha256": "9f8115352001c876d178d612de48a5c3dc147c7c5bfa07ffff56eafc647c1396",
+  "package_bytes": 8146411
+}
