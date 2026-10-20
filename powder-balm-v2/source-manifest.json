@@ -1,0 +1,56 @@
+[
+  {
+    "asset": "powder-balm-v1/assets/open-puff.png",
+    "source_relative": "누끼/4.png",
+    "sha256": "6df5098ccc7b6c166809984fd016e3c530e5a9a64deb46b5840be9c6af3cbc18",
+    "treatment": "Original bytes; transparent-margin framing in SVG; no colour/exposure edits."
+  },
+  {
+    "asset": "powder-balm-v1/assets/open-balm.png",
+    "source_relative": "누끼/5.png",
+    "sha256": "68bd0a2d25653755ad45ead4589f57daaa3be9434d53a39d3cf23d5271d1c0dd",
+    "treatment": "Original bytes; transparent-margin framing in SVG; no colour/exposure edits."
+  },
+  {
+    "asset": "powder-balm-v1/assets/balm-texture.png",
+    "source_relative": "제형/누끼/누끼_3.png",
+    "sha256": "6cfc65c122e73979dbf328ea0216f80b50f03fab4612faf3bf8256a79f22391d",
+    "treatment": "Original bytes; transparent-margin framing in SVG; no colour/exposure edits."
+  },
+  {
+    "asset": "powder-balm-v1/assets/still-life.jpg",
+    "source_relative": "연출컷/파우더밤２.jpg",
+    "sha256": "96d699e13bbdd49b3c04cf87492159cf44a20898cc495644e4b1fbcf77f80163",
+    "treatment": "Original bytes; square fit."
+  },
+  {
+    "asset": "powder-balm-v2/assets/hero-flatlay.jpg",
+    "source_relative": "연출컷/파우더밤１.jpg",
+    "sha256": "865dfaa3538aa71d91d15c5f7164b8c7f67cfe25e16fc132fb05ccf78d900911",
+    "treatment": "Original bytes; browser geometric crop only. No creative colour or exposure adjustment."
+  },
+  {
+    "asset": "powder-balm-v1/assets/forehead.jpg",
+    "source_relative": "외주/파우더 밤 수정/이마 수정.mp4",
+    "sha256": "68ab10abba22f57f47352ab7bb6100bdac6d64587e056402cb2b9e105b5cbd1b",
+    "start_seconds": 0.8,
+    "duration_seconds": 3,
+    "treatment": "Supplied product-specific application footage; trim, geometric fit, 12fps GIF palette conversion. No creative colour/exposure changes; no inferred upstream retouch or physical colour validation."
+  },
+  {
+    "asset": "powder-balm-v1/assets/nose.jpg",
+    "source_relative": "외주/파우더 밤 수정/코 수정.mp4",
+    "sha256": "0ba0818757ec8ae93a71b4034406590707d4ff27f717f273da958c3d08dcafc6",
+    "start_seconds": 0.8,
+    "duration_seconds": 3,
+    "treatment": "Supplied product-specific application footage; trim, geometric fit, 12fps GIF palette conversion. No creative colour/exposure changes; no inferred upstream retouch or physical colour validation."
+  },
+  {
+    "asset": "powder-balm-v1/assets/cheek.jpg",
+    "source_relative": "외주/파우더 밤 수정/나비존 수정.mp4",
+    "sha256": "46146ecf4b98963419796fb6eb656582d70d9dc7d8e6ddad7d6edebbb11daa52",
+    "start_seconds": 1.2,
+    "duration_seconds": 3,
+    "treatment": "Supplied product-specific application footage; trim, geometric fit, 12fps GIF palette conversion. No creative colour/exposure changes; no inferred upstream retouch or physical colour validation."
+  }
+]

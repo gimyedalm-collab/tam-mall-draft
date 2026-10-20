@@ -16,7 +16,7 @@ def main():
     local=(OUT/'detail.local.html').read_text(encoding='utf-8')
     cafe=(OUT/'detail.cafe24.html').read_text(encoding='utf-8')
     soup=BeautifulSoup(local,'html.parser')
-    assert [i['src'] for i in soup.find_all('img')]==expected
+    assert [i['src'].split('?')[0] for i in soup.find_all('img')]==expected
     assert cafe.replace(manifest['delivery_prefix'],'')==local
     assert not soup.find(['script','video','iframe','button'])
     assert not re.search(r'https?://|@font-face',local)
@@ -29,7 +29,7 @@ def main():
                 assert im.n_frames>1 and im.info['loop']==2
                 for n in [0,im.n_frames//2,im.n_frames-1]:
                     im.seek(n);im.convert('RGB').save(args.screenshots/f'{f.stem}-frame-{n}.png')
-    qa={'version':1,'product_no':111,'viewports':[],'composition_matches_cafe24_fragment':True,'source_media_count':len(expected),'custom_js_fonts_or_video_host_required':False,'all_media_below_4_9_MB':True,'native_information_rows':9,'cafe24_live_upload_verified':False,'physical_device_verified':False}
+    qa={'version':2,'product_no':111,'viewports':[],'composition_matches_cafe24_fragment':True,'source_media_count':len(expected),'custom_js_fonts_or_video_host_required':False,'all_media_below_4_9_MB':True,'native_information_rows':9,'cafe24_live_upload_verified':False,'physical_device_verified':False}
     with sync_playwright() as p:
         browser=p.chromium.launch()
         for width in [320,390,430,860,1280]:
@@ -47,14 +47,14 @@ def main():
             for img in page.locator('img').all():img.scroll_into_view_if_needed()
             qa['viewports'].append(data);page.close()
         source=browser.new_page(viewport={'width':430,'height':900},device_scale_factor=1)
-        source.goto((ROOT/'powder-balm-v1/layout.html').as_uri());source.evaluate('document.fonts.ready')
+        source.goto((ROOT/'powder-balm-v2/layout.html').as_uri());source.evaluate('document.fonts.ready')
         source.wait_for_function('Array.from(document.images).every(i=>i.complete && i.naturalWidth>0)')
         clipping=source.evaluate('''()=>[...document.querySelectorAll('section')].flatMap(s=>[...s.querySelectorAll('h1,h2,h3,p,img')].filter(e=>{let a=s.getBoundingClientRect(),b=e.getBoundingClientRect();return b.bottom>a.bottom+1||b.right>a.right+1||b.left<a.left-1}).map(e=>({section:s.id,text:e.innerText||e.alt})))''')
         assert not clipping,clipping
         browser.close()
     qa['source_text_and_image_clipping']=[]
     qa['visual_review']='pending'
-    record=ROOT/'ops/cafe24/powder-balm-preview-qa-20261020.json'
+    record=ROOT/'ops/cafe24/powder-balm-v2-preview-qa-20261020.json'
     record.write_text(json.dumps(qa,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'passed':True,'screenshots':str(args.screenshots),'viewports':[v['viewport'] for v in qa['viewports']],'first_screen_height_at_390':qa['viewports'][1]['heroAndApplicationHeight']},ensure_ascii=False))
 
