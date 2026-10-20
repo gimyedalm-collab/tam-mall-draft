@@ -1,0 +1,46 @@
+[
+  {
+    "file": "assets/product-1-2.png",
+    "source": "C:\\Users\\BNK-1\\Desktop\\_다샤 디모멘텀\\베트남_링크스_팝업_광고판_소스_260908\\08. 더 클라우드 블러 크림 블러셔\\누끼\\01호 백도쉐이크2.png",
+    "source_sha256": "a796311ecce40458b4f0df52baf3505527a1ee4edb4683750b397ee503c6f03b",
+    "sha256": "2f6038eda6b2fc3515283acdb9bb855fc2ddf0df6740f37acd177d8a057cbcf9",
+    "operation": "Alpha bbox trim and proportional resize only; placement/rotation in HTML; no recolour",
+    "size": [
+      935,
+      1500
+    ]
+  },
+  {
+    "file": "assets/product-6-2.png",
+    "source": "C:\\Users\\BNK-1\\Desktop\\_다샤 디모멘텀\\베트남_링크스_팝업_광고판_소스_260908\\08. 더 클라우드 블러 크림 블러셔\\누끼\\06호 살구쉐이크2.png",
+    "source_sha256": "6bdf93351e28714a9642ef77a153b42b6e748a741f81ec50997a9fcbd1ea4fa8",
+    "sha256": "ceafbb8619fe13b8629eaa4f385e7ff4f505b64808e78e48cba1e8b178b8d48e",
+    "operation": "Alpha bbox trim and proportional resize only; placement/rotation in HTML; no recolour",
+    "size": [
+      926,
+      1500
+    ]
+  },
+  {
+    "file": "assets/product-2-1.png",
+    "source": "C:\\Users\\BNK-1\\Desktop\\_다샤 디모멘텀\\베트남_링크스_팝업_광고판_소스_260908\\08. 더 클라우드 블러 크림 블러셔\\누끼\\02호 구아바쉐이크1.png",
+    "source_sha256": "7d9b1439916589ef2be87b57d8356c9b148651440e28cad08c1a773325204d17",
+    "sha256": "ff2ce2230f3808caa8c89550ba1eac7f216dd39099d72f8e77fd22d2a06a6900",
+    "operation": "Alpha bbox trim and proportional resize only; placement/rotation in HTML; no recolour",
+    "size": [
+      1376,
+      1380
+    ]
+  },
+  {
+    "file": "assets/product-4-1.png",
+    "source": "C:\\Users\\BNK-1\\Desktop\\_다샤 디모멘텀\\베트남_링크스_팝업_광고판_소스_260908\\08. 더 클라우드 블러 크림 블러셔\\누끼\\04호 파파야쉐이크1.png",
+    "source_sha256": "f69d3b177342d63d9a57e7501bba6ef8997466ec83469222b4b5dd8fe0dccff7",
+    "sha256": "c433fdd035f5d2e88832bd6dd117d4d80a19ef6530d7cd390d115a2a0ed4684c",
+    "operation": "Alpha bbox trim and proportional resize only; placement/rotation in HTML; no recolour",
+    "size": [
+      1355,
+      1352
+    ]
+  }
+]

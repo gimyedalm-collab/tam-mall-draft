@@ -1,0 +1,13 @@
+{
+  "review":"claude-review.txt",
+  "consultation":"read-only local Claude CLI with --no-session-persistence --output-format text; no saved review session",
+  "decisions":[
+    {"issue":"Hero crop/overlap and repeated English heading","change":"Reduced open-product sizes, placed their rotated bounds within frame and reduced closed compact. English hero title now The Cloud Blur; Korean cream-to-powder USP remains.","limit":"Reviewer statement that two pans were invisible was overstated; both were visible in original capture, but overlap improvement was useful."},
+    {"issue":"Six tinted label panels could look like shade evidence","change":"All six right panels now share one neutral pale lavender. Actual face and texture photos stay unchanged."},
+    {"issue":"Face crop shows eyes/hair rather than cheek","change":"Same six source files, same crop rule. Zoom/reframe to cheek and nose region; no pixel recolouring or skin retouch."},
+    {"issue":"Variation between wrist captures and use footage","change":"Kept wrist dividers and original exposure. Added viewing-condition note next to cheeks as well. Use clip remains in How to Use, labelled as application rather than a named shade.","reason":"No reliable clip shade ID; inventing a label or matching exposure by eye would weaken evidence. Existing hand application has enough visible product and finger action; no extra colour claim."}
+  ],
+  "owner_visual_acceptance":"pending",
+  "physical_shade_match":"unverified",
+  "actual_cafe24_upload":"deferred_by_owner"
+}

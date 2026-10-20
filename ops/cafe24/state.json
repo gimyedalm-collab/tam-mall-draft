@@ -733,7 +733,7 @@
       "customer_page_changed": false
     },
     "cloud_reference_assembly_v7_20261020": {
-      "status": "assembled_and_package_verified; owner_visual_acceptance_pending",
+      "status": "superseded_by_owner_closer_design_substitution_v8; not_accepted",
       "source": "cloud-blush-v7/index.html",
       "review": "cloud-blush-v7/review/index.html",
       "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
@@ -744,6 +744,21 @@
       "face_revision": "provided_first_revision_consistent_set",
       "physical_colour_verified": false,
       "generated_scope": "decorative vegan background only; original product cutout unchanged",
+      "cafe24_upload": "deferred_by_owner"
+    },
+    "cloud_reference_design_v8_20261020": {
+      "status": "reference_design_substitution_assembled_and_verified; owner_acceptance_pending",
+      "source": "cloud-blush-v8/index.html",
+      "review": "cloud-blush-v8/review/index.html",
+      "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
+      "plan": "cloud-blush-v8/plan.json",
+      "qa": "cloud-blush-v8/qa.json",
+      "claude_review": "cloud-blush-v8/claude-review.txt",
+      "decisions": "cloud-blush-v8/review-resolution.json",
+      "hero": "rebuilt from original product cutouts; earlier preserve-hero preference superseded by latest direction",
+      "face_source": "same supplied first revision, cheek-focused CSS crop only",
+      "new_AI_generation": false,
+      "physical_shade_verified": false,
       "cafe24_upload": "deferred_by_owner"
     }
   },

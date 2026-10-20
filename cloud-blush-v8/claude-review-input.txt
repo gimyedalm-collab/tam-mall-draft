@@ -1,0 +1,90 @@
+Read only. No edits, no other agents. Owner explicitly rejected V7 interpretation and now instructs closer Freshian DESIGN substitution, not just section order: big serif headings, hero product cutout composition, three-column texture cards, shallow 50/50 cheek rows, oval how-to title, muted TAM backgrounds. Do not invoke older one-grid or unchanged-hero requirements; this latest direction supersedes them. Provided first-revision cheeks, wrist assets and transparent texture assets stay unchanged except crop/resize. Physical shade accuracy unverified; Cafe24 upload deferred. Review the following reference/candidate images with Read:
+cloud-blush-v8/review/ref-hero.jpg and cloud-blush-v8/review-hero-430.png
+cloud-blush-v8/review/ref-faces.jpg and cloud-blush-v8/review-faces-430.png
+cloud-blush-v8/review-palette-430.png
+cloud-blush-v8/review-howto-430.png
+cloud-blush-v8/review-formula-430.png
+Judge design fidelity, mobile hierarchy, misleading crop/claims, and specific remaining issues. Give at most 4 practical issues in Korean. Distinguish owner approval from technical verification. Actual delivery is flattened JPG/GIF + native information, NOT the editable authoring HTML.
+PLAN:
+{
+  "status":"reference_geometry_locked_before_build",
+  "owner_direction":"프레시안 디자인을 먼저 가깝게 맞추고 제품·발색·문안을 치환한 뒤 덜어낸다. V7 히어로 유지 조건은 이번 디자인 치환 지시로 대체된다.",
+  "reference":"https://www.freshian.com/product/detail.html?product_no=157",
+  "snapshot":"cloud-blush-v6/review/reference-exact-20261020/reference.jpg",
+  "rules":["원본의 큰 세리프 제목, 좁은 본문, 옅은 면 전환, 3열 제형 카드, 낮고 넓은 얼굴 행을 적용", "실제 사진 색은 보정하지 않고 장식 배경과 설명 면만 낮은 채도로 조정", "도입부는 탐뷰티 원본 제품 누끼로 새로 조립", "발색은 V7에서 검토한 제공 1차 얼굴·손목·투명 제형 원본 유지", "사진·문안·로고는 모두 TAM 자료; 타사 소재는 비교 화면에만 사용"],
+  "geometry_860":[
+    {"section":"hero","reference":"01","layout":"상단 큰 영문 + 2줄 국문; 하단 대형 제품 3개 대각 배치","change_from_v7":"기존 완성 히어로 사진을 유지하지 않고 원본 누끼로 재구성"},
+    {"section":"intro","reference":"01","layout":"국문 제품명 + 큰 영문명 + 짧은 키워드, 아래 전체 폭 제품 사진"},
+    {"section":"palette","reference":"03","layout":"큰 세리프 제목; 피부 발색 전체 비교; 3열 흰 제형 카드","adaptation":"12색→6색. 손목은 개별 촬영본이므로 구분선을 유지해 하나의 팔로 가장하지 않음"},
+    {"section":"faces","reference":"04–06","layout":"좌우 여백 약60px, 행 폭740px·높이250px, 사진과 설명 50:50, 행 간40px","adaptation":"근거 없는 웜·쿨 분류 대신 Colour on Cheeks 제목 하나로 통합. 6행 유지. 설명 면은 낮은 채도의 색상 면"},
+    {"section":"texture","reference":"07","layout":"큰 제목+짧은 설명, 전체 폭 제형 미디어, 얇은 Cream/Powder 라벨 띠","adaptation":"사용자 확인 크림투파우더 특성만 설명. 시험·비교 이미지 없음"},
+    {"section":"formula","reference":"09","layout":"제목과 함유 사실 강조, 아래 큰 원료·제품 정물","adaptation":"77%·보습 효능 대신 전성분의 네 식물성 오일만. 기존 맑은 오일 사진과 다른 제품 누끼 조합"},
+    {"section":"howto","reference":"10","layout":"테두리 타원 제목, 짧은 두 줄 문안, 좌우 여백 있는 사용 장면","adaptation":"원본 손 도포 GIF; 얼굴 사용 장면을 생성하지 않음"},
+    {"section":"vegan","reference":"11","layout":"큰 세리프 제목, 짧은 국문, 약80% 폭 식물·제품 사진"},
+    {"section":"check","reference":"12","layout":"제목 아래 점/세로선 연결과 얇은 테두리 안내 상자","adaptation":"공식 사용기한만. 타사 변색·기포 설명 전용 안 함"}
+  ],
+  "omissions":["02 신색상 출시 근거 없음", "08 공동개발 스토리 근거 없음", "웜쿨 분류·타사 인증·효능 수치 없음"],
+  "claims_source":"cloud-blush-v7/plan.json claims; unchanged",
+  "physical_shade_accuracy":"unverified",
+  "delivery":"Cafe24 JPG/GIF + unchanged native 12px product information; no live upload",
+  "new_image_generation":"none planned; original cutouts and existing decorative background suffice"
+}
+
+QA:
+{
+  "status": "candidate_package_qa_pass",
+  "files": 21,
+  "gifs": 2,
+  "bytes": 7756866,
+  "largest_file_bytes": 3982777,
+  "gif_files": [
+    {
+      "file": "images/13-motion.gif",
+      "bytes": 2292738
+    },
+    {
+      "file": "images/18-motion.gif",
+      "bytes": 3982777
+    }
+  ],
+  "delivery_paths": "All flattened into cafe24/images; source ../asset paths are not used in delivery",
+  "duplicate_export_images": false,
+  "full_gif_decode": true,
+  "zip_verified": true,
+  "information_unchanged": true,
+  "oil_INCI_occurrences_each": 6,
+  "colour_note_min_effective_px_320": 12.055813953488371,
+  "widths": [
+    {
+      "width": 320,
+      "no_overflow": true,
+      "no_seams": true,
+      "images_loaded": true,
+      "js_disabled": true,
+      "information_font": "12px",
+      "height": 6971
+    },
+    {
+      "width": 390,
+      "no_overflow": true,
+      "no_seams": true,
+      "images_loaded": true,
+      "js_disabled": true,
+      "information_font": "12px",
+      "height": 7866
+    },
+    {
+      "width": 860,
+      "no_overflow": true,
+      "no_seams": true,
+      "images_loaded": true,
+      "js_disabled": true,
+      "information_font": "12px",
+      "height": 14717
+    }
+  ],
+  "owner_acceptance": "pending",
+  "physical_shade_match": "unverified",
+  "cafe24_upload": "deferred_by_owner",
+  "physical_device_playback": "pending_at_rollout"
+}

@@ -742,3 +742,24 @@ oil-control/blur language is cosmetic positioning, not new clinical proof.
 Owner visual acceptance remains pending. Actual Cafe24 upload, administrator
 save and physical-device verification remain explicitly deferred. Other product
 details and native commerce are unchanged.
+
+
+## Cloud reference DESIGN substitution V8 - 2026-10-20
+
+Owner explicitly approves closer Freshian DESIGN substitution, not only section
+order, then reducing excess. V7 is superseded. Current source cloud-blush-v8;
+comparison cloud-blush-v8/review/; current Cafe24 delivery directory unchanged.
+Hero is intentionally rebuilt from three original TAM cutouts; this supersedes
+earlier unchanged-hero preference. Large editorial serif headings, 3-column
+texture cards, shallow50/50 cheek rows (~740x252 at860), oval How to Use,
+check-point connector/frame, and muted TAM surface colours follow the reference.
+Cheek crop now centres cheek/nose, all6 supplied first revision; no recolouring.
+All right label panels share a neutral background to avoid synthetic shade cues.
+New-colour/co-development/tone classifications/77% claims remain omitted.
+No new AI images in V8. Existing decorative vegan background reused; product
+cutouts retain original colour/logo. Existing GIF footage preserved; How to Use
+GIF is padded to match reference margins and border. Native12px facts/INCI
+unchanged. Source fonts are rasterized; delivery has no external font/JS/MP4.
+Read-only nonpersistent Claude critique and dispositions are recorded. Technical
+checks are not owner visual acceptance or physical shade validation. Actual
+Cafe24 upload/administrator save/physical-device playback remain deferred.
