@@ -1,0 +1,82 @@
+{
+  "version": "v8",
+  "images": [
+    {
+      "name": "01-hero",
+      "file": "images/01-hero.png",
+      "width": 1680,
+      "height": 2538,
+      "source_height": 1511,
+      "bytes": 3773662,
+      "sha256": "851309614048ffe4e00df5dec39d262393b7bfa8961306042d3b6f2f9636e8d9",
+      "alt": "하트 쉐이딩 듀오. 콧대는 연하게, 턱선은 깊게. 두 가지 쉐딩을 하나의 하트에.",
+      "reference": "tcfs-01"
+    },
+    {
+      "name": "02-lineup",
+      "file": "images/02-lineup.png",
+      "width": 1680,
+      "height": 2421,
+      "source_height": 1441,
+      "bytes": 1044722,
+      "sha256": "78d148076f2dab0a00c4a1aa0f1a56e3d15cc004876e9f6796bc608309e388c0",
+      "alt": "더 클라우드 하트 쉐이딩 듀오. 콧대와 윤곽, 부위에 맞춰 나눠 쓰는 라이트와 딥의 두 가지 음영. 01 샌드 쉐이더 뉴트럴 소프트 브라운. 02 포그 쉐이더 차분한 애쉬 브라운.",
+      "reference": "tcfs-02"
+    },
+    {
+      "name": "03-duo-color",
+      "file": "images/03-duo-color.png",
+      "width": 1680,
+      "height": 3908,
+      "source_height": 2326,
+      "bytes": 1986734,
+      "sha256": "4fddbed06afcf932a202af2b750c558b149d247f9b1bcca5fcf172d5d562e479",
+      "alt": "밝은 쉐딩과 진한 쉐딩을 함께. 라이트: 콧대·코끝. 딥: 광대 아래·턱선. 샌드와 포그 팔 발색, 위 라이트 아래 딥.",
+      "reference": "tcfs-05; colour card shortened by500px because face photograph excluded"
+    },
+    {
+      "name": "04-placement",
+      "file": "images/04-placement.png",
+      "width": 1680,
+      "height": 2470,
+      "source_height": 1470,
+      "bytes": 4274998,
+      "sha256": "c89572d4a097d4e1c4218ec1d4f2accf0d5fb1740dc85364797af5a91fd21eba",
+      "alt": "부위에 맞춰, 두 가지 음영. 라이트: 콧대·코끝. 딥: 광대 아래·턱선. 바른 뒤 손끝이나 브러시로 경계를 펴주세요. 사용 부위 안내를 위한 AI 생성 이미지이며 실제 발색이나 사용 결과가 아닙니다.",
+      "reference": "Owner requested a generated face placement image to replace V7 schematic"
+    },
+    {
+      "name": "05-howto",
+      "file": "images/05-howto.png",
+      "width": 1680,
+      "height": 1687,
+      "source_height": 1004,
+      "bytes": 589863,
+      "sha256": "03a48ae43d90a2261e506fdf35df9a4f95153fb893331e2685ebc66ab43abfb0",
+      "alt": "하트 모양으로 펼쳐 사용할 쪽의 캡을 열고, 소량을 바른 뒤 손끝이나 브러시로 블렌딩.",
+      "reference": "tcfs-09 typography; product stills replace unverified application footage"
+    },
+    {
+      "name": "06-ending",
+      "file": "images/06-ending.png",
+      "width": 1680,
+      "height": 984,
+      "source_height": 586,
+      "bytes": 945112,
+      "sha256": "4ed08657e76a4c05a7479e96c6d7b4e5843e80dfde555731464fa9d3c29e66f7",
+      "alt": "더 클라우드 하트 쉐이딩 듀오. 샌드·포그, 2.1g×2.",
+      "reference": "tcfs-14"
+    }
+  ],
+  "owner_visual_acceptance": "pending",
+  "cafe24_upload": "deferred_by_owner",
+  "reference": "TCFS dual contour stick official page, downloaded2026-10-21",
+  "adaptations": [
+    "Actual two TAM options",
+    "Owner-authorized generated face with instructional overlays replaces V7 vector schematic",
+    "No actual before/after or verified application result is claimed"
+  ],
+  "hero": "Original product photo planes with Blender floor and shadows; source colours unchanged",
+  "change": "04-placement only; other five media byte-identical to V7",
+  "generated_face": "Original fictional adult model for usage location instruction; not actual shade, product use or efficacy evidence"
+}
