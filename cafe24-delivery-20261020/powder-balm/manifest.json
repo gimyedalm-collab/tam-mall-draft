@@ -2,7 +2,7 @@
   "product_no": 111,
   "product": "더 클라우드 필터 파우더 밤",
   "date": "2026-10-21",
-  "version": 3,
+  "version": 4,
   "status": {
     "delivery_prepared": true,
     "preview_verified": true,
@@ -11,82 +11,90 @@
     "actual_device_verified": false
   },
   "delivery_prefix": "/web/upload/tam-detail-20261020/powder-balm/",
-  "hero_intent": "Touch-up positioning: makeup already applied, emerging oiliness, small-amount targeted puff application. Cosmetic blur is secondary. Not a proof of selective oil removal or unchanged foundation.",
   "media": [
     {
       "order": 1,
-      "file": "01-hero.jpg",
-      "width": 860,
-      "height": 1104,
-      "bytes": 119318,
-      "sha256": "8fc6ef40d2b904149d0412f2a0cdd7b7a6fed59a0cfb94eafdf368e85969fdce",
-      "alt": "더 클라우드 필터 파우더 밤 공들인 메이크업 위에, 올라온 유분을 톡톡. 번들거리는 코·이마에 가볍게 두드려 보송하게 정리하는 파우더 밤."
+      "file": "01-hero.gif",
+      "width": 480,
+      "height": 641,
+      "bytes": 4602976,
+      "sha256": "62312f078c1445f1de1be0e262f456a43190246480935fbacc9bd1f63546464b",
+      "alt": "더 클라우드 필터 파우더 밤 공들인 메이크업 위에, 올라온 유분을 톡톡. 번들거리는 코·이마·나비존에 두드려 보송하게 정리하는 파우더 밤. 나비존에 톡톡 실제 사용 장면 · 메이크업 효과이며 사용 결과는 개인에 따라 다를 수 있습니다.",
+      "frames": 66,
+      "loop": 2,
+      "duration_ms": 8260
     },
     {
       "order": 2,
-      "file": "02-where-to-use.gif",
-      "width": 688,
-      "height": 464,
-      "bytes": 3165703,
-      "sha256": "23681e35ee9e4d1cedb8e2d291f12f645f143e00f8b078e0a04c24ae1ae5b5e6",
-      "alt": "화장 후 올라온 번들거림에. 이마 · T존 코 · 콧볼 쓸어내리지 않고, 가볍게 두드려요.",
-      "frames": 36,
-      "loop": 2,
-      "duration_ms": 3000
+      "file": "02-benefit.jpg",
+      "width": 860,
+      "height": 1148,
+      "bytes": 115071,
+      "sha256": "9ef5682130aa80c590ffc7fa05e5332c6d94a64da7d559bfdda15df4b1071df5",
+      "alt": "THE CLOUD FILTER POWDER BALM 유분 정리에서, 매끈한 피부 표현까지. 기름종이를 찾게 되는 순간, 보송함에 부드러운 블러 마무리를 더해요."
     },
     {
       "order": 3,
-      "file": "03-blur.gif",
-      "width": 688,
-      "height": 808,
-      "bytes": 4614661,
-      "sha256": "5367126284a7bb9bb5cb13edc95411b351d4903ade1022afbd06a5f779a9ff06",
-      "alt": "MAKEUP TOUCH-UP 수정이 필요한 곳에만, 얇게 밀착. 유분이 신경 쓰이는 코 옆 나비존에도. 소량씩 두드려 보송한 마무리를 더해요. 메이크업 효과이며, 사용 결과는 개인에 따라 다를 수 있습니다.",
-      "frames": 36,
+      "file": "03-where-to-use.gif",
+      "width": 640,
+      "height": 633,
+      "bytes": 3710419,
+      "sha256": "84b14ad36c7e35616f832cb27b776209cfb3ba3af89172179952a2f0a5f62e4c",
+      "alt": "번들거리는 곳을 골라, 코에도, 이마에도. 퍼프로 쓸어내리지 않고 가볍게 두드려요. 코 · 콧볼 이마 · T존 실제 사용 장면 · 사용 결과는 개인에 따라 다를 수 있습니다.",
+      "frames": 68,
       "loop": 2,
-      "duration_ms": 3000
+      "duration_ms": 6800
     },
     {
       "order": 4,
       "file": "04-balm-texture.jpg",
       "width": 860,
-      "height": 1100,
-      "bytes": 104049,
-      "sha256": "379446a81d4abcec4ae07c60e5446e69ed6810d18646c9351b3823e1eab31bb2",
-      "alt": "BALM TO POWDER 얇게 밀착하는 밤, 부드러운 블러 마무리. 가루를 덜어 쓸 필요 없는 고체 밤. 퍼프로 얇게 발라 피부결까지 매끈하게."
+      "height": 988,
+      "bytes": 96771,
+      "sha256": "f79c86b542c62db42d8650e986a508af327b2107105cdae8aaeb5ab2684837f1",
+      "alt": "POWDER IN BALM 퍼프에 묻히는 고체 밤, 피부 위에는 보송하게. 가루를 덜어 쓸 필요 없이, 원하는 부위에 얇게 발라주세요."
     },
     {
       "order": 5,
-      "file": "05-three-uses.jpg",
-      "width": 860,
-      "height": 1294,
-      "bytes": 126820,
-      "sha256": "a5d551dd281ea1303ccc6eabb5e85a8228b19d11e98e578bfcb42315a71efed4",
-      "alt": "ONE BALM, THREE MOMENTS 외출 중 유분 정리부터, 메이크업 전·후까지. 수정 외출 중 화장 위로 유분이 올라왔을 때 내장 거울로 번들거리는 부위를 확인하고, 소량을 묻힌 퍼프로 가볍게 두드려요. 마무리 메이크업 후 베이스를 보송하게 마무리할 때 메이크업을 마친 뒤 유분이 신경 쓰이는 부위에 얇게 발라 마무리해주세요. 준비 메이크업 전 모공이 신경 쓰일 때, 프라이머로 베이스를 바르기 전, 코 옆과 요철이 신경 쓰이는 부위에 얇게 발라주세요."
+      "file": "05-puff-and-amount.gif",
+      "width": 640,
+      "height": 853,
+      "bytes": 1294027,
+      "sha256": "841be028d187b0a0abfc74f5ddd064bf04cc3a13d57a34be633a2e53e0672266",
+      "alt": "좁은 콧볼까지 닿는 퍼프, 양은 손등에서 한 번. 거울 & 슬림한 물방울 퍼프 손등에서 도포량 조절 퍼프에 소량 묻혀 손등에 고르게 편 뒤, 유분이 신경 쓰이는 부위에만 톡톡. 사용 전 티슈나 화장솜으로 내용물 표면을 가볍게 닦아주세요. 얼굴에서는 문지르지 않고 가볍게 두드려 밀착시켜주세요.",
+      "frames": 39,
+      "loop": 2,
+      "duration_ms": 3900
     },
     {
       "order": 6,
-      "file": "06-how-to.jpg",
+      "file": "06-three-moments.jpg",
       "width": 860,
-      "height": 1140,
-      "bytes": 121276,
-      "sha256": "a42fc3498dc7c51f7f0524d0464c5f1dbc8d9368430086139811e60b32b5f0f6",
-      "alt": "HOW TO USE 화장한 피부에는, 소량씩 가볍게. 1 퍼프에 소량 묻혀주세요. 사용 전, 티슈나 화장솜으로 내용물 표면을 가볍게 닦아주세요. 2 손등에서 한 번, 양을 조절해요. 얼굴에 바르기 전, 퍼프를 손등에 가볍게 쓸어 내용물이 고르게 묻게 해주세요. 3 유분이 있는 부위에 가볍게 두드려요. 코·콧볼·이마 등 필요한 부위에 톡톡. 얼굴을 쓸어내리지 않고 밀착시켜주세요. 퍼프에 소량을 묻혀, 번들거림이 신경 쓰이는 곳에만 사용해주세요."
+      "height": 836,
+      "bytes": 79592,
+      "sha256": "0154a7699f8a4b1cbee49cbcd13f6810e16ded4986cbf79461ee770cd600e7c0",
+      "alt": "수정할 때도, 메이크업 전·후에도. 외출 중 올라온 유분을 정리할 때 번들거리는 부위에 소량씩 두드려요. 메이크업 후 보송하게 마무리할 때 유분이 신경 쓰이는 곳에 얇게 발라요. 메이크업 전 매끈한 베이스를 준비할 때 모공·요철이 신경 쓰이는 곳에 프라이머로."
     },
     {
       "order": 7,
       "file": "07-product.jpg",
       "width": 860,
-      "height": 1274,
-      "bytes": 133245,
-      "sha256": "0de9514ac7fd9458a4648749b6d61a70c308104ff16be92e6ad2ab2129e242cb",
+      "height": 1130,
+      "bytes": 128060,
+      "sha256": "7834cbf8fb4c97921939a7d7ffc01d8da8e17eb4acd1ec95931d0427095e0941",
       "alt": "THE CLOUD FILTER POWDER BALM 더 클라우드 필터 파우더 밤 3.5g · 거울 & 퍼프 내장"
     }
   ],
   "product_information_sha256": "c08d0a5089521d3c7fde0d8a75f0d7884cd084132dad0e9cf04e3998cc72bd08",
-  "source_manifest": "../../powder-balm-v3/source-manifest.json",
-  "claims_note": "Oil-control/blur and three use cases reflect existing official product positioning, not new clinical substantiation. No 6h, ZERO, unqualified non-irritation, review counts, or unverified certification claim.",
-  "media_note": "Supplied product-specific footage. No Dasha archive imagery or unverified vertical V1–V3 footage. No AI-generated product or skin images. GIF colour quantization is unavoidable; no creative colour correction or claim of physically validated colour.",
-  "upload_note": "Owner deferred actual Cafe24 upload. Paths are planned, not live.",
-  "qa_record": "../../ops/cafe24/powder-balm-v3-preview-qa-20261021.json"
+  "source_manifest": "../../powder-balm-v4/source-manifest.json",
+  "claims_note": "Existing official intended use, cosmetic oil-control/blur, puff shape and hand amount adjustment. No selective oil-only removal, intact foundation guarantee, controlled before/after or comparative superiority. Competitor claims and images not reused.",
+  "media_note": "Original-speed application through unobstructed finish, held 1.25s; three cycles then stays on finish. Hand crop from supplied existing detail. No Dasha imagery, new AI, 3D or colour/exposure changes. GIF quantization not physical colour validation.",
+  "upload_note": "Actual Cafe24 upload deferred by owner.",
+  "encoding": {
+    "hero_fps": 8,
+    "other_gif_fps": 10,
+    "palette_colors": 256,
+    "dither": "Bayer scale 4",
+    "max_asset_bytes": 4602976
+  }
 }

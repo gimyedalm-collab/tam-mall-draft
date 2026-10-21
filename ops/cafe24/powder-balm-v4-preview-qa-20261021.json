@@ -1,0 +1,294 @@
+{
+  "version": 4,
+  "product_no": 111,
+  "viewports": [
+    {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "01-hero.gif?v=4",
+          "loaded": true,
+          "width": 320,
+          "height": 427
+        },
+        {
+          "src": "02-benefit.jpg?v=4",
+          "loaded": true,
+          "width": 320,
+          "height": 427
+        },
+        {
+          "src": "03-where-to-use.gif?v=4",
+          "loaded": true,
+          "width": 320,
+          "height": 317
+        },
+        {
+          "src": "04-balm-texture.jpg?v=4",
+          "loaded": true,
+          "width": 320,
+          "height": 368
+        },
+        {
+          "src": "05-puff-and-amount.gif?v=4",
+          "loaded": true,
+          "width": 320,
+          "height": 427
+        },
+        {
+          "src": "06-three-moments.jpg?v=4",
+          "loaded": true,
+          "width": 320,
+          "height": 311
+        },
+        {
+          "src": "07-product.jpg?v=4",
+          "loaded": true,
+          "width": 320,
+          "height": 420
+        }
+      ],
+      "height": 3694,
+      "hero_height": 427,
+      "first_two_panels_height": 854.484375
+    },
+    {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "01-hero.gif?v=4",
+          "loaded": true,
+          "width": 390,
+          "height": 521
+        },
+        {
+          "src": "02-benefit.jpg?v=4",
+          "loaded": true,
+          "width": 390,
+          "height": 521
+        },
+        {
+          "src": "03-where-to-use.gif?v=4",
+          "loaded": true,
+          "width": 390,
+          "height": 386
+        },
+        {
+          "src": "04-balm-texture.jpg?v=4",
+          "loaded": true,
+          "width": 390,
+          "height": 448
+        },
+        {
+          "src": "05-puff-and-amount.gif?v=4",
+          "loaded": true,
+          "width": 390,
+          "height": 520
+        },
+        {
+          "src": "06-three-moments.jpg?v=4",
+          "loaded": true,
+          "width": 390,
+          "height": 379
+        },
+        {
+          "src": "07-product.jpg?v=4",
+          "loaded": true,
+          "width": 390,
+          "height": 512
+        }
+      ],
+      "height": 4188,
+      "hero_height": 521,
+      "first_two_panels_height": 1041.40625
+    },
+    {
+      "viewport": 430,
+      "scrollWidth": 430,
+      "images": [
+        {
+          "src": "01-hero.gif?v=4",
+          "loaded": true,
+          "width": 430,
+          "height": 574
+        },
+        {
+          "src": "02-benefit.jpg?v=4",
+          "loaded": true,
+          "width": 430,
+          "height": 574
+        },
+        {
+          "src": "03-where-to-use.gif?v=4",
+          "loaded": true,
+          "width": 430,
+          "height": 425
+        },
+        {
+          "src": "04-balm-texture.jpg?v=4",
+          "loaded": true,
+          "width": 430,
+          "height": 494
+        },
+        {
+          "src": "05-puff-and-amount.gif?v=4",
+          "loaded": true,
+          "width": 430,
+          "height": 573
+        },
+        {
+          "src": "06-three-moments.jpg?v=4",
+          "loaded": true,
+          "width": 430,
+          "height": 418
+        },
+        {
+          "src": "07-product.jpg?v=4",
+          "loaded": true,
+          "width": 430,
+          "height": 565
+        }
+      ],
+      "height": 4487,
+      "hero_height": 574,
+      "first_two_panels_height": 1148.21875
+    },
+    {
+      "viewport": 860,
+      "scrollWidth": 860,
+      "images": [
+        {
+          "src": "01-hero.gif?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 1148
+        },
+        {
+          "src": "02-benefit.jpg?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 1148
+        },
+        {
+          "src": "03-where-to-use.gif?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 851
+        },
+        {
+          "src": "04-balm-texture.jpg?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 988
+        },
+        {
+          "src": "05-puff-and-amount.gif?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 1146
+        },
+        {
+          "src": "06-three-moments.jpg?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 836
+        },
+        {
+          "src": "07-product.jpg?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 1130
+        }
+      ],
+      "height": 7957,
+      "hero_height": 1148,
+      "first_two_panels_height": 2296.453125
+    },
+    {
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "01-hero.gif?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 1148
+        },
+        {
+          "src": "02-benefit.jpg?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 1148
+        },
+        {
+          "src": "03-where-to-use.gif?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 851
+        },
+        {
+          "src": "04-balm-texture.jpg?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 988
+        },
+        {
+          "src": "05-puff-and-amount.gif?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 1146
+        },
+        {
+          "src": "06-three-moments.jpg?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 836
+        },
+        {
+          "src": "07-product.jpg?v=4",
+          "loaded": true,
+          "width": 860,
+          "height": 1130
+        }
+      ],
+      "height": 7957,
+      "hero_height": 1148,
+      "first_two_panels_height": 2296.453125
+    }
+  ],
+  "composition_matches_cafe24_fragment": true,
+  "source_media_count": 7,
+  "custom_js_fonts_or_video_host_required": false,
+  "all_media_below_4_9_MB": true,
+  "native_information_rows": 9,
+  "cafe24_live_upload_verified": false,
+  "physical_device_verified": false,
+  "source_text_and_image_clipping": [],
+  "visual_review": "Reviewed 390px full composition, first screen, mid and final GIF frames. Original skin/hand/product sources retained; final face frames unobstructed.",
+  "gif_checks": [
+    {
+      "file": "01-hero.gif",
+      "frames": 66,
+      "duration_ms": 8260,
+      "identical_final_hold_ms": 1380,
+      "loop": 2
+    },
+    {
+      "file": "03-where-to-use.gif",
+      "frames": 68,
+      "duration_ms": 6800,
+      "identical_final_hold_ms": 1400,
+      "loop": 2
+    },
+    {
+      "file": "05-puff-and-amount.gif",
+      "frames": 39,
+      "duration_ms": 3900,
+      "identical_final_hold_ms": 800,
+      "loop": 2
+    }
+  ],
+  "browser_live_view": "Browser extension: 390px local exported page, all seven images loaded, no horizontal overflow beyond client width; scrolled through sections. Separate isolated export QA covers 320/390/430/860/1280."
+}

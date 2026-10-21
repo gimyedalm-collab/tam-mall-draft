@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "version": 4,
+  "product_no": 111,
+  "request": "Learn competitor section usage and apply appropriate patterns to TAM.",
+  "section_study": "powder-balm-v4/section-study.json",
+  "source_layout": "powder-balm-v4/layout.html",
+  "source_manifest": "powder-balm-v4/source-manifest.json",
+  "qa": "ops/cafe24/powder-balm-v4-preview-qa-20261021.json",
+  "preview": "cafe24-delivery-20261020/powder-balm/?v=4",
+  "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
+  "package_bytes": 10000735,
+  "package_sha256": "04354001c16c61a8848e1457d3fe98167c578e35311ba0499790745d22dcd6e5",
+  "changes": [
+    "Large continuous application in hero replaces product-only opening",
+    "Full source-speed application through unobstructed finish; final hold",
+    "Product and original texture support oil-control plus cosmetic blur",
+    "Actual hand amount-adjustment crop plus shaped puff/compact explanation",
+    "Compact three-use section with touch-up first"
+  ],
+  "native_information_unchanged": true,
+  "status": {
+    "delivery_prepared": true,
+    "preview_verified": true,
+    "owner_visual_acceptance": "pending",
+    "cafe24_uploaded": false,
+    "actual_device_verified": false
+  },
+  "claim_review": {
+    "supported": "Existing official use areas, oil-control and cosmetic-blur intended benefits, solid format, puff shape, mirror and small-amount tapping method.",
+    "not_claimed": "Unchanged foundation, selective removal of only oil, superior absorption vs paper, clinical B/A, duration or competitor-specific ingredients.",
+    "limitations": "Source application filming does not establish makeup-retention conditions. No new clinical evidence or performance comparison. GIF format quantization is not physical colour matching."
+  },
+  "installations": [],
+  "capability_decision": "Existing source photos/footage and export pipeline sufficient. No generated imagery, Blender scene or third-party asset reuse."
+}
