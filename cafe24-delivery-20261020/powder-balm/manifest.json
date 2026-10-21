@@ -2,7 +2,7 @@
   "product_no": 111,
   "product": "더 클라우드 필터 파우더 밤",
   "date": "2026-10-21",
-  "version": 4,
+  "version": 5,
   "status": {
     "delivery_prepared": true,
     "preview_verified": true,
@@ -14,87 +14,156 @@
   "media": [
     {
       "order": 1,
-      "file": "01-hero.gif",
-      "width": 480,
-      "height": 627,
-      "bytes": 4662654,
-      "sha256": "12daca949307b080cb370fb69bd1e23ce7ce92121ab2d17cebb437d8b62434f3",
-      "alt": "더 클라우드 필터 파우더 밤 공들인 메이크업 위에, 올라온 유분을 톡톡. 번들거리는 코·이마·나비존에 두드려 보송하게 정리하는 파우더 밤. 실제 사용 장면",
-      "frames": 66,
-      "loop": 2,
-      "duration_ms": 8260
+      "file": "01-hero-heading.png",
+      "width": 860,
+      "height": 496,
+      "bytes": 30814,
+      "sha256": "a04a3ab5a463b6b13eeb0eff43df95998b3ac5ea262ff10d02618e001951f9a1",
+      "alt": "더 클라우드 필터 파우더 밤 공들인 메이크업 위에, 올라온 유분을 톡톡. 번들거리는 코·이마·나비존에 두드려 보송하게 정리하는 파우더 밤."
     },
     {
       "order": 2,
-      "file": "02-benefit.jpg",
-      "width": 860,
-      "height": 1148,
-      "bytes": 115071,
-      "sha256": "9ef5682130aa80c590ffc7fa05e5332c6d94a64da7d559bfdda15df4b1071df5",
-      "alt": "THE CLOUD FILTER POWDER BALM 유분 정리에서, 매끈한 피부 표현까지. 기름종이를 찾게 되는 순간, 보송함에 부드러운 블러 마무리를 더해요."
+      "file": "02-hero-application.gif",
+      "width": 668,
+      "height": 412,
+      "bytes": 4795322,
+      "sha256": "c22e66655f85aba345183ee6be9b20c7f59d9594c19f55f181e19632068f0f2f",
+      "alt": "나비존을 두드리는 실제 도포 영상. 퍼프를 뗀 마무리까지 이어집니다.",
+      "frames": 46,
+      "loop": 2,
+      "duration_ms": 5760
     },
     {
       "order": 3,
-      "file": "03-where-to-use.gif",
-      "width": 640,
-      "height": 633,
-      "bytes": 3710419,
-      "sha256": "84b14ad36c7e35616f832cb27b776209cfb3ba3af89172179952a2f0a5f62e4c",
-      "alt": "번들거리는 곳을 골라, 코에도, 이마에도. 퍼프로 쓸어내리지 않고 가볍게 두드려요. 코 · 콧볼 이마 · T존 실제 사용 장면 · 사용 결과는 개인에 따라 다를 수 있습니다.",
-      "frames": 68,
-      "loop": 2,
-      "duration_ms": 6800
+      "file": "03-hero-caption.png",
+      "width": 860,
+      "height": 110,
+      "bytes": 5135,
+      "sha256": "8c5ff45a758e9a17178872c6ecaf2451c9e2048a430c3b9a7dc83f0593c5f961",
+      "alt": "실제 사용 장면"
     },
     {
       "order": 4,
-      "file": "04-balm-texture.jpg",
+      "file": "04-balm-and-puff.jpg",
       "width": 860,
-      "height": 988,
-      "bytes": 96771,
-      "sha256": "f79c86b542c62db42d8650e986a508af327b2107105cdae8aaeb5ab2684837f1",
-      "alt": "POWDER IN BALM 퍼프에 묻히는 고체 밤, 피부 위에는 보송하게. 가루를 덜어 쓸 필요 없이, 원하는 부위에 얇게 발라주세요."
+      "height": 626,
+      "bytes": 76135,
+      "sha256": "a2ebfa78365e5272ab967fe8ddcd8181c0b54fadbc77783af8fa3720ffce5c51",
+      "alt": "퍼프에 묻혀 쓰는 고체 파우더 밤 + 필요한 부위에 톡톡 전용 퍼프 & 거울 고체 밤·퍼프·거울을 하나의 콤팩트에. 메이크업 위 번들거리는 부위에 톡톡."
     },
     {
       "order": 5,
-      "file": "05-puff-and-amount.gif",
-      "width": 640,
-      "height": 853,
-      "bytes": 1294027,
-      "sha256": "841be028d187b0a0abfc74f5ddd064bf04cc3a13d57a34be633a2e53e0672266",
-      "alt": "좁은 콧볼까지 닿는 퍼프, 양은 손등에서 한 번. 거울 & 슬림한 물방울 퍼프 손등에서 도포량 조절 퍼프에 소량 묻혀 손등에 고르게 편 뒤, 유분이 신경 쓰이는 부위에만 톡톡. 사용 전 티슈나 화장솜으로 내용물 표면을 가볍게 닦아주세요. 얼굴에서는 문지르지 않고 가볍게 두드려 밀착시켜주세요.",
+      "file": "05-benefit.jpg",
+      "width": 860,
+      "height": 1148,
+      "bytes": 129777,
+      "sha256": "be25397817971871f1b65b9e7c1af8c41a376be9e88241c692645f484f07e939",
+      "alt": "THE CLOUD FILTER POWDER BALM 유분 정리에서, 매끈한 피부 표현까지. 기름종이를 찾게 되는 순간, 보송함에 부드러운 블러 마무리를 더해요."
+    },
+    {
+      "order": 6,
+      "file": "06-where-heading.png",
+      "width": 860,
+      "height": 356,
+      "bytes": 16352,
+      "sha256": "4177ae22a2aeb90df1ce90089ea7795b992957c2a3f28b1bd9adb90b32f58a02",
+      "alt": "번들거리는 곳을 골라, 코에도, 이마에도. 퍼프로 쓸어내리지 않고 가볍게 두드려요."
+    },
+    {
+      "order": 7,
+      "file": "07-where-application.gif",
+      "width": 760,
+      "height": 265,
+      "bytes": 4592993,
+      "sha256": "c549339c771ffeb0c7a0a5c8f065f704177e638565ccfe112aa8b4aba0a8eecf",
+      "alt": "코 주변에 도포한 뒤 퍼프를 뗀 장면 이마에 도포한 뒤 퍼프를 뗀 장면",
+      "frames": 60,
+      "loop": 2,
+      "duration_ms": 6000
+    },
+    {
+      "order": 8,
+      "file": "08-where-labels.png",
+      "width": 860,
+      "height": 194,
+      "bytes": 9794,
+      "sha256": "824a157039e016f8d36c8d7ea03452054b1120ee3cd256f8055df6f856aeba61",
+      "alt": "코 · 콧볼 이마 · T존 실제 사용 장면 · 사용 결과는 개인에 따라 다를 수 있습니다."
+    },
+    {
+      "order": 9,
+      "file": "09-balm-texture.jpg",
+      "width": 860,
+      "height": 988,
+      "bytes": 109155,
+      "sha256": "29ca382278b68b51c41ddf19b15fa62b881a3b11acad7ef112e9202df406e028",
+      "alt": "POWDER IN BALM 퍼프에 묻히는 고체 밤, 피부 위에는 보송하게. 가루를 덜어 쓸 필요 없이, 원하는 부위에 얇게 발라주세요."
+    },
+    {
+      "order": 10,
+      "file": "10-puff-heading.png",
+      "width": 860,
+      "height": 288,
+      "bytes": 17249,
+      "sha256": "94ba1bee1e9e3db3f24349803658f0ec8687e95231d0191358deb3cf01bb5038",
+      "alt": "좁은 콧볼까지 닿는 퍼프, 양은 손등에서 한 번."
+    },
+    {
+      "order": 11,
+      "file": "11-puff-amount.gif",
+      "width": 860,
+      "height": 446,
+      "bytes": 1492574,
+      "sha256": "6ce28a347151d6bb871f8d6279e5dfd59721f5ddb7eba93b6c653144b51198d7",
+      "alt": "거울과 물방울 모양 퍼프가 내장된 파우더 밤 얼굴에 바르기 전 손등에서 퍼프의 양을 조절하는 실제 사용 장면",
       "frames": 39,
       "loop": 2,
       "duration_ms": 3900
     },
     {
-      "order": 6,
-      "file": "06-three-moments.jpg",
+      "order": 12,
+      "file": "12-puff-instructions.png",
+      "width": 860,
+      "height": 398,
+      "bytes": 34048,
+      "sha256": "b3e765936190c77a5ddc34ff0ab70abfe336fbe17dd6003c5373e09b973c0cf0",
+      "alt": "거울 & 슬림한 물방울 퍼프 손등에서 도포량 조절 퍼프에 소량 묻혀 손등에 고르게 편 뒤, 유분이 신경 쓰이는 부위에만 톡톡. 사용 전 티슈나 화장솜으로 내용물 표면을 가볍게 닦아주세요. 얼굴에서는 문지르지 않고 가볍게 두드려 밀착시켜주세요."
+    },
+    {
+      "order": 13,
+      "file": "13-three-moments.png",
       "width": 860,
       "height": 836,
-      "bytes": 79592,
-      "sha256": "0154a7699f8a4b1cbee49cbcd13f6810e16ded4986cbf79461ee770cd600e7c0",
+      "bytes": 50084,
+      "sha256": "2eedda1bb2392388a04df32f26203be9416eae9aed5b927f64a35fc3b52cf1f4",
       "alt": "수정할 때도, 메이크업 전·후에도. 외출 중 올라온 유분을 정리할 때 번들거리는 부위에 소량씩 두드려요. 메이크업 후 보송하게 마무리할 때 유분이 신경 쓰이는 곳에 얇게 발라요. 메이크업 전 매끈한 베이스를 준비할 때 모공·요철이 신경 쓰이는 곳에 프라이머로."
     },
     {
-      "order": 7,
-      "file": "07-product.jpg",
+      "order": 14,
+      "file": "14-product.jpg",
       "width": 860,
-      "height": 1130,
-      "bytes": 128062,
-      "sha256": "f5fed2667fd7b61fc7cf2e473b6c9f4abaec5e90b9fe5ccb06e75b5d52f976bf",
+      "height": 1128,
+      "bytes": 147254,
+      "sha256": "90825776e921683cb6b54be695412a53cc1f1e6bc517835ce764d1bf8c31414e",
       "alt": "THE CLOUD FILTER POWDER BALM 더 클라우드 필터 파우더 밤 3.5g · 거울 & 퍼프 내장"
     }
   ],
   "product_information_sha256": "c08d0a5089521d3c7fde0d8a75f0d7884cd084132dad0e9cf04e3998cc72bd08",
-  "source_manifest": "../../powder-balm-v4/source-manifest.json",
+  "source_manifest": "../../powder-balm-v5/source-manifest.json",
   "claims_note": "Existing official intended use, cosmetic oil-control/blur, puff shape and hand amount adjustment. No selective oil-only removal, intact foundation guarantee, controlled before/after or comparative superiority. Competitor claims and images not reused.",
-  "media_note": "Original-speed application through unobstructed finish, held 1.25s; three cycles then stays on finish. Hand crop from supplied existing detail. No Dasha imagery, new AI, 3D or colour/exposure changes. GIF quantization not physical colour validation.",
+  "media_note": "Original-speed continuous final application segments through unobstructed finish, with 2-second hold; three cycles then stays on finish. Typography exported separately at 860px. Hand crop kept at its native pixel width. No Dasha imagery, AI skin, 3D, colour/exposure changes or controlled before/after claim.",
   "upload_note": "Actual Cafe24 upload deferred by owner.",
   "encoding": {
     "hero_fps": 8,
     "other_gif_fps": 10,
     "palette_colors": 256,
     "dither": "Bayer scale 4",
-    "max_asset_bytes": 4662654
+    "static_width": 860,
+    "gif_widths": [
+      668,
+      760,
+      860
+    ],
+    "max_asset_bytes": 4795322
   }
 }

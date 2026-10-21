@@ -1,0 +1,62 @@
+{
+  "version": 5,
+  "date": "2026-10-21",
+  "request": "Apply image-quality, visible-finish and product-format improvements on GitHub.",
+  "layout": "powder-balm-v5/layout.html",
+  "builder": "ops/cafe24/build_powder_balm_v5.py",
+  "source_manifest": "powder-balm-v5/source-manifest.json",
+  "preview": "cafe24-delivery-20261020/powder-balm/?v=5",
+  "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
+  "changes": [
+    "Separate text from GIF into 860px static PNGs",
+    "Hero GIF width 480 to 668; nose/forehead 640 to 760; hand panel 640 to 860",
+    "Continuous original-speed last application segment with unobstructed finish held 2 seconds",
+    "Real open-balm and puff/compact photographs immediately after hero; clarify one compact",
+    "Reduce hand display to 160 CSS pixels to avoid enlarging the 320-pixel source crop"
+  ],
+  "gif_checks": [
+    {
+      "file": "02-hero-application.gif",
+      "width": 668,
+      "frames": 46,
+      "duration_ms": 5760,
+      "final_hold_ms": 2130,
+      "loop": 2
+    },
+    {
+      "file": "07-where-application.gif",
+      "width": 760,
+      "frames": 60,
+      "duration_ms": 6000,
+      "final_hold_ms": 2100,
+      "loop": 2
+    },
+    {
+      "file": "11-puff-amount.gif",
+      "width": 860,
+      "frames": 39,
+      "duration_ms": 3900,
+      "final_hold_ms": 800,
+      "loop": 2
+    }
+  ],
+  "quality_limits": [
+    "GIF remains 256 colours; no claim of original-video fidelity or physical shade matching",
+    "Hero keeps 8fps; shorter source segment makes room for higher spatial resolution",
+    "Separate before/after clips inspected but not combined: lighting/angle/exposure controls unverified",
+    "No evidence added for guaranteed foundation retention or selective oil-only removal"
+  ],
+  "capabilities": "Existing source photography, FFmpeg and raster export pipeline; no installation, synthetic evidence or 3D mockup needed.",
+  "native_product_information_unchanged": true,
+  "previous_version": 4,
+  "status": {
+    "delivery_prepared": true,
+    "preview_verified": true,
+    "owner_visual_acceptance": "pending",
+    "cafe24_uploaded": false,
+    "actual_device_verified": false
+  },
+  "qa": "ops/cafe24/powder-balm-v5-preview-qa-20261021.json",
+  "package_bytes": 11471369,
+  "package_sha256": "cd9842cd34bcd9c807b9455b8236092392036816165b4e275301fc9b5296200d"
+}

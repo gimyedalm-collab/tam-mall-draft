@@ -907,11 +907,19 @@
     "next_action": "Owner visual review of makeup-touch-up positioning. Actual Cafe24 upload remains deferred."
   },
   "powder_balm_v4_20261021": {
-    "status": "delivery_prepared_preview_verified_owner_acceptance_pending",
+    "status": "superseded_by_owner_authorized_v5",
     "record": "ops/cafe24/powder-balm-v4-20261021.json",
     "preview": "cafe24-delivery-20261020/powder-balm/?v=4",
     "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
     "production_changed": false,
     "next_action": "Owner review of demonstration-led section adaptation. Actual Cafe24 upload and physical-device verification stay deferred."
+  },
+  "powder_balm_v5_20261021": {
+    "status": "delivery_prepared_preview_verified_owner_acceptance_pending",
+    "record": "ops/cafe24/powder-balm-v5-20261021.json",
+    "preview": "cafe24-delivery-20261020/powder-balm/?v=5",
+    "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
+    "production_changed": false,
+    "next_action": "Owner visual review of image-quality improvement; actual Cafe24 upload and physical-device validation remain deferred."
   }
 }

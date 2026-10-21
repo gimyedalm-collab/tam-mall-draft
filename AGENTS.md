@@ -913,3 +913,19 @@ no custom JS/fonts/video hosting dependency. Hero8fps, other GIF10fps, original
 speed, three cycles then holds the final frame. Technical/browser checks are
 not owner visual approval, clinical proof or physical colour verification.
 Actual Cafe24 upload/save/device verification remain explicitly deferred.
+
+## Powder Balm V5 image quality and product-format clarity - 2026-10-21
+
+Owner authorized applying the quality critique and publishing to GitHub.
+Current source powder-balm-v5/layout.html; builder ops/cafe24/build_powder_balm_v5.py.
+Cafe24 composition uses14 media:7PNG+4JPG+3GIF. Text is separated from motion
+at860px. Hero GIF668px replaces480px; use original-speed continuous source
+3.2–6.95s, including unobstructed finish held2s, three cycles then still.
+Nose/forehead GIF760px and hand panel860px; hand crop displayed at native320px.
+Actual open-balm/puff photographs follow the hero and explain one compact.
+Hero caption remains only “실제 사용 장면”. Original photos/colour retained;
+no generated skin, retouched efficacy evidence, or separate B/A pairing.
+GIF remains256-colour and hero8fps: resolution gain is not original-video
+fidelity or physical shade validation. Existing full originals and V1–V4
+source masters preserved. Native product information unchanged. Live Cafe24
+upload/save and physical-device checks remain deferred; owner approval separate.

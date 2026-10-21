@@ -1,0 +1,484 @@
+{
+  "version": 5,
+  "product_no": 111,
+  "viewports": [
+    {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "images": [
+        {
+          "src": "01-hero-heading.png?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 185
+        },
+        {
+          "src": "02-hero-application.gif?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 197
+        },
+        {
+          "src": "03-hero-caption.png?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 41
+        },
+        {
+          "src": "04-balm-and-puff.jpg?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 233
+        },
+        {
+          "src": "05-benefit.jpg?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 427
+        },
+        {
+          "src": "06-where-heading.png?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 132
+        },
+        {
+          "src": "07-where-application.gif?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 112
+        },
+        {
+          "src": "08-where-labels.png?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 72
+        },
+        {
+          "src": "09-balm-texture.jpg?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 368
+        },
+        {
+          "src": "10-puff-heading.png?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 107
+        },
+        {
+          "src": "11-puff-amount.gif?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 166
+        },
+        {
+          "src": "12-puff-instructions.png?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 148
+        },
+        {
+          "src": "13-three-moments.png?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 311
+        },
+        {
+          "src": "14-product.jpg?v=5",
+          "loaded": true,
+          "width": 320,
+          "height": 420
+        }
+      ],
+      "height": 3916,
+      "heading_and_film_height": 381.90625
+    },
+    {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "images": [
+        {
+          "src": "01-hero-heading.png?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 225
+        },
+        {
+          "src": "02-hero-application.gif?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 241
+        },
+        {
+          "src": "03-hero-caption.png?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 50
+        },
+        {
+          "src": "04-balm-and-puff.jpg?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 284
+        },
+        {
+          "src": "05-benefit.jpg?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 521
+        },
+        {
+          "src": "06-where-heading.png?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 161
+        },
+        {
+          "src": "07-where-application.gif?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 136
+        },
+        {
+          "src": "08-where-labels.png?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 88
+        },
+        {
+          "src": "09-balm-texture.jpg?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 448
+        },
+        {
+          "src": "10-puff-heading.png?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 131
+        },
+        {
+          "src": "11-puff-amount.gif?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 202
+        },
+        {
+          "src": "12-puff-instructions.png?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 180
+        },
+        {
+          "src": "13-three-moments.png?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 379
+        },
+        {
+          "src": "14-product.jpg?v=5",
+          "loaded": true,
+          "width": 390,
+          "height": 512
+        }
+      ],
+      "height": 4459,
+      "heading_and_film_height": 465.453125
+    },
+    {
+      "viewport": 430,
+      "scrollWidth": 430,
+      "images": [
+        {
+          "src": "01-hero-heading.png?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 248
+        },
+        {
+          "src": "02-hero-application.gif?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 265
+        },
+        {
+          "src": "03-hero-caption.png?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 55
+        },
+        {
+          "src": "04-balm-and-puff.jpg?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 313
+        },
+        {
+          "src": "05-benefit.jpg?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 574
+        },
+        {
+          "src": "06-where-heading.png?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 178
+        },
+        {
+          "src": "07-where-application.gif?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 150
+        },
+        {
+          "src": "08-where-labels.png?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 97
+        },
+        {
+          "src": "09-balm-texture.jpg?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 494
+        },
+        {
+          "src": "10-puff-heading.png?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 144
+        },
+        {
+          "src": "11-puff-amount.gif?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 223
+        },
+        {
+          "src": "12-puff-instructions.png?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 199
+        },
+        {
+          "src": "13-three-moments.png?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 418
+        },
+        {
+          "src": "14-product.jpg?v=5",
+          "loaded": true,
+          "width": 430,
+          "height": 564
+        }
+      ],
+      "height": 4785,
+      "heading_and_film_height": 513.203125
+    },
+    {
+      "viewport": 860,
+      "scrollWidth": 860,
+      "images": [
+        {
+          "src": "01-hero-heading.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 496
+        },
+        {
+          "src": "02-hero-application.gif?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 530
+        },
+        {
+          "src": "03-hero-caption.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 110
+        },
+        {
+          "src": "04-balm-and-puff.jpg?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 626
+        },
+        {
+          "src": "05-benefit.jpg?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 1148
+        },
+        {
+          "src": "06-where-heading.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 356
+        },
+        {
+          "src": "07-where-application.gif?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 300
+        },
+        {
+          "src": "08-where-labels.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 194
+        },
+        {
+          "src": "09-balm-texture.jpg?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 988
+        },
+        {
+          "src": "10-puff-heading.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 288
+        },
+        {
+          "src": "11-puff-amount.gif?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 446
+        },
+        {
+          "src": "12-puff-instructions.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 398
+        },
+        {
+          "src": "13-three-moments.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 836
+        },
+        {
+          "src": "14-product.jpg?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 1128
+        }
+      ],
+      "height": 8554,
+      "heading_and_film_height": 1026.40625
+    },
+    {
+      "viewport": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "01-hero-heading.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 496
+        },
+        {
+          "src": "02-hero-application.gif?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 530
+        },
+        {
+          "src": "03-hero-caption.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 110
+        },
+        {
+          "src": "04-balm-and-puff.jpg?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 626
+        },
+        {
+          "src": "05-benefit.jpg?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 1148
+        },
+        {
+          "src": "06-where-heading.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 356
+        },
+        {
+          "src": "07-where-application.gif?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 300
+        },
+        {
+          "src": "08-where-labels.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 194
+        },
+        {
+          "src": "09-balm-texture.jpg?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 988
+        },
+        {
+          "src": "10-puff-heading.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 288
+        },
+        {
+          "src": "11-puff-amount.gif?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 446
+        },
+        {
+          "src": "12-puff-instructions.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 398
+        },
+        {
+          "src": "13-three-moments.png?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 836
+        },
+        {
+          "src": "14-product.jpg?v=5",
+          "loaded": true,
+          "width": 860,
+          "height": 1128
+        }
+      ],
+      "height": 8554,
+      "heading_and_film_height": 1026.40625
+    }
+  ],
+  "composition_matches_cafe24_fragment": true,
+  "source_media_count": 14,
+  "custom_js_fonts_or_video_host_required": false,
+  "all_media_below_4_9_MB": true,
+  "native_information_rows": 9,
+  "cafe24_live_upload_verified": false,
+  "physical_device_verified": false,
+  "source_text_and_image_clipping": [],
+  "visual_review": "Reviewed final 390px full composition and first screen; GIF final skin frame unobstructed. One-compact clarification checked after final copy adjustment. Browser check separately recorded.",
+  "browser_local_first_screen": {
+    "tool": "Browser extension",
+    "viewport": 390,
+    "client_width": 375,
+    "scroll_width": 375,
+    "images_loaded": 14,
+    "hero_finish": "Puff removed; final skin visible",
+    "caption": "실제 사용 장면"
+  }
+}
