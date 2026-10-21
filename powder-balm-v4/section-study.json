@@ -1,0 +1,41 @@
+{
+  "checked_date": "2026-10-21",
+  "scope": "Section structure and persuasion approach; no claims of conversion uplift or independent competitor efficacy testing.",
+  "sources": [
+    {
+      "brand": "Catrice",
+      "url": "https://www.catrice.eu/en-gb/p/951503/magic-shine-eraser-gel-to-powder",
+      "observed": "Official page and browser accessibility tree: gallery includes product, texture, short introduction video, application before/after, full face application and mood product; lower page separates benefits, ingredients and a beauty tip specifying use after makeup on chin/nose/cheeks.",
+      "inference": "Separate the unfamiliar format from the visible result and application location so customers can answer all three questions.",
+      "adaptation": "TAM first-screen continuous cheek application, location-labelled nose/forehead scenes, separate original texture photograph and amount-adjustment instruction.",
+      "not_transferred": "Neither alters makeup / no white cast / performance duration. Competitor photos, films and exact copy are not used."
+    },
+    {
+      "brand": "Rae Morris",
+      "url": "https://raemorris.com/products/invisible-mattifier",
+      "observed": "Official page and browser accessibility tree: top description identifies transparent gel-like powder used over makeup; description compares it with blotting paper; separate Before & After Application section contains two images, with an artist/model testimonial and video section elsewhere.",
+      "inference": "An unfamiliar product benefits from a familiar use occasion and a visibly separated outcome section.",
+      "adaptation": "Blotting-paper occasion leads into the existing TAM oil-control plus cosmetic-blur benefit. Full application segments include the unobstructed finish rather than stopping while the puff covers the skin.",
+      "not_transferred": "Better absorption than blotting paper, longer lasting claims, celebrity endorsement, controlled before/after format. TAM evidence does not establish these."
+    },
+    {
+      "brand": "Danessa Myricks",
+      "url": "https://danessamyricksbeauty.com/products/yummy-skin-blurring-balm-powder-universal",
+      "observed": "Official text separates What it does, How to use and Before & After. Current Universal page emphasizes priming and instructs foundation application after the balm sets.",
+      "inference": "State role and timing explicitly; do not transfer a primer-first hierarchy to a touch-up-first brief.",
+      "adaptation": "Keep primer as the third supporting use case rather than the opening promise.",
+      "not_transferred": "Upsalite ingredient story, consumer percentages and 60-second application instruction."
+    }
+  ],
+  "visual_observation_limits": "Browser DOM/AX section and media labels verified; reference screenshots showed incomplete rendering in this browser. No claim to have fully watched competitor videos or verified their claimed before/after conditions.",
+  "tam_design": {
+    "goal": "Immediately identify a balm for oil-control touch-ups over makeup, show the full application action and unobstructed finish, then explain the solid format and practical puff use.",
+    "palette": {"ink":"#302f33","muted":"#64666b","white":"#ffffff","sky":"#f1f7f8","line":"#dfe8eb","accent":"#71929e"},
+    "type": "Existing TAM Pretendard Korean / small Manrope English. 32px hero, 28px section headings, 15px copy at 430px source width; fonts rasterized for delivery.",
+    "signature": "Large continuous first-screen application that finishes with the puff removed and holds on the skin.",
+    "sections": ["01 usage and finished view", "02 oil-control plus cosmetic finish with product", "03 nose and forehead placement", "04 physical solid-balm format", "05 shaped puff and real hand amount adjustment", "06 three moments with touch-up first", "07 product and native facts"],
+    "capability_decision": "Existing FFmpeg, Pillow format conversion and local HTML raster exporter are sufficient. No installation. Blender would not establish on-skin behavior and is unnecessary for this evidence-led revision; no scene accessed. No generated skin or product texture.",
+    "claim_boundary": "Existing footage shows application, not a controlled makeup-retention or selective oil-removal test."
+  },
+  "status": {"cafe24_upload":"deferred_by_owner","owner_visual_acceptance":"pending"}
+}

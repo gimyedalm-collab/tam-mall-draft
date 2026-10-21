@@ -1,0 +1,50 @@
+{
+  "version": "v6",
+  "status": "review_candidate_not_final",
+  "images": [
+    {
+      "order": 1,
+      "file": "images/01-studio.png",
+      "width": 1680,
+      "height": 2540,
+      "bytes": 3430887,
+      "sha256": "1fe612f12ee3362e6f91cb601996eeb34d11425fa9006f32825eabb1bf6142b1",
+      "alt": "2 SHADES · 2 DEPTHS Heart Shading Duo 콧대는 연하게, 턱선은 깊게. THE CLOUD COLLECTION"
+    },
+    {
+      "order": 2,
+      "file": "images/02-lineup.png",
+      "width": 1680,
+      "height": 2160,
+      "bytes": 1202515,
+      "sha256": "7f61d4f1125fd7a4528c630f54c23ea78fda81bbb65e87736459d28b543f7b28",
+      "alt": "THE CLOUD HEART SHADING DUO 더 클라우드 하트 쉐이딩 듀오 콧대에 쓰는 밝은 쉐딩과 윤곽에 쓰는 진한 쉐딩을 한 제품에. 라이트 + 딥 스틱 타입 샌드 · 포그 01 SAND SHADER 뉴트럴 소프트 브라운 02 FOG SHADER 차분한 애쉬 브라운"
+    },
+    {
+      "order": 3,
+      "file": "images/03-depth-color.png",
+      "width": 1680,
+      "height": 2500,
+      "bytes": 1169541,
+      "sha256": "59fd125ffc51db12fb785da342d33e8b3156f7ca5ea53366d7c5809623c1fd80",
+      "alt": "코와 턱선에 같은 색을 쓰기 아쉬울 때. 밝은 쉐딩과 진한 쉐딩을 나눠 쓰세요. 라이트 → 콧대 · 코끝 은은한 음영을 더하고 싶을 때 딥 → 광대 아래 · 턱선 윤곽에 깊이를 더하고 싶을 때 01 샌드 · 웜 / 뉴트럴 위 라이트 아래 딥 02 포그 · 쿨 위 라이트 아래 딥 발색은 피부 톤과 사용량, 화면 설정에 따라 다르게 보일 수 있습니다."
+    },
+    {
+      "order": 4,
+      "file": "images/04-use.png",
+      "width": 1680,
+      "height": 1240,
+      "bytes": 258613,
+      "sha256": "8a5c2f97cb7ae63cefd3b07aa15d66bf7919fccae547bcd33aac6b5b75446915",
+      "alt": "바르고, 손끝으로 펴주세요. 필요한 부위에 조금씩, 경계는 가볍게. 돌려서 펼치기 하트 모양으로 펼친 뒤 사용할 쪽의 캡을 여세요. 가볍게 블렌딩하기 소량을 바르고 손끝이나 브러시로 경계를 풀어주세요. 2.1g × 2 · 샌드 / 포그"
+    }
+  ],
+  "owner_visual_acceptance": "pending",
+  "cafe24_upload": "deferred_by_owner",
+  "faces_excluded": true,
+  "hero": "Blender studio composite of original product-photo planes; not a new photograph or shade evidence",
+  "remaining_limitations": [
+    "No approved non-Dasha application or face-result photographs",
+    "Original source softness remains; no invented detail or shade contrast enhancement"
+  ]
+}

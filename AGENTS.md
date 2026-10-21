@@ -895,3 +895,21 @@ Planning and visual Claude critiques use nonpersistent read-only CLI. Claiming
 conversion improvement or actual Cafe24 integration remains unsupported.
 Owner visual acceptance and physical shade matching stay separate from QA;
 actual Cafe24 upload/save/device verification remains deferred.
+
+
+## Powder Balm V4 demonstration-led section adaptation - 2026-10-21
+
+Owner authorized learning competitor sections and applying suitable patterns.
+Active source: powder-balm-v4/layout.html; builder ops/cafe24/build_powder_balm_v4.py.
+Existing Cafe24 preview/package URL now serves V4. Large continuous cheek-use
+hero retains makeup-touch-up copy, includes unobstructed finish and a final hold.
+Nose/forehead clips likewise finish without the puff; product/texture support
+oil-control and cosmetic blur. Hand-only crop from original detail11 demonstrates
+amount adjustment next to the mirror/puff cutout. Three uses remain, touch-up first.
+Study: powder-balm-v4/section-study.json. Never transfer competitor efficacy,
+retention guarantees, testimonials or before/after claims to TAM. V1-V3 source
+and original masters preserved; native facts unchanged. JPG4+GIF3, each<4.9MB,
+no custom JS/fonts/video hosting dependency. Hero8fps, other GIF10fps, original
+speed, three cycles then holds the final frame. Technical/browser checks are
+not owner visual approval, clinical proof or physical colour verification.
+Actual Cafe24 upload/save/device verification remain explicitly deferred.

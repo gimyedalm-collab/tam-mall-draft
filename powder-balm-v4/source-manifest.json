@@ -1,0 +1,72 @@
+[
+  {
+    "key": "cheek",
+    "source_relative": "외주/파우더 밤 수정/나비존 수정.mp4",
+    "sha256": "46146ecf4b98963419796fb6eb656582d70d9dc7d8e6ddad7d6edebbb11daa52",
+    "start_seconds": 0,
+    "end_seconds": 6.95,
+    "finish_hold_seconds": 1.25,
+    "treatment": "Continuous original-speed segment including unobstructed finish. Geometric fit only; no skin retouch, colour, exposure or separate before/after pairing."
+  },
+  {
+    "key": "forehead",
+    "source_relative": "외주/파우더 밤 수정/이마 수정.mp4",
+    "sha256": "68ab10abba22f57f47352ab7bb6100bdac6d64587e056402cb2b9e105b5cbd1b",
+    "start_seconds": 0,
+    "end_seconds": 5.5,
+    "finish_hold_seconds": 1.25,
+    "treatment": "Continuous original-speed segment including unobstructed finish. Geometric fit only; no skin retouch, colour, exposure or separate before/after pairing."
+  },
+  {
+    "key": "nose",
+    "source_relative": "외주/파우더 밤 수정/코 수정.mp4",
+    "sha256": "0ba0818757ec8ae93a71b4034406590707d4ff27f717f273da958c3d08dcafc6",
+    "start_seconds": 0,
+    "end_seconds": 3.8,
+    "finish_hold_seconds": 1.25,
+    "treatment": "Continuous original-speed segment including unobstructed finish. Geometric fit only; no skin retouch, colour, exposure or separate before/after pairing."
+  },
+  {
+    "key": "hand",
+    "source_relative": "상세페이지/26년/국문/11.webp",
+    "sha256": "0878d20c8238564a02a666bfdc74d536b750ab91254a6823e229f7fdab649336",
+    "crop_xyxy": [
+      108,
+      840,
+      428,
+      1150
+    ],
+    "duration_seconds": 3.136,
+    "treatment": "All source animation frames; crop only the hand/amount-adjustment area. Original source is a finished detail graphic, not a new camera master. No colour editing; no face or original claims included."
+  },
+  {
+    "key": "flatlay",
+    "source_relative": "연출컷/파우더밤１.jpg",
+    "sha256": "865dfaa3538aa71d91d15c5f7164b8c7f67cfe25e16fc132fb05ccf78d900911",
+    "treatment": "Reuse existing source asset; original colour and typography retained. Geometric framing only."
+  },
+  {
+    "key": "ending",
+    "source_relative": "연출컷/파우더밤２.jpg",
+    "sha256": "96d699e13bbdd49b3c04cf87492159cf44a20898cc495644e4b1fbcf77f80163",
+    "treatment": "Reuse existing source asset; original colour and typography retained. Geometric framing only."
+  },
+  {
+    "key": "open-puff",
+    "source_relative": "누끼/4.png",
+    "sha256": "6df5098ccc7b6c166809984fd016e3c530e5a9a64deb46b5840be9c6af3cbc18",
+    "treatment": "Reuse existing source asset; original colour and typography retained. Geometric framing only."
+  },
+  {
+    "key": "open-balm",
+    "source_relative": "누끼/5.png",
+    "sha256": "68bd0a2d25653755ad45ead4589f57daaa3be9434d53a39d3cf23d5271d1c0dd",
+    "treatment": "Reuse existing source asset; original colour and typography retained. Geometric framing only."
+  },
+  {
+    "key": "texture",
+    "source_relative": "제형/누끼/누끼_3.png",
+    "sha256": "6cfc65c122e73979dbf328ea0216f80b50f03fab4612faf3bf8256a79f22391d",
+    "treatment": "Reuse existing source asset; original colour and typography retained. Geometric framing only."
+  }
+]
