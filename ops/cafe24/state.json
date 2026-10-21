@@ -854,12 +854,21 @@
     "next_action": "Owner visual review. Cafe24 upload remains deferred; actual integration and physical-device verification when rollout resumes."
   },
   "powder_balm_v2_20261020": {
-    "status": "delivery_prepared_preview_verified_owner_acceptance_pending",
+    "status": "superseded_by_owner_authorized_v3",
     "record": "ops/cafe24/powder-balm-v2-20261020.json",
     "preview": "cafe24-delivery-20261020/powder-balm/index.html",
     "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
     "approved_headline": "번들거림 잡고, 피부결까지 매끈하게.",
     "production_changed": false,
     "next_action": "Owner visual review of V2. Actual Cafe24 upload remains deferred."
+  },
+  "powder_balm_v3_20261021": {
+    "status": "delivery_prepared_preview_verified_owner_acceptance_pending",
+    "record": "ops/cafe24/powder-balm-v3-20261021.json",
+    "preview": "cafe24-delivery-20261020/powder-balm/index.html?v=3",
+    "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
+    "headline": "공들인 메이크업 위에, 올라온 유분을 톡톡.",
+    "production_changed": false,
+    "next_action": "Owner visual review of makeup-touch-up positioning. Actual Cafe24 upload remains deferred."
   }
 }

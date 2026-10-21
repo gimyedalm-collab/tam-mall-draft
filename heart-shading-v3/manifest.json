@@ -1,0 +1,64 @@
+{
+  "version": "v3-20261021",
+  "images": [
+    {
+      "order": 1,
+      "file": "images/01-intro.jpg",
+      "width": 1680,
+      "height": 2880,
+      "display_width": 840,
+      "bytes": 355729,
+      "sha256": "0d088cdb92e3441573953168aab0f3410140ad26c1bb89c2c7ca07718a01a015",
+      "alt": "콧대와 턱선, 음영의 깊이는 다르게. 더 클라우드 하트 쉐이딩 듀오"
+    },
+    {
+      "order": 2,
+      "file": "images/02-why-two.jpg",
+      "width": 1680,
+      "height": 2260,
+      "display_width": 840,
+      "bytes": 246148,
+      "sha256": "5715ac9638a2b86724a6c80ebd241050131a918e477e27d5a19e26615de02d60",
+      "alt": "쉐딩을 두 가지로 나눈 이유. 콧대는 진해질까 조심스럽고, 턱선은 조금 더 또렷했으면 할 때. 부위에 맞게 음영을 골라 쓰세요. LIGHT · 노란 쪽 콧대에는 밝은 쉐딩 콧대와 코끝에 가볍게 음영을 더할 때. DEEP · 파란 쪽 윤곽에는 진한 쉐딩 광대 아래와 턱선에 조금 더 깊은 음영을 줄 때. 필요한 쪽을 골라 쓸 수 있도록, 두 색을 한 용기에 담았습니다."
+    },
+    {
+      "order": 3,
+      "file": "images/03-on-skin.jpg",
+      "width": 1680,
+      "height": 2640,
+      "display_width": 840,
+      "bytes": 464171,
+      "sha256": "aa07787a8eb089faa49eaa8e9a8cf7274ec991aa5b2072abd87d5bf03341985c",
+      "alt": "얼굴에 더해지는 두 가지 깊이의 음영. 콧대 · 코끝 라이트로 은은하게 사용 전 사용 후 광대 아래 · 턱선 딥으로 또렷하게 사용 전 사용 후 메이크업 연출 예시입니다. 피부 톤과 얼굴형, 사용량에 따라 표현이 달라질 수 있습니다."
+    },
+    {
+      "order": 4,
+      "file": "images/04-shades.jpg",
+      "width": 1680,
+      "height": 3300,
+      "display_width": 840,
+      "bytes": 394476,
+      "sha256": "b47e9d459952fb8dfff7a3aa253ae1a4eb0cddfffc314bf89a71c8c2036a8013",
+      "alt": "나에게 맞는 브라운을 고르세요. 샌드와 포그, 각각 라이트와 딥 두 색 구성. 01 샌드 쉐이더 웜 · 뉴트럴 톤 추천 뉴트럴 소프트 브라운 라이트 딥 02 포그 쉐이더 쿨 톤 추천 차분한 애쉬 브라운 라이트 딥 위쪽 두 색은 샌드 아래쪽 두 색은 포그 피부에 올린 색도 함께 비교해 보세요. 발색은 피부 톤과 사용량, 화면 설정에 따라 다르게 보일 수 있습니다."
+    },
+    {
+      "order": 5,
+      "file": "images/05-how-to.jpg",
+      "width": 1680,
+      "height": 2960,
+      "display_width": 840,
+      "bytes": 406183,
+      "sha256": "16c6a9e9391369efbc0d12e5debae4e1c0e82f8d8a00ebaa2bcfc3a0e0d201a7",
+      "alt": "돌려서 열고, 바른 뒤 손끝으로 펴주세요. 필요한 부위에 조금씩, 경계는 가볍게. 01 하트 모양으로 돌려 펼치기 사용할 색이 있는 쪽의 캡을 열어주세요. 02 필요한 부위에 조금씩 바르기 콧대에는 라이트, 광대 아래와 턱선에는 딥. 03 손끝이나 브러시로 경계 풀기 가장자리를 가볍게 두드리며 펴주세요. 더 클라우드 하트 쉐이딩 듀오 · 2.1g × 2"
+    }
+  ],
+  "composition": "Product introduction → why two shading depths → existing makeup comparisons → shade selection → how to use → native product information",
+  "status": {
+    "prepared": true,
+    "owner_visual_acceptance": "pending",
+    "cafe24_upload": "deferred_by_owner",
+    "physical_device_qa": "not_performed"
+  },
+  "rationale": "Persona and positioning are working hypotheses authorized by owner; two-tone composition and application areas are supported by supplied product material. No invented historical development story.",
+  "media_note": "Existing product photos and v2 embedded source photos retained without colour/exposure/geometry editing. Existing makeup comparisons are examples, not newly validated controlled efficacy tests."
+}
