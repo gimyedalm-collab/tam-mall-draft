@@ -1,0 +1,792 @@
+{
+  "source_commit": "a90fcb031ecc20ae81891dcdf5ec74ff7a920905",
+  "pages_run": 39581066965,
+  "normalization": "CRLF to LF for HTML/CSS/JS only; media exact bytes",
+  "files": [
+    {
+      "path": "storefront-v2/preview/design-only.html",
+      "status": 200,
+      "bytes": 9129,
+      "matches_local": true,
+      "sha256": "17180aaa9790054a30527b47e9d86360f1382b16f989b5e23380d1ab3c59fc8f"
+    },
+    {
+      "path": "storefront-v2/preview/shop.html",
+      "status": 200,
+      "bytes": 13648,
+      "matches_local": true,
+      "sha256": "8770ba5296c43b1afd6f6d15edc4f27ad5fcb2666f01a21b87d32ad80da921a7"
+    },
+    {
+      "path": "storefront-v2/preview/search.html",
+      "status": 200,
+      "bytes": 13155,
+      "matches_local": true,
+      "sha256": "f91d65a6307f849310baaee7347296cd58577142b546891e3d7997185bdb582a"
+    },
+    {
+      "path": "storefront-v2/preview/cloud.html",
+      "status": 200,
+      "bytes": 9645,
+      "matches_local": true,
+      "sha256": "75f23b902d76589609c293a3f3331a693768b0544550961713a7b66b920daba7"
+    },
+    {
+      "path": "storefront-v2/preview/jelly.html",
+      "status": 200,
+      "bytes": 8258,
+      "matches_local": true,
+      "sha256": "457584118a3baadc356a3c1ab6346d020f691921b4c177f7d6d7ecd11f82dfc4"
+    },
+    {
+      "path": "storefront-v2/preview/about.html",
+      "status": 200,
+      "bytes": 14742,
+      "matches_local": true,
+      "sha256": "fc9f0d998b60a1babbd44ec2a8949e8b1f2de29c444bcbc181c65283f34f446f"
+    },
+    {
+      "path": "storefront-v2/preview/lookbook.html",
+      "status": 200,
+      "bytes": 6986,
+      "matches_local": true,
+      "sha256": "7977037f4aa35b06cab93492ad0a7a945aeca0610bbf22bca80298dec23dbebb"
+    },
+    {
+      "path": "storefront-v2/preview/login.html",
+      "status": 200,
+      "bytes": 4865,
+      "matches_local": true,
+      "sha256": "7d0e96c5a80d445eaba94f7d3fa1b97e140c8a0dbc59672bebf12784dcb8c6c3"
+    },
+    {
+      "path": "storefront-v2/preview/product-110.html",
+      "status": 200,
+      "bytes": 27339,
+      "matches_local": true,
+      "sha256": "636037866e6a93edbf1700cbeacae62b97834e89904818834b00b6b2b5d71b85"
+    },
+    {
+      "path": "storefront-v2/preview/product-111.html",
+      "status": 200,
+      "bytes": 20210,
+      "matches_local": true,
+      "sha256": "c91a6d68c38e1934249a3dab01169b8560a542f16a79c161f0ffc4a7cc32acfb"
+    },
+    {
+      "path": "storefront-v2/preview/product-25.html",
+      "status": 200,
+      "bytes": 14845,
+      "matches_local": true,
+      "sha256": "031572004d5eb66dba49c090201440cdf9411ab96e44e1abaf2fbe23168f09e9"
+    },
+    {
+      "path": "storefront-v2/preview/product-118.html",
+      "status": 200,
+      "bytes": 14792,
+      "matches_local": true,
+      "sha256": "d3d844564af838bfbd758e630ec76d1560b4a354f7ef27988bfb010039c761f1"
+    },
+    {
+      "path": "storefront-v2/preview/product-102.html",
+      "status": 200,
+      "bytes": 17429,
+      "matches_local": true,
+      "sha256": "183870e25c547d7af05730cb6d3613e75d4fcefb9c98d0df37552a641ea7f0ec"
+    },
+    {
+      "path": "storefront-v2/preview/product-24.html",
+      "status": 200,
+      "bytes": 20314,
+      "matches_local": true,
+      "sha256": "a3df8904777d67a5b38196d2b191bebc176368cdc03c793bb5e3a5890e0d4ff8"
+    },
+    {
+      "path": "storefront-v2/preview/product-23.html",
+      "status": 200,
+      "bytes": 17387,
+      "matches_local": true,
+      "sha256": "6d7dd49b6b913976cb3abb203169b5b3be26f62cc4d12586a4577a0692806ff6"
+    },
+    {
+      "path": "storefront-v2/preview/product-109.html",
+      "status": 200,
+      "bytes": 19955,
+      "matches_local": true,
+      "sha256": "03f703a57b17376b816861db02059125b093b6efb94d2964f88380b869f95b0b"
+    },
+    {
+      "path": "storefront-v2/preview/product-101.html",
+      "status": 200,
+      "bytes": 17177,
+      "matches_local": true,
+      "sha256": "8c783d50fe388b83b8e058afa359be3dd2489133eaf0801b1aceb87bd8f3d2b1"
+    },
+    {
+      "path": "storefront-v2/preview/product-112.html",
+      "status": 200,
+      "bytes": 15937,
+      "matches_local": true,
+      "sha256": "e9468183f7b4c2db40842010a8b5321ba421bd8126a0399cc40dbd2af4478220"
+    },
+    {
+      "path": "storefront-v2/preview/product-114.html",
+      "status": 200,
+      "bytes": 12519,
+      "matches_local": true,
+      "sha256": "bd7eda9bb47886cd3ef61810bb2951caab06a993bbb31abd483c9ce0e93fbacf"
+    },
+    {
+      "path": "storefront-v2/preview/product-115.html",
+      "status": 200,
+      "bytes": 14778,
+      "matches_local": true,
+      "sha256": "3fa4e27742511c1becee24a757af439558a779302bba8f36a3ec0d8f41b082ff"
+    },
+    {
+      "path": "storefront-v2/preview/product-121.html",
+      "status": 200,
+      "bytes": 12784,
+      "matches_local": true,
+      "sha256": "9696916b170c17f662146ef55a79db2040e59863936d3fd0d71211b60f59a6ec"
+    },
+    {
+      "path": "storefront-v2/preview/product-18.html",
+      "status": 200,
+      "bytes": 13366,
+      "matches_local": true,
+      "sha256": "943ab4f29c81296224e2827f45d636ddf9c6654b891f48eeb80e5797ff508971"
+    },
+    {
+      "path": "storefront-v2/preview/basket.html",
+      "status": 200,
+      "bytes": 5082,
+      "matches_local": true,
+      "sha256": "78a841516970bd45d00bd2f89a75cd6932a0dcbed4b68afbe813c2dfb3952fa7"
+    },
+    {
+      "path": "storefront-v2/preview/checkout.html",
+      "status": 200,
+      "bytes": 5766,
+      "matches_local": true,
+      "sha256": "d47b21806ee7bb9eac4125684991cf2d5a9026c9da110d6904271fe326528d58"
+    },
+    {
+      "path": "storefront-v2/preview/coupons.html",
+      "status": 200,
+      "bytes": 4595,
+      "matches_local": true,
+      "sha256": "a1870711cb3a4fa8e3b7823ae548ba7a288ddd795f4eec5d29d9c62414c2831d"
+    },
+    {
+      "path": "storefront-v2/preview/assets/ux-261013.css",
+      "status": 200,
+      "bytes": 10219,
+      "matches_local": true,
+      "sha256": "1fb19a341db1c96c085b3e22f19e0c09ab6de9677078c604a5e3be0e34dc97ef"
+    },
+    {
+      "path": "storefront-v2/preview/assets/purchase-policy.js",
+      "status": 200,
+      "bytes": 2632,
+      "matches_local": true,
+      "sha256": "ee91ae440ab9142fac44ca2d70287dc6f896d65bdb90afa319b871e2f90350ef"
+    },
+    {
+      "path": "storefront-v2/preview/assets/purchase-experience.js",
+      "status": 200,
+      "bytes": 7805,
+      "matches_local": true,
+      "sha256": "0f7db96430c6aa40f50877ace24c0c4f8fa8f096a94977f8286f9053ac7c9123"
+    },
+    {
+      "path": "heart-shading-v9/images/01-hero.png",
+      "status": 200,
+      "bytes": 3773662,
+      "matches_local": true,
+      "sha256": "851309614048ffe4e00df5dec39d262393b7bfa8961306042d3b6f2f9636e8d9"
+    },
+    {
+      "path": "heart-shading-v9/images/02-lineup.png",
+      "status": 200,
+      "bytes": 1044722,
+      "matches_local": true,
+      "sha256": "78d148076f2dab0a00c4a1aa0f1a56e3d15cc004876e9f6796bc608309e388c0"
+    },
+    {
+      "path": "heart-shading-v9/images/03-duo-color.png",
+      "status": 200,
+      "bytes": 1986734,
+      "matches_local": true,
+      "sha256": "4fddbed06afcf932a202af2b750c558b149d247f9b1bcca5fcf172d5d562e479"
+    },
+    {
+      "path": "heart-shading-v9/images/04-placement.png",
+      "status": 200,
+      "bytes": 3458141,
+      "matches_local": true,
+      "sha256": "247a19dc438bb9b76938664ab8c9f357f07df930d8d825b7e721ff62cd55d0e7"
+    },
+    {
+      "path": "heart-shading-v9/images/05-howto.png",
+      "status": 200,
+      "bytes": 589863,
+      "matches_local": true,
+      "sha256": "03a48ae43d90a2261e506fdf35df9a4f95153fb893331e2685ebc66ab43abfb0"
+    },
+    {
+      "path": "heart-shading-v9/images/06-ending.png",
+      "status": 200,
+      "bytes": 945112,
+      "matches_local": true,
+      "sha256": "4ed08657e76a4c05a7479e96c6d7b4e5843e80dfde555731464fa9d3c29e66f7"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/01-detail.jpg",
+      "status": 200,
+      "bytes": 211603,
+      "matches_local": true,
+      "sha256": "35e9f2758469a82349ada14671516b7dc5f48e4f8837160cf3d02b31870557c1"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/02-detail.jpg",
+      "status": 200,
+      "bytes": 158407,
+      "matches_local": true,
+      "sha256": "77f09f574591164a2ecce693c084c25ab042349240a9e7e25952855811a100d9"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/03-detail.jpg",
+      "status": 200,
+      "bytes": 69176,
+      "matches_local": true,
+      "sha256": "3ee770082cc53d486423243835509291510ea9395f30da3713198fea53402417"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/04-detail.jpg",
+      "status": 200,
+      "bytes": 251723,
+      "matches_local": true,
+      "sha256": "94d7867901ac1eed76d632188d8664952dcf7d0a6b05065e16a4f2e96f96bdc1"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/05-detail.jpg",
+      "status": 200,
+      "bytes": 9041,
+      "matches_local": true,
+      "sha256": "e910ffa00de00530fcb7df75a3fb7ff0ba2b85e9088186d5075e2717887c37f6"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/06-detail.jpg",
+      "status": 200,
+      "bytes": 39118,
+      "matches_local": true,
+      "sha256": "2fe3906be855386c505ea22c8d9950b2181a575ff90905964fa7fe6b5d435379"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/07-detail.jpg",
+      "status": 200,
+      "bytes": 40204,
+      "matches_local": true,
+      "sha256": "d51358ce4325263ab22065a51ec5965fbbd309302db1924b6dbea8993a13883c"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/08-detail.jpg",
+      "status": 200,
+      "bytes": 41940,
+      "matches_local": true,
+      "sha256": "0157f6251a484f0919b068b9795b9c330762754a45f077fc6ca64a0a4d8c64d5"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/09-detail.jpg",
+      "status": 200,
+      "bytes": 40740,
+      "matches_local": true,
+      "sha256": "7001918771e3da195fd054a157b746f198bcb7cd1a948a0afcd8371359bced47"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/10-detail.jpg",
+      "status": 200,
+      "bytes": 39320,
+      "matches_local": true,
+      "sha256": "e4e3ae339d080eca1744488e1d7892c140ca08e942ce65b2b9049f063bd4fcff"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/11-detail.jpg",
+      "status": 200,
+      "bytes": 38489,
+      "matches_local": true,
+      "sha256": "90c1a8de990ac44a4bff18f2c92dd062b599d5467ea82830b413cf75f9f6dc75"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/12-detail.jpg",
+      "status": 200,
+      "bytes": 23864,
+      "matches_local": true,
+      "sha256": "55eddd7abe7308fec60c5e3010b92b85d03da0bdeab6edf2c540e439bea09014"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/13-detail.jpg",
+      "status": 200,
+      "bytes": 31401,
+      "matches_local": true,
+      "sha256": "1b5c89f4964312007695cab6e43325d4cb7034e202b45cbc7d9b33454281930b"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/14-motion.gif",
+      "status": 200,
+      "bytes": 4823786,
+      "matches_local": true,
+      "sha256": "0fe8484c71b49532457bec5af0fbc1ac3e41c515ea6371da89e98ea09e2e0949"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/15-detail.jpg",
+      "status": 200,
+      "bytes": 33905,
+      "matches_local": true,
+      "sha256": "858ac6deb70134cbebad4c82677cb49b5ebce7ae1a8322347e67f7e27526dbf0"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/16-detail.jpg",
+      "status": 200,
+      "bytes": 95935,
+      "matches_local": true,
+      "sha256": "5533a377a02baf39c693a01cee69efaca87bcf09857b01902eb3bcde36b6f281"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/17-detail.jpg",
+      "status": 200,
+      "bytes": 24565,
+      "matches_local": true,
+      "sha256": "012698d0909a042b78b4a05c9f14c695febf0bed9907363a617bb517e121d1ed"
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/18-detail.jpg",
+      "status": 200,
+      "bytes": 24009,
+      "matches_local": true,
+      "sha256": "0b6cbeff643838e08a6cce1c4f1cefebb19cf70b992844d0cd17cfb4363a73f2"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/01-hero-heading.png",
+      "status": 200,
+      "bytes": 30814,
+      "matches_local": true,
+      "sha256": "a04a3ab5a463b6b13eeb0eff43df95998b3ac5ea262ff10d02618e001951f9a1"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/02-hero-application.gif",
+      "status": 200,
+      "bytes": 4795322,
+      "matches_local": true,
+      "sha256": "c22e66655f85aba345183ee6be9b20c7f59d9594c19f55f181e19632068f0f2f"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/03-hero-caption.png",
+      "status": 200,
+      "bytes": 5135,
+      "matches_local": true,
+      "sha256": "8c5ff45a758e9a17178872c6ecaf2451c9e2048a430c3b9a7dc83f0593c5f961"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/04-balm-and-puff.jpg",
+      "status": 200,
+      "bytes": 76135,
+      "matches_local": true,
+      "sha256": "a2ebfa78365e5272ab967fe8ddcd8181c0b54fadbc77783af8fa3720ffce5c51"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/05-benefit.jpg",
+      "status": 200,
+      "bytes": 129777,
+      "matches_local": true,
+      "sha256": "be25397817971871f1b65b9e7c1af8c41a376be9e88241c692645f484f07e939"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/06-where-heading.png",
+      "status": 200,
+      "bytes": 16352,
+      "matches_local": true,
+      "sha256": "4177ae22a2aeb90df1ce90089ea7795b992957c2a3f28b1bd9adb90b32f58a02"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/07-where-application.gif",
+      "status": 200,
+      "bytes": 4592993,
+      "matches_local": true,
+      "sha256": "c549339c771ffeb0c7a0a5c8f065f704177e638565ccfe112aa8b4aba0a8eecf"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/08-where-labels.png",
+      "status": 200,
+      "bytes": 9794,
+      "matches_local": true,
+      "sha256": "824a157039e016f8d36c8d7ea03452054b1120ee3cd256f8055df6f856aeba61"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/09-balm-texture.jpg",
+      "status": 200,
+      "bytes": 109155,
+      "matches_local": true,
+      "sha256": "29ca382278b68b51c41ddf19b15fa62b881a3b11acad7ef112e9202df406e028"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/10-puff-heading.png",
+      "status": 200,
+      "bytes": 17249,
+      "matches_local": true,
+      "sha256": "94ba1bee1e9e3db3f24349803658f0ec8687e95231d0191358deb3cf01bb5038"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/11-puff-amount.gif",
+      "status": 200,
+      "bytes": 1492574,
+      "matches_local": true,
+      "sha256": "6ce28a347151d6bb871f8d6279e5dfd59721f5ddb7eba93b6c653144b51198d7"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/12-puff-instructions.png",
+      "status": 200,
+      "bytes": 34048,
+      "matches_local": true,
+      "sha256": "b3e765936190c77a5ddc34ff0ab70abfe336fbe17dd6003c5373e09b973c0cf0"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/13-three-moments.png",
+      "status": 200,
+      "bytes": 50084,
+      "matches_local": true,
+      "sha256": "2eedda1bb2392388a04df32f26203be9416eae9aed5b927f64a35fc3b52cf1f4"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/14-product.jpg",
+      "status": 200,
+      "bytes": 147254,
+      "matches_local": true,
+      "sha256": "90825776e921683cb6b54be695412a53cc1f1e6bc517835ce764d1bf8c31414e"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/01-campaign.png",
+      "status": 200,
+      "bytes": 568754,
+      "matches_local": true,
+      "sha256": "4ebccb28581ef6e75fa8f8cd5246c65ddb887460cdc789d6f3e7177cb43ab116"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/02-big-tip.png",
+      "status": 200,
+      "bytes": 420055,
+      "matches_local": true,
+      "sha256": "6e6234ed6fee0d19ec30ee3466d21b3e399fd2e8b41216df9cbd3d8c3b860879"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/03-cool-glow.png",
+      "status": 200,
+      "bytes": 241475,
+      "matches_local": true,
+      "sha256": "ef1c68ba3aa8bd654192384432df1545be32a144ce37019cd0e7befa162705b4"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/04-colors.png",
+      "status": 200,
+      "bytes": 245807,
+      "matches_local": true,
+      "sha256": "227b1ed7b9491198d92fb5cc8405658355022d13d0c29e166b77fbd21256e790"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/05-how-to.png",
+      "status": 200,
+      "bytes": 35627,
+      "matches_local": true,
+      "sha256": "edcebedf79ccc21b0142d99f6f0f4ef6ccfeb2f80c93dbd4033c9ff5ef419e96"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/06-collection.png",
+      "status": 200,
+      "bytes": 504851,
+      "matches_local": true,
+      "sha256": "eb0f7430667b16fbfb6577338c62554add8052f25510f091b11bd69180144a23"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/07-product-information.png",
+      "status": 200,
+      "bytes": 112038,
+      "matches_local": true,
+      "sha256": "28d84cd729032282ad260004e2ccd3d0dd7f31f1fb798a05e426c542008508d6"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/01-detail.png",
+      "status": 200,
+      "bytes": 1147180,
+      "matches_local": true,
+      "sha256": "65ee1a0d2fecaa60fba86b0e81ac6bfe31e546cd9377749895f08125705173dd"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/02-detail.png",
+      "status": 200,
+      "bytes": 1069861,
+      "matches_local": true,
+      "sha256": "d6c7576e1819e343032e319e3a30028a99ec8e32dfcf5733c42029621a75b74b"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/03-detail.png",
+      "status": 200,
+      "bytes": 17750,
+      "matches_local": true,
+      "sha256": "72816e3f3d2be978bba9c9bcaada1675d750b5365a136191ab31ddc45b5f9ce6"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/04-motion.gif",
+      "status": 200,
+      "bytes": 3230548,
+      "matches_local": true,
+      "sha256": "270cd3f32f0bc9e54f5b74ecb70958940f2e3bfb6a1fc84f115d4e2fc361cbb2"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/05-detail.png",
+      "status": 200,
+      "bytes": 164,
+      "matches_local": true,
+      "sha256": "4c58567fd165ca428db833563248f98d865f6a118e3497511e82d90eac6b5f2e"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/06-motion.gif",
+      "status": 200,
+      "bytes": 2187926,
+      "matches_local": true,
+      "sha256": "9c5359e319a83b0803ea874c9b522c3bcad3118c3cf802c561902366cc21ac1b"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/07-detail.png",
+      "status": 200,
+      "bytes": 249863,
+      "matches_local": true,
+      "sha256": "b0baf8fc5c4171c60a31925b3ea301b1969020ab9d5a11c6614a5eb06fec33e4"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/08-detail.png",
+      "status": 200,
+      "bytes": 10579,
+      "matches_local": true,
+      "sha256": "361f0f30c661648922f5261e70794fe79203903edd9dfb65600fb999354ba9f6"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/09-motion.gif",
+      "status": 200,
+      "bytes": 1538251,
+      "matches_local": true,
+      "sha256": "a736c2dedc8a4eb696ddb1eba06871d93d871b2a8069135b97b3c669eeb53cd1"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/10-detail.png",
+      "status": 200,
+      "bytes": 23447,
+      "matches_local": true,
+      "sha256": "50832ea4389ff7fa0217e3e346a03058f58e52b16df9f89511c0cbcf7eda064a"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/11-detail.png",
+      "status": 200,
+      "bytes": 843168,
+      "matches_local": true,
+      "sha256": "12b835055f78daa2023d1f1a7da45d561a830b24acc2abc21742b8a424cfde00"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/12-detail.png",
+      "status": 200,
+      "bytes": 581357,
+      "matches_local": true,
+      "sha256": "82137b45382d7847c1becb7af502aadb11cd87c012cb250a85b67066b0995ebb"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/13-detail.png",
+      "status": 200,
+      "bytes": 83579,
+      "matches_local": true,
+      "sha256": "0212e8a38f28d5a50a2424b82edd04162f9a27e347dc50940b7f71420f27f4a8"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/14-detail.png",
+      "status": 200,
+      "bytes": 294656,
+      "matches_local": true,
+      "sha256": "0adfa8e583756752fc804e9f6621a7849283e1e6d5873b44b576e5613dac54ba"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/15-detail.png",
+      "status": 200,
+      "bytes": 62107,
+      "matches_local": true,
+      "sha256": "c0d919027c7ddff010d60fc210f52b009eeb391da29677a4819e265c19c1dbfb"
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/16-detail.png",
+      "status": 200,
+      "bytes": 277498,
+      "matches_local": true,
+      "sha256": "5ca264287a52d1fb289fecb69f9190e5c740b59cc5ebd4d8784c3dc07cd8f5d1"
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/01-detail.jpg",
+      "status": 200,
+      "bytes": 230523,
+      "matches_local": true,
+      "sha256": "ebfdc49caa191e004c7f51a856dfc06a7b903da4e5e01c8e9619bcfe59d2a90f"
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/02-detail.jpg",
+      "status": 200,
+      "bytes": 51326,
+      "matches_local": true,
+      "sha256": "9d86f04c46893056c40f7eba38f2e670162a00ede949a40c1f405d65bd20412a"
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/03-motion.gif",
+      "status": 200,
+      "bytes": 4454107,
+      "matches_local": true,
+      "sha256": "2a5e85b4bf51873054abc1ab96b7f7eaeaa42b94954b4693e8e67cad8c9bef27"
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/04-detail.jpg",
+      "status": 200,
+      "bytes": 48450,
+      "matches_local": true,
+      "sha256": "cc4a38453682c4cc90297a2ccc8c69c1a3358e5e4742c2f16e76123956cd3c43"
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/05-detail.jpg",
+      "status": 200,
+      "bytes": 238636,
+      "matches_local": true,
+      "sha256": "f186ccba023e2524b222af49fb328f385ceb7a494f8ea8d7685bfb2ae381257b"
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/06-detail.jpg",
+      "status": 200,
+      "bytes": 90476,
+      "matches_local": true,
+      "sha256": "b3f356b83b0626ca9e678fd8b5322392e55d26e5fbfb4f1f2fc9e372e9bf5621"
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/07-detail.jpg",
+      "status": 200,
+      "bytes": 155799,
+      "matches_local": true,
+      "sha256": "d3deb75661762d475e71470fe6806a95d4e61156362dc668ff46a4a892358b7d"
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/08-detail.jpg",
+      "status": 200,
+      "bytes": 64248,
+      "matches_local": true,
+      "sha256": "fa5006a0363c3b5943ace89d0f29d32232b2ebe372c97a3b602e8758b0678c1e"
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/09-detail.jpg",
+      "status": 200,
+      "bytes": 58974,
+      "matches_local": true,
+      "sha256": "a080f475547cb8560a3fcee947eea4cffc6ea897090a7b47564f4b9416adc8f0"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/01-detail.jpg",
+      "status": 200,
+      "bytes": 52136,
+      "matches_local": true,
+      "sha256": "3afe543896b850971c55193e93c65b4e79e6ee6e763479c2064016c3fb3a3801"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/02-motion.gif",
+      "status": 200,
+      "bytes": 4279611,
+      "matches_local": true,
+      "sha256": "6e4f34ea7b726675fe3162eeb189217ee26a5fc0f38e5674170ed29ca8153002"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/03-detail.jpg",
+      "status": 200,
+      "bytes": 1163,
+      "matches_local": true,
+      "sha256": "f74cac93727cb83bc19ae97aaf86d876634d9dade8ea5bb7fc51646f30bddf1a"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/04-detail.jpg",
+      "status": 200,
+      "bytes": 205837,
+      "matches_local": true,
+      "sha256": "31557b94df661f4693e1a5aaa2084c6beefd2c2a8a5d7844d98a926d5a3d6bb1"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/05-detail.jpg",
+      "status": 200,
+      "bytes": 133876,
+      "matches_local": true,
+      "sha256": "330e19f2768a5d28a1aaaf9193e16a0f0a22570d91cef0c165df1afc8ce71d6b"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/06-detail.jpg",
+      "status": 200,
+      "bytes": 161960,
+      "matches_local": true,
+      "sha256": "e824e705b48fd3f727e8368290eb05676c680dfd968aedae523c100cc7977344"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/07-motion.gif",
+      "status": 200,
+      "bytes": 1150370,
+      "matches_local": true,
+      "sha256": "c1a8b1b3b8d6b58b9f61a338ff09f8e4cf53605a1e3d12c5751c83d21c664c87"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/08-detail.jpg",
+      "status": 200,
+      "bytes": 1001,
+      "matches_local": true,
+      "sha256": "5c5b29a9166e0b37aa0b89906c6060892eaf9f740f0c8cc7f983f8a5e9da32be"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/09-detail.jpg",
+      "status": 200,
+      "bytes": 28368,
+      "matches_local": true,
+      "sha256": "230138e782fbfba2adc142e6d89ed5e569f1ab9292f62793673053073033633c"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/10-motion.gif",
+      "status": 200,
+      "bytes": 4504458,
+      "matches_local": true,
+      "sha256": "c00f54125d1733f346a9dc532c784c82b8e995e40de84729e42da26e12603697"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/11-detail.jpg",
+      "status": 200,
+      "bytes": 63623,
+      "matches_local": true,
+      "sha256": "baca30b33a47af5aa51fffadb5fb62d16663f043fae2f42cbb101b90cec34191"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/12-detail.jpg",
+      "status": 200,
+      "bytes": 117167,
+      "matches_local": true,
+      "sha256": "9387a026a5a0952024b6bd4b1fbeb9cd71d188af18f739e6b9cb7ddc646aa120"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/13-detail.jpg",
+      "status": 200,
+      "bytes": 113859,
+      "matches_local": true,
+      "sha256": "e8fd1fefc171427845a0a710cdf97d98e38b38b6955f51fa0869de55828d6d05"
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/14-detail.jpg",
+      "status": 200,
+      "bytes": 678218,
+      "matches_local": true,
+      "sha256": "186ade0677210561996e19db13454c87e03fbb0ba31539b3dcff9ebac02af6d2"
+    }
+  ],
+  "passed": true
+}

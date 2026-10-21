@@ -1,0 +1,157 @@
+[
+  {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 305,
+    "detailImages": 6,
+    "documentWidth": 305,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-109.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 320
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 375,
+    "detailImages": 6,
+    "documentWidth": 375,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-109.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 390
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 415,
+    "detailImages": 6,
+    "documentWidth": 415,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-109.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 430
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 753,
+    "detailImages": 6,
+    "documentWidth": 753,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-109.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 768
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 1425,
+    "detailImages": 6,
+    "documentWidth": 1425,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-109.html",
+    "smallInputs": [
+      {
+        "font": "13px",
+        "type": "SELECT"
+      },
+      {
+        "font": "13px",
+        "type": "number"
+      }
+    ],
+    "smallTargets": [
+      {
+        "h": 44,
+        "label": "제품",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "룩북",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "브랜드",
+        "w": 34
+      },
+      {
+        "h": 44,
+        "label": "검색",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "로그인",
+        "w": 34
+      },
+      {
+        "h": 14,
+        "label": "SHOP",
+        "w": 32
+      },
+      {
+        "h": 14,
+        "label": "THE CLOUD LINE",
+        "w": 93
+      },
+      {
+        "h": 33,
+        "label": "1668-0868",
+        "w": 62
+      },
+      {
+        "h": 33,
+        "label": "카카오톡 문의 ↗",
+        "w": 79
+      },
+      {
+        "h": 33,
+        "label": "주문조회 ↗",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "배송·교환·반품 안내 ↗",
+        "w": 106
+      },
+      {
+        "h": 33,
+        "label": "브랜드 소개",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "개인정보처리방침",
+        "w": 83
+      },
+      {
+        "h": 33,
+        "label": "이용약관",
+        "w": 41
+      },
+      {
+        "h": 33,
+        "label": "이용안내",
+        "w": 41
+      }
+    ],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 1440
+  }
+]

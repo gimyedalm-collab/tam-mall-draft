@@ -1,0 +1,989 @@
+{
+  "engine": "Apple Safari via safaridriver on GitHub macOS VM",
+  "physical_device": false,
+  "iOS_Safari": false,
+  "commit": "a90fcb031ecc20ae81891dcdf5ec74ff7a920905",
+  "checks": [
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width,initial-scale=1",
+      "route": "design-only.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "shop.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "search.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "cloud.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "jelly.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "about.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "lookbook.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "login.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [
+        50,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-110.html",
+      "overflow": false,
+      "detailImages": 18,
+      "detailLazy": 17,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-111.html",
+      "overflow": false,
+      "detailImages": 14,
+      "detailLazy": 13,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-25.html",
+      "overflow": false,
+      "detailImages": 11,
+      "detailLazy": 10,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-118.html",
+      "overflow": false,
+      "detailImages": 16,
+      "detailLazy": 15,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-102.html",
+      "overflow": false,
+      "detailImages": 9,
+      "detailLazy": 8,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-24.html",
+      "overflow": false,
+      "detailImages": 14,
+      "detailLazy": 13,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-23.html",
+      "overflow": false,
+      "detailImages": 10,
+      "detailLazy": 10,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-109.html",
+      "overflow": false,
+      "detailImages": 6,
+      "detailLazy": 5,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-101.html",
+      "overflow": false,
+      "detailImages": 26,
+      "detailLazy": 26,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-112.html",
+      "overflow": false,
+      "detailImages": 17,
+      "detailLazy": 17,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-114.html",
+      "overflow": false,
+      "detailImages": 12,
+      "detailLazy": 12,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-115.html",
+      "overflow": false,
+      "detailImages": 12,
+      "detailLazy": 12,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-121.html",
+      "overflow": false,
+      "detailImages": 9,
+      "detailLazy": 9,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": true,
+      "mobileFields": [
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-18.html",
+      "overflow": false,
+      "detailImages": 18,
+      "detailLazy": 18,
+      "mobileControlHeights": [
+        48,
+        50
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "basket.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "checkout.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [
+        50,
+        50,
+        50,
+        48
+      ],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 373,
+      "actualWidth": 390,
+      "headerReady": true,
+      "clientWidth": 373,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "coupons.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 390
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width,initial-scale=1",
+      "route": "design-only.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "shop.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "search.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "cloud.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "jelly.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "about.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "lookbook.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "login.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [
+        48,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-110.html",
+      "overflow": false,
+      "detailImages": 18,
+      "detailLazy": 17,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-111.html",
+      "overflow": false,
+      "detailImages": 14,
+      "detailLazy": 13,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-25.html",
+      "overflow": false,
+      "detailImages": 11,
+      "detailLazy": 10,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-118.html",
+      "overflow": false,
+      "detailImages": 16,
+      "detailLazy": 15,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-102.html",
+      "overflow": false,
+      "detailImages": 9,
+      "detailLazy": 8,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-24.html",
+      "overflow": false,
+      "detailImages": 14,
+      "detailLazy": 13,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-23.html",
+      "overflow": false,
+      "detailImages": 10,
+      "detailLazy": 10,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-109.html",
+      "overflow": false,
+      "detailImages": 6,
+      "detailLazy": 5,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-101.html",
+      "overflow": false,
+      "detailImages": 26,
+      "detailLazy": 26,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-112.html",
+      "overflow": false,
+      "detailImages": 17,
+      "detailLazy": 17,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-114.html",
+      "overflow": false,
+      "detailImages": 12,
+      "detailLazy": 12,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-115.html",
+      "overflow": false,
+      "detailImages": 12,
+      "detailLazy": 12,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-121.html",
+      "overflow": false,
+      "detailImages": 9,
+      "detailLazy": 9,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": true,
+      "mobileFields": [
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "product-18.html",
+      "overflow": false,
+      "detailImages": 18,
+      "detailLazy": 18,
+      "mobileControlHeights": [
+        20,
+        48
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "basket.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "checkout.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [
+        48,
+        48,
+        48,
+        20
+      ],
+      "requestedWindowWidth": 1440
+    },
+    {
+      "documentWidth": 1423,
+      "actualWidth": 1440,
+      "headerReady": true,
+      "clientWidth": 1423,
+      "purchaseReady": false,
+      "mobileFields": [],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "route": "coupons.html",
+      "overflow": false,
+      "detailImages": 0,
+      "detailLazy": 0,
+      "mobileControlHeights": [],
+      "requestedWindowWidth": 1440
+    }
+  ],
+  "flows": {
+    "cart": {
+      "amountCorrect": true,
+      "quantity": "−2+"
+    },
+    "reviewNext": true,
+    "menu": true
+  },
+  "capabilities": {
+    "safari:platformVersion": "26.6.2",
+    "safari:automaticInspection": false,
+    "webkit:WebRTC": {
+      "DisableICECandidateFiltering": false,
+      "DisableInsecureMediaCapture": false
+    },
+    "webkit:alwaysAllowAutoplay": false,
+    "browserVersion": "26.6.2",
+    "strictFileInteractability": false,
+    "browserName": "Safari",
+    "safari:useSimulator": false,
+    "safari:platformBuildVersion": "25G83",
+    "setWindowRect": true,
+    "acceptInsecureCerts": false,
+    "safari:automaticProfiling": false,
+    "pageLoadStrategy": "normal",
+    "safari:experimentalWebSocketUrl": false,
+    "platformName": "macOS",
+    "safari:diagnose": false
+  },
+  "safari_version": "Included with Safari 26.6.2 (21624.5.1.11.3)",
+  "passed": true
+}

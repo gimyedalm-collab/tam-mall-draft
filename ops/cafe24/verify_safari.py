@@ -107,8 +107,7 @@ def main():
                     assert all(height>=44 for height in result['mobileControlHeights']), result
         command('POST','/window/rect',{'width':600,'height':950,'x':0,'y':0})
         visit('product-109.html')
-        # Safari's native option popup does not expose option clicks to WebDriver.
-        # Use the select's ordinary keyboard interaction and verify its value.
+        # Open the native select before clicking its option in Safari.
         select=find('select')
         command('POST','/element/'+select+'/click',{})
         click('select option:nth-child(2)')

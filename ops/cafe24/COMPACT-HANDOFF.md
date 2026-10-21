@@ -1,4 +1,32 @@
-## ACTIVE: mobile fixes published, 2026-10-21
+## ACTIVE OVERRIDE: all seven details, Safari and Cafe24 rollout checks, 2026-10-21
+
+Owner revoked shading exclusion: latest Heart Shading V9 from the other session
+is included in product109. Source a90fcb0 includes admin-verified after-discount
+shipping fix and Safari native select48px fix. Pages39581066965 successful;
+112public files match. Safari26.6.2 on macOS VM passed50checks at390/1440px,
+native option selection/cart36000KRW/review paging/menu. This is not iOS.
+Seven delivery packages/84media and ZIP contents verified. Slow1.6Mbps shared
+fixture tested; large images/video still take39-57seconds. No fast-load claim.
+
+Owner logged in. Admin shipping is after-discount30000KRW threshold,3000KRW fee;
+channel coupon3000KRW,365days,one/order,no minimum,two special-product exclusions;
+signup3000KRW coupon issuance stopped. Settings preserved.
+PCskin18 and Korean mobile server backups created; restore lists verified.
+Candidate skin21 remains old; no new native commerce migration complete.
+Uploader folder web/upload/tam-rollout-qa-20261021 created; fileChooser.setFiles
+rejected with -32000 Not allowed. No asset upload verified. Do not claim immediate
+production readiness or hand owner a manual-edit checklist as completion.
+Resume supported file transfer/original source acquisition, then integrate clone
+and verify native commerce/Snap before production switch. Do not request login
+again while current session works. No physical iPhone/Android/remote account was
+available. Detailed evidence: rollout-20261021/REPORT.md and admin-policy.json.
+
+Below entries are historical; shading exclusion and blanket admin-not-checked
+statements are superseded by this update. Production skin/content unchanged.
+
+---
+
+## Historical: mobile fixes published, 2026-10-21
 
 All four audit bugs fixed in678c9b5. Pages run39571970349 succeeded.
 Public32 files match,320px home/product111/review paging passed.

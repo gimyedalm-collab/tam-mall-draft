@@ -5,14 +5,14 @@
       "id": "TAM-C24-005",
       "type": "policy_discrepancy",
       "priority": "P1",
-      "status": "needs_admin_verification",
+      "status": "admin_rules_confirmed_native_copy_pending",
       "route": "https://tambeauty.kr/article/notice/1/299/",
       "reproduce": "Compare the membership notice image, header JOIN benefit, and product channel coupon CTA.",
       "expected": "Benefit descriptions agree with actual current administrator rules.",
       "actual": "Membership image advertises 2,000-point signup and 2,000 channel coupon; header/product CTA display 3,000. Confirm the underlying rules before choosing values.",
       "evidence": "live-audit-20260917.md",
       "fix": null,
-      "retest": null
+      "retest": "Channel coupon3000KRW confirmed;365days,one/order,no minimum,two exclusions. Signup3000KRW coupon issuance stopped. No redemption test or live copy edits."
     },
     {
       "id": "TAM-C24-001",
@@ -22,7 +22,7 @@
       "route": "candidate skin homepage",
       "reproduce": "Compare storefront-v2/cafe24/tam with the frozen design-only preview.",
       "expected": "The candidate Cafe24 skin implements the frozen design and native shopping functions.",
-      "actual": "Existing Cafe24 package predates the final design; original active skin unavailable.",
+      "actual": "Existing skin21 still old design; original skin18 server backup created2026-10-21, local download unverified; file attachment blocked.",
       "evidence": "CAFE24-IMPLEMENTATION-PLAN.md",
       "fix": null,
       "retest": null
@@ -51,7 +51,7 @@
       "actual": "The audit found both 2–14 day and 1–7 day delivery descriptions.",
       "evidence": "Public audit 2026-09-17; reconcile against administrator settings before editing.",
       "fix": null,
-      "retest": null
+      "retest": "Administrator period2-14days confirmed2026-10-21. Live native guide discrepancy not modified."
     },
     {
       "id": "TAM-C24-004",
@@ -306,6 +306,45 @@
       "fix": "Three page numbers at <=480px, five on larger screens; responsive rerender and wrapping fallback.",
       "retest": "100 mobile/tablet viewport checks and12 desktop/landscape checks passed; flow/source evidence in mobile-fixes-20261021. Public32 files match; published320px home/product111 and review next-page passed. Source 678c9b5.",
       "fix_evidence": "mobile-fixes-20261021/REPORT.md"
+    },
+    {
+      "id": "TAM-SHIPPING-BASIS-20261021",
+      "type": "policy_discrepancy",
+      "priority": "P1",
+      "status": "published_and_verified",
+      "route": "shared purchase-policy and purchase-experience",
+      "reproduce": "Apply3000KRW coupon to30000KRW subtotal in shipping estimator and compare authenticated admin setting.",
+      "expected": "After-discount27000KRW incurs3000KRW shipping.",
+      "actual": "Previous estimator used subtotal before coupons and UI promised free shipping survives coupons.",
+      "evidence": "rollout-20261021/admin-policy.json",
+      "fix": "Use discounted amount; remove unconditional promise; preserve administrator commercial settings and native exceptions.",
+      "retest": "Four policy test groups pass; final112public files match; Safari50layout checks and cart flow pass."
+    },
+    {
+      "id": "TAM-SAFARI-SELECT-20261021",
+      "type": "mobile_audit",
+      "priority": "P2",
+      "status": "published_and_verified",
+      "route": "shared .field select at <=900px",
+      "reproduce": "Open product109 at600px in Safari26.6.2; inspect native select bounding box.",
+      "expected": "At least44px control height.",
+      "actual": "Native select remains24px tall despite CSS min-height48px.",
+      "evidence": "rollout-20261021/safari-report.json; initial failure capture retained locally outside Git",
+      "fix": "Use appearance:none with48px height and dropdown indicator in mobile breakpoint.",
+      "retest": "Final Safari50checks pass; minimum mobile field height48px. Native option click, cart36000KRW, reviews and menu pass."
+    },
+    {
+      "id": "TAM-C24-UPLOAD-20261021",
+      "type": "environment_blocker",
+      "priority": "P1",
+      "status": "blocked",
+      "route": "Cafe24 file uploader",
+      "reproduce": "Owner-authenticated uploader; choose06-ending.png in isolated web/upload/tam-rollout-qa-20261021.",
+      "expected": "Upload test asset then verify its Cafe24 URL.",
+      "actual": "Browser connection rejects fileChooser.setFiles with code-32000 Not allowed.",
+      "evidence": "rollout-20261021/admin-policy.json",
+      "fix": null,
+      "retest": "Folder creation succeeds; upload not verified. Do not mark candidate migrated."
     }
   ]
 }

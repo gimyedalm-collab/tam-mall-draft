@@ -1,0 +1,64 @@
+{
+  "checked_on": "2026-10-21",
+  "source": "Owner-authenticated Cafe24 administrator, visible UI only",
+  "shop": "awiz / shop1 / Korean",
+  "production_settings_changed": false,
+  "shipping": {
+    "method": "domestic courier, prepaid",
+    "free_threshold_krw": 30000,
+    "below_threshold_fee_krw": 3000,
+    "threshold_basis": "payment amount after discounts",
+    "individual_product_shipping_enabled": true,
+    "individual_calculation": "per product",
+    "supplier_shipping_enabled": false,
+    "free_priority_includes_individual_shipping": false,
+    "displayed_shipping_days": [2, 14],
+    "preview_fix": "Removed coupon-preserved free-shipping promise; calculate after-discount threshold; native order form remains authoritative for exceptions."
+  },
+  "channel_coupon": {
+    "name": "Kakao channel addition 3000 KRW discount",
+    "amount_krw": 3000,
+    "minimum_purchase": "none",
+    "scope": "one order coupon per order; PC and mobile",
+    "validity_days_after_issue": 365,
+    "same_person_reissue": false,
+    "eligible_payment_methods": "unrestricted",
+    "calculation_basis": "before discounts other than coupons",
+    "excluded_product_codes": ["P00000EY", "P00000EX"],
+    "excluded_product_context": ["Kakao secret-page Powder Balm promotion", "namufun Cushion + Lip Gloss collaboration"],
+    "end_to_end_redemption_tested": false
+  },
+  "signup_coupon": {
+    "amount_krw": 3000,
+    "minimum_order_krw": 30000,
+    "validity_days_after_issue": 7,
+    "issuance_state": "stopped",
+    "settings_changed": false
+  },
+  "skins": {
+    "active_pc": "skin18",
+    "candidate_pc": "skin21 / TEST_260921 / editor skin_no27",
+    "candidate_status": "Existing old skin; current GitHub design not migrated",
+    "pc_server_backup": "awiz_s2_261021181549_d_skin18_H.tar.gz",
+    "pc_backup_created_at_kst": "2026-10-21 18:15:49",
+    "backup_download_verified": false,
+    "mobile_server_backup": "awiz_s2_261021190309_d_mobile_H.tar.gz",
+    "mobile_backup_created_at_kst": "2026-10-21 19:03:09",
+    "mobile_backup_confirmed_in_restore_list": true,
+    "production_skin_switched": false,
+    "snap_hooks_observed": true,
+    "new_candidate_native_commerce_verified": false
+  },
+  "upload_probe": {
+    "isolated_directory_created": "/web/upload/tam-rollout-qa-20261021",
+    "attempted_file": "heart-shading-v9/images/06-ending.png",
+    "result": "Browser connection fileChooser.setFiles failed: code -32000, Not allowed",
+    "uploaded_asset_verified": false,
+    "production_product_descriptions_changed": false
+  },
+  "physical_device": {
+    "verified": false,
+    "available_device_or_remote_session": "No connected iPhone/Android or authenticated remote-device account found",
+    "macos_safari_is_not_ios": true
+  }
+}

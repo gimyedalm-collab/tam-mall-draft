@@ -238,5 +238,13 @@
       "order_password"
     ],
     "submissions_performed": false
+  },
+  "rollout_admin_update_20261021": {
+    "source": "rollout-20261021/admin-policy.json",
+    "shipping": "after-discount30000KRW free threshold;3000KRW below;product exceptions enabled",
+    "channel_coupon": "3000KRW;365days;one/order;two product exclusions;no minimum",
+    "signup_coupon": "issuance stopped",
+    "candidate_native_end_to_end": "not verified",
+    "production_changed": false
   }
 }

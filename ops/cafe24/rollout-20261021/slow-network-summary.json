@@ -1,0 +1,96 @@
+{
+  "fixture": "shared 200000 bytes/s;150ms server delay/request;no-store",
+  "requests": 84,
+  "http_errors": [
+    {
+      "path": "/favicon.ico",
+      "status": 404
+    }
+  ],
+  "large_completed_requests": [
+    {
+      "path": "/heart-shading-v9/images/02-lineup.png",
+      "status": 200,
+      "sent_bytes": 1044722,
+      "seconds": 19.491,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 596347.9367803
+    },
+    {
+      "path": "/storefront-v2/preview/assets/PretendardVariable.woff2",
+      "status": 200,
+      "sent_bytes": 2057688,
+      "seconds": 30.088,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 596357.7332667
+    },
+    {
+      "path": "/heart-shading-v9/images/01-hero.png",
+      "status": 200,
+      "sent_bytes": 3773662,
+      "seconds": 39.037,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 596366.2892976
+    },
+    {
+      "path": "/storefront-v2/preview/assets/PretendardVariable.woff2",
+      "status": 200,
+      "sent_bytes": 2057688,
+      "seconds": 13.975,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 596456.6375469
+    },
+    {
+      "path": "/storefront-v2/preview/assets/cushion-pink-original-2.png",
+      "status": 200,
+      "sent_bytes": 1869027,
+      "seconds": 48.033,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 596527.6803378
+    },
+    {
+      "path": "/storefront-v2/preview/assets/PretendardVariable.woff2",
+      "status": 200,
+      "sent_bytes": 2057688,
+      "seconds": 50.741,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 596529.7355291
+    },
+    {
+      "path": "/storefront-v2/preview/assets/lookbook-cloud-1.jpg",
+      "status": 200,
+      "sent_bytes": 1756090,
+      "seconds": 36.161,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 596533.0687282
+    },
+    {
+      "path": "/storefront-v2/preview/assets/tam-main-film-v16-261013.mp4",
+      "status": 200,
+      "sent_bytes": 6554942,
+      "seconds": 56.657,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 596558.2832044
+    },
+    {
+      "path": "/storefront-v2/preview/assets/PretendardVariable.woff2",
+      "status": 200,
+      "sent_bytes": 2057688,
+      "seconds": 25.392,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 598126.0328049
+    },
+    {
+      "path": "/cafe24-delivery-20261020/powder-balm/02-hero-application.gif",
+      "status": 200,
+      "sent_bytes": 4795322,
+      "seconds": 38.851,
+      "aborted_by_navigation": false,
+      "finished_monotonic": 598140.0389209
+    }
+  ],
+  "physical_network": false,
+  "mobile_device": false,
+  "core_web_vitals_measured": false,
+  "caveat": "Final powder UI check measured1920px; not counted as mobile. UI responsiveness does not mean large media loads fast."
+}
