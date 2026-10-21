@@ -1,0 +1,24 @@
+{
+  "reviewer": "Claude Code; read-only; --no-session-persistence --output-format text",
+  "review_scope": "Initial V12 source and rendered screenshots; final small repairs checked by Codex, not re-reviewed by Claude",
+  "accepted": [
+    "01 repeated the fruit name and overlapped 06: changed to 핑크에 더해진 / 부드러운 코랄, grounded in supplied wrist and texture images.",
+    "Reduce repetitive sentence templates: 02 로즈와 핑크의 / 차분한 조화; 03 핑크에 살짝 / 섞인 라벤더.",
+    "Vegan mark typography reduced from28 to24 source px, matching section heading size; modest padding reduction.",
+    "Secondary type colour darkened from #756679 to #6d5e70 for better legibility."
+  ],
+  "retained_with_reason": [
+    "Calm/soft/clear adjectives describe visible colour impression, not measured strength, wear or uniform application. Existing colour variability note retained; no numerical or comparative intensity claims added.",
+    "04 orange/coral wording retained after direct review of provided wrist and transparent texture assets. Cheek photographs alone are not sufficient to reverse the established shade family.",
+    "Cream-to-powder wording intentionally anchors hero and usage demonstration. This is the requested USP; changing the main claim was outside this targeted correction.",
+    "Oil remains a generic standalone illustration, identified as an illustrative image in alt and provenance. No newly photographed raw-material or performance claim. Extra visible technical captions would add copy contrary to the owner brief.",
+    "Vegan mark uses plain botanical linework and VEGAN FORMULA type without certifier name, number, seal or certification wording. The review page explicitly explains its brand-graphic status. No additional customer-facing certification disclaimer inserted.",
+    "Existing CSS overrides have final computed-size assertions; broad unrelated stylesheet refactoring deferred."
+  ],
+  "limits": {
+    "owner_visual_acceptance": "pending",
+    "physical_shade_match": "unverified",
+    "current_cloud_certification": "unverified; no official certification logo used",
+    "cafe24_upload": "deferred_by_owner"
+  }
+}

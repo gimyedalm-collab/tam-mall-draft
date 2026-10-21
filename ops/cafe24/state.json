@@ -786,7 +786,7 @@
       "cafe24_upload": "deferred_by_owner"
     },
     "cloud_texture_usage_v11_20261021": {
-      "status": "package_verified; owner_visual_acceptance_pending",
+      "status": "archived_baseline; owner_requested_oil_restore_copy_type_and_vegan_cleanup",
       "source": "cloud-blush-v11/index.html",
       "review": "cloud-blush-v11/review/index.html",
       "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
@@ -798,6 +798,19 @@
       "preserved": "First11 delivery images byte-identical to V10; native product information byte-identical",
       "motion": "5.51sec,640x359,8fps,3cycles; extend original V24 to finger-exit surface using same established r2 brightness recipe",
       "new_AI_generation": false,
+      "physical_shade_verified": false,
+      "cafe24_upload": "deferred_by_owner"
+    },
+    "cloud_copy_type_v12_20261021": {
+      "status": "package_verified; owner_visual_acceptance_pending",
+      "source": "cloud-blush-v12/index.html",
+      "review": "cloud-blush-v12/review/index.html",
+      "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
+      "plan": "cloud-blush-v12/plan.json",
+      "qa": "cloud-blush-v12/qa.json",
+      "changes": "Six descriptive shade captions; hero28/section24 source px; restore oil image alone; vegan brand mark without product photo",
+      "preserved": "Source shade photos, V11 unified GIF and native information unchanged",
+      "vegan_mark": "Brand VEGAN FORMULA typography, not official certification logo; Cloud current certification unverified",
       "physical_shade_verified": false,
       "cafe24_upload": "deferred_by_owner"
     }

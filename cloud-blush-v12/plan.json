@@ -1,0 +1,60 @@
+{
+  "version": 12,
+  "scope": "Owner 2026-10-21: helpful shade descriptions; smaller consistent type; oil-only image restored; vegan mark only",
+  "shade_copy": [
+    {
+      "shade": 1,
+      "description": "핑크에 더해진 부드러운 코랄",
+      "basis": "Editorial visual description of supplied wrist/texture/cheek images; not measured colour or personal-colour advice"
+    },
+    {
+      "shade": 2,
+      "description": "로즈와 핑크의 차분한 조화",
+      "basis": "Editorial visual description of supplied wrist/texture/cheek images; not measured colour or personal-colour advice"
+    },
+    {
+      "shade": 3,
+      "description": "핑크에 살짝 섞인 라벤더",
+      "basis": "Editorial visual description of supplied wrist/texture/cheek images; not measured colour or personal-colour advice"
+    },
+    {
+      "shade": 4,
+      "description": "오렌지빛을 더한 따뜻한 코랄",
+      "basis": "Editorial visual description of supplied wrist/texture/cheek images; not measured colour or personal-colour advice"
+    },
+    {
+      "shade": 5,
+      "description": "붉은 기가 도는 또렷한 핑크",
+      "basis": "Editorial visual description of supplied wrist/texture/cheek images; not measured colour or personal-colour advice"
+    },
+    {
+      "shade": 6,
+      "description": "베이지에 스민 은은한 피치",
+      "basis": "Editorial visual description of supplied wrist/texture/cheek images; not measured colour or personal-colour advice"
+    }
+  ],
+  "type_css_px": {
+    "hero": 28,
+    "section": 24,
+    "shade": 18,
+    "body": 17,
+    "label": 16.2,
+    "native_information": 12
+  },
+  "vegan": {
+    "basis": "Owner brand claim and existing vegan wording",
+    "graphic": "New simple botanical VEGAN FORMULA typography, not third-party certification",
+    "certification": "Current certificate/authorized logo for Cloud blush not found in inspected local evidence; no certification claim"
+  },
+  "oil": {
+    "asset": "../cloud-blush-v6/assets/formula-clear-oil-261019.jpg",
+    "role": "Existing illustrative oil visual; not a photograph of raw materials or product texture",
+    "facts": "Four oil names present in each of six INCI lists"
+  },
+  "preserved": [
+    "All six actual wrist, texture and first-revision cheek sources, without recolouring",
+    "V11 unified cream/application GIF byte-identical",
+    "Native product information and INCI byte-identical"
+  ],
+  "cafe24_upload": "deferred_by_owner"
+}

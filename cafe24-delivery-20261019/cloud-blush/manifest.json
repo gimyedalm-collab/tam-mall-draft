@@ -1,6 +1,6 @@
 {
   "product": "클라우드 블러",
-  "source": "cloud-blush-v11/index.html",
+  "source": "cloud-blush-v12/index.html",
   "status": "exported_candidate; owner acceptance pending; Cafe24 upload deferred",
   "render": "430 CSS px at 2x; static raster panels and one unified cream/application GIF; native information",
   "files": [
@@ -10,38 +10,38 @@
       "height": 1800,
       "kind": "jpeg",
       "alt": "THE CLOUD BLUR 크림처럼 사르르, 파우더처럼 보송하게. 탐뷰티 백도 쉐이크 열린 제품 원본 / 탐뷰티 살구 쉐이크 열린 제품 원본 / 탐뷰티 구아바 쉐이크 닫힌 제품 원본",
-      "bytes": 215809,
-      "sha256": "f35240f51c9d0eee652ba1fee49a720eed009e56cd3f06b76a6beeb6e7c48772",
+      "bytes": 211603,
+      "sha256": "35e9f2758469a82349ada14671516b7dc5f48e4f8837160cf3d02b31870557c1",
       "reference_region": "01"
     },
     {
       "file": "images/02-detail.jpg",
       "width": 860,
-      "height": 1430,
+      "height": 1420,
       "kind": "jpeg",
       "alt": "더 클라우드 블러 크림 블러셔  6가지 컬러 · 2.8 g 탐뷰티 여섯 컬러 제품 원본 사진",
-      "bytes": 156780,
-      "sha256": "26d8a3bfee3c316bc5ae04e963add0568d879448e66462cf589df2008eadede7",
+      "bytes": 158407,
+      "sha256": "77f09f574591164a2ecce693c084c25ab042349240a9e7e25952855811a100d9",
       "reference_region": "01"
     },
     {
       "file": "images/03-detail.jpg",
       "width": 860,
-      "height": 1870,
+      "height": 1864,
       "kind": "jpeg",
       "alt": "여섯 가지 컬러 01 백도 02 구아바 03 아사이베리 04 파파야 05 용과 06 살구 01  백도  02  구아바  03  아사이베리  04  파파야  05  용과  06  살구  피부색·사용량·조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다. 01 백도 쉐이크 손목 발색 / 02 구아바 쉐이크 손목 발색 / 03 아사이베리 쉐이크 손목 발색 / 04 파파야 쉐이크 손목 발색 / 05 용과 쉐이크 손목 발색 / 06 살구 쉐이크 손목 발색 / 01 백도 쉐이크 제형 원본 / 02 구아바 쉐이크 제형 원본 / 03 아사이베리 쉐이크 제형 원본 / 04 파파야 쉐이크 제형 원본 / 05 용과 쉐이크 제형 원본 / 06 살구 쉐이크 제형 원본",
-      "bytes": 248390,
-      "sha256": "d903350cb5f12e2a5fb480cb2bb48e39e833e9501e48c2b5ba98f705a66f472f",
+      "bytes": 251723,
+      "sha256": "94d7867901ac1eed76d632188d8664952dcf7d0a6b05065e16a4f2e96f96bdc1",
       "reference_region": "03"
     },
     {
       "file": "images/04-detail.jpg",
       "width": 860,
-      "height": 228,
+      "height": 222,
       "kind": "jpeg",
       "alt": "볼 위에 올린 컬러",
-      "bytes": 10573,
-      "sha256": "0f8983be796585963153977d164253a72ca55770f7336900830ca63ae7bc4123",
+      "bytes": 12146,
+      "sha256": "8e70c6253716b2f9fcfefb37d8a6f03274ff098c5d345d512a726948a2ebc4e7",
       "reference_region": null
     },
     {
@@ -49,9 +49,9 @@
       "width": 860,
       "height": 298,
       "kind": "jpeg",
-      "alt": "01  백도 쉐이크  피치 핑크 01 백도 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 34849,
-      "sha256": "972f0b6598432395b6ba971c73c0236cdb03861ca0d03f086250c0270850e6c2",
+      "alt": "01  백도 쉐이크  핑크에 더해진 부드러운 코랄 01 백도 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 40016,
+      "sha256": "530458999d3820c6b25e1bc465d807fc56ec79e69bff786bd93718f8aa682d75",
       "reference_region": "04–06"
     },
     {
@@ -59,9 +59,9 @@
       "width": 860,
       "height": 298,
       "kind": "jpeg",
-      "alt": "02  구아바 쉐이크  로지 핑크 02 구아바 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 35827,
-      "sha256": "017f8ebf7c12ee14ff4504103d487080035670c847af4f7e8eef44788e8362c8",
+      "alt": "02  구아바 쉐이크  로즈와 핑크의 차분한 조화 02 구아바 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 40915,
+      "sha256": "2078ba4956ef76f75edbec1e400af42cb40fe27210d6fe52c399e925d1cc66a0",
       "reference_region": "04–06"
     },
     {
@@ -69,9 +69,9 @@
       "width": 860,
       "height": 298,
       "kind": "jpeg",
-      "alt": "03  아사이베리 쉐이크  라벤더 핑크 03 아사이베리 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 38539,
-      "sha256": "50131bde2c4ebb2b8909a9d223ffca000ef1e0f93f830d44ea385485b515d7d2",
+      "alt": "03  아사이베리 쉐이크  핑크에 살짝 섞인 라벤더 03 아사이베리 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 42462,
+      "sha256": "c718fcef5cac2d464841f51dbdb5b8f257aa7274a6b31e36834a7acbf3b170bf",
       "reference_region": "04–06"
     },
     {
@@ -79,9 +79,9 @@
       "width": 860,
       "height": 298,
       "kind": "jpeg",
-      "alt": "04  파파야 쉐이크  코랄 오렌지 04 파파야 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 36276,
-      "sha256": "e97bc21be99f8f59b2ef1024e2e050558dad58de0eb3efc54a1cbe2f95051ecb",
+      "alt": "04  파파야 쉐이크  오렌지빛을 더한 따뜻한 코랄 04 파파야 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 41536,
+      "sha256": "759bb9bb3a2ee54a4134dbeaa77235e8cd6ac95e7fef2bf5372048e1da7e3678",
       "reference_region": "04–06"
     },
     {
@@ -89,9 +89,9 @@
       "width": 860,
       "height": 298,
       "kind": "jpeg",
-      "alt": "05  용과 쉐이크  선명한 핑크 05 용과 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 36419,
-      "sha256": "fe211873ae727449e4760e91aaffd28d0def0bb65a8b5660cbe99f748e3fe1ea",
+      "alt": "05  용과 쉐이크  붉은 기가 도는 또렷한 핑크 05 용과 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 40094,
+      "sha256": "d2c9f07b0010b6f67a305440017cec0a438a85b6158bb7c892daca2d2339c154",
       "reference_region": "04–06"
     },
     {
@@ -99,29 +99,29 @@
       "width": 860,
       "height": 298,
       "kind": "jpeg",
-      "alt": "06  살구 쉐이크  살구 베이지 06 살구 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 34964,
-      "sha256": "60eea2c78ef19227c8530fa52952bf4989484e6f978991ca4fedb62fb26215a2",
+      "alt": "06  살구 쉐이크  베이지에 스민 은은한 피치 06 살구 쉐이크 제공 1차 얼굴 발색",
+      "bytes": 39045,
+      "sha256": "e5694ef4773bab2073f7fa66bd8ce45431315ecdf8418229928d67fc823362ce",
       "reference_region": "04–06"
     },
     {
       "file": "images/11-detail.jpg",
       "width": 860,
-      "height": 192,
+      "height": 194,
       "kind": "jpeg",
       "alt": "피부색·사용량·조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다.",
-      "bytes": 22791,
-      "sha256": "2ff9a174920f7595a4ca71df0119245cc57c15b80d66b7242dfa09e2baea5e99",
+      "bytes": 23864,
+      "sha256": "55eddd7abe7308fec60c5e3010b92b85d03da0bdeab6edf2c540e439bea09014",
       "reference_region": null
     },
     {
       "file": "images/12-detail.jpg",
       "width": 860,
-      "height": 410,
+      "height": 366,
       "kind": "jpeg",
       "alt": "CREAM TO POWDER  크림처럼 펴 바르고, 파우더처럼 보송하게.",
-      "bytes": 34218,
-      "sha256": "08c542b23ca2eddc498ca3dc0d99ee4f1d5eee733b600cb36929544e7585b228",
+      "bytes": 31401,
+      "sha256": "1b5c89f4964312007695cab6e43325d4cb7034e202b45cbc7d9b33454281930b",
       "reference_region": null
     },
     {
@@ -140,28 +140,28 @@
       "height": 280,
       "kind": "jpeg",
       "alt": "실제 제형·도포 장면을 연결한 영상입니다.  손끝이나 도구로 얇게 펴 바른 뒤, 경계를 가볍게 두드려 주세요.",
-      "bytes": 33489,
-      "sha256": "4a15f52862c6b1ad077ecec46f4ef93b8f4f255dbceb37bc77d56d53f58061b9",
+      "bytes": 33905,
+      "sha256": "858ac6deb70134cbebad4c82677cb49b5ebce7ae1a8322347e67f7e27526dbf0",
       "reference_region": null
     },
     {
       "file": "images/15-detail.jpg",
       "width": 860,
-      "height": 274,
+      "height": 832,
       "kind": "jpeg",
-      "alt": "네 가지 식물성 오일 함유  살구씨오일 · 동백나무씨오일 올리브오일 · 서양자두씨오일",
-      "bytes": 28399,
-      "sha256": "cb5dd8ca6138e65b558699a02fd555b8adc1de6734d89b8100d870e5c6f6d1f4",
+      "alt": "네 가지 식물성 오일 함유  살구씨오일 · 동백나무씨오일 올리브오일 · 서양자두씨오일 식물성 오일 함유를 표현한 오일 연출 이미지",
+      "bytes": 95935,
+      "sha256": "5533a377a02baf39c693a01cee69efaca87bcf09857b01902eb3bcde36b6f281",
       "reference_region": "09"
     },
     {
       "file": "images/16-detail.jpg",
       "width": 860,
-      "height": 706,
+      "height": 482,
       "kind": "jpeg",
-      "alt": "탐뷰티의 비건 포뮬러 기존 생성 식물 장식 배경 / 탐뷰티 백도 쉐이크 원본 제품 누끼",
-      "bytes": 94178,
-      "sha256": "733b7c5afeab799851b295fb20ec62f90c605e71a55b7f13e75b548c87efa3c2",
+      "alt": "탐뷰티의 비건 포뮬러 VEGAN FORMULA",
+      "bytes": 24565,
+      "sha256": "012698d0909a042b78b4a05c9f14c695febf0bed9907363a617bb517e121d1ed",
       "reference_region": "11"
     },
     {
@@ -188,6 +188,6 @@
     "All six cheek assets are provided first revision, not generated; physical shade match unverified",
     "Reference new colours and co-development omitted because TAM evidence unavailable",
     "Product information HTML and INCI unchanged from V10",
-    "Generated background is decorative; product cutout remains original"
+    "Restored oil image is illustrative; vegan mark is brand typography, not certification. All shade photographs remain original"
   ]
 }

@@ -845,3 +845,21 @@ V1/V2 source masters and native facts remain unchanged. Current evidence and
 review record: ops/cafe24/powder-balm-v3-20261021.json. Delivery/preview checks,
 owner visual acceptance and actual Cafe24 upload remain distinct. Upload and
 physical-device checks stay deferred.
+
+
+## Cloud V12 copy, type, oil and vegan cleanup - 2026-10-21
+
+Owner says shade descriptions are perfunctory, fonts too large/inconsistent,
+vegan section needs only a mark, and oil imagery should return. Current source
+cloud-blush-v12; comparison cloud-blush-v12/review; delivery URL unchanged.
+This supersedes V10 larger headings and V11 removal of the entire oil image.
+Hero28 and all section titles24 source px; shade names18 and captions16.2 retain
+mobile readability. Six short descriptive shade captions use supplied image
+observations, not measured colour/personal-colour claims. Existing clear oil
+illustration returns alone without a product overlay. Vegan plant/product
+composite is replaced by botanical VEGAN FORMULA brand typography; this is
+not an official certification logo, and current Cloud certification has not
+been verified. All original shade images, V11 unified cream/application GIF
+and native12px product information/INCI are preserved. Package16JPG+1GIF.
+Technical QA and independent critique do not equal owner visual approval or
+physical shade matching. Actual Cafe24 upload/save/device checks stay deferred.
