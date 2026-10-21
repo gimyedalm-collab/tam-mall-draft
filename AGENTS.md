@@ -809,3 +809,22 @@ identical, but HTML bytes intentionally differ due to formatting. Source order
 and product claims unchanged. Existing touch footage is not a new proof of
 powder transformation. Owner acceptance and physical shade validation remain
 pending; actual Cafe24 upload/save/device verification explicitly deferred.
+
+
+## Cloud V11 unified texture and usage - 2026-10-21
+
+Owner says cream-to-powder is not apparent and explicitly asks to join texture
+and thin-application into one flow; dislikes oil/product composite. Current
+source cloud-blush-v11; comparison cloud-blush-v11/review; delivery URL unchanged.
+This supersedes only the older separation/order of texture, oil and How to Use.
+One5.51s GIF uses cream touch and original V24 hand spreading through finger exit,
+then holds the actual applied surface. Existing r2 treatment retained: baked
+master for touch, established V24 luma1.3 recipe for extended later source frames.
+No new creative colour grade or synthetic finish. Caption identifies an edit of
+actual texture/application shots; it is not a controlled transformation test.
+Use instructions follow immediately; short oil facts remain within same section.
+Oil visual and product overlay removed. First11 delivery images, six cheek/wrist
+swatches and native12px information are byte-identical to V10. Package16JPG+1GIF,
+noMP4/JS/font dependencies; GIF3cycles then stops. Read-only nonpersistent Claude
+critique and dispositions recorded. Owner approval/physical colour and Cafe24
+upload/save/device checks remain distinct, with actual upload explicitly deferred.

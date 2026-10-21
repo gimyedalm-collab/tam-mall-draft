@@ -1,8 +1,8 @@
 {
   "product": "클라우드 블러",
-  "source": "cloud-blush-v10/index.html",
+  "source": "cloud-blush-v11/index.html",
   "status": "exported_candidate; owner acceptance pending; Cafe24 upload deferred",
-  "render": "430 CSS px at 2x; static raster panels and two distinct source GIFs; native information",
+  "render": "430 CSS px at 2x; static raster panels and one unified cream/application GIF; native information",
   "files": [
     {
       "file": "images/01-detail.jpg",
@@ -117,71 +117,61 @@
     {
       "file": "images/12-detail.jpg",
       "width": 860,
-      "height": 414,
+      "height": 410,
       "kind": "jpeg",
-      "alt": "CREAM TO POWDER  펴 바를 땐 부드럽게, 마무리는 보송하게.",
-      "bytes": 32499,
-      "sha256": "b38ee676928bf24db53d583f6b7eba9c5780ed4d07e071ba66285f55bb2bfa8b",
+      "alt": "CREAM TO POWDER  크림처럼 펴 바르고, 파우더처럼 보송하게.",
+      "bytes": 34218,
+      "sha256": "08c542b23ca2eddc498ca3dc0d99ee4f1d5eee733b600cb36929544e7585b228",
       "reference_region": null
     },
     {
       "file": "images/13-motion.gif",
-      "width": 860,
-      "height": 573,
+      "width": 640,
+      "height": 359,
       "kind": "gif",
-      "alt": "제공 원본의 크림 제형을 손끝에 묻히는 장면",
-      "bytes": 2292738,
-      "sha256": "431bb7dff71d754d8dee05e5e3a7f9812589733ace75f0e04d373f96c634d034",
+      "alt": "크림 제형을 덜고 손에 얇게 펴 바른 뒤, 손가락이 지나간 도포 표면을 보여주는 실제 촬영 편집",
+      "bytes": 4823786,
+      "sha256": "0fe8484c71b49532457bec5af0fbc1ac3e41c515ea6371da89e98ea09e2e0949",
       "reference_region": null
     },
     {
       "file": "images/14-detail.jpg",
       "width": 860,
-      "height": 1242,
+      "height": 280,
       "kind": "jpeg",
-      "alt": "네 가지 식물성 오일 함유  살구씨 · 동백나무씨 올리브 · 서양자두씨오일  원료를 표현한 연출 이미지입니다. 맑은 오일을 표현한 기존 원료 연출 이미지 / 탐뷰티 파파야 쉐이크 닫힌 제품 원본",
-      "bytes": 158018,
-      "sha256": "a399e75dc3155cd6616a7a3145d973806c31ba5520bb795a47bb0cbb514d3c82",
-      "reference_region": "09"
+      "alt": "실제 제형·도포 장면을 연결한 영상입니다.  손끝이나 도구로 얇게 펴 바른 뒤, 경계를 가볍게 두드려 주세요.",
+      "bytes": 33489,
+      "sha256": "4a15f52862c6b1ad077ecec46f4ef93b8f4f255dbceb37bc77d56d53f58061b9",
+      "reference_region": null
     },
     {
       "file": "images/15-detail.jpg",
       "width": 860,
-      "height": 434,
+      "height": 274,
       "kind": "jpeg",
-      "alt": "얇게 펴 바르고, 가볍게 톡톡.  손끝이나 도구로 얇게 펴 바른 뒤 경계를 가볍게 두드려 주세요.",
-      "bytes": 34465,
-      "sha256": "96077d2af102b93f261a6381b59c80377c5349d3c5cbb8d94da3a411e903ddfb",
-      "reference_region": null
+      "alt": "네 가지 식물성 오일 함유  살구씨오일 · 동백나무씨오일 올리브오일 · 서양자두씨오일",
+      "bytes": 28399,
+      "sha256": "cb5dd8ca6138e65b558699a02fd555b8adc1de6734d89b8100d870e5c6f6d1f4",
+      "reference_region": "09"
     },
     {
-      "file": "images/16-motion.gif",
-      "width": 860,
-      "height": 447,
-      "kind": "gif",
-      "alt": "제공 원본의 블러셔를 손으로 얇게 펴 바르는 장면",
-      "bytes": 3957922,
-      "sha256": "e9aea18c88b529a54da924783e5c2978e7d2727746fd4fcfd08c50b43c777d9b",
-      "reference_region": null
-    },
-    {
-      "file": "images/17-detail.jpg",
+      "file": "images/16-detail.jpg",
       "width": 860,
       "height": 706,
       "kind": "jpeg",
       "alt": "탐뷰티의 비건 포뮬러 기존 생성 식물 장식 배경 / 탐뷰티 백도 쉐이크 원본 제품 누끼",
-      "bytes": 93704,
-      "sha256": "97b609e73b3bf4029fffacd3112c518a2a084811151c9cee930c8063e8eaef25",
+      "bytes": 94178,
+      "sha256": "733b7c5afeab799851b295fb20ec62f90c605e71a55b7f13e75b548c87efa3c2",
       "reference_region": "11"
     },
     {
-      "file": "images/18-detail.jpg",
+      "file": "images/17-detail.jpg",
       "width": 860,
-      "height": 464,
+      "height": 466,
       "kind": "jpeg",
       "alt": "사용 기한  개봉 후 12개월 · 개봉 전 36개월 TAM BEAUTY",
-      "bytes": 23503,
-      "sha256": "d88e8f7ed109909d4bcf19957ebb49e7f21b6d2580108e4523562bf44b8788b4",
+      "bytes": 24009,
+      "sha256": "0b6cbeff643838e08a6cce1c4f1cefebb19cf70b992844d0cd17cfb4363a73f2",
       "reference_region": "12"
     }
   ],
@@ -194,10 +184,10 @@
   },
   "notes": [
     "No custom JS, external fonts, MP4, animated WebP, iframe or buttons in delivery",
-    "Two source GIFs each play 3 cycles and stop; second GIF padded to reference inset; no creative colour grading",
+    "One 5.51-second editorial GIF plays 3 cycles and stops on applied hand surface; established r2 source treatment reused, no new creative colour treatment",
     "All six cheek assets are provided first revision, not generated; physical shade match unverified",
     "Reference new colours and co-development omitted because TAM evidence unavailable",
-    "Product information and INCI text unchanged; native Korean font and table wrapping refined",
+    "Product information HTML and INCI unchanged from V10",
     "Generated background is decorative; product cutout remains original"
   ]
 }

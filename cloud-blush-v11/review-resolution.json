@@ -1,0 +1,13 @@
+{
+  "review": "claude-review.txt",
+  "consultation": "Read-only CLI --no-session-persistence --output-format text",
+  "decisions": [
+    {"issue":"Two shots might be read as a controlled transformation","action":"Add a short caption identifying edited actual texture/application shots. Keep visible hard cut between pan and hand. No fabricated before/after or shade matching.","correction":"Reviewer assumed touch clip had no luma processing. It already contains the documented r2 V27 luma1.45 treatment; the extended V24 uses the established1.3 recipe. No new asymmetric look was invented."},
+    {"issue":"Oil information could remain an isolated text strip","action":"Nest concise oil facts within the same texture/application section and reduce its heading to18source px. Remove the entire oil photograph and product overlay."},
+    {"issue":"GIF begins on cream and file size is close to cap","action":"Keep5.51sec,640x359,8fps file under4.9MB; all44frames decoded. Hold0.7sec at the applied surface; after3cycles it remains there. Initial-frame limitations and real-device playback remain distinct from browser QA."}
+  ],
+  "verified": ["First11 delivery image hashes unchanged","Native information bytes unchanged","Actual later V24 frames used","One GIF only, immediate instruction below, no intervening visual","Oil/product composite removed","320/390/860 browser layout and ZIP checks"],
+  "owner_visual_acceptance": "pending",
+  "physical_shade_match": "unverified",
+  "cafe24_upload": "deferred_by_owner"
+}

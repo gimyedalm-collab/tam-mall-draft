@@ -774,7 +774,7 @@
       "cafe24_upload": "deferred_by_owner"
     },
     "cloud_mobile_refinement_v10_20261020": {
-      "status": "package_verified; owner_visual_acceptance_pending",
+      "status": "archived_baseline; owner_requested_unified_texture_usage_v11",
       "source": "cloud-blush-v10/index.html",
       "review": "cloud-blush-v10/review/index.html",
       "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
@@ -782,6 +782,22 @@
       "qa": "cloud-blush-v10/qa.json",
       "changes": "Stronger hero/texture hierarchy, smaller regular headings, shorter introduction, 60/40 cheek rows, native Korean information style",
       "preserved": "Section order, claims, all source image bytes, original colour, both delivery GIF bytes, product facts and INCI text",
+      "physical_shade_verified": false,
+      "cafe24_upload": "deferred_by_owner"
+    },
+    "cloud_texture_usage_v11_20261021": {
+      "status": "package_verified; owner_visual_acceptance_pending",
+      "source": "cloud-blush-v11/index.html",
+      "review": "cloud-blush-v11/review/index.html",
+      "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
+      "plan": "cloud-blush-v11/plan.json",
+      "qa": "cloud-blush-v11/qa.json",
+      "flow_qa": "cloud-blush-v11/flow-qa.json",
+      "motion_provenance": "cloud-blush-v11/motion-provenance.json",
+      "changes": "One cream-touch/spread/applied-surface GIF with use instructions; remove oil image and product overlay, integrate concise oil information",
+      "preserved": "First11 delivery images byte-identical to V10; native product information byte-identical",
+      "motion": "5.51sec,640x359,8fps,3cycles; extend original V24 to finger-exit surface using same established r2 brightness recipe",
+      "new_AI_generation": false,
       "physical_shade_verified": false,
       "cafe24_upload": "deferred_by_owner"
     }

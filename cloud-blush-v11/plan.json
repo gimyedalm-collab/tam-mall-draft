@@ -1,0 +1,31 @@
+{
+  "intent": "Unite cream texture and application into one continuous section; remove oil/product compositing",
+  "structure": [
+    "Existing hero, palette and six cheek shades unchanged",
+    "Cream-to-powder heading, one GIF showing pickup then spreading and the remaining applied surface, immediately followed by application instruction",
+    "Four botanical oils as compact supporting information inside the unified texture section, no standalone oil image or product overlay",
+    "Existing vegan ending and native information unchanged"
+  ],
+  "source": "cloud-blush-v3/assets/cream-to-powder.mp4",
+  "segments_seconds": [
+    {
+      "source": "working master",
+      "range": [
+        0.4,
+        1.4
+      ]
+    },
+    {
+      "source": "original V24",
+      "range": [
+        2.8,
+        6.6
+      ]
+    }
+  ],
+  "end_hold_seconds": 0.7,
+  "scope": "Editorial cut of existing source shots; not a continuous controlled before/after test",
+  "colour": "Existing r2 treatment retained: working master as-is and V24 luma1.3 recipe extended to original later frames. No new look, hue adjustment or skin retouch.",
+  "upload": "Cafe24 deferred",
+  "hyperframes_usage": "unknown: no-install CLI unavailable; physical GIF conversion uses installed FFmpeg under media-use operations"
+}
