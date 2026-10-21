@@ -16,10 +16,10 @@
       "order": 1,
       "file": "01-hero.gif",
       "width": 480,
-      "height": 641,
-      "bytes": 4602976,
-      "sha256": "62312f078c1445f1de1be0e262f456a43190246480935fbacc9bd1f63546464b",
-      "alt": "더 클라우드 필터 파우더 밤 공들인 메이크업 위에, 올라온 유분을 톡톡. 번들거리는 코·이마·나비존에 두드려 보송하게 정리하는 파우더 밤. 나비존에 톡톡 실제 사용 장면 · 메이크업 효과이며 사용 결과는 개인에 따라 다를 수 있습니다.",
+      "height": 627,
+      "bytes": 4662654,
+      "sha256": "12daca949307b080cb370fb69bd1e23ce7ce92121ab2d17cebb437d8b62434f3",
+      "alt": "더 클라우드 필터 파우더 밤 공들인 메이크업 위에, 올라온 유분을 톡톡. 번들거리는 코·이마·나비존에 두드려 보송하게 정리하는 파우더 밤. 실제 사용 장면",
       "frames": 66,
       "loop": 2,
       "duration_ms": 8260
@@ -80,8 +80,8 @@
       "file": "07-product.jpg",
       "width": 860,
       "height": 1130,
-      "bytes": 128060,
-      "sha256": "7834cbf8fb4c97921939a7d7ffc01d8da8e17eb4acd1ec95931d0427095e0941",
+      "bytes": 128062,
+      "sha256": "f5fed2667fd7b61fc7cf2e473b6c9f4abaec5e90b9fe5ccb06e75b5d52f976bf",
       "alt": "THE CLOUD FILTER POWDER BALM 더 클라우드 필터 파우더 밤 3.5g · 거울 & 퍼프 내장"
     }
   ],
@@ -95,6 +95,6 @@
     "other_gif_fps": 10,
     "palette_colors": 256,
     "dither": "Bayer scale 4",
-    "max_asset_bytes": 4602976
+    "max_asset_bytes": 4662654
   }
 }

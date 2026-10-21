@@ -9,8 +9,8 @@
   "qa": "ops/cafe24/powder-balm-v4-preview-qa-20261021.json",
   "preview": "cafe24-delivery-20261020/powder-balm/?v=4",
   "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
-  "package_bytes": 10000735,
-  "package_sha256": "04354001c16c61a8848e1457d3fe98167c578e35311ba0499790745d22dcd6e5",
+  "package_bytes": 10058698,
+  "package_sha256": "57e52327e52ca31ad9d2357a177de2e11db20a5f5b2b9a66b207d7603a10fa35",
   "changes": [
     "Large continuous application in hero replaces product-only opening",
     "Full source-speed application through unobstructed finish; final hold",

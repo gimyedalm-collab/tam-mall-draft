@@ -10,7 +10,7 @@
           "src": "01-hero.gif?v=4",
           "loaded": true,
           "width": 320,
-          "height": 427
+          "height": 418
         },
         {
           "src": "02-benefit.jpg?v=4",
@@ -49,9 +49,9 @@
           "height": 420
         }
       ],
-      "height": 3694,
-      "hero_height": 427,
-      "first_two_panels_height": 854.484375
+      "height": 3685,
+      "hero_height": 418,
+      "first_two_panels_height": 845.15625
     },
     {
       "viewport": 390,
@@ -61,7 +61,7 @@
           "src": "01-hero.gif?v=4",
           "loaded": true,
           "width": 390,
-          "height": 521
+          "height": 509
         },
         {
           "src": "02-benefit.jpg?v=4",
@@ -100,9 +100,9 @@
           "height": 512
         }
       ],
-      "height": 4188,
-      "hero_height": 521,
-      "first_two_panels_height": 1041.40625
+      "height": 4177,
+      "hero_height": 509,
+      "first_two_panels_height": 1030.03125
     },
     {
       "viewport": 430,
@@ -112,7 +112,7 @@
           "src": "01-hero.gif?v=4",
           "loaded": true,
           "width": 430,
-          "height": 574
+          "height": 562
         },
         {
           "src": "02-benefit.jpg?v=4",
@@ -151,9 +151,9 @@
           "height": 565
         }
       ],
-      "height": 4487,
-      "hero_height": 574,
-      "first_two_panels_height": 1148.21875
+      "height": 4474,
+      "hero_height": 562,
+      "first_two_panels_height": 1135.6875
     },
     {
       "viewport": 860,
@@ -163,7 +163,7 @@
           "src": "01-hero.gif?v=4",
           "loaded": true,
           "width": 860,
-          "height": 1148
+          "height": 1123
         },
         {
           "src": "02-benefit.jpg?v=4",
@@ -202,9 +202,9 @@
           "height": 1130
         }
       ],
-      "height": 7957,
-      "hero_height": 1148,
-      "first_two_panels_height": 2296.453125
+      "height": 7932,
+      "hero_height": 1123,
+      "first_two_panels_height": 2271.375
     },
     {
       "viewport": 1280,
@@ -214,7 +214,7 @@
           "src": "01-hero.gif?v=4",
           "loaded": true,
           "width": 860,
-          "height": 1148
+          "height": 1123
         },
         {
           "src": "02-benefit.jpg?v=4",
@@ -253,9 +253,9 @@
           "height": 1130
         }
       ],
-      "height": 7957,
-      "hero_height": 1148,
-      "first_two_panels_height": 2296.453125
+      "height": 7932,
+      "hero_height": 1123,
+      "first_two_panels_height": 2271.375
     }
   ],
   "composition_matches_cafe24_fragment": true,
