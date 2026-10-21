@@ -103,7 +103,11 @@ def main():
                     assert all(size>=16 for size in result['mobileFields']), result
         command('POST','/window/rect',{'width':600,'height':950,'x':0,'y':0})
         visit('product-109.html')
-        click('select option:nth-child(2)')
+        # Safari's native option popup does not expose option clicks to WebDriver.
+        # Use the select's ordinary keyboard interaction and verify its value.
+        select=find('select')
+        command('POST','/element/'+select+'/value',{'text':'\ue015\ue007'})
+        wait_for(lambda:script("return document.querySelector('select').selectedIndex===1"))
         quantity=find('input[type=number]')
         command('POST','/element/'+quantity+'/clear',{})
         command('POST','/element/'+quantity+'/value',{'text':'2'})

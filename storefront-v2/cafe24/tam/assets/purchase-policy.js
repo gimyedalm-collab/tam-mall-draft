@@ -4,9 +4,11 @@
   function shipping(subtotal, coupon = 0, threshold = 30000, fee = 3000) {
     if (![subtotal, coupon, threshold, fee].every(Number.isFinite) ||
         subtotal < 0 || coupon < 0 || threshold <= 0 || fee < 0) throw new RangeError('Invalid amount');
-    return { shipping: subtotal === 0 || subtotal >= threshold ? 0 : fee,
-      remaining: Math.max(0, threshold - subtotal), payable: Math.max(0, subtotal - coupon) +
-        (subtotal === 0 || subtotal >= threshold ? 0 : fee) };
+    // Admin verified 2026-10-21: threshold uses the amount after discounts.
+    const discounted = Math.max(0, subtotal - coupon);
+    const charge = subtotal === 0 || discounted >= threshold ? 0 : fee;
+    return { shipping: charge, remaining: Math.max(0, threshold - discounted),
+      payable: discounted + charge };
   }
   function koreanDate(now) {
     const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul',

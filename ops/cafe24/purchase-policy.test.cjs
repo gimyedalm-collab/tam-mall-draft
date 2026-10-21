@@ -4,10 +4,13 @@ const { shipping, dispatch } = require('../../storefront-v2/preview/assets/purch
 const config = { enabled: true, eligible: true, calendar: {
   verified: true, from: '2026-09-01', to: '2026-09-30', closedDates: ['2026-09-21']
 } }; // Synthetic warehouse closure, not an official holiday calendar.
-test('coupon does not revoke earned free shipping; threshold uses selling price', () => {
-  assert.deepEqual(shipping(30000, 3000), { shipping: 0, remaining: 0, payable: 27000 });
+test('admin-verified free shipping threshold uses the amount after discounts', () => {
+  assert.deepEqual(shipping(30000, 3000), { shipping: 3000, remaining: 3000, payable: 30000 });
   assert.equal(shipping(29999, 3000).shipping, 3000);
-  assert.equal(shipping(30001, 20000).shipping, 0);
+  assert.equal(shipping(30001, 20000).shipping, 3000);
+  assert.equal(shipping(33000, 3000).shipping, 0);
+  assert.equal(shipping(32999, 3000).shipping, 3000);
+  assert.equal(shipping(33001, 3000).shipping, 0);
   assert.equal(shipping(14400 * 2, 0).remaining, 1200);
   assert.equal(shipping(0, 0).shipping, 0);
   assert.throws(() => shipping(NaN), RangeError);

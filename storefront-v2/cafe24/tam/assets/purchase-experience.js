@@ -20,13 +20,13 @@
     const shippingText = create('p', 'tam-shipping-text');
     const progress = create('progress', 'tam-shipping-progress');
     progress.max = 30000; progress.setAttribute('aria-label', '무료배송 기준까지 선택한 상품 금액');
-    const note = create('small', '', '상품 할인 적용 후, 쿠폰 사용 전 금액 기준 · 3만원 이상 무료배송');
+    const note = create('small', '', '할인 적용 후 결제금액 3만원 이상 무료배송 · 쿠폰·상품별 배송비는 주문서에서 확인');
     const update = () => {
       const select = detail.querySelector('select'), qty = Number(detail.querySelector('input[type=number]').value);
       const subtotal = select.value && Number.isInteger(qty) && qty >= 1 && qty <= 99 && product ? product.price * qty : 0;
       const state = policy.shipping(subtotal);
       shippingText.textContent = subtotal === 0 ? '배송비 3,000원 · 3만원 이상 무료배송' :
-        state.remaining > 0 ? `${state.remaining.toLocaleString('ko-KR')}원 더 담으면 무료배송` : '무료배송 · 쿠폰을 사용해도 유지됩니다';
+        state.remaining > 0 ? `무료배송 기준까지 ${state.remaining.toLocaleString('ko-KR')}원 · 쿠폰 적용 전 예상` : '무료배송 기준 충족 예상 · 최종 할인금액에 따라 달라질 수 있습니다';
       progress.value = Math.min(subtotal, 30000);
     };
     info.append(shippingText, progress, note);

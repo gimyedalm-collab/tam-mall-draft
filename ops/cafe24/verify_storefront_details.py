@@ -12,7 +12,7 @@ BASELINE = '363d346'
 def normalize_cache(source):
     # Mobile fixes only change these shared-resource cache revisions outside
     # the detail. Keep all other markup comparisons strict.
-    return re.sub(r'(assets/(?:ux-261013\.css|reviews\.(?:css|js)))\?v=[^"\s>]+', r'\1', source)
+    return re.sub(r'(assets/(?:ux-261013\.css|reviews\.(?:css|js)|purchase-(?:policy|experience)\.js))\?v=[^"\s>]+', r'\1', source)
 
 rows = []
 for number, (package, release) in PACKAGES.items():
