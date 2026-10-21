@@ -75,5 +75,12 @@
       "24": 4
     }
   },
-  "sync_idempotent": true
+  "sync_idempotent": true,
+  "public_source_commit": "b3fe5dc",
+  "public_verification": "main-sync-public-20261021.json",
+  "narrow_cloud_check": {
+    "width": 320,
+    "horizontal_overflow": false,
+    "native_tables_fit": true
+  }
 }

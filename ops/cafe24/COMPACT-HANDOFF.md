@@ -8,7 +8,11 @@ main product details. Lip Oil V9 is a01-03 component within product25, preservin
 00 gloss, all existing options and original common series panels. Other latest
 compositions are R34 liner, V12 cheek, R33 highlighter. Main film V16 was already
 connected. Run sync_storefront_details.py after package or old-builder changes.
-See main-sync-20261021.json for verification; live Cafe24 upload remains deferred.
+Published source b3fe5dc; GitHub Pages run39563100508 succeeded.
+All89 public HTML/media files matched local bytes (HTML newlines normalized).
+PC1440/mobile390 all6routes passed; Cloud native tables also fit320px.
+Public SHOP navigation to Powder Balm V5 passed. See main-sync-20261021.json
+and main-sync-public-20261021.json. Live Cafe24 upload remains deferred.
 
 ---
 

@@ -1,0 +1,452 @@
+{
+  "source_commit": "b3fe5dc",
+  "checked_files": 89,
+  "matched_files": 89,
+  "results": [
+    {
+      "path": "index.html",
+      "match": true,
+      "bytes": 987
+    },
+    {
+      "path": "storefront-v2/preview/index.html",
+      "match": true,
+      "bytes": 439
+    },
+    {
+      "path": "storefront-v2/preview/design-only.html",
+      "match": true,
+      "bytes": 9098
+    },
+    {
+      "path": "storefront-v2/preview/shop.html",
+      "match": true,
+      "bytes": 13617
+    },
+    {
+      "path": "storefront-v2/preview/product-109.html",
+      "match": true,
+      "bytes": 12306
+    },
+    {
+      "path": "storefront-v2/preview/product-110.html",
+      "match": true,
+      "bytes": 27286
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/01-detail.jpg",
+      "match": true,
+      "bytes": 211603
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/02-detail.jpg",
+      "match": true,
+      "bytes": 158407
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/03-detail.jpg",
+      "match": true,
+      "bytes": 69176
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/04-detail.jpg",
+      "match": true,
+      "bytes": 251723
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/05-detail.jpg",
+      "match": true,
+      "bytes": 9041
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/06-detail.jpg",
+      "match": true,
+      "bytes": 39118
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/07-detail.jpg",
+      "match": true,
+      "bytes": 40204
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/08-detail.jpg",
+      "match": true,
+      "bytes": 41940
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/09-detail.jpg",
+      "match": true,
+      "bytes": 40740
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/10-detail.jpg",
+      "match": true,
+      "bytes": 39320
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/11-detail.jpg",
+      "match": true,
+      "bytes": 38489
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/12-detail.jpg",
+      "match": true,
+      "bytes": 23864
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/13-detail.jpg",
+      "match": true,
+      "bytes": 31401
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/14-motion.gif",
+      "match": true,
+      "bytes": 4823786
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/15-detail.jpg",
+      "match": true,
+      "bytes": 33905
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/16-detail.jpg",
+      "match": true,
+      "bytes": 95935
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/17-detail.jpg",
+      "match": true,
+      "bytes": 24565
+    },
+    {
+      "path": "cafe24-delivery-20261019/cloud-blush/images/18-detail.jpg",
+      "match": true,
+      "bytes": 24009
+    },
+    {
+      "path": "storefront-v2/preview/product-111.html",
+      "match": true,
+      "bytes": 19745
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/01-hero-heading.png",
+      "match": true,
+      "bytes": 30814
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/02-hero-application.gif",
+      "match": true,
+      "bytes": 4795322
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/03-hero-caption.png",
+      "match": true,
+      "bytes": 5135
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/04-balm-and-puff.jpg",
+      "match": true,
+      "bytes": 76135
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/05-benefit.jpg",
+      "match": true,
+      "bytes": 129777
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/06-where-heading.png",
+      "match": true,
+      "bytes": 16352
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/07-where-application.gif",
+      "match": true,
+      "bytes": 4592993
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/08-where-labels.png",
+      "match": true,
+      "bytes": 9794
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/09-balm-texture.jpg",
+      "match": true,
+      "bytes": 109155
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/10-puff-heading.png",
+      "match": true,
+      "bytes": 17249
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/11-puff-amount.gif",
+      "match": true,
+      "bytes": 1492574
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/12-puff-instructions.png",
+      "match": true,
+      "bytes": 34048
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/13-three-moments.png",
+      "match": true,
+      "bytes": 50084
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/14-product.jpg",
+      "match": true,
+      "bytes": 147254
+    },
+    {
+      "path": "storefront-v2/preview/product-25.html",
+      "match": true,
+      "bytes": 14792
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/01-campaign.png",
+      "match": true,
+      "bytes": 568754
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/02-big-tip.png",
+      "match": true,
+      "bytes": 420055
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/03-cool-glow.png",
+      "match": true,
+      "bytes": 241475
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/04-colors.png",
+      "match": true,
+      "bytes": 245807
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/05-how-to.png",
+      "match": true,
+      "bytes": 35627
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/06-collection.png",
+      "match": true,
+      "bytes": 504851
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-oil/images/07-product-information.png",
+      "match": true,
+      "bytes": 112038
+    },
+    {
+      "path": "storefront-v2/preview/product-118.html",
+      "match": true,
+      "bytes": 14739
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/01-detail.png",
+      "match": true,
+      "bytes": 1147180
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/02-detail.png",
+      "match": true,
+      "bytes": 1069861
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/03-detail.png",
+      "match": true,
+      "bytes": 17750
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/04-motion.gif",
+      "match": true,
+      "bytes": 3230548
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/05-detail.png",
+      "match": true,
+      "bytes": 164
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/06-motion.gif",
+      "match": true,
+      "bytes": 2187926
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/07-detail.png",
+      "match": true,
+      "bytes": 249863
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/08-detail.png",
+      "match": true,
+      "bytes": 10579
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/09-motion.gif",
+      "match": true,
+      "bytes": 1538251
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/10-detail.png",
+      "match": true,
+      "bytes": 23447
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/11-detail.png",
+      "match": true,
+      "bytes": 843168
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/12-detail.png",
+      "match": true,
+      "bytes": 581357
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/13-detail.png",
+      "match": true,
+      "bytes": 83579
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/14-detail.png",
+      "match": true,
+      "bytes": 294656
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/15-detail.png",
+      "match": true,
+      "bytes": 62107
+    },
+    {
+      "path": "cafe24-delivery-20261019/lip-liner/images/16-detail.png",
+      "match": true,
+      "bytes": 277498
+    },
+    {
+      "path": "storefront-v2/preview/product-102.html",
+      "match": true,
+      "bytes": 17376
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/01-detail.jpg",
+      "match": true,
+      "bytes": 230523
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/02-detail.jpg",
+      "match": true,
+      "bytes": 51326
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/03-motion.gif",
+      "match": true,
+      "bytes": 4454107
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/04-detail.jpg",
+      "match": true,
+      "bytes": 48450
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/05-detail.jpg",
+      "match": true,
+      "bytes": 238636
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/06-detail.jpg",
+      "match": true,
+      "bytes": 90476
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/07-detail.jpg",
+      "match": true,
+      "bytes": 155799
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/08-detail.jpg",
+      "match": true,
+      "bytes": 64248
+    },
+    {
+      "path": "cafe24-delivery-20261019/milky-cheek/images/09-detail.jpg",
+      "match": true,
+      "bytes": 58974
+    },
+    {
+      "path": "storefront-v2/preview/product-24.html",
+      "match": true,
+      "bytes": 20261
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/01-detail.jpg",
+      "match": true,
+      "bytes": 52136
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/02-motion.gif",
+      "match": true,
+      "bytes": 4279611
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/03-detail.jpg",
+      "match": true,
+      "bytes": 1163
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/04-detail.jpg",
+      "match": true,
+      "bytes": 205837
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/05-detail.jpg",
+      "match": true,
+      "bytes": 133876
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/06-detail.jpg",
+      "match": true,
+      "bytes": 161960
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/07-motion.gif",
+      "match": true,
+      "bytes": 1150370
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/08-detail.jpg",
+      "match": true,
+      "bytes": 1001
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/09-detail.jpg",
+      "match": true,
+      "bytes": 28368
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/10-motion.gif",
+      "match": true,
+      "bytes": 4504458
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/11-detail.jpg",
+      "match": true,
+      "bytes": 63623
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/12-detail.jpg",
+      "match": true,
+      "bytes": 117167
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/13-detail.jpg",
+      "match": true,
+      "bytes": 113859
+    },
+    {
+      "path": "cafe24-delivery-20261019/highlighter/images/14-detail.jpg",
+      "match": true,
+      "bytes": 678218
+    }
+  ]
+}

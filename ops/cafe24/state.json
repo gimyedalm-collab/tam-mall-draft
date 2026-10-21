@@ -923,7 +923,7 @@
     "next_action": "Owner visual review of image-quality improvement; actual Cafe24 upload and physical-device validation remain deferred."
   },
   "main_storefront_sync_20261021": {
-    "status": "local_verified_ready_for_github_publish",
+    "status": "published_verified",
     "report": "ops/cafe24/main-sync-20261021.json",
     "products": [
       110,
@@ -936,6 +936,10 @@
     "excluded_product": 109,
     "scope": "Existing main storefront routes now contain current Cafe24 delivery compositions.",
     "production_cafe24_changed": false,
-    "next_action": "Push to main and verify GitHub Pages build/public routes. Cafe24 upload remains deferred."
+    "next_action": "Keep all six main product routes synchronized after future package changes. Shading duo excluded. Cafe24 live upload/save/device checks remain deferred.",
+    "source_commit": "b3fe5dc208f9f1f82753cbb56a3643228be17af8",
+    "github_pages_run": 39563100508,
+    "public_verification": "ops/cafe24/main-sync-public-20261021.json",
+    "public_file_matches": "89/89 (HTML normalized for CRLF only)"
   }
 }
