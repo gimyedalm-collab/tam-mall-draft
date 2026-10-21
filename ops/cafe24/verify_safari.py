@@ -4,6 +4,7 @@ Runs only against this repository on loopback. No admin session, credentials,
 payment, or customer content is sent to the runner or included in evidence.
 Uses Apple's built-in safaridriver and the W3C WebDriver protocol; no install.
 """
+import base64
 import json
 import subprocess
 import sys
@@ -106,7 +107,9 @@ def main():
         # Safari's native option popup does not expose option clicks to WebDriver.
         # Use the select's ordinary keyboard interaction and verify its value.
         select=find('select')
-        command('POST','/element/'+select+'/value',{'text':'\ue015\ue007'})
+        command('POST','/element/'+select+'/click',{})
+        command('POST','/element/'+select+'/value',{'text':'01.'})
+        command('POST','/element/'+select+'/value',{'text':'\ue007'})
         wait_for(lambda:script("return document.querySelector('select').selectedIndex===1"))
         quantity=find('input[type=number]')
         command('POST','/element/'+quantity+'/clear',{})
@@ -130,6 +133,12 @@ def main():
     except Exception:
         report['passed']=False
         report['failure']=traceback.format_exc()
+        if session:
+            try:
+                report['failureUI']=script("return {url:location.href,selects:Array.from(document.querySelectorAll('select')).map(e=>({value:e.value,index:e.selectedIndex,rect:e.getBoundingClientRect().toJSON()})),activeTag:document.activeElement?.tagName};")
+                (OUT/'failure.png').write_bytes(base64.b64decode(command('GET','/screenshot')))
+            except Exception:
+                pass
         raise
     finally:
         if session:
