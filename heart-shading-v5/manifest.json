@@ -1,0 +1,37 @@
+{
+  "version": "v5",
+  "images": [
+    {
+      "order": 1,
+      "file": "images/01-one-duo.png",
+      "width": 1680,
+      "height": 2060,
+      "bytes": 1120623,
+      "sha256": "cb0a08ec8e420d6ea3fcb1164ad6e20b6143e8953a394452b677c4803cc9f8ff",
+      "alt": "하트 쉐이딩 듀오 콧대는 연하게, 턱선은 또렷하게. 두 가지 쉐딩을 따로 챙길 필요 없이. 콧대 · 코끝 라이트 광대 아래 · 턱선 딥"
+    },
+    {
+      "order": 2,
+      "file": "images/02-shades.png",
+      "width": 1680,
+      "height": 1960,
+      "bytes": 1953015,
+      "sha256": "23e5f6f49389d082ce0a292923ada5c3f9fad8c21bdcdb2371cdda731fdf1af9",
+      "alt": "내 피부에 맞는 브라운. 01 샌드 웜 · 뉴트럴 톤 추천 라이트 딥 02 포그 쿨 톤 추천 라이트 딥 발색은 피부 톤과 사용량, 화면 설정에 따라 다르게 보일 수 있습니다."
+    },
+    {
+      "order": 3,
+      "file": "images/03-touch.png",
+      "width": 1680,
+      "height": 1300,
+      "bytes": 303238,
+      "sha256": "52c18d944339d84c6f3a9a5a5f5f8dc9ea507fe1310e817aba7757dad0f07c19",
+      "alt": "바르고, 손끝으로 톡톡. 캡을 열고 조금씩 바른 뒤, 경계를 가볍게 펴주세요. 하트 쉐이딩 듀오 · 2.1g × 2"
+    }
+  ],
+  "delivery": "3 lossless PNG, native product information, no scripts/fonts/video dependencies",
+  "owner_visual_acceptance": "pending",
+  "cafe24_upload": "deferred_by_owner",
+  "faces_excluded": true,
+  "new_generated_images": false
+}
