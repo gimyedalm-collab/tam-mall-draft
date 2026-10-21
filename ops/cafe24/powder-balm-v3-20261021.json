@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-21",
+  "product_no": 111,
+  "version": 3,
+  "owner_direction": "공들인 메이크업 위에 올라온 유분을 정리하는 포지션으로 작업 승인.",
+  "headline": "공들인 메이크업 위에, 올라온 유분을 톡톡.",
+  "definition": "번들거리는 코·이마에 가볍게 두드려 보송하게 정리하는 파우더 밤.",
+  "changes": [
+    "Makeup touch-up context in hero and first application section",
+    "Small-amount targeted tapping emphasized",
+    "Cosmetic blur moved into texture support",
+    "Outside touch-up precedes finishing/primer in use cases"
+  ],
+  "preview": "cafe24-delivery-20261020/powder-balm/index.html?v=3",
+  "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
+  "source_layout": "powder-balm-v3/layout.html",
+  "source_manifest": "powder-balm-v3/source-manifest.json",
+  "qa": "ops/cafe24/powder-balm-v3-preview-qa-20261021.json",
+  "evidence_base": "ops/cafe24/powder-balm-v1-20261020.json",
+  "claim_review": [
+    {
+      "claim": "메이크업 위 / 수정 화장 활용",
+      "support": "Official product111 3-in-1 post-makeup and touch-up guidance",
+      "assessment": "Supported as intended use, not a foundation-retention guarantee"
+    },
+    {
+      "claim": "코·이마 유분 부위에 소량씩 두드림",
+      "support": "Official product instructions and original application footage",
+      "assessment": "Supported use method"
+    },
+    {
+      "claim": "보송한 마무리 / 부드러운 블러",
+      "support": "Existing official oil-control and cosmetic blur positioning",
+      "assessment": "Cosmetic appearance claim; no new quantitative efficacy evidence"
+    },
+    {
+      "claim": "화장 그대로 / 불필요한 유분만 삭제",
+      "support": "No controlled foundation-retention or selective oil-removal evidence in supplied files",
+      "assessment": "Not published; requires matching-condition retention/oil-removal evidence"
+    }
+  ],
+  "capability_check": {
+    "used_installed_skills": [
+      "tam-marketing",
+      "tam-quality-review"
+    ],
+    "existing_export_tools": [
+      "Playwright",
+      "Pillow",
+      "FFmpeg"
+    ],
+    "new_installations": [],
+    "reason": "Existing skills cover positioning/evidence review and installed tools reproduce the required Cafe24 assets."
+  },
+  "native_information_byte_identical_to_v2": true,
+  "v1_v2_source_files_unchanged": true,
+  "package_sha256": "e1927c3d9b6723a06c304a5fea420385681e8aa01a192856140e16d7577cbfbe",
+  "package_bytes": 8342952,
+  "status": {
+    "delivery_prepared": true,
+    "preview_verified": true,
+    "owner_visual_acceptance": "pending",
+    "production_cafe24_changed": false,
+    "actual_device_verified": false,
+    "upload": "Deferred by owner"
+  },
+  "media_treatment": "Original sources and existing application segments, no new imagery or colour/exposure correction. No fabricated before/after. GIFs illustrate application only."
+}

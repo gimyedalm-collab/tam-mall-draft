@@ -809,3 +809,19 @@ identical, but HTML bytes intentionally differ due to formatting. Source order
 and product claims unchanged. Existing touch footage is not a new proof of
 powder transformation. Owner acceptance and physical shade validation remain
 pending; actual Cafe24 upload/save/device verification explicitly deferred.
+
+## Powder Balm V3 makeup touch-up positioning - 2026-10-21
+
+Owner explicitly authorizes the makeup-over-oil-control positioning after
+finding V2 too generic. Current headline: “공들인 메이크업 위에, 올라온 유분을
+톡톡.” Source powder-balm-v3/layout.html; existing Cafe24 preview/package URL
+now serves V3. Preserve V2 visual tone and original source imagery. Place
+post-makeup oiliness, targeted small-amount tapping and touch-up use first;
+cosmetic blur is secondary. Three-use guidance starts with outside touch-up.
+Do not claim foundation stays completely unchanged or only oil is selectively
+removed: existing footage demonstrates application, not a controlled retention
+test. No invented before/after, clinical result, duration or new model imagery.
+V1/V2 source masters and native facts remain unchanged. Current evidence and
+review record: ops/cafe24/powder-balm-v3-20261021.json. Delivery/preview checks,
+owner visual acceptance and actual Cafe24 upload remain distinct. Upload and
+physical-device checks stay deferred.
