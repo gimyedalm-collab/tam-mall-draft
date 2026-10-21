@@ -1,0 +1,55 @@
+{
+  "version": "v4-20261021",
+  "images": [
+    {
+      "order": 1,
+      "file": "images/01-product.png",
+      "width": 1680,
+      "height": 2120,
+      "display_width": 840,
+      "bytes": 1183202,
+      "sha256": "c5b6ddc21c0c2dab706b7f222a5baa72620023b3802520f21b4b2696d510fccd",
+      "alt": "더 클라우드 하트 쉐이딩 듀오 콧대와 턱선, 음영의 깊이는 다르게. 밝은 쉐딩 + 진한 쉐딩 한 용기에 담은 두 가지 음영"
+    },
+    {
+      "order": 2,
+      "file": "images/02-why-two.png",
+      "width": 1680,
+      "height": 1760,
+      "display_width": 840,
+      "bytes": 104671,
+      "sha256": "34077154582bfedbd77f4e6c913245fcb0475c72460136ed0fb5d82f9de5f30e",
+      "alt": "쉐딩을 두 가지로 나눈 이유. 콧대는 진해질까 조심스럽고, 턱선은 조금 더 또렷했으면 할 때. 부위에 맞게 음영을 골라 쓰세요. LIGHT · 노란 쪽 밝은 쉐딩 콧대와 코끝에 은은한 음영을 더할 때. DEEP · 파란 쪽 진한 쉐딩 광대 아래와 턱선에 조금 더 깊은 음영을 줄 때. 두 색을 따로 준비할 필요 없이, 한 제품에서 필요한 쪽을 골라 쓰도록."
+    },
+    {
+      "order": 3,
+      "file": "images/04-colors.png",
+      "width": 1680,
+      "height": 2360,
+      "display_width": 840,
+      "bytes": 1876981,
+      "sha256": "60b4e1bba29e45ebd5b9c151e7c6d5f258a30eb336d18d0672973f633b64ac3a",
+      "alt": "나에게 맞는 브라운을 고르세요. 샌드와 포그, 각각 라이트와 딥 두 색 구성. 01 샌드 쉐이더 웜 · 뉴트럴 톤 추천 뉴트럴 소프트 브라운 라이트 딥 02 포그 쉐이더 쿨 톤 추천 차분한 애쉬 브라운 라이트 딥 발색은 피부 톤과 사용량, 화면 설정에 따라 다르게 보일 수 있습니다."
+    },
+    {
+      "order": 4,
+      "file": "images/05-use.png",
+      "width": 1680,
+      "height": 1860,
+      "display_width": 840,
+      "bytes": 363856,
+      "sha256": "b31e3adefecf2d5b8f6ad59244ba9396e631836c8ef631dafc139c5086155656",
+      "alt": "조금씩 바르고, 손끝으로 경계를 풀어주세요. 돌려서 펼치기 하트 모양으로 펼친 뒤 사용할 쪽의 캡을 여세요. 필요한 부위에 바르기 콧대에는 라이트, 광대 아래와 턱선에는 딥. 가장자리를 펴주기 손끝이나 브러시로 가볍게 두드리며 펴주세요. 하트 쉐이딩 듀오 · 2.1g × 2"
+    }
+  ],
+  "output": "lossless PNG, 1680px / 840px display",
+  "removed": "stacked product scene, mirror scene, old open-product cutout",
+  "new_generated_images": false,
+  "source_note": "Product front and stick detail are embedded existing master images, placed below native resolution. No claim of native optical sharpness or upstream authenticity verification. All face photographs removed at owner request; arm swatches retained without colour processing.",
+  "status": {
+    "prepared": true,
+    "owner_visual_acceptance": "pending",
+    "cafe24_upload": "deferred_by_owner",
+    "physical_device_qa": "not_performed"
+  }
+}
