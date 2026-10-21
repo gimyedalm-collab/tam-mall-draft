@@ -81,13 +81,14 @@ def main():
 
     def visit(route):
         command('POST','/url',{'url':'http://127.0.0.1:18764/storefront-v2/preview/'+route})
+        wait_for(lambda:script("return document.readyState==='complete' && Array.from(document.querySelectorAll('link[rel=stylesheet]')).every(e=>!!e.sheet)"),45)
         wait_for(lambda:script("return !!document.querySelector('.ux-header')"))
         if route.startswith('product-'):
             wait_for(lambda:script("return !!document.querySelector('.tam-purchase')"))
 
     try:
         wait_for(lambda: driver.poll() is None and port_ready(), 15)
-        created=request('POST','/session',{'capabilities':{'alwaysMatch':{'browserName':'safari','pageLoadStrategy':'eager'}}})
+        created=request('POST','/session',{'capabilities':{'alwaysMatch':{'browserName':'safari','pageLoadStrategy':'normal'}}})
         session=created['sessionId']
         report['capabilities']=created['capabilities']
         report['safari_version']=subprocess.check_output(['/usr/bin/safaridriver','--version'],text=True).strip()
