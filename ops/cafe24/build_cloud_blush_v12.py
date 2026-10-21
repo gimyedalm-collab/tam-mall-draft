@@ -6,6 +6,7 @@ ROOT=Path(__file__).resolve().parents[2]; OLD=ROOT/'cloud-blush-v11'; OUT=ROOT/'
 OUT.mkdir(exist_ok=True); (OUT/'assets').mkdir(exist_ok=True)
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 s=BeautifulSoup((OLD/'detail.template.html').read_text(encoding='utf-8'),'html.parser')
+s.select_one('#faces .heading h2').string='컬러별 발색'
 copy=[('핑크에 더해진','부드러운 코랄'),('로즈와 핑크의','차분한 조화'),('핑크에 살짝','섞인 라벤더'),('오렌지빛을 더한','따뜻한 코랄'),('붉은 기가 도는','또렷한 핑크'),('베이지에 스민','은은한 피치')]
 for n,lines in enumerate(copy,1):
     p=s.select_one(f'#face-{n} .tone');p.clear();p.append(lines[0]);p.append(s.new_tag('br'));p.append(lines[1])
@@ -23,7 +24,7 @@ css='\n'.join(l for l in css.splitlines() if not l.startswith('.vegan{') and not
 css+='''
 /* V12 type roles: hero28, section24, shade18, body17, labels16.2. */
 .hero h2{line-height:1.45;margin-top:20px}.heading h2,.intro h2,.texture .heading h2{font-weight:600;line-height:1.4}
-.face-row figcaption{display:flex;flex-direction:column;justify-content:center;padding:10px}.face-row .tone{margin-top:8px;line-height:1.4}
+.face-row figcaption{display:flex;flex-direction:column;justify-content:center;padding:10px}.face-row .tone{font-size:15px;font-weight:400;margin-top:8px;line-height:1.5}
 .formula{background:#fbfaf9;padding:0 0 28px}.formula .heading{padding:38px 24px 8px}.formula .heading h2{font-size:24px}.formula .heading p{font-size:16.2px;line-height:1.6;margin-top:14px;color:#756679}
 .oil-still{width:100%;height:244px;overflow:hidden}.oil-still img{width:100%;height:100%;object-fit:cover;object-position:center}
 .vegan{background:#f3eef3;padding:0 24px 34px}.vegan .heading{padding:34px 0 22px}.vegan-mark{color:#756679;display:flex;flex-direction:column;align-items:center;gap:5px}.vegan-mark svg{width:62px;height:55px;margin-bottom:5px}.vegan-mark>span{font:500 24px/1.2 Manrope,sans-serif;letter-spacing:.12em;padding-left:.12em}.vegan-mark .mark-sub{font-size:16.2px;letter-spacing:.2em;padding-left:.2em}
@@ -38,5 +39,8 @@ for im in s.select('img'):
     path=(OUT/im['src']).resolve();assets.append(dict(file=im['src'],sha256=sha(path),role='existing oil illustration restored, no product overlay' if 'formula-clear-oil' in str(path) else 'unchanged original/previous asset'))
 (OUT/'asset-provenance.json').write_text(json.dumps(assets,ensure_ascii=False,indent=2),encoding='utf-8')
 plan=dict(version=12,scope='Owner 2026-10-21: helpful shade descriptions; smaller consistent type; oil-only image restored; vegan mark only',shade_copy=[dict(shade=n+1,description=' '.join(c),basis='Editorial visual description of supplied wrist/texture/cheek images; not measured colour or personal-colour advice') for n,c in enumerate(copy)],type_css_px=dict(hero=28,section=24,shade=18,body=17,label=16.2,native_information=12),vegan=dict(basis='Owner brand claim and existing vegan wording',graphic='New simple botanical VEGAN FORMULA typography, not third-party certification',certification='Current certificate/authorized logo for Cloud blush not found in inspected local evidence; no certification claim'),oil=dict(asset='../cloud-blush-v6/assets/formula-clear-oil-261019.jpg',role='Existing illustrative oil visual; not a photograph of raw materials or product texture',facts='Four oil names present in each of six INCI lists'),preserved=['All six actual wrist, texture and first-revision cheek sources, without recolouring','V11 unified cream/application GIF byte-identical','Native product information and INCI byte-identical'],cafe24_upload='deferred_by_owner')
+(OUT/'plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
+plan['type_css_px']['shade_description']=15
+plan['heading_type_refinement']={'title':'컬러별 발색','shade_name_px':18,'shade_description_px':15,'description_to_name_ratio':15/18,'effective_description_at_390':15*390/430,'effective_description_at_320':15*320/430,'evidence':'review/heading-type-evidence.json','scope':'Owner asks how other brands name this section and requests smaller explanatory copy. Only face section title and six descriptions change.'}
 (OUT/'plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
 print('V12 source and evidence plan built.')

@@ -1,0 +1,12 @@
+{
+  "checked_on": "2026-10-21",
+  "question": "Other brands' naming of shade/swatch sections and size hierarchy between shade name and explanation",
+  "observations": [
+    {"brand":"Freshian","url":"https://www.freshian.com/product/detail.html?product_no=157","basis":"Locally archived official detail reference captured2026-10-20, visually inspected2026-10-21. Current web fetch failed; not described as a fresh live-page verification.","local_images":["cloud-blush-v8/review/ref-palette.jpg","cloud-blush-v8/review/ref-faces.jpg"],"observed_title":"Blush Color Shades","observation":"Short shade-category title; face rows have a larger shade number/name and smaller explanatory colour copy. Pixel size is not treated as directly transferable between different-width reference and TAM files."},
+    {"brand":"Ririmew","product":"VEIL GLOW CHEEK","url":"https://www.ririmew.com/products/cheek/","basis":"Official page body opened2026-10-21","observed_titles":["COLORS","SWATCH"],"observation":"Colour grouping and swatch grouping use concise functional headings. Not a claim that SWATCH is exclusively a face-swatches heading."}
+  ],
+  "excluded_from_direct_evidence": ["Jung Saem Mool COLOR SHADE appeared in GS SHOP search excerpt, but page open failed; not relied on as inspected page design.","No ranking, sales or universal industry-standard conclusion drawn from two examples."],
+  "decision": {"title_before":"볼 위에 올린 컬러","title_after":"컬러별 발색","reason":"Functional label describes the section without an extra descriptive sentence. Korean label preserves the existing TAM page voice.","name_source_px":18,"description_source_px_before":16.2,"description_source_px_after":15,"description_weight":400,"reason_for_scale":"Previously descriptions were90% of name size; now83.3%. Preserve short two-line copy and existing contrast. This scale is TAM's design decision, not a measured competitor specification."},
+  "preserved":["Six shade names and all shade description wording","All original shade photos and crop geometry","Hero, palette, unified GIF, restored oil, vegan brand mark and native product information"],
+  "cafe24_upload":"deferred_by_owner"
+}

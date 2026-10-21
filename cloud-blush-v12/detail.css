@@ -23,7 +23,7 @@ h1,h2,h3,p,figure{margin:0}img{display:block;width:100%;height:auto}strong{font-
 .texture{background:#faf6f7}.texture .heading{padding:50px 24px 28px}.texture .heading h2{font-size:24px}.texture .motion-wrap{background:#faf6f7}.application{padding:16px 24px 28px;background:#faf6f7}.application p{font-size:17px;line-height:1.6;letter-spacing:-.02em}.application .motion-caption{font-size:16.2px;line-height:1.5;margin-bottom:18px;color:#6d5e70}
 /* V12 type roles: hero28, section24, shade18, body17, labels16.2. */
 .hero h2{line-height:1.45;margin-top:20px}.heading h2,.intro h2,.texture .heading h2{font-weight:600;line-height:1.4}
-.face-row figcaption{display:flex;flex-direction:column;justify-content:center;padding:10px}.face-row .tone{margin-top:8px;line-height:1.4}
+.face-row figcaption{display:flex;flex-direction:column;justify-content:center;padding:10px}.face-row .tone{font-size:15px;font-weight:400;margin-top:8px;line-height:1.5}
 .formula{background:#fbfaf9;padding:0 0 28px}.formula .heading{padding:38px 24px 8px}.formula .heading h2{font-size:24px}.formula .heading p{font-size:16.2px;line-height:1.6;margin-top:14px;color:#6d5e70}
 .oil-still{width:100%;height:244px;overflow:hidden}.oil-still img{width:100%;height:100%;object-fit:cover;object-position:center}
 .vegan{background:#f3eef3;padding:0 24px 34px}.vegan .heading{padding:34px 0 22px}.vegan-mark{color:#6d5e70;display:flex;flex-direction:column;align-items:center;gap:5px}.vegan-mark svg{width:62px;height:55px;margin-bottom:5px}.vegan-mark>span{font:500 24px/1.2 Manrope,sans-serif;letter-spacing:.12em;padding-left:.12em}.vegan-mark .mark-sub{font-size:16.2px;letter-spacing:.2em;padding-left:.2em}

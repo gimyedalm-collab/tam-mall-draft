@@ -863,3 +863,14 @@ been verified. All original shade images, V11 unified cream/application GIF
 and native12px product information/INCI are preserved. Package16JPG+1GIF.
 Technical QA and independent critique do not equal owner visual approval or
 physical shade matching. Actual Cafe24 upload/save/device checks stay deferred.
+
+### Cloud V12 follow-up: shade title and subordinate copy - 2026-10-21
+
+Owner questions “볼 위에 올린 컬러” and asks for smaller descriptions. The face
+section now uses “컬러별 발색”. Keep shade names18 source px; descriptions are15
+source px, weight400, line-height1.5 (13.6 effective px at390;11.2 at320).
+This supersedes the prior16.2px face-description size only. All wording, photos,
+other headings and sections remain unchanged. Compare review/heading-type.html;
+evidence review/heading-type-evidence.json under cloud-blush-v12. Freshian title
+is from the saved2026-10-20 reference, Ririmew COLORS/SWATCH from official page
+opened2026-10-21. No claim that the chosen font sizes are competitor standards.

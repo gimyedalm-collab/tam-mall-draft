@@ -57,7 +57,9 @@ with sync_playwright() as pw:
         p.screenshot(path=str(OUT/f'review-delivery-{w}.jpg'),type='jpeg',quality=92,full_page=True)
         checks.append(dict(width=w,no_overflow=True,no_seams=True,images_loaded=True,js_disabled=True,information_font=font,height=p.evaluate('document.body.scrollHeight')));p.close()
     p=b.new_page(viewport={'width':430,'height':900});p.goto((OUT/'index.html').as_uri(),wait_until='networkidle');p.evaluate('document.fonts.ready')
-    fonts=p.locator('.wrist-grid figcaption,.face-row .tone,.face-row h3,.texture-grid p,.texture-grid small,.note').evaluate_all('(es)=>es.map(e=>parseFloat(getComputedStyle(e).fontSize)*320/430)');assert min(fonts)>=12
+    fonts=p.locator('.wrist-grid figcaption,.face-row h3,.texture-grid p,.texture-grid small,.note').evaluate_all('(es)=>es.map(e=>parseFloat(getComputedStyle(e).fontSize)*320/430)');assert min(fonts)>=12
+    description_fonts=p.locator('.face-row .tone').evaluate_all('(es)=>es.map(e=>parseFloat(getComputedStyle(e).fontSize))');assert description_fonts==[15]*6
+    assert p.locator('#faces .heading h2').inner_text()=='컬러별 발색'
     for cap in p.locator('.face-row figcaption').all():
         assert cap.evaluate('(e)=>e.scrollHeight<=e.clientHeight')
         assert cap.locator('.tone').bounding_box()['y']+cap.locator('.tone').bounding_box()['height']<=cap.bounding_box()['y']+cap.bounding_box()['height']
@@ -67,4 +69,5 @@ with sync_playwright() as pw:
     for sel,name in [('#hero','hero'),('#palette','palette'),('#faces','faces'),('#texture','texture'),('#application','application'),('#vegan','vegan'),('#formula','formula')]:p.locator(sel).screenshot(path=str(OUT/f'review-{name}-430.png'))
     b.close()
 result=dict(status='candidate_package_qa_pass',files=len(m['files']),gifs=sum(it['kind']=='gif' for it in m['files']),bytes=sum(it['bytes'] for it in m['files']),largest_file_bytes=max(it['bytes'] for it in m['files']),gif_files=[{'file':it['file'],'bytes':it['bytes']} for it in m['files'] if it['kind']=='gif'],delivery_paths='All flattened into cafe24/images; source ../asset paths are not used in delivery',duplicate_export_images=False,full_gif_decode=True,zip_verified=True,information_text_unchanged=True,information_style_refined=False,oil_INCI_occurrences_each=6,colour_note_min_effective_px_320=min(fonts),widths=checks,owner_acceptance='pending',physical_shade_match='unverified',cafe24_upload='deferred_by_owner',physical_device_playback='pending_at_rollout')
+result['shade_description_type']={'source_px':15,'name_source_px':18,'effective_px_390':15*390/430,'effective_px_320':15*320/430,'reason':'Owner requests secondary descriptions visibly smaller than shade names; shorter two-line auxiliary text, not product facts.'}
 (OUT/'qa.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(result))

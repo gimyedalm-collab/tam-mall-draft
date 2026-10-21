@@ -2,7 +2,7 @@
   "status": "candidate_package_qa_pass",
   "files": 17,
   "gifs": 1,
-  "bytes": 5935412,
+  "bytes": 5928050,
   "largest_file_bytes": 4823786,
   "gif_files": [
     {
@@ -50,5 +50,12 @@
   "owner_acceptance": "pending",
   "physical_shade_match": "unverified",
   "cafe24_upload": "deferred_by_owner",
-  "physical_device_playback": "pending_at_rollout"
+  "physical_device_playback": "pending_at_rollout",
+  "shade_description_type": {
+    "source_px": 15,
+    "name_source_px": 18,
+    "effective_px_390": 13.604651162790697,
+    "effective_px_320": 11.162790697674419,
+    "reason": "Owner requests secondary descriptions visibly smaller than shade names; shorter two-line auxiliary text, not product facts."
+  }
 }

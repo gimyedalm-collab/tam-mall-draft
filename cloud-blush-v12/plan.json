@@ -39,7 +39,8 @@
     "shade": 18,
     "body": 17,
     "label": 16.2,
-    "native_information": 12
+    "native_information": 12,
+    "shade_description": 15
   },
   "vegan": {
     "basis": "Owner brand claim and existing vegan wording",
@@ -56,5 +57,15 @@
     "V11 unified cream/application GIF byte-identical",
     "Native product information and INCI byte-identical"
   ],
-  "cafe24_upload": "deferred_by_owner"
+  "cafe24_upload": "deferred_by_owner",
+  "heading_type_refinement": {
+    "title": "컬러별 발색",
+    "shade_name_px": 18,
+    "shade_description_px": 15,
+    "description_to_name_ratio": 0.8333333333333334,
+    "effective_description_at_390": 13.604651162790697,
+    "effective_description_at_320": 11.162790697674419,
+    "evidence": "review/heading-type-evidence.json",
+    "scope": "Owner asks how other brands name this section and requests smaller explanatory copy. Only face section title and six descriptions change."
+  }
 }

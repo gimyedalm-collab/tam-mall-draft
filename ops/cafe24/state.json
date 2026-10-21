@@ -812,7 +812,15 @@
       "preserved": "Source shade photos, V11 unified GIF and native information unchanged",
       "vegan_mark": "Brand VEGAN FORMULA typography, not official certification logo; Cloud current certification unverified",
       "physical_shade_verified": false,
-      "cafe24_upload": "deferred_by_owner"
+      "cafe24_upload": "deferred_by_owner",
+      "heading_type_followup": {
+        "title": "컬러별 발색",
+        "name_px": 18,
+        "description_px": 15,
+        "review": "cloud-blush-v12/review/heading-type.html",
+        "evidence": "cloud-blush-v12/review/heading-type-evidence.json",
+        "claude": "Previous V12 critique retained; this small type adjustment verified by Codex/browser, no new Claude session"
+      }
     }
   },
   "lipoil_formula_series_20261019": {

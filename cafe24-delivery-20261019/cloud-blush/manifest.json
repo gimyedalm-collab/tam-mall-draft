@@ -39,9 +39,9 @@
       "width": 860,
       "height": 222,
       "kind": "jpeg",
-      "alt": "볼 위에 올린 컬러",
-      "bytes": 12146,
-      "sha256": "8e70c6253716b2f9fcfefb37d8a6f03274ff098c5d345d512a726948a2ebc4e7",
+      "alt": "컬러별 발색",
+      "bytes": 9041,
+      "sha256": "e910ffa00de00530fcb7df75a3fb7ff0ba2b85e9088186d5075e2717887c37f6",
       "reference_region": null
     },
     {
@@ -50,8 +50,8 @@
       "height": 298,
       "kind": "jpeg",
       "alt": "01  백도 쉐이크  핑크에 더해진 부드러운 코랄 01 백도 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 40016,
-      "sha256": "530458999d3820c6b25e1bc465d807fc56ec79e69bff786bd93718f8aa682d75",
+      "bytes": 39118,
+      "sha256": "2fe3906be855386c505ea22c8d9950b2181a575ff90905964fa7fe6b5d435379",
       "reference_region": "04–06"
     },
     {
@@ -60,8 +60,8 @@
       "height": 298,
       "kind": "jpeg",
       "alt": "02  구아바 쉐이크  로즈와 핑크의 차분한 조화 02 구아바 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 40915,
-      "sha256": "2078ba4956ef76f75edbec1e400af42cb40fe27210d6fe52c399e925d1cc66a0",
+      "bytes": 40204,
+      "sha256": "d51358ce4325263ab22065a51ec5965fbbd309302db1924b6dbea8993a13883c",
       "reference_region": "04–06"
     },
     {
@@ -70,8 +70,8 @@
       "height": 298,
       "kind": "jpeg",
       "alt": "03  아사이베리 쉐이크  핑크에 살짝 섞인 라벤더 03 아사이베리 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 42462,
-      "sha256": "c718fcef5cac2d464841f51dbdb5b8f257aa7274a6b31e36834a7acbf3b170bf",
+      "bytes": 41940,
+      "sha256": "0157f6251a484f0919b068b9795b9c330762754a45f077fc6ca64a0a4d8c64d5",
       "reference_region": "04–06"
     },
     {
@@ -80,8 +80,8 @@
       "height": 298,
       "kind": "jpeg",
       "alt": "04  파파야 쉐이크  오렌지빛을 더한 따뜻한 코랄 04 파파야 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 41536,
-      "sha256": "759bb9bb3a2ee54a4134dbeaa77235e8cd6ac95e7fef2bf5372048e1da7e3678",
+      "bytes": 40740,
+      "sha256": "7001918771e3da195fd054a157b746f198bcb7cd1a948a0afcd8371359bced47",
       "reference_region": "04–06"
     },
     {
@@ -90,8 +90,8 @@
       "height": 298,
       "kind": "jpeg",
       "alt": "05  용과 쉐이크  붉은 기가 도는 또렷한 핑크 05 용과 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 40094,
-      "sha256": "d2c9f07b0010b6f67a305440017cec0a438a85b6158bb7c892daca2d2339c154",
+      "bytes": 39320,
+      "sha256": "e4e3ae339d080eca1744488e1d7892c140ca08e942ce65b2b9049f063bd4fcff",
       "reference_region": "04–06"
     },
     {
@@ -100,8 +100,8 @@
       "height": 298,
       "kind": "jpeg",
       "alt": "06  살구 쉐이크  베이지에 스민 은은한 피치 06 살구 쉐이크 제공 1차 얼굴 발색",
-      "bytes": 39045,
-      "sha256": "e5694ef4773bab2073f7fa66bd8ce45431315ecdf8418229928d67fc823362ce",
+      "bytes": 38489,
+      "sha256": "90c1a8de990ac44a4bff18f2c92dd062b599d5467ea82830b413cf75f9f6dc75",
       "reference_region": "04–06"
     },
     {
