@@ -1,0 +1,16 @@
+{
+  "product": "? ???? ?? ?? ???",
+  "version": "V13",
+  "saved_at": "2026-10-21T15:45:49.587306+09:00",
+  "owner_instruction": "?? ?? ?? ????",
+  "status": "owner_requested_checkpoint; not final release approval",
+  "source_commit": "a64facc7e950b9b733a69adaf49f1155ba26772c",
+  "source": "cloud-blush-v13/",
+  "delivery": "cloud-blush-v13/cafe24/",
+  "review": "cloud-blush-v13/review/",
+  "package": "cloud-blush-v13/cloud-blush-cafe24.zip",
+  "package_sha256": "011e016d54ff965a346d8bc2f738706b417be7bdfbe6a79152c8a2a50ba80ba6",
+  "package_bytes": 5954364,
+  "cafe24_upload": "deferred by owner",
+  "next_work": "Resume from V13; preserve this checkpoint and original masters."
+}
