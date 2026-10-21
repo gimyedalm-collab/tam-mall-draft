@@ -1,3 +1,13 @@
+## ACTIVE: mobile fixes published, 2026-10-21
+
+All four audit bugs fixed in678c9b5. Pages run39571970349 succeeded.
+Public32 files match,320px home/product111/review paging passed.
+100 mobile/tablet plus12 desktop/landscape checks passed.
+See mobile-fixes-20261021/REPORT.md. Shading detail unchanged.
+Physical device/network checks unverified; Cafe24 upload deferred.
+
+---
+
 ## ACTIVE: main storefront sync, 2026-10-21
 
 Owner requested all completed work applied to GitHub main except shading duo.

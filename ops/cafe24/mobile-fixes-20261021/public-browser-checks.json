@@ -1,0 +1,46 @@
+{
+  "powder": {
+    "css": "assets/ux-261013.css?v=mobile261021",
+    "inputs": [
+      "16px",
+      "16px"
+    ],
+    "lazy": 13,
+    "loaded": 14
+  },
+  "powder320": {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 305,
+    "detailImages": 14,
+    "documentWidth": 305,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-111.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 320
+  },
+  "pager": {
+    "buttons": 5,
+    "clientWidth": 305,
+    "documentWidth": 305,
+    "page": "2",
+    "width": 320
+  },
+  "home": {
+    "brokenVisibleImages": 0,
+    "buybar": false,
+    "clientWidth": 305,
+    "detailImages": 0,
+    "documentWidth": 305,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "design-only.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width,initial-scale=1",
+    "width": 320
+  }
+}

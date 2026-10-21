@@ -968,7 +968,7 @@
     "layout_overflow_details": "All14product pages at320px: clientWidth305px vs scrollWidth307px from right review-pagination arrow. Other86combinations pass."
   },
   "mobile_fixes_20261021": {
-    "status": "fixed_local_verified_publication_pending",
+    "status": "published_verified",
     "report": "ops/cafe24/mobile-fixes-20261021/REPORT.md",
     "mobile_tablet_checks": 100,
     "desktop_landscape_checks": 12,
@@ -982,6 +982,11 @@
     "shading_detail_unchanged": true,
     "production_cafe24_changed": false,
     "physical_device_verified": false,
-    "real_mobile_network_verified": false
+    "real_mobile_network_verified": false,
+    "source_commit": "678c9b57c262847bbb9e92d49e7858cc4b5750f0",
+    "github_pages_run": 39571970349,
+    "public_file_matches": "32/32",
+    "public_verification": "ops/cafe24/mobile-fixes-20261021/public-checks.json",
+    "public_browser_verification": "ops/cafe24/mobile-fixes-20261021/public-browser-checks.json"
   }
 }

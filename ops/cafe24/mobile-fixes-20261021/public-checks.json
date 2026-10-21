@@ -1,0 +1,233 @@
+{
+  "source_commit": "678c9b57c262847bbb9e92d49e7858cc4b5750f0",
+  "github_pages_run": 39571970349,
+  "github_pages_conclusion": "success",
+  "normalization": "CRLF to LF for HTML/CSS/JS only; ZIP exact bytes",
+  "files": [
+    {
+      "path": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
+      "http_status": 200,
+      "bytes": 11471443,
+      "matches_local": true,
+      "sha256": "233b531163f0f76563b44a14cb92f1e045c9fb4fd3d742d1a05645ac316c2902"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/detail.cafe24.html",
+      "http_status": 200,
+      "bytes": 9660,
+      "matches_local": true,
+      "sha256": "4d1bd3ab15ba27c54771b89bd3418824ad5dd6fcdc7ab0ff33fb5a83617b5648"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/detail.local.html",
+      "http_status": 200,
+      "bytes": 9044,
+      "matches_local": true,
+      "sha256": "a5f26138aa8dab5074868c5bf7e855810e221306f34d66a14b59f951d8ef284e"
+    },
+    {
+      "path": "cafe24-delivery-20261020/powder-balm/index.html",
+      "http_status": 200,
+      "bytes": 9364,
+      "matches_local": true,
+      "sha256": "94b06eb2409d1895335a7c9be026f3427569bfa0e62f8044fde516a900060c3e"
+    },
+    {
+      "path": "storefront-v2/preview/about.html",
+      "http_status": 200,
+      "bytes": 14742,
+      "matches_local": true,
+      "sha256": "79b33618f502e2f4bfeceec2e61bfb94137ffea367a3f4d1f2f3963b0bfb3a82"
+    },
+    {
+      "path": "storefront-v2/preview/assets/reviews.css",
+      "http_status": 200,
+      "bytes": 6524,
+      "matches_local": true,
+      "sha256": "7a81ceebd5d8f1e82ed12ce1c9b24f302c6f86a564ad1ca516752999392c07ec"
+    },
+    {
+      "path": "storefront-v2/preview/assets/reviews.js",
+      "http_status": 200,
+      "bytes": 9007,
+      "matches_local": true,
+      "sha256": "e6429ad59e152155af94d00831b8b82974ac42a89cd88edb9d03d6acab883649"
+    },
+    {
+      "path": "storefront-v2/preview/assets/ux-261013.css",
+      "http_status": 200,
+      "bytes": 9824,
+      "matches_local": true,
+      "sha256": "075ec4f0449285f0736c855f13235bce35b75aedd31cd0b08ae3b4fcf4f4f563"
+    },
+    {
+      "path": "storefront-v2/preview/basket.html",
+      "http_status": 200,
+      "bytes": 5082,
+      "matches_local": true,
+      "sha256": "50d837ac137ae2333c4333e80db29e4e962ec5ffc50121aff59795f75e3da034"
+    },
+    {
+      "path": "storefront-v2/preview/checkout.html",
+      "http_status": 200,
+      "bytes": 5766,
+      "matches_local": true,
+      "sha256": "8485ac3c167275d75d8b07c1f62d984ce75d4167ad9f8b5cbdc1118fae3b4873"
+    },
+    {
+      "path": "storefront-v2/preview/cloud.html",
+      "http_status": 200,
+      "bytes": 9645,
+      "matches_local": true,
+      "sha256": "07597e51f24d1a4e35816759bdec723a7b3fd55acf6f2bd8e24e40ab9657af33"
+    },
+    {
+      "path": "storefront-v2/preview/coupons.html",
+      "http_status": 200,
+      "bytes": 4595,
+      "matches_local": true,
+      "sha256": "7a7fe3be8c8a6d0bb3c801db98e3f881e730d2011b6f1b28797090a434112f4a"
+    },
+    {
+      "path": "storefront-v2/preview/design-only.html",
+      "http_status": 200,
+      "bytes": 9109,
+      "matches_local": true,
+      "sha256": "94f4db6aa255ce84814933c4dd3dae36df54c95523bd00c5849068e804bc6217"
+    },
+    {
+      "path": "storefront-v2/preview/jelly.html",
+      "http_status": 200,
+      "bytes": 8258,
+      "matches_local": true,
+      "sha256": "f8f739e2f9862dcefdbf3e59919a4f1c611ffcf03bafe773df3762df4440f87a"
+    },
+    {
+      "path": "storefront-v2/preview/login.html",
+      "http_status": 200,
+      "bytes": 4865,
+      "matches_local": true,
+      "sha256": "31b10efe341e21f11923bfc1f5badf47c14d16bfabae9c4102f54c70df55ff08"
+    },
+    {
+      "path": "storefront-v2/preview/lookbook.html",
+      "http_status": 200,
+      "bytes": 6986,
+      "matches_local": true,
+      "sha256": "43fb69d5b5d549f68f4fae32b5e3686d30b0e513b2516069080cc2e81e9a5e60"
+    },
+    {
+      "path": "storefront-v2/preview/product-101.html",
+      "http_status": 200,
+      "bytes": 17157,
+      "matches_local": true,
+      "sha256": "d39589c944c8f3d692a2c86c5a649da39f5b982e07392ba014289ce2bc1ed151"
+    },
+    {
+      "path": "storefront-v2/preview/product-102.html",
+      "http_status": 200,
+      "bytes": 17409,
+      "matches_local": true,
+      "sha256": "f994ae00c4e1f1dd07bbc27129a2b7f538fb355d5f1eabdb6a8245f06314a088"
+    },
+    {
+      "path": "storefront-v2/preview/product-109.html",
+      "http_status": 200,
+      "bytes": 12339,
+      "matches_local": true,
+      "sha256": "9868942c12308173a1a1bd7d6e0dd69a71309ec3bb20363c9c33073da2790f10"
+    },
+    {
+      "path": "storefront-v2/preview/product-110.html",
+      "http_status": 200,
+      "bytes": 27319,
+      "matches_local": true,
+      "sha256": "7909d4a5faac6c06d28191e4367c1f254ba186108a650b8dbda81953adb87896"
+    },
+    {
+      "path": "storefront-v2/preview/product-111.html",
+      "http_status": 200,
+      "bytes": 20190,
+      "matches_local": true,
+      "sha256": "78af5754c2216dad485343de241ad3d8e3988037a815d802e183859695170e2e"
+    },
+    {
+      "path": "storefront-v2/preview/product-112.html",
+      "http_status": 200,
+      "bytes": 15917,
+      "matches_local": true,
+      "sha256": "932f56328548090fc065f7c0640dc7cab75a27f044fca7b474f8318098240f90"
+    },
+    {
+      "path": "storefront-v2/preview/product-114.html",
+      "http_status": 200,
+      "bytes": 12499,
+      "matches_local": true,
+      "sha256": "53d417f42e4881015bd2c3424f4d3e3bd211d47e270bc35a8a4e1f93fe603729"
+    },
+    {
+      "path": "storefront-v2/preview/product-115.html",
+      "http_status": 200,
+      "bytes": 14758,
+      "matches_local": true,
+      "sha256": "232b3d10ed866e4564f7996304a482322901849bf5e5e5021c60362c854bcf06"
+    },
+    {
+      "path": "storefront-v2/preview/product-118.html",
+      "http_status": 200,
+      "bytes": 14772,
+      "matches_local": true,
+      "sha256": "bedbd333b4fb631a3500d1ab44a1b98ed6f8764f65e70a999ce10f79268f98ba"
+    },
+    {
+      "path": "storefront-v2/preview/product-121.html",
+      "http_status": 200,
+      "bytes": 12764,
+      "matches_local": true,
+      "sha256": "3b840d933d93cb58917775d9b68cee246564fe573db84d311ac13cc035c2f14e"
+    },
+    {
+      "path": "storefront-v2/preview/product-18.html",
+      "http_status": 200,
+      "bytes": 13346,
+      "matches_local": true,
+      "sha256": "144b3c8f47c0fed1e08a4b4107499b49bddae340756013975ab97f287b2528e8"
+    },
+    {
+      "path": "storefront-v2/preview/product-23.html",
+      "http_status": 200,
+      "bytes": 17367,
+      "matches_local": true,
+      "sha256": "ef8b7785c907c0a6cf879016c233f172bad8201dbd1b66ce98079de1a81e3e7f"
+    },
+    {
+      "path": "storefront-v2/preview/product-24.html",
+      "http_status": 200,
+      "bytes": 20294,
+      "matches_local": true,
+      "sha256": "7e159de40566a4fede82840e1030259a433f8298ef724573318979d34ff5a849"
+    },
+    {
+      "path": "storefront-v2/preview/product-25.html",
+      "http_status": 200,
+      "bytes": 14825,
+      "matches_local": true,
+      "sha256": "d9d37497fcd3f5634ebbb787219efd04cbbda827a5e4bb4e3ea2e90ddb839804"
+    },
+    {
+      "path": "storefront-v2/preview/search.html",
+      "http_status": 200,
+      "bytes": 13155,
+      "matches_local": true,
+      "sha256": "c928ca9643fc8b858c742db2ba7a130efb9e8d1ce3df69668334f5b83ee32df2"
+    },
+    {
+      "path": "storefront-v2/preview/shop.html",
+      "http_status": 200,
+      "bytes": 13628,
+      "matches_local": true,
+      "sha256": "886dd4c793f906027696ff89759cf6a89a20278d0d391c9d83a215c021918ace"
+    }
+  ],
+  "all_match": true
+}
