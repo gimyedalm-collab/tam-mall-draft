@@ -23,7 +23,7 @@ for number, (package, release) in PACKAGES.items():
     assert normalize_cache(before[:a.start] + before[a.end:]) == normalize_cache(after[:b.start] + after[b.end:]), path
     detail = BeautifulSoup(after[b.start:b.end], 'html.parser')
     manifest = json.loads((ROOT / package / 'manifest.json').read_text(encoding='utf-8'))
-    files = manifest.get('files', manifest.get('media'))
+    files = manifest.get('files', manifest.get('media', manifest.get('images')))
     images = detail.find_all('img')
     assert len(images) == len(files) + (4 if number == 25 else 0)
     for image, item in zip(images, files):
@@ -35,17 +35,13 @@ for number, (package, release) in PACKAGES.items():
     rows.append({'product': number, 'release': release, 'package': package,
                  'media_count': len(files), 'manifest_order_and_hashes_match': True,
                  'outside_detail_identical_after_newline_and_shared_cache_normalization': True})
-excluded = 'storefront-v2/preview/product-109.html'
-excluded_before = subprocess.check_output(['git', 'show', f'{BASELINE}:{excluded}'], cwd=ROOT).decode().replace('\r\n', '\n')
-assert normalize_cache(excluded_before) == normalize_cache((ROOT / excluded).read_text(encoding='utf-8'))
 report = {'date': '2026-10-21', 'baseline': BASELINE,
-          'scope': 'GitHub storefront integration; live Cafe24 upload remains deferred',
-          'excluded_product': 109, 'excluded_product_detail_unchanged': True, 'excluded_product_changes': 'Shared CSS/JS cache revisions only',
+          'scope': 'Seven current product deliveries; owner authorized latest Shading V9 integration. Cafe24 rollout awaits actual readiness verification.',
           'products': rows,
           'lip_series': 'All four preview options and original common-series images retained. Oils-only component is explicitly scoped to01-03, with00 gloss detail link.',
           'main_film': 'V16 already connected; unchanged',
           'owner_visual_acceptance': 'Not inferred from integration QA'}
-destination = ROOT / 'ops/cafe24/main-sync-20261021.json'
+destination = ROOT / 'ops/cafe24/storefront-details-verification.json'
 existing = json.loads(destination.read_text(encoding='utf-8')) if destination.exists() else {}
 existing.pop('excluded_product_unchanged', None)
 existing.update(report)

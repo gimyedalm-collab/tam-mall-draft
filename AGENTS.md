@@ -958,3 +958,15 @@ Product109 detail remains excluded; only shared asset cache revisions changed.
 Verification allows only those three shared cache revisions outside the detail.
 Evidence: ops/cafe24/mobile-fixes-20261021/REPORT.md. Physical phones, Safari and
 real slow-network performance remain unverified; Cafe24 live upload stays deferred.
+
+## Latest rollout request - 2026-10-21
+
+The owner now explicitly includes the latest Heart Shading Duo from the other
+session. This supersedes the earlier product109 exclusion. Latest source is V9
+from28a6989; six original PNGs and native information must remain unchanged.
+Run prepare_shading_delivery.py then sync_storefront_details.py after rebuilding
+V9. Current seven-product verification writes storefront-details-verification.json.
+Owner requests Safari/physical-phone/slow-network and Cafe24 readiness checks
+before rollout. Never treat a viewport, macOS VM or throttled local fixture as a
+physical phone. Preserve active skin18 and English shop5 skin8; verify the test
+skin21, original backups, native commerce and Snap hooks before a production switch.

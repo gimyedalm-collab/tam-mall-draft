@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-21",
+  "baseline": "363d346",
+  "scope": "Seven current product deliveries; owner authorized latest Shading V9 integration. Cafe24 rollout awaits actual readiness verification.",
+  "products": [
+    {
+      "product": 109,
+      "release": "heart-shading-v9",
+      "package": "heart-shading-v9",
+      "media_count": 6,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
+    },
+    {
+      "product": 110,
+      "release": "cloud-blush-v13",
+      "package": "cafe24-delivery-20261019/cloud-blush",
+      "media_count": 18,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
+    },
+    {
+      "product": 111,
+      "release": "powder-balm-v5",
+      "package": "cafe24-delivery-20261020/powder-balm",
+      "media_count": 14,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
+    },
+    {
+      "product": 25,
+      "release": "lipoil-v9",
+      "package": "cafe24-delivery-20261019/lip-oil",
+      "media_count": 7,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
+    },
+    {
+      "product": 118,
+      "release": "lip-liner-r34",
+      "package": "cafe24-delivery-20261019/lip-liner",
+      "media_count": 16,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
+    },
+    {
+      "product": 102,
+      "release": "cheek-v12",
+      "package": "cafe24-delivery-20261019/milky-cheek",
+      "media_count": 9,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
+    },
+    {
+      "product": 24,
+      "release": "highlighter-r33",
+      "package": "cafe24-delivery-20261019/highlighter",
+      "media_count": 14,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
+    }
+  ],
+  "lip_series": "All four preview options and original common-series images retained. Oils-only component is explicitly scoped to01-03, with00 gloss detail link.",
+  "main_film": "V16 already connected; unchanged",
+  "owner_visual_acceptance": "Not inferred from integration QA"
+}

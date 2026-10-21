@@ -78,5 +78,10 @@
   ],
   "hero": "Original product photo planes with Blender floor and shadows; source colours unchanged",
   "change": "04-placement only; other five media byte-identical to V8",
-  "generated_face": "Original fictional adult model for usage location instruction; not actual shade, product use or efficacy evidence"
+  "generated_face": "Original fictional adult model for usage location instruction; not actual shade, product use or efficacy evidence",
+  "product_no": 109,
+  "delivery_prefix": "/web/upload/tam-detail-20261021/heart-shading/",
+  "owner_integration_authorized": "2026-10-21: latest V9 requested",
+  "loading": "First image high priority; remaining five lazy; async decoding",
+  "product_information_sha256": "a970274fca46bc3a63806dfe672a78ebfd8c63948331b756e487f1cfc5406818"
 }

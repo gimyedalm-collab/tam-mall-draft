@@ -1,7 +1,7 @@
 """Connect storefront routes to the current Cafe24 delivery composition.
 
-Only product-detail markup changes. Purchase UI, options, reviews and the
-excluded shading duo remain untouched. Run again after updating a package.
+Only product-detail markup changes. Purchase UI, options and reviews remain
+untouched. Run again after updating a package. Latest Shading V9 is authorized.
 """
 from pathlib import Path
 from html.parser import HTMLParser
@@ -13,6 +13,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[2]
 PACKAGES = {
+    109: ('heart-shading-v9', 'heart-shading-v9'),
     110: ('cafe24-delivery-20261019/cloud-blush', 'cloud-blush-v13'),
     111: ('cafe24-delivery-20261020/powder-balm', 'powder-balm-v5'),
     25: ('cafe24-delivery-20261019/lip-oil', 'lipoil-v9'),

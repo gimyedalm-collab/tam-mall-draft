@@ -1,0 +1,22 @@
+name: Safari storefront verification
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  safari:
+    runs-on: macos-26
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - name: Enable Apple's Safari WebDriver
+        run: sudo safaridriver --enable
+      - name: Test the checked-out storefront in Safari
+        run: python3 ops/cafe24/verify_safari.py
+      - name: Preserve browser versions and results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: safari-verification
+          path: safari-results/
+          retention-days: 3
