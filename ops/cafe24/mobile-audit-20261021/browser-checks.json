@@ -1,0 +1,9517 @@
+{
+  "baseline": "ac702df",
+  "engine": "Chrome extension viewport emulation; desktop scrollbars consume15px. Not physical device or synthesized touch.",
+  "widths": [
+    320,
+    390,
+    430,
+    768
+  ],
+  "routes": 25,
+  "checks": [
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "design-only.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 36,
+          "label": "브랜드 영상 일시정지",
+          "w": 63
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width,initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "shop.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "search.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "cloud.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "jelly.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "about.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "lookbook.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 41,
+          "label": "제품 보기 ↗",
+          "w": 46
+        },
+        {
+          "h": 41,
+          "label": "제품 보기 ↗",
+          "w": 46
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 플럼핑 립 글로스 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 밀키 치크 블러셔 ↗",
+          "w": 141
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 41,
+          "label": "제품 보기 ↗",
+          "w": 44
+        },
+        {
+          "h": 41,
+          "label": "제품 보기 ↗",
+          "w": 44
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 블러 립 틴트 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 필터 파우더 밤 ↗",
+          "w": 152
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "login.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "password"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 21,
+          "label": "회원가입",
+          "w": 45
+        },
+        {
+          "h": 21,
+          "label": "아이디 찾기",
+          "w": 59
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 18,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-110.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 14,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-111.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 11,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-25.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 20,
+          "label": "00 립 글로스 상세 보기",
+          "w": 158
+        },
+        {
+          "h": 26,
+          "label": "립 시리즈 공통 안내 · 글로스 포함",
+          "w": 265
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 16,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-118.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 9,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-102.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 14,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-24.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 10,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-23.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 11,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-109.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 26,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-101.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 17,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-112.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 12,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-114.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 12,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-115.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 9,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-121.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 305,
+      "detailImages": 18,
+      "documentWidth": 307,
+      "offscreenControls": [],
+      "overflow": true,
+      "route": "product-18.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "basket.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "checkout.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "SELECT"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 305,
+      "detailImages": 0,
+      "documentWidth": 305,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "coupons.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 320
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "design-only.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 36,
+          "label": "브랜드 영상 일시정지",
+          "w": 63
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 플럼핑 립 글로스 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 밀키 치크 블러셔 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 블러 립 틴트 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 필터 파우더 밤 ↗",
+          "w": 152
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width,initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "shop.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "search.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "cloud.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "jelly.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "about.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "lookbook.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 플럼핑 립 글로스 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 밀키 치크 블러셔 ↗",
+          "w": 141
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 블러 립 틴트 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 필터 파우더 밤 ↗",
+          "w": 152
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "login.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "password"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 21,
+          "label": "회원가입",
+          "w": 45
+        },
+        {
+          "h": 21,
+          "label": "아이디 찾기",
+          "w": 59
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 18,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-110.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 14,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-111.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 11,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-25.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 20,
+          "label": "00 립 글로스 상세 보기",
+          "w": 158
+        },
+        {
+          "h": 26,
+          "label": "립 시리즈 공통 안내 · 글로스 포함",
+          "w": 335
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 16,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-118.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 9,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-102.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 14,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-24.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 10,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-23.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 11,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-109.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 26,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-101.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 17,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-112.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 12,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-114.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 12,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-115.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 9,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-121.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 375,
+      "detailImages": 18,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-18.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "basket.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "checkout.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "SELECT"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 375,
+      "detailImages": 0,
+      "documentWidth": 375,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "coupons.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "design-only.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 36,
+          "label": "브랜드 영상 재생",
+          "w": 63
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 플럼핑 립 글로스 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 밀키 치크 블러셔 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 블러 립 틴트 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 필터 파우더 밤 ↗",
+          "w": 152
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width,initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "shop.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "search.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "cloud.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "jelly.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "about.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "lookbook.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 플럼핑 립 글로스 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 밀키 치크 블러셔 ↗",
+          "w": 141
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 20,
+          "label": "제품 보기 ↗",
+          "w": 58
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 블러 립 틴트 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 필터 파우더 밤 ↗",
+          "w": 152
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "login.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "password"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 21,
+          "label": "회원가입",
+          "w": 45
+        },
+        {
+          "h": 21,
+          "label": "아이디 찾기",
+          "w": 59
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 18,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-110.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 14,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-111.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 11,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-25.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 20,
+          "label": "00 립 글로스 상세 보기",
+          "w": 158
+        },
+        {
+          "h": 26,
+          "label": "립 시리즈 공통 안내 · 글로스 포함",
+          "w": 375
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 16,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-118.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 9,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-102.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 14,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-24.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 10,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-23.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 11,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-109.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 26,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-101.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 17,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-112.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 12,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-114.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 12,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-115.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 9,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-121.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 415,
+      "detailImages": 18,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-18.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "basket.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "checkout.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "SELECT"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 415,
+      "detailImages": 0,
+      "documentWidth": 415,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "coupons.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 430
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "design-only.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 플럼핑 립 글로스 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 밀키 치크 블러셔 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 블러 립 틴트 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 필터 파우더 밤 ↗",
+          "w": 152
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width,initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "shop.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "search.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "cloud.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "jelly.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "about.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 48,
+          "label": "전체",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "베이스",
+          "w": 34
+        },
+        {
+          "h": 48,
+          "label": "치크",
+          "w": 22
+        },
+        {
+          "h": 48,
+          "label": "립",
+          "w": 11
+        },
+        {
+          "h": 48,
+          "label": "브로우",
+          "w": 34
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "lookbook.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 21,
+          "label": "제품 보기 ↗",
+          "w": 63
+        },
+        {
+          "h": 21,
+          "label": "제품 보기 ↗",
+          "w": 63
+        },
+        {
+          "h": 21,
+          "label": "제품 보기 ↗",
+          "w": 63
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 플럼핑 립 글로스 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 젤리 밀키 치크 블러셔 ↗",
+          "w": 141
+        },
+        {
+          "h": 21,
+          "label": "제품 보기 ↗",
+          "w": 63
+        },
+        {
+          "h": 21,
+          "label": "제품 보기 ↗",
+          "w": 63
+        },
+        {
+          "h": 21,
+          "label": "제품 보기 ↗",
+          "w": 63
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 블러 립 틴트 ↗",
+          "w": 141
+        },
+        {
+          "h": 37,
+          "label": "더 클라우드 필터 파우더 밤 ↗",
+          "w": 152
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "login.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "password"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 21,
+          "label": "회원가입",
+          "w": 45
+        },
+        {
+          "h": 21,
+          "label": "아이디 찾기",
+          "w": 59
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 18,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-110.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 14,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-111.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 11,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-25.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 20,
+          "label": "00 립 글로스 상세 보기",
+          "w": 158
+        },
+        {
+          "h": 26,
+          "label": "립 시리즈 공통 안내 · 글로스 포함",
+          "w": 713
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 16,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-118.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 9,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-102.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 14,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-24.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 10,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-23.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 11,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-109.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 26,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-101.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 17,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-112.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 12,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-114.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 12,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-115.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 9,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-121.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE CLOUD LINE",
+          "w": 93
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": true,
+      "clientWidth": 753,
+      "detailImages": 18,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "product-18.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "SELECT"
+        },
+        {
+          "font": "13px",
+          "type": "number"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 14,
+          "label": "SHOP",
+          "w": 32
+        },
+        {
+          "h": 14,
+          "label": "THE JELLY LINE",
+          "w": 86
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "basket.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "checkout.html",
+      "smallInputs": [
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "INPUT"
+        },
+        {
+          "font": "13px",
+          "type": "SELECT"
+        }
+      ],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    },
+    {
+      "brokenVisibleImages": 0,
+      "buybar": false,
+      "clientWidth": 753,
+      "detailImages": 0,
+      "documentWidth": 753,
+      "offscreenControls": [],
+      "overflow": false,
+      "route": "coupons.html",
+      "smallInputs": [],
+      "smallTargets": [
+        {
+          "h": 42,
+          "label": "탐뷰티 홈",
+          "w": 91
+        },
+        {
+          "h": 44,
+          "label": "검색",
+          "w": 21
+        },
+        {
+          "h": 44,
+          "label": "로그인",
+          "w": 31
+        },
+        {
+          "h": 44,
+          "label": "장바구니",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "1668-0868",
+          "w": 62
+        },
+        {
+          "h": 33,
+          "label": "카카오톡 문의 ↗",
+          "w": 79
+        },
+        {
+          "h": 33,
+          "label": "주문조회 ↗",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "배송·교환·반품 안내 ↗",
+          "w": 106
+        },
+        {
+          "h": 33,
+          "label": "브랜드 소개",
+          "w": 55
+        },
+        {
+          "h": 33,
+          "label": "개인정보처리방침",
+          "w": 83
+        },
+        {
+          "h": 33,
+          "label": "이용약관",
+          "w": 41
+        },
+        {
+          "h": 33,
+          "label": "이용안내",
+          "w": 41
+        }
+      ],
+      "viewportMeta": "width=device-width, initial-scale=1",
+      "width": 768
+    }
+  ],
+  "interactionChecks": [
+    {
+      "check": "shop lip filter",
+      "count": "05 PRODUCTS",
+      "onlyLip": true,
+      "visibleCards": 5
+    },
+    {
+      "check": "search powder",
+      "count": "1개 제품",
+      "visibleProducts": [
+        "더 클라우드 필터 파우더 밤"
+      ]
+    },
+    {
+      "check": "empty search",
+      "count": "0개 제품",
+      "emptyVisible": true
+    },
+    {
+      "barButton": "바로 구매",
+      "barPrice": "28,800원",
+      "check": "option quantity and buybar",
+      "quantity": "2",
+      "selected": "01. 백도 쉐이크"
+    },
+    {
+      "check": "add to preview cart",
+      "status": "장바구니에 담았습니다."
+    },
+    {
+      "check": "preview basket",
+      "overflow": false,
+      "qty": "2",
+      "quantityButtonSize": [
+        {
+          "height": 40,
+          "width": 40
+        },
+        {
+          "height": 40,
+          "width": 40
+        }
+      ],
+      "route": "/storefront-v2/preview/basket.html",
+      "rows": 1,
+      "subtotal": "28,800원"
+    },
+    {
+      "check": "cart increment",
+      "qty": "3",
+      "subtotal": "43,200원"
+    },
+    {
+      "check": "preview checkout",
+      "overflow": false,
+      "route": "/storefront-v2/preview/checkout.html",
+      "subtotal": "43,200원"
+    },
+    {
+      "check": "shade comparison dialog",
+      "open": true,
+      "viewport": 390,
+      "width": 390
+    },
+    {
+      "check": "shade comparison zoom",
+      "expanded": "true",
+      "pageOverflow": false
+    },
+    {
+      "check": "shade dialog closes",
+      "closed": true
+    }
+  ],
+  "additionalInteractions": {
+    "menuOpenClose": true,
+    "heroPause": true
+  },
+  "overflowCriterion": "documentElement.scrollWidth > documentElement.clientWidth +1; replaces initial innerWidth comparison which masked scrollbar-width overflow",
+  "productionCafe24Changed": false
+}

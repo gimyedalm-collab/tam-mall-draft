@@ -70,3 +70,21 @@ html.ux-colour-open{overflow:hidden}
  .ux-detail-nav{gap:6px 18px;margin-bottom:20px}.ux-shade-grid{gap:6px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+
+/* Mobile usability corrections: keep the established design and detail media. */
+@media(max-width:900px){
+ .ux-header.ux-header{grid-template-columns:minmax(44px,1fr) auto minmax(92px,1fr);gap:8px}
+ .ux-header .ux-logo{display:flex;align-items:center;min-height:44px}
+ .ux-header .ux-utilities{gap:4px}
+ .ux-header .ux-utilities a{min-width:44px;min-height:44px;justify-content:center}
+ .ux-header .ux-utilities .ux-account{display:none}
+ .ux-footer a{display:inline-flex;align-items:center;min-height:44px;min-width:44px}
+ .field input:not([type=search]),.field select,.field textarea{font-size:16px;line-height:1.5;min-height:48px}
+ .do-hero .film-toggle{min-height:44px;min-width:44px;font-size:12px}
+ .quantity-control button{width:44px;height:44px;min-width:44px}
+ .breadcrumb a,.account-links a,.ux-look-products a,.lookbook-shot figcaption a,.tam-registration-detail a{display:inline-flex;align-items:center;min-height:44px;min-width:44px}
+ .tam-registration-detail summary{min-height:44px;align-content:center}
+ .filter-row{flex-wrap:wrap;column-gap:8px}
+ .filter-row button{min-width:44px;min-height:44px}
+ .ux-detail-nav a{min-width:44px}
+}

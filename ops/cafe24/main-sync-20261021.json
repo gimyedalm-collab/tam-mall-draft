@@ -3,7 +3,6 @@
   "baseline": "363d346",
   "scope": "GitHub storefront integration; live Cafe24 upload remains deferred",
   "excluded_product": 109,
-  "excluded_product_unchanged": true,
   "products": [
     {
       "product": 110,
@@ -11,7 +10,7 @@
       "package": "cafe24-delivery-20261019/cloud-blush",
       "media_count": 18,
       "manifest_order_and_hashes_match": true,
-      "outside_detail_identical_after_newline_normalization": true
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
     },
     {
       "product": 111,
@@ -19,7 +18,7 @@
       "package": "cafe24-delivery-20261020/powder-balm",
       "media_count": 14,
       "manifest_order_and_hashes_match": true,
-      "outside_detail_identical_after_newline_normalization": true
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
     },
     {
       "product": 25,
@@ -27,7 +26,7 @@
       "package": "cafe24-delivery-20261019/lip-oil",
       "media_count": 7,
       "manifest_order_and_hashes_match": true,
-      "outside_detail_identical_after_newline_normalization": true
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
     },
     {
       "product": 118,
@@ -35,7 +34,7 @@
       "package": "cafe24-delivery-20261019/lip-liner",
       "media_count": 16,
       "manifest_order_and_hashes_match": true,
-      "outside_detail_identical_after_newline_normalization": true
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
     },
     {
       "product": 102,
@@ -43,7 +42,7 @@
       "package": "cafe24-delivery-20261019/milky-cheek",
       "media_count": 9,
       "manifest_order_and_hashes_match": true,
-      "outside_detail_identical_after_newline_normalization": true
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
     },
     {
       "product": 24,
@@ -51,7 +50,7 @@
       "package": "cafe24-delivery-20261019/highlighter",
       "media_count": 14,
       "manifest_order_and_hashes_match": true,
-      "outside_detail_identical_after_newline_normalization": true
+      "outside_detail_identical_after_newline_and_shared_cache_normalization": true
     }
   ],
   "lip_series": "All four preview options and original common-series images retained. Oils-only component is explicitly scoped to01-03, with00 gloss detail link.",
@@ -82,5 +81,7 @@
     "width": 320,
     "horizontal_overflow": false,
     "native_tables_fit": true
-  }
+  },
+  "excluded_product_detail_unchanged": true,
+  "excluded_product_changes": "Shared CSS/JS cache revisions only"
 }

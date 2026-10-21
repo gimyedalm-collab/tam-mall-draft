@@ -1,0 +1,707 @@
+[
+  {
+    "brokenVisibleImages": 0,
+    "buybar": false,
+    "clientWidth": 1425,
+    "detailImages": 0,
+    "documentWidth": 1425,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "design-only.html",
+    "smallInputs": [],
+    "smallTargets": [
+      {
+        "h": 44,
+        "label": "제품",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "룩북",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "브랜드",
+        "w": 34
+      },
+      {
+        "h": 44,
+        "label": "검색",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "로그인",
+        "w": 34
+      },
+      {
+        "h": 37,
+        "label": "더 젤리 플럼핑 립 글로스 ↗",
+        "w": 141
+      },
+      {
+        "h": 37,
+        "label": "더 젤리 밀키 치크 블러셔 ↗",
+        "w": 141
+      },
+      {
+        "h": 37,
+        "label": "더 클라우드 블러 립 틴트 ↗",
+        "w": 141
+      },
+      {
+        "h": 37,
+        "label": "더 클라우드 필터 파우더 밤 ↗",
+        "w": 152
+      },
+      {
+        "h": 33,
+        "label": "1668-0868",
+        "w": 62
+      },
+      {
+        "h": 33,
+        "label": "카카오톡 문의 ↗",
+        "w": 79
+      },
+      {
+        "h": 33,
+        "label": "주문조회 ↗",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "배송·교환·반품 안내 ↗",
+        "w": 106
+      },
+      {
+        "h": 33,
+        "label": "브랜드 소개",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "개인정보처리방침",
+        "w": 83
+      },
+      {
+        "h": 33,
+        "label": "이용약관",
+        "w": 41
+      },
+      {
+        "h": 33,
+        "label": "이용안내",
+        "w": 41
+      }
+    ],
+    "viewportMeta": "width=device-width,initial-scale=1",
+    "width": 1440
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": false,
+    "clientWidth": 1425,
+    "detailImages": 0,
+    "documentWidth": 1425,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "shop.html",
+    "smallInputs": [],
+    "smallTargets": [
+      {
+        "h": 44,
+        "label": "제품",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "룩북",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "브랜드",
+        "w": 34
+      },
+      {
+        "h": 44,
+        "label": "검색",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "로그인",
+        "w": 34
+      },
+      {
+        "h": 48,
+        "label": "전체",
+        "w": 22
+      },
+      {
+        "h": 48,
+        "label": "베이스",
+        "w": 34
+      },
+      {
+        "h": 48,
+        "label": "치크",
+        "w": 22
+      },
+      {
+        "h": 48,
+        "label": "립",
+        "w": 11
+      },
+      {
+        "h": 48,
+        "label": "브로우",
+        "w": 34
+      },
+      {
+        "h": 33,
+        "label": "1668-0868",
+        "w": 62
+      },
+      {
+        "h": 33,
+        "label": "카카오톡 문의 ↗",
+        "w": 79
+      },
+      {
+        "h": 33,
+        "label": "주문조회 ↗",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "배송·교환·반품 안내 ↗",
+        "w": 106
+      },
+      {
+        "h": 33,
+        "label": "브랜드 소개",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "개인정보처리방침",
+        "w": 83
+      },
+      {
+        "h": 33,
+        "label": "이용약관",
+        "w": 41
+      },
+      {
+        "h": 33,
+        "label": "이용안내",
+        "w": 41
+      }
+    ],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 1440
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 1425,
+    "detailImages": 14,
+    "documentWidth": 1425,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-111.html",
+    "smallInputs": [
+      {
+        "font": "13px",
+        "type": "SELECT"
+      },
+      {
+        "font": "13px",
+        "type": "number"
+      }
+    ],
+    "smallTargets": [
+      {
+        "h": 44,
+        "label": "제품",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "룩북",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "브랜드",
+        "w": 34
+      },
+      {
+        "h": 44,
+        "label": "검색",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "로그인",
+        "w": 34
+      },
+      {
+        "h": 14,
+        "label": "SHOP",
+        "w": 32
+      },
+      {
+        "h": 14,
+        "label": "THE CLOUD LINE",
+        "w": 93
+      },
+      {
+        "h": 33,
+        "label": "1668-0868",
+        "w": 62
+      },
+      {
+        "h": 33,
+        "label": "카카오톡 문의 ↗",
+        "w": 79
+      },
+      {
+        "h": 33,
+        "label": "주문조회 ↗",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "배송·교환·반품 안내 ↗",
+        "w": 106
+      },
+      {
+        "h": 33,
+        "label": "브랜드 소개",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "개인정보처리방침",
+        "w": 83
+      },
+      {
+        "h": 33,
+        "label": "이용약관",
+        "w": 41
+      },
+      {
+        "h": 33,
+        "label": "이용안내",
+        "w": 41
+      }
+    ],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 1440
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 1425,
+    "detailImages": 11,
+    "documentWidth": 1425,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-25.html",
+    "smallInputs": [
+      {
+        "font": "13px",
+        "type": "SELECT"
+      },
+      {
+        "font": "13px",
+        "type": "number"
+      }
+    ],
+    "smallTargets": [
+      {
+        "h": 44,
+        "label": "제품",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "룩북",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "브랜드",
+        "w": 34
+      },
+      {
+        "h": 44,
+        "label": "검색",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "로그인",
+        "w": 34
+      },
+      {
+        "h": 14,
+        "label": "SHOP",
+        "w": 32
+      },
+      {
+        "h": 14,
+        "label": "THE JELLY LINE",
+        "w": 86
+      },
+      {
+        "h": 20,
+        "label": "00 립 글로스 상세 보기",
+        "w": 158
+      },
+      {
+        "h": 26,
+        "label": "립 시리즈 공통 안내 · 글로스 포함",
+        "w": 820
+      },
+      {
+        "h": 33,
+        "label": "1668-0868",
+        "w": 62
+      },
+      {
+        "h": 33,
+        "label": "카카오톡 문의 ↗",
+        "w": 79
+      },
+      {
+        "h": 33,
+        "label": "주문조회 ↗",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "배송·교환·반품 안내 ↗",
+        "w": 106
+      },
+      {
+        "h": 33,
+        "label": "브랜드 소개",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "개인정보처리방침",
+        "w": 83
+      },
+      {
+        "h": 33,
+        "label": "이용약관",
+        "w": 41
+      },
+      {
+        "h": 33,
+        "label": "이용안내",
+        "w": 41
+      }
+    ],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 1440
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": false,
+    "clientWidth": 1425,
+    "detailImages": 0,
+    "documentWidth": 1425,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "basket.html",
+    "smallInputs": [],
+    "smallTargets": [
+      {
+        "h": 44,
+        "label": "제품",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "룩북",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "브랜드",
+        "w": 34
+      },
+      {
+        "h": 44,
+        "label": "검색",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "로그인",
+        "w": 34
+      },
+      {
+        "h": 16,
+        "label": "더 클라우드 필터 파우더 밤",
+        "w": 147
+      },
+      {
+        "h": 40,
+        "label": "더 클라우드 필터 파우더 밤 수량 줄이기",
+        "w": 40
+      },
+      {
+        "h": 40,
+        "label": "더 클라우드 필터 파우더 밤 수량 늘리기",
+        "w": 40
+      },
+      {
+        "h": 44,
+        "label": "삭제",
+        "w": 21
+      },
+      {
+        "h": 33,
+        "label": "1668-0868",
+        "w": 62
+      },
+      {
+        "h": 33,
+        "label": "카카오톡 문의 ↗",
+        "w": 79
+      },
+      {
+        "h": 33,
+        "label": "주문조회 ↗",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "배송·교환·반품 안내 ↗",
+        "w": 106
+      },
+      {
+        "h": 33,
+        "label": "브랜드 소개",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "개인정보처리방침",
+        "w": 83
+      },
+      {
+        "h": 33,
+        "label": "이용약관",
+        "w": 41
+      },
+      {
+        "h": 33,
+        "label": "이용안내",
+        "w": 41
+      }
+    ],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 1440
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": false,
+    "clientWidth": 1425,
+    "detailImages": 0,
+    "documentWidth": 1425,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "checkout.html",
+    "smallInputs": [
+      {
+        "font": "13px",
+        "type": "INPUT"
+      },
+      {
+        "font": "13px",
+        "type": "INPUT"
+      },
+      {
+        "font": "13px",
+        "type": "INPUT"
+      },
+      {
+        "font": "13px",
+        "type": "SELECT"
+      }
+    ],
+    "smallTargets": [
+      {
+        "h": 44,
+        "label": "제품",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "룩북",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "브랜드",
+        "w": 34
+      },
+      {
+        "h": 44,
+        "label": "검색",
+        "w": 22
+      },
+      {
+        "h": 44,
+        "label": "로그인",
+        "w": 34
+      },
+      {
+        "h": 33,
+        "label": "1668-0868",
+        "w": 62
+      },
+      {
+        "h": 33,
+        "label": "카카오톡 문의 ↗",
+        "w": 79
+      },
+      {
+        "h": 33,
+        "label": "주문조회 ↗",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "배송·교환·반품 안내 ↗",
+        "w": 106
+      },
+      {
+        "h": 33,
+        "label": "브랜드 소개",
+        "w": 55
+      },
+      {
+        "h": 33,
+        "label": "개인정보처리방침",
+        "w": 83
+      },
+      {
+        "h": 33,
+        "label": "이용약관",
+        "w": 41
+      },
+      {
+        "h": 33,
+        "label": "이용안내",
+        "w": 41
+      }
+    ],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 1440
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": false,
+    "clientWidth": 829,
+    "detailImages": 0,
+    "documentWidth": 829,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "design-only.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width,initial-scale=1",
+    "width": 844
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": false,
+    "clientWidth": 829,
+    "detailImages": 0,
+    "documentWidth": 829,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "shop.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 844
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 829,
+    "detailImages": 14,
+    "documentWidth": 829,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-111.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 844
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": true,
+    "clientWidth": 829,
+    "detailImages": 11,
+    "documentWidth": 829,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "product-25.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 844
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": false,
+    "clientWidth": 829,
+    "detailImages": 0,
+    "documentWidth": 829,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "basket.html",
+    "smallInputs": [],
+    "smallTargets": [
+      {
+        "h": 16,
+        "label": "더 클라우드 필터 파우더 밤",
+        "w": 147
+      },
+      {
+        "h": 44,
+        "label": "삭제",
+        "w": 21
+      }
+    ],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 844
+  },
+  {
+    "brokenVisibleImages": 0,
+    "buybar": false,
+    "clientWidth": 829,
+    "detailImages": 0,
+    "documentWidth": 829,
+    "offscreenControls": [],
+    "overflow": false,
+    "route": "checkout.html",
+    "smallInputs": [],
+    "smallTargets": [],
+    "viewportMeta": "width=device-width, initial-scale=1",
+    "width": 844
+  }
+]

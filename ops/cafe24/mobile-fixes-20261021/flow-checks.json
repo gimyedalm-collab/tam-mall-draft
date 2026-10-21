@@ -1,0 +1,63 @@
+{
+  "powderBeforeScroll": {
+    "lazy": 13,
+    "loaded": 4,
+    "total": 14
+  },
+  "reviewNext": {
+    "buttons": 5,
+    "scrollY": 7743,
+    "selected": "2"
+  },
+  "reviewDesktop": {
+    "buttons": 7,
+    "overflow": false,
+    "selected": "1",
+    "width": 1440
+  },
+  "reviewBack": {
+    "buttons": 5,
+    "previousDisabled": true,
+    "selected": "1"
+  },
+  "cart": {
+    "overflow": false,
+    "quantity": "−3+",
+    "targets": [
+      {
+        "h": 44,
+        "w": 44
+      },
+      {
+        "h": 44,
+        "w": 44
+      }
+    ],
+    "totalText": true
+  },
+  "checkout": {
+    "inputs": [
+      "16px",
+      "16px",
+      "16px",
+      "16px"
+    ],
+    "totalRetained": true,
+    "url": "/storefront-v2/preview/checkout.html"
+  },
+  "menu": {
+    "headerLoginHidden": true,
+    "loginLinks": 1
+  },
+  "filter": {
+    "categories": [
+      "lip",
+      "lip",
+      "lip",
+      "lip",
+      "lip"
+    ],
+    "overflow": false,
+    "selected": "true"
+  }
+}

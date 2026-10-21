@@ -94,7 +94,7 @@ def main():
         assert f.parent==OUT.resolve()
         if f.name not in current and f.exists():f.unlink()
     def fragment(prefix):
-        tags=''.join(f'<img src="{prefix}{m["file"]}?v=5" width="{m["width"]}" height="{m["height"]}" alt="{html.escape(m["alt"],quote=True)}" style="display:block;width:100%;height:auto;border:0;margin:0"'+(' fetchpriority="high"' if m['order']<=2 else '')+'>' for m in media)
+        tags=''.join(f'<img src="{prefix}{m["file"]}?v=5" width="{m["width"]}" height="{m["height"]}" alt="{html.escape(m["alt"],quote=True)}" style="display:block;width:100%;height:auto;border:0;margin:0" decoding="async"'+(' fetchpriority="high"' if m['order']==1 else ' loading="lazy"')+'>' for m in media)
         return '<div style="max-width:860px;margin:0 auto;background:#fff">'+tags+facts+'</div>'
     prefix='/web/upload/tam-detail-20261020/powder-balm/'
     (OUT/'detail.local.html').write_text(fragment(''),encoding='utf-8');(OUT/'detail.cafe24.html').write_text(fragment(prefix),encoding='utf-8')

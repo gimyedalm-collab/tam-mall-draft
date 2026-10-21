@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15",
+  "updated_at": "2026-10-21",
   "items": [
     {
       "id": "TAM-C24-005",
@@ -250,6 +250,62 @@
       ],
       "evidence": "ops/cafe24/highlighter-r33-direction.md",
       "retest": "Seven-width regression and source/commerce preservation passed. Local standalone/integrated usage and typography checks passed at 320,390,860px. Public standalone/integrated checks passed at 320/390/860px; source commit 5a3b8d4."
+    },
+    {
+      "id": "TAM-MOBILE-20261021-01",
+      "type": "mobile_audit",
+      "priority": "P1",
+      "status": "fixed_local_verified_publication_pending",
+      "route": "product111 detail",
+      "reproduce": "Open published product111 without scrolling; inspect detail image loading attributes.",
+      "expected": "Lower detail media defer loading.",
+      "actual": "14/14 eager images,11,506,686bytes; all14 loaded before scroll.",
+      "evidence": "mobile-audit-20261021/REPORT.md",
+      "fix": "First detail image high priority; remaining13 lazy; async decoding; builder, package HTML/ZIP and storefront synchronized.",
+      "retest": "100 mobile/tablet viewport checks and12 desktop/landscape checks passed; flow/source evidence in mobile-fixes-20261021.",
+      "fix_evidence": "mobile-fixes-20261021/REPORT.md"
+    },
+    {
+      "id": "TAM-MOBILE-20261021-02",
+      "type": "mobile_audit",
+      "priority": "P2",
+      "status": "fixed_local_verified_publication_pending",
+      "route": "shared navigation/footer/cart",
+      "reproduce": "Inspect320px header/footer and populated preview basket controls.",
+      "expected": "Comfortable touch areas and intended account hiding.",
+      "actual": "Search21x44px;login31x44px;footer33px high;cart quantity40x40px;mobile account hiding overridden.",
+      "evidence": "mobile-audit-20261021/REPORT.md",
+      "fix": "44px mobile touch areas, working header account hide, menu login retained.",
+      "retest": "100 mobile/tablet viewport checks and12 desktop/landscape checks passed; flow/source evidence in mobile-fixes-20261021.",
+      "fix_evidence": "mobile-fixes-20261021/REPORT.md"
+    },
+    {
+      "id": "TAM-MOBILE-20261021-03",
+      "type": "mobile_audit",
+      "priority": "P2",
+      "status": "fixed_local_verified_publication_pending",
+      "route": "product/login/checkout inputs",
+      "reproduce": "Inspect computed mobile input/select font sizes.",
+      "expected": "Mobile-readable input and option text.",
+      "actual": "14product option/quantity controls plus login/checkout fields use13px.",
+      "evidence": "mobile-audit-20261021/REPORT.md",
+      "fix": "16px mobile field input/select/textarea typography.",
+      "retest": "100 mobile/tablet viewport checks and12 desktop/landscape checks passed; flow/source evidence in mobile-fixes-20261021.",
+      "fix_evidence": "mobile-fixes-20261021/REPORT.md"
+    },
+    {
+      "id": "TAM-MOBILE-20261021-04",
+      "type": "mobile_audit",
+      "priority": "P2",
+      "status": "fixed_local_verified_publication_pending",
+      "route": "all14product pages at320px",
+      "reproduce": "Compare documentElement.scrollWidth to clientWidth at320px in Chrome with desktop scrollbars.",
+      "expected": "No document horizontal overflow.",
+      "actual": "clientWidth305px;scrollWidth307px;right rvg-arrow ends at306.5px. Reproduced on public product110.",
+      "evidence": "mobile-audit-20261021/REPORT.md",
+      "fix": "Three page numbers at <=480px, five on larger screens; responsive rerender and wrapping fallback.",
+      "retest": "100 mobile/tablet viewport checks and12 desktop/landscape checks passed; flow/source evidence in mobile-fixes-20261021.",
+      "fix_evidence": "mobile-fixes-20261021/REPORT.md"
     }
   ]
 }

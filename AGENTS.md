@@ -946,3 +946,15 @@ After updating a delivery package or running an older product-page builder, run
 connected. Do not publish only standalone review pages and call main integrated.
 Verification: `ops/cafe24/verify_storefront_details.py` checks asset hashes/order,
 all markup outside the detail, and exclusion of product109 against363d346.
+
+## Mobile corrections - 2026-10-21
+
+Shared UI assets use cache revision mobile261021 on all25 storefront routes.
+Preserve44px mobile touch areas,16px form fields, responsive review pagination
+(three numbers through480px; five above), and the corrected mobile account hide.
+Powder Balm V5 generator/package/storefront retain13 lazy images after the first
+high-priority image, with async decoding throughout. Media bytes are unchanged.
+Product109 detail remains excluded; only shared asset cache revisions changed.
+Verification allows only those three shared cache revisions outside the detail.
+Evidence: ops/cafe24/mobile-fixes-20261021/REPORT.md. Physical phones, Safari and
+real slow-network performance remain unverified; Cafe24 live upload stays deferred.

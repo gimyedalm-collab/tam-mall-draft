@@ -226,6 +226,7 @@
 /* 5. 페이지 번호 */
 .rvg {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 4px;
   padding-top: 32px;
@@ -312,6 +313,7 @@ body:has(.tam-channel-panel:not([hidden])) .review-jump {
   }
   .review-section .rvc button {
     min-height: 48px;
+    min-width: 44px;
   }
   .rvl-item {
     grid-template-columns: 1fr;

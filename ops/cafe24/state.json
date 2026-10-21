@@ -941,5 +941,47 @@
     "github_pages_run": 39563100508,
     "public_verification": "ops/cafe24/main-sync-public-20261021.json",
     "public_file_matches": "89/89 (HTML normalized for CRLF only)"
+  },
+  "mobile_audit_20261021": {
+    "status": "superseded_by_mobile_fixes_20261021",
+    "baseline": "ac702df",
+    "report": "ops/cafe24/mobile-audit-20261021/REPORT.md",
+    "routes": 25,
+    "widths": [
+      320,
+      390,
+      430,
+      768
+    ],
+    "layout_checks": 100,
+    "layout_overflow_failures": 14,
+    "priority_findings": [
+      "Powder Balm has14 eager media totalling11.51MB",
+      "320px review-pagination next arrow causes2px overflow on all14product pages",
+      "Narrow header/footer/cart touch targets and ineffective mobile account hiding",
+      "13px product/login/checkout inputs"
+    ],
+    "site_source_changed": false,
+    "production_cafe24_changed": false,
+    "physical_device_verified": false,
+    "next_action": "See mobile-fixes-20261021/REPORT.md; physical device and real mobile network checks remain unverified.",
+    "layout_overflow_details": "All14product pages at320px: clientWidth305px vs scrollWidth307px from right review-pagination arrow. Other86combinations pass."
+  },
+  "mobile_fixes_20261021": {
+    "status": "fixed_local_verified_publication_pending",
+    "report": "ops/cafe24/mobile-fixes-20261021/REPORT.md",
+    "mobile_tablet_checks": 100,
+    "desktop_landscape_checks": 12,
+    "fixed_bug_ids": [
+      "TAM-MOBILE-20261021-01",
+      "TAM-MOBILE-20261021-02",
+      "TAM-MOBILE-20261021-03",
+      "TAM-MOBILE-20261021-04"
+    ],
+    "shared_cache_revision": "mobile261021",
+    "shading_detail_unchanged": true,
+    "production_cafe24_changed": false,
+    "physical_device_verified": false,
+    "real_mobile_network_verified": false
   }
 }

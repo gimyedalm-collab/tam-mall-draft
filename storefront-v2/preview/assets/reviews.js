@@ -157,6 +157,7 @@
   /* 4. 목록 + 5. 페이지 번호 */
   const list = el('ol', 'rvl');
   const pager = el('nav', 'rvg');
+  const compactPager = matchMedia('(max-width:480px)');
   pager.setAttribute('aria-label', '후기 페이지');
   body.append(controls, list, pager);
 
@@ -226,8 +227,9 @@
         .slice((state.page - 1) * PER_PAGE, state.page * PER_PAGE)
         .map(row),
     );
-    const first = Math.max(1, Math.min(state.page - 2, pages - 4));
-    const last = Math.min(pages, first + 4);
+    const visiblePages = compactPager.matches ? 3 : 5;
+    const first = Math.max(1, Math.min(state.page - Math.floor(visiblePages / 2), pages - visiblePages + 1));
+    const last = Math.min(pages, first + visiblePages - 1);
     const buttons = [
       pageButton('‹', state.page - 1, {
         cls: 'rvg-arrow',
@@ -260,5 +262,6 @@
     if (scroll) controls.scrollIntoView({ block: 'start' });
   }
 
+  compactPager.addEventListener('change', () => render());
   render();
 })();

@@ -110,3 +110,12 @@ and main-sync-public-20261021.json. Live Cafe24 upload remains deferred.
 ## 다음 작업
 
 사용자 피드백에 따라 이미지 범위 안에서 판단한다. 이미지 교체를 이유로 페이지 구성이나 문안을 또 바꾸지 않는다. Claude는 비대화형·로컬 세션 미저장 옵션 필수. 사용자 다른 세션/인증은 보존한다. PowerShell에서 한국어 Python 파이프는 UTF-8 OutputEncoding을 사용한다.
+# Mobile corrections - 2026-10-21
+
+Four mobile audit bugs are fixed; evidence is in mobile-fixes-20261021/REPORT.md.
+100 mobile/tablet combinations plus12 desktop/landscape checks passed. Keep the
+mobile261021 shared asset cache references,44px controls,16px fields, compact
+review pager and Powder Balm13 lazy images when rebuilding storefront pages.
+Shading109 detail is unchanged. GitHub publication verification is recorded
+separately in mobile-fixes-20261021/public-checks.json. Actual Cafe24 upload and
+physical phone/network verification remain deferred/unverified.

@@ -1,0 +1,44 @@
+[
+  {
+    "product": 110,
+    "local_detail_media_bytes": 5997226,
+    "media_count": 18,
+    "lazy_count": 17,
+    "first_image_has_dimensions": true
+  },
+  {
+    "product": 111,
+    "local_detail_media_bytes": 11506686,
+    "media_count": 14,
+    "lazy_count": 0,
+    "first_image_has_dimensions": true
+  },
+  {
+    "product": 25,
+    "local_detail_media_bytes": 2128607,
+    "media_count": 7,
+    "lazy_count": 6,
+    "first_image_has_dimensions": true
+  },
+  {
+    "product": 118,
+    "local_detail_media_bytes": 11617934,
+    "media_count": 16,
+    "lazy_count": 15,
+    "first_image_has_dimensions": true
+  },
+  {
+    "product": 102,
+    "local_detail_media_bytes": 5392539,
+    "media_count": 9,
+    "lazy_count": 8,
+    "first_image_has_dimensions": true
+  },
+  {
+    "product": 24,
+    "local_detail_media_bytes": 11491647,
+    "media_count": 14,
+    "lazy_count": 13,
+    "first_image_has_dimensions": true
+  }
+]
