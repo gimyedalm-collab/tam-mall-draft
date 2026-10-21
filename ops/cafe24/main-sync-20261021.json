@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-21",
+  "baseline": "363d346",
+  "scope": "GitHub storefront integration; live Cafe24 upload remains deferred",
+  "excluded_product": 109,
+  "excluded_product_unchanged": true,
+  "products": [
+    {
+      "product": 110,
+      "release": "cloud-blush-v13",
+      "package": "cafe24-delivery-20261019/cloud-blush",
+      "media_count": 18,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_normalization": true
+    },
+    {
+      "product": 111,
+      "release": "powder-balm-v5",
+      "package": "cafe24-delivery-20261020/powder-balm",
+      "media_count": 14,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_normalization": true
+    },
+    {
+      "product": 25,
+      "release": "lipoil-v9",
+      "package": "cafe24-delivery-20261019/lip-oil",
+      "media_count": 7,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_normalization": true
+    },
+    {
+      "product": 118,
+      "release": "lip-liner-r34",
+      "package": "cafe24-delivery-20261019/lip-liner",
+      "media_count": 16,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_normalization": true
+    },
+    {
+      "product": 102,
+      "release": "cheek-v12",
+      "package": "cafe24-delivery-20261019/milky-cheek",
+      "media_count": 9,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_normalization": true
+    },
+    {
+      "product": 24,
+      "release": "highlighter-r33",
+      "package": "cafe24-delivery-20261019/highlighter",
+      "media_count": 14,
+      "manifest_order_and_hashes_match": true,
+      "outside_detail_identical_after_newline_normalization": true
+    }
+  ],
+  "lip_series": "All four preview options and original common-series images retained. Oils-only component is explicitly scoped to01-03, with00 gloss detail link.",
+  "main_film": "V16 already connected; unchanged",
+  "owner_visual_acceptance": "Not inferred from integration QA",
+  "browser_local": {
+    "widths": [
+      390,
+      1440
+    ],
+    "routes_checked": 6,
+    "horizontal_overflow": false,
+    "desktop_detail_width": 860,
+    "first_image_loaded_all_at_desktop": true,
+    "mobile_option_counts_including_placeholder": {
+      "110": 7,
+      "111": 2,
+      "25": 5,
+      "118": 7,
+      "102": 5,
+      "24": 4
+    }
+  },
+  "sync_idempotent": true
+}

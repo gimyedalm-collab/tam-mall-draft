@@ -1,3 +1,17 @@
+## ACTIVE: main storefront sync, 2026-10-21
+
+Owner requested all completed work applied to GitHub main except shading duo.
+Current worktree: Desktop/tam-main-sync-261021. Six routes110,111,25,118,102,24
+now embed their existing Cafe24 registration compositions; product109 unchanged.
+Cloud V13 and Powder Balm V5 had been published standalone but were absent from
+main product details. Lip Oil V9 is a01-03 component within product25, preserving
+00 gloss, all existing options and original common series panels. Other latest
+compositions are R34 liner, V12 cheek, R33 highlighter. Main film V16 was already
+connected. Run sync_storefront_details.py after package or old-builder changes.
+See main-sync-20261021.json for verification; live Cafe24 upload remains deferred.
+
+---
+
 # TAM 하이라이터 — 현재 인계 / 2026-10-15
 
 ## 현재 기준: 사용자 확인 후 일단 마감 · 2026-10-15

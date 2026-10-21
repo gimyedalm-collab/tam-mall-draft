@@ -929,3 +929,20 @@ GIF remains256-colour and hero8fps: resolution gain is not original-video
 fidelity or physical shade validation. Existing full originals and V1–V4
 source masters preserved. Native product information unchanged. Live Cafe24
 upload/save and physical-device checks remain deferred; owner approval separate.
+
+
+## Main storefront integration - 2026-10-21
+
+Owner explicitly requested applying all completed work to GitHub main except
+Heart Shading Duo. Six storefront product routes now use the current Cafe24
+delivery compositions:110 Cloud V13,111 Powder Balm V5,25 Lip Oil V9,118 Lip
+Liner R34,102 Milky Cheek V12,24 Highlighter R33. Product109 stays unchanged.
+The oils-only component on product25 is labeled01-03; all four existing options,
+00 gloss link and common series information are retained. This does not resolve
+or alter live SKU/stock/review mapping. Live Cafe24 upload remains deferred.
+
+After updating a delivery package or running an older product-page builder, run
+`python -X utf8 ops/cafe24/sync_storefront_details.py` to keep the actual storefront
+connected. Do not publish only standalone review pages and call main integrated.
+Verification: `ops/cafe24/verify_storefront_details.py` checks asset hashes/order,
+all markup outside the detail, and exclusion of product109 against363d346.

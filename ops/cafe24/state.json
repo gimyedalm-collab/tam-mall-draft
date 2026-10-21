@@ -921,5 +921,21 @@
     "package": "cafe24-delivery-20261020/powder-balm-cafe24.zip",
     "production_changed": false,
     "next_action": "Owner visual review of image-quality improvement; actual Cafe24 upload and physical-device validation remain deferred."
+  },
+  "main_storefront_sync_20261021": {
+    "status": "local_verified_ready_for_github_publish",
+    "report": "ops/cafe24/main-sync-20261021.json",
+    "products": [
+      110,
+      111,
+      25,
+      118,
+      102,
+      24
+    ],
+    "excluded_product": 109,
+    "scope": "Existing main storefront routes now contain current Cafe24 delivery compositions.",
+    "production_cafe24_changed": false,
+    "next_action": "Push to main and verify GitHub Pages build/public routes. Cafe24 upload remains deferred."
   }
 }
