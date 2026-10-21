@@ -26,6 +26,7 @@ MEASURE = """return {
  documentWidth:document.documentElement.scrollWidth,
  overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1,
  mobileFields:Array.from(document.querySelectorAll('.field input:not([type=search]),.field select,.field textarea')).filter(e=>e.getBoundingClientRect().width>0).map(e=>parseFloat(getComputedStyle(e).fontSize)),
+ mobileControlHeights:Array.from(document.querySelectorAll('.field input:not([type=search]),.field select,.field textarea')).filter(e=>e.getBoundingClientRect().width>0).map(e=>e.getBoundingClientRect().height),
  detailImages:document.querySelectorAll('#product-detail img').length,
  detailLazy:document.querySelectorAll('#product-detail img[loading=lazy]').length,
  headerReady:!!document.querySelector('.ux-header'),
@@ -103,14 +104,14 @@ def main():
                 assert not result['overflow'], result
                 if result['actualWidth']<=900:
                     assert all(size>=16 for size in result['mobileFields']), result
+                    assert all(height>=44 for height in result['mobileControlHeights']), result
         command('POST','/window/rect',{'width':600,'height':950,'x':0,'y':0})
         visit('product-109.html')
         # Safari's native option popup does not expose option clicks to WebDriver.
         # Use the select's ordinary keyboard interaction and verify its value.
         select=find('select')
         command('POST','/element/'+select+'/click',{})
-        command('POST','/element/'+select+'/value',{'text':'01.'})
-        command('POST','/element/'+select+'/value',{'text':'\ue007'})
+        click('select option:nth-child(2)')
         wait_for(lambda:script("return document.querySelector('select').selectedIndex===1"))
         quantity=find('input[type=number]')
         command('POST','/element/'+quantity+'/clear',{})
