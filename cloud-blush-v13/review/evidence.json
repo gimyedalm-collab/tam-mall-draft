@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-21",
+  "references": [
+    {
+      "brand": "Ririmew",
+      "url": "https://www.ririmew.com/products/cheek/",
+      "observed": "POINT01 transparent colour, POINT02 glow, POINT03 soft texture fit, then COLORS. Official text and mobile rendered layout inspected.",
+      "borrowed": "Placement and three short point rows, not product-specific glow/ingredient claims."
+    },
+    {
+      "brand": "e.l.f.",
+      "url": "https://www.elfcosmetics.com/products/putty-blush/",
+      "observed": "Official Details links cream-to-powder with feel and application; FAQ asks about tools, layering and amount.",
+      "borrowed": "Reasoning from feature to application value; no copied efficacy."
+    },
+    {
+      "brand": "SHISEIDO",
+      "url": "https://brand.shiseido.co.jp/shiseido-minimalist-whipped-powder-blush-4514254085509.html",
+      "observed": "Official product introduction describes mousse texture changing to powder and ease of blending.",
+      "borrowed": "Useful confirmation that texture should be explained as application/finish, not only a formula name."
+    }
+  ],
+  "tam_source_claims": [
+    {
+      "file": "C:/Users/BNK-1/Desktop/tam-cloud-blush-20261015/sources/국문/15.webp",
+      "observation": "Light fluffy melting texture wording visually read; excluded model image is not delivered."
+    },
+    {
+      "file": "C:/Users/BNK-1/Desktop/tam-cloud-blush-20261015/sources/국문/creamblush16_1.png",
+      "observation": "Soft-Focus Blur makeup positioning visually read; no source photograph or quantified skin smoothing used."
+    },
+    {
+      "file": "cloud-blush-v12/product-information.html",
+      "observation": "Use fingers or tools to spread thinly and tap."
+    }
+  ]
+}

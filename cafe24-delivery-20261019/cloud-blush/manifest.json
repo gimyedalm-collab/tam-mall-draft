@@ -1,6 +1,6 @@
 {
   "product": "클라우드 블러",
-  "source": "cloud-blush-v12/index.html",
+  "source": "cloud-blush-v13/index.html",
   "status": "exported_candidate; owner acceptance pending; Cafe24 upload deferred",
   "render": "430 CSS px at 2x; static raster panels and one unified cream/application GIF; native information",
   "files": [
@@ -27,6 +27,16 @@
     {
       "file": "images/03-detail.jpg",
       "width": 860,
+      "height": 798,
+      "kind": "jpeg",
+      "alt": "손끝으로 완성하는 보송한 블러 치크 손끝으로 간편하게  소량을 얇게 펴 바르고 톡톡.  가볍게 녹아드는 크림  피부에 부드럽게 풀리는 멜팅 텍스처.  보송한 블러 마무리  크림 투 파우더 포뮬러.",
+      "bytes": 69176,
+      "sha256": "3ee770082cc53d486423243835509291510ea9395f30da3713198fea53402417",
+      "reference_region": "Ririmew POINT01–03 structural adaptation"
+    },
+    {
+      "file": "images/04-detail.jpg",
+      "width": 860,
       "height": 1864,
       "kind": "jpeg",
       "alt": "여섯 가지 컬러 01 백도 02 구아바 03 아사이베리 04 파파야 05 용과 06 살구 01  백도  02  구아바  03  아사이베리  04  파파야  05  용과  06  살구  피부색·사용량·조명 및 화면 환경에 따라 발색이 다르게 보일 수 있습니다. 01 백도 쉐이크 손목 발색 / 02 구아바 쉐이크 손목 발색 / 03 아사이베리 쉐이크 손목 발색 / 04 파파야 쉐이크 손목 발색 / 05 용과 쉐이크 손목 발색 / 06 살구 쉐이크 손목 발색 / 01 백도 쉐이크 제형 원본 / 02 구아바 쉐이크 제형 원본 / 03 아사이베리 쉐이크 제형 원본 / 04 파파야 쉐이크 제형 원본 / 05 용과 쉐이크 제형 원본 / 06 살구 쉐이크 제형 원본",
@@ -35,7 +45,7 @@
       "reference_region": "03"
     },
     {
-      "file": "images/04-detail.jpg",
+      "file": "images/05-detail.jpg",
       "width": 860,
       "height": 222,
       "kind": "jpeg",
@@ -45,7 +55,7 @@
       "reference_region": null
     },
     {
-      "file": "images/05-detail.jpg",
+      "file": "images/06-detail.jpg",
       "width": 860,
       "height": 298,
       "kind": "jpeg",
@@ -55,7 +65,7 @@
       "reference_region": "04–06"
     },
     {
-      "file": "images/06-detail.jpg",
+      "file": "images/07-detail.jpg",
       "width": 860,
       "height": 298,
       "kind": "jpeg",
@@ -65,7 +75,7 @@
       "reference_region": "04–06"
     },
     {
-      "file": "images/07-detail.jpg",
+      "file": "images/08-detail.jpg",
       "width": 860,
       "height": 298,
       "kind": "jpeg",
@@ -75,7 +85,7 @@
       "reference_region": "04–06"
     },
     {
-      "file": "images/08-detail.jpg",
+      "file": "images/09-detail.jpg",
       "width": 860,
       "height": 298,
       "kind": "jpeg",
@@ -85,7 +95,7 @@
       "reference_region": "04–06"
     },
     {
-      "file": "images/09-detail.jpg",
+      "file": "images/10-detail.jpg",
       "width": 860,
       "height": 298,
       "kind": "jpeg",
@@ -95,7 +105,7 @@
       "reference_region": "04–06"
     },
     {
-      "file": "images/10-detail.jpg",
+      "file": "images/11-detail.jpg",
       "width": 860,
       "height": 298,
       "kind": "jpeg",
@@ -105,7 +115,7 @@
       "reference_region": "04–06"
     },
     {
-      "file": "images/11-detail.jpg",
+      "file": "images/12-detail.jpg",
       "width": 860,
       "height": 194,
       "kind": "jpeg",
@@ -115,7 +125,7 @@
       "reference_region": null
     },
     {
-      "file": "images/12-detail.jpg",
+      "file": "images/13-detail.jpg",
       "width": 860,
       "height": 366,
       "kind": "jpeg",
@@ -125,7 +135,7 @@
       "reference_region": null
     },
     {
-      "file": "images/13-motion.gif",
+      "file": "images/14-motion.gif",
       "width": 640,
       "height": 359,
       "kind": "gif",
@@ -135,7 +145,7 @@
       "reference_region": null
     },
     {
-      "file": "images/14-detail.jpg",
+      "file": "images/15-detail.jpg",
       "width": 860,
       "height": 280,
       "kind": "jpeg",
@@ -145,7 +155,7 @@
       "reference_region": null
     },
     {
-      "file": "images/15-detail.jpg",
+      "file": "images/16-detail.jpg",
       "width": 860,
       "height": 832,
       "kind": "jpeg",
@@ -155,7 +165,7 @@
       "reference_region": "09"
     },
     {
-      "file": "images/16-detail.jpg",
+      "file": "images/17-detail.jpg",
       "width": 860,
       "height": 482,
       "kind": "jpeg",
@@ -165,7 +175,7 @@
       "reference_region": "11"
     },
     {
-      "file": "images/17-detail.jpg",
+      "file": "images/18-detail.jpg",
       "width": 860,
       "height": 466,
       "kind": "jpeg",

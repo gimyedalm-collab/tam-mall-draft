@@ -874,3 +874,24 @@ other headings and sections remain unchanged. Compare review/heading-type.html;
 evidence review/heading-type-evidence.json under cloud-blush-v12. Freshian title
 is from the saved2026-10-20 reference, Ririmew COLORS/SWATCH from official page
 opened2026-10-21. No claim that the chosen font sizes are competitor standards.
+
+
+## Cloud V13 purchase-reason section - 2026-10-21
+
+Owner says the page does not explain why to buy and asks to adopt a suitable
+reference section, explicitly continuing now with Claude analysis. Current
+source cloud-blush-v13; review cloud-blush-v13/review; delivery URL unchanged.
+Add one compact three-point section between product introduction and palette:
+method (fingertip use), feel (light melting cream), finish (soft powder/blur
+makeup). Structure comes from Ririmew's official POINT01–03 before COLORS;
+claims come only from TAM's official usage, melting-texture brand material,
+Soft-Focus Blur makeup positioning and owner's cream-to-powder brief. Do not
+transfer competitor glow, quantified efficacy, clinical smoothing or wear.
+This insertion supersedes older 'no new USP section' limitations. Existing
+17 JPG/GIF media and native information are byte-identical to latest V12;
+one400CSS-px text panel added (title24,point18,support15). No repeated image,
+new model photo, synthetic shade/finish, extra FAQ or page-wide reorder.
+Planning and visual Claude critiques use nonpersistent read-only CLI. Claiming
+conversion improvement or actual Cafe24 integration remains unsupported.
+Owner visual acceptance and physical shade matching stay separate from QA;
+actual Cafe24 upload/save/device verification remains deferred.

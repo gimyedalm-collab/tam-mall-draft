@@ -111,6 +111,10 @@ with sync_playwright() as pw:
     b=pw.chromium.launch()
     for key,name,source,selector,motions in CONFIG:
         if len(sys.argv)>1 and key not in sys.argv[1:]:continue
+        if key=='cloud-blush' and (ROOT/'cloud-blush-v13/index.html').exists():
+            for script in ('export_cloud_blush_v13.py','verify_cloud_blush_v13.py','promote_cloud_blush_v13.py'):
+                subprocess.run([sys.executable,str(ROOT/'ops/cafe24'/script)],check=True)
+            continue
         if key=='cloud-blush' and (ROOT/'cloud-blush-v12/index.html').exists():
             for script in ('export_cloud_blush_v12.py','verify_cloud_blush_v12.py','promote_cloud_blush_v12.py'):
                 subprocess.run([sys.executable,str(ROOT/'ops/cafe24'/script)],check=True)

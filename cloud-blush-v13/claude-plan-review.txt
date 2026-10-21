@@ -1,0 +1,42 @@
+Read-only; nothing edited.
+
+## Verdict: A, with the three points re-cut (call it A′)
+
+A is placed right. The current sequence states a slogan (hero), names the product, then drops 12 swatch images before any "why." A benefit block between intro and palette is the only insertion point that fixes that without touching the accepted reference order.
+
+**But A's three points are two points.** `브러시 없이 손끝으로` and `경계는 부드럽게` are both application method — tool and technique for the same action. A buyer reads one reason, not two. The three axes your verified material actually supports are **method / feel / finish**:
+
+1. method — official usage lists 손가락 first
+2. feel — official 15.webp: light, fluffy, melting
+3. finish — creamblush16_1: Soft-Focus Blur
+
+That also puts the cream→powder arc across points 2–3, which is the thing the owner says isn't landing.
+
+## Exact copy
+
+**Heading:** 손끝 하나로, 볼 메이크업 끝.
+
+| | 소제목 | 보조 문장 |
+|---|---|---|
+| 01 | 손끝으로 바로 | 도구 없이 손가락으로 덜어 바릅니다. |
+| 02 | 가볍게 녹아들어 | 가볍고 폭신하게 녹아드는 크림 제형. |
+| 03 | 보송한 블러 마무리 | 가볍게 두드리면 보송하게 마무리됩니다. |
+
+Each supporting line is 19–20 Korean characters. Text only — **do not move the flatlay up.** No unused asset supports these three points; the flatlay illustrates range and belongs with `6가지 컬러 · 2.8 g`. Moving it either empties the intro or repeats an image later. A text band between two heavy image sections is also the page's only visual rest.
+
+## Against B
+
+B is worse on evidence, not just order. The GIF is an edit of different real shots — cream touch, hand spread, finger exit, hold. Framing it as a "two-state cream/powder explanation" labels edited frames as before/after of one controlled event. That is exactly the fake-evidence line you've been holding. Reject B.
+
+## Unsupported claims to drop
+
+- **매끈하게** (your draft heading) — reads as skin-texture/pore smoothing. Brand source supports blurred *makeup appearance* only. Use 보송/블러, not 매끈.
+- **브러시 없이** — official says 손가락이나 도구. "No brush" implies brushes are unsuitable. Use 손끝으로 바로.
+- 보송 anywhere = finish at application. Not 지속력, not 무너짐 없음.
+- Ririmew's see-through/glow points: do not borrow the claims, only the three-point shape. You already said this; holding it.
+
+## One candid caveat
+
+Your hero (`크림처럼 사르르, 파우더처럼 보송하게.`) and the texture heading at section 07 (`크림처럼 펴 바르고, 파우더처럼 보송하게.`) are already near-verbatim twins. A′ adds a third mention of 보송. It's fine as reinforcement *if* the two headings stop being identical — a one-word change to the later heading, owner's call, not required for A′ to ship.
+
+And honestly: three sentences give the page a *stated* reason, not a *proven* one. The only proof asset you have is the existing GIF, and it proves texture and spreading, not finish. Closing that gap needs footage you don't have and I'm not going to ask you to film it. A′ is the ceiling for existing material.

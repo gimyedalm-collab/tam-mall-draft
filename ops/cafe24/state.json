@@ -802,7 +802,7 @@
       "cafe24_upload": "deferred_by_owner"
     },
     "cloud_copy_type_v12_20261021": {
-      "status": "package_verified; owner_visual_acceptance_pending",
+      "status": "archived_baseline; V13 adds one purchase-reason panel, existing media preserved",
       "source": "cloud-blush-v12/index.html",
       "review": "cloud-blush-v12/review/index.html",
       "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
@@ -821,6 +821,20 @@
         "evidence": "cloud-blush-v12/review/heading-type-evidence.json",
         "claude": "Previous V12 critique retained; this small type adjustment verified by Codex/browser, no new Claude session"
       }
+    },
+    "cloud_purchase_reason_v13_20261021": {
+      "status": "package_verified; owner_visual_acceptance_pending",
+      "source": "cloud-blush-v13/index.html",
+      "review": "cloud-blush-v13/review/index.html",
+      "registration": "cafe24-delivery-20261019/cloud-blush/index.html",
+      "plan": "cloud-blush-v13/plan.json",
+      "qa": "cloud-blush-v13/qa.json",
+      "changes": "One three-point method/feel/finish benefit section after intro, before palette; Ririmew structure adapted to verified TAM claims",
+      "preserved": "All17 previous media byte-identical, native information unchanged",
+      "new_media": "One static JPG text panel; no new product/shade photo, AI generation or video",
+      "claude": "Nonpersistent read-only planning critique, then visual critique",
+      "conversion_uplift_verified": false,
+      "cafe24_upload": "deferred_by_owner"
     }
   },
   "lipoil_formula_series_20261019": {

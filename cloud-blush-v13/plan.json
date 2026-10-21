@@ -1,0 +1,60 @@
+{
+  "version": 13,
+  "objective": "Explain why to choose this cream-to-powder blush before asking the customer to choose a shade.",
+  "owner_request": "Still no clear reason to buy; insert a suitable reference section. Continue now and cross-check with Claude.",
+  "chosen_structure": "Ririmew official VEIL GLOW CHEEK: three concise benefit points before colour choices. Adapted only method/feel/finish to TAM.",
+  "insertion": "After original product introduction/photo, before palette. Existing sequence and images preserved.",
+  "copy": {
+    "heading": "손끝으로 완성하는 보송한 블러 치크",
+    "points": [
+      {
+        "title": "손끝으로 간편하게",
+        "body": "소량을 얇게 펴 바르고 톡톡.",
+        "basis": "Official TAM usage: fingers or tools, thin application and tapping."
+      },
+      {
+        "title": "가볍게 녹아드는 크림",
+        "body": "피부에 부드럽게 풀리는 멜팅 텍스처.",
+        "basis": "Official Korean15.webp says light/fluffy, melting texture. Wording only: source contains excluded Dasha, image not copied into deliverable."
+      },
+      {
+        "title": "보송한 블러 마무리",
+        "body": "크림 투 파우더 포뮬러.",
+        "basis": "Owner cream-to-powder brief and official creamblush16_1.png Soft-Focus Blur makeup positioning. Wording only, no model image used."
+      }
+    ]
+  },
+  "not_claimed": [
+    "Measured pore/wrinkle improvement",
+    "Wear duration",
+    "No foundation lifting",
+    "Unique/better than competitor",
+    "Measured conversion or sales uplift",
+    "Controlled before-after transformation"
+  ],
+  "design": {
+    "palette": [
+      "#f6f0f5",
+      "#39303d",
+      "#6a5c68",
+      "#ddd3df"
+    ],
+    "source_width": 430,
+    "section_height": 400,
+    "title_px": 24,
+    "point_title_px": 18,
+    "support_px": 15,
+    "images_added": 0,
+    "why_text_only": "A compact rest between product photo and colour comparison; no existing image repeated, no synthetic texture evidence."
+  },
+  "claude": "Plan reviewed read-only without session persistence; adopted distinct method/feel/finish and kept original photo/order. Advisory response is not owner acceptance.",
+  "limits": "Improves explicit buying rationale; does not prove conversion uplift. Current application GIF is an editorial montage, not controlled finish proof.",
+  "cafe24_upload": "deferred_by_owner",
+  "visual_review_repairs": [
+    "Remove point numbers to avoid collision with shade numbers",
+    "Remove repeated hand wording",
+    "Finish supporting line names cream-to-powder mechanism instead of repeating matte finish",
+    "Reduce400px panel height to balance top/bottom whitespace",
+    "Keep summary headline intentionally: immediate buying rationale before detail"
+  ]
+}

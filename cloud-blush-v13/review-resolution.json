@@ -1,0 +1,16 @@
+{
+  "review_mode": "Two read-only Claude Code consultations, both --no-session-persistence --output-format text",
+  "planning": {
+    "adopted": ["Insert before colours, after product introduction", "Use distinct method/feel/finish rather than two overlapping application benefits", "Preserve existing images and order; compact text block avoids duplicate images", "No controlled before-after claim from editorial GIF"],
+    "adjusted": "Did not use proposed '손끝 하나로, 볼 메이크업 끝' slogan; retained a plain summary naming the desired makeup finish. No measured pore/wrinkle, wear or conversion claims."
+  },
+  "visual": {
+    "reviewed": "Initial440px panel and actual390px delivery screenshot",
+    "accepted_repairs": ["Removed01/02/03 point markers to avoid confusion with adjacent shade numbering", "Shortened point01 supporting copy to avoid repeating fingers", "Point03 supporting copy now names cream-to-powder formula instead of repeating matte/soft words", "Panel reduced440 to400 source CSS px for balanced whitespace"],
+    "retained": "The headline intentionally previews the purchase benefit. It is not an independent additional claim, and replacing it with a vague curiosity headline would weaken immediate understanding.",
+    "final_validation": "Codex visual and browser checks after the above repairs; no claim that Claude re-reviewed the repaired final pixels"
+  },
+  "confidence": "Concrete purchase rationale is now explicit before shade choice; conversion uplift not measured",
+  "owner_visual_acceptance": "pending",
+  "cafe24_upload": "deferred_by_owner"
+}

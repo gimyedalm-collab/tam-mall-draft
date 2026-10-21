@@ -1,0 +1,9 @@
+"""Visual critique after plan-first review; no persisted Claude session."""
+from pathlib import Path
+import subprocess
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'cloud-blush-v13'
+prompt='''Read-only final visual critique, under300 Korean words. No file edits or other agents. Read cloud-blush-v13/plan.json, claude-plan-review.txt, review-benefits-430.png, and review-delivery-390.jpg. Owner asks why they should buy and wants suitable reference section inserted; has rejected huge fonts, too much text, repeated photos, fake shade evidence. We followed your prior A-prime recommendation: one compact block between intro and colours; distinct method/feel/finish; no existing images duplicated, no whole-page reorder. Header24, point18, support15 source px at430. All original17 package panels carried byte-identically, new benefit block is one440CSS-px panel. Brand supports light melting texture and Soft-Focus Blur cosmetic appearance, not controlled pore improvement. Does the new block help orientation/purchase rationale and visually fit? Identify only concrete must-fix defects and distinguish optional stronger evidence. Do not claim conversion success. Your prior view that any 'brushless' wording implies brushes unsuitable was overrestrictive, but this copy simply says fingertips anyway.'''
+(OUT/'claude-visual-input.txt').write_text(prompt,encoding='utf-8')
+exe=Path.home()/'AppData/Roaming/npm/node_modules/@anthropic-ai/claude-code/bin/claude.exe'
+p=subprocess.run([str(exe),'-p','--no-session-persistence','--output-format','text','--tools','Read','--allowedTools','Read','--strict-mcp-config','--permission-mode','dontAsk'],input=prompt,cwd=ROOT,capture_output=True,text=True,encoding='utf-8',errors='replace',timeout=240)
+(OUT/'claude-visual-review.txt').write_text(p.stdout,encoding='utf-8');print(p.stdout);print('exit',p.returncode)
