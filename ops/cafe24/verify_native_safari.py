@@ -113,6 +113,7 @@ def main():
                 r = js("""const box=document.querySelector('#tam-candidate-detail');return {
                   width:innerWidth,client:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,
                   images:box.querySelectorAll('img').length,
+                  detail_center_error:Math.abs(box.getBoundingClientRect().x+box.getBoundingClientRect().width/2-document.documentElement.clientWidth/2),
                   snaps:[...document.querySelectorAll('.snap_widget')].map(e=>e.id),
                   selects:[...document.querySelectorAll('.xans-product-detail select')].filter(e=>e.getBoundingClientRect().width>0).map(e=>({font:parseFloat(getComputedStyle(e).fontSize),height:e.getBoundingClientRect().height})),
                   viewport:document.querySelector('meta[name=viewport]')?.content};""")
@@ -120,7 +121,20 @@ def main():
                 report['details'].append(r)
                 assert r['width']==width and r['scroll']<=r['client']+1 and r['images']==count,r
                 assert set(['1','3','4','5']).issubset(r['snaps']),r
+                assert r['detail_center_error']<1,r
                 if width==390: assert all(s['font']>=16 and s['height']>=44 for s in r['selects']),r
+                if number in (109,25):
+                    wait(lambda: js("return document.querySelector('.jsMobileLayer')?.dataset.tamPurchaseReady==='true'"))
+                    js("window.scrollTo({top:document.querySelector('#prdDetail').getBoundingClientRect().top+scrollY+150,behavior:'instant'});")
+                    wait(lambda: js("return document.querySelector('.jsMobileLayer').classList.contains('fixed') && !document.querySelector('.mobile-fix-footer').inert"))
+                    click('.mobile-fix-footer .jsLayerBtn')
+                    wait(lambda: js("return document.querySelector('.jsMobileLayer').getAttribute('role')==='dialog' && document.activeElement.classList.contains('tam-purchase-close')"))
+                    r['purchase_sheet']=js("""const b=document.querySelector('.jsMobileLayer').getBoundingClientRect();return {left:b.left,right:b.right,bottom:b.bottom,width:innerWidth,height:innerHeight,scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth};""")
+                    sheet=r['purchase_sheet']
+                    assert sheet['left']>=-1 and sheet['right']<=sheet['width']+1 and sheet['bottom']<=sheet['height']+1 and sheet['scroll']<=sheet['client']+1,sheet
+                    click('.tam-purchase-close')
+                    wait(lambda: js("return !document.querySelector('.jsMobileLayer').classList.contains('on') && document.activeElement.classList.contains('jsLayerBtn')"))
+                    r['purchase_open_close_focus']=True
             for collection, count in [('jelly',6),('cloud',8)]:
                 visit('product/list.html?cate_no=74&tam_collection='+collection)
                 wait(lambda: js('return document.body.dataset.tamCollection==='+json.dumps(collection)))

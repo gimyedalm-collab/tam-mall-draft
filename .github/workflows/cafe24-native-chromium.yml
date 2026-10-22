@@ -19,6 +19,9 @@ jobs:
       - name: Actual candidate at 1.6 Mbps and 150 ms latency
         if: always()
         run: python ops/cafe24/verify_native_slow.py
+      - name: Centered details and native purchase sheet
+        if: always()
+        run: python ops/cafe24/verify_native_purchase.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
