@@ -3,6 +3,7 @@
 Owner rejected side gutters. Source69d2172 removes landscape max-width;
 landscape100svh cover, portrait full-width16:9. Original V16 bytes unchanged.
 Safari39705573263 passes50general,9home sizes,3slow mobile routes.
+Main350255e/Pages39706060119 deployed;2changed files match public; public fill confirmed.
 See fullscreen-20261022/REPORT.md. Older contain-on-landscape advice superseded.
 Cafe24 authenticated again; isolated-folder file chooser retry still fails
 -32000 Not allowed. No upload or live product/skin change. Preserve login.

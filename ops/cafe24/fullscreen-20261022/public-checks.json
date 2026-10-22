@@ -1,0 +1,18 @@
+{
+  "deployment_commit": "350255e",
+  "pages_run": 39706060119,
+  "checks": [
+    {
+      "path": "storefront-v2/preview/design-only.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "7251cbd46709b8168c32866941ce86ab25a7dfd108afe4bf1f84f3ea9d819883"
+    },
+    {
+      "path": "storefront-v2/preview/assets/home-header.css",
+      "status": 200,
+      "matches": true,
+      "sha256": "66d93345553248d67c0afdbf0a1007b6c05369ad63d7ae28a3c8921e5e281266"
+    }
+  ]
+}
