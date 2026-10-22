@@ -49,8 +49,10 @@ inner-pages-pending status in native-preparation-20261022.
   pixels. The2cushion PNGs lost an embedded standard sRGB profile at Cafe24;
   untagged web display uses sRGB. The strict ICC mismatch report is retained,
   and this exception is explicitly recorded rather than called ICC-identical.
- 12editorial JPEG derivatives retain dimensions but Cafe24 recompresses them;
-  they are not claimed pixel-identical. Both CSS/JS files are byte-identical.
+  The12 optimized editorial JPEG derivatives also have identical decoded pixels
+  after upload. Earlier full-size JPEG uploads were recompressed; that earlier
+  result must not be confused with these final derivatives. Both CSS/JS files
+  are byte-identical.
 - Earlier failed CI runs are retained in the record: anonymous login redirect
   expectation and an ambiguous filter selector were corrected. No site failure
   was hidden by those corrections.
