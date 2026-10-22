@@ -1,0 +1,65 @@
+{
+  "filmButton": {
+    "bottom": 159.5625,
+    "height": 44,
+    "left": 226.5,
+    "right": 293,
+    "top": 115.5625,
+    "width": 66.5,
+    "x": 226.5,
+    "y": 115.5625
+  },
+  "header": {
+    "bottom": 72,
+    "height": 72,
+    "left": 0,
+    "right": 305,
+    "top": 0,
+    "width": 305,
+    "x": 0,
+    "y": 0
+  },
+  "height": 844,
+  "logo": {
+    "bottom": 57.5,
+    "height": 44,
+    "left": 94,
+    "right": 185,
+    "top": 13.5,
+    "width": 91,
+    "x": 94,
+    "y": 13.5
+  },
+  "menu": {
+    "bottom": 57.5,
+    "height": 44,
+    "left": 20,
+    "right": 64,
+    "top": 13.5,
+    "width": 44,
+    "x": 20,
+    "y": 13.5
+  },
+  "overflow": false,
+  "utilities": {
+    "bottom": 57.5,
+    "height": 44,
+    "left": 193,
+    "right": 285,
+    "top": 13.5,
+    "width": 92,
+    "x": 193,
+    "y": 13.5
+  },
+  "video": {
+    "bottom": 171.5625,
+    "height": 171.5625,
+    "left": 0,
+    "right": 305,
+    "top": 0,
+    "width": 305,
+    "x": 0,
+    "y": 0
+  },
+  "width": 320
+}

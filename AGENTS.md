@@ -970,3 +970,12 @@ Owner requests Safari/physical-phone/slow-network and Cafe24 readiness checks
 before rollout. Never treat a viewport, macOS VM or throttled local fixture as a
 physical phone. Preserve active skin18 and English shop5 skin8; verify the test
 skin21, original backups, native commerce and Snap hooks before a production switch.
+
+## Home navigation exception approved - 2026-10-22
+
+Owner approved transparent navigation over the homepage film, switching to a
+white background after scrolling or opening the mobile menu. Home-only
+home-header.css/js implement this exception to the earlier frozen design.
+Retain original V16 video bytes and 16:9 framing; cap height at the viewport,
+accepting side space on wide/short screens. Preserve product-page white headers
+and the existing film-ending contrast hook. Evidence: ops/cafe24/header-20261022.

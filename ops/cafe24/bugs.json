@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-22",
   "items": [
     {
       "id": "TAM-C24-005",
@@ -344,7 +344,20 @@
       "actual": "Browser connection rejects fileChooser.setFiles with code-32000 Not allowed.",
       "evidence": "rollout-20261021/admin-policy.json",
       "fix": null,
-      "retest": "Folder creation succeeds; upload not verified. Do not mark candidate migrated."
+      "retest": "2026-10-22: official browser guidance requires Allow access to file URLs; owner setting completion pending. Admin tab itself now times out; login state unknown. Upload remains unverified."
+    },
+    {
+      "id": "TAM-HOME-HEADER-20261022",
+      "type": "owner_requested_layout_change",
+      "priority": "P2",
+      "status": "verified_awaiting_public_deploy",
+      "route": "storefront-v2/preview/design-only.html",
+      "reproduce": "View first home film: separate white navigation adds 88px before the original 16:9 film.",
+      "expected": "Transparent navigation over uncropped film; solid navigation after scrolling or opening menu.",
+      "actual": "Original independent white header pushes film below initial viewport.",
+      "fix": "Home-only overlay CSS, scroll/menu state observer, ending-frame contrast, height cap and mobile film control placement.",
+      "retest": "Safari run39703829646 passes50 general checks,6 home sizes and3 slow mobile routes; Chrome320/390 visual menu checks passed; seven detail/84media invariants and4policy tests passed.",
+      "evidence": "header-20261022/REPORT.md"
     }
   ]
 }

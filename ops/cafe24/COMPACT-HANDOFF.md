@@ -1,3 +1,20 @@
+## ACTIVE OVERRIDE: homepage overlay and follow-up QA, 2026-10-22
+
+Owner approved transparent first-screen home navigation, solid white on scroll
+or menu open. Source655798b verified by Safari39703829646:50general checks,
+6home sizes,3slow mobile routes at actual390px. Chrome320/390 menus checked.
+Film V16 and84detail media unchanged. Seven latest details including ShadingV9
+remain connected. See header-20261022/REPORT.md and safari-report.json.
+Slow fixture UI works before all media load; do not call loading fast.
+Cafe24 upload remains unverified: official file-URL permission guidance sent;
+owner completion reply pending. Admin task tab operations time out today;
+current auth unknown, do not falsely claim logged out or ask login blindly.
+No physical phones/remote device session. Candidate21 native migration and
+commerce/Snap checks remain incomplete; production unchanged. Original PC/mobile
+server backups and admin policy findings from20261021 remain valid evidence.
+
+---
+
 ## ACTIVE OVERRIDE: all seven details, Safari and Cafe24 rollout checks, 2026-10-21
 
 Owner revoked shading exclusion: latest Heart Shading V9 from the other session
