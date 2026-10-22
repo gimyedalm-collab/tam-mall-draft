@@ -298,3 +298,24 @@ review pager and Powder Balm13 lazy images when rebuilding storefront pages.
 Shading109 detail is unchanged. GitHub publication verification is recorded
 separately in mobile-fixes-20261021/public-checks.json. Actual Cafe24 upload and
 physical phone/network verification remain deferred/unverified.
+## ACTIVE: rollout scope clarification — 2026-10-22
+
+Owner asks now to apply. Earlier powder-first was ambiguous between image-fix
+scope and production rollout scope. Async question pending: powder111 only or
+whole storefront (home/SHOP/ABOUT etc.). Do not switch representative skin
+until scope is clear. No live changes made in this turn.
+Verified admin shop1 PC representative skin18; English skin8 unchanged.
+Created a full Cafe24 server COPY of skin18 named
+TAM_적용전백업_20261022_skin18, listed as skin22. Preserve as rollback.
+Mobile dedicated skin is DISABLED per mobile-design admin notice; storefront
+uses the PC responsive design. Do not enable the unused mobile design.
+Browser binding workBrowser remains; rolloutAdmin is the signed-in admin tab
+at mobile design list. New tabs via same browser work. Home admin popup ad
+blocked initial clicks; closed via observed X, then navigation worked.
+Admin PC list URL: https://awiz.cafe24.com/disp/admin/shop1/skin/list
+Fresh source/private preflight note: .codex/tam-cafe24-output/rollout-20261022.
+Next: receive scope reply; full rollout can use prepared overlay on21 then
+representative switch; powder-only needs a product111-scoped integration into
+current skin18, NOT the full shared candidate CSS/JS on all products.
+
+---

@@ -1,4 +1,16 @@
 {
+  "rollout_preflight_20261022": {
+    "status": "production_scope_clarification_pending",
+    "request": "Owner asked to start applying; clarify powder-only versus full-store after earlier powder-first scope.",
+    "shop_no": 1,
+    "live_pc_skin": "skin18",
+    "rollback_copy_skin": "skin22",
+    "rollback_copy_name": "TAM_적용전백업_20261022_skin18",
+    "copy_created_and_listed": true,
+    "mobile_dedicated_skin_enabled": false,
+    "production_changed": false,
+    "next_action": "Read owner's pending scope reply, then apply the confirmed scope and verify the live domain. Keep skin22 untouched as rollback."
+  },
   "native_powder_images_20261022": {
     "product_no": 111,
     "status": "candidate_saved_image_geometry_verified; slow_GIF_loading_remains",
