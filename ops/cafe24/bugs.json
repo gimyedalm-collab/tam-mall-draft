@@ -344,7 +344,7 @@
       "actual": "Browser connection rejects fileChooser.setFiles with code-32000 Not allowed.",
       "evidence": "rollout-20261021/admin-policy.json",
       "fix": null,
-      "retest": "2026-10-22: file URL access completion pending. After initial timeouts, admin tab visibly returned to Cafe24 login screen; owner login/2FA requested. Upload remains unverified."
+      "retest": "2026-10-22 authenticated uploader and isolated QA folder confirmed again. File chooser retry still returns -32000 Not allowed; no asset uploaded."
     },
     {
       "id": "TAM-HOME-HEADER-20261022",
@@ -358,6 +358,19 @@
       "fix": "Home-only overlay CSS, scroll/menu state observer, ending-frame contrast, height cap and mobile film control placement.",
       "retest": "Safari run39703829646 passes50 general checks,6 home sizes and3 slow mobile routes; Chrome320/390 visual menu checks passed; seven detail/84media invariants and4policy tests passed. Pages39704295163 succeeded;10public files match; public desktop overlay verified.",
       "evidence": "header-20261022/REPORT.md"
+    },
+    {
+      "id": "TAM-HOME-SIDE-SPACE-20261022",
+      "type": "owner_requested_layout_change",
+      "priority": "P2",
+      "status": "verified_awaiting_public_deploy",
+      "route": "storefront-v2/preview/design-only.html",
+      "reproduce": "Open1920x911 viewport: prior viewport-height-contained16:9 film leaves142px side space.",
+      "expected": "Landscape first screen fills the available width and height.",
+      "actual": "Prior original-framing preference produced visible side gutters.",
+      "fix": "Remove max-width cap; landscape100svh cover; portrait retains full-width16:9.",
+      "retest": "Safari39705573263:50general,9home sizes,3slow390px routes passed. Landscape video.left0/full content width/viewport height. Chrome1920x911 confirmed.",
+      "evidence": "fullscreen-20261022/REPORT.md"
     }
   ]
 }

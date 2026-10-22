@@ -55,7 +55,7 @@
   "updated_at": "2026-10-22",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
-  "phase": "home_overlay_published_verified; Cafe24_upload_and_native_candidate_unverified",
+  "phase": "fullscreen_home_verified; Cafe24_file_upload_blocked",
   "highlighter_r30_20261001": {
     "approved_snapshot": "highlighter-r30/",
     "preview_product": "storefront-v2/preview/product-24.html",
@@ -1006,21 +1006,20 @@
     "production_changed": false
   },
   "home_header_20261022": {
-    "status": "published_verified",
-    "report": "header-20261022/REPORT.md",
-    "source_commit": "655798b",
-    "scope": "Homepage transparent overlay; solid white after scroll or open menu; native 16:9 film preserved",
-    "safari_run": 39703829646,
+    "status": "fullscreen_verified_awaiting_deploy",
+    "report": "fullscreen-20261022/REPORT.md",
+    "source_commit": "69d2172",
+    "scope": "Landscape edge-to-edge100svh cover; portrait full-width16:9; overlay header retained",
+    "safari_run": 39705573263,
     "physical_device_verified": false,
     "cafe24_upload_verified": false,
     "production_cafe24_changed": false,
     "blockers": [
-      "File URL access permission requested; no completion reply yet",
-      "Admin tab now confirmed at Cafe24 login page; owner login/2FA requested; only one connected Chrome browser",
+      "Cafe24 authenticated again; file chooser retry still returns -32000 Not allowed",
       "No connected physical phone or remote device session"
     ],
     "safari_checks": 50,
-    "home_sizes": 6,
+    "home_sizes": 9,
     "slow_mobile_routes": 3,
     "deployment_commit": "7955506",
     "pages_run": 39704295163,

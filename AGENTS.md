@@ -976,6 +976,9 @@ skin21, original backups, native commerce and Snap hooks before a production swi
 Owner approved transparent navigation over the homepage film, switching to a
 white background after scrolling or opening the mobile menu. Home-only
 home-header.css/js implement this exception to the earlier frozen design.
-Retain original V16 video bytes and 16:9 framing; cap height at the viewport,
-accepting side space on wide/short screens. Preserve product-page white headers
-and the existing film-ending contrast hook. Evidence: ops/cafe24/header-20261022.
+Retain original V16 video bytes. Owner subsequently rejected side space and
+requested an edge-to-edge first screen: landscape uses full-width100svh cover
+with intentional framing crop; portrait uses full-width16:9 to avoid excessive
+face/product loss. This supersedes the earlier contained landscape treatment.
+Preserve product-page white headers and the existing film-ending contrast hook.
+Evidence: ops/cafe24/header-20261022 and fullscreen-20261022.
