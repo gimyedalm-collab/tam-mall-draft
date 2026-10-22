@@ -1,0 +1,19 @@
+name: Cafe24 candidate Safari verification
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  safari:
+    runs-on: macos-26
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - run: sudo safaridriver --enable
+      - run: python3 ops/cafe24/verify_native_safari.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: native-safari-verification
+          path: native-safari-results/report.json
+          retention-days: 3

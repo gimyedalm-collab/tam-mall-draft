@@ -1,0 +1,437 @@
+{
+  "candidate": "skin21",
+  "checks": [
+    {
+      "clientWidth": 375,
+      "controls": [
+        {
+          "font": "16px",
+          "height": 48,
+          "id": "product_option_id1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p109-01-hero.png",
+        "/tam-detail-20261022/p109-02-lineup.png",
+        "/tam-detail-20261022/p109-03-duo-color.png",
+        "/tam-detail-20261022/p109-04-placement.png",
+        "/tam-detail-20261022/p109-05-howto.png",
+        "/tam-detail-20261022/p109-06-ending.png"
+      ],
+      "product": "109",
+      "scrollWidth": 375,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=109",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "controls": [
+        {
+          "font": "16px",
+          "height": 48,
+          "id": "product_option_id1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p110-01-detail.jpg",
+        "/tam-detail-20261022/p110-02-detail.jpg",
+        "/tam-detail-20261022/p110-03-detail-lossless.png",
+        "/tam-detail-20261022/p110-04-detail.jpg",
+        "/tam-detail-20261022/p110-05-detail.jpg",
+        "/tam-detail-20261022/p110-06-detail.jpg",
+        "/tam-detail-20261022/p110-07-detail.jpg",
+        "/tam-detail-20261022/p110-08-detail.jpg",
+        "/tam-detail-20261022/p110-09-detail.jpg",
+        "/tam-detail-20261022/p110-10-detail.jpg",
+        "/tam-detail-20261022/p110-11-detail.jpg",
+        "/tam-detail-20261022/p110-12-detail.jpg",
+        "/tam-detail-20261022/p110-13-detail.jpg",
+        "/tam-detail-20261022/p110-14-motion.gif",
+        "/tam-detail-20261022/p110-15-detail.jpg",
+        "/tam-detail-20261022/p110-16-detail.jpg",
+        "/tam-detail-20261022/p110-17-detail.jpg",
+        "/tam-detail-20261022/p110-18-detail.jpg"
+      ],
+      "product": "110",
+      "scrollWidth": 375,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=110",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "controls": [
+        {
+          "font": "16px",
+          "height": 48,
+          "id": "product_option_id1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p111-01-hero-heading.png",
+        "/tam-detail-20261022/p111-02-hero-application.gif",
+        "/tam-detail-20261022/p111-03-hero-caption.png",
+        "/tam-detail-20261022/p111-04-balm-and-puff.jpg",
+        "/tam-detail-20261022/p111-05-benefit.jpg",
+        "/tam-detail-20261022/p111-06-where-heading.png",
+        "/tam-detail-20261022/p111-07-where-application.gif",
+        "/tam-detail-20261022/p111-08-where-labels.png",
+        "/tam-detail-20261022/p111-09-balm-texture.jpg",
+        "/tam-detail-20261022/p111-10-puff-heading.png",
+        "/tam-detail-20261022/p111-11-puff-amount.gif",
+        "/tam-detail-20261022/p111-12-puff-instructions.png",
+        "/tam-detail-20261022/p111-13-three-moments.png",
+        "/tam-detail-20261022/p111-14-product.jpg"
+      ],
+      "product": "111",
+      "scrollWidth": 375,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=111",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "controls": [
+        {
+          "font": "16px",
+          "height": 48,
+          "id": "product_option_id1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p118-01-detail.png",
+        "/tam-detail-20261022/p118-02-detail.png",
+        "/tam-detail-20261022/p118-03-detail.png",
+        "/tam-detail-20261022/p118-04-motion.gif",
+        "/tam-detail-20261022/p118-05-detail.png",
+        "/tam-detail-20261022/p118-06-motion.gif",
+        "/tam-detail-20261022/p118-07-detail.png",
+        "/tam-detail-20261022/p118-08-detail.png",
+        "/tam-detail-20261022/p118-09-motion.gif",
+        "/tam-detail-20261022/p118-10-detail.png",
+        "/tam-detail-20261022/p118-11-detail.png",
+        "/tam-detail-20261022/p118-12-detail.png",
+        "/tam-detail-20261022/p118-13-detail.png",
+        "/tam-detail-20261022/p118-14-detail.png",
+        "/tam-detail-20261022/p118-15-detail.png",
+        "/tam-detail-20261022/p118-16-detail.png"
+      ],
+      "product": "118",
+      "scrollWidth": 375,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=118",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "controls": [],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p102-01-detail-lossless.png",
+        "/tam-detail-20261022/p102-02-detail.jpg",
+        "/tam-detail-20261022/p102-03-motion.gif",
+        "/tam-detail-20261022/p102-04-detail.jpg",
+        "/tam-detail-20261022/p102-05-detail.jpg",
+        "/tam-detail-20261022/p102-06-detail.jpg",
+        "/tam-detail-20261022/p102-07-detail.jpg",
+        "/tam-detail-20261022/p102-08-detail-lossless.png",
+        "/tam-detail-20261022/p102-09-detail.jpg"
+      ],
+      "product": "102",
+      "scrollWidth": 375,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=102",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "clientWidth": 375,
+      "controls": [
+        {
+          "font": "16px",
+          "height": 48,
+          "id": "addproduct_option_id_118_1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p24-01-detail-lossless.png",
+        "/tam-detail-20261022/p24-02-motion.gif",
+        "/tam-detail-20261022/p24-03-detail-lossless.png",
+        "/tam-detail-20261022/p24-04-detail.jpg",
+        "/tam-detail-20261022/p24-05-detail.jpg",
+        "/tam-detail-20261022/p24-06-detail.jpg",
+        "/tam-detail-20261022/p24-07-motion.gif",
+        "/tam-detail-20261022/p24-08-detail-lossless.png",
+        "/tam-detail-20261022/p24-09-detail.jpg",
+        "/tam-detail-20261022/p24-10-motion.gif",
+        "/tam-detail-20261022/p24-11-detail.jpg",
+        "/tam-detail-20261022/p24-12-detail-lossless.png",
+        "/tam-detail-20261022/p24-13-detail.jpg",
+        "/tam-detail-20261022/p24-14-detail.jpg"
+      ],
+      "product": "24",
+      "scrollWidth": 375,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=24",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 390
+    },
+    {
+      "clientWidth": 1425,
+      "controls": [
+        {
+          "font": "13px",
+          "height": 40,
+          "id": "product_option_id1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p109-01-hero.png",
+        "/tam-detail-20261022/p109-02-lineup.png",
+        "/tam-detail-20261022/p109-03-duo-color.png",
+        "/tam-detail-20261022/p109-04-placement.png",
+        "/tam-detail-20261022/p109-05-howto.png",
+        "/tam-detail-20261022/p109-06-ending.png"
+      ],
+      "product": "109",
+      "scrollWidth": 1425,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=109",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "controls": [
+        {
+          "font": "13px",
+          "height": 40,
+          "id": "product_option_id1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p110-01-detail.jpg",
+        "/tam-detail-20261022/p110-02-detail.jpg",
+        "/tam-detail-20261022/p110-03-detail-lossless.png",
+        "/tam-detail-20261022/p110-04-detail.jpg",
+        "/tam-detail-20261022/p110-05-detail.jpg",
+        "/tam-detail-20261022/p110-06-detail.jpg",
+        "/tam-detail-20261022/p110-07-detail.jpg",
+        "/tam-detail-20261022/p110-08-detail.jpg",
+        "/tam-detail-20261022/p110-09-detail.jpg",
+        "/tam-detail-20261022/p110-10-detail.jpg",
+        "/tam-detail-20261022/p110-11-detail.jpg",
+        "/tam-detail-20261022/p110-12-detail.jpg",
+        "/tam-detail-20261022/p110-13-detail.jpg",
+        "/tam-detail-20261022/p110-14-motion.gif",
+        "/tam-detail-20261022/p110-15-detail.jpg",
+        "/tam-detail-20261022/p110-16-detail.jpg",
+        "/tam-detail-20261022/p110-17-detail.jpg",
+        "/tam-detail-20261022/p110-18-detail.jpg"
+      ],
+      "product": "110",
+      "scrollWidth": 1425,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=110",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "controls": [
+        {
+          "font": "13px",
+          "height": 40,
+          "id": "product_option_id1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p111-01-hero-heading.png",
+        "/tam-detail-20261022/p111-02-hero-application.gif",
+        "/tam-detail-20261022/p111-03-hero-caption.png",
+        "/tam-detail-20261022/p111-04-balm-and-puff.jpg",
+        "/tam-detail-20261022/p111-05-benefit.jpg",
+        "/tam-detail-20261022/p111-06-where-heading.png",
+        "/tam-detail-20261022/p111-07-where-application.gif",
+        "/tam-detail-20261022/p111-08-where-labels.png",
+        "/tam-detail-20261022/p111-09-balm-texture.jpg",
+        "/tam-detail-20261022/p111-10-puff-heading.png",
+        "/tam-detail-20261022/p111-11-puff-amount.gif",
+        "/tam-detail-20261022/p111-12-puff-instructions.png",
+        "/tam-detail-20261022/p111-13-three-moments.png",
+        "/tam-detail-20261022/p111-14-product.jpg"
+      ],
+      "product": "111",
+      "scrollWidth": 1425,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=111",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "controls": [
+        {
+          "font": "13px",
+          "height": 40,
+          "id": "product_option_id1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p118-01-detail.png",
+        "/tam-detail-20261022/p118-02-detail.png",
+        "/tam-detail-20261022/p118-03-detail.png",
+        "/tam-detail-20261022/p118-04-motion.gif",
+        "/tam-detail-20261022/p118-05-detail.png",
+        "/tam-detail-20261022/p118-06-motion.gif",
+        "/tam-detail-20261022/p118-07-detail.png",
+        "/tam-detail-20261022/p118-08-detail.png",
+        "/tam-detail-20261022/p118-09-motion.gif",
+        "/tam-detail-20261022/p118-10-detail.png",
+        "/tam-detail-20261022/p118-11-detail.png",
+        "/tam-detail-20261022/p118-12-detail.png",
+        "/tam-detail-20261022/p118-13-detail.png",
+        "/tam-detail-20261022/p118-14-detail.png",
+        "/tam-detail-20261022/p118-15-detail.png",
+        "/tam-detail-20261022/p118-16-detail.png"
+      ],
+      "product": "118",
+      "scrollWidth": 1425,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=118",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "controls": [],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p102-01-detail-lossless.png",
+        "/tam-detail-20261022/p102-02-detail.jpg",
+        "/tam-detail-20261022/p102-03-motion.gif",
+        "/tam-detail-20261022/p102-04-detail.jpg",
+        "/tam-detail-20261022/p102-05-detail.jpg",
+        "/tam-detail-20261022/p102-06-detail.jpg",
+        "/tam-detail-20261022/p102-07-detail.jpg",
+        "/tam-detail-20261022/p102-08-detail-lossless.png",
+        "/tam-detail-20261022/p102-09-detail.jpg"
+      ],
+      "product": "102",
+      "scrollWidth": 1425,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=102",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 1440
+    },
+    {
+      "clientWidth": 1425,
+      "controls": [
+        {
+          "font": "13px",
+          "height": 40,
+          "id": "addproduct_option_id_118_1"
+        }
+      ],
+      "height": 900,
+      "media": [
+        "/tam-detail-20261022/p24-01-detail-lossless.png",
+        "/tam-detail-20261022/p24-02-motion.gif",
+        "/tam-detail-20261022/p24-03-detail-lossless.png",
+        "/tam-detail-20261022/p24-04-detail.jpg",
+        "/tam-detail-20261022/p24-05-detail.jpg",
+        "/tam-detail-20261022/p24-06-detail.jpg",
+        "/tam-detail-20261022/p24-07-motion.gif",
+        "/tam-detail-20261022/p24-08-detail-lossless.png",
+        "/tam-detail-20261022/p24-09-detail.jpg",
+        "/tam-detail-20261022/p24-10-motion.gif",
+        "/tam-detail-20261022/p24-11-detail.jpg",
+        "/tam-detail-20261022/p24-12-detail-lossless.png",
+        "/tam-detail-20261022/p24-13-detail.jpg",
+        "/tam-detail-20261022/p24-14-detail.jpg"
+      ],
+      "product": "24",
+      "scrollWidth": 1425,
+      "snap": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "url": "https://awiz.cafe24.com/skin-skin21/product/detail.html?product_no=24",
+      "viewport": "width=device-width, initial-scale=1",
+      "width": 1440
+    }
+  ],
+  "physicalDevice": false,
+  "checkoutPaymentVerified": false
+}

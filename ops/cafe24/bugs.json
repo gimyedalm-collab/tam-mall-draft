@@ -337,14 +337,14 @@
       "id": "TAM-C24-UPLOAD-20261021",
       "type": "environment_blocker",
       "priority": "P1",
-      "status": "blocked",
+      "status": "resolved_and_verified",
       "route": "Cafe24 file uploader",
       "reproduce": "Owner-authenticated uploader; choose06-ending.png in isolated web/upload/tam-rollout-qa-20261021.",
       "expected": "Upload test asset then verify its Cafe24 URL.",
       "actual": "Browser connection rejects fileChooser.setFiles with code-32000 Not allowed.",
-      "evidence": "rollout-20261021/admin-policy.json",
-      "fix": null,
-      "retest": "2026-10-22 attachment remains unverified. Official file-URL permission guidance supplied. Automated chrome://extensions navigation blocked by Browser URL policy; owner setting change pending. No bypass attempted."
+      "evidence": "native-preparation-20261022/REPORT.md",
+      "fix": "Owner enabled file-URL access. Browser attachment, upload and editor saves work.",
+      "retest": "84/84 detail assets pass final decoded-frame/ICC checks; six native detail integrations and approved home saved on skin21. Test cart empty verified."
     },
     {
       "id": "TAM-HOME-HEADER-20261022",
@@ -384,6 +384,45 @@
       "fix": "Accept exactly one imported head before body; add local CSS/JS directives alongside that import; retain shared head file.",
       "retest": "5 regression tests and2 local checks against captured originals pass; no Cafe24 save/render verification.",
       "evidence": "native-preparation-20261022/source-audit.json"
+    },
+    {
+      "id": "TAM-C24-HOME-INTEGRATION-20261022",
+      "type": "native_integration",
+      "priority": "P1",
+      "status": "candidate_saved_chrome_verified",
+      "route": "skin21 homepage",
+      "reproduce": "Render approved home inside the native main layout.",
+      "actual": "Legacy sample overlay and320px body minimum interfere with new home.",
+      "expected": "Approved full-width film and no horizontal overflow.",
+      "fix": "Hide legacy sample overlay; override body#main minimum; preserve apps and native company/price data.",
+      "retest": "Six Chrome sizes320-1920, menu, film controls, scroll header and Snap1003 pass. Native Safari pending.",
+      "evidence": "native-preparation-20261022/candidate-home-checks.json"
+    },
+    {
+      "id": "TAM-C24-NATIVE-MOBILE-20261022",
+      "type": "mobile_accessibility",
+      "priority": "P2",
+      "status": "candidate_saved_chrome_verified",
+      "route": "skin21 head and PDP",
+      "reproduce": "Inspect native390px fields and viewport metadata.",
+      "actual": "13px/40px selects; user-scalable=no.",
+      "expected": "Readable controls and user zoom.",
+      "fix": "16px/48px PDP controls; shared viewport initial-scale=1.",
+      "retest": "12 Chrome product/viewport checks pass. Separate order-form viewport remains pending.",
+      "evidence": "native-preparation-20261022/candidate-detail-checks.json"
+    },
+    {
+      "id": "TAM-C24-COLLECTION-SPECIAL-20261022",
+      "type": "native_navigation",
+      "priority": "P2",
+      "status": "candidate_fixed_and_verified",
+      "route": "skin21 home collections",
+      "reproduce": "Follow Jelly generic-search link.",
+      "actual": "Search includes special repurchase product129.",
+      "expected": "Collection shows regular SHOP assortment.",
+      "fix": "Filter native category74 by collection; retain native cards, price and sorting.",
+      "retest": "6Jelly/8Cloud visible;129 absent. Shared product visibility/settings unchanged.",
+      "evidence": "native-preparation-20261022/candidate-home-checks.json"
     }
   ]
 }

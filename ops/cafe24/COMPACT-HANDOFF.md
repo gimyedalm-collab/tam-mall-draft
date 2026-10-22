@@ -1,3 +1,30 @@
+## ACTIVE: native candidate integration ? 2026-10-22
+
+Owner replied ????: file-URL access fixed and test basket EMPTY verified.
+Uploads now work. 84/84 detail media pass decoded pixels/all frames/timing/ICC;
+7 recompressed JPEGs replaced by lossless PNGs. Assets live at
+https://awiz.cafe24.com/tam-detail-20261022/ (ROOT, not /web/upload).
+Seven upload HTMLs prepared; six native detail bridges saved on skin21:
+24,102,109,110,111,118. Product25 still needs00gloss/01-03oil composition;
+do not remove00, SKUs or reviews. 12 Chrome product/viewport checks pass.
+Candidate21 main index now uses approved fullscreen landscape/16:9 portrait V16
+film and transparent-to-solid header; native prices/company data/Snap1003/apps
+preserved. 6 Chrome screen sizes pass. Native catalog collections6Jelly/8Cloud
+avoid special129 exposed by generic search. 23 home assets verified.
+Candidate PDP selects16px/48px; shared viewport zoom lock removed.
+Production skin18 and English skin8 remain unchanged. No order/payment made.
+Original candidate files and staged delivery files stay outside Git under
+C:/Users/BNK-1/.codex/tam-cafe24-output/. Full backup archive not downloaded.
+Browser's viewport capability affects the active tab; verify actual innerWidth.
+New native Safari CI prepared; must run and record result. Earlier Safari/slow
+reports tested the preview and do not prove current native candidate.
+Remaining: product25 mapping/composition, shared commerce design/input fixes,
+coupon/shipping exceptions/inventory/payment flows, native slow-network and
+physical-phone checks. Do not claim production-ready.
+See native-preparation-20261022/REPORT.md and state.json.
+
+---
+
 ## ACTIVE: native source preparation and baseline commerce ? 2026-10-22
 
 15 selected skin18 HTML templates captured outside Git in

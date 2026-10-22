@@ -1,60 +1,59 @@
-# Cafe24 native preparation · 2026-10-22
+# Cafe24 candidate integration ? 2026-10-22
 
-This is preparation and a baseline check of the old skin21 candidate. It is
-not verification of the approved design on Cafe24 and does not authorize a
-production switch based on these results alone.
+Supersedes earlier upload/cart blockers. Candidate skin21 changed; Korean
+production skin18 and English shop5 skin8 remain unchanged. Not rollout-ready.
 
 ## Completed
 
-- Authenticated skin list confirms Korean production skin18, existing candidate
-  skin21, and English shop5 skin8. No skin selection or administrator save.
-- Captured 15 selected original HTML templates from the skin18 editor, including
-  homepage, main/general layouts, head/header/footer/aside, product detail,
-  detail/review/tab partials, basket, order form, login and join. Raw originals
-  remain outside Git. This is not a complete downloadable skin archive.
-- Original layout imports its head from a separate file. The integration helper
-  previously skipped both real layouts because it required an inline closing
-  head tag. It now accepts one unambiguous head import and adds layout-local
-  theme directives without changing the shared head file.
-- Five regression tests pass. Local patch checks on both actual captured layouts
-  pass, retain non-header/footer imports and the content slot, and are idempotent.
-  Captured original files are unchanged. Cafe24 rendering remains unverified.
-- Existing skin21 product109 option `01. 샌드 쉐이더` resolves to 18,000 KRW.
-  The initially empty basket accepts one item: subtotal18,000 + shipping3,000 =
-  total21,000 KRW. Changing quantity to two yields subtotal36,000, shipping0,
-  total36,000 KRW. The native order form opens and repeats the latter amounts.
-  No payment or order submission was performed.
-- Snap widget3 loaded and displayed357 reviews on the existing product109 page.
-  This does not verify every product mapping or the future migrated skin.
+- Owner enabled file-URL access; attachment/upload/public retrieval work.
+  Owner cleanup verified: test basket empty. No new cart mutation this turn.
+- 84 approved detail media uploaded at mall ROOT `/tam-detail-20261022/`.
+  All84 pass decoded RGBA/all frames/timing/loop/ICC comparison;44 byte-identical.
+  Seven recompressed JPEGs replaced by lossless PNG derivatives preserving
+  original pixels and ICC. Masters untouched. See upload-checks-final.json.
+- Seven plain HTML fragments uploaded. Candidate bridge connects products
+  24,102,109,110,111,118, retaining original detail on load failure. It runs only
+  on skin21; shared administrator product descriptions are not replaced.
+- Twelve actual Chrome checks at390/1440 pass: six latest details/media counts,
+  no overflow, native options and Snap1/3/4/5 placeholders retained. Actual
+  Snap review frames observed; no customer/review text exported.
+- Native PDP selects16px/48px; shared viewport permits zoom. Separate order-form
+  viewport remains unmodified. See candidate-detail-checks.json.
+- Approved home saved on skin21. Original V16 plays from GitHub Pages on actual
+  Cafe24. Landscape100svh cover, portrait full-width16:9; transparent header
+  becomes white on scroll/menu. Legacy guide overlay and320px minimum repaired.
+- Native main layout/app imports, Kakao quick menu, Snap1003 and initialization
+  retained. Company information uses native footer module. Four prices come
+  from native SHOP HTML with product-link fallback. No preview purchase scripts.
+- Home passed six Chrome sizes320?1920, menu open/Escape, pause/resume and scroll
+  header.23 home assets pass byte/decoded-media comparison.
+- Generic Jelly search exposed special repurchase129. Home collection links now
+  filter native category74:6Jelly/8Cloud. Native cards/prices/links/sorting and
+  load-more observer retained. No shared visibility/stock settings changed.
+- Selected original skin18/skin21 HTML captured outside Git. Five imported-head
+  integrator tests passed earlier. Server backups exist; no full local archive.
 
-## Unfinished / blocked
+## Commerce evidence and limits
 
-- Browser file chooser rejects attachment with `-32000 Not allowed`.
-  Official extension guidance requires owner enabling “Allow access to file
-  URLs.” Browser URL policy explicitly blocks automated access to
-  `chrome://extensions`; owner action requested, no workaround attempted.
-- Whole-skin backup download did not produce a verified local archive. The
-  administrator download confirmation/browser interaction stalled. Server
-  backup presence is confirmed; source capture above is only a partial export.
-- **Cleanup pending confirmation:** the test basket contained product109,
-  option01, quantity2. Delete was requested, but browser dialog handling timed
-  out. The last successful reload still showed the test item. Owner was asked
-  to confirm the deletion dialog. Verify basket empty before further cart tests.
-- No coupon application control was visible in the inspected order form.
-  Coupon redemption, exclusions, expiry, exact30,000 threshold, regional and
-  product delivery exceptions, guest/member variants, inventory edge cases,
-  payment completion/return and post-migration review mapping remain unverified.
-- The original shared head includes `user-scalable=no`; order form also limits
-  viewport scales. Record for native mobile accessibility repair and retest.
-- Approved fullscreen/overlay layout, latest product details and native commerce
-  still need integration into the candidate. Existing package predates them.
-- No physical phone or authenticated device-farm session is available. Existing
-  macOS Safari VM and slow-connection preview results are separate evidence.
+Before changes, native product109/option01:1x18000+3000shipping=21000;
+2x18000+0shipping=36000. Order form showed36000. Owner cleaned test cart and
+empty basket was confirmed. No order/payment submitted. This baseline does
+not establish post-migration transaction verification.
 
-## Next action
+Native Safari workflow prepared for actual skin21; run outcome pending.
+Earlier Safari/throttled-fixture reports cover GitHub preview, not this new
+native integration. No physical phone or authenticated device farm available.
 
-Verify test-basket cleanup after dialog recovery. Once the owner enables the
-file permission, retry one isolated image attachment and verify its actual
-Cafe24 URL. Complete original dependency capture, refresh the native package,
-apply only to the backed-up candidate and rerun commerce/mobile/Snap checks.
-Production skin18 and English skin8 remain unchanged.
+## Remaining before production switch
+
+- Product25 includes00gloss plus01?03oils. Oil assets/HTML uploaded; native
+  replacement awaits combined composition and SKU/inventory reconciliation.
+  Preserve00, SKUs and historical reviews.
+- Complete shared shopping/purchase design and order-form mobile accessibility.
+- Verify stock/options, coupon redemption/exclusions/expiry, exact shipping
+  threshold/exceptions, guest/member checkout and payment return behavior.
+- Updated native Safari/slow-network and physical iPhone/Android checks.
+- Full local backup archive: administrator download dialog remains unreliable.
+
+Raw original skin/admin data and staged media stay outside Git. Only source
+builders/scripts and sanitized evidence are versioned.

@@ -1,0 +1,16 @@
+/* Candidate homepage only; native app containers and commerce templates remain. */
+body#main.tam-candidate-home {min-width:0}
+body.tam-candidate-home > .top-banner,
+body.tam-candidate-home > header.header,
+body.tam-candidate-home > footer.footer,
+body.tam-candidate-home > aside.aside,
+body.tam-candidate-home > .sample-sg {display:none!important}
+body.tam-candidate-home #wrap,
+body.tam-candidate-home #container,
+body.tam-candidate-home #contents {width:100%;max-width:none;margin:0;padding:0;min-height:0}
+body.tam-candidate-home #contents {display:block}
+.tam-candidate-home .quick-menu img {width:100%;height:auto}
+.tam-candidate-home .tam-home-reviews {padding:48px var(--gutter);background:var(--paper)}
+.tam-candidate-home .tam-home-reviews h2 {font-size:28px;margin-bottom:24px}
+.tam-candidate-home .ux-footer .footer__txt {font-size:12px;line-height:1.9;color:inherit}
+.tam-candidate-home .ux-footer .footer__txt a {display:inline}

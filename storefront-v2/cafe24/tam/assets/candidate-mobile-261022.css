@@ -1,0 +1,18 @@
+/* Candidate product controls: preserve Cafe24 option and purchase handlers. */
+@media (max-width: 900px) {
+  .xans-product-detail select,
+  .xans-product-detail input[type="text"],
+  .xans-product-detail input[type="number"],
+  .xans-product-detail textarea {
+    font-size: 16px !important;
+  }
+  .xans-product-detail select {
+    min-height: 48px !important;
+    height: 48px !important;
+  }
+  .xans-product-detail .productAction button,
+  .xans-product-detail .productAction > a,
+  .xans-product-detail .ec-product-button a {
+    min-height: 44px;
+  }
+}

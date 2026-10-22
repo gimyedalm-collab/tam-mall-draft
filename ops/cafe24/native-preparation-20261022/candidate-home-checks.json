@@ -1,0 +1,167 @@
+{
+  "scope": "Windows Chrome actual Cafe24 skin21; not physical phone or Safari",
+  "sizes": [
+    {
+      "client": 305,
+      "h": 740,
+      "headerHeight": 72,
+      "menu": "flex",
+      "scrollWidth": 305,
+      "video": {
+        "fit": "contain",
+        "height": 171.5625,
+        "left": 0,
+        "ready": 4,
+        "width": 305
+      },
+      "w": 320,
+      "requested": [
+        320,
+        740
+      ],
+      "pass": true
+    },
+    {
+      "client": 375,
+      "h": 844,
+      "headerHeight": 72,
+      "menu": "flex",
+      "scrollWidth": 375,
+      "video": {
+        "fit": "contain",
+        "height": 210.9375,
+        "left": 0,
+        "ready": 4,
+        "width": 375
+      },
+      "w": 390,
+      "requested": [
+        390,
+        844
+      ],
+      "pass": true
+    },
+    {
+      "client": 753,
+      "h": 1024,
+      "headerHeight": 72,
+      "menu": "flex",
+      "scrollWidth": 753,
+      "video": {
+        "fit": "contain",
+        "height": 423.5625,
+        "left": 0,
+        "ready": 4,
+        "width": 753
+      },
+      "w": 768,
+      "requested": [
+        768,
+        1024
+      ],
+      "pass": true
+    },
+    {
+      "client": 829,
+      "h": 390,
+      "headerHeight": 72,
+      "menu": "flex",
+      "scrollWidth": 829,
+      "video": {
+        "fit": "cover",
+        "height": 390,
+        "left": 0,
+        "ready": 4,
+        "width": 829
+      },
+      "w": 844,
+      "requested": [
+        844,
+        390
+      ],
+      "pass": true
+    },
+    {
+      "client": 1425,
+      "h": 900,
+      "headerHeight": 88,
+      "menu": "none",
+      "scrollWidth": 1425,
+      "video": {
+        "fit": "cover",
+        "height": 900,
+        "left": 0,
+        "ready": 4,
+        "width": 1425
+      },
+      "w": 1440,
+      "requested": [
+        1440,
+        900
+      ],
+      "pass": true
+    },
+    {
+      "client": 1905,
+      "h": 1080,
+      "headerHeight": 88,
+      "menu": "none",
+      "scrollWidth": 1905,
+      "video": {
+        "fit": "cover",
+        "height": 1080,
+        "left": 0,
+        "ready": 4,
+        "width": 1905
+      },
+      "w": 1920,
+      "requested": [
+        1920,
+        1080
+      ],
+      "pass": true
+    }
+  ],
+  "flows": {
+    "mobile_menu_open_and_escape_close": true,
+    "white_header_on_menu": true,
+    "white_header_after_scroll": true,
+    "film_pause_resume": true,
+    "video_loaded_and_playing": true,
+    "native_catalog_prices": {
+      "23": 30000,
+      "24": 21250,
+      "111": 16200,
+      "112": 14400
+    },
+    "snap1003_iframe_rendered": true
+  },
+  "collections": [
+    {
+      "count": "6 items",
+      "ids": [
+        "anchorBoxId_24",
+        "anchorBoxId_101",
+        "anchorBoxId_102",
+        "anchorBoxId_25",
+        "anchorBoxId_23",
+        "anchorBoxId_18"
+      ],
+      "kind": "jelly"
+    },
+    {
+      "count": "8 items",
+      "ids": [
+        "anchorBoxId_110",
+        "anchorBoxId_111",
+        "anchorBoxId_109",
+        "anchorBoxId_118",
+        "anchorBoxId_112",
+        "anchorBoxId_115",
+        "anchorBoxId_114",
+        "anchorBoxId_121"
+      ],
+      "kind": "cloud"
+    }
+  ]
+}

@@ -55,7 +55,7 @@
   "updated_at": "2026-10-22",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
-  "phase": "native_source_preparation_and_baseline_checked; upload_permission_and_dialog_recovery_pending",
+  "phase": "candidate_home_and_six_native_details_integrated; rollout_verification_in_progress",
   "highlighter_r30_20261001": {
     "approved_snapshot": "highlighter-r30/",
     "preview_product": "storefront-v2/preview/product-24.html",
@@ -76,21 +76,20 @@
   },
   "admin_access": "Owner-authenticated Chrome administrator verified2026-10-22; no new login needed while session works",
   "original_skin": "15 selected skin18 HTML sources captured outside Git; complete archive/dependency tree not acquired; PC/mobile server backups retained",
-  "candidate_skin": "clone_created_2026-09-21: \"TEST_260921\" = skin21, untouched copy of skin18; frozen design not yet migrated; legacy package still predates frozen design",
+  "candidate_skin": "skin21 TEST_260921 (editor27): approved fullscreen home, six latest details, mobile PDP fixes and native collection filters saved; production skin18 and English skin8 unchanged.",
   "production_changed": false,
   "cushion_asset": "User pointed to similar source cuts 1/2. Selected alternate original 탐_용기_쿠션 (2).png for review; no recoloring/resampling. Applied to active preview and native package; see design-retouch-provenance.json.",
   "cushion_detail": "User-designated final jelly-skin-cushion_0908 package applied to product 23 preview as 10 original sections (3 animated WebP), expanded by default. Native upload assets and description HTML prepared; live product description not yet changed. See ops/cafe24/cushion-detail-0908.json.",
   "agent": "tam_cafe24",
   "agent_runtime": "configuration_created; named-agent discovery requires a new project session",
-  "browser": "Owner-authenticated Chrome browser connection verified on2026-10-21; admin reading and backup creation work; file attachment returns Not allowed",
+  "browser": "Owner file-URL setting corrected; Chrome file uploads and admin editor saves verified2026-10-22; test cart empty confirmed.",
   "next_actions": [
-    "Recover pending deletion confirmation and verify the test basket is empty; keep existing authenticated session.",
-    "Await owner enabling extension Allow access to file URLs; then retry one isolated attachment and verify Cafe24 URL. Do not bypass browser URL policy.",
-    "Acquire original skin sources outside Git, integrate the approved design into skin21 while preserving native commerce and Snap hooks.",
-    "Use new banner group codes for the candidate; existing Banner Manager groups are shared with production. Keep existing popup/app hooks.",
-    "Connect eligible stock and a verified closure calendar before promising the14:00KST dispatch cutoff in native commerce.",
-    "Verify real candidate asset URLs and PC/mobile native options, stock, cart, coupon restrictions, delivery exceptions, membership and checkout before production switch.",
-    "Obtain physical iPhone/Android execution when a device or authenticated remote session becomes available; macOS Safari is already checked."
+    "Run macOS Safari against actual public skin21 and record outcome; prior Safari/slow tests were preview-only.",
+    "Finish product25 composition with separate00gloss and01-03oil information; reconcile actual SKU/inventory mapping without deleting00 or reviews.",
+    "Finish shared native shopping/purchase UI and order-form viewport/input accessibility; confirm options, stock, coupons, delivery exceptions, guest/member checkout and payment-return behavior.",
+    "Obtain a full local skin archive in addition to server backups and selected original source captures; backup download dialog remains unreliable.",
+    "Run updated candidate under slow-network conditions and on physical iPhone/Android when accessible; do not treat desktop viewport resizing as physical testing.",
+    "Only after remaining integration and commerce checks pass, switch production according to the agreed rollout."
   ],
   "verification": {
     "public_audit": "22_feature_groups_completed; options_quantity_shipping_tabs_guest_lookup_public_interactions_checked",
@@ -1046,5 +1045,27 @@
     "candidate_migration_complete": false,
     "physical_device_verified": false,
     "production_changed": false
+  },
+  "native_candidate_20261022": {
+    "production_changed": false,
+    "candidate_changed": true,
+    "asset_root": "https://awiz.cafe24.com/tam-detail-20261022/",
+    "detail_assets": "84/84 public media pass decoded pixels, frame timing, loop and ICC; 7 JPEGs use lossless PNG derivatives to avoid uploader recompression.",
+    "detail_products": [
+      24,
+      102,
+      109,
+      110,
+      111,
+      118
+    ],
+    "product25": "All oil assets and HTML uploaded; native series replacement withheld pending00gloss/01-03oil composition.",
+    "detail_render": "12 Chrome checks across six products at390/1440 pass; Snap placeholders and native options retained.",
+    "home": "Approved original V16 via GitHub-hosted MP4 plays on Cafe24; transparent/solid header, native catalog prices, native company data and Snap1003 retained. Six sizes320-1920 pass.",
+    "collections": "Native SHOP assortment filtered to6Jelly/8Cloud; search previously surfaced special129 so homepage collection links now avoid generic search.",
+    "mobile": "Candidate shared viewport allows zoom; PDP selects16px/48px. Separate order form not yet repaired.",
+    "cart": "Owner cleanup verified empty before integration; no new cart mutation in this continuation.",
+    "safari": "new native workflow prepared; execution pending",
+    "evidence": "native-preparation-20261022/REPORT.md"
   }
 }
