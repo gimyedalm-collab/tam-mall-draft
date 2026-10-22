@@ -196,6 +196,7 @@ def main():
         for route in ['design-only.html','product-109.html','product-111.html']:
             started=time.monotonic()
             command('POST','/url',{'url':'http://127.0.0.1:18766/storefront-v2/preview/'+route})
+            wait_for(lambda:script('return location.pathname.endsWith('+json.dumps('/'+route)+')'),45)
             wait_for(lambda:script("return document.querySelector('.ux-header') && Array.from(document.querySelectorAll('link[rel=stylesheet]')).every(e=>!!e.sheet)"),45)
             if route.startswith('product'):
                 wait_for(lambda:script("return !!document.querySelector('.tam-purchase')"),45)
