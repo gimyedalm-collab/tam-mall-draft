@@ -1,4 +1,4 @@
-/* Home film only. Keep native 16:9 framing and the other pages' white header. */
+/* Home film only. Fill landscape screens; retain the full frame on portrait phones. */
 .home-film{--home-header-height:88px}
 .home-film .ux-header.ux-header{position:absolute;inset:0 0 auto;height:var(--home-header-height);background:transparent;border-color:transparent;color:#fff}
 .home-film .ux-header[data-home-header-ready]{position:fixed}
@@ -12,7 +12,7 @@
 .home-film .ux-header.is-solid::before{background:none}
 .home-film .ux-header.is-solid .ux-logo img{filter:brightness(0)}
 .home-film .ux-links.is-open{color:#282326;max-height:calc(100svh - var(--home-header-height));overflow-y:auto;overscroll-behavior:contain}
-.home-film .do-hero{margin:0 auto;width:100%;max-width:calc(100svh * 16 / 9);height:auto;min-height:0;max-height:none}
+.home-film .do-hero{margin:0;width:100%;max-width:none;height:auto;min-height:0;max-height:none}
 .home-film .home-film-media{position:relative;background:#eeece9}
 .home-film .home-film-media video{display:block;width:100%;height:auto;aspect-ratio:16/9;max-height:100svh;object-fit:contain;object-position:center}
 .home-film .do-hero::after{background:linear-gradient(to bottom,transparent 70%,rgba(30,20,24,.23))}
@@ -20,6 +20,10 @@
 .home-film .home-film-media .film-toggle{top:calc(var(--home-header-height) + 12px);right:24px}
 .home-film .ux-skip{z-index:100}
 .home-film #main,.home-film main [id]{scroll-margin-top:calc(var(--home-header-height) + 16px)}
+@media(min-aspect-ratio:1/1){
+ .home-film .home-film-media{height:100svh}
+ .home-film .home-film-media video{height:100%;aspect-ratio:auto;object-fit:cover;object-position:center}
+}
 @media(max-width:900px){
  .home-film{--home-header-height:72px}
 }

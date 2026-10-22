@@ -95,7 +95,7 @@ def main():
 
     def header_state():
         return script("""const h=document.querySelector('.ux-header'),v=document.querySelector('.do-hero video'),b=document.querySelector('.film-toggle');
-        return {width:innerWidth,height:innerHeight,scrollY,header:h.getBoundingClientRect().toJSON(),
+        return {width:innerWidth,height:innerHeight,contentWidth:document.documentElement.clientWidth,scrollY,header:h.getBoundingClientRect().toJSON(),
         background:getComputedStyle(h).backgroundColor,color:getComputedStyle(h).color,solid:h.classList.contains('is-solid'),
         video:v.getBoundingClientRect().toJSON(),fit:getComputedStyle(v).objectFit,
         filmButton:b.getBoundingClientRect().toJSON(),overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1};""")
@@ -144,15 +144,18 @@ def main():
         report['flows']['menu']=script("return document.querySelector('.ux-menu-toggle').getAttribute('aria-expanded')==='true';")
         assert report['flows']['menu']
         report['home_header']=[]
-        for width,height in [(320,844),(390,844),(768,1024),(1440,950),(1920,950),(844,500)]:
+        for width,height in [(320,844),(390,844),(768,1024),(1440,950),(1920,950),(844,500),(1366,1024),(2560,1080),(950,950)]:
             command('POST','/window/rect',{'width':width,'height':height,'x':0,'y':0})
             visit('design-only.html')
             script("document.querySelector('video').pause();document.querySelector('video').currentTime=1;window.scrollTo({top:0,behavior:'instant'});")
             wait_for(lambda:script("return !document.querySelector('video').seeking && !document.querySelector('.ux-header').classList.contains('is-solid')"))
             top=header_state()
             assert top['video']['top']==0 and top['video']['bottom']<=top['height']+1,top
-            assert top['fit']=='contain' and not top['overflow'],top
-            assert abs(top['video']['width']/top['video']['height']-16/9)<.02,top
+            assert top['video']['left']==0 and abs(top['video']['width']-top['contentWidth'])<1 and not top['overflow'],top
+            if top['width']>=top['height']:
+                assert top['fit']=='cover' and abs(top['video']['height']-top['height'])<1,top
+            else:
+                assert top['fit']=='contain' and abs(top['video']['width']/top['video']['height']-16/9)<.02,top
             assert top['filmButton']['top']>=top['header']['bottom'],top
             screenshot(f'home-{width}-top.png')
             script("window.scrollTo({top:300,behavior:'instant'})")
