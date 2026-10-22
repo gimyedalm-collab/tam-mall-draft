@@ -15,6 +15,7 @@ p.add_argument('--output',type=Path,required=True)
 a=p.parse_args()
 assert not a.output.resolve().is_relative_to(ROOT.resolve()),'Private templates must stay outside Git'
 out=a.output;out.mkdir(parents=True,exist_ok=True)
+previous=json.loads((out/'manifest.json').read_text(encoding='utf-8')) if (out/'manifest.json').is_file() else {}
 templates={str(x.relative_to(a.stage/'templates')).replace('\\','/'):x.read_text(encoding='utf-8') for x in (a.stage/'templates').rglob('*') if x.is_file()}
 templates['index.html']=a.home.read_text(encoding='utf-8')
 names=set(re.findall(r'/tam-detail-20261022/(candidate-[\w.-]+\.(?:css|js))','\n'.join(templates.values())))
@@ -41,9 +42,18 @@ for name,text in assets.items():
         text=text.replace('product-25-series-v9.html','rollout-product-25-series-v9.html').replace('product-111-v6.html','rollout-product-111-v6.html').replace('`product-${product}.html`','`rollout-product-${product}.html`')
     (upload/renames[name]).write_text(transform(text),encoding='utf-8')
 delivery=ROOT/'ops/cafe24/native-preparation-20261022/delivery'
+current_uploads=set(renames.values())
 for number in [24,25,102,109,110,111,118]:
     name='product-25-series-v9.html' if number==25 else 'product-111-v6.html' if number==111 else f'product-{number}.html'
+    current_uploads.add('rollout-'+name)
     (upload/('rollout-'+name)).write_text(transform((delivery/name).read_text(encoding='utf-8')),encoding='utf-8')
+# Retire only previously inventoried generated overlay files, never server assets.
+for entry in previous.get('files',[]):
+    relative=Path(entry['path'])
+    if relative.parent==Path('upload') and relative.name not in current_uploads:
+        obsolete=(out/relative).resolve()
+        assert obsolete.parent==upload.resolve() and obsolete.is_relative_to(out.resolve())
+        if obsolete.is_file(): obsolete.unlink()
 readme='''# Private Cafe24 activation overlay
 
 PREPARED ONLY. Not uploaded or activated. Not a full skin backup.

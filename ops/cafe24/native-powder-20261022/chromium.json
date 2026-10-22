@@ -1,0 +1,836 @@
+{
+  "physical_device": false,
+  "product_no": 111,
+  "checks": [
+    {
+      "width": 320,
+      "dpr": 2,
+      "slow": false,
+      "composition_ready_seconds": 3.31,
+      "images": [
+        {
+          "source": "p111-v6-01-hero-heading-860.png",
+          "width": 280,
+          "height": 161.484375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 1.4275332225976989e-05
+        },
+        {
+          "source": "p111-v6-02-hero-application.gif",
+          "width": 280,
+          "height": 172.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.539563729686556e-05
+        },
+        {
+          "source": "p111-v6-03-hero-caption-860.png",
+          "width": 280,
+          "height": 35.8125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 5.191029900347699e-06
+        },
+        {
+          "source": "p111-v6-04-balm-and-puff-860.jpg",
+          "width": 280,
+          "height": 203.8125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 5.191029900264432e-06
+        },
+        {
+          "source": "p111-v6-05-benefit-860.jpg",
+          "width": 280,
+          "height": 373.765625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 6.488787375413807e-06
+        },
+        {
+          "source": "p111-v6-06-where-heading-860.png",
+          "width": 280,
+          "height": 115.90625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 2.595514950132216e-06
+        },
+        {
+          "source": "p111-v6-07-where-application.gif",
+          "width": 280,
+          "height": 97.625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 760,
+          "ratio_error": 2.349624060149491e-05
+        },
+        {
+          "source": "p111-v6-08-where-labels-860.png",
+          "width": 280,
+          "height": 63.15625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 2.3359634551495256e-05
+        },
+        {
+          "source": "p111-v6-09-balm-texture-860.jpg",
+          "width": 280,
+          "height": 321.671875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 9.084302325490512e-06
+        },
+        {
+          "source": "p111-v6-10-puff-heading-860.png",
+          "width": 280,
+          "height": 93.765625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 6.488787375413807e-06
+        },
+        {
+          "source": "p111-v6-11-puff-amount.gif",
+          "width": 280,
+          "height": 145.203125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 860,
+          "ratio_error": 2.2061877076429148e-05
+        },
+        {
+          "source": "p111-v6-12-puff-instructions-860.png",
+          "width": 280,
+          "height": 129.578125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 1.167981727573375e-05
+        },
+        {
+          "source": "p111-v6-13-three-moments-860.png",
+          "width": 280,
+          "height": 272.171875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 5.061254152816108e-05
+        },
+        {
+          "source": "p111-v6-14-product-860.jpg",
+          "width": 280,
+          "height": 367.25,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 320,
+          "ratio_error": 2.0764119601501818e-05
+        }
+      ],
+      "all_images_seen_seconds": 4.35,
+      "native_purchase_open_close": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "slow": false,
+      "composition_ready_seconds": 2.45,
+      "images": [
+        {
+          "source": "p111-v6-01-hero-heading-860.png",
+          "width": 350,
+          "height": 201.859375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 3.1146179402252727e-06
+        },
+        {
+          "source": "p111-v6-02-hero-application.gif",
+          "width": 350,
+          "height": 215.859375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.539563729686556e-05
+        },
+        {
+          "source": "p111-v6-03-hero-caption-860.png",
+          "width": 350,
+          "height": 44.765625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 5.191029900347699e-06
+        },
+        {
+          "source": "p111-v6-04-balm-and-puff-860.jpg",
+          "width": 350,
+          "height": 254.765625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 5.191029900264432e-06
+        },
+        {
+          "source": "p111-v6-05-benefit-860.jpg",
+          "width": 350,
+          "height": 467.203125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 1.7649501661276545e-05
+        },
+        {
+          "source": "p111-v6-06-where-heading-860.png",
+          "width": 350,
+          "height": 144.875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 2.4916943521580137e-05
+        },
+        {
+          "source": "p111-v6-07-where-application.gif",
+          "width": 350,
+          "height": 122.03125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 760,
+          "ratio_error": 2.349624060149491e-05
+        },
+        {
+          "source": "p111-v6-08-where-labels-860.png",
+          "width": 350,
+          "height": 78.953125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 1.0382059800473353e-06
+        },
+        {
+          "source": "p111-v6-09-balm-texture-860.jpg",
+          "width": 350,
+          "height": 402.078125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 4.256644518263464e-05
+        },
+        {
+          "source": "p111-v6-10-puff-heading-860.png",
+          "width": 350,
+          "height": 117.203125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 1.7649501661110012e-05
+        },
+        {
+          "source": "p111-v6-11-puff-amount.gif",
+          "width": 350,
+          "height": 181.5,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 860,
+          "ratio_error": 3.3222591362180864e-05
+        },
+        {
+          "source": "p111-v6-12-puff-instructions-860.png",
+          "width": 350,
+          "height": 161.96875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 2.2840531561485466e-05
+        },
+        {
+          "source": "p111-v6-13-three-moments-860.png",
+          "width": 350,
+          "height": 340.21875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 3.945182724252039e-05
+        },
+        {
+          "source": "p111-v6-14-product-860.jpg",
+          "width": 350,
+          "height": 459.0625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 2.0764119601501818e-05
+        }
+      ],
+      "all_images_seen_seconds": 2.96,
+      "native_purchase_open_close": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "width": 768,
+      "dpr": 2,
+      "slow": false,
+      "composition_ready_seconds": 1.89,
+      "images": [
+        {
+          "source": "p111-v6-01-hero-heading.png",
+          "width": 668,
+          "height": 385.25,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.2629160284171057e-05
+        },
+        {
+          "source": "p111-v6-02-hero-application.gif",
+          "width": 668,
+          "height": 412,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 0
+        },
+        {
+          "source": "p111-v6-03-hero-caption.png",
+          "width": 668,
+          "height": 85.4375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 6.527642389647648e-06
+        },
+        {
+          "source": "p111-v6-04-balm-and-puff.png",
+          "width": 668,
+          "height": 486.234375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 1.1205786102141957e-05
+        },
+        {
+          "source": "p111-v6-05-benefit.png",
+          "width": 668,
+          "height": 891.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.2193984124951882e-05
+        },
+        {
+          "source": "p111-v6-06-where-heading.png",
+          "width": 668,
+          "height": 276.515625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 7.941964907387522e-06
+        },
+        {
+          "source": "p111-v6-07-where-application.gif",
+          "width": 668,
+          "height": 232.90625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 760,
+          "ratio_error": 2.2159628112194962e-05
+        },
+        {
+          "source": "p111-v6-08-where-labels.png",
+          "width": 668,
+          "height": 150.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 1.305528477907325e-06
+        },
+        {
+          "source": "p111-v6-09-balm-texture.png",
+          "width": 668,
+          "height": 767.421875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.0670867566519036e-06
+        },
+        {
+          "source": "p111-v6-10-puff-heading.png",
+          "width": 668,
+          "height": 223.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.219398412478535e-05
+        },
+        {
+          "source": "p111-v6-11-puff-amount.gif",
+          "width": 668,
+          "height": 346.421875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 860,
+          "ratio_error": 9.029905305713015e-06
+        },
+        {
+          "source": "p111-v6-12-puff-instructions.png",
+          "width": 668,
+          "height": 309.140625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 5.330907951517361e-06
+        },
+        {
+          "source": "p111-v6-13-three-moments.png",
+          "width": 668,
+          "height": 649.34375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.154121988573454e-05
+        },
+        {
+          "source": "p111-v6-14-product.png",
+          "width": 668,
+          "height": 876.15625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 1.675428213343544e-05
+        }
+      ],
+      "all_images_seen_seconds": 2.72,
+      "native_purchase_open_close": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "slow": false,
+      "composition_ready_seconds": 2.18,
+      "images": [
+        {
+          "source": "p111-v6-01-hero-heading-860.png",
+          "width": 668,
+          "height": 385.25,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.2629160284171057e-05
+        },
+        {
+          "source": "p111-v6-02-hero-application.gif",
+          "width": 668,
+          "height": 412,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 0
+        },
+        {
+          "source": "p111-v6-03-hero-caption-860.png",
+          "width": 668,
+          "height": 85.4375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 6.527642389647648e-06
+        },
+        {
+          "source": "p111-v6-04-balm-and-puff-860.jpg",
+          "width": 668,
+          "height": 486.234375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 1.1205786102141957e-05
+        },
+        {
+          "source": "p111-v6-05-benefit-860.jpg",
+          "width": 668,
+          "height": 891.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.2193984124951882e-05
+        },
+        {
+          "source": "p111-v6-06-where-heading-860.png",
+          "width": 668,
+          "height": 276.515625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 7.941964907387522e-06
+        },
+        {
+          "source": "p111-v6-07-where-application.gif",
+          "width": 668,
+          "height": 232.90625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 760,
+          "ratio_error": 2.2159628112194962e-05
+        },
+        {
+          "source": "p111-v6-08-where-labels-860.png",
+          "width": 668,
+          "height": 150.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 1.305528477907325e-06
+        },
+        {
+          "source": "p111-v6-09-balm-texture-860.jpg",
+          "width": 668,
+          "height": 767.421875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.0670867566519036e-06
+        },
+        {
+          "source": "p111-v6-10-puff-heading-860.png",
+          "width": 668,
+          "height": 223.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.219398412478535e-05
+        },
+        {
+          "source": "p111-v6-11-puff-amount.gif",
+          "width": 668,
+          "height": 346.421875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 860,
+          "ratio_error": 9.029905305713015e-06
+        },
+        {
+          "source": "p111-v6-12-puff-instructions-860.png",
+          "width": 668,
+          "height": 309.140625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 5.330907951517361e-06
+        },
+        {
+          "source": "p111-v6-13-three-moments-860.png",
+          "width": 668,
+          "height": 649.34375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.154121988573454e-05
+        },
+        {
+          "source": "p111-v6-14-product-860.jpg",
+          "width": 668,
+          "height": 876.15625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 1.675428213343544e-05
+        }
+      ],
+      "all_images_seen_seconds": 3.01,
+      "native_purchase_open_close": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "slow": false,
+      "composition_ready_seconds": 1.83,
+      "images": [
+        {
+          "source": "p111-v6-01-hero-heading.png",
+          "width": 668,
+          "height": 385.25,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.2629160284171057e-05
+        },
+        {
+          "source": "p111-v6-02-hero-application.gif",
+          "width": 668,
+          "height": 412,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 0
+        },
+        {
+          "source": "p111-v6-03-hero-caption.png",
+          "width": 668,
+          "height": 85.4375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 6.527642389647648e-06
+        },
+        {
+          "source": "p111-v6-04-balm-and-puff.png",
+          "width": 668,
+          "height": 486.234375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 1.1205786102141957e-05
+        },
+        {
+          "source": "p111-v6-05-benefit.png",
+          "width": 668,
+          "height": 891.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.2193984124951882e-05
+        },
+        {
+          "source": "p111-v6-06-where-heading.png",
+          "width": 668,
+          "height": 276.515625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 7.941964907387522e-06
+        },
+        {
+          "source": "p111-v6-07-where-application.gif",
+          "width": 668,
+          "height": 232.90625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 760,
+          "ratio_error": 2.2159628112194962e-05
+        },
+        {
+          "source": "p111-v6-08-where-labels.png",
+          "width": 668,
+          "height": 150.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 1.305528477907325e-06
+        },
+        {
+          "source": "p111-v6-09-balm-texture.png",
+          "width": 668,
+          "height": 767.421875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.0670867566519036e-06
+        },
+        {
+          "source": "p111-v6-10-puff-heading.png",
+          "width": 668,
+          "height": 223.6875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.219398412478535e-05
+        },
+        {
+          "source": "p111-v6-11-puff-amount.gif",
+          "width": 668,
+          "height": 346.421875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 860,
+          "ratio_error": 9.029905305713015e-06
+        },
+        {
+          "source": "p111-v6-12-puff-instructions.png",
+          "width": 668,
+          "height": 309.140625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 5.330907951517361e-06
+        },
+        {
+          "source": "p111-v6-13-three-moments.png",
+          "width": 668,
+          "height": 649.34375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.154121988573454e-05
+        },
+        {
+          "source": "p111-v6-14-product.png",
+          "width": 668,
+          "height": 876.15625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 1.675428213343544e-05
+        }
+      ],
+      "all_images_seen_seconds": 2.7,
+      "native_purchase_open_close": true,
+      "errors": [],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "slow": true,
+      "composition_ready_seconds": 23.96,
+      "images": [
+        {
+          "source": "p111-v6-01-hero-heading-860.png",
+          "width": 350,
+          "height": 201.859375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 3.1146179402252727e-06
+        },
+        {
+          "source": "p111-v6-02-hero-application.gif",
+          "width": 350,
+          "height": 215.859375,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 668,
+          "ratio_error": 2.539563729686556e-05
+        },
+        {
+          "source": "p111-v6-03-hero-caption-860.png",
+          "width": 350,
+          "height": 44.765625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 5.191029900347699e-06
+        },
+        {
+          "source": "p111-v6-04-balm-and-puff-860.jpg",
+          "width": 350,
+          "height": 254.765625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 5.191029900264432e-06
+        },
+        {
+          "source": "p111-v6-05-benefit-860.jpg",
+          "width": 350,
+          "height": 467.203125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 1.7649501661276545e-05
+        },
+        {
+          "source": "p111-v6-06-where-heading-860.png",
+          "width": 350,
+          "height": 144.875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 2.4916943521580137e-05
+        },
+        {
+          "source": "p111-v6-07-where-application.gif",
+          "width": 350,
+          "height": 122.03125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 760,
+          "ratio_error": 2.349624060149491e-05
+        },
+        {
+          "source": "p111-v6-08-where-labels-860.png",
+          "width": 350,
+          "height": 78.953125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 1.0382059800473353e-06
+        },
+        {
+          "source": "p111-v6-09-balm-texture-860.jpg",
+          "width": 350,
+          "height": 402.078125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 4.256644518263464e-05
+        },
+        {
+          "source": "p111-v6-10-puff-heading-860.png",
+          "width": 350,
+          "height": 117.203125,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 1.7649501661110012e-05
+        },
+        {
+          "source": "p111-v6-11-puff-amount.gif",
+          "width": 350,
+          "height": 181.5,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 860,
+          "ratio_error": 3.3222591362180864e-05
+        },
+        {
+          "source": "p111-v6-12-puff-instructions-860.png",
+          "width": 350,
+          "height": 161.96875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 2.2840531561485466e-05
+        },
+        {
+          "source": "p111-v6-13-three-moments-860.png",
+          "width": 350,
+          "height": 340.21875,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 3.945182724252039e-05
+        },
+        {
+          "source": "p111-v6-14-product-860.jpg",
+          "width": 350,
+          "height": 459.0625,
+          "center_error": 0,
+          "width_error": 0,
+          "natural_width": 390,
+          "ratio_error": 2.0764119601501818e-05
+        }
+      ],
+      "all_images_seen_seconds": 89.66,
+      "native_purchase_open_close": true,
+      "errors": [],
+      "passed": true
+    }
+  ],
+  "other_product_unchanged": true,
+  "passed": true
+}

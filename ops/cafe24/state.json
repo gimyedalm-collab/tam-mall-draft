@@ -1,4 +1,20 @@
 {
+  "native_powder_images_20261022": {
+    "product_no": 111,
+    "status": "candidate_saved_image_geometry_verified; slow_GIF_loading_remains",
+    "source_commit": "51af6f3",
+    "skin": "skin21/editor27",
+    "production_changed": false,
+    "other_products_unchanged": true,
+    "chromium_run": 39744703514,
+    "chromium_cases": 6,
+    "safari_run": 39744708097,
+    "safari_checks": 50,
+    "upload_files_verified": 28,
+    "physical_phone_verified": false,
+    "activation_overlay_regenerated": true,
+    "evidence": "native-powder-20261022/REPORT.md"
+  },
   "native_purchase_20261022": {
     "status": "candidate_saved_and_verified;private_activation_overlay_prepared",
     "source_commit": "552111f",

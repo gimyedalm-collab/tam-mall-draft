@@ -215,11 +215,20 @@
   "source_manifest": "powder-balm-v5/source-manifest.json",
   "status": {
     "prepared": true,
-    "candidate_upload_verified": false,
-    "physical_device_verified": false
+    "candidate_upload_verified": true,
+    "physical_device_verified": false,
+    "preview_verified": true,
+    "native_browser_verified": true,
+    "owner_visual_acceptance": "pending",
+    "production_activated": false
   },
   "limitations": [
     "GIF retains its original palette and frame rate; not original-video fidelity.",
     "Existing native product gallery remains original photography."
-  ]
+  ],
+  "verification": {
+    "chromium_run": 39744703514,
+    "safari_run": 39744708097,
+    "slow_loading_remaining": true
+  }
 }

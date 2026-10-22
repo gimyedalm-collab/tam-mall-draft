@@ -22,7 +22,17 @@ Upload28/28: decoded image pixels, ICC, every GIF frame/timing preserved;
 18PNGs were losslessly recompressed by Cafe24. See upload-checks.json.
 
 Local preview:5 viewport/DPR cases passed14-image geometry/decode checks.
-Actual native browser, Chromium slow network and Safari rerun pending.
+Actual native Chromium39744703514 passed6viewport/DPR/network cases, each
+with14image decode/alignment/aspect checks and native purchase-sheet open/close.
+Product109 media and powder-only class isolation checked unchanged.
+Safari39744708097 passed50 existing regression checks on macOS VM Safari26.6.2.
+Pages39744639714 succeeded. Both desktop and390px actual UI visually inspected.
+
+Slow1.6Mbps150ms cache-disabled: composition ready23.96s; all14images
+sequentially viewed89.66s. This is NOT LCP and NOT a performance pass.
+Normal cases2.70–4.35s to view all images on the CI network.
+Private activation overlay regenerated:14templates/15uploads, root paths checked,
+obsolete generated overlay versions retired; not uploaded/activated.
 Physical phone/iOS and actual transactions remain unverified.
 GIFs remain4.8MB/4.6MB/1.5MB; no fast-load or original-video-fidelity claim.
 

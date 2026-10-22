@@ -1,3 +1,24 @@
+## ACTIVE: powder balm image fix only — 2026-10-22
+
+Owner narrowed image changes to product111 only. Source51af6f3 on main;
+skin21/editor27 saved with candidate-detail-v3.js and candidate-purchase-v5.css.
+Body668px; static1720px re-render/860px responsive; all3GIF bytes unchanged.
+Native840px gallery max600px for111 only. Other products unchanged.
+Native fragment product-111-v6.html. Delivery cafe24-delivery-20261022/powder-balm.
+Upload28/28 decoded pixels/ICC/everyGIF frame/timing preserved (18PNG lossless
+recompression). Chromium39744703514 pass6cases x14images +6purchase-sheetflows;
+Safari39744708097 pass50. Pages39744639714 success. Physical/iOS false.
+SLOW ISSUE STILL OPEN:1.6Mbps150ms cacheoff composition23.96s/allimages89.66s.
+Do not call functional slow success a performance pass. See native-powder report.
+Private activation overlay refreshed14templates/15uploads; not activated.
+New browser bindings finalEditor (fresh tab), uploadFresh, powderPhone and
+powderProof. Old openFinal/savePurchaseClipboard closures bound to old editor!
+Use explicit fresh-tab locators, confirm actual active filename before paste.
+If old tabs time out focus, creating fresh same-service tabs restored access.
+Pre-change detail saved privately: .codex/tam-cafe24-output/powder-v6-before-detail.html.
+
+---
+
 ## ACTIVE: centered detail and purchase sheet — 2026-10-22
 
 Owner authorized all purchase-layout fixes and activation preparation. Source

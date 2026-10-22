@@ -442,7 +442,8 @@
       "route": "skin21 public pages at1.6Mbps/150ms",
       "actual": "Functional tests pass, but shell readiness14.4–36.2s and home video33.8s. Not an overall speed pass.",
       "fix": "Responsive product/lookbook derivatives uploaded; duplicate product image requests removed. Further native-resource profiling remains.",
-      "evidence": "native-inner-20261022/slow-network.json"
+      "evidence": "native-inner-20261022/slow-network.json",
+      "retest": "Powder111:1.6Mbps150ms cache disabled, composition ready23.96s, all14images sequentially viewed89.66s. Functional checks pass but GIF transfer performance remains open; not LCP."
     },
     {
       "id": "TAM-C24-PURCHASE-ALIGN-20261022",
@@ -463,6 +464,19 @@
       "fix": "Guard missing legacy header; use new header height in product tab offsets.",
       "retest": "Final9purchase flows record zero script errors; home/inner Safari regression passes.",
       "evidence": "native-purchase-20261022/REPORT.md"
+    },
+    {
+      "id": "TAM-C24-POWDER-IMAGES-20261022",
+      "type": "visual_quality",
+      "priority": "P1",
+      "status": "fixed_on_candidate",
+      "route": "/skin-skin21/product/detail.html?product_no=111",
+      "reproduce": "At1440px compare860px static panels and668/760px GIF alignment; original840px gallery displayed807px.",
+      "expected": "Consistent centered media geometry without unnecessary source enlargement; crisp text on high-density screens.",
+      "actual": "Different body widths/left alignment; insufficient static density at original display width. No404 observed for all14 powder assets.",
+      "fix": "Body668px, static1720px source renders with860px responsive originals, unchangedGIF bytes; product111-only gallery max600px.",
+      "evidence": "native-powder-20261022/REPORT.md",
+      "retest": "Chromium6cases x14images decoded/aligned;6native purchase-sheet open/close flows; other109 unchanged; Safari50 regression;28upload pixel/ICC/GIF checks pass."
     }
   ]
 }

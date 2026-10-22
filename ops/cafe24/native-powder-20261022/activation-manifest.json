@@ -1,0 +1,162 @@
+{
+  "status": "prepared_only_not_uploaded_or_activated",
+  "target": "existing integrated skin21/editor27",
+  "rollback": "Korean skin18; English skin8 untouched",
+  "full_skin_archive": false,
+  "template_count": 14,
+  "upload_count": 15,
+  "root_route_static_check": true,
+  "production_e2e_verified": false,
+  "files": [
+    {
+      "path": "APPLY-AND-ROLLBACK.md",
+      "bytes": 1398,
+      "sha256": "23408294ee420fdba889ddf351248e8f7d30bd20bc0033ace33ecfbd8da8a0e5"
+    },
+    {
+      "path": "templates/about.html",
+      "bytes": 2314,
+      "sha256": "3f37369e49c9659af94776260e87d078a2e2957d049971be58d1029f3f075004"
+    },
+    {
+      "path": "templates/board/gallery/list.html",
+      "bytes": 14664,
+      "sha256": "1ace09b3b7099b6767cd396d43aa816c2763f019bdd61ed56919ebd669bcf117"
+    },
+    {
+      "path": "templates/index.html",
+      "bytes": 11367,
+      "sha256": "3f8b12d1e0f0e6e93f59f7efac7ebe3ee9d2020d91157f2688ed137848c2eb59"
+    },
+    {
+      "path": "templates/layout/basic/layout.html",
+      "bytes": 576,
+      "sha256": "3ab7726cbc1be2b2b8508e34a0ee0307f926d2a29953dbcce62bc62252a7f072"
+    },
+    {
+      "path": "templates/moa/import/product/product_form.html",
+      "bytes": 2925,
+      "sha256": "bf4b8c425ff477a4aebdf070f2bf188c018270f6da3f1187f3104d2c73707097"
+    },
+    {
+      "path": "templates/moa/import/product_detail/detail.html",
+      "bytes": 2195,
+      "sha256": "ca8aa68de582894287acdfdd89bcda5e7926b0298bbc187821149039f689fee8"
+    },
+    {
+      "path": "templates/moa/js/common.js",
+      "bytes": 13001,
+      "sha256": "05685d2d498ccb90b37d101915ce72b52c49ca1ef29b328627e1f3cfcc988016"
+    },
+    {
+      "path": "templates/moa/js/product/detail.js",
+      "bytes": 48824,
+      "sha256": "43ffcaf829c10c4b80a30f323db800d235f3e3139637bcff2995efdae25bcef1"
+    },
+    {
+      "path": "templates/moa/layout/footer.html",
+      "bytes": 3412,
+      "sha256": "7fbe9d0537b49a3f1170b12393e479fdc1536aed22737c4db469f71b9ab7c257"
+    },
+    {
+      "path": "templates/moa/layout/head.html",
+      "bytes": 2127,
+      "sha256": "03b82e487a424e1f3cd31ad52f64160661bae9910fd2a40852b3fd0b7dcdf025"
+    },
+    {
+      "path": "templates/moa/layout/header.html",
+      "bytes": 3607,
+      "sha256": "11657ce564dc092a94287e2ae85a04cbceb480f4509e1f3bb341c551a12ab5af"
+    },
+    {
+      "path": "templates/order/orderform.html",
+      "bytes": 7487,
+      "sha256": "d1915343130a189b7ba1056d53f164c92c72b6a62a9f2fa552d4a33f250a8e86"
+    },
+    {
+      "path": "templates/product/list.html",
+      "bytes": 5438,
+      "sha256": "a0576743857f9fa383348484d9d660d05e3932db93bc16ec9227253f88972cfe"
+    },
+    {
+      "path": "templates/product/search.html",
+      "bytes": 5136,
+      "sha256": "cee3d51964b71c7ff75d98494b5c9f2e06e1d400249252d71c213b249f03297f"
+    },
+    {
+      "path": "upload/rollout-detail-261022-v3.js",
+      "bytes": 1936,
+      "sha256": "f40ad8a31e6ba7ab76c298a35336e791958f352953ad117583726a06c54e9173"
+    },
+    {
+      "path": "upload/rollout-home-261022-v4.css",
+      "bytes": 959,
+      "sha256": "157e8d3f754f48baf60c68420efea3c07cfd3f42bf35cf9f92a6bb3c9ecf6e31"
+    },
+    {
+      "path": "upload/rollout-home-261022.js",
+      "bytes": 2368,
+      "sha256": "03dcd4de4a1cf9a5354619b6f99d07c9260d425c0187d4ca074fcdda524e4bdd"
+    },
+    {
+      "path": "upload/rollout-inner-261022-v4.css",
+      "bytes": 17987,
+      "sha256": "d676559f66a14fdaa76908fd3bc61eeb6d371a8b2792d0ba4586e68533b4aeb9"
+    },
+    {
+      "path": "upload/rollout-inner-261022-v4.js",
+      "bytes": 6609,
+      "sha256": "b69a6075373ad77b053b7c0384f31661c05b5ee0c04beb595844ec6659856a9e"
+    },
+    {
+      "path": "upload/rollout-mobile-261022.css",
+      "bytes": 576,
+      "sha256": "157f7440ab7298e0b04f49afa06e5e15d51f61e3c6b4f1438e6f987673a8a63a"
+    },
+    {
+      "path": "upload/rollout-product-102.html",
+      "bytes": 3806,
+      "sha256": "abf506b607064d779a9b54f1ae1e16287f727d3a5df4d6f79cd5255a24bcf65b"
+    },
+    {
+      "path": "upload/rollout-product-109.html",
+      "bytes": 9356,
+      "sha256": "10a96009af9910694a3d0bcbab33d5446061523717fae50bb5fc41cb5ac12717"
+    },
+    {
+      "path": "upload/rollout-product-110.html",
+      "bytes": 15554,
+      "sha256": "92038b899c295f93653171c9678273360a8c5b1b39c165b4d2af7e0c3420c3aa"
+    },
+    {
+      "path": "upload/rollout-product-111-v6.html",
+      "bytes": 12597,
+      "sha256": "1e362634c4aab628af4369948d1a77c2b682f5ab1522ce5770f55a743f8bccbf"
+    },
+    {
+      "path": "upload/rollout-product-118.html",
+      "bytes": 3178,
+      "sha256": "1c45a8b81b1447769ac563e6df56eeb6d6c0d5bc2cd3c83487244bb61631a3e8"
+    },
+    {
+      "path": "upload/rollout-product-24.html",
+      "bytes": 8595,
+      "sha256": "d1cee595fbdcc44eb24ebfab5e08b75a5700ab05cd92214abcd6df957b73a7f2"
+    },
+    {
+      "path": "upload/rollout-product-25-series-v9.html",
+      "bytes": 1914,
+      "sha256": "467aa55849d8a24ff46999644f17d86fd46b4e0169a3ca90c667d40d48b05b69"
+    },
+    {
+      "path": "upload/rollout-purchase-261022-v3.js",
+      "bytes": 3673,
+      "sha256": "98408a944d1b90f000c7dc3ea1f0af1229a3a7d60d5cec918ac44b8b9b32b771"
+    },
+    {
+      "path": "upload/rollout-purchase-261022-v5.css",
+      "bytes": 8080,
+      "sha256": "a5cd94210fdfc8f964f423864af46497dd4ca24c86de28f4de21490cb3a0fc5c"
+    }
+  ]
+}
