@@ -44,7 +44,7 @@ async def main():
                 await page.wait_for_selector('.mobile-layer.fixed')
                 await page.locator('.mobile-fix-footer .jsLayerBtn').click()
                 await page.wait_for_function("document.activeElement.classList.contains('tam-purchase-close')")
-                r['sheet']=await page.evaluate("""()=>{const b=document.querySelector('.mobile-layer').getBoundingClientRect(),d=document.querySelector('#tam-candidate-detail').getBoundingClientRect();return {left:b.left,right:b.right,bottom:b.bottom,height:b.height,viewport:innerHeight,client:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,center_error:Math.abs(d.x+d.width/2-document.documentElement.clientWidth/2),locked:document.documentElement.classList.contains('tam-purchase-open')}}""")
+                r['sheet']=await page.evaluate("""()=>{const b=document.querySelector('.mobile-layer').getBoundingClientRect(),d=document.querySelector('#tam-candidate-detail').getBoundingClientRect(),content=document.body.getBoundingClientRect();return {left:b.left,right:b.right,bottom:b.bottom,height:b.height,viewport:innerHeight,client:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,content_width:content.width,center_error:Math.abs(d.x+d.width/2-(content.x+content.width/2)),locked:document.documentElement.classList.contains('tam-purchase-open')}}""")
                 s=r['sheet'];assert s['left']>=-1 and s['right']<=width+1 and s['bottom']<=s['viewport']+1 and s['scroll']<=s['client']+1 and s['center_error']<1 and s['locked'],s
                 if number==109:
                     await page.locator('#product_option_id1').select_option(label='01. 샌드 쉐이더')
@@ -66,6 +66,7 @@ async def main():
                 r['passed']=True
             except Exception as exc:
                 r.update(passed=False,error=str(exc)[:800])
+                r['failure_state']=await page.evaluate("""()=>({layer:document.querySelector('.jsMobileLayer')?.className,focus:document.activeElement?.className,focusTag:document.activeElement?.tagName,scroll:scrollY,locked:document.documentElement.classList.contains('tam-purchase-open')})""")
             await context.close()
             print(json.dumps(r,ensure_ascii=False),flush=True)
         await browser.close()

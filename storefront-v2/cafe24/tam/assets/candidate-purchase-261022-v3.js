@@ -38,7 +38,13 @@
       }
     }else{
       layer.removeAttribute('role');layer.removeAttribute('aria-modal');layer.removeAttribute('aria-labelledby');
-      if(wasOpen&&returnFocus?.isConnected&&!returnFocus.closest('[inert]')) returnFocus.focus({preventScroll:true});
+      if(wasOpen){
+        const destination=returnFocus;
+        // Wait for the native bar's visibility transition before restoring focus.
+        setTimeout(()=>{
+          if(!layer.classList.contains('on')&&layer.classList.contains('fixed')&&destination?.isConnected&&!destination.closest('[inert]')) destination.focus({preventScroll:true});
+        },320);
+      }
     }
     wasOpen=open;
   }
