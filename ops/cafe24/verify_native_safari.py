@@ -50,12 +50,15 @@ def main():
             time.sleep(.25)
         raise AssertionError('Timed out waiting for native UI')
 
-    def visit(route):
+    def visit(route, allow_login=False):
         nonlocal visit_number
         visit_number += 1
         url = BASE+route+('&' if '?' in route else '?')+'qa_visit='+str(visit_number)
         cmd('POST','/url',{'url':url})
-        wait(lambda: js('return location.href==='+json.dumps(url)+" && document.readyState!=='loading' && !!document.body && [...document.querySelectorAll('link[rel=stylesheet]')].every(e=>!!e.sheet)"))
+        expected='location.href==='+json.dumps(url)
+        if allow_login:
+            expected+=' || (location.pathname==="/skin-skin21/member/login.html" && new URL(location.href).searchParams.get("returnUrl")==='+json.dumps('/'+route.split('?')[0])+')'
+        wait(lambda: js('return ('+expected+") && document.readyState!=='loading' && !!document.body && [...document.querySelectorAll('link[rel=stylesheet]')].every(e=>!!e.sheet)"))
 
     def click(selector):
         elem = cmd('POST','/element',{'using':'css selector','value':selector})['element-6066-11e4-a52e-4f735466cecf']
@@ -104,7 +107,7 @@ def main():
             r['scroll_header'] = True
         for width in (390,1440):
             cmd('POST','/window/rect',{'width':width,'height':950,'x':0,'y':0})
-            for number, count in [(109,6),(110,18),(111,14),(118,16),(102,9),(24,14)]:
+            for number, count in [(109,6),(110,18),(111,14),(118,16),(102,9),(24,14),(25,7)]:
                 visit(f'product/detail.html?product_no={number}')
                 wait(lambda: js("return document.querySelector('#tam-candidate-detail')?.dataset.deliveryStatus==='ready'"))
                 r = js("""const box=document.querySelector('#tam-candidate-detail');return {
@@ -134,15 +137,16 @@ def main():
         for width in (390,1440):
             cmd('POST','/window/rect',{'width':width,'height':950,'x':0,'y':0})
             for route in routes:
-                visit(route)
+                visit(route, allow_login=route.startswith('myshop/'))
                 wait(lambda: js("return !!document.querySelector('.tam-nav-footer')"))
                 r = js("""return {width:innerWidth,client:document.documentElement.clientWidth,
                   scroll:document.documentElement.scrollWidth,
                   header:!!document.querySelector('.tam-nav-header'),footer:!!document.querySelector('.tam-nav-footer'),
-                  bodyClass:document.body.className,brand:!!document.querySelector('#tam-brand'),
+                  bodyClass:document.body.className,brand:!!document.querySelector('#tam-brand'),finalPath:location.pathname,
                   lookbook:!!document.querySelector('#tam-lookbook'),
                   brokenVisibleImages:[...document.images].filter(i=>{const r=i.getBoundingClientRect();return r.width>0&&r.height>0&&r.top<innerHeight&&r.bottom>0&&i.complete&&!i.naturalWidth}).length};""")
                 r['route'] = route
+                r['auth_redirect']=route.startswith('myshop/') and r['finalPath'].endswith('/member/login.html')
                 report['inner'].append(r)
                 assert r['width']==width and r['scroll']<=r['client']+1,r
                 assert r['header'] and r['footer'] and 'tam-native' in r['bodyClass'],r

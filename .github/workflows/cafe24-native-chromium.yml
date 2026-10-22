@@ -1,0 +1,27 @@
+name: Cafe24 candidate Chromium and slow network
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  chromium:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install playwright==1.62.0
+      - run: python -m playwright install --with-deps chromium
+      - name: Public native structural and option regression
+        run: python ops/cafe24/smoke.py --base-url https://awiz.cafe24.com/skin-skin21/ --output native-chromium-results/smoke.json
+      - name: Actual candidate at 1.6 Mbps and 150 ms latency
+        if: always()
+        run: python ops/cafe24/verify_native_slow.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: native-chromium-verification
+          path: native-chromium-results/
+          retention-days: 3
