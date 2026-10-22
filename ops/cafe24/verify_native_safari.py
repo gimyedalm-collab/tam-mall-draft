@@ -22,6 +22,7 @@ def main():
               'home': [], 'details': [], 'collections': []}
     driver = subprocess.Popen(['/usr/bin/safaridriver', '--port', '18765'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     session = None
+    visit_number = 0
 
     def request(method, path, data=None):
         payload = None if data is None else json.dumps(data).encode()
@@ -50,8 +51,11 @@ def main():
         raise AssertionError('Timed out waiting for native UI')
 
     def visit(route):
-        cmd('POST','/url',{'url':BASE+route})
-        wait(lambda: js("return document.readyState!=='loading' && !!document.body && [...document.querySelectorAll('link[rel=stylesheet]')].every(e=>!!e.sheet)"))
+        nonlocal visit_number
+        visit_number += 1
+        url = BASE+route+('&' if '?' in route else '?')+'qa_visit='+str(visit_number)
+        cmd('POST','/url',{'url':url})
+        wait(lambda: js('return location.href==='+json.dumps(url)+" && document.readyState!=='loading' && !!document.body && [...document.querySelectorAll('link[rel=stylesheet]')].every(e=>!!e.sheet)"))
 
     def click(selector):
         elem = cmd('POST','/element',{'using':'css selector','value':selector})['element-6066-11e4-a52e-4f735466cecf']
@@ -68,6 +72,8 @@ def main():
             cmd('POST','/window/rect',{'width':width,'height':height,'x':0,'y':0})
             visit('?qa=native-safari261022')
             wait(lambda: js("return document.querySelector('.ux-header')?.hasAttribute('data-home-header-ready') && document.querySelector('video')?.readyState>=2"))
+            js("window.scrollTo({top:0,behavior:'instant'});")
+            wait(lambda: js("return scrollY===0 && !document.querySelector('.ux-header').classList.contains('is-solid')"))
             r = js("""const v=document.querySelector('video'), b=v.getBoundingClientRect();
               return {width:innerWidth,height:innerHeight,client:document.documentElement.clientWidth,
               scroll:document.documentElement.scrollWidth,video:{x:b.x,y:b.y,width:b.width,height:b.height,fit:getComputedStyle(v).objectFit},
