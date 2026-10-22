@@ -21,6 +21,7 @@ async def main():
             await page.wait_for_function("[...document.querySelectorAll('link[rel=stylesheet]')].every(e=>!!e.sheet)")
             r=await page.evaluate("""()=>{const b=document.querySelector('#tam-candidate-detail').getBoundingClientRect();return {width:innerWidth,client:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,detail_width:b.width,center_error:Math.abs(b.x+b.width/2-document.documentElement.clientWidth/2)}}""")
             r['product']=number;r['passed']=r['center_error']<1 and r['scroll']<=r['client']+1
+            r['purchase_css']=await page.locator('link[href*="candidate-purchase-"]').get_attribute('href')
             report['alignment'].append(r)
         await context.close()
         for width,number,slow in [(w,n,False) for w in (320,390,768,1440) for n in (109,25)]+[(390,109,True)]:
@@ -37,6 +38,7 @@ async def main():
             try:
                 await page.goto(BASE+f'product/detail.html?product_no={number}',wait_until='domcontentloaded',timeout=120000)
                 await page.wait_for_selector('.jsMobileLayer[data-tam-purchase-ready=true]',state='attached',timeout=90000)
+                r['purchase_css']=await page.locator('link[href*="candidate-purchase-"]').get_attribute('href')
                 await page.wait_for_function("document.querySelector('#tam-candidate-detail')?.dataset.deliveryStatus==='ready'",timeout=90000)
                 await page.evaluate("window.scrollTo({top:document.querySelector('#prdDetail').getBoundingClientRect().top+scrollY+150,behavior:'instant'})")
                 await page.wait_for_selector('.mobile-layer.fixed')

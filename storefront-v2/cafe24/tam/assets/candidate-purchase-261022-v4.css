@@ -60,6 +60,7 @@ body.tam-native .mobile-layer.fixed .productAction {position:static!important;wi
 body.tam-native .mobile-layer.fixed .productAction > div {padding:0!important}
 body.tam-native .mobile-layer.fixed .fix-layer-close-bg,
 body.tam-native .mobile-layer.fixed .evt-banner,
+body.tam-native .mobile-layer.fixed .evt,
 body.tam-native .mobile-layer.fixed .jsFixClose {display:none!important}
 body.tam-native .tam-purchase-heading {display:none}
 body.tam-native .mobile-layer.fixed .tam-purchase-heading {display:flex;align-items:center;justify-content:space-between;gap:20px;padding:8px 20px;border-bottom:1px solid #e5e2dc;min-height:58px;box-sizing:border-box}
@@ -74,6 +75,8 @@ body.tam-native .tam-purchase-close:focus-visible {outline:2px solid #191919;out
   body.tam-native .mobile-layer.fixed .opt-content__pc {display:none!important}
 }
 @media(max-width:1023px){
+  body.tam-native .xans-product-additional .ec-base-button .gRight {display:flex;gap:8px;flex-wrap:wrap;width:100%}
+  body.tam-native .xans-product-additional .ec-base-button .gRight > a {flex:1 1 0;min-width:0!important;width:auto!important;margin:0!important;box-sizing:border-box}
   body.tam-native .detail-container .infoArea {padding-left:0!important;padding-right:0!important}
   body.tam-native .mobile-layer.fixed .opt-content__pc {padding-top:0!important}
   body.tam-native .mobile-layer.fixed .mobile-layer__inner {padding-inline:16px!important}

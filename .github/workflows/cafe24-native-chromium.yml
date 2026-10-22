@@ -1,6 +1,11 @@
 name: Cafe24 candidate Chromium and slow network
 on:
   workflow_dispatch:
+    inputs:
+      purchase_only:
+        description: Run only the targeted native purchase regression
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -15,9 +20,10 @@ jobs:
       - run: pip install playwright==1.62.0
       - run: python -m playwright install --with-deps chromium
       - name: Public native structural and option regression
+        if: ${{ !inputs.purchase_only }}
         run: python ops/cafe24/smoke.py --base-url https://awiz.cafe24.com/skin-skin21/ --output native-chromium-results/smoke.json
       - name: Actual candidate at 1.6 Mbps and 150 ms latency
-        if: always()
+        if: ${{ always() && !inputs.purchase_only }}
         run: python ops/cafe24/verify_native_slow.py
       - name: Centered details and native purchase sheet
         if: always()
