@@ -25,7 +25,11 @@ class Regions(HTMLParser):
 
 def patch_layout(source,checkout=False):
  if 'TAM-INTEGRATION-V2' in source:return source,{'status':'already-integrated'}
- if not re.search(r'</head\s*>',source,re.I) or not re.search(r'<body\b',source,re.I):return source,{'status':'manual','reason':'full head/body layout not found'}
+ body_start=re.search(r'<body\b',source,re.I)
+ if not body_start:return source,{'status':'manual','reason':'body layout not found'}
+ head_end=re.search(r'</head\s*>',source[:body_start.start()],re.I)
+ head_imports=list(re.finditer(r'<!--\s*@import\((/[^)]*/head\.html)\)\s*-->',source[:body_start.start()],re.I))
+ if not head_end and len(head_imports)!=1:return source,{'status':'manual','reason':'one inline or imported head required'}
  changes=[];replacements=[]
  if not checkout:
   found=Regions(source).matches
@@ -42,7 +46,15 @@ def patch_layout(source,checkout=False):
  includes='<!-- TAM-INTEGRATION-V2: retains original scripts, modules and forms -->\n<!--@css(/tam/assets/native-commerce.css)-->\n'
  if not checkout:includes+='<!--@css(/tam/assets/chrome.css)-->\n<!--@js(/tam/assets/chrome.js)-->\n'
  includes+='<!--@css(/tam/assets/quality.css)-->\n'
- source=re.sub(r'</head\s*>',lambda m:includes+m.group(0),source,count=1,flags=re.I)
+ if head_end:
+  source=re.sub(r'</head\s*>',lambda m:includes+m.group(0),source,count=1,flags=re.I)
+ else:
+  # Cafe24 resolves CSS/JS directives during template assembly. Keep the shared
+  # head import intact; putting directives next to it avoids modifying checkout
+  # or other layouts that import the same head file.
+  anchor=head_imports[0].group(0)
+  source=source.replace(anchor,anchor+'\n'+includes,1)
+  changes.append('retain imported head; add layout-local theme directives')
  cls='tam-checkout' if checkout else 'tam-native'
  def body(m):
   tag=m.group(0)

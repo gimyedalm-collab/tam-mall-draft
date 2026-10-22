@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-22",
+  "source_skin": "skin18",
+  "editor_skin_no": 24,
+  "source_capture_method": "read rendered editor lines via UI navigation; complete numbered coverage per captured file; no administrator save",
+  "source_capture_scope": "15 selected HTML templates; not a complete skin archive",
+  "captured_files": {
+    "index.html": {
+      "sha256": "ab67c79186bba372797a8fd5f0bc47aaf7df908c08ab888290ac2abe29d753ce",
+      "lines": 73
+    },
+    "member/join.html": {
+      "sha256": "473ea894da8b7f2c59b9f6328c2c44b94a3c4bea434d88b0e949198984ed8296",
+      "lines": 497
+    },
+    "member/login.html": {
+      "sha256": "7048e87acdfb98ba16142ce240095a4ec25b432bfe13701c5d29b09f21d8b3b9",
+      "lines": 121
+    },
+    "order/basket.html": {
+      "sha256": "5134390a72bdeb49ae7d756f61b434ff055d78ef641448189eaf0887f7911010",
+      "lines": 1360
+    },
+    "order/orderform.html": {
+      "sha256": "5793678725a9137e370240fa7a1ed1e000fb1ed4696e6f3265e15e3f63b08101",
+      "lines": 141
+    },
+    "product/detail.html": {
+      "sha256": "cc51529dda6646dd19c593f974bf0ba53d7bae605b4bd6fd1c179f8cea44da57",
+      "lines": 806
+    },
+    "moa/layout/aside.html": {
+      "sha256": "09fcfb09d6f43d8570ad7f9818b9ef09e134b61a5065b81f20caab7b6abeb2c9",
+      "lines": 140
+    },
+    "moa/layout/footer.html": {
+      "sha256": "d3ca47a15832cef76e20d6c64fe1f575fd92caf8c0d22176e84c6f976f7e0ed7",
+      "lines": 180
+    },
+    "moa/layout/head.html": {
+      "sha256": "ceefefcb41f1828cb2efb220a859fadc47ac59597e838c92f013fe6ba9d3f36f",
+      "lines": 42
+    },
+    "moa/layout/header.html": {
+      "sha256": "3d9eb4341e963ccae445cab64fc7d0d7f7df8db7276a5fdd83d02de23e5c1bce",
+      "lines": 272
+    },
+    "moa/import/product/detail_tab.html": {
+      "sha256": "6328a70bf80184d21fc99a93247f7ae9484635fd36c4cfb3bad901d65787ee6e",
+      "lines": 15
+    },
+    "moa/import/product_detail/detail.html": {
+      "sha256": "4f9d0445bbe6ace6b30a0ebd5b54e72349b3155e93af8ffe86049bb095a303d2",
+      "lines": 39
+    },
+    "moa/import/product_detail/review.html": {
+      "sha256": "961cc89d2396935cee76b5c61ab70eee99d17e7062c54ca252f1080371061d83",
+      "lines": 194
+    },
+    "layout/basic/layout.html": {
+      "sha256": "655fb99980a70941cdb47459fe0419bd52310b4efa918eb90fdbc14d395e90e0",
+      "lines": 21
+    },
+    "layout/basic/main.html": {
+      "sha256": "20897180596dee4d9131c12fbb4f5b04e9faf18a428b1a05be36fd2959093b96",
+      "lines": 22
+    }
+  },
+  "layout_patch_checks": {
+    "layout/basic/main.html": {
+      "status": "local_patch_pass",
+      "retained_imports": [
+        "/moa/layout/head.html",
+        "/moa/import/popup/popup.html",
+        "/moa/import/top_banner.html",
+        "/moa/layout/aside.html",
+        "/moa/import/quick_menu.html",
+        "/moa/import/popup/sample_guide.html"
+      ],
+      "not_saved_to_cafe24": true
+    },
+    "layout/basic/layout.html": {
+      "status": "local_patch_pass",
+      "retained_imports": [
+        "/moa/layout/head.html",
+        "/moa/import/top_banner.html",
+        "/moa/layout/aside.html",
+        "/moa/import/banner_manager.html",
+        "/moa/import/quick_menu.html"
+      ],
+      "not_saved_to_cafe24": true
+    }
+  },
+  "unit_tests": {
+    "passed": 5
+  },
+  "raw_source_in_git": false,
+  "source_files_modified": false,
+  "candidate_migration_complete": false,
+  "production_changed": false
+}

@@ -1,3 +1,21 @@
+## ACTIVE: native source preparation and baseline commerce ? 2026-10-22
+
+15 selected skin18 HTML templates captured outside Git in
+C:/Users/BNK-1/.codex/tam-cafe24-output/source-skin18-20261022.
+Not a full archive. Integrator imported-head bug fixed;5 tests and2 actual
+layout local patch checks pass. No native migration/save performed.
+Old skin21 product109/option01 cart:1x18000+3000=21000;2x18000+0=36000.
+Order form opened with36000; no order/payment submitted. Snap357 loaded.
+IMPORTANT: test cart deletion was requested but dialog handling timed out;
+last successful reload still showed quantity2. Verify cleanup after recovery.
+Owner asked to confirm delete dialog and enable extension file-URL access.
+Browser URL policy blocked chrome://extensions; no automated workaround.
+Full backup download not verified. Physical device still unavailable.
+See native-preparation-20261022/REPORT.md and source-audit.json.
+Production skin18/English skin8 unchanged; all prior fullscreen QA remains valid.
+
+---
+
 ## ACTIVE OVERRIDE: edge-to-edge landscape film, 2026-10-22
 
 Owner rejected side gutters. Source69d2172 removes landscape max-width;

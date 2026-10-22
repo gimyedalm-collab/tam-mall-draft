@@ -344,7 +344,7 @@
       "actual": "Browser connection rejects fileChooser.setFiles with code-32000 Not allowed.",
       "evidence": "rollout-20261021/admin-policy.json",
       "fix": null,
-      "retest": "2026-10-22 authenticated uploader and isolated QA folder confirmed again. File chooser retry still returns -32000 Not allowed; no asset uploaded."
+      "retest": "2026-10-22 attachment remains unverified. Official file-URL permission guidance supplied. Automated chrome://extensions navigation blocked by Browser URL policy; owner setting change pending. No bypass attempted."
     },
     {
       "id": "TAM-HOME-HEADER-20261022",
@@ -371,6 +371,19 @@
       "fix": "Remove max-width cap; landscape100svh cover; portrait retains full-width16:9.",
       "retest": "Safari39705573263:50general,9home sizes,3slow390px routes passed. Landscape video.left0/full content width/viewport height. Chrome1920x911 confirmed. Pages39706060119 succeeded;2changed public files match; public1920x911 left/top0,width1905,height911 verified.",
       "evidence": "fullscreen-20261022/REPORT.md"
+    },
+    {
+      "id": "TAM-C24-IMPORTED-HEAD-20261022",
+      "type": "integration_tool_bug",
+      "priority": "P1",
+      "status": "fixed_locally_native_render_pending",
+      "route": "storefront-v2/integrate_skin.py; layout/basic/main.html and layout.html",
+      "reproduce": "Read actual skin18 layouts: head is imported from moa/layout/head.html; call patch_layout.",
+      "expected": "Recognize imported head while preserving native scripts and imports.",
+      "actual": "Previous inline closing-head requirement skipped both real layouts.",
+      "fix": "Accept exactly one imported head before body; add local CSS/JS directives alongside that import; retain shared head file.",
+      "retest": "5 regression tests and2 local checks against captured originals pass; no Cafe24 save/render verification.",
+      "evidence": "native-preparation-20261022/source-audit.json"
     }
   ]
 }
