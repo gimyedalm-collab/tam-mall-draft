@@ -18,7 +18,7 @@ production skin18 and English shop5 skin8 remain unchanged. Not rollout-ready.
   no overflow, native options and Snap1/3/4/5 placeholders retained. Actual
   Snap review frames observed; no customer/review text exported.
 - Native PDP selects16px/48px; shared viewport permits zoom. Separate order-form
-  viewport remains unmodified. See candidate-detail-checks.json.
+  viewport also repaired and verified in public HTML. See candidate-detail-checks.json.
 - Approved home saved on skin21. Original V16 plays from GitHub Pages on actual
   Cafe24. Landscape100svh cover, portrait full-width16:9; transparent header
   becomes white on scroll/menu. Legacy guide overlay and320px minimum repaired.
@@ -40,7 +40,13 @@ Before changes, native product109/option01:1x18000+3000shipping=21000;
 empty basket was confirmed. No order/payment submitted. This baseline does
 not establish post-migration transaction verification.
 
-Native Safari workflow prepared for actual skin21; run outcome pending.
+Native macOS Safari26.6.2 run39717312033 PASSED22checks:6home sizes,
+12detail/product viewport checks and4collection checks. Home film pause/resume,
+menu and scroll header pass; mobile selects16px/48px. Actual home widths are
+336,390,768,844,1440,1920. Safari clamps requested320px to336px;320px coverage
+comes from Chrome only. Earlier failed runs exposed runner minimum-window,
+third-party page-load waiting and navigation/scroll synchronization issues;
+final runner uses explicit UI readiness. No website failure was suppressed.
 Earlier Safari/throttled-fixture reports cover GitHub preview, not this new
 native integration. No physical phone or authenticated device farm available.
 
@@ -52,8 +58,17 @@ native integration. No physical phone or authenticated device farm available.
 - Complete shared shopping/purchase design and order-form mobile accessibility.
 - Verify stock/options, coupon redemption/exclusions/expiry, exact shipping
   threshold/exceptions, guest/member checkout and payment return behavior.
-- Updated native Safari/slow-network and physical iPhone/Android checks.
+- Updated native slow-network and physical iPhone/Android checks.
 - Full local backup archive: administrator download dialog remains unreliable.
 
 Raw original skin/admin data and staged media stay outside Git. Only source
 builders/scripts and sanitized evidence are versioned.
+
+Post-integration native product109 option01:1x18000; native plus-button gives
+2x18000=36000; real keyboard quantity3 gives54000. No cart/order mutation.
+Order-form public HTML confirms zoom restriction removed; production skin18
+still has its old head and no candidate home marker. See option and production
+check JSON files.
+
+Seven uploaded HTML fragments are byte-identical to the delivery folder.
+Final Safari evidence: native-safari-report.json; CI run39717312033.

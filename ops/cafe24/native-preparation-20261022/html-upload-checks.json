@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "file": "product-102.html",
+      "url": "https://awiz.cafe24.com/tam-detail-20261022/product-102.html",
+      "http_status": 200,
+      "byte_match": true,
+      "sha256": "aec289b3bfd38bcad5befb18de97281a850cff5d72a4ed728cc1f334e21adaef"
+    },
+    {
+      "file": "product-109.html",
+      "url": "https://awiz.cafe24.com/tam-detail-20261022/product-109.html",
+      "http_status": 200,
+      "byte_match": true,
+      "sha256": "95b416f54e5c33ae84d73c4681e8177fdace5f867983353de1b79c7a0a915992"
+    },
+    {
+      "file": "product-110.html",
+      "url": "https://awiz.cafe24.com/tam-detail-20261022/product-110.html",
+      "http_status": 200,
+      "byte_match": true,
+      "sha256": "9f8fd8f83556991d3a048e6d994e0be9e06f2f92d728bb5cba968b15f2e7e2ff"
+    },
+    {
+      "file": "product-111.html",
+      "url": "https://awiz.cafe24.com/tam-detail-20261022/product-111.html",
+      "http_status": 200,
+      "byte_match": true,
+      "sha256": "502af64dad85b894ac68e625574b4a1cbb65f58dbbe99f92997cb44f6836f082"
+    },
+    {
+      "file": "product-118.html",
+      "url": "https://awiz.cafe24.com/tam-detail-20261022/product-118.html",
+      "http_status": 200,
+      "byte_match": true,
+      "sha256": "025846525b000fa87b4f7cce6faec1af0f8c8da6d96dab8df36d0a2cc1c554c8"
+    },
+    {
+      "file": "product-24.html",
+      "url": "https://awiz.cafe24.com/tam-detail-20261022/product-24.html",
+      "http_status": 200,
+      "byte_match": true,
+      "sha256": "071304b993842163deb5221f826bfcdf0ef12d2f0461fbc39222e11c119a6465"
+    },
+    {
+      "file": "product-25.html",
+      "url": "https://awiz.cafe24.com/tam-detail-20261022/product-25.html",
+      "http_status": 200,
+      "byte_match": true,
+      "sha256": "73d888fd7e3f34d789b88b33a3de3b0647d7ffb67350b583883569059ad5983e"
+    }
+  ],
+  "passed": true
+}

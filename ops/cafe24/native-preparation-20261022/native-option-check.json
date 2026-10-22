@@ -1,0 +1,19 @@
+{
+  "scope": "Actual native controls after detail integration; no cart/order mutation",
+  "product": 109,
+  "width": 390,
+  "option": "01. 샌드 쉐이더",
+  "initial": {
+    "quantity": 1,
+    "total_won": 18000
+  },
+  "plus_button": {
+    "quantity": 2,
+    "total_won": 36000
+  },
+  "keyboard_input": {
+    "qty": "3",
+    "total": "총 구매 금액\n54,000원 (3개)"
+  },
+  "note": "Programmatic fill alone did not invoke native key handlers; real plus-button and keypress behavior tested separately."
+}

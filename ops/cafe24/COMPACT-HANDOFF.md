@@ -11,13 +11,16 @@ Candidate21 main index now uses approved fullscreen landscape/16:9 portrait V16
 film and transparent-to-solid header; native prices/company data/Snap1003/apps
 preserved. 6 Chrome screen sizes pass. Native catalog collections6Jelly/8Cloud
 avoid special129 exposed by generic search. 23 home assets verified.
-Candidate PDP selects16px/48px; shared viewport zoom lock removed.
+Candidate PDP selects16px/48px; shared/order-form zoom locks removed.
+Order-form public HTML verified. Native product109 +button/key quantity totals
+18000/36000/54000 pass after integration; no cart/order mutation.
 Production skin18 and English skin8 remain unchanged. No order/payment made.
 Original candidate files and staged delivery files stay outside Git under
 C:/Users/BNK-1/.codex/tam-cafe24-output/. Full backup archive not downloaded.
 Browser's viewport capability affects the active tab; verify actual innerWidth.
-New native Safari CI prepared; must run and record result. Earlier Safari/slow
-reports tested the preview and do not prove current native candidate.
+Native macOS Safari26.6.2 run39717312033 PASS:6home+12detail+4collection
+checks. Actual Safari widths336/390/768/844/1440/1920;320 only Chrome.
+Earlier slow reports still cover preview, not updated native network behavior.
 Remaining: product25 mapping/composition, shared commerce design/input fixes,
 coupon/shipping exceptions/inventory/payment flows, native slow-network and
 physical-phone checks. Do not claim production-ready.

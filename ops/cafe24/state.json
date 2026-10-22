@@ -55,7 +55,7 @@
   "updated_at": "2026-10-22",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
-  "phase": "candidate_home_and_six_native_details_integrated; rollout_verification_in_progress",
+  "phase": "candidate_home_and_six_details_saved; Chrome_and_native_macOS_Safari_pass; rollout_still_incomplete",
   "highlighter_r30_20261001": {
     "approved_snapshot": "highlighter-r30/",
     "preview_product": "storefront-v2/preview/product-24.html",
@@ -84,9 +84,8 @@
   "agent_runtime": "configuration_created; named-agent discovery requires a new project session",
   "browser": "Owner file-URL setting corrected; Chrome file uploads and admin editor saves verified2026-10-22; test cart empty confirmed.",
   "next_actions": [
-    "Run macOS Safari against actual public skin21 and record outcome; prior Safari/slow tests were preview-only.",
     "Finish product25 composition with separate00gloss and01-03oil information; reconcile actual SKU/inventory mapping without deleting00 or reviews.",
-    "Finish shared native shopping/purchase UI and order-form viewport/input accessibility; confirm options, stock, coupons, delivery exceptions, guest/member checkout and payment-return behavior.",
+    "Finish shared native shopping/purchase UI and order-form input accessibility; confirm options, stock, coupons, delivery exceptions, guest/member checkout and payment-return behavior.",
     "Obtain a full local skin archive in addition to server backups and selected original source captures; backup download dialog remains unreliable.",
     "Run updated candidate under slow-network conditions and on physical iPhone/Android when accessible; do not treat desktop viewport resizing as physical testing.",
     "Only after remaining integration and commerce checks pass, switch production according to the agreed rollout."
@@ -99,7 +98,8 @@
     "checkout_payment": "not_checked",
     "production_switch": "not_performed",
     "purchase_preview": "4 policy test groups and browser QA at 1440/390/320 passed; no live purchase or coupon issuance",
-    "overall_preview_review": "11 routes at 1440/390/320; navigation/cart/mobile popup fixes tested. See OVERALL-REVIEW-20260917.md. Original 43.8MB detail performance and native commerce remain pending."
+    "overall_preview_review": "11 routes at 1440/390/320; navigation/cart/mobile popup fixes tested. See OVERALL-REVIEW-20260917.md. Original 43.8MB detail performance and native commerce remain pending.",
+    "native_candidate": "Chrome six home sizes and12detail checks pass; native macOS Safari22checks pass. Not physical iOS or transaction completion."
   },
   "session_20260921_claude": {
     "preview_url_pattern": "https://tambeauty.kr/skin-skinN/... opens without login; usable for candidate QA and owner review",
@@ -1063,9 +1063,29 @@
     "detail_render": "12 Chrome checks across six products at390/1440 pass; Snap placeholders and native options retained.",
     "home": "Approved original V16 via GitHub-hosted MP4 plays on Cafe24; transparent/solid header, native catalog prices, native company data and Snap1003 retained. Six sizes320-1920 pass.",
     "collections": "Native SHOP assortment filtered to6Jelly/8Cloud; search previously surfaced special129 so homepage collection links now avoid generic search.",
-    "mobile": "Candidate shared viewport allows zoom; PDP selects16px/48px. Separate order form not yet repaired.",
+    "mobile": "Candidate shared head and separate order form allow zoom. Order-form public HTML verified. PDP selects16px/48px. Remaining form input/accessibility flows not yet fully tested.",
     "cart": "Owner cleanup verified empty before integration; no new cart mutation in this continuation.",
-    "safari": "new native workflow prepared; execution pending",
-    "evidence": "native-preparation-20261022/REPORT.md"
+    "safari": {
+      "status": "passed",
+      "run": 39717312033,
+      "source_commit": "deb116b",
+      "version": "26.6.2",
+      "home_checks": 6,
+      "detail_checks": 12,
+      "collection_checks": 4,
+      "actual_home_widths": [
+        336,
+        390,
+        768,
+        844,
+        1440,
+        1920
+      ],
+      "physical_phone": false,
+      "ios": false,
+      "evidence": "native-preparation-20261022/native-safari-report.json"
+    },
+    "evidence": "native-preparation-20261022/REPORT.md",
+    "native_option_flow": "Post-integration product109 option01: native +button1?2 computes18000?36000; real keyboard3 computes54000. No cart/order mutation."
   }
 }

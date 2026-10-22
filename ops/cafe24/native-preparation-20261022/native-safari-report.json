@@ -1,0 +1,421 @@
+{
+  "engine": "macOS VM Apple Safari",
+  "physical_phone": false,
+  "iOS": false,
+  "network_throttled": false,
+  "base": "https://awiz.cafe24.com/skin-skin21/",
+  "home": [
+    {
+      "height": 792,
+      "client": 319,
+      "scroll": 319,
+      "headerSolid": false,
+      "width": 336,
+      "video": {
+        "y": 0,
+        "height": 179.4375,
+        "x": 0,
+        "width": 319,
+        "fit": "contain"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 320,
+      "minimum_window_clamp": true,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "menu": true,
+      "scroll_header": true
+    },
+    {
+      "height": 792,
+      "client": 373,
+      "scroll": 373,
+      "headerSolid": false,
+      "width": 390,
+      "video": {
+        "y": 0,
+        "height": 209.8125,
+        "x": 0,
+        "width": 373,
+        "fit": "contain"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 390,
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "menu": true,
+      "scroll_header": true
+    },
+    {
+      "height": 972,
+      "client": 751,
+      "scroll": 751,
+      "headerSolid": false,
+      "width": 768,
+      "video": {
+        "y": 0,
+        "height": 422.4375,
+        "x": 0,
+        "width": 751,
+        "fit": "contain"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 768,
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "menu": true,
+      "scroll_header": true
+    },
+    {
+      "height": 448,
+      "client": 827,
+      "scroll": 827,
+      "headerSolid": false,
+      "width": 844,
+      "video": {
+        "y": 0,
+        "height": 448,
+        "x": 0,
+        "width": 827,
+        "fit": "cover"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 844,
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "menu": true,
+      "scroll_header": true
+    },
+    {
+      "height": 898,
+      "client": 1423,
+      "scroll": 1423,
+      "headerSolid": false,
+      "width": 1440,
+      "video": {
+        "y": 0,
+        "height": 897.984375,
+        "x": 0,
+        "width": 1423,
+        "fit": "cover"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 1440,
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "scroll_header": true
+    },
+    {
+      "height": 1028,
+      "client": 1903,
+      "scroll": 1903,
+      "headerSolid": false,
+      "width": 1920,
+      "video": {
+        "y": 0,
+        "height": 1028,
+        "x": 0,
+        "width": 1903,
+        "fit": "cover"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 1920,
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "scroll_header": true
+    }
+  ],
+  "details": [
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 6,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "width": 390,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 109
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 18,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "width": 390,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 110
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "width": 390,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 111
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 16,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "width": 390,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 118
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 9,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [],
+      "width": 390,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 102
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "width": 390,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 24
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 6,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 13,
+          "height": 40
+        }
+      ],
+      "width": 1440,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 109
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 18,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 13,
+          "height": 40
+        }
+      ],
+      "width": 1440,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 110
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 13,
+          "height": 40
+        }
+      ],
+      "width": 1440,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 111
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 16,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 13,
+          "height": 40
+        }
+      ],
+      "width": 1440,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 118
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 9,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [],
+      "width": 1440,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 102
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "selects": [
+        {
+          "font": 13,
+          "height": 40
+        }
+      ],
+      "width": 1440,
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 24
+    }
+  ],
+  "collections": [
+    {
+      "ids": [
+        "anchorBoxId_24",
+        "anchorBoxId_101",
+        "anchorBoxId_102",
+        "anchorBoxId_25",
+        "anchorBoxId_23",
+        "anchorBoxId_18"
+      ],
+      "width": 390,
+      "collection": "jelly"
+    },
+    {
+      "ids": [
+        "anchorBoxId_110",
+        "anchorBoxId_111",
+        "anchorBoxId_109",
+        "anchorBoxId_118",
+        "anchorBoxId_112",
+        "anchorBoxId_115",
+        "anchorBoxId_114",
+        "anchorBoxId_121"
+      ],
+      "width": 390,
+      "collection": "cloud"
+    },
+    {
+      "ids": [
+        "anchorBoxId_24",
+        "anchorBoxId_101",
+        "anchorBoxId_102",
+        "anchorBoxId_25",
+        "anchorBoxId_23",
+        "anchorBoxId_18"
+      ],
+      "width": 1440,
+      "collection": "jelly"
+    },
+    {
+      "ids": [
+        "anchorBoxId_110",
+        "anchorBoxId_111",
+        "anchorBoxId_109",
+        "anchorBoxId_118",
+        "anchorBoxId_112",
+        "anchorBoxId_115",
+        "anchorBoxId_114",
+        "anchorBoxId_121"
+      ],
+      "width": 1440,
+      "collection": "cloud"
+    }
+  ],
+  "browser_version": "26.6.2",
+  "passed": true
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "url": "https://awiz.cafe24.com/skin-skin21/order/orderform.html",
+    "final_url": "https://awiz.cafe24.com/skin-skin21/order/orderform.html",
+    "http_status": 200,
+    "viewport": [
+      "width=device-width, initial-scale=1"
+    ],
+    "candidate_home": false,
+    "candidate_marker": false,
+    "sha256": "717005606700912aab51b153c3a2d7461e8d9bef9ebd13e1cc3f547623c41a5f"
+  },
+  {
+    "url": "https://awiz.cafe24.com/skin-skin18/",
+    "final_url": "https://awiz.cafe24.com/skin-skin18/",
+    "http_status": 200,
+    "viewport": [
+      "width=device-width, user-scalable=no"
+    ],
+    "candidate_home": false,
+    "candidate_marker": false,
+    "sha256": "981b4d12c726463c627104a167594d669950d54107ded6ec34656946c35e529f"
+  }
+]
