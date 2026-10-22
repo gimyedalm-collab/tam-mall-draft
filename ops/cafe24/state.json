@@ -1016,7 +1016,7 @@
     "production_cafe24_changed": false,
     "blockers": [
       "File URL access permission requested; no completion reply yet",
-      "Admin task tab operations time out; authentication state unknown",
+      "Admin tab now confirmed at Cafe24 login page; owner login/2FA requested; only one connected Chrome browser",
       "No connected physical phone or remote device session"
     ],
     "safari_checks": 50,

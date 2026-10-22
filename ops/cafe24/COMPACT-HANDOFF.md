@@ -8,8 +8,8 @@ remain connected. Main7955506/Pages39704295163 published successfully;10public
 files match and public home overlay verified. See header-20261022/REPORT.md.
 Slow fixture UI works before all media load; do not call loading fast.
 Cafe24 upload remains unverified: official file-URL permission guidance sent;
-owner completion reply pending. Admin task tab operations time out today;
-current auth unknown, do not falsely claim logged out or ask login blindly.
+owner completion reply pending. After initial timeouts, admin tab now visibly
+returned to Cafe24 login. Owner login/2FA requested; login handoff tab retained.
 No physical phones/remote device session. Candidate21 native migration and
 commerce/Snap checks remain incomplete; production unchanged. Original PC/mobile
 server backups and admin policy findings from20261021 remain valid evidence.

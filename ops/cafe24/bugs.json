@@ -344,7 +344,7 @@
       "actual": "Browser connection rejects fileChooser.setFiles with code-32000 Not allowed.",
       "evidence": "rollout-20261021/admin-policy.json",
       "fix": null,
-      "retest": "2026-10-22: official browser guidance requires Allow access to file URLs; owner setting completion pending. Admin tab itself now times out; login state unknown. Upload remains unverified."
+      "retest": "2026-10-22: file URL access completion pending. After initial timeouts, admin tab visibly returned to Cafe24 login screen; owner login/2FA requested. Upload remains unverified."
     },
     {
       "id": "TAM-HOME-HEADER-20261022",
