@@ -27,8 +27,11 @@ def main():
         payload = None if data is None else json.dumps(data).encode()
         req = urllib.request.Request('http://127.0.0.1:18765'+path, data=payload,
                                      headers={'Content-Type':'application/json'}, method=method)
-        with urllib.request.urlopen(req, timeout=55) as response:
-            return json.load(response)['value']
+        try:
+            with urllib.request.urlopen(req, timeout=55) as response:
+                return json.load(response)['value']
+        except urllib.error.HTTPError as exc:
+            raise RuntimeError(exc.read().decode('utf-8','replace')) from exc
 
     def cmd(method, path, data=None):
         return request(method, '/session/'+session+path, data)
@@ -56,7 +59,8 @@ def main():
 
     try:
         wait(lambda: request('GET','/status'),15)
-        created = request('POST','/session',{'capabilities':{'alwaysMatch':{'browserName':'safari','pageLoadStrategy':'eager'}}})
+        # Native app/iframe requests may remain open. Wait for tested UI explicitly.
+        created = request('POST','/session',{'capabilities':{'alwaysMatch':{'browserName':'safari','pageLoadStrategy':'none'}}})
         session = created['sessionId']
         report['browser_version'] = created['capabilities'].get('browserVersion')
         cmd('POST','/timeouts',{'implicit':3000,'pageLoad':45000,'script':15000})
@@ -77,10 +81,12 @@ def main():
             assert abs(r['video']['x'])<1 and abs(r['video']['width']-r['client'])<1,r
             expected = r['height'] if r['width']>=r['height'] else r['client']*9/16
             assert abs(r['video']['height']-expected)<1 and not r['headerSolid'],r
+            paused = js("return document.querySelector('video').paused")
+            r['initial_video_paused'] = paused
             click('.film-toggle')
-            wait(lambda: js("return document.querySelector('video').paused"))
+            wait(lambda: js("return document.querySelector('video').paused") != paused)
             click('.film-toggle')
-            wait(lambda: js("return !document.querySelector('video').paused"))
+            wait(lambda: js("return document.querySelector('video').paused") == paused)
             r['film_controls'] = True
             if width<=900:
                 click('.ux-menu-toggle')
@@ -117,6 +123,12 @@ def main():
     except Exception:
         report['passed'] = False
         report['failure'] = traceback.format_exc()
+        if session:
+            try:
+                report['failure_ui'] = js("""const b=document.querySelector('.film-toggle'),r=b?.getBoundingClientRect(),top=r?document.elementFromPoint(r.x+r.width/2,r.y+r.height/2):null;
+                return {url:location.href,ready:document.readyState,button:r?.toJSON(),coverTag:top?.tagName,coverClass:top?.className};""")
+            except Exception:
+                pass
         raise
     finally:
         if session:
