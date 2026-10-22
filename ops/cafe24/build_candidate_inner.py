@@ -5,13 +5,14 @@ Original app-bearing templates stay outside Git. Native commerce markup is retai
 from pathlib import Path
 import argparse, json, re, shutil
 from bs4 import BeautifulSoup
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2]
 PREVIEW = ROOT / 'storefront-v2/preview'
 ASSETS = ROOT / 'storefront-v2/cafe24/tam/assets'
 BASE = 'https://awiz.cafe24.com/tam-detail-20261022/'
 SKIN = '/skin-skin21'
-VERSION = '261022-v2'
+VERSION = '261022-v4'
 ROUTES = {'index.html':'/index.html', 'shop.html':'/product/list.html?cate_no=74',
  'jelly.html':'/product/list.html?cate_no=74&tam_collection=jelly',
  'cloud.html':'/product/list.html?cate_no=74&tam_collection=cloud',
@@ -27,6 +28,22 @@ def main():
     def write(path,text):
         target=out/'templates'/path;target.parent.mkdir(parents=True,exist_ok=True);target.write_text(text,encoding='utf-8')
     def asset(name):
+        match=re.fullmatch(r'packshot-(\d+)\.png',name)
+        if match or name=='cushion-pink-original-2.png':
+            pid=match[1] if match else '23'
+            with Image.open(PREVIEW/'assets'/name) as image:
+                for width in (480,800):
+                    dest=f'inner-card-{pid}-{width}.png'
+                    scaled=image.resize((width,round(image.height*width/image.width)),Image.Resampling.LANCZOS)
+                    scaled.save(out/dest,optimize=True,icc_profile=image.info.get('icc_profile'))
+            copied[name]=dest;return BASE+dest
+        if name.startswith('lookbook-') and name.endswith('.jpg'):
+            with Image.open(PREVIEW/'assets'/name) as image:
+                for width in (960,1600):
+                    dest=f'inner-{Path(name).stem}-{width}.jpg'
+                    scaled=image.resize((width,round(image.height*width/image.width)),Image.Resampling.LANCZOS)
+                    scaled.save(out/dest,quality=90,optimize=True,progressive=True,icc_profile=image.info.get('icc_profile'))
+            copied[name]=dest;return BASE+dest
         dest='inner-'+name;shutil.copy2(PREVIEW/'assets'/name,out/dest);copied[name]=dest;return BASE+dest
     def transform(node):
         for tag in node.select('[href]'):
@@ -35,7 +52,14 @@ def main():
             elif re.fullmatch(r'product-\d+\.html',value):tag['href']=SKIN+'/product/detail.html?product_no='+re.search(r'\d+',value)[0]
             elif value.startswith('https://tambeauty.kr/'):
                 tag['href']=SKIN+value.removeprefix('https://tambeauty.kr').replace('/member/agreement.html','/member/mall_agreement.html')
-        for tag in node.select('img[src^="assets/"]'):tag['src']=asset(tag['src'].removeprefix('assets/'))
+        for tag in node.select('img[src^="assets/"]'):
+            tag['src']=asset(tag['src'].removeprefix('assets/'))
+            if '-800.png' in tag['src']:
+                tag['srcset']=tag['src'].replace('-800.png','-480.png')+' 480w, '+tag['src']+' 800w'
+                tag['sizes']='(max-width:760px) 58vw, 460px'
+            elif '-1600.jpg' in tag['src']:
+                tag['srcset']=tag['src'].replace('-1600.jpg','-960.jpg')+' 960w, '+tag['src']+' 1600w'
+                tag['sizes']='(max-width:760px) 100vw, 1440px' if 'featured' in tag.parent.get('class',[]) else '(max-width:760px) 50vw, 680px'
         return str(node)
     about=BeautifulSoup((PREVIEW/'about.html').read_text(encoding='utf-8'),'html.parser')
     header=about.select_one('header.ux-header')
@@ -61,12 +85,19 @@ def main():
     original=source('product/list.html')
     package=original[original.index('    <div module="product_normalpackage">'):original.index('<!-- 해당 스크립트 삭제')]
     # Last close belongs to the old outer container.
-    package=package.rstrip().removesuffix('</div>').rstrip()
+    package=package.rstrip().removesuffix('</div>').rstrip().replace('<div class="product_area">','<div class="product_area" style="margin-left:0;margin-right:0">')
     snap=original[original.index('<!-- 해당 스크립트 삭제'):]
     shop='<!--@layout(/layout/basic/layout.html)-->\n<!--@js(/moa/js/lib/calc_sale_rate.js)-->\n<!--@js(/moa/js/lib/thumbnail_lazyload.js)-->\n<section class="tam-page-intro"><h1 data-tam-shop-title>Shop all</h1><p>The Jelly · The Cloud — 탐뷰티의 전체 제품을 만나보세요.</p></section>\n<section class="tam-catalog" data-tam-catalog><div class="tam-section-heading"><h2>All products</h2><a href="'+SKIN+'/product/list.html?cate_no=74">전체 제품 ↗</a></div>'+filters+package+'<p class="tam-empty" hidden>선택한 조건의 제품이 없습니다. 다른 분류를 선택해 주세요.</p></section>\n'+snap
     write('product/list.html',shop)
+    search=source('product/search.html').replace('<div class="gInnerMargin">','<div class="tam-catalog" data-tam-search>')
+    search=search.replace('<div class="titleArea">\n    <h2>SEARCH</h2>\n</div>','<section class="tam-page-intro"><h1>Search</h1><p>제품명이나 컬러 이름으로 탐뷰티를 찾아보세요.</p></section>')
+    write('product/search.html',search)
     # Keep all native IDs/prices/stock/cart/wish handlers. A real link improves keyboard access.
     card=source('moa/import/product/product_form.html').replace('{$product_name}\n        </strong>','<a href="{$link_product_detail}">{$product_name}</a>\n        </strong>')
+    # Native fallback handles future IDs without a prepared packshot; existing cards avoid downloading two hero images.
+    card=re.sub(r'<img src="/moa/img/default/empty_thumb.png"[\s\S]*?>', '<img src="'+BASE+'inner-card-{$product_no}-800.png" srcset="'+BASE+'inner-card-{$product_no}-480.png 480w, '+BASE+'inner-card-{$product_no}-800.png 800w" sizes="(max-width:1099px) calc((100vw - 56px)/2), 340px" data-native-src="{$image_medium}" onerror="this.onerror=null;this.removeAttribute(\'srcset\');this.src=this.getAttribute(\'data-native-src\')" class="product-list-img" id="{$image_medium_id}" alt="{$seo_alt_tag}" loading="lazy" decoding="async" width="800" height="800">',card,count=1)
+    # The approved cards have one still; remove the hidden hover image request.
+    card=re.sub(r'<img src="\{\$add_image_src1\}"[\s\S]*?>','',card,count=1)
     write('moa/import/product/product_form.html',card)
     brand=about.select_one('main')
     catalog=brand.select_one('[data-catalog]')

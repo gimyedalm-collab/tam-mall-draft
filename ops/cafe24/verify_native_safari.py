@@ -157,7 +157,7 @@ def main():
                     r['native_catalog_cards']=14
                 if route.startswith('board/gallery'):assert r['lookbook'],r
                 if route.startswith('product/list'):
-                    click('[data-tam-line=cloud]');click('[data-tam-category=lip]')
+                    click('button[data-tam-line=cloud]');click('button[data-tam-category=lip]')
                     ids=js("return [...document.querySelectorAll('.prdList>li')].filter(e=>!e.hidden).map(e=>e.id).sort()")
                     assert ids==['anchorBoxId_112','anchorBoxId_118'],ids
                     r['combined_filter']=True

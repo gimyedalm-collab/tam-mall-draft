@@ -5,6 +5,7 @@ body.tam-native #contents{box-sizing:border-box;width:100%;max-width:1520px;min-
 body.tam-native:has(#tam-brand) #contents{max-width:none;padding:0}
 body.tam-native:has(#tam-lookbook) #contents{padding-top:0}
 body.tam-native>.top-banner,body.tam-native>aside,body.tam-native>.sample-guide{display:none!important}
+body.tam-native #search_box{display:none!important}
 body.tam-native .tam-nav-header{position:relative!important;top:auto!important;transform:none!important;width:100%;margin:0!important;box-sizing:border-box}
 body.tam-native .tam-nav-header .tam-nav-links,body.tam-native .tam-nav-header .tam-nav-utilities{margin:0}
 body.tam-native .tam-nav-header a{white-space:nowrap}

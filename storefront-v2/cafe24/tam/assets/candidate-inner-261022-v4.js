@@ -2,7 +2,7 @@
 (() => {
   'use strict';
   if (!location.pathname.startsWith('/skin-skin21/')) return;
-  const base='/skin-skin21', media='https://awiz.cafe24.com/tam-detail-20261022/inner-';
+  const base='/skin-skin21', media='https://awiz.cafe24.com/tam-detail-20261022/inner-card-';
   const catalog={23:['jelly','base'],111:['cloud','base'],102:['jelly','cheek'],110:['cloud','cheek'],24:['jelly','cheek'],109:['cloud','cheek'],18:['jelly','lip'],112:['cloud','lip'],101:['jelly','lip'],118:['cloud','lip'],25:['jelly','lip'],114:['cloud','base'],115:['cloud','brow'],121:['cloud','brow']};
   function init(){
     const header=document.querySelector('body.tam-native > .tam-nav-header');
@@ -21,11 +21,12 @@
       const img=card.querySelector('.thumbnail>a>img');
       if(img&&!img.dataset.tamPackshot){
         img.dataset.tamPackshot='true';img.removeAttribute('data-src');img.classList.remove('asyncImage');
-        img.src=media+(id===23?'cushion-pink-original-2.png':`packshot-${id}.png`);img.loading='lazy';img.decoding='async';
+        img.src=media+`${id}-800.png`;img.srcset=media+`${id}-480.png 480w, `+media+`${id}-800.png 800w`;img.sizes='(max-width:1099px) calc((100vw - 56px)/2), 340px';img.loading='lazy';img.decoding='async';
       }
       const desc=card.querySelector('.description');
       if(desc&&!desc.querySelector('.tam-line-tag')){const tag=document.createElement('span');tag.className='tam-line-tag';tag.textContent=`THE ${info[0].toUpperCase()} LINE`;desc.prepend(tag);}
     }
+    document.querySelectorAll('[data-tam-search] .prdList>li[id^="anchorBoxId_"]').forEach(decorate);
     const shop=document.querySelector('[data-tam-catalog]');
     if(shop){
       const params=new URLSearchParams(location.search), requested=params.get('tam_collection');
@@ -35,8 +36,8 @@
         document.body.dataset.tamCollection=line;
         const cards=[...shop.querySelectorAll('.prdList>li[id^="anchorBoxId_"]')];
         cards.forEach(card=>{decorate(card);card.hidden=!((line==='all'||card.dataset.tamLine===line)&&(category==='all'||card.dataset.tamCategory===category));});
-        shop.querySelectorAll('[data-tam-line]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tamLine===line)));
-        shop.querySelectorAll('[data-tam-category]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tamCategory===category)));
+        shop.querySelectorAll('button[data-tam-line]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tamLine===line)));
+        shop.querySelectorAll('button[data-tam-category]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tamCategory===category)));
         const count=cards.filter(c=>!c.hidden).length;shop.querySelector('.tam-count').textContent=`${count} products`;
         shop.querySelector('.tam-empty').hidden=count>0;
         if(title)title.textContent=line==='all'?'Shop all':line==='jelly'?'The Jelly':'The Cloud';
@@ -58,7 +59,7 @@
           const nativeLink=card.querySelector('.thumbnail>a'),name=card.querySelector('.name'),price=card.querySelector('.spec');if(!nativeLink||!name||!price)continue;
           const item=document.createElement('li'),link=document.createElement('a'),img=document.createElement('img'),label=document.createElement('span'),heading=document.createElement('h3');
           const cleanName=name.cloneNode(true);cleanName.querySelectorAll('.title').forEach(e=>e.remove());
-          link.href=nativeLink.getAttribute('href');img.src=media+(id===23?'cushion-pink-original-2.png':`packshot-${id}.png`);img.alt=cleanName.textContent.trim();img.loading='lazy';img.width=800;img.height=800;
+          link.href=nativeLink.getAttribute('href');img.src=media+`${id}-800.png`;img.srcset=media+`${id}-480.png 480w, `+media+`${id}-800.png 800w`;img.sizes='(max-width:1099px) calc((100vw - 56px)/2), 340px';img.alt=cleanName.textContent.trim();img.loading='lazy';img.width=800;img.height=800;
           label.className='tam-line-tag';label.textContent=`THE ${catalog[id][0].toUpperCase()} LINE`;heading.textContent=img.alt;
           const prices=price.cloneNode(true);prices.querySelectorAll('.title,script').forEach(n=>n.remove());prices.querySelectorAll('[id]').forEach(n=>n.removeAttribute('id'));
           link.append(img,label,heading,prices);item.append(link);const icons=card.querySelector('.icon');if(icons)item.append(icons.cloneNode(true));grid.append(item);

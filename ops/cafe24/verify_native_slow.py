@@ -42,7 +42,7 @@ async def main():
                     r['video_ready_seconds']=round(time.monotonic()-started,2)
                 elif route.startswith('product/list'):
                     await page.wait_for_function("document.querySelector('.tam-count')?.textContent==='14 products'",timeout=120000)
-                    await page.locator('[data-tam-line=cloud]').click();await page.locator('[data-tam-category=lip]').click()
+                    await page.locator('button[data-tam-line=cloud]').click();await page.locator('button[data-tam-category=lip]').click()
                     assert await page.locator('.prdList>li:not([hidden])').count()==2
                     r['combined_filter']=True
                 elif route=='about.html':
