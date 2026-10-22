@@ -443,6 +443,26 @@
       "actual": "Functional tests pass, but shell readiness14.4–36.2s and home video33.8s. Not an overall speed pass.",
       "fix": "Responsive product/lookbook derivatives uploaded; duplicate product image requests removed. Further native-resource profiling remains.",
       "evidence": "native-inner-20261022/slow-network.json"
+    },
+    {
+      "id": "TAM-C24-PURCHASE-ALIGN-20261022",
+      "priority": "P1",
+      "status": "candidate_fixed_and_verified",
+      "route": "skin21 all14product details",
+      "actual": "Old430px right reservation left-aligns details; original full-height purchase rail and colored controls remain.",
+      "fix": "Centered details; native bottom sheet; black primary CTA/neutral coupon notice;320px inquiry buttons fit.",
+      "retest": "14alignment and9purchase flows pass; Safari50suite passes.",
+      "evidence": "native-purchase-20261022/REPORT.md"
+    },
+    {
+      "id": "TAM-C24-LEGACY-SCROLL-20261022",
+      "priority": "P1",
+      "status": "candidate_fixed_and_verified",
+      "route": "moa/js/common.js and moa/js/product/detail.js",
+      "actual": "Old header-bottom lookup throws on scroll after navigation replacement, blocking subsequent native scroll callbacks.",
+      "fix": "Guard missing legacy header; use new header height in product tab offsets.",
+      "retest": "Final9purchase flows record zero script errors; home/inner Safari regression passes.",
+      "evidence": "native-purchase-20261022/REPORT.md"
     }
   ]
 }

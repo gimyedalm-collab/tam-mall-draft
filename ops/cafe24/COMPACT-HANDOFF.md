@@ -1,3 +1,28 @@
+## ACTIVE: centered detail and purchase sheet — 2026-10-22
+
+Owner authorized all purchase-layout fixes and activation preparation. Source
+552111f: candidate skin21 saved, centered14products; black CTA; native bottom
+purchase sheet;320px Q&A button overflow fixed; keyboard focus/selection retained.
+Legacy common.js header lookup threw on scroll and blocked product callbacks:
+guarded. Product detail.js header offsets accept new navigation.
+Final files: candidate-purchase-261022-v4.css and -v3.js. Three native templates
+changed: moa/import/product_detail/detail.html, moa/js/common.js,
+moa/js/product/detail.js. Originals private under source-skin21-inner-20261022/pdp-before.
+Safari39738505881 PASS50; Chromium39738501598 PASS14alignment+9purchase flows.
+Full Chromium39736645385 smoke10/slow9 passed but purchase failed; final targeted
+run fixed focus timing and scrollbar-gutter reference. Do not call that full run green.
+Activation overlay14templates/15uploads plus rollback directions prepared PRIVATE
+at .codex/tam-cafe24-output/activation-20261022.zip; not uploaded/activated and not
+a full archive. Root routes/guards adapted only in rollout copies. Prod18/English8
+unchanged. Physical phones, real payment/coupon/shipping exceptions, stock and
+native slow-load performance remain unverified/open. See native-purchase report.
+Browser: workBrowser; finalEditor1544723193/uploadTab1544723196.
+Use savePurchaseClipboard for large source saves (UI paste/readback); saveFinal
+page-down reader can time out on long JS. File uploads: waitForEvent('filechooser')
+before Choose File click, chooser.setFiles, then Start Upload. Source saved outsideGit.
+
+---
+
 ## ACTIVE: inner pages actually saved — 2026-10-22
 
 Latest source ae797b1 on GitHub main. skin21/editor27 now has approved SHOP,

@@ -1,4 +1,19 @@
 {
+  "native_purchase_20261022": {
+    "status": "candidate_saved_and_verified;private_activation_overlay_prepared",
+    "source_commit": "552111f",
+    "skin": "skin21/editor27",
+    "production_changed": false,
+    "detail_alignment_products": 14,
+    "purchase_flows": 9,
+    "safari_run": 39738505881,
+    "chromium_purchase_run": 39738501598,
+    "activation_templates": 14,
+    "activation_upload_files": 15,
+    "production_e2e_verified": false,
+    "physical_phone_verified": false,
+    "evidence": "native-purchase-20261022/REPORT.md"
+  },
   "native_inner_20261022": {
     "status": "candidate_saved_and_functionally_verified; performance_and_rollout_checks_remain",
     "source_commit": "ae797b1",
@@ -79,7 +94,7 @@
   "updated_at": "2026-10-22",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
-  "phase": "candidate_home_seven_details_and_inner_pages_saved; browser_functional_checks_pass; performance_and_transaction_rollout_verification_remain",
+  "phase": "candidate_layout_fixes_verified;activation_overlay_prepared_not_applied;performance_and_live_transaction_checks_remain",
   "highlighter_r30_20261001": {
     "approved_snapshot": "highlighter-r30/",
     "preview_product": "storefront-v2/preview/product-24.html",
