@@ -89,6 +89,8 @@ def main():
             wait_for(lambda:script("return !!document.querySelector('.tam-purchase')"))
 
     def screenshot(name):
+        # Allow WebKit to paint the asserted state before taking a native capture.
+        command('POST','/execute/async',{'script':'const done=arguments[arguments.length-1]; requestAnimationFrame(()=>requestAnimationFrame(()=>setTimeout(done,150)));','args':[]})
         (OUT/name).write_bytes(base64.b64decode(command('GET','/screenshot')))
 
     def header_state():

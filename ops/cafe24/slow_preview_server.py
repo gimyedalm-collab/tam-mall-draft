@@ -8,6 +8,7 @@ import threading
 import time
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from socketserver import TCPServer
 from urllib.parse import urlsplit
 
 
@@ -66,9 +67,17 @@ def main():
                 outputfile.write(block)
                 self.sent += len(block)
 
+    class LoopbackServer(ThreadingHTTPServer):
+        def server_bind(self):
+            # HTTPServer performs reverse DNS during bind. This loopback fixture
+            # has a known hostname and must not depend on the runner's resolver.
+            TCPServer.server_bind(self)
+            self.server_name, self.server_port = self.server_address[:2]
+
+    server = LoopbackServer(('127.0.0.1', args.port), Handler)
     print(json.dumps({'host': '127.0.0.1', 'port': args.port, 'shared_bytes_per_second': args.bytes_per_second,
                       'server_delay_ms_per_request': args.latency_ms, 'cache': 'no-store'}), flush=True)
-    ThreadingHTTPServer(('127.0.0.1', args.port), Handler).serve_forever()
+    server.serve_forever()
 
 
 if __name__ == '__main__':
