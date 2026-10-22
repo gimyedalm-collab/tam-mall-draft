@@ -38,11 +38,11 @@ for path,text in templates.items():
 upload=out/'upload';upload.mkdir(exist_ok=True)
 for name,text in assets.items():
     if name.startswith('candidate-detail-'):
-        text=text.replace('product-25-series-v9.html','rollout-product-25-series-v9.html').replace('`product-${product}.html`','`rollout-product-${product}.html`')
+        text=text.replace('product-25-series-v9.html','rollout-product-25-series-v9.html').replace('product-111-v6.html','rollout-product-111-v6.html').replace('`product-${product}.html`','`rollout-product-${product}.html`')
     (upload/renames[name]).write_text(transform(text),encoding='utf-8')
 delivery=ROOT/'ops/cafe24/native-preparation-20261022/delivery'
 for number in [24,25,102,109,110,111,118]:
-    name='product-25-series-v9.html' if number==25 else f'product-{number}.html'
+    name='product-25-series-v9.html' if number==25 else 'product-111-v6.html' if number==111 else f'product-{number}.html'
     (upload/('rollout-'+name)).write_text(transform((delivery/name).read_text(encoding='utf-8')),encoding='utf-8')
 readme='''# Private Cafe24 activation overlay
 

@@ -1,0 +1,23 @@
+name: Cafe24 powder balm image verification
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install playwright==1.62.0
+      - run: python -m playwright install --with-deps chromium
+      - run: python ops/cafe24/verify_powder_v6.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: powder-balm-images
+          path: powder-v6-results/
+          retention-days: 3

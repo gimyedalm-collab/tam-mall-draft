@@ -1,0 +1,632 @@
+[
+  {
+    "file": "p111-v6-01-hero-heading-860.png",
+    "bytes_equal": false,
+    "local_bytes": 30814,
+    "server_bytes": 20114,
+    "local_size": [
+      860,
+      496
+    ],
+    "server_size": [
+      860,
+      496
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-01-hero-heading.png",
+    "bytes_equal": false,
+    "local_bytes": 62029,
+    "server_bytes": 45001,
+    "local_size": [
+      1720,
+      992
+    ],
+    "server_size": [
+      1720,
+      992
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-02-hero-application.gif",
+    "bytes_equal": true,
+    "local_bytes": 4795322,
+    "server_bytes": 4795322,
+    "local_size": [
+      668,
+      412
+    ],
+    "server_size": [
+      668,
+      412
+    ],
+    "frames": 46,
+    "icc_equal": true,
+    "local_metadata": [
+      "version",
+      "background",
+      "loop",
+      "duration",
+      "extension"
+    ],
+    "server_metadata": [
+      "version",
+      "background",
+      "loop",
+      "duration",
+      "extension"
+    ],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-03-hero-caption-860.png",
+    "bytes_equal": false,
+    "local_bytes": 5135,
+    "server_bytes": 3562,
+    "local_size": [
+      860,
+      110
+    ],
+    "server_size": [
+      860,
+      110
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-03-hero-caption.png",
+    "bytes_equal": false,
+    "local_bytes": 12375,
+    "server_bytes": 8531,
+    "local_size": [
+      1720,
+      220
+    ],
+    "server_size": [
+      1720,
+      220
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-04-balm-and-puff-860.jpg",
+    "bytes_equal": true,
+    "local_bytes": 76135,
+    "server_bytes": 76135,
+    "local_size": [
+      860,
+      626
+    ],
+    "server_size": [
+      860,
+      626
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [
+      "jfif",
+      "jfif_version",
+      "jfif_unit",
+      "jfif_density",
+      "icc_profile"
+    ],
+    "server_metadata": [
+      "jfif",
+      "jfif_version",
+      "jfif_unit",
+      "jfif_density",
+      "icc_profile"
+    ],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-04-balm-and-puff.png",
+    "bytes_equal": false,
+    "local_bytes": 450972,
+    "server_bytes": 419499,
+    "local_size": [
+      1720,
+      1252
+    ],
+    "server_size": [
+      1720,
+      1252
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-05-benefit-860.jpg",
+    "bytes_equal": true,
+    "local_bytes": 129777,
+    "server_bytes": 129777,
+    "local_size": [
+      860,
+      1148
+    ],
+    "server_size": [
+      860,
+      1148
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [
+      "jfif",
+      "jfif_version",
+      "jfif_unit",
+      "jfif_density",
+      "icc_profile"
+    ],
+    "server_metadata": [
+      "jfif",
+      "jfif_version",
+      "jfif_unit",
+      "jfif_density",
+      "icc_profile"
+    ],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-05-benefit.png",
+    "bytes_equal": false,
+    "local_bytes": 1070780,
+    "server_bytes": 1001039,
+    "local_size": [
+      1720,
+      2296
+    ],
+    "server_size": [
+      1720,
+      2296
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-06-where-heading-860.png",
+    "bytes_equal": false,
+    "local_bytes": 16352,
+    "server_bytes": 11123,
+    "local_size": [
+      860,
+      356
+    ],
+    "server_size": [
+      860,
+      356
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-06-where-heading.png",
+    "bytes_equal": false,
+    "local_bytes": 35528,
+    "server_bytes": 26771,
+    "local_size": [
+      1720,
+      712
+    ],
+    "server_size": [
+      1720,
+      712
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-07-where-application.gif",
+    "bytes_equal": true,
+    "local_bytes": 4592993,
+    "server_bytes": 4592993,
+    "local_size": [
+      760,
+      265
+    ],
+    "server_size": [
+      760,
+      265
+    ],
+    "frames": 60,
+    "icc_equal": true,
+    "local_metadata": [
+      "version",
+      "background",
+      "loop",
+      "duration",
+      "extension"
+    ],
+    "server_metadata": [
+      "version",
+      "background",
+      "loop",
+      "duration",
+      "extension"
+    ],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-08-where-labels-860.png",
+    "bytes_equal": false,
+    "local_bytes": 9794,
+    "server_bytes": 6105,
+    "local_size": [
+      860,
+      194
+    ],
+    "server_size": [
+      860,
+      194
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-08-where-labels.png",
+    "bytes_equal": false,
+    "local_bytes": 19386,
+    "server_bytes": 12377,
+    "local_size": [
+      1720,
+      388
+    ],
+    "server_size": [
+      1720,
+      388
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-09-balm-texture-860.jpg",
+    "bytes_equal": true,
+    "local_bytes": 109155,
+    "server_bytes": 109155,
+    "local_size": [
+      860,
+      988
+    ],
+    "server_size": [
+      860,
+      988
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [
+      "jfif",
+      "jfif_version",
+      "jfif_unit",
+      "jfif_density",
+      "icc_profile"
+    ],
+    "server_metadata": [
+      "jfif",
+      "jfif_version",
+      "jfif_unit",
+      "jfif_density",
+      "icc_profile"
+    ],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-09-balm-texture.png",
+    "bytes_equal": false,
+    "local_bytes": 1006089,
+    "server_bytes": 948004,
+    "local_size": [
+      1720,
+      1976
+    ],
+    "server_size": [
+      1720,
+      1976
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-10-puff-heading-860.png",
+    "bytes_equal": false,
+    "local_bytes": 17249,
+    "server_bytes": 10811,
+    "local_size": [
+      860,
+      288
+    ],
+    "server_size": [
+      860,
+      288
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-10-puff-heading.png",
+    "bytes_equal": false,
+    "local_bytes": 35314,
+    "server_bytes": 25207,
+    "local_size": [
+      1720,
+      576
+    ],
+    "server_size": [
+      1720,
+      576
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-11-puff-amount.gif",
+    "bytes_equal": true,
+    "local_bytes": 1492574,
+    "server_bytes": 1492574,
+    "local_size": [
+      860,
+      446
+    ],
+    "server_size": [
+      860,
+      446
+    ],
+    "frames": 39,
+    "icc_equal": true,
+    "local_metadata": [
+      "version",
+      "background",
+      "loop",
+      "duration",
+      "extension"
+    ],
+    "server_metadata": [
+      "version",
+      "background",
+      "loop",
+      "duration",
+      "extension"
+    ],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-12-puff-instructions-860.png",
+    "bytes_equal": false,
+    "local_bytes": 34048,
+    "server_bytes": 19664,
+    "local_size": [
+      860,
+      398
+    ],
+    "server_size": [
+      860,
+      398
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-12-puff-instructions.png",
+    "bytes_equal": false,
+    "local_bytes": 70646,
+    "server_bytes": 43305,
+    "local_size": [
+      1720,
+      796
+    ],
+    "server_size": [
+      1720,
+      796
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-13-three-moments-860.png",
+    "bytes_equal": false,
+    "local_bytes": 50084,
+    "server_bytes": 31165,
+    "local_size": [
+      860,
+      836
+    ],
+    "server_size": [
+      860,
+      836
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-13-three-moments.png",
+    "bytes_equal": false,
+    "local_bytes": 106498,
+    "server_bytes": 71975,
+    "local_size": [
+      1720,
+      1672
+    ],
+    "server_size": [
+      1720,
+      1672
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-14-product-860.jpg",
+    "bytes_equal": true,
+    "local_bytes": 147254,
+    "server_bytes": 147254,
+    "local_size": [
+      860,
+      1128
+    ],
+    "server_size": [
+      860,
+      1128
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [
+      "jfif",
+      "jfif_version",
+      "jfif_unit",
+      "jfif_density",
+      "icc_profile"
+    ],
+    "server_metadata": [
+      "jfif",
+      "jfif_version",
+      "jfif_unit",
+      "jfif_density",
+      "icc_profile"
+    ],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "p111-v6-14-product.png",
+    "bytes_equal": false,
+    "local_bytes": 1873519,
+    "server_bytes": 1766332,
+    "local_size": [
+      1720,
+      2256
+    ],
+    "server_size": [
+      1720,
+      2256
+    ],
+    "frames": 1,
+    "icc_equal": true,
+    "local_metadata": [],
+    "server_metadata": [],
+    "pixels_equal": true,
+    "timing_equal": true,
+    "passed": true
+  },
+  {
+    "file": "product-111-v6.html",
+    "bytes_equal": true,
+    "local_bytes": 12595,
+    "server_bytes": 12595,
+    "passed": true
+  },
+  {
+    "file": "candidate-detail-261022-v3.js",
+    "bytes_equal": true,
+    "local_bytes": 1940,
+    "server_bytes": 1940,
+    "passed": true
+  },
+  {
+    "file": "candidate-purchase-261022-v5.css",
+    "bytes_equal": true,
+    "local_bytes": 7989,
+    "server_bytes": 7989,
+    "passed": true
+  }
+]
