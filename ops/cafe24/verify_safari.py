@@ -175,10 +175,14 @@ def main():
         # Finish the previously missing slow-network mobile check in real Safari.
         slow_server=subprocess.Popen([sys.executable,'-u','ops/cafe24/slow_preview_server.py','--root',str(ROOT),'--port','18766','--bytes-per-second','200000','--latency-ms','150','--log',str(OUT/'slow-requests.jsonl')],cwd=ROOT,stdout=server_log,stderr=subprocess.STDOUT)
         def slow_ready():
+            if slow_server.poll() is not None:
+                raise AssertionError(f'Slow fixture exited: {slow_server.returncode}; see http.log')
             try:
                 with urllib.request.urlopen('http://127.0.0.1:18766/storefront-v2/preview/assets/home-header.js',timeout=2): return True
-            except OSError: return False
-        wait_for(slow_ready,10)
+            except OSError as exc:
+                report.setdefault('slow_startup_errors',[]).append(str(exc))
+                return False
+        wait_for(slow_ready,30)
         # A fresh Safari session allows early UI checks without waiting for all media.
         request('DELETE','/session/'+session)
         session=None
