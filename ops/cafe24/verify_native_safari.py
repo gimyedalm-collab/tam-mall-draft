@@ -70,7 +70,10 @@ def main():
               viewport:document.querySelector('meta[name=viewport]')?.content,headerSolid:document.querySelector('.ux-header').classList.contains('is-solid')};""")
             r['requested_width'] = width
             report['home'].append(r)
-            assert r['width']==width and r['scroll']<=r['client']+1,r
+            # Safari26.6.2 clamps a requested320px outer window to336px.
+            # Record actual width; never report this as a320px Safari check.
+            r['minimum_window_clamp'] = width==320 and r['width']==336
+            assert (r['width']==width or r['minimum_window_clamp']) and r['scroll']<=r['client']+1,r
             assert abs(r['video']['x'])<1 and abs(r['video']['width']-r['client'])<1,r
             expected = r['height'] if r['width']>=r['height'] else r['client']*9/16
             assert abs(r['video']['height']-expected)<1 and not r['headerSolid'],r
