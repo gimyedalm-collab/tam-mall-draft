@@ -1,0 +1,66 @@
+{
+  "deployment_commit": "79555069c7ac775af3bb2cf87520f10d976fff53",
+  "pages_run": 39704295163,
+  "checks": [
+    {
+      "path": "storefront-v2/preview/design-only.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "7a8ad5c6c80cc664e583198d33c9d991382ddfad9e405c9b251b42609c2eab44"
+    },
+    {
+      "path": "storefront-v2/preview/assets/home-header.css",
+      "status": 200,
+      "matches": true,
+      "sha256": "c466085ebde19096df2b7f635c0ed7948b3a48caf5159eb91c89e555d6f71d3c"
+    },
+    {
+      "path": "storefront-v2/preview/assets/home-header.js",
+      "status": 200,
+      "matches": true,
+      "sha256": "70f56bdf09567ff6921e936abafd8e00b307e9779eb9a619176a3cd96830105b"
+    },
+    {
+      "path": "storefront-v2/preview/product-109.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "03f703a57b17376b816861db02059125b093b6efb94d2964f88380b869f95b0b"
+    },
+    {
+      "path": "storefront-v2/preview/product-110.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "636037866e6a93edbf1700cbeacae62b97834e89904818834b00b6b2b5d71b85"
+    },
+    {
+      "path": "storefront-v2/preview/product-111.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "c91a6d68c38e1934249a3dab01169b8560a542f16a79c161f0ffc4a7cc32acfb"
+    },
+    {
+      "path": "storefront-v2/preview/product-25.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "031572004d5eb66dba49c090201440cdf9411ab96e44e1abaf2fbe23168f09e9"
+    },
+    {
+      "path": "storefront-v2/preview/product-118.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "d3d844564af838bfbd758e630ec76d1560b4a354f7ef27988bfb010039c761f1"
+    },
+    {
+      "path": "storefront-v2/preview/product-102.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "183870e25c547d7af05730cb6d3613e75d4fcefb9c98d0df37552a641ea7f0ec"
+    },
+    {
+      "path": "storefront-v2/preview/product-24.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "a3df8904777d67a5b38196d2b191bebc176368cdc03c793bb5e3a5890e0d4ff8"
+    }
+  ]
+}

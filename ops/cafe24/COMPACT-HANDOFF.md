@@ -4,7 +4,8 @@ Owner approved transparent first-screen home navigation, solid white on scroll
 or menu open. Source655798b verified by Safari39703829646:50general checks,
 6home sizes,3slow mobile routes at actual390px. Chrome320/390 menus checked.
 Film V16 and84detail media unchanged. Seven latest details including ShadingV9
-remain connected. See header-20261022/REPORT.md and safari-report.json.
+remain connected. Main7955506/Pages39704295163 published successfully;10public
+files match and public home overlay verified. See header-20261022/REPORT.md.
 Slow fixture UI works before all media load; do not call loading fast.
 Cafe24 upload remains unverified: official file-URL permission guidance sent;
 owner completion reply pending. Admin task tab operations time out today;

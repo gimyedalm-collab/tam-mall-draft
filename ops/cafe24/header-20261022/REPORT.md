@@ -26,6 +26,10 @@
 
 테스트 서버의 역방향 DNS 초기화 지연을 제거하고 Safari 영상 요청용 단일 바이트 범위를 지원했다. 로컬에서 전체/부분/끝부분/잘못된 범위 200·206·416 응답 및 바이트를 확인했다. Safari 자동화는 `pageLoadStrategy=none`으로 화면 도착과 스타일·구매 UI 준비를 직접 기다려 미디어 전체 로딩 대기와 조작 검사를 분리했다. 이전 실행의 자동화 시간 초과를 사이트 클릭 실패로 오인하지 않았다.
 
+## 공개 반영
+
+`7955506`으로 GitHub main 반영, [Pages 실행 39704295163](https://github.com/gimyedalm-collab/tam-mall-draft/actions/runs/39704295163) 성공. 공개 홈 HTML·헤더 CSS/JS·상품 7개 HTML, 총 10개가 최종 로컬 파일과 일치한다. 공개 브라우저에서도 투명 헤더·영상 상단 0·높이 910.98px(1920×911 화면)·가로 넘침 없음 확인. [최신 화면](https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/design-only.html?rev=261022).
+
 ## Cafe24 및 실물 기기
 
 기존 파일 첨부 `-32000 Not allowed` 오류에 대해 브라우저 공식 안내의 Chrome 확장 프로그램 ‘파일 URL에 대한 액세스 허용’ 설정을 사용자에게 요청했다. 권한 변경 완료 답변과 실제 업로드 성공은 아직 확인하지 못했다. 관리자 작업 탭은 `/admin/php/shop1/`에서 화면/대화상자 조회가 반복 시간 초과되어 현재 인증 상태를 판정할 수 없다. 임의로 로그아웃 또는 세션 만료라고 단정하지 않았다.
