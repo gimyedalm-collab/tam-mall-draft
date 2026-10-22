@@ -19,7 +19,7 @@ def main():
     OUT.mkdir(exist_ok=True)
     report = {'engine': 'macOS VM Apple Safari', 'physical_phone': False,
               'iOS': False, 'network_throttled': False, 'base': BASE,
-              'home': [], 'details': [], 'collections': []}
+              'home': [], 'details': [], 'collections': [], 'inner': []}
     driver = subprocess.Popen(['/usr/bin/safaridriver', '--port', '18765'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     session = None
     visit_number = 0
@@ -125,6 +125,43 @@ def main():
                 r['collection'] = collection
                 report['collections'].append(r)
                 assert len(r['ids'])==count and 'anchorBoxId_129' not in r['ids'],r
+        routes = ['product/list.html?cate_no=74', 'about.html',
+                  'board/gallery/list.html?board_no=8', 'product/search.html',
+                  'member/login.html', 'member/join.html', 'order/basket.html',
+                  'myshop/index.html', 'myshop/coupon/coupon.html',
+                  'myshop/order/list.html', 'member/privacy.html',
+                  'member/mall_agreement.html', 'shopinfo/guide.html']
+        for width in (390,1440):
+            cmd('POST','/window/rect',{'width':width,'height':950,'x':0,'y':0})
+            for route in routes:
+                visit(route)
+                wait(lambda: js("return !!document.querySelector('.tam-nav-footer')"))
+                r = js("""return {width:innerWidth,client:document.documentElement.clientWidth,
+                  scroll:document.documentElement.scrollWidth,
+                  header:!!document.querySelector('.tam-nav-header'),footer:!!document.querySelector('.tam-nav-footer'),
+                  bodyClass:document.body.className,brand:!!document.querySelector('#tam-brand'),
+                  lookbook:!!document.querySelector('#tam-lookbook'),
+                  brokenVisibleImages:[...document.images].filter(i=>{const r=i.getBoundingClientRect();return r.width>0&&r.height>0&&r.top<innerHeight&&r.bottom>0&&i.complete&&!i.naturalWidth}).length};""")
+                r['route'] = route
+                report['inner'].append(r)
+                assert r['width']==width and r['scroll']<=r['client']+1,r
+                assert r['header'] and r['footer'] and 'tam-native' in r['bodyClass'],r
+                assert r['brokenVisibleImages']==0,r
+                if route=='about.html':
+                    assert r['brand'],r
+                    wait(lambda: js("return document.querySelectorAll('.tam-explore-grid>li').length===14"))
+                    r['native_catalog_cards']=14
+                if route.startswith('board/gallery'):assert r['lookbook'],r
+                if route.startswith('product/list'):
+                    click('[data-tam-line=cloud]');click('[data-tam-category=lip]')
+                    ids=js("return [...document.querySelectorAll('.prdList>li')].filter(e=>!e.hidden).map(e=>e.id).sort()")
+                    assert ids==['anchorBoxId_112','anchorBoxId_118'],ids
+                    r['combined_filter']=True
+                    if width==390:
+                        click('.tam-nav-menu-toggle')
+                        assert js("return document.querySelector('.tam-nav-menu-toggle').getAttribute('aria-expanded')==='true'")
+                        click('.tam-nav-menu-toggle')
+                        r['mobile_menu']=True
         report['passed'] = True
     except Exception:
         report['passed'] = False
