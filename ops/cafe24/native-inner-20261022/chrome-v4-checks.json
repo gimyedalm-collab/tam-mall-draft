@@ -1,0 +1,114 @@
+[
+  {
+    "brokenVisibleImages": 0,
+    "client": 375,
+    "footer": true,
+    "header": true,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-110-800.png"
+      },
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-24-800.png"
+      },
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-111-800.png"
+      }
+    ],
+    "scroll": 375,
+    "url": "/skin-skin21/product/list.html",
+    "width": 390,
+    "route": "shop"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "client": 375,
+    "footer": true,
+    "header": true,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-110-480.png"
+      },
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-24-480.png"
+      },
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-111-480.png"
+      }
+    ],
+    "scroll": 375,
+    "url": "/skin-skin21/about.html",
+    "width": 390,
+    "route": "about"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "client": 375,
+    "footer": true,
+    "header": true,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-1-960.jpg"
+      },
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-2-960.jpg"
+      },
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-3-960.jpg"
+      }
+    ],
+    "scroll": 375,
+    "url": "/skin-skin21/board/gallery/list.html",
+    "width": 390,
+    "route": "lookbook"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "client": 305,
+    "footer": true,
+    "header": true,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-23-480.png"
+      }
+    ],
+    "scroll": 305,
+    "url": "/skin-skin21/product/search.html",
+    "width": 320,
+    "route": "search-cushion"
+  },
+  {
+    "brokenVisibleImages": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-110-480.png"
+      },
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-24-480.png"
+      },
+      {
+        "loaded": true,
+        "src": "https://awiz.cafe24.com/tam-detail-20261022/inner-card-111-480.png"
+      }
+    ],
+    "scroll": 1425,
+    "url": "/skin-skin21/about.html",
+    "width": 1440,
+    "route": "about-desktop"
+  }
+]

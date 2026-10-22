@@ -1,0 +1,6 @@
+{
+  "moa/layout/header.html_outside_replaced_element_unchanged": true,
+  "moa/layout/footer.html_outside_replaced_element_unchanged": true,
+  "native_product_price_link_and_icon_variables_retained": true,
+  "unknown_product_image_fallback": true
+}

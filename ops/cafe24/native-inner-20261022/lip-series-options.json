@@ -1,0 +1,28 @@
+{
+  "product": 25,
+  "detailImages": 7,
+  "glossProduct": 18,
+  "cartMutation": false,
+  "checks": [
+    {
+      "sku": "P000000Z000O",
+      "total": 17000,
+      "quantity": 1
+    },
+    {
+      "sku": "P000000Z000P",
+      "total": 34000,
+      "quantity": 2
+    },
+    {
+      "rows": 3,
+      "sku": "P000000Z000Q",
+      "totalText": "총 구매 금액 (QUANTITY)51,000원 (3개)"
+    },
+    {
+      "rows": 4,
+      "sku": "P000000Z000R",
+      "totalText": "총 구매 금액 (QUANTITY)68,000원 (4개)"
+    }
+  ]
+}

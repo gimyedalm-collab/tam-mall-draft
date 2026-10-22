@@ -1,0 +1,145 @@
+[
+  {
+    "route": "product/list.html?cate_no=74",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "Shop all",
+    "scroll": 1425,
+    "url": "/skin-skin21/product/list.html",
+    "width": 1440
+  },
+  {
+    "route": "about.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "The Jelly.The Cloud.All yours.",
+    "scroll": 1425,
+    "url": "/skin-skin21/about.html",
+    "width": 1440
+  },
+  {
+    "route": "board/gallery/list.html?board_no=8",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "Lookbook",
+    "scroll": 1425,
+    "url": "/skin-skin21/board/gallery/list.html",
+    "width": 1440
+  },
+  {
+    "route": "product/search.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "SEARCH",
+    "scroll": 1425,
+    "url": "/skin-skin21/product/search.html",
+    "width": 1440
+  },
+  {
+    "route": "member/login.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "로그인",
+    "scroll": 1425,
+    "url": "/skin-skin21/member/login.html",
+    "width": 1440
+  },
+  {
+    "route": "myshop/index.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "마이 쇼핑",
+    "scroll": 1425,
+    "url": "/skin-skin21/myshop/index.html",
+    "width": 1440
+  },
+  {
+    "route": "myshop/coupon/coupon.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "쿠폰내역",
+    "scroll": 1425,
+    "url": "/skin-skin21/myshop/coupon/coupon.html",
+    "width": 1440
+  },
+  {
+    "route": "order/basket.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "장바구니",
+    "scroll": 1425,
+    "url": "/skin-skin21/order/basket.html",
+    "width": 1440
+  },
+  {
+    "route": "member/join.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "회원가입",
+    "scroll": 1425,
+    "url": "/skin-skin21/member/join.html",
+    "width": 1440
+  },
+  {
+    "route": "member/privacy.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "개인정보처리방침",
+    "scroll": 1425,
+    "url": "/skin-skin21/member/privacy.html",
+    "width": 1440
+  },
+  {
+    "route": "member/mall_agreement.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "이용약관",
+    "scroll": 1425,
+    "url": "/skin-skin21/member/mall_agreement.html",
+    "width": 1440
+  },
+  {
+    "route": "shopinfo/guide.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "이용안내",
+    "scroll": 1425,
+    "url": "/skin-skin21/shopinfo/guide.html",
+    "width": 1440
+  },
+  {
+    "route": "myshop/order/list.html",
+    "broken": 0,
+    "client": 1425,
+    "footer": true,
+    "header": true,
+    "heading": "주문조회",
+    "scroll": 1425,
+    "url": "/skin-skin21/myshop/order/list.html",
+    "width": 1440
+  }
+]

@@ -1,3 +1,5 @@
+> Current status: [inner-page integration report](../native-inner-20261022/REPORT.md) supersedes the six-detail/inner-pending items below. All7details and inner pages are saved on skin21; production is unchanged.
+
 # Cafe24 candidate integration ? 2026-10-22
 
 Supersedes earlier upload/cart blockers. Candidate skin21 changed; Korean

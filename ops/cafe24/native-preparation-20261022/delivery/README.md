@@ -4,11 +4,13 @@ These seven HTML snippets use verified root-relative Cafe24 media URLs under
 `/tam-detail-20261022/`. They are registration snippets, not standalone GitHub
 Pages pages. Matching published previews remain in the existing storefront.
 
-Six snippets are connected only in candidate skin21 through the guarded
-candidate-detail script. No shared live product description has been replaced.
-**Do not register product-25.html alone on product25:** it describes01–03 lip
-oils, but the current native series also contains00 gloss. Resolve the combined
-composition and SKU/inventory mapping first; preserve existing SKU/review data.
+All seven products are connected only in candidate skin21 through the guarded
+`candidate-detail-261022-v2.js`. No shared live product description was replaced.
+Product25 uses `product-25-series-v9.html`, which combines the00gloss /01–03oil
+introduction, a native gloss18 link and the seven approved oil panels.
+**Do not register product-25.html alone on product25:** that file is the oil-only
+source component. All four native series options remain; selectable SKU/total
+checks passed. Full stock reconciliation and transaction tests remain separate.
 
 `upload-manifest.json` preserves original source bytes/hash and maps to actual
 delivery URLs. Seven `delivery_conversion` entries use lossless PNG versions;
@@ -23,7 +25,8 @@ Native source edits (skin21 only; originals remain outside Git):
   gains `id="tam-candidate-detail"`; add the candidate-detail JS and
   candidate-mobile CSS from the verified upload folder. All other modules stay.
 - `moa/layout/head.html`: viewport becomes `width=device-width, initial-scale=1`;
-  add deferred `candidate-collections-261022.js` before closing head.
+  current shared CSS/JS is `candidate-inner-261022-v4`, which replaces the older
+  collection-only script. See `../../native-inner-20261022/REPORT.md`.
 - `order/orderform.html`: remove maximum/minimum scale restrictions; same
   unrestricted viewport value. All other order markup/handlers stay.
 

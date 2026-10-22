@@ -1,0 +1,706 @@
+{
+  "expected": 42,
+  "checked": 42,
+  "passed": false,
+  "note": "Display derivatives only; original masters preserved. JPEG pass checks availability/dimensions, not pixel fidelity. PNG pass checks decoded pixels and ICC.",
+  "results": [
+    {
+      "file": "candidate-inner-261022-v4.css",
+      "status": 200,
+      "source_bytes": 17987,
+      "public_bytes": 17987,
+      "byte_identical": true,
+      "public_sha256": "d676559f66a14fdaa76908fd3bc61eeb6d371a8b2792d0ba4586e68533b4aeb9",
+      "passed": true
+    },
+    {
+      "file": "candidate-inner-261022-v4.js",
+      "status": 200,
+      "source_bytes": 6612,
+      "public_bytes": 6612,
+      "byte_identical": true,
+      "public_sha256": "ef15532b01e745b050e33bc4d8144f0097afd51083621a829db485a4730c94c0",
+      "passed": true
+    },
+    {
+      "file": "inner-card-101-480.png",
+      "status": 200,
+      "source_bytes": 26171,
+      "public_bytes": 23662,
+      "byte_identical": false,
+      "public_sha256": "522f5910afcd8bea04f5ad672565777b783259a063bbfde70512c79de474503d",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-101-800.png",
+      "status": 200,
+      "source_bytes": 60605,
+      "public_bytes": 54494,
+      "byte_identical": false,
+      "public_sha256": "6cd77057ba037bc97035bea5cbde11c879d2703971f213bdbeb8c12e5d02f6a7",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-102-480.png",
+      "status": 200,
+      "source_bytes": 24972,
+      "public_bytes": 22103,
+      "byte_identical": false,
+      "public_sha256": "b0c97389d665e1fd2d33d8564ecdad24771e75f98cd9ff70d3439627d277309e",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-102-800.png",
+      "status": 200,
+      "source_bytes": 65422,
+      "public_bytes": 54777,
+      "byte_identical": false,
+      "public_sha256": "d300d5208655ee62f0376e598c621677713ba7b87b1e48af325912759d31be04",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-109-480.png",
+      "status": 200,
+      "source_bytes": 71912,
+      "public_bytes": 68280,
+      "byte_identical": false,
+      "public_sha256": "775e1127243eb717debfdccebf2d01142e225421e2ec565d086d9637f148f37f",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-109-800.png",
+      "status": 200,
+      "source_bytes": 185925,
+      "public_bytes": 173109,
+      "byte_identical": false,
+      "public_sha256": "5695501c5b4ee2d369309ad0cad80a815c6cd7faa1953954f5647d45aa28f2b3",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-110-480.png",
+      "status": 200,
+      "source_bytes": 69499,
+      "public_bytes": 66045,
+      "byte_identical": false,
+      "public_sha256": "05af8fd8c61d4d5811e7720ae2fc51bf9dc8616f9583105a1c2f406cc047f1b5",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-110-800.png",
+      "status": 200,
+      "source_bytes": 180029,
+      "public_bytes": 167923,
+      "byte_identical": false,
+      "public_sha256": "dcff5a284b0664d26f9eed4c8ba0d81dce789076577b9d5f24a51eed3c0e2487",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-111-480.png",
+      "status": 200,
+      "source_bytes": 82077,
+      "public_bytes": 78931,
+      "byte_identical": false,
+      "public_sha256": "d15fa37fa0703a6e1605476b81e21975954e4b9a2f34fec16b66f0c36f7c1aaf",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-111-800.png",
+      "status": 200,
+      "source_bytes": 205343,
+      "public_bytes": 196425,
+      "byte_identical": false,
+      "public_sha256": "80daff2adcf505c12d37c099e8636ba1f4d0a36e5980b3d8beddd5e163f5b724",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-112-480.png",
+      "status": 200,
+      "source_bytes": 28362,
+      "public_bytes": 24441,
+      "byte_identical": false,
+      "public_sha256": "4a9c9355e0d21f7c51caebda32d9aaedde47802cae1f3dc1874ebe7c683a0d69",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-112-800.png",
+      "status": 200,
+      "source_bytes": 77263,
+      "public_bytes": 65330,
+      "byte_identical": false,
+      "public_sha256": "9ac36006f88e6ba2240746cbe7b35fa2d2e42818c82499a7bd9728802a1fca0f",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-114-480.png",
+      "status": 200,
+      "source_bytes": 28802,
+      "public_bytes": 24443,
+      "byte_identical": false,
+      "public_sha256": "d8ab9666511f80b030ccb24e9ed48868b52558369a470e709f9589ca08ccae1b",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-114-800.png",
+      "status": 200,
+      "source_bytes": 78870,
+      "public_bytes": 65864,
+      "byte_identical": false,
+      "public_sha256": "03e25e2e32d5fc69f4986373d3b927eb12108a45392c81d18fa770befda35650",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-115-480.png",
+      "status": 200,
+      "source_bytes": 12887,
+      "public_bytes": 12128,
+      "byte_identical": false,
+      "public_sha256": "ebddf8dcf86b28238aa04992736b174d4a980521946ea370a0253424d124ee04",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-115-800.png",
+      "status": 200,
+      "source_bytes": 30866,
+      "public_bytes": 27978,
+      "byte_identical": false,
+      "public_sha256": "a63528f51fc4739703448875a73dd3fd7374392b6fed15109a6e37f8ab4e3afc",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-118-480.png",
+      "status": 200,
+      "source_bytes": 11683,
+      "public_bytes": 10931,
+      "byte_identical": false,
+      "public_sha256": "c0fd702021fefbcbb1839d0bad61c943227274091633f49911c2ace436da8554",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-118-800.png",
+      "status": 200,
+      "source_bytes": 29033,
+      "public_bytes": 25798,
+      "byte_identical": false,
+      "public_sha256": "1c8daf430f3a6055a59a7b8d222e6d4c9d5270723ea3a5149bfa28611b6b851d",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-121-480.png",
+      "status": 200,
+      "source_bytes": 20923,
+      "public_bytes": 19026,
+      "byte_identical": false,
+      "public_sha256": "9cf071b83c129634cc631afeeb909443bea9b13ab8305813f96c0d614767f352",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-121-800.png",
+      "status": 200,
+      "source_bytes": 51906,
+      "public_bytes": 44148,
+      "byte_identical": false,
+      "public_sha256": "7df9ad8c48366122d01a8fa02ac8eebbdcb1f3173001553f57d763f3b1960f04",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-18-480.png",
+      "status": 200,
+      "source_bytes": 45848,
+      "public_bytes": 43810,
+      "byte_identical": false,
+      "public_sha256": "81f97c95054c89920b1500e3ee9ccd006c58ac8336e3e82251e9a2934853cb34",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-18-800.png",
+      "status": 200,
+      "source_bytes": 125809,
+      "public_bytes": 121087,
+      "byte_identical": false,
+      "public_sha256": "de8de6d79a14c353390ebd416058967a38a68d6170501a8d2a4228f0e157bd0e",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-23-480.png",
+      "status": 200,
+      "source_bytes": 149701,
+      "public_bytes": 137942,
+      "byte_identical": false,
+      "public_sha256": "2321025ca207c8556156c303b64f7e921efb73209102cbc2d93f2dc0df28f5f0",
+      "dimensions": [
+        480,
+        546
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": false,
+      "platform_recompressed": false,
+      "passed": false
+    },
+    {
+      "file": "inner-card-23-800.png",
+      "status": 200,
+      "source_bytes": 433238,
+      "public_bytes": 400243,
+      "byte_identical": false,
+      "public_sha256": "193330c637d1cba92658efbb6e46435ed94afc731ba39401c21cac8e67316b37",
+      "dimensions": [
+        800,
+        910
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": false,
+      "platform_recompressed": false,
+      "passed": false
+    },
+    {
+      "file": "inner-card-24-480.png",
+      "status": 200,
+      "source_bytes": 32101,
+      "public_bytes": 28377,
+      "byte_identical": false,
+      "public_sha256": "66ed9d9952921bcccbb4118fa7ee1b30a97325da4be40e70891016afbde58bbc",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-24-800.png",
+      "status": 200,
+      "source_bytes": 89994,
+      "public_bytes": 77538,
+      "byte_identical": false,
+      "public_sha256": "5549cc5b711a0a6f114f0b0bae94c2e432cccc6861cef053da8e2de997ea8838",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-25-480.png",
+      "status": 200,
+      "source_bytes": 28474,
+      "public_bytes": 25729,
+      "byte_identical": false,
+      "public_sha256": "32b00bb3240d6e0717bd692c4d2fa9cde9609e2337fad60d60413f4a63652788",
+      "dimensions": [
+        480,
+        480
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-card-25-800.png",
+      "status": 200,
+      "source_bytes": 70334,
+      "public_bytes": 63147,
+      "byte_identical": false,
+      "public_sha256": "7cf9324b06934f2eabfd1b71b8f120c1b7fba5c1b5259ce41aa23fe22d76091d",
+      "dimensions": [
+        800,
+        800
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-cloud-1-1600.jpg",
+      "status": 200,
+      "source_bytes": 253687,
+      "public_bytes": 253687,
+      "byte_identical": true,
+      "public_sha256": "004de4756092d07a1f6f63aa3e0309eb0b568276cf8b69e1d97e737d39a806ff",
+      "dimensions": [
+        1600,
+        1067
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-cloud-1-960.jpg",
+      "status": 200,
+      "source_bytes": 83958,
+      "public_bytes": 83958,
+      "byte_identical": true,
+      "public_sha256": "e26634b9dedc1e50b837d54223833a31528a050025434828039969a4aa5f319f",
+      "dimensions": [
+        960,
+        640
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-cloud-2-1600.jpg",
+      "status": 200,
+      "source_bytes": 670348,
+      "public_bytes": 670348,
+      "byte_identical": true,
+      "public_sha256": "a9d147a53154b0f7202b7a0284bf5ae609e5551f81b480dad4c46b3866d03c0b",
+      "dimensions": [
+        1600,
+        2400
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-cloud-2-960.jpg",
+      "status": 200,
+      "source_bytes": 223712,
+      "public_bytes": 223712,
+      "byte_identical": true,
+      "public_sha256": "c9fb7055c4d2fa4fd604d7f7c46dea053355974056beaef724d256c47133c371",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-cloud-3-1600.jpg",
+      "status": 200,
+      "source_bytes": 743260,
+      "public_bytes": 743260,
+      "byte_identical": true,
+      "public_sha256": "cce4203299959235f6f4f426becf02c2988cc54acf597cd03ee09cf4dc9520ee",
+      "dimensions": [
+        1600,
+        2400
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-cloud-3-960.jpg",
+      "status": 200,
+      "source_bytes": 251374,
+      "public_bytes": 251374,
+      "byte_identical": true,
+      "public_sha256": "71d0a37c6912a0768f3cdad60fddc9f3c07e157b373b1c44e45020474a46f501",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-jelly-1-1600.jpg",
+      "status": 200,
+      "source_bytes": 164736,
+      "public_bytes": 164736,
+      "byte_identical": true,
+      "public_sha256": "873c65b57e126aaea1e70f19f5266f4d06d0306a032d44e90c02002d47ea2322",
+      "dimensions": [
+        1600,
+        1067
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-jelly-1-960.jpg",
+      "status": 200,
+      "source_bytes": 67430,
+      "public_bytes": 67430,
+      "byte_identical": true,
+      "public_sha256": "2f1519fb3fbde06c3e02cacff7d6a132383768d5c89b1e929c4d1ba559b9ba2c",
+      "dimensions": [
+        960,
+        640
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-jelly-2-1600.jpg",
+      "status": 200,
+      "source_bytes": 439763,
+      "public_bytes": 439763,
+      "byte_identical": true,
+      "public_sha256": "05e8ccd41d4035a89b25f0f776ace9818b72aa1754fb4e3b49a1b5c82290b43d",
+      "dimensions": [
+        1600,
+        2400
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-jelly-2-960.jpg",
+      "status": 200,
+      "source_bytes": 158858,
+      "public_bytes": 158858,
+      "byte_identical": true,
+      "public_sha256": "48babc5d32a3290be6088b55b35a88f48d9c99502e5c0d07b2a3bb718497a76b",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-jelly-3-1600.jpg",
+      "status": 200,
+      "source_bytes": 499494,
+      "public_bytes": 499494,
+      "byte_identical": true,
+      "public_sha256": "5e0e71ac0fe5e4e8b472cca18edb123a5c321172f6e667086c37813ee1a9a94c",
+      "dimensions": [
+        1600,
+        2400
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    },
+    {
+      "file": "inner-lookbook-jelly-3-960.jpg",
+      "status": 200,
+      "source_bytes": 197336,
+      "public_bytes": 197336,
+      "byte_identical": true,
+      "public_sha256": "9b73bf292474972dd09a23bcbb3520c60d46b6fef7df9b2c7e9f539226fcec3e",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "same_dimensions": true,
+      "decoded_pixels_identical": true,
+      "icc_identical": true,
+      "platform_recompressed": false,
+      "passed": true
+    }
+  ]
+}

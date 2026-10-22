@@ -1,0 +1,50 @@
+[
+  {
+    "route": "product/list.html?cate_no=74",
+    "client": 305,
+    "columns": "108.5px 108.5px",
+    "headerHeight": 72,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "route": "about.html",
+    "client": 305,
+    "columns": null,
+    "headerHeight": 72,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "route": "board/gallery/list.html?board_no=8",
+    "client": 305,
+    "columns": null,
+    "headerHeight": 72,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "route": "product/search.html?keyword=%EC%BF%A0%EC%85%98",
+    "client": 305,
+    "columns": "108.5px 108.5px",
+    "headerHeight": 72,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "route": "member/login.html",
+    "client": 305,
+    "columns": null,
+    "headerHeight": 72,
+    "scroll": 305,
+    "width": 320
+  },
+  {
+    "route": "order/basket.html",
+    "client": 305,
+    "columns": null,
+    "headerHeight": 72,
+    "scroll": 305,
+    "width": 320
+  }
+]

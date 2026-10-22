@@ -18,27 +18,27 @@
       "id": "TAM-C24-001",
       "type": "implementation",
       "priority": "P1",
-      "status": "open",
+      "status": "candidate_saved_functionally_verified_rollout_pending",
       "route": "candidate skin homepage",
       "reproduce": "Compare storefront-v2/cafe24/tam with the frozen design-only preview.",
       "expected": "The candidate Cafe24 skin implements the frozen design and native shopping functions.",
       "actual": "Existing skin21 still old design; original skin18 server backup created2026-10-21, local download unverified; file attachment blocked.",
-      "evidence": "CAFE24-IMPLEMENTATION-PLAN.md",
-      "fix": null,
-      "retest": null
+      "evidence": "native-inner-20261022/REPORT.md",
+      "fix": "Approved home,7details and inner/common design saved to skin21; no representative-skin switch.",
+      "retest": "Safari50 + Chromium10 + slow-network9 functional checks pass. Performance and transaction checks remain."
     },
     {
       "id": "TAM-C24-002",
       "type": "implementation",
       "priority": "P1",
-      "status": "open",
+      "status": "native_candidate_snap_preserved_verified",
       "route": "storefront-v2/cafe24/tam/sections/reviews.html",
       "reproduce": "Inspect the review section in the existing candidate package.",
       "expected": "Product-specific live reviews preserve the store's actual Snap integration.",
       "actual": "The package uses static review excerpts; public store uses Snap widgets.",
-      "evidence": "CAFE24-IMPLEMENTATION-PLAN.md",
-      "fix": null,
-      "retest": null
+      "evidence": "native-inner-20261022/REPORT.md",
+      "fix": "Actual skin21 uses original native Snap integrations, not static preview excerpts.",
+      "retest": "Native Snap1/3/4/5 detail placeholders retained and Chrome frames observed; no customer reviews exported."
     },
     {
       "id": "TAM-C24-003",
@@ -423,6 +423,26 @@
       "fix": "Filter native category74 by collection; retain native cards, price and sorting.",
       "retest": "6Jelly/8Cloud visible;129 absent. Shared product visibility/settings unchanged.",
       "evidence": "native-preparation-20261022/candidate-home-checks.json"
+    },
+    {
+      "id": "TAM-C24-INNER-20261022",
+      "type": "owner_reported_missing_migration",
+      "priority": "P1",
+      "status": "candidate_saved_and_verified",
+      "route": "skin21 SHOP/ABOUT/LOOKBOOK/shared native pages",
+      "fix": "Replaced inner/common design; preserved native modules, prices, app tails and account routes; repaired mobile double margins and navigation wrapping.",
+      "retest": "Safari26inner checks and Chrome13routes at390/1440 pass; final v4 image/search checks pass.",
+      "evidence": "native-inner-20261022/REPORT.md"
+    },
+    {
+      "id": "TAM-C24-SLOW-20261022",
+      "type": "native_performance",
+      "priority": "P1",
+      "status": "open_profile_native_resources",
+      "route": "skin21 public pages at1.6Mbps/150ms",
+      "actual": "Functional tests pass, but shell readiness14.4–36.2s and home video33.8s. Not an overall speed pass.",
+      "fix": "Responsive product/lookbook derivatives uploaded; duplicate product image requests removed. Further native-resource profiling remains.",
+      "evidence": "native-inner-20261022/slow-network.json"
     }
   ]
 }

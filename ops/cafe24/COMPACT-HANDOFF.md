@@ -1,3 +1,20 @@
+## ACTIVE: inner pages actually saved — 2026-10-22
+
+Latest source ae797b1 on GitHub main. skin21/editor27 now has approved SHOP,
+ABOUT, LOOKBOOK, common header/footer and native search/account/basket/form
+styling. All7details include combined25 preserving4SKUs; original modules/apps
+retained. v4 responsive images and mobile double-margin fix saved and verified.
+Safari39729935779 passed50; Chromium39729932685 passed10smoke+9slow functional
+scenarios. Physical/iOS and paid transaction tests are NOT completed.
+Slow shell14.4–36.2s/video33.8s remains a performance issue; do not call it fast.
+Production Korean18/English8 not switched. Selected originals outside Git;
+full backup archive unverified. See native-inner-20261022/REPORT.md.
+Fresh browser bindings: finalEditor/candidateEditor1544723193,
+uploadTab1544723196, finalQA deliverable. Use openFinal/readFinal/saveFinal;
+older helper closures retain stale tabs. Save with Space and public verification.
+
+---
+
 ## ACTIVE: native candidate integration ? 2026-10-22
 
 Owner replied ????: file-URL access fixed and test basket EMPTY verified.
