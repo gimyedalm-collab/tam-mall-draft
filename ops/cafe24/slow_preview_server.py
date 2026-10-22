@@ -4,6 +4,7 @@ Use the approved browser connection for UI checks. This server only serves files
 """
 import argparse
 import json
+import re
 import threading
 import time
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -34,7 +35,34 @@ def main():
 
         def end_headers(self):
             self.send_header('Cache-Control', 'no-store')
+            self.send_header('Accept-Ranges', 'bytes')
             super().end_headers()
+
+        def send_head(self):
+            self.remaining = None
+            path = Path(self.translate_path(self.path))
+            match = re.fullmatch(r'bytes=(\d*)-(\d*)', self.headers.get('Range', ''))
+            if not match or not path.is_file() or not any(match.groups()):
+                return super().send_head()
+            size = path.stat().st_size
+            first, last = match.groups()
+            start = int(first) if first else max(0, size - int(last))
+            end = min(int(last), size - 1) if first and last else size - 1
+            if start > end or start >= size:
+                self.send_response(416)
+                self.send_header('Content-Range', f'bytes */{size}')
+                self.send_header('Content-Length', '0')
+                self.end_headers()
+                return None
+            source = path.open('rb')
+            source.seek(start)
+            self.remaining = end - start + 1
+            self.send_response(206)
+            self.send_header('Content-Type', self.guess_type(str(path)))
+            self.send_header('Content-Range', f'bytes {start}-{end}/{size}')
+            self.send_header('Content-Length', str(self.remaining))
+            self.end_headers()
+            return source
 
         def do_GET(self):
             self.started, self.sent = time.monotonic(), 0
@@ -58,7 +86,10 @@ def main():
 
         def copyfile(self, source, outputfile):
             nonlocal next_send
-            while block := source.read(8192):
+            while self.remaining is None or self.remaining > 0:
+                block = source.read(8192 if self.remaining is None else min(8192, self.remaining))
+                if not block:
+                    break
                 with lock:
                     now = time.monotonic()
                     next_send = max(now, next_send) + len(block) / args.bytes_per_second
@@ -66,6 +97,8 @@ def main():
                 time.sleep(delay)
                 outputfile.write(block)
                 self.sent += len(block)
+                if self.remaining is not None:
+                    self.remaining -= len(block)
 
     class LoopbackServer(ThreadingHTTPServer):
         def server_bind(self):

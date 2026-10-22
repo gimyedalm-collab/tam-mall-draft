@@ -188,11 +188,11 @@ def main():
         # A fresh Safari session allows early UI checks without waiting for all media.
         request('DELETE','/session/'+session)
         session=None
-        created=request('POST','/session',{'capabilities':{'alwaysMatch':{'browserName':'safari','pageLoadStrategy':'eager'}}})
+        created=request('POST','/session',{'capabilities':{'alwaysMatch':{'browserName':'safari','pageLoadStrategy':'none'}}})
         session=created['sessionId']
         command('POST','/timeouts',{'implicit':5000,'pageLoad':60000,'script':15000})
         command('POST','/window/rect',{'width':390,'height':844,'x':0,'y':0})
-        report['slow_network']={'bytes_per_second':200000,'request_delay_ms':150,'physical_network':False,'checks':[]}
+        report['slow_network']={'bytes_per_second':200000,'request_delay_ms':150,'physical_network':False,'capabilities':created['capabilities'],'checks':[]}
         for route in ['design-only.html','product-109.html','product-111.html']:
             started=time.monotonic()
             command('POST','/url',{'url':'http://127.0.0.1:18766/storefront-v2/preview/'+route})
@@ -203,6 +203,7 @@ def main():
                 wait_for(lambda:script("return document.querySelector('.ux-header').hasAttribute('data-home-header-ready')"),45)
             result=script(MEASURE)
             result['ui_ready_seconds']=round(time.monotonic()-started,3)
+            report['slow_network']['checks'].append(result)
             assert result['actualWidth']==390 and not result['overflow'],result
             if route.startswith('product'):
                 click('select');click('select option:nth-child(2)')
@@ -217,7 +218,7 @@ def main():
                 result['menu_open']=script("return document.querySelector('.ux-menu-toggle').getAttribute('aria-expanded')==='true' && document.querySelector('.ux-header').classList.contains('is-solid')")
                 assert result['menu_open']
             result['loaded_detail_images']=script("return Array.from(document.querySelectorAll('#product-detail img')).filter(e=>e.complete&&e.naturalWidth>0).length")
-            report['slow_network']['checks'].append(result)
+            result['flow_complete_seconds']=round(time.monotonic()-started,3)
         report['passed']=True
     except Exception:
         report['passed']=False
