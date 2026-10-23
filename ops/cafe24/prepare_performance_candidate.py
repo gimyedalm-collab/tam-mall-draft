@@ -38,14 +38,18 @@ def main():
         small,large=resized(name,480),resized(name,800)
         old='src="'+BASE+'home-'+name+'"'
         assert home.count(old)==1,(name,home.count(old))
-        home=home.replace(old,f'src="{large}" srcset="{small} 480w, {large} 800w" sizes="(max-width:760px) 42vw, 340px" fetchpriority="low"')
+        with Image.open(MEDIA/name) as im: original_width=im.width
+        # The powder/lip artwork is visually enlarged within its card. Slot
+        # widths understated that rendering size and selected blurry sources.
+        sizes='(max-width:760px) 90vw, (max-width:1023px) 48vw, 640px' if name in ('retouched-111-v1.png','retouched-112-v1.png') else '(max-width:760px) 52vw, 340px'
+        home=home.replace(old,f'src="{large}" srcset="{small} 480w, {large} 800w, {BASE}home-{name} {original_width}w" sizes="{sizes}" fetchpriority="low"')
     # Existing editorial photos use the same source composition with bounded sizes.
     for name in ['lookbook-jelly-1.jpg','lookbook-cloud-1.jpg']:
         small,large=resized(name,480),resized(name,960)
         old='src="'+BASE+'home-'+name+'"'
         assert home.count(old)==1
         with Image.open(MEDIA/name) as im:w,h=im.size
-        home=home.replace(old,f'src="{large}" srcset="{small} 480w, {large} 960w" sizes="(max-width:760px) 50vw, 700px" width="{w}" height="{h}" fetchpriority="low"')
+        home=home.replace(old,f'src="{large}" srcset="{small} 480w, {large} 960w, {BASE}inner-{Path(name).stem}-1600.jpg 1600w, {BASE}home-{name} {w}w" sizes="(max-width:760px) 50vw, (max-width:1500px) 48vw, 760px" width="{w}" height="{h}" fetchpriority="low"')
     (templates/'index.html').write_text(home,encoding='utf-8')
     look=(args.source/'board/gallery/list.html').read_text(encoding='utf-8')
     for line in ['jelly','cloud']:

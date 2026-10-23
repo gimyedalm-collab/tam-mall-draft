@@ -11,6 +11,10 @@ on:
         description: Verify the 261023 font and cushion rollout
         type: boolean
         default: false
+      review_hero:
+        description: Verify homepage review removal and bounded product galleries
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -19,6 +23,7 @@ jobs:
     timeout-minutes: 15
     env:
       TAM_EXPECT_FONT_CUSHION: ${{ inputs.font_cushion }}
+      TAM_EXPECT_REVIEW_HERO: ${{ inputs.review_hero }}
       TAM_BASE_URL: ${{ inputs.target == 'production' && 'https://tambeauty.kr/' || inputs.target == 'verification' && 'https://awiz.cafe24.com/skin-skin24/' || 'https://awiz.cafe24.com/skin-skin21/' }}
     steps:
       - uses: actions/checkout@v6

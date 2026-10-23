@@ -17,6 +17,7 @@ from pathlib import Path
 
 BASE = os.environ.get('TAM_BASE_URL','https://awiz.cafe24.com/skin-skin21/')
 FONT_CUSHION = os.environ.get('TAM_EXPECT_FONT_CUSHION') == 'true'
+REVIEW_HERO = os.environ.get('TAM_EXPECT_REVIEW_HERO') == 'true'
 IOS_UDID = os.environ.get('TAM_IOS_SIMULATOR_UDID')
 LAYOUT_ONLY = bool(IOS_UDID) and os.environ.get('TAM_IOS_LAYOUT_ONLY')=='true'
 OUT = Path('native-ios-results' if IOS_UDID else 'native-safari-results')
@@ -112,6 +113,9 @@ def main():
               scroll:document.documentElement.scrollWidth,video:{x:b.x,y:b.y,width:b.width,height:b.height,fit:getComputedStyle(v).objectFit},
               viewport:document.querySelector('meta[name=viewport]')?.content,headerSolid:document.querySelector('.ux-header').classList.contains('is-solid')};""")
             r['requested_width'] = width
+            if REVIEW_HERO:
+                r['review_removed']=js("return !document.querySelector('.tam-home-reviews,.snap_widget[id=\"1003\"]')")
+                assert r['review_removed']
             if FONT_CUSHION:
                 wait(lambda: js("return document.fonts.status==='loaded' && [...document.fonts].some(f=>f.family.includes('Pretendard Variable') && f.status==='loaded')"))
                 r['font_fix'] = js("""return {marker:!!document.querySelector('#tam-native-fonts-261023'),
@@ -166,6 +170,9 @@ def main():
                   selects:[...document.querySelectorAll('.xans-product-detail select')].filter(e=>e.getBoundingClientRect().width>0).map(e=>({font:parseFloat(getComputedStyle(e).fontSize),height:e.getBoundingClientRect().height})),
                   viewport:document.querySelector('meta[name=viewport]')?.content};""")
                 r['product'] = number
+                if REVIEW_HERO:
+                    r['gallery']=js("const e=document.querySelector('.jsPrdThumbSlide img');return {width:e.getBoundingClientRect().width,naturalWidth:e.naturalWidth}")
+                    assert 0<r['gallery']['width']<=600.5 and r['gallery']['width']<=r['gallery']['naturalWidth'],r['gallery']
                 report['details'].append(r)
                 assert r['width']==width and r['scroll']<=r['client']+1 and r['images']==count,r
                 assert set(['1','3','4','5']).issubset(r['snaps']),r

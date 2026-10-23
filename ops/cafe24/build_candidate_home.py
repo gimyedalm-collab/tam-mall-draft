@@ -72,8 +72,8 @@ def build(original, output):
     tel.string = '카카오톡채널 문의'
     app_source = original.read_text(encoding='utf-8')
     snap = app_source[app_source.index('<!-- snap common  start'):]
-    widget = '<section class="tam-home-reviews" aria-label="고객 리뷰"><h2>고객 리뷰</h2><span name="" class="snap_widget" id="1003"></span></section>'
-    footer.insert_before(BeautifulSoup(widget, 'html.parser'))
+    # Owner removed the repetitive homepage review section on 2026-10-23.
+    # Preserve Snap common scripts and product-specific review mappings.
     extras = ROOT / 'storefront-v2/cafe24/tam/assets'
     for name in ('candidate-home-261022.css', 'candidate-home-261022.js'):
         target = name.replace('.css', '-v4.css')

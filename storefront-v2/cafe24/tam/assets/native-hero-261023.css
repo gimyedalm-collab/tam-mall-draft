@@ -1,0 +1,32 @@
+/* Keep original product photography within a deliberate, bounded gallery.
+   Cafe24's current gallery images are 840px; do not stretch to 896px+.
+   This does not invent detail or alter the original media/commerce modules. */
+body.tam-native .detail-container > .xans-product-detail.flex > .imgArea {
+  max-width:600px;
+}
+/* Some original secondary photos are only 500px. Center them at their
+   natural size instead of stretching them to the gallery's full width. */
+body.tam-native .imgArea .jsPrdThumbSlide .swiper-slide {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  aspect-ratio:1;
+}
+body.tam-native .imgArea .jsPrdThumbSlide .swiper-slide > img {
+  display:block;
+  width:auto!important;
+  max-width:100%;
+  height:auto!important;
+  margin:auto;
+}
+@media(min-width:1024px) {
+  body.tam-native .detail-container > .xans-product-detail.flex {
+    max-width:1100px;
+    margin-inline:auto;
+  }
+}
+@media(max-width:1023px) {
+  body.tam-native .detail-container > .xans-product-detail.flex > .imgArea {
+    margin-inline:auto;
+  }
+}
