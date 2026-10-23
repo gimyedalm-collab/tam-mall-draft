@@ -6,6 +6,9 @@ on:
         type: choice
         default: '26.2'
         options: ['26.2', '26.5']
+      layout_only:
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -15,6 +18,7 @@ jobs:
     env:
       TAM_BASE_URL: https://awiz.cafe24.com/skin-skin24/
       TAM_IOS_RUNTIME: ${{ inputs.runtime }}
+      TAM_IOS_LAYOUT_ONLY: ${{ inputs.layout_only }}
     steps:
       - uses: actions/checkout@v6
       - name: Select an installed iPhone simulator
@@ -30,6 +34,7 @@ jobs:
           with open(os.environ['GITHUB_ENV'],'a') as f:f.write('TAM_IOS_SIMULATOR_UDID='+device['udid']+'\n')
           if device['state']!='Booted':subprocess.run(['xcrun','simctl','boot',device['udid']],check=True)
           subprocess.run(['xcrun','simctl','bootstatus',device['udid'],'-b'],check=True)
+          subprocess.run(['open','-a','Simulator','--args','-CurrentDeviceUDID',device['udid']],check=True)
           PY
       - name: Configure Korean language on temporary simulator
         run: |

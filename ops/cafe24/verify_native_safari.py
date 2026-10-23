@@ -16,6 +16,7 @@ from pathlib import Path
 
 BASE = os.environ.get('TAM_BASE_URL','https://awiz.cafe24.com/skin-skin21/')
 IOS_UDID = os.environ.get('TAM_IOS_SIMULATOR_UDID')
+LAYOUT_ONLY = bool(IOS_UDID) and os.environ.get('TAM_IOS_LAYOUT_ONLY')=='true'
 OUT = Path('native-ios-results' if IOS_UDID else 'native-safari-results')
 
 
@@ -26,6 +27,7 @@ def main():
               'home': [], 'details': [], 'collections': [], 'inner': []}
     if IOS_UDID:
         report.update(engine='Apple iOS Simulator Safari',iOS=True,simulated=True)
+        report.update(scope='layout_only' if LAYOUT_ONLY else 'layout_and_interaction',touch_interaction_verified=False)
     driver = subprocess.Popen(['/usr/bin/safaridriver', '--port', '18765'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     session = None
     visit_number = 0
@@ -86,7 +88,7 @@ def main():
         cmd('POST','/timeouts',{'implicit':3000,'pageLoad':45000,'script':15000})
         report['navigator_language']=js('return navigator.language')
         assert report['navigator_language'].startswith('ko'), report['navigator_language']
-        if IOS_UDID:
+        if IOS_UDID and not LAYOUT_ONLY:
             fixture='<meta name="viewport" content="width=device-width,initial-scale=1"><button id="probe" style="width:150px;height:60px" onclick="this.textContent=\'clicked\'">probe</button>'
             cmd('POST','/url',{'url':'data:text/html,'+urllib.parse.quote(fixture)})
             wait(lambda: js("return !!document.querySelector('#probe')"))
@@ -122,15 +124,16 @@ def main():
                 js("window.__qaFilmEvents=[];for(const type of ['click','pointerdown','touchend','play','pause'])document.addEventListener(type,e=>{if(e.target.matches('video,.film-toggle'))window.__qaFilmEvents.push({type,target:e.target.tagName,trusted:e.isTrusted,time:performance.now(),paused:document.querySelector('video').paused})},true)")
             paused = js("return document.querySelector('video').paused")
             r['initial_video_paused'] = paused
-            click('.film-toggle')
-            wait(lambda: js("return document.querySelector('video').paused") != paused)
-            click('.film-toggle')
-            wait(lambda: js("return document.querySelector('video').paused") == paused)
-            r['film_controls'] = True
+            if not LAYOUT_ONLY:
+                click('.film-toggle')
+                wait(lambda: js("return document.querySelector('video').paused") != paused)
+                click('.film-toggle')
+                wait(lambda: js("return document.querySelector('video').paused") == paused)
+                r['film_controls'] = True
             if IOS_UDID:
                 r['film_events']=js('return window.__qaFilmEvents')
                 (OUT/'home.png').write_bytes(base64.b64decode(cmd('GET','/screenshot')))
-            if width<=900:
+            if width<=900 and not LAYOUT_ONLY:
                 click('.ux-menu-toggle')
                 wait(lambda: js("return document.querySelector('.ux-menu-toggle').getAttribute('aria-expanded')==='true' && document.querySelector('.ux-header').classList.contains('is-solid')"))
                 click('.ux-menu-toggle')
@@ -157,7 +160,7 @@ def main():
                 assert set(['1','3','4','5']).issubset(r['snaps']),r
                 assert r['detail_center_error']<1,r
                 if width==390 or IOS_UDID: assert all(s['font']>=16 and s['height']>=44 for s in r['selects']),r
-                if number in (109,25):
+                if number in (109,25) and not LAYOUT_ONLY:
                     wait(lambda: js("return document.querySelector('.jsMobileLayer')?.dataset.tamPurchaseReady==='true'"))
                     js("window.scrollTo({top:document.querySelector('#prdDetail').getBoundingClientRect().top+scrollY+150,behavior:'instant'});")
                     wait(lambda: js("return document.querySelector('.jsMobileLayer').classList.contains('fixed') && !document.querySelector('.mobile-fix-footer').inert"))
@@ -214,7 +217,7 @@ def main():
                     wait(lambda: js("return document.querySelectorAll('.tam-explore-grid>li').length===14"))
                     r['native_catalog_cards']=14
                 if route.startswith('board/gallery'):assert r['lookbook'],r
-                if route.startswith('product/list'):
+                if route.startswith('product/list') and not LAYOUT_ONLY:
                     click('button[data-tam-line=cloud]');click('button[data-tam-category=lip]')
                     ids=js("return [...document.querySelectorAll('.prdList>li')].filter(e=>!e.hidden).map(e=>e.id).sort()")
                     assert ids==['anchorBoxId_112','anchorBoxId_118'],ids
@@ -225,6 +228,9 @@ def main():
                         click('.tam-nav-menu-toggle')
                         r['mobile_menu']=True
         report['passed'] = True
+        if IOS_UDID:
+            report['touch_interaction_verified']=not LAYOUT_ONLY
+            report['complete_mobile_verification']=False
     except Exception:
         report['passed'] = False
         report['failure'] = traceback.format_exc()
