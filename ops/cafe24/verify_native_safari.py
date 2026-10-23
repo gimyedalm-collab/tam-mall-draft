@@ -14,7 +14,8 @@ import urllib.parse
 from pathlib import Path
 
 BASE = os.environ.get('TAM_BASE_URL','https://awiz.cafe24.com/skin-skin21/')
-OUT = Path('native-safari-results')
+IOS_UDID = os.environ.get('TAM_IOS_SIMULATOR_UDID')
+OUT = Path('native-ios-results' if IOS_UDID else 'native-safari-results')
 
 
 def main():
@@ -22,6 +23,8 @@ def main():
     report = {'engine': 'macOS VM Apple Safari', 'physical_phone': False,
               'iOS': False, 'network_throttled': False, 'base': BASE,
               'home': [], 'details': [], 'collections': [], 'inner': []}
+    if IOS_UDID:
+        report.update(engine='Apple iOS Simulator Safari',iOS=True,simulated=True)
     driver = subprocess.Popen(['/usr/bin/safaridriver', '--port', '18765'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     session = None
     visit_number = 0
@@ -70,14 +73,24 @@ def main():
     try:
         wait(lambda: request('GET','/status'),15)
         # Native app/iframe requests may remain open. Wait for tested UI explicitly.
-        created = request('POST','/session',{'capabilities':{'alwaysMatch':{'browserName':'safari','pageLoadStrategy':'none'}}})
+        capabilities={'browserName':'safari','pageLoadStrategy':'none'}
+        if IOS_UDID:
+            capabilities.update({'platformName':'iOS','safari:useSimulator':True,'safari:deviceUDID':IOS_UDID})
+        created = request('POST','/session',{'capabilities':{'alwaysMatch':capabilities}})
         session = created['sessionId']
         report['browser_version'] = created['capabilities'].get('browserVersion')
+        if IOS_UDID:
+            report['platform_version']=created['capabilities'].get('safari:platformVersion')
+            report['device_name']=created['capabilities'].get('safari:deviceName')
         cmd('POST','/timeouts',{'implicit':3000,'pageLoad':45000,'script':15000})
         report['navigator_language']=js('return navigator.language')
         assert report['navigator_language'].startswith('ko'), report['navigator_language']
-        for width,height in [(320,844),(390,844),(768,1024),(844,500),(1440,950),(1920,1080)]:
-            cmd('POST','/window/rect',{'width':width,'height':height,'x':0,'y':0})
+        dimensions=[(320,844),(390,844),(768,1024),(844,500),(1440,950),(1920,1080)]
+        if IOS_UDID:
+            visit('?qa=ios-initialize')
+            dimensions=[tuple(js('return [innerWidth,innerHeight]'))]
+        for width,height in dimensions:
+            if not IOS_UDID:cmd('POST','/window/rect',{'width':width,'height':height,'x':0,'y':0})
             visit('?qa=native-safari261022')
             wait(lambda: js("return document.querySelector('.ux-header')?.hasAttribute('data-home-header-ready') && document.querySelector('video')?.readyState>=2"))
             js("window.scrollTo({top:0,behavior:'instant'});")
@@ -110,8 +123,9 @@ def main():
             js("window.scrollTo({top:350,behavior:'instant'});")
             wait(lambda: js("return document.querySelector('.ux-header').classList.contains('is-solid')"))
             r['scroll_header'] = True
-        for width in (390,1440):
-            cmd('POST','/window/rect',{'width':width,'height':950,'x':0,'y':0})
+        widths=[dimensions[0][0]] if IOS_UDID else [390,1440]
+        for width in widths:
+            if not IOS_UDID:cmd('POST','/window/rect',{'width':width,'height':950,'x':0,'y':0})
             for number, count in [(109,6),(110,18),(111,14),(118,16),(102,9),(24,14),(25,7)]:
                 visit(f'product/detail.html?product_no={number}')
                 wait(lambda: js("return document.querySelector('#tam-candidate-detail')?.dataset.deliveryStatus==='ready'"))
@@ -127,7 +141,7 @@ def main():
                 assert r['width']==width and r['scroll']<=r['client']+1 and r['images']==count,r
                 assert set(['1','3','4','5']).issubset(r['snaps']),r
                 assert r['detail_center_error']<1,r
-                if width==390: assert all(s['font']>=16 and s['height']>=44 for s in r['selects']),r
+                if width==390 or IOS_UDID: assert all(s['font']>=16 and s['height']>=44 for s in r['selects']),r
                 if number in (109,25):
                     wait(lambda: js("return document.querySelector('.jsMobileLayer')?.dataset.tamPurchaseReady==='true'"))
                     js("window.scrollTo({top:document.querySelector('#prdDetail').getBoundingClientRect().top+scrollY+150,behavior:'instant'});")
@@ -137,6 +151,16 @@ def main():
                     r['purchase_sheet']=js("""const b=document.querySelector('.jsMobileLayer').getBoundingClientRect();return {left:b.left,right:b.right,bottom:b.bottom,width:innerWidth,height:innerHeight,scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth};""")
                     sheet=r['purchase_sheet']
                     assert sheet['left']>=-1 and sheet['right']<=sheet['width']+1 and sheet['bottom']<=sheet['height']+1 and sheet['scroll']<=sheet['client']+1,sheet
+                    if IOS_UDID and number==25:
+                        codes=js("return [...document.querySelectorAll('#product_option_id1 option')].map(e=>e.value).filter(v=>v.startsWith('P000'))")
+                        assert codes==['P000000Z000P','P000000Z000Q','P000000Z000R'],codes
+                        for code in codes:
+                            selector='.custom-opt__item[data-value="'+code+'"]'
+                            if not js('return document.querySelector('+json.dumps(selector)+').getBoundingClientRect().height>0'):
+                                click('.custom-opt__current')
+                            click(selector)
+                        wait(lambda:js("return document.querySelectorAll('tr.option_product').length===3 && document.querySelector('#totalPrice').innerText.includes('51,000')"))
+                        r['oil_options_total_verified']=51000
                     click('.tam-purchase-close')
                     wait(lambda: js("return !document.querySelector('.jsMobileLayer').classList.contains('on') && document.activeElement.classList.contains('jsLayerBtn')"))
                     r['purchase_open_close_focus']=True
@@ -153,8 +177,8 @@ def main():
                   'myshop/index.html', 'myshop/coupon/coupon.html',
                   'myshop/order/list.html', 'member/privacy.html',
                   'member/mall_agreement.html', 'shopinfo/guide.html']
-        for width in (390,1440):
-            cmd('POST','/window/rect',{'width':width,'height':950,'x':0,'y':0})
+        for width in widths:
+            if not IOS_UDID:cmd('POST','/window/rect',{'width':width,'height':950,'x':0,'y':0})
             for route in routes:
                 visit(route, allow_login=route.startswith('myshop/'))
                 wait(lambda: js("return !!document.querySelector('.tam-nav-footer')"))
@@ -180,7 +204,7 @@ def main():
                     ids=js("return [...document.querySelectorAll('.prdList>li')].filter(e=>!e.hidden).map(e=>e.id).sort()")
                     assert ids==['anchorBoxId_112','anchorBoxId_118'],ids
                     r['combined_filter']=True
-                    if width==390:
+                    if width==390 or IOS_UDID:
                         click('.tam-nav-menu-toggle')
                         assert js("return document.querySelector('.tam-nav-menu-toggle').getAttribute('aria-expanded')==='true'")
                         click('.tam-nav-menu-toggle')

@@ -1,0 +1,39 @@
+name: Cafe24 iOS Simulator Safari verification
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  safari-ios:
+    runs-on: macos-26
+    timeout-minutes: 20
+    env:
+      TAM_BASE_URL: https://awiz.cafe24.com/skin-skin24/
+    steps:
+      - uses: actions/checkout@v6
+      - name: Select an installed iPhone simulator
+        run: |
+          python3 - <<'PY'
+          import json,subprocess,os
+          devices=json.loads(subprocess.check_output(['xcrun','simctl','list','devices','available','--json']))['devices']
+          choices=[(runtime,d) for runtime,items in devices.items() if '.iOS-' in runtime for d in items if d['name'].startswith('iPhone')]
+          assert choices, 'No installed iPhone simulator; do not claim device coverage'
+          runtime,device=sorted(choices,key=lambda pair:(pair[0],pair[1]['name']))[-1]
+          print(json.dumps({'runtime':runtime,'device':device['name'],'physical_device':False}))
+          with open(os.environ['GITHUB_ENV'],'a') as f:f.write('TAM_IOS_SIMULATOR_UDID='+device['udid']+'\n')
+          if device['state']!='Booted':subprocess.run(['xcrun','simctl','boot',device['udid']],check=True)
+          subprocess.run(['xcrun','simctl','bootstatus',device['udid'],'-b'],check=True)
+          PY
+      - name: Configure Korean language on temporary simulator
+        run: |
+          xcrun simctl spawn "$TAM_IOS_SIMULATOR_UDID" defaults write NSGlobalDomain AppleLanguages -array ko-KR en-US
+          xcrun simctl spawn "$TAM_IOS_SIMULATOR_UDID" defaults write NSGlobalDomain AppleLocale -string ko_KR
+          sudo safaridriver --enable
+      - name: Verify native mobile Safari layout and purchase options
+        run: python3 ops/cafe24/verify_native_safari.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: native-ios-simulator-verification
+          path: native-ios-results/
+          retention-days: 3
