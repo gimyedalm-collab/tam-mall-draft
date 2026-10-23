@@ -1,4 +1,4 @@
-/* Home film only. Fill landscape screens; retain the full frame on portrait phones. */
+/* Home film only. Fill landscape screens; use larger portrait frames per the 2026-10-23 request. */
 .home-film{--home-header-height:88px}
 .home-film .ux-header.ux-header{position:absolute;inset:0 0 auto;height:var(--home-header-height);background:transparent;border-color:transparent;color:#fff}
 .home-film .ux-header[data-home-header-ready]{position:fixed}
@@ -30,4 +30,30 @@
 @media(max-width:760px){
  .home-film .home-film-media .film-toggle{top:auto;right:12px;bottom:12px}
  .home-film .do-hero::after{display:none}
+}
+
+/* Owner requested a larger first-screen film on 2026-10-23.
+   Keep the existing film, full-width landscape, and transparent navigation. */
+@media(max-aspect-ratio:1/1) {
+  body.home-film .home-film-media {
+    height:auto;
+    aspect-ratio:4/3;
+    max-height:78svh;
+  }
+  body.home-film .home-film-media video {
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    aspect-ratio:auto;
+    max-height:none;
+    object-fit:cover;
+    object-position:50% 50%;
+  }
+}
+@media(max-width:600px) and (max-aspect-ratio:1/1) {
+  body.home-film .home-film-media {
+    aspect-ratio:1;
+    max-height:72svh;
+  }
 }

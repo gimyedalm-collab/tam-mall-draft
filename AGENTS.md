@@ -982,3 +982,18 @@ with intentional framing crop; portrait uses full-width16:9 to avoid excessive
 face/product loss. This supersedes the earlier contained landscape treatment.
 Preserve product-page white headers and the existing film-ending contrast hook.
 Evidence: ops/cafe24/header-20261022 and fullscreen-20261022.
+
+## Homepage reviews / image resolution / larger film — 2026-10-23
+
+Owner requested removing repetitive homepage reviews, checking oversized hero
+images across products, and enlarging the main film. Remove only the homepage
+review1003 section; preserve actual product review widgets and native commerce.
+Product galleries are capped at600CSS px, centered with the purchase column;
+secondary images smaller than600px must stay at their natural size. Existing
+photos and product identifiers are retained, not synthetically upscaled.
+Homepage srcset sizes must reflect visually enlarged card art, with existing
+higher-resolution original candidates available for dense screens.
+The previous portrait16:9 film rule is superseded: phone portrait uses a square
+frame capped at72svh, portrait tablet uses4:3 capped at78svh; landscape remains
+full-width100svh. Original V16 video bytes are unchanged. Verify framing across
+several scenes; viewport tests are not physical-device validation.

@@ -2,10 +2,13 @@
    Keep the existing film, full-width landscape, and transparent navigation. */
 @media(max-aspect-ratio:1/1) {
   body.home-film .home-film-media {
-    height:75vw;
+    height:auto;
+    aspect-ratio:4/3;
     max-height:78svh;
   }
   body.home-film .home-film-media video {
+    position:absolute;
+    inset:0;
     width:100%;
     height:100%;
     aspect-ratio:auto;
@@ -16,7 +19,7 @@
 }
 @media(max-width:600px) and (max-aspect-ratio:1/1) {
   body.home-film .home-film-media {
-    height:100vw;
+    aspect-ratio:1;
     max-height:72svh;
   }
 }
