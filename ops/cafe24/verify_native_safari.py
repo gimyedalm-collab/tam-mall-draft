@@ -132,6 +132,9 @@ def main():
             assert (r['width']==width or r['minimum_window_clamp']) and r['scroll']<=r['client']+1,r
             assert abs(r['video']['x'])<1 and abs(r['video']['width']-r['client'])<1,r
             expected = r['height'] if r['width']>=r['height'] else r['client']*9/16
+            if REVIEW_HERO and r['width']<r['height']:
+                expected=min(r['client'] if r['width']<=600 else r['client']*.75,r['height']*(.72 if r['width']<=600 else .78))
+                assert js("return !!document.querySelector('#tam-native-film-261023')")
             assert abs(r['video']['height']-expected)<1 and not r['headerSolid'],r
             # A video may autoplay before deferred control scripts have executed.
             wait(lambda: js("return document.readyState==='complete'"),60)

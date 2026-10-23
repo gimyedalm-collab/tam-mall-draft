@@ -24,6 +24,7 @@ async def run(base, out, verify=False):
             for number in ids:
                 await page.goto(base+f'product/detail.html?product_no={number}',wait_until='domcontentloaded')
                 await page.wait_for_selector('.jsPrdThumbSlide img')
+                await page.wait_for_selector('body.tam-native .jsMobileLayer[data-tam-purchase-ready=true]',state='attached')
                 await page.wait_for_function('document.querySelector(".jsPrdThumbSlide img")?.naturalWidth>1 && [...document.querySelectorAll("link[rel=stylesheet]")].every(e=>!!e.sheet)')
                 await page.locator('.jsPrdThumbSlide img').evaluate_all('(es)=>Promise.all(es.map(e=>e.decode()))')
                 info=await page.evaluate('''() => ({

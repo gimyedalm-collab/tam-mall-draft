@@ -1,0 +1,22 @@
+/* Owner requested a larger first-screen film on 2026-10-23.
+   Keep the existing film, full-width landscape, and transparent navigation. */
+@media(max-aspect-ratio:1/1) {
+  body.home-film .home-film-media {
+    height:75vw;
+    max-height:78svh;
+  }
+  body.home-film .home-film-media video {
+    width:100%;
+    height:100%;
+    aspect-ratio:auto;
+    max-height:none;
+    object-fit:cover;
+    object-position:50% 50%;
+  }
+}
+@media(max-width:600px) and (max-aspect-ratio:1/1) {
+  body.home-film .home-film-media {
+    height:100vw;
+    max-height:72svh;
+  }
+}
