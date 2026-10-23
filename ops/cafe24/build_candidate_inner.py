@@ -105,7 +105,9 @@ def main():
     brand.name='div';brand['id']='tam-brand'
     write('about.html','<!--@layout(/layout/basic/layout.html)-->\n'+transform(brand))
     look=BeautifulSoup((PREVIEW/'lookbook.html').read_text(encoding='utf-8'),'html.parser').select_one('main');look.name='div';look['id']='tam-lookbook'
-    write('board/gallery/list.html','<!--@layout(/layout/basic/layout.html)-->\n'+transform(look)+'\n<section class="tam-board-archive"><h2>브랜드 아카이브</h2>'+source('board/gallery/list.html').replace('<!--@layout(/layout/basic/layout.html)-->','')+'</section>')
+    archive=source('board/gallery/list.html').replace('<!--@layout(/layout/basic/layout.html)-->','')
+    archive=archive.replace('<img src="{$img_src}"', '<img loading="lazy" decoding="async" src="{$img_src}"')
+    write('board/gallery/list.html','<!--@layout(/layout/basic/layout.html)-->\n'+transform(look)+'\n<section class="tam-board-archive"><h2>브랜드 아카이브</h2>'+archive+'</section>')
     # Shared header/footer styles use separate names so the existing film page JS cannot bind to them.
     ux=(PREVIEW/'assets/ux-261013.css').read_text(encoding='utf-8')
     nav=ux[:ux.index('.do-hero{')].replace('ux-','tam-nav-')

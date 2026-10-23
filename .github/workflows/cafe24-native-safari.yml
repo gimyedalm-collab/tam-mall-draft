@@ -1,12 +1,20 @@
 name: Cafe24 candidate Safari verification
 on:
   workflow_dispatch:
+    inputs:
+      target:
+        description: Public site to verify
+        type: choice
+        options: [candidate, production]
+        default: candidate
 permissions:
   contents: read
 jobs:
   safari:
     runs-on: macos-26
     timeout-minutes: 15
+    env:
+      TAM_BASE_URL: ${{ inputs.target == 'production' && 'https://tambeauty.kr/' || 'https://awiz.cafe24.com/skin-skin21/' }}
     steps:
       - uses: actions/checkout@v6
       - run: sudo safaridriver --enable

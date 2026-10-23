@@ -4,6 +4,7 @@ Apple's macOS VM Safari is not a physical phone or iOS Safari. This runner
 does not throttle the network; earlier preview throttle evidence is separate.
 """
 import json
+import os
 import subprocess
 import time
 import traceback
@@ -11,7 +12,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-BASE = 'https://awiz.cafe24.com/skin-skin21/'
+BASE = os.environ.get('TAM_BASE_URL','https://awiz.cafe24.com/skin-skin21/')
 OUT = Path('native-safari-results')
 
 
@@ -57,7 +58,8 @@ def main():
         cmd('POST','/url',{'url':url})
         expected='location.href==='+json.dumps(url)
         if allow_login:
-            expected+=' || (location.pathname==="/skin-skin21/member/login.html" && new URL(location.href).searchParams.get("returnUrl")==='+json.dumps('/'+route.split('?')[0])+')'
+            login_path=urllib.parse.urlsplit(BASE).path+'member/login.html'
+            expected+=' || (location.pathname==='+json.dumps(login_path)+' && new URL(location.href).searchParams.get("returnUrl")==='+json.dumps('/'+route.split('?')[0])+')'
         wait(lambda: js('return ('+expected+") && document.readyState!=='loading' && !!document.body && [...document.querySelectorAll('link[rel=stylesheet]')].every(e=>!!e.sheet)"))
 
     def click(selector):

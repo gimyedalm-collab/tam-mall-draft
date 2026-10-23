@@ -1,7 +1,7 @@
 {
   "rollout_preflight_20261022": {
-    "status": "production_scope_clarification_pending",
-    "request": "Owner asked to start applying; clarify powder-only versus full-store after earlier powder-first scope.",
+    "status": "full_store_rollout_authorized_in_progress",
+    "request": "Owner requested completing Cafe24 rollout and lip-oil identity review on2026-10-23.",
     "shop_no": 1,
     "live_pc_skin": "skin18",
     "rollback_copy_skin": "skin22",
@@ -9,7 +9,7 @@
     "copy_created_and_listed": true,
     "mobile_dedicated_skin_enabled": false,
     "production_changed": false,
-    "next_action": "Read owner's pending scope reply, then apply the confirmed scope and verify the live domain. Keep skin22 untouched as rollback."
+    "next_action": "Finish root-route activation of verified skin21 and verify production; preserve skin18/22 rollback and skin23 candidate backup."
   },
   "native_powder_images_20261022": {
     "product_no": 111,
@@ -1184,5 +1184,23 @@
     "admin_option_codes_verified": true,
     "native_stock_management_enabled": false,
     "existing_order_option_and_shipping_display_verified": true
+  },
+  "lip_oil_identity_20261023": {
+    "product_no": 25,
+    "name": "? ?? ??? ???",
+    "native_saved_and_verified": true,
+    "selectable_codes": [
+      "P000000Z000P",
+      "P000000Z000Q",
+      "P000000Z000R"
+    ],
+    "retired_not_deleted": "P000000Z000O",
+    "english_shop_unchanged": true,
+    "stock_settings_unchanged": true,
+    "report": "native-commerce-20261023/LIP-OIL.md",
+    "safari_run": 39892437365,
+    "purchase_run": 39893661237,
+    "physical_device": false,
+    "payment_submitted": false
   }
 }

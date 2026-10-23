@@ -3,13 +3,13 @@
 No credentials, cart changes, orders, customer exports, third-party blocking,
 or claim of physical-phone testing. Reports contain geometry and timings only.
 """
-import asyncio,json,time
+import asyncio,json,time,os
 from urllib.parse import urlsplit
 from pathlib import Path
 from playwright.async_api import async_playwright
 
 OUT=Path('native-chromium-results')
-BASE='https://awiz.cafe24.com/skin-skin21/'
+BASE=os.environ.get('TAM_BASE_URL','https://awiz.cafe24.com/skin-skin21/')
 
 async def main():
     OUT.mkdir(exist_ok=True)
