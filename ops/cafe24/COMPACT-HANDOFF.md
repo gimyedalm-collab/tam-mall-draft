@@ -1,4 +1,23 @@
-## CURRENT: Font / cushion / image optimization applied and verified - 2026-10-23
+## CURRENT: Reviews / hero resolution / larger film applied - 2026-10-23
+
+Korean representative is skin26/editor32; rollback is retained skin24/editor30.
+English shop5 skin8 unchanged. Homepage review1003 section removed; native
+product Snap1/3/4/5 preserved.14products/83gallery photos bounded at600CSSpx,
+small500px photos stay natural size. Homepage sizes reflect enlarged art and
+include existing original candidates, fixing low-resolution selection.
+Owner additionally requested a larger main film. Phone portrait square/max72svh,
+tablet portrait4:3/max78svh; landscape100svh. Original V16 unchanged. Frame uses
+content-width aspect-ratio after fixing Safari scrollbar-width mismatch.
+Candidate42 + production42 gallery cases pass; homepage21pixel-density cases,
+purchase14alignment/9flows, production smoke10 and film6sizes pass.
+Final Safari39933215002 pending. See review-hero-20261023/REPORT.md.
+Private source/rollback files: .codex/tam-cafe24-output/review-hero-20261023.
+Gallery source resolution limits, physical phones and prior commerce E2E gaps
+remain explicitly unverified. No new order or customer message.
+
+---
+
+## HISTORICAL: Font / cushion / image optimization applied and verified - 2026-10-23
 
 Owner authorized applying the optimized skin and missing cushion, superseding
 prior preparation-only scope. Korean representative is now skin24/editor30

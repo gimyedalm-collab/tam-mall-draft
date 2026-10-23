@@ -2,6 +2,39 @@
   "updated_at": "2026-10-23",
   "items": [
     {
+      "id": "TAM-C24-009",
+      "type": "owner_requested_content_removal",
+      "priority": "P2",
+      "status": "applied_to_production_verified",
+      "route": "homepage",
+      "actual": "Same reviews repeatedly displayed by homepage Snap1003 section.",
+      "fix": "Remove homepage section only; retain Snap common code and product1/3/4/5 widgets.",
+      "retest": "Homepage absence at3widths and product mappings on14products confirmed.",
+      "evidence": "review-hero-20261023/REPORT.md"
+    },
+    {
+      "id": "TAM-C24-010",
+      "type": "image_resolution",
+      "priority": "P1",
+      "status": "excessive_enlargement_fixed_native_source_quality_limit_remains",
+      "route": "14product galleries and homepage",
+      "actual": "13of14 main840px images rendered896px at1920 viewport;500px secondary photos enlarged; homepage powder/lip sizes understated visible artwork.",
+      "fix": "600px gallery maximum, natural-size internal images, correct homepage sizes and existing high-resolution candidates.",
+      "retest": "83gallery images at3widths; homepage21image cases meet device-pixel requirements; original gallery resolution limit documented.",
+      "evidence": "review-hero-20261023/REPORT.md"
+    },
+    {
+      "id": "TAM-C24-011",
+      "type": "owner_requested_layout_change",
+      "priority": "P2",
+      "status": "applied_to_production_chromium_verified_safari_pending",
+      "route": "homepage film",
+      "actual": "Portrait16:9 first-screen film was too short for owner.",
+      "fix": "Square phone/4:3tablet aspect-ratio with viewport caps, existing V16 unchanged; landscape100svh retained.",
+      "retest": "Sixviewport sizes and3sampledframes each; Safari final run pending.",
+      "evidence": "review-hero-20261023/REPORT.md"
+    },
+    {
       "id": "TAM-C24-008",
       "type": "implementation",
       "priority": "P1",
@@ -21,7 +54,7 @@
       "expected": "Published terms contain the actual store wording and defined retention values.",
       "actual": "Privacy consent retains sample preamble, collection-field instruction and OO-year internal retention placeholder; mall terms retain template preamble/00 mall wording.",
       "fix": null,
-      "retest": "Observed2026-10-23. Do not invent a retention policy or silently alter legal terms. Test order awaits explicit terms acceptance."
+      "retest": "Published sample placeholders remain unchanged. Authorized unpaid test receipt/cancellation completed separately; do not invent a retention policy."
     },
     {
       "id": "TAM-C24-006",

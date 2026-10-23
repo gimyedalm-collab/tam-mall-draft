@@ -1,0 +1,145 @@
+{
+  "base": "https://tambeauty.kr/",
+  "physical_device": false,
+  "cases": [
+    {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 320,
+        "top": 0,
+        "right": 320,
+        "bottom": 320,
+        "left": 0
+      },
+      "width": 1920,
+      "height": 1080,
+      "duration": 8.041667,
+      "fit": "cover",
+      "src": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v16-261013.mp4",
+      "viewport": [
+        320,
+        844
+      ],
+      "expected_height": 320,
+      "passed": true
+    },
+    {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 390,
+        "top": 0,
+        "right": 390,
+        "bottom": 390,
+        "left": 0
+      },
+      "width": 1920,
+      "height": 1080,
+      "duration": 8.041667,
+      "fit": "cover",
+      "src": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v16-261013.mp4",
+      "viewport": [
+        390,
+        844
+      ],
+      "expected_height": 390,
+      "passed": true
+    },
+    {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 576,
+        "top": 0,
+        "right": 768,
+        "bottom": 576,
+        "left": 0
+      },
+      "width": 1920,
+      "height": 1080,
+      "duration": 8.041667,
+      "fit": "cover",
+      "src": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v16-261013.mp4",
+      "viewport": [
+        768,
+        1024
+      ],
+      "expected_height": 576.0,
+      "passed": true
+    },
+    {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 844,
+        "height": 500,
+        "top": 0,
+        "right": 844,
+        "bottom": 500,
+        "left": 0
+      },
+      "width": 1920,
+      "height": 1080,
+      "duration": 8.041667,
+      "fit": "cover",
+      "src": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v16-261013.mp4",
+      "viewport": [
+        844,
+        500
+      ],
+      "expected_height": 500,
+      "passed": true
+    },
+    {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 950,
+        "top": 0,
+        "right": 1440,
+        "bottom": 950,
+        "left": 0
+      },
+      "width": 1920,
+      "height": 1080,
+      "duration": 8.041667,
+      "fit": "cover",
+      "src": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v16-261013.mp4",
+      "viewport": [
+        1440,
+        950
+      ],
+      "expected_height": 950,
+      "passed": true
+    },
+    {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080,
+        "left": 0
+      },
+      "width": 1920,
+      "height": 1080,
+      "duration": 8.041667,
+      "fit": "cover",
+      "src": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/tam-main-film-v16-261013.mp4",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "expected_height": 1080,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

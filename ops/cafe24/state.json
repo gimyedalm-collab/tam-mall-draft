@@ -1,4 +1,40 @@
 {
+  "review_hero_film_20261023": {
+    "date": "2026-10-23",
+    "status": "production_applied_chromium_verified_safari_pending",
+    "production_skin": "skin26/editor32",
+    "rollback_skin": "skin24/editor30",
+    "english_shop5_skin": "skin8_unchanged",
+    "templates": [
+      "index.html",
+      "moa/layout/head.html"
+    ],
+    "homepage_review1003": "section_removed_product_reviews_retained",
+    "catalog_products": 14,
+    "gallery_images": 83,
+    "gallery_max_css_width": 600,
+    "small_secondary_images": "natural_size_limit",
+    "photos_modified": false,
+    "homepage_srcset": "actual_render_sizes_and_existing_high_resolution_sources",
+    "film_source_changed": false,
+    "film_portrait_phone": "square_max72svh",
+    "film_portrait_tablet": "4:3_max78svh",
+    "film_landscape": "full_width_100svh",
+    "checks": {
+      "candidate_gallery_cases": 42,
+      "production_gallery_cases": 42,
+      "production_home_image_cases": 21,
+      "production_home_density_coverage_min": 1.154,
+      "candidate_purchase_alignment": 14,
+      "candidate_purchase_flows": 9,
+      "production_smoke": 10,
+      "production_film_sizes": 6,
+      "safari_run": 39933215002
+    },
+    "physical_device_verified": false,
+    "new_order": false,
+    "report": "review-hero-20261023/REPORT.md"
+  },
   "font_cushion_rollout_20261023": {
     "date": "2026-10-23",
     "status": "applied_to_production_and_verified",
@@ -42,7 +78,8 @@
     },
     "physical_device_verified": false,
     "new_order_created": false,
-    "report": "font-cushion-20261023/REPORT.md"
+    "report": "font-cushion-20261023/REPORT.md",
+    "historical_superseded_by": "review_hero_film_20261023; skin26 now representative; font/cushion changes retained"
   },
   "final_preparation_20261023": {
     "date": "2026-10-23",
