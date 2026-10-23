@@ -1,18 +1,16 @@
-## ACTIVE TEST: Unpaid order created; cancellation still pending ? 2026-10-23
+## COMPLETE: Unpaid test order cancelled and admin verified - 2026-10-23
 
-Owner explicitly approved an unpaid lip-oil01qty1 test and mandatory terms.
-One native order was created and confirmed in Cafe24:17000+3000=20000KRW,
-actual paid amount0,unpaid/unshipped. Exact ID is PRIVATE in
+One authorized native unpaid lip-oil test order was created and confirmed in
+Cafe24. Owner reported cancellation; a fresh administrator whole-order-list
+read independently verified cancelled items 1, unshipped 0, shipping 0,
+delivered 0 and actual paid amount 0. No payment or dispatch was performed.
+Exact order ID and private evidence remain outside Git in
 C:/Users/BNK-1/.codex/tam-cafe24-output/unpaid-order-20261023/order.json.
-EZAdmin exact-order query with all statuses and TAM seller returned no rows;
-do not call new-order sync verified or mark the order paid to force collection.
-Cancellation was attempted in admin and customer UI. Chrome confirmation
-handling repeatedly timed out, even through documented dialog and AX APIs;
-fresh admin query still shows unpaid/unshipped. Owner was asked to click
-existing cancellation confirmation. No new order or payment should be issued.
-NEXT: read specific order state, finish cancellation and record result. Keep
-customer order detail and administrator lookup open. Candidate24 remains staged.
-Checkout consent template placeholders are tracked as TAM-C24-007.
+The unpaid receipt/cancellation test is complete. Do not create another order.
+EZAdmin exact-order search previously returned no rows; collection and
+inventory E2E are not proven by this test. Paid checkout/refund, physical-phone
+checks and remaining rollout items are separate. Candidate24 stays staged.
+Checkout consent template placeholders remain tracked as TAM-C24-007.
 
 ---
 

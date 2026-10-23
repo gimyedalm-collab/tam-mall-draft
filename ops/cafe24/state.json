@@ -1350,7 +1350,7 @@
     "next_action": "Owner completes their shipping/contact data, guest password, required terms and card authentication in preserved checkout. Then inspect only that order in Cafe24 and EZAdmin; cancel/refund before dispatch. Do not mark paid or synchronized until observed."
   },
   "unpaid_test_20261023": {
-    "status": "created_admin_verified_cancel_confirmation_pending",
+    "status": "created_admin_verified_cancelled_admin_verified",
     "user_authorized_unpaid_order_and_test_contact": true,
     "product_no": 25,
     "option": "01 First love",
@@ -1367,12 +1367,20 @@
     "order_submitted": true,
     "terms_accepted": true,
     "cancel_after_verification": true,
-    "next_action": "Owner acknowledges existing Chrome cancellation confirmation that stalls browser tools. Recheck specific test order in administrator and finish cancellation; do not create another order or mark payment received.",
+    "next_action": "Unpaid receipt and cancellation test is complete. Keep candidate24 staged; external collection, paid-payment/refund, physical-device and remaining rollout checks are not established by this test.",
     "paid_amount_krw": 0,
     "cafe24_order_verified": true,
     "external_inventory_query": "exact_order_id_no_results",
     "external_inventory_e2e_verified": false,
     "cancel_requested": true,
-    "cancel_confirmed": false
+    "cancel_confirmed": true,
+    "cancel_verification": {
+      "source": "Cafe24 administrator whole order list",
+      "cancelled_items": 1,
+      "unshipped_items": 0,
+      "shipping_items": 0,
+      "delivered_items": 0,
+      "paid_amount_krw": 0
+    }
   }
 }
