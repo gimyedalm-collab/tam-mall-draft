@@ -1348,5 +1348,25 @@
     "admin_order_lookup_ready": true,
     "external_inventory_admin_connected": true,
     "next_action": "Owner completes their shipping/contact data, guest password, required terms and card authentication in preserved checkout. Then inspect only that order in Cafe24 and EZAdmin; cancel/refund before dispatch. Do not mark paid or synchronized until observed."
+  },
+  "unpaid_test_20261023": {
+    "status": "all_order_fields_prepared_awaiting_terms_confirmation",
+    "user_authorized_unpaid_order_and_test_contact": true,
+    "product_no": 25,
+    "option": "01 First love",
+    "quantity": 1,
+    "order_total_krw": 20000,
+    "payment_method": "bank_transfer",
+    "actual_payment_intended": false,
+    "test_identity": "explicitly labelled test/no dispatch",
+    "shipping_address": "published business address",
+    "email": "reserved .test domain",
+    "contact": "owner-provided; omitted from repository",
+    "no_dispatch_message": true,
+    "guest_password": "temporary value only in active session; omitted from repository",
+    "order_submitted": false,
+    "terms_accepted": false,
+    "cancel_after_verification": true,
+    "next_action": "After explicit terms acceptance confirmation, submit exactly one unpaid order, record order ID privately, verify Cafe24 then EZAdmin if unpaid collection is supported, cancel without payment confirmation or dispatch."
   }
 }

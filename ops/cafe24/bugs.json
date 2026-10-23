@@ -2,6 +2,18 @@
   "updated_at": "2026-10-23",
   "items": [
     {
+      "id": "TAM-C24-007",
+      "type": "content_configuration",
+      "priority": "P1",
+      "status": "observed_native_terms_template_placeholders",
+      "route": "/order/ec_orderform/agreement/personagree.html and mallagree.html",
+      "reproduce": "Open mandatory checkout agreement detail popups.",
+      "expected": "Published terms contain the actual store wording and defined retention values.",
+      "actual": "Privacy consent retains sample preamble, collection-field instruction and OO-year internal retention placeholder; mall terms retain template preamble/00 mall wording.",
+      "fix": null,
+      "retest": "Observed2026-10-23. Do not invent a retention policy or silently alter legal terms. Test order awaits explicit terms acceptance."
+    },
+    {
       "id": "TAM-C24-006",
       "type": "performance",
       "priority": "P2",
