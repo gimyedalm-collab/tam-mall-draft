@@ -3,6 +3,7 @@
 Apple's macOS VM Safari is not a physical phone or iOS Safari. This runner
 does not throttle the network; earlier preview throttle evidence is separate.
 """
+import base64
 import json
 import os
 import subprocess
@@ -108,6 +109,10 @@ def main():
             assert abs(r['video']['x'])<1 and abs(r['video']['width']-r['client'])<1,r
             expected = r['height'] if r['width']>=r['height'] else r['client']*9/16
             assert abs(r['video']['height']-expected)<1 and not r['headerSolid'],r
+            # A video may autoplay before deferred control scripts have executed.
+            wait(lambda: js("return document.readyState==='complete'"),60)
+            if IOS_UDID:
+                js("window.__qaFilmEvents=[];for(const type of ['click','pointerdown','touchend','play','pause'])document.addEventListener(type,e=>{if(e.target.matches('video,.film-toggle'))window.__qaFilmEvents.push({type,target:e.target.tagName,trusted:e.isTrusted,time:performance.now(),paused:document.querySelector('video').paused})},true)")
             paused = js("return document.querySelector('video').paused")
             r['initial_video_paused'] = paused
             click('.film-toggle')
@@ -115,6 +120,9 @@ def main():
             click('.film-toggle')
             wait(lambda: js("return document.querySelector('video').paused") == paused)
             r['film_controls'] = True
+            if IOS_UDID:
+                r['film_events']=js('return window.__qaFilmEvents')
+                (OUT/'home.png').write_bytes(base64.b64decode(cmd('GET','/screenshot')))
             if width<=900:
                 click('.ux-menu-toggle')
                 wait(lambda: js("return document.querySelector('.ux-menu-toggle').getAttribute('aria-expanded')==='true' && document.querySelector('.ux-header').classList.contains('is-solid')"))
@@ -216,7 +224,8 @@ def main():
         if session:
             try:
                 report['failure_ui'] = js("""const b=document.querySelector('.film-toggle'),r=b?.getBoundingClientRect(),top=r?document.elementFromPoint(r.x+r.width/2,r.y+r.height/2):null;
-                return {url:location.href,ready:document.readyState,button:r?.toJSON(),coverTag:top?.tagName,coverClass:top?.className};""")
+                return {url:location.href,ready:document.readyState,button:r?.toJSON(),coverTag:top?.tagName,coverClass:top?.className,filmEvents:window.__qaFilmEvents,video:document.querySelector('video')?{paused:document.querySelector('video').paused,time:document.querySelector('video').currentTime,error:document.querySelector('video').error?.code}:null};""")
+                (OUT/'failure.png').write_bytes(base64.b64decode(cmd('GET','/screenshot')))
             except Exception:
                 pass
         raise
