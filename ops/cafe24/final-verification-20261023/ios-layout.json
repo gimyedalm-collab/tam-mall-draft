@@ -1,0 +1,390 @@
+{
+  "engine": "Apple iOS Simulator Safari",
+  "physical_phone": false,
+  "iOS": true,
+  "network_throttled": false,
+  "base": "https://awiz.cafe24.com/skin-skin24/",
+  "home": [
+    {
+      "height": 714,
+      "client": 402,
+      "scroll": 402,
+      "headerSolid": false,
+      "width": 402,
+      "video": {
+        "y": 0,
+        "height": 226.125,
+        "x": 0,
+        "width": 402,
+        "fit": "contain"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 402,
+      "minimum_window_clamp": false,
+      "initial_video_paused": false,
+      "film_events": [],
+      "scroll_header": true
+    }
+  ],
+  "details": [
+    {
+      "client": 402,
+      "scroll": 402,
+      "images": 6,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 402,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 109
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "images": 18,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 402,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 110
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 402,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 111
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "images": 16,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 402,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 118
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "images": 9,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 402,
+      "selects": [],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 102
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 402,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 24
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "images": 7,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 402,
+      "selects": [],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 25
+    }
+  ],
+  "collections": [
+    {
+      "ids": [
+        "anchorBoxId_24",
+        "anchorBoxId_101",
+        "anchorBoxId_102",
+        "anchorBoxId_25",
+        "anchorBoxId_23",
+        "anchorBoxId_18"
+      ],
+      "width": 402,
+      "collection": "jelly"
+    },
+    {
+      "ids": [
+        "anchorBoxId_110",
+        "anchorBoxId_111",
+        "anchorBoxId_109",
+        "anchorBoxId_118",
+        "anchorBoxId_112",
+        "anchorBoxId_115",
+        "anchorBoxId_114",
+        "anchorBoxId_121"
+      ],
+      "width": 402,
+      "collection": "cloud"
+    }
+  ],
+  "inner": [
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/product/list.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "product/list.html?cate_no=74",
+      "auth_redirect": false
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/about.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": true,
+      "route": "about.html",
+      "auth_redirect": false,
+      "native_catalog_cards": 14
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/board/gallery/list.html",
+      "width": 402,
+      "lookbook": true,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "board/gallery/list.html?board_no=8",
+      "auth_redirect": false
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/product/search.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "product/search.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/member/login.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/login.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/member/join.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/join.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/order/basket.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "order/basket.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/member/login.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "myshop/index.html",
+      "auth_redirect": true
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/member/login.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "myshop/coupon/coupon.html",
+      "auth_redirect": true
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/member/login.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "myshop/order/list.html",
+      "auth_redirect": true
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/member/privacy.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/privacy.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/member/mall_agreement.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/mall_agreement.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 402,
+      "scroll": 402,
+      "header": true,
+      "footer": true,
+      "finalPath": "/skin-skin24/shopinfo/guide.html",
+      "width": 402,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "shopinfo/guide.html",
+      "auth_redirect": false
+    }
+  ],
+  "simulated": true,
+  "scope": "layout_only",
+  "touch_interaction_verified": false,
+  "browser_version": "26.5",
+  "platform_version": "26.5",
+  "device_name": "iPhone 17 Pro",
+  "navigator_language": "ko-KR",
+  "passed": true,
+  "complete_mobile_verification": false
+}

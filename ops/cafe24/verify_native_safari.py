@@ -1,7 +1,8 @@
-"""Read-only Safari checks of public skin21. No login, orders or customer exports.
+"""Public Safari checks of TAM_BASE_URL; no login, orders or customer exports.
 
-Apple's macOS VM Safari is not a physical phone or iOS Safari. This runner
-does not throttle the network; earlier preview throttle evidence is separate.
+Uses macOS Safari, or Apple iOS Simulator when a simulator UDID is supplied.
+Neither is a physical phone. Layout-only iOS runs do not verify touch input.
+This runner does not throttle the network; throttle evidence is separate.
 """
 import base64
 import json

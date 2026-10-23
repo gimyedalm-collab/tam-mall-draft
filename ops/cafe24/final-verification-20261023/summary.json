@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-23",
+  "status": "candidate_saved_application_package_ready_with_explicit_verification_gaps",
+  "production_skin": "skin21/editor27",
+  "candidate_skin": "skin24/editor30",
+  "candidate_name": "TAM_최종검증_20261023",
+  "candidate_url": "https://awiz.cafe24.com/skin-skin24/",
+  "representative_skin_changed_this_turn": false,
+  "production_rechecked_in_admin": true,
+  "saved_templates": [
+    "index.html",
+    "board/gallery/list.html"
+  ],
+  "saved_template_readback": "Both equal prepared local files after CRLF normalization.",
+  "uploaded_assets": 16,
+  "uploaded_pixel_equality": true,
+  "color_profile_note": "Cafe24 recompressed PNGs; two cushion PNG profiles stripped. Source profile identified as standard sRGB IEC61966-2.1; decoded RGBA equal. Eight JPEGs byte/pixel/profile equal.",
+  "checks": {
+    "macos_safari": 50,
+    "ios_simulator_layout": 23,
+    "chromium_smoke": 10,
+    "responsive_image_cases": 6,
+    "slow_comparison_cases": 4,
+    "guest_checkout_totals": 2,
+    "policy_copy_local_widths": 2
+  },
+  "runs": {
+    "macos_safari": 39903626711,
+    "ios_layout": 39906045567
+  },
+  "ios": {
+    "runtime": "26.5",
+    "device": "iPhone 17 Pro Simulator",
+    "viewport_width": 402,
+    "layout_passed": true,
+    "physical_device": false,
+    "touch_verified": false,
+    "continuous_film_visual_verified": false,
+    "complete_mobile_verification": false,
+    "limitation": "Earlier26.5 trusted pointerdown lacked completed click.26.2 plain HTML button failed independently of store; latest26.2 session failed to connect. No storefront workaround added. Layout-only screenshot is a single frame, not continuous film evidence."
+  },
+  "commerce": {
+    "product_no": 25,
+    "name": "더 젤리 플럼핑 립오일",
+    "options": [
+      "01",
+      "02",
+      "03"
+    ],
+    "native_ids_preserved": true,
+    "native_stock_management": "disabled_unchanged",
+    "external_option_mapping": "all_three_admin_confirmed",
+    "external_stock": "all_three_positive_at_inspection",
+    "external_stock_management": "enabled",
+    "connection_flags": "configured_on",
+    "new_order_sync_e2e": false,
+    "paid_order": false,
+    "coupon_redemption": false,
+    "refund_return": false
+  },
+  "policy_copy": {
+    "ready_files": 2,
+    "live_saved": false,
+    "notice299": "Replace outdated image benefit claims with verified channel3000KRW coupon conditions; no unverified signup-point claim.",
+    "guide": "Match2-14day period and30000KRW free-shipping threshold with per-product exceptions; remaining return terms preserved."
+  },
+  "limits": [
+    "Physical iPhone/Android and iOS touch unverified.",
+    "Actual payment, return/refund, coupon redemption, discounted shipping edge cases and new-order inventory/invoice sync unverified.",
+    "Slow-network comparison improves transferred image bytes but does not establish Core Web Vitals or universal speed targets. Existing large detail GIFs retain their quality and slow-load limitation.",
+    "Special-link catalog/search exposure preserved as pre-existing merchant configuration; no visibility policy changed.",
+    "EZAdmin2026-10-22 advisory describes token errors for some EZSyncPlus customers; no token error verified for TAM and no credentials refreshed. Automatic flags do not prove running EZAuto."
+  ]
+}

@@ -1,4 +1,23 @@
-## ACTIVE: Korean production rollout verified — 2026-10-23
+## ACTIVE: Candidate24 prepared; production21 unchanged this turn — 2026-10-23
+
+Latest owner request is prepare and verify before applying. Do not auto-switch.
+Candidate24/editor30 TAM_최종검증_20261023 is a copy of production21 with
+two image-only template changes and16 uploaded responsive variants. Readback
+matched. Production21 and English8 rechecked unchanged in administrator.
+Safari50, iOS Simulator26.5 layout23, Chromium smoke10, responsive images6,
+slow comparisons4 and native guest checkout2 passed. iOS touch/physical tests
+are NOT complete: plain-button driver baseline failed; separate layout-only
+run39906045567 passed. See final-verification-20261023/REPORT.md.
+EZAdmin lip01/02/03 mappings and positive stock confirmed; automatic flags on.
+No new paid order, coupon redemption, refund, invoice or stock sync E2E.
+Two copy corrections (notice299 and exchange-info) are prepared, NOT live-saved.
+Private templates/copy/originals/apply instructions are in
+C:/Users/BNK-1/.codex/tam-cafe24-output/performance-candidate-20261023.
+Paid-test terms still undefined. No identity/payment was entered or submitted.
+
+---
+
+## HISTORICAL: Korean production rollout verified — 2026-10-23
 
 Production tambeauty.kr uses skin21/editor27. Rollback18/22 and candidate
 backup23 retained; English shop5 skin8 unchanged. Nine templates saved and

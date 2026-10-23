@@ -1,0 +1,114 @@
+[
+  {
+    "file": "perf261023-cushion-pink-original-2-480.png",
+    "bytes": 137942,
+    "byte_equal": false,
+    "pixel_equal": true,
+    "icc_equal": false
+  },
+  {
+    "file": "perf261023-cushion-pink-original-2-800.png",
+    "bytes": 400243,
+    "byte_equal": false,
+    "pixel_equal": true,
+    "icc_equal": false
+  },
+  {
+    "file": "perf261023-lookbook-cloud-1-480.jpg",
+    "bytes": 22841,
+    "byte_equal": true,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-lookbook-cloud-1-960.jpg",
+    "bytes": 83958,
+    "byte_equal": true,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-lookbook-cloud-2-480.jpg",
+    "bytes": 56554,
+    "byte_equal": true,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-lookbook-cloud-3-480.jpg",
+    "bytes": 65508,
+    "byte_equal": true,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-lookbook-jelly-1-480.jpg",
+    "bytes": 22920,
+    "byte_equal": true,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-lookbook-jelly-1-960.jpg",
+    "bytes": 67430,
+    "byte_equal": true,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-lookbook-jelly-2-480.jpg",
+    "bytes": 44534,
+    "byte_equal": true,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-lookbook-jelly-3-480.jpg",
+    "bytes": 58714,
+    "byte_equal": true,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-retouched-111-v1-480.png",
+    "bytes": 53071,
+    "byte_equal": false,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-retouched-111-v1-800.png",
+    "bytes": 126034,
+    "byte_equal": false,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-retouched-112-v1-480.png",
+    "bytes": 20402,
+    "byte_equal": false,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-retouched-112-v1-800.png",
+    "bytes": 50284,
+    "byte_equal": false,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-retouched-24-v1-480.png",
+    "bytes": 133728,
+    "byte_equal": false,
+    "pixel_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "perf261023-retouched-24-v1-800.png",
+    "bytes": 363846,
+    "byte_equal": false,
+    "pixel_equal": true,
+    "icc_equal": true
+  }
+]

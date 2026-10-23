@@ -2,17 +2,30 @@
   "updated_at": "2026-10-23",
   "items": [
     {
+      "id": "TAM-C24-006",
+      "type": "performance",
+      "priority": "P2",
+      "status": "candidate_image_optimization_verified_speed_targets_open",
+      "route": "home and lookbook",
+      "reproduce": "Compare original mobile image requests on throttled network.",
+      "expected": "Appropriate image sizes without loss of product fidelity or layout.",
+      "actual": "Large original images used for small mobile cards.",
+      "fix": "16 responsive variants, dimensions and archive loading priority in skin24; original masters retained.",
+      "retest": "6width/route cases and4throttled comparisons pass. Home final bytes7.11MBto2.84MB; FCP not improved. Existing detailGIF speed remains open.",
+      "evidence": "final-verification-20261023/REPORT.md"
+    },
+    {
       "id": "TAM-C24-005",
       "type": "policy_discrepancy",
       "priority": "P1",
-      "status": "admin_rules_confirmed_native_copy_pending",
+      "status": "corrected_copy_prepared_not_live",
       "route": "https://tambeauty.kr/article/notice/1/299/",
       "reproduce": "Compare the membership notice image, header JOIN benefit, and product channel coupon CTA.",
       "expected": "Benefit descriptions agree with actual current administrator rules.",
       "actual": "Membership image advertises 2,000-point signup and 2,000 channel coupon; header/product CTA display 3,000. Confirm the underlying rules before choosing values.",
-      "evidence": "live-audit-20260917.md",
-      "fix": null,
-      "retest": "Channel coupon3000KRW confirmed;365days,one/order,no minimum,two exclusions. Signup3000KRW coupon issuance stopped. No redemption test or live copy edits."
+      "evidence": "final-verification-20261023/REPORT.md",
+      "fix": "notice299 replacement HTML matches current channel3000KRW/365day/one-order/two-exclusion configuration; removes stale signup claim without assuming points policy.",
+      "retest": "Prepared HTML320/1440 passed; admin rules confirmed. Live notice and redemption unchanged."
     },
     {
       "id": "TAM-C24-001",
@@ -46,27 +59,27 @@
       "id": "TAM-C24-003",
       "type": "policy_discrepancy",
       "priority": "P2",
-      "status": "needs_admin_verification",
+      "status": "corrected_copy_prepared_not_live",
       "route": "https://tambeauty.kr/shopinfo/guide.html",
       "reproduce": "Compare the delivery period text in the public shopping guide.",
       "expected": "One consistent delivery period matching actual operating policy.",
       "actual": "The audit found both 2–14 day and 1–7 day delivery descriptions.",
-      "evidence": "Public audit 2026-09-17; reconcile against administrator settings before editing.",
-      "fix": null,
-      "retest": "Administrator period2-14days confirmed2026-10-21. Live native guide discrepancy not modified."
+      "evidence": "final-verification-20261023/REPORT.md",
+      "fix": "Exchange-info HTML period changed1-7to2-14days; shipping states3000KRW/below30000after-discount threshold and individual-product exceptions. Other terms preserved.",
+      "retest": "Exact prepared diff checked; no shared admin save."
     },
     {
       "id": "TAM-C24-004",
       "type": "migration_risk",
       "priority": "P1",
-      "status": "needs_admin_verification",
+      "status": "preexisting_visibility_policy_preserved_unresolved",
       "route": "SHOP and product search",
       "reproduce": "Compare SHOP's visible products with search results for cushion.",
       "expected": "Migration preserves catalog visibility and special-link sales rules.",
       "actual": "Search exposes a special repurchase item outside the 14 products shown in SHOP. This is not yet classified as a bug.",
       "evidence": "Public audit 2026-09-17",
       "fix": null,
-      "retest": null
+      "retest": "No migration change to native visibility/search policy. Special-link exposure remains an unresolved merchant-policy decision; not counted as a repaired defect."
     },
     {
       "id": "TAM-PREVIEW-006",

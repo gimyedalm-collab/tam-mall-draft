@@ -1,0 +1,896 @@
+{
+  "physical_device": false,
+  "cache_disabled": true,
+  "download_bps": 1600000,
+  "latency_ms": 150,
+  "cases": [
+    {
+      "skin": 21,
+      "route": "/",
+      "shell_seconds": 23.34,
+      "initial_bytes": 2220299,
+      "initial_archive_bytes": 0,
+      "paints": [
+        {
+          "name": "first-paint",
+          "seconds": 1.78
+        },
+        {
+          "name": "first-contentful-paint",
+          "seconds": 1.78
+        }
+      ],
+      "overflow": false,
+      "images": [
+        {
+          "path": "/tam-detail-20261022/home-38d19c7e8e86.png",
+          "srcset": null,
+          "w": 84,
+          "h": 38.5,
+          "naturalW": 720,
+          "naturalH": 330,
+          "loading": "auto"
+        },
+        {
+          "path": "/tam-detail-20261022/home-cushion-pink-original-2.png",
+          "srcset": null,
+          "w": 189.40625,
+          "h": 215.421875,
+          "naturalW": 1601,
+          "naturalH": 1821,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/home-retouched-24-v1.png",
+          "srcset": null,
+          "w": 125.359375,
+          "h": 244.421875,
+          "naturalW": 898,
+          "naturalH": 1751,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/home-retouched-111-v1.png",
+          "srcset": null,
+          "w": 290.765625,
+          "h": 193.84375,
+          "naturalW": 1536,
+          "naturalH": 1024,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/home-retouched-112-v1.png",
+          "srcset": null,
+          "w": 343,
+          "h": 228.65625,
+          "naturalW": 1536,
+          "naturalH": 1024,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/home-lookbook-jelly-1.jpg",
+          "srcset": null,
+          "w": 167,
+          "h": 222.65625,
+          "naturalW": 2800,
+          "naturalH": 1867,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/home-lookbook-cloud-1.jpg",
+          "srcset": null,
+          "w": 167,
+          "h": 222.65625,
+          "naturalW": 2800,
+          "naturalH": 1867,
+          "loading": "lazy"
+        }
+      ],
+      "all_images_seconds": 53.36,
+      "final_bytes": 7109619,
+      "passed": true,
+      "largest_resources": [
+        {
+          "path": "/tam-detail-20261022/home-cushion-pink-original-2.png",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 1663920
+        },
+        {
+          "path": "/tam-detail-20261022/home-lookbook-cloud-1.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 1310649
+        },
+        {
+          "path": "/tam-detail-20261022/home-lookbook-jelly-1.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 614564
+        },
+        {
+          "path": "/tam-detail-20261022/home-retouched-24-v1.png",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 413898
+        },
+        {
+          "path": "/tam-detail-20261022/home-retouched-111-v1.png",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 345196
+        },
+        {
+          "path": "/skin-skin21/ind-script/i18n.php",
+          "host": "awiz.cafe24.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 338863
+        },
+        {
+          "path": "/tam-detail-20261022/home-tam-main-film-v15-poster.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 281541
+        },
+        {
+          "path": "/skin-skin21/ind-script/optimizer.php",
+          "host": "awiz.cafe24.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 276962
+        },
+        {
+          "path": "/gtag/js",
+          "host": "www.googletagmanager.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 180997
+        },
+        {
+          "path": "/tam-detail-20261022/home-retouched-112-v1.png",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 160674
+        },
+        {
+          "path": "/gtag/js",
+          "host": "www.googletagmanager.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 156927
+        },
+        {
+          "path": "/gtag/js",
+          "host": "www.googletagmanager.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 156485
+        }
+      ]
+    },
+    {
+      "skin": 21,
+      "route": "board/gallery/list.html?board_no=8",
+      "shell_seconds": 34.7,
+      "initial_bytes": 4183860,
+      "initial_archive_bytes": 1300248,
+      "paints": [
+        {
+          "name": "first-paint",
+          "seconds": 1.488
+        },
+        {
+          "name": "first-contentful-paint",
+          "seconds": 1.488
+        }
+      ],
+      "overflow": false,
+      "images": [
+        {
+          "path": "/tam-detail-20261022/inner-lookbook-jelly-1-960.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-1-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-1-1600.jpg 1600w",
+          "w": 390,
+          "h": 260,
+          "naturalW": 389,
+          "naturalH": 259,
+          "loading": "eager"
+        },
+        {
+          "path": "/tam-detail-20261022/inner-lookbook-jelly-2-960.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-2-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-2-1600.jpg 1600w",
+          "w": 167,
+          "h": 250.5,
+          "naturalW": 194,
+          "naturalH": 292,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/inner-lookbook-jelly-3-960.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-3-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-3-1600.jpg 1600w",
+          "w": 167,
+          "h": 250.5,
+          "naturalW": 194,
+          "naturalH": 292,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/inner-lookbook-cloud-1-960.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-1-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-1-1600.jpg 1600w",
+          "w": 390,
+          "h": 260,
+          "naturalW": 389,
+          "naturalH": 259,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/inner-lookbook-cloud-2-960.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-2-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-2-1600.jpg 1600w",
+          "w": 167,
+          "h": 250.5,
+          "naturalW": 194,
+          "naturalH": 292,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/inner-lookbook-cloud-3-960.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-3-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-3-1600.jpg 1600w",
+          "w": 167,
+          "h": 250.5,
+          "naturalW": 194,
+          "naturalH": 292,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/ccaa509106107c1108e5b8268a8b35ff.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/5c353ad5e467dc7e9ed69d55055c5642.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/e596d44a954c1fbf953a0a0b0381127d.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/7b15b1125c17c340dd65be43b8e2d0ac.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/de2640f80589008b986d2138057cc513.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/b1abc24e289012650e327a5a7b0a57cd.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/fa1353ffe431b1355d4572dada3482a2.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/8654346140cc90345d8220a6c2080865.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/2910c6fc84a6a62306165aa7e6cf4aee.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/0214a2f96e1415c1e9190b3df2934e91.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/b82516ba5eb9c32bc70f2797fbd9fce7.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/b95816687fee7a6a69fea57bc3961a78.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        }
+      ],
+      "all_images_seconds": 36.33,
+      "final_bytes": 7066070,
+      "passed": true,
+      "largest_resources": [
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/b1abc24e289012650e327a5a7b0a57cd.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 371811
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/2910c6fc84a6a62306165aa7e6cf4aee.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 358946
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/fa1353ffe431b1355d4572dada3482a2.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 352984
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/ccaa509106107c1108e5b8268a8b35ff.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 351536
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/7b15b1125c17c340dd65be43b8e2d0ac.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 350152
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/b82516ba5eb9c32bc70f2797fbd9fce7.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 349618
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/5c353ad5e467dc7e9ed69d55055c5642.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 345477
+        },
+        {
+          "path": "/skin-skin21/ind-script/i18n.php",
+          "host": "awiz.cafe24.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 338845
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/e596d44a954c1fbf953a0a0b0381127d.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 335071
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/0214a2f96e1415c1e9190b3df2934e91.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 325562
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/de2640f80589008b986d2138057cc513.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 315894
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/b95816687fee7a6a69fea57bc3961a78.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 309920
+        }
+      ]
+    },
+    {
+      "skin": 24,
+      "route": "/",
+      "shell_seconds": 18.28,
+      "initial_bytes": 2838390,
+      "initial_archive_bytes": 0,
+      "paints": [
+        {
+          "name": "first-paint",
+          "seconds": 1.888
+        },
+        {
+          "name": "first-contentful-paint",
+          "seconds": 1.888
+        }
+      ],
+      "overflow": false,
+      "images": [
+        {
+          "path": "/tam-detail-20261022/home-38d19c7e8e86.png",
+          "srcset": null,
+          "w": 84,
+          "h": 38.5,
+          "naturalW": 720,
+          "naturalH": 330,
+          "loading": "auto"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-cushion-pink-original-2-480.png",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-cushion-pink-original-2-480.png 480w, https://awiz.cafe24.com/tam-detail-20261022/perf261023-cushion-pink-original-2-800.png 800w",
+          "w": 189.40625,
+          "h": 215.4375,
+          "naturalW": 163,
+          "naturalH": 186,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-retouched-24-v1-480.png",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-retouched-24-v1-480.png 480w, https://awiz.cafe24.com/tam-detail-20261022/perf261023-retouched-24-v1-800.png 800w",
+          "w": 125.359375,
+          "h": 244.4375,
+          "naturalW": 163,
+          "naturalH": 319,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-retouched-111-v1-480.png",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-retouched-111-v1-480.png 480w, https://awiz.cafe24.com/tam-detail-20261022/perf261023-retouched-111-v1-800.png 800w",
+          "w": 290.765625,
+          "h": 193.84375,
+          "naturalW": 163,
+          "naturalH": 109,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-retouched-112-v1-480.png",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-retouched-112-v1-480.png 480w, https://awiz.cafe24.com/tam-detail-20261022/perf261023-retouched-112-v1-800.png 800w",
+          "w": 343,
+          "h": 228.65625,
+          "naturalW": 163,
+          "naturalH": 109,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-lookbook-jelly-1-480.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-jelly-1-480.jpg 480w, https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-jelly-1-960.jpg 960w",
+          "w": 167,
+          "h": 222.65625,
+          "naturalW": 194,
+          "naturalH": 129,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-lookbook-cloud-1-480.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-cloud-1-480.jpg 480w, https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-cloud-1-960.jpg 960w",
+          "w": 167,
+          "h": 222.65625,
+          "naturalW": 194,
+          "naturalH": 129,
+          "loading": "lazy"
+        }
+      ],
+      "all_images_seconds": 18.62,
+      "final_bytes": 2843368,
+      "passed": true,
+      "largest_resources": [
+        {
+          "path": "/skin-skin24/ind-script/i18n.php",
+          "host": "awiz.cafe24.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 338834
+        },
+        {
+          "path": "/tam-detail-20261022/home-tam-main-film-v15-poster.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 281487
+        },
+        {
+          "path": "/skin-skin24/ind-script/optimizer.php",
+          "host": "awiz.cafe24.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 276954
+        },
+        {
+          "path": "/gtag/js",
+          "host": "www.googletagmanager.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 181020
+        },
+        {
+          "path": "/gtag/js",
+          "host": "www.googletagmanager.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 156462
+        },
+        {
+          "path": "/gtag/js",
+          "host": "www.googletagmanager.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 156455
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-cushion-pink-original-2-480.png",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 138484
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-retouched-24-v1-480.png",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 134264
+        },
+        {
+          "path": "/gtm.js",
+          "host": "www.googletagmanager.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 130535
+        },
+        {
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "host": "analytics.tiktok.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 118371
+        },
+        {
+          "path": "/en_US/fbevents.js",
+          "host": "connect.facebook.net",
+          "type": "Script",
+          "status": 200,
+          "bytes": 117527
+        },
+        {
+          "path": "/signals/config/2793053810868785",
+          "host": "connect.facebook.net",
+          "type": "Script",
+          "status": 200,
+          "bytes": 95658
+        }
+      ]
+    },
+    {
+      "skin": 24,
+      "route": "board/gallery/list.html?board_no=8",
+      "shell_seconds": 20.41,
+      "initial_bytes": 2652204,
+      "initial_archive_bytes": 375907,
+      "paints": [
+        {
+          "name": "first-paint",
+          "seconds": 1.556
+        },
+        {
+          "name": "first-contentful-paint",
+          "seconds": 1.556
+        }
+      ],
+      "overflow": false,
+      "images": [
+        {
+          "path": "/tam-detail-20261022/inner-lookbook-jelly-1-960.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-jelly-1-480.jpg 480w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-1-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-1-1600.jpg 1600w",
+          "w": 390,
+          "h": 260,
+          "naturalW": 389,
+          "naturalH": 259,
+          "loading": "eager"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-lookbook-jelly-2-480.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-jelly-2-480.jpg 480w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-2-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-2-1600.jpg 1600w",
+          "w": 167,
+          "h": 250.5,
+          "naturalW": 194,
+          "naturalH": 292,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-lookbook-jelly-3-480.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-jelly-3-480.jpg 480w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-3-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-jelly-3-1600.jpg 1600w",
+          "w": 167,
+          "h": 250.5,
+          "naturalW": 194,
+          "naturalH": 292,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/inner-lookbook-cloud-1-960.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-cloud-1-480.jpg 480w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-1-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-1-1600.jpg 1600w",
+          "w": 390,
+          "h": 260,
+          "naturalW": 389,
+          "naturalH": 259,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-lookbook-cloud-2-480.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-cloud-2-480.jpg 480w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-2-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-2-1600.jpg 1600w",
+          "w": 167,
+          "h": 250.5,
+          "naturalW": 194,
+          "naturalH": 292,
+          "loading": "lazy"
+        },
+        {
+          "path": "/tam-detail-20261022/perf261023-lookbook-cloud-3-480.jpg",
+          "srcset": "https://awiz.cafe24.com/tam-detail-20261022/perf261023-lookbook-cloud-3-480.jpg 480w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-3-960.jpg 960w, https://awiz.cafe24.com/tam-detail-20261022/inner-lookbook-cloud-3-1600.jpg 1600w",
+          "w": 167,
+          "h": 250.5,
+          "naturalW": 194,
+          "naturalH": 292,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/ccaa509106107c1108e5b8268a8b35ff.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/5c353ad5e467dc7e9ed69d55055c5642.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/e596d44a954c1fbf953a0a0b0381127d.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/7b15b1125c17c340dd65be43b8e2d0ac.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/de2640f80589008b986d2138057cc513.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/b1abc24e289012650e327a5a7b0a57cd.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/fa1353ffe431b1355d4572dada3482a2.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/8654346140cc90345d8220a6c2080865.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/2910c6fc84a6a62306165aa7e6cf4aee.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/0214a2f96e1415c1e9190b3df2934e91.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/b82516ba5eb9c32bc70f2797fbd9fce7.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/b95816687fee7a6a69fea57bc3961a78.jpg",
+          "srcset": null,
+          "w": 318,
+          "h": 318,
+          "naturalW": 1000,
+          "naturalH": 1000,
+          "loading": "lazy"
+        }
+      ],
+      "all_images_seconds": 33.51,
+      "final_bytes": 6487921,
+      "passed": true,
+      "largest_resources": [
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/b1abc24e289012650e327a5a7b0a57cd.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 371837
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/2910c6fc84a6a62306165aa7e6cf4aee.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 358964
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/fa1353ffe431b1355d4572dada3482a2.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 352974
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/ccaa509106107c1108e5b8268a8b35ff.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 351553
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/7b15b1125c17c340dd65be43b8e2d0ac.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 350168
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/b82516ba5eb9c32bc70f2797fbd9fce7.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 349626
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/5c353ad5e467dc7e9ed69d55055c5642.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 345451
+        },
+        {
+          "path": "/skin-skin24/ind-script/i18n.php",
+          "host": "awiz.cafe24.com",
+          "type": "Script",
+          "status": 200,
+          "bytes": 338933
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/e596d44a954c1fbf953a0a0b0381127d.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 335097
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/0214a2f96e1415c1e9190b3df2934e91.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 325571
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/10/23/de2640f80589008b986d2138057cc513.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 315874
+        },
+        {
+          "path": "/file_data/awiz/gallery/2025/03/05/b95816687fee7a6a69fea57bc3961a78.jpg",
+          "host": "awiz.cafe24.com",
+          "type": "Image",
+          "status": 200,
+          "bytes": 309865
+        }
+      ]
+    }
+  ],
+  "browser_version": "151.0.7922.34",
+  "passed": true
+}
