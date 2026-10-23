@@ -1,7 +1,7 @@
 {
   "review_hero_film_20261023": {
     "date": "2026-10-23",
-    "status": "production_applied_chromium_verified_safari_pending",
+    "status": "applied_to_production_and_verified",
     "production_skin": "skin26/editor32",
     "rollback_skin": "skin24/editor30",
     "english_shop5_skin": "skin8_unchanged",
@@ -29,7 +29,11 @@
       "candidate_purchase_flows": 9,
       "production_smoke": 10,
       "production_film_sizes": 6,
-      "safari_run": 39933215002
+      "safari_run": 39933215002,
+      "production_safari_cases": 52,
+      "safari_attempt": 2,
+      "safari_artifact": 12491984011,
+      "safari_passed": true
     },
     "physical_device_verified": false,
     "new_order": false,

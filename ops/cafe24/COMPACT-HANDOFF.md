@@ -10,7 +10,7 @@ tablet portrait4:3/max78svh; landscape100svh. Original V16 unchanged. Frame uses
 content-width aspect-ratio after fixing Safari scrollbar-width mismatch.
 Candidate42 + production42 gallery cases pass; homepage21pixel-density cases,
 purchase14alignment/9flows, production smoke10 and film6sizes pass.
-Final Safari39933215002 pending. See review-hero-20261023/REPORT.md.
+Final macOS Safari52 passed (39933215002 attempt2). See review-hero-20261023/REPORT.md.
 Private source/rollback files: .codex/tam-cafe24-output/review-hero-20261023.
 Gallery source resolution limits, physical phones and prior commerce E2E gaps
 remain explicitly unverified. No new order or customer message.

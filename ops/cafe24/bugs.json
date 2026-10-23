@@ -27,11 +27,11 @@
       "id": "TAM-C24-011",
       "type": "owner_requested_layout_change",
       "priority": "P2",
-      "status": "applied_to_production_chromium_verified_safari_pending",
+      "status": "applied_to_production_verified",
       "route": "homepage film",
       "actual": "Portrait16:9 first-screen film was too short for owner.",
       "fix": "Square phone/4:3tablet aspect-ratio with viewport caps, existing V16 unchanged; landscape100svh retained.",
-      "retest": "Sixviewport sizes and3sampledframes each; Safari final run pending.",
+      "retest": "SixChromium viewport sizes and3sampledframes each; macOS Safari52 passed on run39933215002 attempt2; content-width aspect ratio verified.",
       "evidence": "review-hero-20261023/REPORT.md"
     },
     {
