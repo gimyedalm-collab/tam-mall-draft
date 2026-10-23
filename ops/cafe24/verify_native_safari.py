@@ -10,6 +10,7 @@ import time
 import traceback
 import urllib.error
 import urllib.request
+import urllib.parse
 from pathlib import Path
 
 BASE = os.environ.get('TAM_BASE_URL','https://awiz.cafe24.com/skin-skin21/')
@@ -73,6 +74,8 @@ def main():
         session = created['sessionId']
         report['browser_version'] = created['capabilities'].get('browserVersion')
         cmd('POST','/timeouts',{'implicit':3000,'pageLoad':45000,'script':15000})
+        report['navigator_language']=js('return navigator.language')
+        assert report['navigator_language'].startswith('ko'), report['navigator_language']
         for width,height in [(320,844),(390,844),(768,1024),(844,500),(1440,950),(1920,1080)]:
             cmd('POST','/window/rect',{'width':width,'height':height,'x':0,'y':0})
             visit('?qa=native-safari261022')

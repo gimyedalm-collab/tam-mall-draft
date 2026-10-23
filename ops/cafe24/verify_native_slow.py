@@ -21,7 +21,7 @@ async def main():
                             (390,'board/gallery/list.html?board_no=8'),(390,'product/detail.html?product_no=109'),
                             (390,'product/detail.html?product_no=25'),(1440,'product/list.html?cate_no=74'),
                             (1440,'about.html'),(320,'product/list.html?cate_no=74')]:
-            context=await browser.new_context(viewport={'width':width,'height':844},is_mobile=width<500,has_touch=width<500)
+            context=await browser.new_context(viewport={'width':width,'height':844},is_mobile=width<500,has_touch=width<500,locale='ko-KR')
             page=await context.new_page();cdp=await context.new_cdp_session(page)
             await cdp.send('Network.enable')
             await cdp.send('Network.setCacheDisabled',{'cacheDisabled':True})

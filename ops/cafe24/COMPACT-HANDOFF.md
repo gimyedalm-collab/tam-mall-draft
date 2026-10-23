@@ -1,3 +1,19 @@
+## ACTIVE: production activated ? 2026-10-23
+
+Korean shop1 representative is now skin21/editor27 on tambeauty.kr.
+Nine root-route templates saved;15rollout assets byte-verified.
+Rollback skin18 and server copy22; candidate-before-cutover copy23.
+English shop5 skin8 unchanged. Product25 renamed ? ?? ??? ???;
+00O Korean display/selling off but SKU retained;01?03P/Q/R unchanged.
+Candidate Safari39892437365 passed50; purchase39893661237 passed14alignment+9flows.
+Production Chromium39895697388 and Safari39895700224 running.
+Lookbook archive12rendered images now lazy; original URLs unchanged.
+Physical/iOS and actual payment return unverified. No new order/payment.
+Latest owner request authorizes full storefront rollout, superseding old scope question.
+Private cutover folder: .codex/tam-cafe24-output/cutover-20261023.
+
+---
+
 ## ACTIVE: lip explanation removed; commerce checked - 2026-10-23
 
 Owner removed added series explanations. Product25 candidate fragment uploaded,

@@ -13,7 +13,7 @@ async def main():
     async with async_playwright() as p:
         browser=await p.chromium.launch()
         report['browser_version']=browser.version
-        context=await browser.new_context(viewport={'width':1440,'height':950})
+        context=await browser.new_context(viewport={'width':1440,'height':950},locale='ko-KR')
         page=await context.new_page()
         for number in PRODUCTS:
             await page.goto(BASE+f'product/detail.html?product_no={number}',wait_until='domcontentloaded')
@@ -25,7 +25,7 @@ async def main():
             report['alignment'].append(r)
         await context.close()
         for width,number,slow in [(w,n,False) for w in (320,390,768,1440) for n in (109,25)]+[(390,109,True)]:
-            context=await browser.new_context(viewport={'width':width,'height':844},is_mobile=width<500,has_touch=width<500)
+            context=await browser.new_context(viewport={'width':width,'height':844},is_mobile=width<500,has_touch=width<500,locale='ko-KR')
             page=await context.new_page();errors=[]
             page.on('pageerror',lambda e:errors.append(str(e).split('\n')[0][:160]))
             if slow:

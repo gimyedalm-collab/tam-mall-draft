@@ -91,7 +91,7 @@ async def run(args):
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         for width in (1440, 390):
-            context = await browser.new_context(viewport={"width": width, "height": 900},
+            context = await browser.new_context(locale='ko-KR', viewport={"width": width, "height": 900},
                                                 is_mobile=width == 390, has_touch=width == 390)
             for route, kind in routes:
                 result = await check_page(context, base, route, kind)

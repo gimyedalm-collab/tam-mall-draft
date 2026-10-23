@@ -1,15 +1,15 @@
 {
   "rollout_preflight_20261022": {
-    "status": "full_store_rollout_authorized_in_progress",
+    "status": "activated_post_switch_verification_running",
     "request": "Owner requested completing Cafe24 rollout and lip-oil identity review on2026-10-23.",
     "shop_no": 1,
-    "live_pc_skin": "skin18",
+    "live_pc_skin": "skin21",
     "rollback_copy_skin": "skin22",
     "rollback_copy_name": "TAM_적용전백업_20261022_skin18",
     "copy_created_and_listed": true,
     "mobile_dedicated_skin_enabled": false,
-    "production_changed": false,
-    "next_action": "Finish root-route activation of verified skin21 and verify production; preserve skin18/22 rollback and skin23 candidate backup."
+    "production_changed": true,
+    "next_action": "Collect production Chromium/Safari results and verify native checkout; preserve rollback18/22."
   },
   "native_powder_images_20261022": {
     "product_no": 111,
@@ -1202,5 +1202,23 @@
     "purchase_run": 39893661237,
     "physical_device": false,
     "payment_submitted": false
+  },
+  "production_rollout_20261023": {
+    "status": "activated_post_switch_verification_running",
+    "domain": "https://tambeauty.kr/",
+    "shop_no": 1,
+    "representative_skin": "skin21",
+    "editor_skin_no": 27,
+    "previous_skin": "skin18",
+    "rollback_copy": "skin22",
+    "candidate_backup": "skin23",
+    "changed_templates": 9,
+    "verified_uploaded_assets": 15,
+    "english_shop_skin": "skin8_unchanged",
+    "native_product25_name": "? ?? ??? ???",
+    "physical_device_verified": false,
+    "payment_submitted": false,
+    "chromium_run": 39895697388,
+    "safari_run": 39895700224
   }
 }

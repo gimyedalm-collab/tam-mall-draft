@@ -17,6 +17,11 @@ jobs:
       TAM_BASE_URL: ${{ inputs.target == 'production' && 'https://tambeauty.kr/' || 'https://awiz.cafe24.com/skin-skin21/' }}
     steps:
       - uses: actions/checkout@v6
+      - name: Use the Korean storefront locale on this temporary runner
+        run: |
+          defaults write -g AppleLanguages -array ko-KR en-US
+          defaults write -g AppleLocale -string ko_KR
+          defaults write com.apple.Safari AppleLanguages -array ko-KR en-US
       - run: sudo safaridriver --enable
       - run: python3 ops/cafe24/verify_native_safari.py
       - uses: actions/upload-artifact@v4
