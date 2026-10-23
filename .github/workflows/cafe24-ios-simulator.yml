@@ -1,6 +1,11 @@
 name: Cafe24 iOS Simulator Safari verification
 on:
   workflow_dispatch:
+    inputs:
+      runtime:
+        type: choice
+        default: '26.2'
+        options: ['26.2', '26.5']
 permissions:
   contents: read
 jobs:
@@ -9,6 +14,7 @@ jobs:
     timeout-minutes: 20
     env:
       TAM_BASE_URL: https://awiz.cafe24.com/skin-skin24/
+      TAM_IOS_RUNTIME: ${{ inputs.runtime }}
     steps:
       - uses: actions/checkout@v6
       - name: Select an installed iPhone simulator
@@ -16,7 +22,8 @@ jobs:
           python3 - <<'PY'
           import json,subprocess,os
           devices=json.loads(subprocess.check_output(['xcrun','simctl','list','devices','available','--json']))['devices']
-          choices=[(runtime,d) for runtime,items in devices.items() if '.iOS-' in runtime for d in items if d['name'].startswith('iPhone')]
+          suffix='.iOS-'+os.environ['TAM_IOS_RUNTIME'].replace('.','-')
+          choices=[(runtime,d) for runtime,items in devices.items() if runtime.endswith(suffix) for d in items if d['name']=='iPhone 17 Pro']
           assert choices, 'No installed iPhone simulator; do not claim device coverage'
           runtime,device=sorted(choices,key=lambda pair:(pair[0],pair[1]['name']))[-1]
           print(json.dumps({'runtime':runtime,'device':device['name'],'physical_device':False}))

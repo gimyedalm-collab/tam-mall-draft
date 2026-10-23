@@ -86,6 +86,13 @@ def main():
         cmd('POST','/timeouts',{'implicit':3000,'pageLoad':45000,'script':15000})
         report['navigator_language']=js('return navigator.language')
         assert report['navigator_language'].startswith('ko'), report['navigator_language']
+        if IOS_UDID:
+            fixture='<meta name="viewport" content="width=device-width,initial-scale=1"><button id="probe" style="width:150px;height:60px" onclick="this.textContent=\'clicked\'">probe</button>'
+            cmd('POST','/url',{'url':'data:text/html,'+urllib.parse.quote(fixture)})
+            wait(lambda: js("return !!document.querySelector('#probe')"))
+            click('#probe')
+            wait(lambda: js("return document.querySelector('#probe').textContent==='clicked'"),10)
+            report['driver_click_preflight']=True
         dimensions=[(320,844),(390,844),(768,1024),(844,500),(1440,950),(1920,1080)]
         if IOS_UDID:
             visit('?qa=ios-initialize')
