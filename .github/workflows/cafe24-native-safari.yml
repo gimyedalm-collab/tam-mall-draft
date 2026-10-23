@@ -5,7 +5,7 @@ on:
       target:
         description: Public site to verify
         type: choice
-        options: [candidate, production]
+        options: [candidate, verification, production]
         default: candidate
 permissions:
   contents: read
@@ -14,7 +14,7 @@ jobs:
     runs-on: macos-26
     timeout-minutes: 15
     env:
-      TAM_BASE_URL: ${{ inputs.target == 'production' && 'https://tambeauty.kr/' || 'https://awiz.cafe24.com/skin-skin21/' }}
+      TAM_BASE_URL: ${{ inputs.target == 'production' && 'https://tambeauty.kr/' || inputs.target == 'verification' && 'https://awiz.cafe24.com/skin-skin24/' || 'https://awiz.cafe24.com/skin-skin21/' }}
     steps:
       - uses: actions/checkout@v6
       - name: Use the Korean storefront locale on this temporary runner
