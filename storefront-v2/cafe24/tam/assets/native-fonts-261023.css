@@ -1,0 +1,18 @@
+/* Reuse the font already registered by /moa/layout/fonts.html. */
+html:root {
+  --font: "Pretendard Variable", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+body.tam-native,
+body.tam-candidate-home,
+.tam-nav-header,
+.tam-nav-footer,
+.tam-nav-shades,
+.tam-nav-buybar,
+.tam-nav-detail-nav {
+  font-family: var(--font) !important;
+}
+.tam-nav-header button,
+.tam-nav-footer button,
+.tam-nav-buybar button {
+  font-family: inherit;
+}

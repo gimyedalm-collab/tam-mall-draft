@@ -16,6 +16,7 @@ import urllib.parse
 from pathlib import Path
 
 BASE = os.environ.get('TAM_BASE_URL','https://awiz.cafe24.com/skin-skin21/')
+FONT_CUSHION = os.environ.get('TAM_EXPECT_FONT_CUSHION') == 'true'
 IOS_UDID = os.environ.get('TAM_IOS_SIMULATOR_UDID')
 LAYOUT_ONLY = bool(IOS_UDID) and os.environ.get('TAM_IOS_LAYOUT_ONLY')=='true'
 OUT = Path('native-ios-results' if IOS_UDID else 'native-safari-results')
@@ -111,6 +112,15 @@ def main():
               scroll:document.documentElement.scrollWidth,video:{x:b.x,y:b.y,width:b.width,height:b.height,fit:getComputedStyle(v).objectFit},
               viewport:document.querySelector('meta[name=viewport]')?.content,headerSolid:document.querySelector('.ux-header').classList.contains('is-solid')};""")
             r['requested_width'] = width
+            if FONT_CUSHION:
+                wait(lambda: js("return document.fonts.status==='loaded' && [...document.fonts].some(f=>f.family.includes('Pretendard Variable') && f.status==='loaded')"))
+                r['font_fix'] = js("""return {marker:!!document.querySelector('#tam-native-fonts-261023'),
+                  duplicatePreload:!!document.querySelector('link[rel=preload][href*=home-Pretendard]'),
+                  families:[...document.querySelectorAll('.tam-nav-header,.do-edit h2,.do-intro h2,.tam-nav-footer')].map(e=>getComputedStyle(e).fontFamily),
+                  responsiveImages:document.querySelectorAll('#tam-home-main img[srcset*=perf261023]').length};""")
+                f=r['font_fix']
+                assert f['marker'] and not f['duplicatePreload'] and f['responsiveImages']==6,f
+                assert f['families'] and all('Pretendard Variable' in s for s in f['families']),f
             report['home'].append(r)
             # Safari26.6.2 clamps a requested320px outer window to336px.
             # Record actual width; never report this as a320px Safari check.
@@ -183,6 +193,31 @@ def main():
                     click('.tam-purchase-close')
                     wait(lambda: js("return !document.querySelector('.jsMobileLayer').classList.contains('on') && document.activeElement.classList.contains('jsLayerBtn')"))
                     r['purchase_open_close_focus']=True
+            if FONT_CUSHION:
+                visit('product/detail.html?product_no=23')
+                wait(lambda: js("return !!document.querySelector('[data-tam-cushion-version=\"261023\"]')"))
+                r={'product':23,'width':width,'images':[],'videos':[]}
+                report['details'].append(r)
+                for i in range(10):
+                    selector=f'[data-tam-cushion-version] img:nth-of-type({i+1})'
+                    js('document.querySelector('+json.dumps(selector)+').scrollIntoView({block:"center"});')
+                    wait(lambda: js('const e=document.querySelector('+json.dumps(selector)+');return e.complete && e.naturalWidth===860;'))
+                    image=js('const e=document.querySelector('+json.dumps(selector)+'),b=e.getBoundingClientRect();return {width:b.width,height:b.height,naturalWidth:e.naturalWidth,naturalHeight:e.naturalHeight};')
+                    assert 0<image['width']<=860 and abs(image['height']/image['width']-image['naturalHeight']/860)<.01,image
+                    r['images'].append(image)
+                for i in range(3):
+                    video=f'document.querySelectorAll("[data-tam-cushion-version] video")[{i}]'
+                    js(f'const v={video};v.scrollIntoView({{block:"center"}});v.muted=true;v.play();')
+                    wait(lambda:js(f'return {video}.currentTime>.1;'))
+                    media=js(f'const v={video};return {{width:v.videoWidth,height:v.videoHeight,time:v.currentTime,error:v.error?.code,controls:v.controls,inline:v.playsInline}};')
+                    assert media['width']==860 and media['controls'] and media['inline'] and not media.get('error'),media
+                    r['videos'].append(media)
+                    js(f'{video}.pause();')
+                r['layout']=js('const b=document.querySelector("[data-tam-cushion-version]").getBoundingClientRect();return {centerError:Math.abs(b.x+b.width/2-document.documentElement.clientWidth/2),overflow:document.documentElement.scrollWidth>document.documentElement.clientWidth+1};')
+                assert not r['layout']['overflow'] and r['layout']['centerError']<2,r['layout']
+                r['options']=js('return [...document.querySelectorAll(".xans-product-detail select")].map(e=>[...e.options].filter(o=>o.value.startsWith("P000")).length);')
+                assert 6 in r['options'],r['options']
+                r['passed']=True
             for collection, count in [('jelly',6),('cloud',8)]:
                 visit('product/list.html?cate_no=74&tam_collection='+collection)
                 wait(lambda: js('return document.body.dataset.tamCollection==='+json.dumps(collection)))

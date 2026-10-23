@@ -7,6 +7,10 @@ on:
         type: choice
         options: [candidate, verification, production]
         default: candidate
+      font_cushion:
+        description: Verify the 261023 font and cushion rollout
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -14,6 +18,7 @@ jobs:
     runs-on: macos-26
     timeout-minutes: 15
     env:
+      TAM_EXPECT_FONT_CUSHION: ${{ inputs.font_cushion }}
       TAM_BASE_URL: ${{ inputs.target == 'production' && 'https://tambeauty.kr/' || inputs.target == 'verification' && 'https://awiz.cafe24.com/skin-skin24/' || 'https://awiz.cafe24.com/skin-skin21/' }}
     steps:
       - uses: actions/checkout@v6
