@@ -1,3 +1,21 @@
+## ACTIVE TEST: Unpaid order created; cancellation still pending ? 2026-10-23
+
+Owner explicitly approved an unpaid lip-oil01qty1 test and mandatory terms.
+One native order was created and confirmed in Cafe24:17000+3000=20000KRW,
+actual paid amount0,unpaid/unshipped. Exact ID is PRIVATE in
+C:/Users/BNK-1/.codex/tam-cafe24-output/unpaid-order-20261023/order.json.
+EZAdmin exact-order query with all statuses and TAM seller returned no rows;
+do not call new-order sync verified or mark the order paid to force collection.
+Cancellation was attempted in admin and customer UI. Chrome confirmation
+handling repeatedly timed out, even through documented dialog and AX APIs;
+fresh admin query still shows unpaid/unshipped. Owner was asked to click
+existing cancellation confirmation. No new order or payment should be issued.
+NEXT: read specific order state, finish cancellation and record result. Keep
+customer order detail and administrator lookup open. Candidate24 remains staged.
+Checkout consent template placeholders are tracked as TAM-C24-007.
+
+---
+
 ## ACTIVE: Candidate24 prepared; production21 unchanged this turn — 2026-10-23
 
 Latest owner request is prepare and verify before applying. Do not auto-switch.
