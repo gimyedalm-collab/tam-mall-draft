@@ -1331,5 +1331,22 @@
       "external_inventory_reconciliation",
       "slow_network_performance"
     ]
+  },
+  "paid_test_20261023": {
+    "status": "checkout_prepared_awaiting_owner_details_and_payment",
+    "owner_requested_test": true,
+    "product_no": 25,
+    "option": "01 First love",
+    "quantity": 1,
+    "product_amount_krw": 17000,
+    "shipping_krw": 3000,
+    "total_krw": 20000,
+    "payment_method_selected": "credit_card",
+    "no_dispatch_message_entered": true,
+    "order_submitted": false,
+    "payment_submitted": false,
+    "admin_order_lookup_ready": true,
+    "external_inventory_admin_connected": true,
+    "next_action": "Owner completes their shipping/contact data, guest password, required terms and card authentication in preserved checkout. Then inspect only that order in Cafe24 and EZAdmin; cancel/refund before dispatch. Do not mark paid or synchronized until observed."
   }
 }
