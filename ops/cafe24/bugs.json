@@ -2,6 +2,16 @@
   "updated_at": "2026-10-23",
   "items": [
     {
+      "id": "TAM-C24-008",
+      "type": "implementation",
+      "priority": "P1",
+      "status": "applied_to_production_verified",
+      "route": "home and product23",
+      "actual": "Optimized skin was staged; font aliases inconsistent; native cushion still old3-image description.",
+      "fix": "Activate24 with font registration correction; save current10-image3-video native cushion; keep6options.",
+      "evidence": "font-cushion-20261023/REPORT.md"
+    },
+    {
       "id": "TAM-C24-007",
       "type": "content_configuration",
       "priority": "P1",
@@ -17,14 +27,16 @@
       "id": "TAM-C24-006",
       "type": "performance",
       "priority": "P2",
-      "status": "candidate_image_optimization_verified_speed_targets_open",
+      "status": "applied_to_production_verified_speed_targets_open",
       "route": "home and lookbook",
       "reproduce": "Compare original mobile image requests on throttled network.",
       "expected": "Appropriate image sizes without loss of product fidelity or layout.",
       "actual": "Large original images used for small mobile cards.",
       "fix": "16 responsive variants, dimensions and archive loading priority in skin24; original masters retained.",
       "retest": "6width/route cases and4throttled comparisons pass. Home final bytes7.11MBto2.84MB; FCP not improved. Existing detailGIF speed remains open.",
-      "evidence": "final-verification-20261023/REPORT.md"
+      "evidence": "final-verification-20261023/REPORT.md",
+      "production_evidence": "font-cushion-20261023/REPORT.md",
+      "production_retest": "skin24 representative; font registration corrected; smoke10, targeted widths3, Safari52 and1.6Mbps/150ms media functionality pass. Not a Core Web Vitals pass."
     },
     {
       "id": "TAM-C24-005",

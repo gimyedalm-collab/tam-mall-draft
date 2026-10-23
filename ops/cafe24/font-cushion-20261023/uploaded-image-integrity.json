@@ -1,0 +1,145 @@
+[
+  {
+    "file": "p23-261023-01.png",
+    "bytes": 1733315,
+    "byte_equal": false,
+    "size": [
+      860,
+      2306
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-03.png",
+    "bytes": 3293765,
+    "byte_equal": true,
+    "size": [
+      860,
+      5071
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-04.png",
+    "bytes": 1644560,
+    "byte_equal": true,
+    "size": [
+      860,
+      4200
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-06.png",
+    "bytes": 27598,
+    "byte_equal": false,
+    "size": [
+      860,
+      482
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-08.png",
+    "bytes": 1415276,
+    "byte_equal": true,
+    "size": [
+      860,
+      2938
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-10.png",
+    "bytes": 362230,
+    "byte_equal": true,
+    "size": [
+      860,
+      2368
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-cushion-02-poster.png",
+    "bytes": 99421,
+    "byte_equal": true,
+    "size": [
+      860,
+      1520
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-cushion-05-poster.png",
+    "bytes": 621964,
+    "byte_equal": true,
+    "size": [
+      860,
+      1520
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-cushion-07-poster.png",
+    "bytes": 252045,
+    "byte_equal": true,
+    "size": [
+      860,
+      544
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-cushion-09a-skin-test.png",
+    "bytes": 129841,
+    "byte_equal": false,
+    "size": [
+      860,
+      1350
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-cushion-09b-case-puff.png",
+    "bytes": 323590,
+    "byte_equal": false,
+    "size": [
+      860,
+      1202
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-cushion-formula-vegan.png",
+    "bytes": 3607,
+    "byte_equal": false,
+    "size": [
+      860,
+      240
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  },
+  {
+    "file": "p23-261023-cushion-hero-vegan.png",
+    "bytes": 4633,
+    "byte_equal": false,
+    "size": [
+      860,
+      220
+    ],
+    "pixels_equal": true,
+    "icc_equal": true
+  }
+]

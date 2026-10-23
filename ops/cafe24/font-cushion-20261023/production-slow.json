@@ -1,0 +1,168 @@
+{
+  "base": "https://tambeauty.kr/",
+  "physical_device": false,
+  "cases": [
+    {
+      "width": 390,
+      "home": {
+        "overflow": false,
+        "fonts": [
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif"
+        ],
+        "registeredFontLoaded": true,
+        "duplicatePreload": false,
+        "optimizedImages": 6,
+        "shell_seconds": 15.85
+      },
+      "images": [
+        {
+          "width": 349.984375,
+          "height": 89.53125,
+          "naturalWidth": 860,
+          "naturalHeight": 220,
+          "path": "/tam-detail-20261022/p23-261023-cushion-hero-vegan.png"
+        },
+        {
+          "width": 349.984375,
+          "height": 938.484375,
+          "naturalWidth": 860,
+          "naturalHeight": 2306,
+          "path": "/tam-detail-20261022/p23-261023-01.png"
+        },
+        {
+          "width": 349.984375,
+          "height": 2063.765625,
+          "naturalWidth": 860,
+          "naturalHeight": 5071,
+          "path": "/tam-detail-20261022/p23-261023-03.png"
+        },
+        {
+          "width": 349.984375,
+          "height": 1709.296875,
+          "naturalWidth": 860,
+          "naturalHeight": 4200,
+          "path": "/tam-detail-20261022/p23-261023-04.png"
+        },
+        {
+          "width": 349.984375,
+          "height": 196.15625,
+          "naturalWidth": 860,
+          "naturalHeight": 482,
+          "path": "/tam-detail-20261022/p23-261023-06.png"
+        },
+        {
+          "width": 349.984375,
+          "height": 97.671875,
+          "naturalWidth": 860,
+          "naturalHeight": 240,
+          "path": "/tam-detail-20261022/p23-261023-cushion-formula-vegan.png"
+        },
+        {
+          "width": 349.984375,
+          "height": 1195.6875,
+          "naturalWidth": 860,
+          "naturalHeight": 2938,
+          "path": "/tam-detail-20261022/p23-261023-08.png"
+        },
+        {
+          "width": 349.984375,
+          "height": 549.40625,
+          "naturalWidth": 860,
+          "naturalHeight": 1350,
+          "path": "/tam-detail-20261022/p23-261023-cushion-09a-skin-test.png"
+        },
+        {
+          "width": 349.984375,
+          "height": 489.171875,
+          "naturalWidth": 860,
+          "naturalHeight": 1202,
+          "path": "/tam-detail-20261022/p23-261023-cushion-09b-case-puff.png"
+        },
+        {
+          "width": 349.984375,
+          "height": 963.71875,
+          "naturalWidth": 860,
+          "naturalHeight": 2368,
+          "path": "/tam-detail-20261022/p23-261023-10.png"
+        }
+      ],
+      "videos": [
+        {
+          "width": 860,
+          "height": 1520,
+          "duration": 10.64,
+          "time": 0.122521,
+          "error": null,
+          "controls": true,
+          "inline": true
+        },
+        {
+          "width": 860,
+          "height": 1520,
+          "duration": 12.08,
+          "time": 0.11367,
+          "error": null,
+          "controls": true,
+          "inline": true
+        },
+        {
+          "width": 860,
+          "height": 544,
+          "duration": 2.6,
+          "time": 0.111129,
+          "error": null,
+          "controls": true,
+          "inline": true
+        }
+      ],
+      "layout": {
+        "width": 350,
+        "centerError": 0,
+        "overflow": false
+      },
+      "options": [
+        {
+          "id": "product_option_id1",
+          "choices": [
+            {
+              "value": "P000000X000K",
+              "text": "<span>[쿨톤17호] </span><b>01. 코코넛밀크</b> Coconut milk 매우 밝은 쿨톤의 포슬린 쉐이드"
+            },
+            {
+              "value": "P000000X000L",
+              "text": "<span>[쿨톤21호] </span><b>02. 로지 쉬폰 Rosy shiffon </b>밝은 쿨톤의 핑크빛 쉐이드"
+            },
+            {
+              "value": "P000000X000M",
+              "text": "<span>[뉴트럴21호]</span><b>03. 오트 쿠키</b> Oat Cookie 밝은 뉴트럴톤의 상아빛 쉐이드"
+            },
+            {
+              "value": "P000000X000N",
+              "text": "<span>[웜23호]</span><b>04. 아몬드 무스</b> Almond Mousse 자연스러운 웜톤의 상아빛 쉐이드"
+            },
+            {
+              "value": "P000000X000O",
+              "text": "<span>[뉴트럴25호]</span><b>05. 월넛 크림</b> Walnut Cream 건강한 뉴트럴톤의 미디움 베이지"
+            },
+            {
+              "value": "P000000X000P",
+              "text": "<span>[웜27호]</span><b>06. 허니 츄로</b> Honey Churro 따뜻한 웜톤의 내추럴 딥 베이지"
+            }
+          ]
+        }
+      ],
+      "script_errors": [],
+      "detail_all_media_seconds": 95.4,
+      "passed": true
+    }
+  ],
+  "network": {
+    "download_bps": 1600000,
+    "latency_ms": 150,
+    "cache_disabled": true
+  },
+  "passed": true
+}

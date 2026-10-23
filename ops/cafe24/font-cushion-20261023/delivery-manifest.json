@@ -1,0 +1,154 @@
+{
+  "product_no": 23,
+  "source": "current product-23 preview: vegan-261002 + ux-261013",
+  "status": "native_product_saved_production_verified",
+  "custom_javascript": false,
+  "external_video_hosting": true,
+  "maximum_css_width": 860,
+  "static_image_count": 10,
+  "video_count": 3,
+  "assets": [
+    {
+      "file": "p23-261023-cushion-hero-vegan.png",
+      "source": "assets/vegan-details-261002/cushion-hero-vegan.png",
+      "width": 860,
+      "height": 220,
+      "bytes": 13751,
+      "sha256": "8c794b9a143f982cdbf621b2fdab7c559de5d50b7db24a3c2ff5fafd855db6a9",
+      "source_sha256": "8c794b9a143f982cdbf621b2fdab7c559de5d50b7db24a3c2ff5fafd855db6a9"
+    },
+    {
+      "file": "p23-261023-01.png",
+      "source": "assets/jelly-skin-cushion-0908/01.jpg",
+      "width": 860,
+      "height": 2306,
+      "bytes": 1822564,
+      "sha256": "823b6799ca9e78337dfb036117703a587c13317772263d89c5c4775ab67cb09a",
+      "source_sha256": "e46c3688851bd0264dd801f936374f2ea84fe2f6c2c5a3cd8c262b4a9935f07e"
+    },
+    {
+      "file": "p23-261023-cushion-02-poster.png",
+      "source": "assets/ux-261013/cushion-02-poster.jpg",
+      "width": 860,
+      "height": 1520,
+      "bytes": 99421,
+      "sha256": "9cbc8d9f8eb27c713ef49016831c57c6ba13bbf03d10dd2b094d88068fe01e03",
+      "source_sha256": "249005caa319f9e56d898f00387f830593b08b6ad592970bb1c8c734f7f2faac"
+    },
+    {
+      "video": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/ux-261013/cushion-02.mp4",
+      "source": "assets/ux-261013/cushion-02.mp4",
+      "bytes": 2425356,
+      "sha256": "b9085699b724f9bd9218b0cc61cc9764fd048678990f98be3b438e8ad2f9c776",
+      "hosting": "existing GitHub Pages"
+    },
+    {
+      "file": "p23-261023-03.png",
+      "source": "assets/jelly-skin-cushion-0908/03.jpg",
+      "width": 860,
+      "height": 5071,
+      "bytes": 3293765,
+      "sha256": "a6ac01101426e4d08ea957ac7397dd9d13ecad295ac89a11fd11c8c955731983",
+      "source_sha256": "e4570b7b9c2bb3bbecb1f66342efa860946d343a4d72e5eee0abb71ff3484b70"
+    },
+    {
+      "file": "p23-261023-04.png",
+      "source": "assets/jelly-skin-cushion-0908/04.jpg",
+      "width": 860,
+      "height": 4200,
+      "bytes": 1644560,
+      "sha256": "ddafe8bf581e977121cd413e6211f44b6845aec104a11f803cdabb971b7e8bb6",
+      "source_sha256": "ef355bce56a29bb22cb0fca7e46bd516e5a3c8adec820395bafd6821219d7bfc"
+    },
+    {
+      "file": "p23-261023-cushion-05-poster.png",
+      "source": "assets/ux-261013/cushion-05-poster.jpg",
+      "width": 860,
+      "height": 1520,
+      "bytes": 621964,
+      "sha256": "28713de04db3c766fc1b07e99c887e108df35832f89d71759d40fa8b4de7c5d5",
+      "source_sha256": "3bc6ab60b6e26bfd6b5715fde74aef41fe508b353df291d7aaa848f6e1a9a555"
+    },
+    {
+      "video": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/ux-261013/cushion-05.mp4",
+      "source": "assets/ux-261013/cushion-05.mp4",
+      "bytes": 5661227,
+      "sha256": "2fb5dd8b09662e635d6d4fbf27944cad978fb2e960fd5df5e83894c477083c0a",
+      "hosting": "existing GitHub Pages"
+    },
+    {
+      "file": "p23-261023-06.png",
+      "source": "assets/jelly-skin-cushion-0908/06.jpg",
+      "width": 860,
+      "height": 482,
+      "bytes": 57388,
+      "sha256": "d16d65a587bfd98d84f16ad8d8fb163965c4b0646a19be3e8f1060738281c71b",
+      "source_sha256": "99279fa55b4487f47f2a23f9e20d71bf60dc8eec642f7e0e48e92eaf925f865b"
+    },
+    {
+      "file": "p23-261023-cushion-07-poster.png",
+      "source": "assets/ux-261013/cushion-07-poster.jpg",
+      "width": 860,
+      "height": 544,
+      "bytes": 252045,
+      "sha256": "8da479ecb06f207eba019e887487b164d3a369fd0b5d25e1ce4db9db86092e64",
+      "source_sha256": "e8da946c94a39ee09720efffae50164ff69c8afbeea21265ab1d49946ef0d97d"
+    },
+    {
+      "video": "https://gimyedalm-collab.github.io/tam-mall-draft/storefront-v2/preview/assets/ux-261013/cushion-07.mp4",
+      "source": "assets/ux-261013/cushion-07.mp4",
+      "bytes": 341684,
+      "sha256": "2d6df0839b044cdc3c14435912747edaf67878e0831a863866663ced5b634b6c",
+      "hosting": "existing GitHub Pages"
+    },
+    {
+      "file": "p23-261023-cushion-formula-vegan.png",
+      "source": "assets/vegan-details-261002/cushion-formula-vegan.png",
+      "width": 860,
+      "height": 240,
+      "bytes": 10439,
+      "sha256": "f48c9442dcee32d46c22de6e4e39b7b8597b5fa22d59e6c050139adca77433db",
+      "source_sha256": "f48c9442dcee32d46c22de6e4e39b7b8597b5fa22d59e6c050139adca77433db"
+    },
+    {
+      "file": "p23-261023-08.png",
+      "source": "assets/jelly-skin-cushion-0908/08.jpg",
+      "width": 860,
+      "height": 2938,
+      "bytes": 1415276,
+      "sha256": "afeaa38b79f194e68be3afbad208491f8a1ecd2a55f62e95b777f2c8a9ef737a",
+      "source_sha256": "2a0bc5ba0ff3562ea965b30dc9b2113a6896484d9918114afc711b641eb8a907"
+    },
+    {
+      "file": "p23-261023-cushion-09a-skin-test.png",
+      "source": "assets/vegan-details-261002/cushion-09a-skin-test.png",
+      "width": 860,
+      "height": 1350,
+      "bytes": 182093,
+      "sha256": "790e958be937f3747e7f4ba00f316cc47aa458a428b3d73086b92e9fe7b89c15",
+      "source_sha256": "790e958be937f3747e7f4ba00f316cc47aa458a428b3d73086b92e9fe7b89c15"
+    },
+    {
+      "file": "p23-261023-cushion-09b-case-puff.png",
+      "source": "assets/vegan-details-261002/cushion-09b-case-puff.png",
+      "width": 860,
+      "height": 1202,
+      "bytes": 375052,
+      "sha256": "221a67c7e15ffeb7c839424f4839f34f66fa9a83e5b51de14bd348eda33669d6",
+      "source_sha256": "221a67c7e15ffeb7c839424f4839f34f66fa9a83e5b51de14bd348eda33669d6"
+    },
+    {
+      "file": "p23-261023-10.png",
+      "source": "assets/jelly-skin-cushion-0908/10.jpg",
+      "width": 860,
+      "height": 2368,
+      "bytes": 362230,
+      "sha256": "1ce9a8b1d0591b233b0ba0b1ef929c2de77d52e5aa279aac285ea4ee0506b24d",
+      "source_sha256": "2f4accf18db8483b4ce8ae7d07003ce0adf26e2abb8522881e53351b175b3896"
+    }
+  ],
+  "representative_skin": "skin24/editor30",
+  "backup_skin": "skin25",
+  "verified_safari_run": 39925816438,
+  "physical_device_verified": false
+}

@@ -1,3 +1,22 @@
+## CURRENT: Font / cushion / image optimization applied and verified - 2026-10-23
+
+Owner authorized applying the optimized skin and missing cushion, superseding
+prior preparation-only scope. Korean representative is now skin24/editor30
+TAM_최종검증_20261023. Previous21 retained, fresh backup25
+TAM_폰트쿠션적용전_20261023_skin21. English shop5 skin8 unchanged.
+Native font registration now Pretendard Variable; duplicate full-font preload
+removed. Responsive home/lookbook16 assets now live. Product23 native detail
+saved: current vegan-261002 + ux-261013 composition,10images3videos;13PNG
+uploads pixel/ICC equal.548non-description form fields unchanged;6options.
+Candidate and production smoke10 each, focused widths320/390/1440 each,
+production macOS Safari52 (39925816438) and1.6Mbps/150ms390px all-media test
+passed. Private originals at .codex/tam-cafe24-output/font-cushion-20261023.
+See font-cushion-20261023/REPORT.md and JSON evidence. No new order/payment.
+Physical phones, paid flow, coupon redemption and EZAdmin E2E remain unproven.
+Notice299/exchange copy remains prepared; checkout template issue007 remains.
+
+---
+
 ## COMPLETE: Unpaid test order cancelled and admin verified - 2026-10-23
 
 One authorized native unpaid lip-oil test order was created and confirmed in
@@ -14,7 +33,7 @@ Checkout consent template placeholders remain tracked as TAM-C24-007.
 
 ---
 
-## ACTIVE: Candidate24 prepared; production21 unchanged this turn — 2026-10-23
+## HISTORICAL: Candidate24 prepared; production21 unchanged this turn — 2026-10-23
 
 Latest owner request is prepare and verify before applying. Do not auto-switch.
 Candidate24/editor30 TAM_최종검증_20261023 is a copy of production21 with

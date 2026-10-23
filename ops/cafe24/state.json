@@ -1,4 +1,49 @@
 {
+  "font_cushion_rollout_20261023": {
+    "date": "2026-10-23",
+    "status": "applied_to_production_and_verified",
+    "production_skin": "skin24/editor30",
+    "representative_name": "TAM_최종검증_20261023",
+    "previous_skin": "skin21/editor27",
+    "backup_skin": "skin25",
+    "english_skin": "skin8_unchanged",
+    "font": "native Pretendard Variable; duplicate full font preload removed",
+    "responsive_assets": 16,
+    "saved_common_template": "moa/layout/head.html",
+    "cushion": {
+      "product_no": 23,
+      "native_description_saved": true,
+      "static_images": 10,
+      "videos": 3,
+      "upload_images_and_posters": 13,
+      "decoded_pixels_and_icc_equal": true,
+      "other_admin_form_fields_unchanged": 548,
+      "native_options": 6,
+      "external_video_host": "existing GitHub Pages"
+    },
+    "checks": {
+      "candidate_smoke": 10,
+      "production_smoke": 10,
+      "candidate_font_cushion_widths": [
+        320,
+        390,
+        1440
+      ],
+      "production_font_cushion_widths": [
+        320,
+        390,
+        1440
+      ],
+      "production_safari_cases": 52,
+      "production_safari_run": 39925816438,
+      "production_slow_390_passed": true,
+      "slow_download_bps": 1600000,
+      "slow_latency_ms": 150
+    },
+    "physical_device_verified": false,
+    "new_order_created": false,
+    "report": "font-cushion-20261023/REPORT.md"
+  },
   "final_preparation_20261023": {
     "date": "2026-10-23",
     "status": "candidate_saved_application_package_ready_with_explicit_verification_gaps",
@@ -73,7 +118,8 @@
       "EZAdmin2026-10-22 advisory describes token errors for some EZSyncPlus customers; no token error verified for TAM and no credentials refreshed. Automatic flags do not prove running EZAuto."
     ],
     "evidence": "final-verification-20261023/REPORT.md",
-    "next_action": "Candidate24 and two prepared shared-content corrections are ready for application. Keep physical/payment/sync verification gaps explicit; do not auto-activate under prepare-only request."
+    "next_action": "Candidate24 and two prepared shared-content corrections are ready for application. Keep physical/payment/sync verification gaps explicit; do not auto-activate under prepare-only request.",
+    "historical_superseded_by": "font_cushion_rollout_20261023: owner authorized application; skin24 now representative"
   },
   "rollout_preflight_20261022": {
     "status": "activated_public_regression_passed_commerce_e2e_and_physical_pending",
@@ -201,7 +247,7 @@
     "verification": "Browser visual review at 390px content width: hero, shades, texture, how-to, formula. Invariants verified: original media, section heights, product information and commerce unchanged.",
     "production_cafe24_changed": false
   },
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-23",
   "store_url": "https://tambeauty.kr/",
   "design_baseline": "tam-design-fixed-20260917",
   "phase": "candidate_layout_fixes_verified;activation_overlay_prepared_not_applied;performance_and_live_transaction_checks_remain",
