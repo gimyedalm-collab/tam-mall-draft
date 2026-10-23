@@ -55,7 +55,10 @@ async def main():
                     r['oil_codes']=await page.locator('#product_option_id1 option').evaluate_all("es=>es.map(e=>e.value).filter(v=>v.startsWith('P000'))")
                     assert r['oil_codes']==['P000000Z000P','P000000Z000Q','P000000Z000R']
                     for code in r['oil_codes']:
-                        await page.locator(f'li[option_value="{code}"] label').click()
+                        visible_option=page.locator(f'.custom-opt__item[data-value="{code}"]')
+                        if not await visible_option.is_visible():
+                            await page.locator('.custom-opt__current').click()
+                        await visible_option.click()
                     await page.wait_for_function("document.querySelectorAll('tr.option_product').length===3 && document.querySelector('#totalPrice').innerText.includes('51,000')")
                     r['selected_total']=await page.locator('#totalPrice').inner_text()
                 await page.keyboard.press('Escape')
