@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]
 PACKAGES = {
     109: ('heart-shading-v9', 'heart-shading-v9'),
     110: ('cafe24-delivery-20261019/cloud-blush', 'cloud-blush-v13'),
-    111: ('cafe24-delivery-20261020/powder-balm', 'powder-balm-v5'),
+    111: ('cafe24-delivery-20261022/powder-balm', 'powder-balm-v6'),
     25: ('cafe24-delivery-20261019/lip-oil', 'lipoil-v9'),
     118: ('cafe24-delivery-20261019/lip-liner', 'lip-liner-r34'),
     102: ('cafe24-delivery-20261019/milky-cheek', 'cheek-v12'),
@@ -64,7 +64,15 @@ def compose(package):
         digest = hashlib.sha256(path.read_bytes()).hexdigest()[:12]
         return f'src="../../{package}/{relative}?v={digest}"'
 
-    return re.sub(r'src="([^"]+)"', asset, body)
+    body = re.sub(r'src="([^"]+)"', asset, body)
+    def responsive(match):
+        entries = []
+        for entry in match.group(1).split(','):
+            relative, descriptor = entry.strip().split()
+            assert (directory / relative).is_file(), relative
+            entries.append(f'../../{package}/{relative} {descriptor}')
+        return 'srcset="' + ', '.join(entries) + '"'
+    return re.sub(r'srcset="([^"]+)"', responsive, body)
 
 
 def main():

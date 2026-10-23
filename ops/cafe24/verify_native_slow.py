@@ -4,6 +4,7 @@ No credentials, cart changes, orders, customer exports, third-party blocking,
 or claim of physical-phone testing. Reports contain geometry and timings only.
 """
 import asyncio,json,time
+from urllib.parse import urlsplit
 from pathlib import Path
 from playwright.async_api import async_playwright
 
@@ -26,6 +27,16 @@ async def main():
             await cdp.send('Network.setCacheDisabled',{'cacheDisabled':True})
             await cdp.send('Network.emulateNetworkConditions',{'offline':False,'latency':150,'downloadThroughput':1600000/8,'uploadThroughput':750000/8})
             r={'route':route or '/','width':width};report['results'].append(r);started=time.monotonic()
+            requests={}
+            def response_received(event):
+                response=event['response'];url=urlsplit(response['url'])
+                requests[event['requestId']]={'host':url.netloc,'path':url.path,'type':event.get('type'),
+                    'status':response['status'],'mime':response.get('mimeType'),'received_at_seconds':round(time.monotonic()-started,2)}
+            def loading_finished(event):
+                if event['requestId'] in requests:
+                    requests[event['requestId']].update(encoded_bytes=event.get('encodedDataLength',0),finished_at_seconds=round(time.monotonic()-started,2))
+            cdp.on('Network.responseReceived',response_received)
+            cdp.on('Network.loadingFinished',loading_finished)
             try:
                 response=await page.goto(BASE+route,wait_until='domcontentloaded',timeout=120000)
                 r['status']=response.status
@@ -60,6 +71,9 @@ async def main():
             except Exception as exc:
                 r.update(passed=False,error_type=type(exc).__name__,error=str(exc)[:600])
             finally:
+                r['largest_resources']=sorted(requests.values(),key=lambda v:v.get('encoded_bytes',0),reverse=True)[:15]
+                r['total_encoded_bytes']=sum(v.get('encoded_bytes',0) for v in requests.values())
+                r['response_count']=len(requests)
                 await context.close()
                 print(json.dumps(r,ensure_ascii=False),flush=True)
         await browser.close()

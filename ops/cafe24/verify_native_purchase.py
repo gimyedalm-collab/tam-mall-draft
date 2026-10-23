@@ -50,6 +50,14 @@ async def main():
                     await page.locator('#product_option_id1').select_option(label='01. 샌드 쉐이더')
                     await page.wait_for_function("document.querySelectorAll('tr.option_product').length===1 && document.querySelector('#totalPrice').innerText.includes('18,000')")
                     r['selected_total']=await page.locator('#totalPrice').inner_text()
+                else:
+                    assert (await page.locator('h1').inner_text()).strip()=='더 젤리 플럼핑 립오일'
+                    r['oil_codes']=await page.locator('#product_option_id1 option').evaluate_all("es=>es.map(e=>e.value).filter(v=>v.startsWith('P000'))")
+                    assert r['oil_codes']==['P000000Z000P','P000000Z000Q','P000000Z000R']
+                    for code in r['oil_codes']:
+                        await page.locator(f'li[option_value="{code}"] label').click()
+                    await page.wait_for_function("document.querySelectorAll('tr.option_product').length===3 && document.querySelector('#totalPrice').innerText.includes('51,000')")
+                    r['selected_total']=await page.locator('#totalPrice').inner_text()
                 await page.keyboard.press('Escape')
                 await page.wait_for_function("!document.querySelector('.jsMobileLayer').classList.contains('on') && document.activeElement.classList.contains('jsLayerBtn')")
                 await page.keyboard.press('Enter')
@@ -57,6 +65,10 @@ async def main():
                 if number==109:
                     assert await page.locator('tr.option_product').count()==1
                     assert '18,000' in await page.locator('#totalPrice').inner_text()
+                    r['selection_retained']=True
+                else:
+                    assert await page.locator('tr.option_product').count()==3
+                    assert '51,000' in await page.locator('#totalPrice').inner_text()
                     r['selection_retained']=True
                 await page.locator('.tam-purchase-close').click()
                 await page.wait_for_function("!document.documentElement.classList.contains('tam-purchase-open')")
