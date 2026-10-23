@@ -1,0 +1,1515 @@
+{
+  "base": "https://tambeauty.kr/",
+  "physical_device": false,
+  "download_bps": 1600000,
+  "upload_bps": 750000,
+  "latency_ms": 150,
+  "cache_disabled": true,
+  "results": [
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "shell_ready_seconds": 21.31,
+      "menu": true,
+      "video_ready_seconds": 24.75,
+      "interaction_ready_seconds": 24.75,
+      "actual_width": 390,
+      "client": 390,
+      "scroll": 390,
+      "brokenVisibleImages": 0,
+      "passed": true,
+      "largest_resources": [
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/home-retouched-24-v1.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 2.36,
+          "encoded_bytes": 413916,
+          "finished_at_seconds": 23.78
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/home-retouched-111-v1.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 2.39,
+          "encoded_bytes": 345215,
+          "finished_at_seconds": 21.7
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/i18n.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 21.18,
+          "encoded_bytes": 338763,
+          "finished_at_seconds": 21.2
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/home-tam-main-film-v15-poster.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 1.64,
+          "encoded_bytes": 281515,
+          "finished_at_seconds": 19.26
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 19.07,
+          "encoded_bytes": 278196,
+          "finished_at_seconds": 19.07
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/home-retouched-112-v1.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 2.62,
+          "encoded_bytes": 160675,
+          "finished_at_seconds": 14.28
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 13.48,
+          "encoded_bytes": 156709,
+          "finished_at_seconds": 13.48
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 12.0,
+          "encoded_bytes": 130242,
+          "finished_at_seconds": 12.0
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 11.75,
+          "encoded_bytes": 118387,
+          "finished_at_seconds": 11.75
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/en_US/fbevents.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 11.25,
+          "encoded_bytes": 117529,
+          "finished_at_seconds": 11.26
+        },
+        {
+          "host": "cdn.snapfit.co.kr",
+          "path": "/js/spm_f_common.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 10.58,
+          "encoded_bytes": 92237,
+          "finished_at_seconds": 10.58
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/product/list.html",
+          "type": "Fetch",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 21.84,
+          "encoded_bytes": 62424,
+          "finished_at_seconds": 23.72
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/",
+          "type": "Document",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 0.43,
+          "encoded_bytes": 58710,
+          "finished_at_seconds": 1.02
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer_user.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 5.9,
+          "encoded_bytes": 44534,
+          "finished_at_seconds": 5.9
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/moa/fonts/pretendard/PretendardVariable.subset.91.woff2",
+          "type": "Font",
+          "status": 200,
+          "mime": "application/octet-stream",
+          "received_at_seconds": 5.81,
+          "encoded_bytes": 38306,
+          "finished_at_seconds": 5.81
+        }
+      ],
+      "total_encoded_bytes": 2930543,
+      "response_count": 68
+    },
+    {
+      "route": "product/list.html?cate_no=74",
+      "width": 390,
+      "status": 200,
+      "shell_ready_seconds": 14.24,
+      "combined_filter": true,
+      "interaction_ready_seconds": 14.41,
+      "actual_width": 390,
+      "client": 390,
+      "scroll": 390,
+      "brokenVisibleImages": 0,
+      "passed": true,
+      "largest_resources": [
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 14.12,
+          "encoded_bytes": 361076,
+          "finished_at_seconds": 14.13
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/i18n.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 11.96,
+          "encoded_bytes": 338772,
+          "finished_at_seconds": 11.97
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 10.77,
+          "encoded_bytes": 156432,
+          "finished_at_seconds": 10.77
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-23-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 4.14,
+          "encoded_bytes": 138488,
+          "finished_at_seconds": 11.17
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 9.97,
+          "encoded_bytes": 130519,
+          "finished_at_seconds": 9.97
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 10.86,
+          "encoded_bytes": 118387,
+          "finished_at_seconds": 10.87
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/en_US/fbevents.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 10.63,
+          "encoded_bytes": 117530,
+          "finished_at_seconds": 10.64
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/signals/config/2793053810868785",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 14.28,
+          "encoded_bytes": 96633,
+          "finished_at_seconds": 14.28
+        },
+        {
+          "host": "cdn.snapfit.co.kr",
+          "path": "/js/spm_f_common.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 8.98,
+          "encoded_bytes": 92237,
+          "finished_at_seconds": 8.98
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-111-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 4.14,
+          "encoded_bytes": 79405,
+          "finished_at_seconds": 9.54
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-109-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 3.93,
+          "encoded_bytes": 68736,
+          "finished_at_seconds": 9.05
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-110-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 3.71,
+          "encoded_bytes": 66501,
+          "finished_at_seconds": 8.72
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/product/list.html",
+          "type": "Document",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 0.45,
+          "encoded_bytes": 62425,
+          "finished_at_seconds": 0.81
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer_user.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 3.26,
+          "encoded_bytes": 46128,
+          "finished_at_seconds": 3.26
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-18-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 4.2,
+          "encoded_bytes": 44238,
+          "finished_at_seconds": 8.0
+        }
+      ],
+      "total_encoded_bytes": 2413397,
+      "response_count": 70
+    },
+    {
+      "route": "about.html",
+      "width": 390,
+      "status": 200,
+      "shell_ready_seconds": 11.92,
+      "catalog_cards": 14,
+      "interaction_ready_seconds": 13.22,
+      "actual_width": 390,
+      "client": 390,
+      "scroll": 390,
+      "brokenVisibleImages": 0,
+      "passed": true,
+      "largest_resources": [
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/i18n.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 11.8,
+          "encoded_bytes": 338871,
+          "finished_at_seconds": 11.81
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 11.3,
+          "encoded_bytes": 276826,
+          "finished_at_seconds": 11.31
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 11.7,
+          "encoded_bytes": 180999,
+          "finished_at_seconds": 11.7
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 11.46,
+          "encoded_bytes": 156449,
+          "finished_at_seconds": 11.46
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 8.21,
+          "encoded_bytes": 156432,
+          "finished_at_seconds": 8.21
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-23-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 1.35,
+          "encoded_bytes": 138497,
+          "finished_at_seconds": 7.31
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 7.34,
+          "encoded_bytes": 130519,
+          "finished_at_seconds": 7.34
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 7.24,
+          "encoded_bytes": 118387,
+          "finished_at_seconds": 7.24
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/en_US/fbevents.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 7.0,
+          "encoded_bytes": 117529,
+          "finished_at_seconds": 7.0
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/signals/config/2793053810868785",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 10.03,
+          "encoded_bytes": 96633,
+          "finished_at_seconds": 10.03
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-111-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 1.39,
+          "encoded_bytes": 79414,
+          "finished_at_seconds": 5.44
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/product/list.html",
+          "type": "Fetch",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 12.29,
+          "encoded_bytes": 62424,
+          "finished_at_seconds": 12.96
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/about.html",
+          "type": "Document",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 0.61,
+          "encoded_bytes": 56366,
+          "finished_at_seconds": 1.09
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer_user.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 4.59,
+          "encoded_bytes": 44507,
+          "finished_at_seconds": 4.59
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/identify_9fbdaf50.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 8.72,
+          "encoded_bytes": 37310,
+          "finished_at_seconds": 8.72
+        }
+      ],
+      "total_encoded_bytes": 2285574,
+      "response_count": 64
+    },
+    {
+      "route": "board/gallery/list.html?board_no=8",
+      "width": 390,
+      "status": 200,
+      "shell_ready_seconds": 35.13,
+      "interaction_ready_seconds": 35.13,
+      "actual_width": 390,
+      "client": 390,
+      "scroll": 390,
+      "brokenVisibleImages": 0,
+      "passed": true,
+      "largest_resources": [
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/i18n.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 35.01,
+          "encoded_bytes": 338736,
+          "finished_at_seconds": 35.01
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/file_data/awiz/gallery/2025/03/05/0214a2f96e1415c1e9190b3df2934e91.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.06,
+          "encoded_bytes": 325576,
+          "finished_at_seconds": 34.9
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/file_data/awiz/gallery/2025/10/23/de2640f80589008b986d2138057cc513.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.03,
+          "encoded_bytes": 315864,
+          "finished_at_seconds": 34.36
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/file_data/awiz/gallery/2025/03/05/b95816687fee7a6a69fea57bc3961a78.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.06,
+          "encoded_bytes": 309863,
+          "finished_at_seconds": 34.17
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/file_data/awiz/gallery/2025/10/23/8654346140cc90345d8220a6c2080865.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.02,
+          "encoded_bytes": 289252,
+          "finished_at_seconds": 32.76
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 32.16,
+          "encoded_bytes": 282609,
+          "finished_at_seconds": 32.17
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-lookbook-cloud-3-960.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.41,
+          "encoded_bytes": 252035,
+          "finished_at_seconds": 29.78
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-lookbook-cloud-2-960.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.39,
+          "encoded_bytes": 224347,
+          "finished_at_seconds": 27.47
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-lookbook-jelly-3-960.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.07,
+          "encoded_bytes": 197943,
+          "finished_at_seconds": 24.77
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 33.67,
+          "encoded_bytes": 180999,
+          "finished_at_seconds": 33.67
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-lookbook-jelly-2-960.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 1.7,
+          "encoded_bytes": 159420,
+          "finished_at_seconds": 20.5
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 19.98,
+          "encoded_bytes": 158368,
+          "finished_at_seconds": 19.98
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 32.04,
+          "encoded_bytes": 156449,
+          "finished_at_seconds": 32.04
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 16.68,
+          "encoded_bytes": 130519,
+          "finished_at_seconds": 16.68
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 16.37,
+          "encoded_bytes": 118623,
+          "finished_at_seconds": 16.38
+        }
+      ],
+      "total_encoded_bytes": 4187663,
+      "response_count": 72
+    },
+    {
+      "route": "product/detail.html?product_no=109",
+      "width": 390,
+      "status": 200,
+      "shell_ready_seconds": 28.04,
+      "detail_images": 6,
+      "interaction_ready_seconds": 28.83,
+      "actual_width": 390,
+      "client": 390,
+      "scroll": 390,
+      "brokenVisibleImages": 0,
+      "passed": true,
+      "largest_resources": [
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 27.84,
+          "encoded_bytes": 412317,
+          "finished_at_seconds": 27.85
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/web/product/extra/big/202510/8d50cb3f6ef7b70326fa54ce75615f02.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 2.51,
+          "encoded_bytes": 401885,
+          "finished_at_seconds": 27.46
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/i18n.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 25.26,
+          "encoded_bytes": 338781,
+          "finished_at_seconds": 25.27
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 24.79,
+          "encoded_bytes": 182738,
+          "finished_at_seconds": 24.79
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 23.71,
+          "encoded_bytes": 158289,
+          "finished_at_seconds": 23.71
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 15.32,
+          "encoded_bytes": 156709,
+          "finished_at_seconds": 15.32
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 14.78,
+          "encoded_bytes": 132091,
+          "finished_at_seconds": 14.79
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 14.61,
+          "encoded_bytes": 118457,
+          "finished_at_seconds": 14.62
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/en_US/fbevents.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 14.23,
+          "encoded_bytes": 117529,
+          "finished_at_seconds": 14.23
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/signals/config/2793053810868785",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 20.14,
+          "encoded_bytes": 96672,
+          "finished_at_seconds": 20.14
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/web/product/big/202603/a714dd3319e0379b2287299d0ff8d293.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 1.8,
+          "encoded_bytes": 96097,
+          "finished_at_seconds": 10.05
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/web/product/small/202603/a11fae607e22c703a44057fd18c07189.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.57,
+          "encoded_bytes": 96089,
+          "finished_at_seconds": 12.02
+        },
+        {
+          "host": "cdn.snapfit.co.kr",
+          "path": "/js/spm_f_common.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 11.99,
+          "encoded_bytes": 92237,
+          "finished_at_seconds": 11.99
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/product/detail.html",
+          "type": "Document",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 1.19,
+          "encoded_bytes": 77548,
+          "finished_at_seconds": 1.76
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer_user.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 9.54,
+          "encoded_bytes": 62227,
+          "finished_at_seconds": 9.55
+        }
+      ],
+      "total_encoded_bytes": 3186588,
+      "response_count": 113
+    },
+    {
+      "route": "product/detail.html?product_no=25",
+      "width": 390,
+      "status": 200,
+      "shell_ready_seconds": 21.84,
+      "detail_images": 7,
+      "interaction_ready_seconds": 23.13,
+      "actual_width": 390,
+      "client": 390,
+      "scroll": 390,
+      "brokenVisibleImages": 0,
+      "passed": true,
+      "largest_resources": [
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 21.63,
+          "encoded_bytes": 424637,
+          "finished_at_seconds": 21.65
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/i18n.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 20.31,
+          "encoded_bytes": 338763,
+          "finished_at_seconds": 20.32
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 20.11,
+          "encoded_bytes": 180865,
+          "finished_at_seconds": 20.11
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 14.63,
+          "encoded_bytes": 156709,
+          "finished_at_seconds": 14.63
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 19.52,
+          "encoded_bytes": 156346,
+          "finished_at_seconds": 19.52
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 13.78,
+          "encoded_bytes": 130265,
+          "finished_at_seconds": 13.78
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/web/product/extra/small/202502/b71e7ae2071fcc1f7977778f7c243ec1.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.42,
+          "encoded_bytes": 127795,
+          "finished_at_seconds": 13.39
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/web/product/extra/big/202502/b71e7ae2071fcc1f7977778f7c243ec1.jpg",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/jpeg",
+          "received_at_seconds": 2.17,
+          "encoded_bytes": 127794,
+          "finished_at_seconds": 13.21
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 13.61,
+          "encoded_bytes": 118418,
+          "finished_at_seconds": 13.62
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/en_US/fbevents.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 13.42,
+          "encoded_bytes": 117531,
+          "finished_at_seconds": 13.42
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/signals/config/2793053810868785",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 17.4,
+          "encoded_bytes": 96634,
+          "finished_at_seconds": 17.4
+        },
+        {
+          "host": "cdn.snapfit.co.kr",
+          "path": "/js/spm_f_common.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 11.66,
+          "encoded_bytes": 92237,
+          "finished_at_seconds": 11.66
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/product/detail.html",
+          "type": "Document",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 0.9,
+          "encoded_bytes": 80691,
+          "finished_at_seconds": 1.67
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer_user.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 9.67,
+          "encoded_bytes": 62227,
+          "finished_at_seconds": 9.67
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer_user.php",
+          "type": "Stylesheet",
+          "status": 200,
+          "mime": "text/css",
+          "received_at_seconds": 1.28,
+          "encoded_bytes": 54154,
+          "finished_at_seconds": 2.08
+        }
+      ],
+      "total_encoded_bytes": 3177091,
+      "response_count": 138
+    },
+    {
+      "route": "product/list.html?cate_no=74",
+      "width": 1440,
+      "status": 200,
+      "shell_ready_seconds": 14.92,
+      "combined_filter": true,
+      "interaction_ready_seconds": 15.02,
+      "actual_width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "brokenVisibleImages": 0,
+      "passed": true,
+      "largest_resources": [
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 14.8,
+          "encoded_bytes": 360976,
+          "finished_at_seconds": 14.8
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/i18n.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 14.63,
+          "encoded_bytes": 338745,
+          "finished_at_seconds": 14.63
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 14.45,
+          "encoded_bytes": 180999,
+          "finished_at_seconds": 14.46
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 10.78,
+          "encoded_bytes": 156709,
+          "finished_at_seconds": 10.78
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 14.1,
+          "encoded_bytes": 156449,
+          "finished_at_seconds": 14.1
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-23-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 2.18,
+          "encoded_bytes": 138488,
+          "finished_at_seconds": 10.55
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 9.81,
+          "encoded_bytes": 130242,
+          "finished_at_seconds": 9.81
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 9.74,
+          "encoded_bytes": 118419,
+          "finished_at_seconds": 9.74
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/en_US/fbevents.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 9.33,
+          "encoded_bytes": 117529,
+          "finished_at_seconds": 9.33
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/signals/config/2793053810868785",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 12.63,
+          "encoded_bytes": 96634,
+          "finished_at_seconds": 12.63
+        },
+        {
+          "host": "cdn.snapfit.co.kr",
+          "path": "/js/spm_f_common.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 9.03,
+          "encoded_bytes": 92237,
+          "finished_at_seconds": 9.04
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-111-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 2.0,
+          "encoded_bytes": 79422,
+          "finished_at_seconds": 8.16
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-109-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 2.0,
+          "encoded_bytes": 68772,
+          "finished_at_seconds": 7.69
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-110-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 1.58,
+          "encoded_bytes": 66501,
+          "finished_at_seconds": 7.24
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/product/list.html",
+          "type": "Document",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 0.53,
+          "encoded_bytes": 62407,
+          "finished_at_seconds": 0.98
+        }
+      ],
+      "total_encoded_bytes": 2754980,
+      "response_count": 74
+    },
+    {
+      "route": "about.html",
+      "width": 1440,
+      "status": 200,
+      "shell_ready_seconds": 11.76,
+      "catalog_cards": 14,
+      "interaction_ready_seconds": 13.05,
+      "actual_width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "brokenVisibleImages": 0,
+      "passed": true,
+      "largest_resources": [
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/i18n.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 11.65,
+          "encoded_bytes": 338772,
+          "finished_at_seconds": 11.66
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 11.04,
+          "encoded_bytes": 276825,
+          "finished_at_seconds": 11.04
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 11.57,
+          "encoded_bytes": 182879,
+          "finished_at_seconds": 11.57
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 11.33,
+          "encoded_bytes": 158379,
+          "finished_at_seconds": 11.33
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 8.06,
+          "encoded_bytes": 156432,
+          "finished_at_seconds": 8.06
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-23-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 1.33,
+          "encoded_bytes": 138470,
+          "finished_at_seconds": 7.01
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 7.26,
+          "encoded_bytes": 132345,
+          "finished_at_seconds": 7.26
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 7.07,
+          "encoded_bytes": 118418,
+          "finished_at_seconds": 7.07
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/en_US/fbevents.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 6.87,
+          "encoded_bytes": 117544,
+          "finished_at_seconds": 6.87
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/signals/config/2793053810868785",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 9.88,
+          "encoded_bytes": 96633,
+          "finished_at_seconds": 9.88
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-111-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 1.09,
+          "encoded_bytes": 79406,
+          "finished_at_seconds": 3.74
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/product/list.html",
+          "type": "Fetch",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 12.11,
+          "encoded_bytes": 62407,
+          "finished_at_seconds": 12.81
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/about.html",
+          "type": "Document",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 0.53,
+          "encoded_bytes": 56282,
+          "finished_at_seconds": 0.95
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer_user.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 4.24,
+          "encoded_bytes": 44507,
+          "finished_at_seconds": 4.24
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/identify_9fbdaf50.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 8.52,
+          "encoded_bytes": 37326,
+          "finished_at_seconds": 8.53
+        }
+      ],
+      "total_encoded_bytes": 2293791,
+      "response_count": 64
+    },
+    {
+      "route": "product/list.html?cate_no=74",
+      "width": 320,
+      "status": 200,
+      "shell_ready_seconds": 14.8,
+      "combined_filter": true,
+      "interaction_ready_seconds": 14.9,
+      "actual_width": 320,
+      "client": 320,
+      "scroll": 320,
+      "brokenVisibleImages": 0,
+      "passed": true,
+      "largest_resources": [
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/optimizer.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "text/javascript",
+          "received_at_seconds": 14.68,
+          "encoded_bytes": 361021,
+          "finished_at_seconds": 14.69
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/ind-script/i18n.php",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 14.54,
+          "encoded_bytes": 338781,
+          "finished_at_seconds": 14.55
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 14.35,
+          "encoded_bytes": 180999,
+          "finished_at_seconds": 14.35
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 13.99,
+          "encoded_bytes": 156449,
+          "finished_at_seconds": 13.99
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtag/js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 10.68,
+          "encoded_bytes": 156432,
+          "finished_at_seconds": 10.68
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-23-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 2.09,
+          "encoded_bytes": 138488,
+          "finished_at_seconds": 10.33
+        },
+        {
+          "host": "www.googletagmanager.com",
+          "path": "/gtm.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 9.73,
+          "encoded_bytes": 130519,
+          "finished_at_seconds": 9.73
+        },
+        {
+          "host": "analytics.tiktok.com",
+          "path": "/i18n/pixel/static/main.MTFiZjI1ODk0MQ.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 9.77,
+          "encoded_bytes": 118622,
+          "finished_at_seconds": 9.77
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/en_US/fbevents.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 9.34,
+          "encoded_bytes": 117530,
+          "finished_at_seconds": 9.34
+        },
+        {
+          "host": "connect.facebook.net",
+          "path": "/signals/config/2793053810868785",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/x-javascript",
+          "received_at_seconds": 12.52,
+          "encoded_bytes": 96633,
+          "finished_at_seconds": 12.53
+        },
+        {
+          "host": "cdn.snapfit.co.kr",
+          "path": "/js/spm_f_common.js",
+          "type": "Script",
+          "status": 200,
+          "mime": "application/javascript",
+          "received_at_seconds": 8.56,
+          "encoded_bytes": 92237,
+          "finished_at_seconds": 8.56
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-111-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 1.92,
+          "encoded_bytes": 79423,
+          "finished_at_seconds": 8.0
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-109-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 1.92,
+          "encoded_bytes": 68771,
+          "finished_at_seconds": 7.53
+        },
+        {
+          "host": "awiz.cafe24.com",
+          "path": "/tam-detail-20261022/inner-card-110-480.png",
+          "type": "Image",
+          "status": 200,
+          "mime": "image/png",
+          "received_at_seconds": 1.55,
+          "encoded_bytes": 66501,
+          "finished_at_seconds": 7.23
+        },
+        {
+          "host": "tambeauty.kr",
+          "path": "/product/list.html",
+          "type": "Document",
+          "status": 200,
+          "mime": "text/html",
+          "received_at_seconds": 0.42,
+          "encoded_bytes": 62433,
+          "finished_at_seconds": 0.9
+        }
+      ],
+      "total_encoded_bytes": 2752214,
+      "response_count": 73
+    }
+  ],
+  "browser_version": "151.0.7922.34",
+  "passed": true
+}

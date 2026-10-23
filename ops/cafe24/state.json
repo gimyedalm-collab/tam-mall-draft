@@ -1,6 +1,6 @@
 {
   "rollout_preflight_20261022": {
-    "status": "activated_post_switch_verification_running",
+    "status": "activated_public_regression_passed_commerce_e2e_and_physical_pending",
     "request": "Owner requested completing Cafe24 rollout and lip-oil identity review on2026-10-23.",
     "shop_no": 1,
     "live_pc_skin": "skin21",
@@ -9,7 +9,7 @@
     "copy_created_and_listed": true,
     "mobile_dedicated_skin_enabled": false,
     "production_changed": true,
-    "next_action": "Collect production Chromium/Safari results and verify native checkout; preserve rollback18/22."
+    "next_action": "Defined paid test terms pending; keep physical-device and performance limitations explicit. See production-20261023/REPORT.md."
   },
   "native_powder_images_20261022": {
     "product_no": 111,
@@ -25,7 +25,9 @@
     "upload_files_verified": 28,
     "physical_phone_verified": false,
     "activation_overlay_regenerated": true,
-    "evidence": "native-powder-20261022/REPORT.md"
+    "evidence": "native-powder-20261022/REPORT.md",
+    "historical_snapshot": true,
+    "superseded_by": "production_rollout_20261023"
   },
   "native_purchase_20261022": {
     "status": "candidate_saved_and_verified;private_activation_overlay_prepared",
@@ -40,7 +42,9 @@
     "activation_upload_files": 15,
     "production_e2e_verified": false,
     "physical_phone_verified": false,
-    "evidence": "native-purchase-20261022/REPORT.md"
+    "evidence": "native-purchase-20261022/REPORT.md",
+    "historical_snapshot": true,
+    "superseded_by": "production_rollout_20261023"
   },
   "native_inner_20261022": {
     "status": "candidate_saved_and_functionally_verified; performance_and_rollout_checks_remain",
@@ -64,7 +68,9 @@
     "physical_device_verified": false,
     "payment_verified": false,
     "performance_complete": false,
-    "evidence": "native-inner-20261022/REPORT.md"
+    "evidence": "native-inner-20261022/REPORT.md",
+    "historical_snapshot": true,
+    "superseded_by": "production_rollout_20261023"
   },
   "highlighter_final_copy_20261012": {
     "status": "final_copy_and_mobile_typography_reviewed",
@@ -1183,11 +1189,13 @@
     "candidate_upload_bytes": 1367,
     "admin_option_codes_verified": true,
     "native_stock_management_enabled": false,
-    "existing_order_option_and_shipping_display_verified": true
+    "existing_order_option_and_shipping_display_verified": true,
+    "historical_snapshot": true,
+    "superseded_by": "production_rollout_20261023"
   },
   "lip_oil_identity_20261023": {
     "product_no": 25,
-    "name": "? ?? ??? ???",
+    "name": "더 젤리 플럼핑 립오일",
     "native_saved_and_verified": true,
     "selectable_codes": [
       "P000000Z000P",
@@ -1201,10 +1209,13 @@
     "safari_run": 39892437365,
     "purchase_run": 39893661237,
     "physical_device": false,
-    "payment_submitted": false
+    "payment_submitted": false,
+    "production_applied": true,
+    "production_safari_run": 39896577984,
+    "production_chromium_run": 39896575018
   },
   "production_rollout_20261023": {
-    "status": "activated_post_switch_verification_running",
+    "status": "activated_public_regression_passed_commerce_e2e_and_physical_pending",
     "domain": "https://tambeauty.kr/",
     "shop_no": 1,
     "representative_skin": "skin21",
@@ -1215,10 +1226,34 @@
     "changed_templates": 9,
     "verified_uploaded_assets": 15,
     "english_shop_skin": "skin8_unchanged",
-    "native_product25_name": "? ?? ??? ???",
+    "native_product25_name": "더 젤리 플럼핑 립오일",
     "physical_device_verified": false,
     "payment_submitted": false,
-    "chromium_run": 39895697388,
-    "safari_run": 39895700224
+    "chromium_run": 39896575018,
+    "safari_run": 39896577984,
+    "report": "production-20261023/REPORT.md",
+    "safari_checks": 50,
+    "slow_network_cases": 9,
+    "alignment_products": 14,
+    "purchase_flows": 9,
+    "guest_checkout": {
+      "option": "P000000Z000P",
+      "quantity": 1,
+      "product_krw": 17000,
+      "shipping_krw": 3000,
+      "total_krw": 20000
+    },
+    "performance_target_passed": false,
+    "earlier_failed_runs": [
+      39895697388,
+      39895700224
+    ],
+    "remaining": [
+      "physical_phone_iOS",
+      "paid_order_receipt_and_refund",
+      "coupon_redemption_and_shipping_exceptions",
+      "external_inventory_reconciliation",
+      "slow_network_performance"
+    ]
   }
 }

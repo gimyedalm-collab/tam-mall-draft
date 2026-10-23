@@ -1,0 +1,378 @@
+{
+  "base": "https://tambeauty.kr/",
+  "physical_device": false,
+  "commerce_mutation": false,
+  "alignment": [
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 18,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 23,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 24,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 25,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 101,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 102,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 109,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 110,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 111,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 112,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 114,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 115,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 118,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1440,
+      "detail_width": 860,
+      "center_error": 0,
+      "product": 121,
+      "passed": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css"
+    }
+  ],
+  "flows": [
+    {
+      "width": 320,
+      "product": 109,
+      "slow_1_6_mbps_150ms": false,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css",
+      "sheet": {
+        "left": 0,
+        "right": 320,
+        "bottom": 844,
+        "height": 500,
+        "viewport": 844,
+        "client": 320,
+        "scroll": 320,
+        "content_width": 320,
+        "center_error": 0,
+        "locked": true
+      },
+      "selected_total": "총 구매 금액\n18,000원 (1개)",
+      "selection_retained": true,
+      "interaction_seconds": 4.17,
+      "script_errors": [],
+      "passed": true
+    },
+    {
+      "width": 320,
+      "product": 25,
+      "slow_1_6_mbps_150ms": false,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css",
+      "sheet": {
+        "left": 0,
+        "right": 320,
+        "bottom": 844,
+        "height": 717.390625,
+        "viewport": 844,
+        "client": 320,
+        "scroll": 320,
+        "content_width": 320,
+        "center_error": 0,
+        "locked": true
+      },
+      "oil_codes": [
+        "P000000Z000P",
+        "P000000Z000Q",
+        "P000000Z000R"
+      ],
+      "selected_total": "총 구매 금액\n51,000원 (3개)",
+      "selection_retained": true,
+      "interaction_seconds": 4.05,
+      "script_errors": [],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "product": 109,
+      "slow_1_6_mbps_150ms": false,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css",
+      "sheet": {
+        "left": 0,
+        "right": 390,
+        "bottom": 844,
+        "height": 500,
+        "viewport": 844,
+        "client": 390,
+        "scroll": 390,
+        "content_width": 390,
+        "center_error": 0,
+        "locked": true
+      },
+      "selected_total": "총 구매 금액\n18,000원 (1개)",
+      "selection_retained": true,
+      "interaction_seconds": 3.91,
+      "script_errors": [],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "product": 25,
+      "slow_1_6_mbps_150ms": false,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css",
+      "sheet": {
+        "left": 0,
+        "right": 390,
+        "bottom": 844,
+        "height": 717.390625,
+        "viewport": 844,
+        "client": 390,
+        "scroll": 390,
+        "content_width": 390,
+        "center_error": 0,
+        "locked": true
+      },
+      "oil_codes": [
+        "P000000Z000P",
+        "P000000Z000Q",
+        "P000000Z000R"
+      ],
+      "selected_total": "총 구매 금액\n51,000원 (3개)",
+      "selection_retained": true,
+      "interaction_seconds": 4.1,
+      "script_errors": [],
+      "passed": true
+    },
+    {
+      "width": 768,
+      "product": 109,
+      "slow_1_6_mbps_150ms": false,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css",
+      "sheet": {
+        "left": 16.5,
+        "right": 736.5,
+        "bottom": 844,
+        "height": 500,
+        "viewport": 844,
+        "client": 768,
+        "scroll": 753,
+        "content_width": 753,
+        "center_error": 0,
+        "locked": true
+      },
+      "selected_total": "총 구매 금액\n18,000원 (1개)",
+      "selection_retained": true,
+      "interaction_seconds": 4.16,
+      "script_errors": [],
+      "passed": true
+    },
+    {
+      "width": 768,
+      "product": 25,
+      "slow_1_6_mbps_150ms": false,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css",
+      "sheet": {
+        "left": 16.5,
+        "right": 736.5,
+        "bottom": 844,
+        "height": 717.390625,
+        "viewport": 844,
+        "client": 768,
+        "scroll": 753,
+        "content_width": 753,
+        "center_error": 0,
+        "locked": true
+      },
+      "oil_codes": [
+        "P000000Z000P",
+        "P000000Z000Q",
+        "P000000Z000R"
+      ],
+      "selected_total": "총 구매 금액\n51,000원 (3개)",
+      "selection_retained": true,
+      "interaction_seconds": 3.98,
+      "script_errors": [],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "product": 109,
+      "slow_1_6_mbps_150ms": false,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css",
+      "sheet": {
+        "left": 352.5,
+        "right": 1072.5,
+        "bottom": 844,
+        "height": 385,
+        "viewport": 844,
+        "client": 1440,
+        "scroll": 1425,
+        "content_width": 1425,
+        "center_error": 0,
+        "locked": true
+      },
+      "selected_total": "총 구매 금액\n18,000원 (1개)",
+      "selection_retained": true,
+      "interaction_seconds": 3.61,
+      "script_errors": [],
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "product": 25,
+      "slow_1_6_mbps_150ms": false,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css",
+      "sheet": {
+        "left": 352.5,
+        "right": 1072.5,
+        "bottom": 844,
+        "height": 668.5625,
+        "viewport": 844,
+        "client": 1440,
+        "scroll": 1425,
+        "content_width": 1425,
+        "center_error": 0,
+        "locked": true
+      },
+      "oil_codes": [
+        "P000000Z000P",
+        "P000000Z000Q",
+        "P000000Z000R"
+      ],
+      "selected_total": "총 구매 금액\n51,000원 (3개)",
+      "selection_retained": true,
+      "interaction_seconds": 3.63,
+      "script_errors": [],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "product": 109,
+      "slow_1_6_mbps_150ms": true,
+      "purchase_css": "https://awiz.cafe24.com/tam-detail-20261022/rollout-purchase-261022-v5.css",
+      "sheet": {
+        "left": 0,
+        "right": 390,
+        "bottom": 844,
+        "height": 500,
+        "viewport": 844,
+        "client": 390,
+        "scroll": 390,
+        "content_width": 390,
+        "center_error": 0,
+        "locked": true
+      },
+      "selected_total": "총 구매 금액\n18,000원 (1개)",
+      "selection_retained": true,
+      "interaction_seconds": 30.4,
+      "script_errors": [],
+      "passed": true
+    }
+  ],
+  "browser_version": "151.0.7922.34",
+  "passed": true
+}

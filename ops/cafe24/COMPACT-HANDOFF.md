@@ -1,10 +1,29 @@
-## ACTIVE: production activated ? 2026-10-23
+## ACTIVE: Korean production rollout verified — 2026-10-23
+
+Production tambeauty.kr uses skin21/editor27. Rollback18/22 and candidate
+backup23 retained; English shop5 skin8 unchanged. Nine templates saved and
+15 uploaded rollout assets byte-verified. Product25 is 더 젤리 플럼핑 립오일:
+01–03P/Q/R selectable;00O hidden/not selling in Korean, retained historically.
+Production Safari39896577984 passed50 checks; Chromium39896575018 passed
+10smoke,9slow,14alignment and9purchase flows. Current evidence:
+production-20261023/REPORT.md. Earlier reports below are historical snapshots.
+Actual production guest checkout01qty1:17000+3000shipping=20000KRW.
+No order/payment submitted. A proposed20000KRW paid test with refund awaits
+owner response; checkout tab1544723483 is handed off. Do not enter customer
+data or submit payment without defined terms. Physical/iOS unverified.
+Native lip stock management remains disabled; external inventory sync, coupon
+redemption/shipping edge cases and speed targets remain unverified/open.
+Private cutover originals: .codex/tam-cafe24-output/cutover-20261023.
+
+---
+
+## HISTORICAL: production activated — 2026-10-23
 
 Korean shop1 representative is now skin21/editor27 on tambeauty.kr.
 Nine root-route templates saved;15rollout assets byte-verified.
 Rollback skin18 and server copy22; candidate-before-cutover copy23.
-English shop5 skin8 unchanged. Product25 renamed ? ?? ??? ???;
-00O Korean display/selling off but SKU retained;01?03P/Q/R unchanged.
+English shop5 skin8 unchanged. Product25 renamed 더 젤리 플럼핑 립오일;
+00O Korean display/selling off but SKU retained;01–03P/Q/R unchanged.
 Candidate Safari39892437365 passed50; purchase39893661237 passed14alignment+9flows.
 Production Chromium39895697388 and Safari39895700224 running.
 Lookbook archive12rendered images now lazy; original URLs unchanged.
@@ -14,7 +33,7 @@ Private cutover folder: .codex/tam-cafe24-output/cutover-20261023.
 
 ---
 
-## ACTIVE: lip explanation removed; commerce checked - 2026-10-23
+## HISTORICAL: lip explanation removed; commerce checked - 2026-10-23
 
 Owner removed added series explanations. Product25 candidate fragment uploaded,
 1367bytes identical; seven approved oil images, no added intro/link/accordion.
@@ -27,7 +46,7 @@ No new order/payment/fulfillment mutation. See native-commerce-20261023/REPORT.m
 Current basket empty after auth; original guest cleanup not proven across auth.
 Production18 and rollback22 unchanged. Prior rollout scope question unresolved.
 
-## ACTIVE: powder balm image fix only — 2026-10-22
+## HISTORICAL: powder balm image fix only — 2026-10-22
 
 Owner narrowed image changes to product111 only. Source51af6f3 on main;
 skin21/editor27 saved with candidate-detail-v3.js and candidate-purchase-v5.css.
@@ -48,7 +67,7 @@ Pre-change detail saved privately: .codex/tam-cafe24-output/powder-v6-before-det
 
 ---
 
-## ACTIVE: centered detail and purchase sheet — 2026-10-22
+## HISTORICAL: centered detail and purchase sheet — 2026-10-22
 
 Owner authorized all purchase-layout fixes and activation preparation. Source
 552111f: candidate skin21 saved, centered14products; black CTA; native bottom
@@ -73,7 +92,7 @@ before Choose File click, chooser.setFiles, then Start Upload. Source saved outs
 
 ---
 
-## ACTIVE: inner pages actually saved — 2026-10-22
+## HISTORICAL: inner pages actually saved — 2026-10-22
 
 Latest source ae797b1 on GitHub main. skin21/editor27 now has approved SHOP,
 ABOUT, LOOKBOOK, common header/footer and native search/account/basket/form
@@ -90,7 +109,7 @@ older helper closures retain stale tabs. Save with Space and public verification
 
 ---
 
-## ACTIVE: native candidate integration ? 2026-10-22
+## HISTORICAL: native candidate integration ? 2026-10-22
 
 Owner replied ????: file-URL access fixed and test basket EMPTY verified.
 Uploads now work. 84/84 detail media pass decoded pixels/all frames/timing/ICC;
@@ -120,7 +139,7 @@ See native-preparation-20261022/REPORT.md and state.json.
 
 ---
 
-## ACTIVE: native source preparation and baseline commerce ? 2026-10-22
+## HISTORICAL: native source preparation and baseline commerce ? 2026-10-22
 
 15 selected skin18 HTML templates captured outside Git in
 C:/Users/BNK-1/.codex/tam-cafe24-output/source-skin18-20261022.
@@ -206,7 +225,7 @@ Physical device/network checks unverified; Cafe24 upload deferred.
 
 ---
 
-## ACTIVE: main storefront sync, 2026-10-21
+## HISTORICAL: main storefront sync, 2026-10-21
 
 Owner requested all completed work applied to GitHub main except shading duo.
 Current worktree: Desktop/tam-main-sync-261021. Six routes110,111,25,118,102,24
@@ -327,7 +346,7 @@ review pager and Powder Balm13 lazy images when rebuilding storefront pages.
 Shading109 detail is unchanged. GitHub publication verification is recorded
 separately in mobile-fixes-20261021/public-checks.json. Actual Cafe24 upload and
 physical phone/network verification remain deferred/unverified.
-## ACTIVE: rollout scope clarification — 2026-10-22
+## HISTORICAL: rollout scope clarification — 2026-10-22
 
 Owner asks now to apply. Earlier powder-first was ambiguous between image-fix
 scope and production rollout scope. Async question pending: powder111 only or

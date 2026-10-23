@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22",
+  "updated_at": "2026-10-23",
   "items": [
     {
       "id": "TAM-C24-005",
@@ -18,14 +18,16 @@
       "id": "TAM-C24-001",
       "type": "implementation",
       "priority": "P1",
-      "status": "candidate_saved_functionally_verified_rollout_pending",
+      "status": "applied_to_production_public_regression_passed",
       "route": "candidate skin homepage",
       "reproduce": "Compare storefront-v2/cafe24/tam with the frozen design-only preview.",
       "expected": "The candidate Cafe24 skin implements the frozen design and native shopping functions.",
       "actual": "Existing skin21 still old design; original skin18 server backup created2026-10-21, local download unverified; file attachment blocked.",
       "evidence": "native-inner-20261022/REPORT.md",
-      "fix": "Approved home,7details and inner/common design saved to skin21; no representative-skin switch.",
-      "retest": "Safari50 + Chromium10 + slow-network9 functional checks pass. Performance and transaction checks remain."
+      "fix": "Approved home,7details and inner/common design activated on Korean skin21; root assets and routes verified. Rollback18/22 and candidate backup23 retained.",
+      "retest": "Safari50 + Chromium10 + slow-network9 functional checks pass. Performance and transaction checks remain.",
+      "production_evidence": "production-20261023/REPORT.md",
+      "production_retest": "Safari50, Chromium14alignment/9purchase flows and9slow-network scenarios passed on tambeauty.kr. Physical/iOS and paid E2E remain unverified."
     },
     {
       "id": "TAM-C24-002",
@@ -389,94 +391,109 @@
       "id": "TAM-C24-HOME-INTEGRATION-20261022",
       "type": "native_integration",
       "priority": "P1",
-      "status": "candidate_saved_chrome_safari_verified",
+      "status": "applied_to_production_public_regression_passed",
       "route": "skin21 homepage",
       "reproduce": "Render approved home inside the native main layout.",
       "actual": "Legacy sample overlay and320px body minimum interfere with new home.",
       "expected": "Approved full-width film and no horizontal overflow.",
       "fix": "Hide legacy sample overlay; override body#main minimum; preserve apps and native company/price data.",
       "retest": "Chrome320-1920 six sizes pass; native Safari336-1920 six sizes plus menu/film controls/scroll header pass. Runner minimum336px documented. Snap1003 render confirmed.",
-      "evidence": "native-preparation-20261022/candidate-home-checks.json"
+      "evidence": "native-preparation-20261022/candidate-home-checks.json",
+      "production_evidence": "production-20261023/REPORT.md",
+      "production_retest": "Safari50, Chromium14alignment/9purchase flows and9slow-network scenarios passed on tambeauty.kr. Physical/iOS and paid E2E remain unverified."
     },
     {
       "id": "TAM-C24-NATIVE-MOBILE-20261022",
       "type": "mobile_accessibility",
       "priority": "P2",
-      "status": "candidate_saved_chrome_safari_verified",
+      "status": "applied_to_production_public_regression_passed",
       "route": "skin21 head and PDP",
       "reproduce": "Inspect native390px fields and viewport metadata.",
       "actual": "13px/40px selects; user-scalable=no.",
       "expected": "Readable controls and user zoom.",
       "fix": "16px/48px PDP controls; shared and separate order-form viewport allow zoom.",
       "retest": "12Chrome and12native Safari product/viewport checks pass. Separate order-form public HTML confirms unrestricted viewport; input flows still pending.",
-      "evidence": "native-preparation-20261022/candidate-detail-checks.json"
+      "evidence": "native-preparation-20261022/candidate-detail-checks.json",
+      "production_evidence": "production-20261023/REPORT.md",
+      "production_retest": "Safari50, Chromium14alignment/9purchase flows and9slow-network scenarios passed on tambeauty.kr. Physical/iOS and paid E2E remain unverified."
     },
     {
       "id": "TAM-C24-COLLECTION-SPECIAL-20261022",
       "type": "native_navigation",
       "priority": "P2",
-      "status": "candidate_fixed_and_verified",
+      "status": "applied_to_production_public_regression_passed",
       "route": "skin21 home collections",
       "reproduce": "Follow Jelly generic-search link.",
       "actual": "Search includes special repurchase product129.",
       "expected": "Collection shows regular SHOP assortment.",
       "fix": "Filter native category74 by collection; retain native cards, price and sorting.",
       "retest": "6Jelly/8Cloud visible;129 absent. Shared product visibility/settings unchanged.",
-      "evidence": "native-preparation-20261022/candidate-home-checks.json"
+      "evidence": "native-preparation-20261022/candidate-home-checks.json",
+      "production_evidence": "production-20261023/REPORT.md",
+      "production_retest": "Safari50, Chromium14alignment/9purchase flows and9slow-network scenarios passed on tambeauty.kr. Physical/iOS and paid E2E remain unverified."
     },
     {
       "id": "TAM-C24-INNER-20261022",
       "type": "owner_reported_missing_migration",
       "priority": "P1",
-      "status": "candidate_saved_and_verified",
+      "status": "applied_to_production_public_regression_passed",
       "route": "skin21 SHOP/ABOUT/LOOKBOOK/shared native pages",
       "fix": "Replaced inner/common design; preserved native modules, prices, app tails and account routes; repaired mobile double margins and navigation wrapping.",
       "retest": "Safari26inner checks and Chrome13routes at390/1440 pass; final v4 image/search checks pass.",
-      "evidence": "native-inner-20261022/REPORT.md"
+      "evidence": "native-inner-20261022/REPORT.md",
+      "production_evidence": "production-20261023/REPORT.md",
+      "production_retest": "Safari50, Chromium14alignment/9purchase flows and9slow-network scenarios passed on tambeauty.kr. Physical/iOS and paid E2E remain unverified."
     },
     {
       "id": "TAM-C24-SLOW-20261022",
       "type": "native_performance",
       "priority": "P1",
-      "status": "open_profile_native_resources",
+      "status": "functional_pass_performance_remains_open",
       "route": "skin21 public pages at1.6Mbps/150ms",
       "actual": "Functional tests pass, but shell readiness14.4–36.2s and home video33.8s. Not an overall speed pass.",
-      "fix": "Responsive product/lookbook derivatives uploaded; duplicate product image requests removed. Further native-resource profiling remains.",
+      "fix": "Responsive derivatives and duplicate-request removal retained;12rendered archive images made lazy. Native apps remain enabled. Lossless GIF trial saved only2.03–5.47%; originals retained.",
       "evidence": "native-inner-20261022/slow-network.json",
-      "retest": "Powder111:1.6Mbps150ms cache disabled, composition ready23.96s, all14images sequentially viewed89.66s. Functional checks pass but GIF transfer performance remains open; not LCP."
+      "retest": "Production slow9 passed; LOOKBOOK shell 35.13s, 4187663bytes observed; not LCP or a speed target pass.",
+      "production_evidence": "production-20261023/slow-network.json"
     },
     {
       "id": "TAM-C24-PURCHASE-ALIGN-20261022",
       "priority": "P1",
-      "status": "candidate_fixed_and_verified",
+      "status": "applied_to_production_public_regression_passed",
       "route": "skin21 all14product details",
       "actual": "Old430px right reservation left-aligns details; original full-height purchase rail and colored controls remain.",
       "fix": "Centered details; native bottom sheet; black primary CTA/neutral coupon notice;320px inquiry buttons fit.",
       "retest": "14alignment and9purchase flows pass; Safari50suite passes.",
-      "evidence": "native-purchase-20261022/REPORT.md"
+      "evidence": "native-purchase-20261022/REPORT.md",
+      "production_evidence": "production-20261023/REPORT.md",
+      "production_retest": "Safari50, Chromium14alignment/9purchase flows and9slow-network scenarios passed on tambeauty.kr. Physical/iOS and paid E2E remain unverified."
     },
     {
       "id": "TAM-C24-LEGACY-SCROLL-20261022",
       "priority": "P1",
-      "status": "candidate_fixed_and_verified",
+      "status": "applied_to_production_public_regression_passed",
       "route": "moa/js/common.js and moa/js/product/detail.js",
       "actual": "Old header-bottom lookup throws on scroll after navigation replacement, blocking subsequent native scroll callbacks.",
       "fix": "Guard missing legacy header; use new header height in product tab offsets.",
       "retest": "Final9purchase flows record zero script errors; home/inner Safari regression passes.",
-      "evidence": "native-purchase-20261022/REPORT.md"
+      "evidence": "native-purchase-20261022/REPORT.md",
+      "production_evidence": "production-20261023/REPORT.md",
+      "production_retest": "Safari50, Chromium14alignment/9purchase flows and9slow-network scenarios passed on tambeauty.kr. Physical/iOS and paid E2E remain unverified."
     },
     {
       "id": "TAM-C24-POWDER-IMAGES-20261022",
       "type": "visual_quality",
       "priority": "P1",
-      "status": "fixed_on_candidate",
+      "status": "applied_to_production_public_regression_passed",
       "route": "/skin-skin21/product/detail.html?product_no=111",
       "reproduce": "At1440px compare860px static panels and668/760px GIF alignment; original840px gallery displayed807px.",
       "expected": "Consistent centered media geometry without unnecessary source enlargement; crisp text on high-density screens.",
       "actual": "Different body widths/left alignment; insufficient static density at original display width. No404 observed for all14 powder assets.",
       "fix": "Body668px, static1720px source renders with860px responsive originals, unchangedGIF bytes; product111-only gallery max600px.",
       "evidence": "native-powder-20261022/REPORT.md",
-      "retest": "Chromium6cases x14images decoded/aligned;6native purchase-sheet open/close flows; other109 unchanged; Safari50 regression;28upload pixel/ICC/GIF checks pass."
+      "retest": "Chromium6cases x14images decoded/aligned;6native purchase-sheet open/close flows; other109 unchanged; Safari50 regression;28upload pixel/ICC/GIF checks pass.",
+      "production_evidence": "production-20261023/REPORT.md",
+      "production_retest": "Safari50, Chromium14alignment/9purchase flows and9slow-network scenarios passed on tambeauty.kr. Physical/iOS and paid E2E remain unverified."
     },
     {
       "id": "TAM-C24-LIP-STOCK-20261023",
@@ -490,6 +507,19 @@
       "fix": "No setting change; preserve commercial configuration until physical stock source is confirmed.",
       "evidence": "native-commerce-20261023/REPORT.md",
       "retest": "O/P/Q/R match public codes; existing01/02order quantities and courier/tracking visible."
+    },
+    {
+      "id": "TAM-C24-LIP-OIL-20261023",
+      "type": "product_identity",
+      "priority": "P1",
+      "status": "applied_and_verified_on_production",
+      "route": "/product/detail.html?product_no=25",
+      "reproduce": "Compare oil-only approved detail panels with series name and00gloss option.",
+      "expected": "Korean name and selectable options match the oil composition while preserving order identifiers.",
+      "actual": "Old series identity contained gloss00 alongside oil01–03.",
+      "fix": "Renamed 더 젤리 플럼핑 립오일; Korean00display/selling disabled without deleting SKU.01–03 codes/prices unchanged; standalone gloss18 retained; English shop unchanged.",
+      "retest": "Native admin save persisted; production three-code/51000total checks at320/390/768/1440 and guest01checkout20000KRW verified. No new order/payment.",
+      "evidence": "production-20261023/REPORT.md"
     }
   ]
 }

@@ -23,16 +23,22 @@ Installed apps include 이지어드민 이지오토, 배송완료 자동체크, 
 Installation alone does not prove active inventory synchronization or mappings.
 Existing disabled native stock management has not been changed blindly.
 
-## Public preview and remaining verification
+## Public preview and production verification
 
 SHOP, ABOUT, Jelly, search and product25 preview names match the native name.
 Preview cart/catalog data now contain only the three oil choices. Historical
 reviews and source archives are not rewritten. Catalog cache revision refreshed.
 Powder package sync now points to V6 and preserves responsive source paths.
 
-Post-change Chromium purchase checks and slow-resource profiling are pending.
-Earlier four-option guest checkout and existing admin fulfillment checks remain
-separate evidence. No payment or new order was submitted. Physical phone/iOS,
-payment return, coupon redemption and external inventory reconciliation remain
-unverified. Production representative skin is still18, not the candidate21.
-Native product configuration is shared and this naming change is already live.
+Candidate Safari run39892437365 passed50 checks. Candidate Chromium purchase
+run39893661237 passed14 alignment and9 purchase-sheet cases, including all three
+oil options and their51000KRW combined total at320/390/768/1440px.
+
+Korean production representative skin21 was activated on2026-10-23. Production
+Safari run39896577984 passed50 checks. The actual production guest checkout
+showed oil01 quantity1, product17000 + shipping3000 =20000KRW, with the new name.
+Earlier four-option checkout is historical evidence predating this change.
+No payment or new order was submitted. Physical phone/iOS, payment return,
+coupon redemption and external inventory reconciliation remain unverified.
+See [current rollout report](../production-20261023/REPORT.md) for the final
+production Chromium and slow-network evidence and remaining limitations.
