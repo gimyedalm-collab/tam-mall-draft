@@ -1154,5 +1154,35 @@
     },
     "evidence": "native-preparation-20261022/REPORT.md",
     "native_option_flow": "Post-integration product109 option01: native +button1?2 computes18000?36000; real keyboard3 computes54000. No cart/order mutation."
+  },
+  "lip_commerce_20261023": {
+    "status": "candidate_content_saved_native_guest_checkout_and_existing_admin_order_verified",
+    "product_no": 25,
+    "explanation_removed_in_preparation": true,
+    "candidate_uploaded": true,
+    "production_changed": false,
+    "native_options_preserved": 4,
+    "cart_and_guest_checkout": {
+      "options": 4,
+      "quantity_each": 1,
+      "subtotal": 68000,
+      "shipping": 0,
+      "total": 68000
+    },
+    "mobile_orderform": {
+      "inner_width": 390,
+      "client_width": 375,
+      "scroll_width": 375,
+      "physical_device": false
+    },
+    "admin_stock_order_fulfillment_verified": false,
+    "payment_submitted": false,
+    "test_cart_cleanup": "current_authenticated_basket_empty; original_guest_cleanup_not_proven_across_auth_change",
+    "report": "native-commerce-20261023/REPORT.md",
+    "next_action": "Confirm existing stock/warehouse workflow before promising automatic stockout handling. New paid E2E needs defined test terms; production remains unchanged.",
+    "candidate_upload_bytes": 1367,
+    "admin_option_codes_verified": true,
+    "native_stock_management_enabled": false,
+    "existing_order_option_and_shipping_display_verified": true
   }
 }

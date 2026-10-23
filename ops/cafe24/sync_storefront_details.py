@@ -75,19 +75,7 @@ def main():
         assert span.start is not None and span.end is not None, page
         old = source[span.start:span.end]
         body = compose(package)
-        if product == 25:
-            # Product25 has 00 gloss and 01–03 oils. Keep the existing common
-            # series information and all four options; oil is a new component.
-            saved = re.search(r'<!-- SERIES-LEGACY-START -->(.*?)<!-- SERIES-LEGACY-END -->', old, re.S)
-            legacy = saved.group(1) if saved else re.search(r'<div class="detail-images">(.*?)</div>', old, re.S).group(1)
-            body = ('<div style="padding:24px 20px;font:15px/1.7 system-ui,sans-serif;word-break:keep-all;background:#fff">'
-                    '<h2 style="font-size:22px;margin:0 0 12px">더 젤리 플럼핑 립 시리즈</h2>'
-                    '<p>00 히말라야 핑크는 립 글로스, 01 퍼스트 러브 · 02 인피니트 로즈 · 03 나이트 뷰는 립오일입니다.</p>'
-                    '<p><a href="product-18.html#product-detail">00 립 글로스 상세 보기</a></p>'
-                    '<h3 style="font-size:18px;margin:20px 0 0">01–03 립오일</h3></div>' + body +
-                    '<details style="padding:20px;background:#fff"><summary style="cursor:pointer;font:15px/1.7 system-ui,sans-serif">립 시리즈 공통 안내 · 글로스 포함</summary>'
-                    '<div class="detail-images"><!-- SERIES-LEGACY-START -->' + legacy +
-                    '<!-- SERIES-LEGACY-END --></div></details>')
+        # Owner removed the series introduction/link/common accordion on 2026-10-23.
         replacement = (f'<section id="product-detail" class="tam-registration-detail" '
                        f'data-detail-release="{release}" data-delivery-package="{package}" '
                        'aria-label="제품 상세" style="width:100%;max-width:860px;margin:48px auto;padding:0;box-sizing:border-box">'

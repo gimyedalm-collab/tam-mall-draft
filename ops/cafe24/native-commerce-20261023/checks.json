@@ -1,0 +1,19 @@
+{
+  "scope": "product25 detail only",
+  "outside_detail_identical": true,
+  "media_count": 7,
+  "media_order_and_hashes_match": true,
+  "added_explanation_link_accordion_absent": true,
+  "candidate_public_bytes_match": true,
+  "candidate_dom_status": "ready",
+  "native_options": [
+    "P000000Z000O",
+    "P000000Z000P",
+    "P000000Z000Q",
+    "P000000Z000R"
+  ],
+  "physical_device": false,
+  "new_order_created": false,
+  "payment_submitted": false,
+  "production_changed": false
+}

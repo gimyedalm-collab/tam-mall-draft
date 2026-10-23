@@ -25,7 +25,7 @@ for number, (package, release) in PACKAGES.items():
     manifest = json.loads((ROOT / package / 'manifest.json').read_text(encoding='utf-8'))
     files = manifest.get('files', manifest.get('media', manifest.get('images')))
     images = detail.find_all('img')
-    assert len(images) == len(files) + (4 if number == 25 else 0)
+    assert len(images) == len(files)
     for image, item in zip(images, files):
         asset = (ROOT / path).parent / image['src'].split('?')[0]
         assert asset.is_file(), asset
@@ -38,7 +38,7 @@ for number, (package, release) in PACKAGES.items():
 report = {'date': '2026-10-21', 'baseline': BASELINE,
           'scope': 'Seven current product deliveries; owner authorized latest Shading V9 integration. Cafe24 rollout awaits actual readiness verification.',
           'products': rows,
-          'lip_series': 'All four preview options and original common-series images retained. Oils-only component is explicitly scoped to01-03, with00 gloss detail link.',
+          'lip_series': 'Owner removed series introduction/link/common accordion on2026-10-23. All four options remain unchanged; seven approved oil panels retained.',
           'main_film': 'V16 already connected; unchanged',
           'owner_visual_acceptance': 'Not inferred from integration QA'}
 destination = ROOT / 'ops/cafe24/storefront-details-verification.json'

@@ -1,3 +1,16 @@
+## ACTIVE: lip explanation removed; commerce checked - 2026-10-23
+
+Owner removed added series explanations. Product25 candidate fragment uploaded,
+1367bytes identical; seven approved oil images, no added intro/link/accordion.
+All four native options preserved. Native cart and guest checkout68000KRW,
+shipping0, quantity1 each verified;390px checkout has no horizontal overflow.
+Admin confirms all four SKU codes and existing order option quantities, Inicis
+card payment, CJ Logistics/tracking and shipping status. Native stock management
+is DISABLED for all four; do not enable without stock source/quantities.
+No new order/payment/fulfillment mutation. See native-commerce-20261023/REPORT.md.
+Current basket empty after auth; original guest cleanup not proven across auth.
+Production18 and rollback22 unchanged. Prior rollout scope question unresolved.
+
 ## ACTIVE: powder balm image fix only — 2026-10-22
 
 Owner narrowed image changes to product111 only. Source51af6f3 on main;

@@ -477,6 +477,19 @@
       "fix": "Body668px, static1720px source renders with860px responsive originals, unchangedGIF bytes; product111-only gallery max600px.",
       "evidence": "native-powder-20261022/REPORT.md",
       "retest": "Chromium6cases x14images decoded/aligned;6native purchase-sheet open/close flows; other109 unchanged; Safari50 regression;28upload pixel/ICC/GIF checks pass."
+    },
+    {
+      "id": "TAM-C24-LIP-STOCK-20261023",
+      "type": "existing_configuration_risk",
+      "priority": "P1",
+      "status": "admin_confirmed_stock_workflow_required",
+      "route": "admin product25 options/stock",
+      "reproduce": "Read selected stock-management values for all four variants.",
+      "expected": "Do not claim automated stockout protection without an authoritative stock integration.",
+      "actual": "All four native variants use stock management disabled; existing orders show option and shipment identification.",
+      "fix": "No setting change; preserve commercial configuration until physical stock source is confirmed.",
+      "evidence": "native-commerce-20261023/REPORT.md",
+      "retest": "O/P/Q/R match public codes; existing01/02order quantities and courier/tracking visible."
     }
   ]
 }
