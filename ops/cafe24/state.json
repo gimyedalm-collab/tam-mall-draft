@@ -1,4 +1,26 @@
 {
+  "coupon_audit_20261026": {
+    "date": "2026-10-26",
+    "status": "public_audit_complete_authenticated_verification_blocked",
+    "production_skin": "skin27/editor33_unchanged",
+    "confirmed_public_discrepancies": [
+      "channel_coupon_2000_notice_vs_3000_product",
+      "delivery_days_2_to_14_vs_1_to_7_on_same_guide"
+    ],
+    "guest_checkout_cases": 2,
+    "guest_checkout_passed": true,
+    "purchase_policy_test_groups_passed": 4,
+    "admin_current_settings_rechecked": false,
+    "member_coupon_application_verified": false,
+    "coupon_created_or_issued": false,
+    "order_submitted": false,
+    "payment_submitted": false,
+    "policies_changed": false,
+    "blocker": "Browser extension page actions time out after official recovery; owner asked to reinstall/reconnect Browser plugin.",
+    "next_action": "After Browser reconnect, inspect current coupon/points/birthday/review settings and test existing member coupons in checkout without order submission.",
+    "report": "coupon-20261026/REPORT.md",
+    "public_coupon_entry_cases_passed": 6
+  },
   "footer_20261026": {
     "date": "2026-10-26",
     "status": "applied_to_production_and_verified",

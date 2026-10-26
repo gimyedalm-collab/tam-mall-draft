@@ -82,7 +82,9 @@
       "actual": "Membership image advertises 2,000-point signup and 2,000 channel coupon; header/product CTA display 3,000. Confirm the underlying rules before choosing values.",
       "evidence": "final-verification-20261023/REPORT.md",
       "fix": "notice299 replacement HTML matches current channel3000KRW/365day/one-order/two-exclusion configuration; removes stale signup claim without assuming points policy.",
-      "retest": "Prepared HTML320/1440 passed; admin rules confirmed. Live notice and redemption unchanged."
+      "retest": "Prepared HTML320/1440 passed; admin rules confirmed. Live notice and redemption unchanged.",
+      "latest_public_recheck": "2026-10-26: mismatch still present on production; no policy or notice changes in this audit.",
+      "latest_evidence": "coupon-20261026/REPORT.md"
     },
     {
       "id": "TAM-C24-001",
@@ -123,7 +125,9 @@
       "actual": "The audit found both 2–14 day and 1–7 day delivery descriptions.",
       "evidence": "final-verification-20261023/REPORT.md",
       "fix": "Exchange-info HTML period changed1-7to2-14days; shipping states3000KRW/below30000after-discount threshold and individual-product exceptions. Other terms preserved.",
-      "retest": "Exact prepared diff checked; no shared admin save."
+      "retest": "Exact prepared diff checked; no shared admin save.",
+      "latest_public_recheck": "2026-10-26: mismatch still present on production; no policy or notice changes in this audit.",
+      "latest_evidence": "coupon-20261026/REPORT.md"
     },
     {
       "id": "TAM-C24-004",

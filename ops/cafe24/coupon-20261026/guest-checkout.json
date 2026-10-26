@@ -1,0 +1,31 @@
+{
+  "base": "https://tambeauty.kr/",
+  "order_submitted": false,
+  "payment_submitted": false,
+  "identity_entered": false,
+  "cases": [
+    {
+      "quantity": 1,
+      "product_amount": 17000,
+      "shipping": 3000,
+      "total": 20000,
+      "name_correct": true,
+      "url": "https://tambeauty.kr/order/orderform.html",
+      "overflow": false,
+      "reached_orderform": true,
+      "passed": true
+    },
+    {
+      "quantity": 2,
+      "product_amount": 34000,
+      "shipping": 0,
+      "total": 34000,
+      "name_correct": true,
+      "url": "https://tambeauty.kr/order/orderform.html",
+      "overflow": false,
+      "reached_orderform": true,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

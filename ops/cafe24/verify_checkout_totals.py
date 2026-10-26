@@ -4,7 +4,7 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 
 OUT=Path(os.environ['TAM_CHECKOUT_OUTPUT'])
-BASE='https://awiz.cafe24.com/skin-skin24/'
+BASE=os.environ.get('TAM_BASE_URL','https://awiz.cafe24.com/skin-skin24/')
 
 async def main():
     OUT.mkdir(parents=True,exist_ok=True)

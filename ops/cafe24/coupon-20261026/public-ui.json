@@ -1,0 +1,96 @@
+{
+  "base": "https://tambeauty.kr/",
+  "authenticated": false,
+  "coupon_issued": false,
+  "coupon_redeemed": false,
+  "order_submitted": false,
+  "cases": [
+    {
+      "width": 320,
+      "product": 25,
+      "http": 200,
+      "advertised_coupon_krw": 3000,
+      "link": "http://pf.kakao.com/_nxhIxhn",
+      "visible": true,
+      "native_options": 4,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "product": 111,
+      "http": 200,
+      "advertised_coupon_krw": 3000,
+      "link": "http://pf.kakao.com/_nxhIxhn",
+      "visible": true,
+      "native_options": 3,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "product": 25,
+      "http": 200,
+      "advertised_coupon_krw": 3000,
+      "link": "http://pf.kakao.com/_nxhIxhn",
+      "visible": true,
+      "native_options": 4,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "product": 111,
+      "http": 200,
+      "advertised_coupon_krw": 3000,
+      "link": "http://pf.kakao.com/_nxhIxhn",
+      "visible": true,
+      "native_options": 3,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "product": 25,
+      "http": 200,
+      "advertised_coupon_krw": 3000,
+      "link": "http://pf.kakao.com/_nxhIxhn",
+      "visible": true,
+      "native_options": 4,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "product": 111,
+      "http": 200,
+      "advertised_coupon_krw": 3000,
+      "link": "http://pf.kakao.com/_nxhIxhn",
+      "visible": true,
+      "native_options": 3,
+      "overflow": false,
+      "passed": true
+    }
+  ],
+  "guest_coupon_access": [
+    {
+      "width": 320,
+      "final_path": "/member/login.html",
+      "login_field": true,
+      "note": "Anonymous view cannot establish a member coupon balance or eligibility."
+    },
+    {
+      "width": 390,
+      "final_path": "/member/login.html",
+      "login_field": true,
+      "note": "Anonymous view cannot establish a member coupon balance or eligibility."
+    },
+    {
+      "width": 1440,
+      "final_path": "/member/login.html",
+      "login_field": true,
+      "note": "Anonymous view cannot establish a member coupon balance or eligibility."
+    }
+  ],
+  "passed": true
+}
