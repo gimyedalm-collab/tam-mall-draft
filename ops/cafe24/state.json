@@ -1,4 +1,31 @@
 {
+  "footer_20261026": {
+    "date": "2026-10-26",
+    "status": "applied_to_production_and_verified",
+    "production_skin": "skin27/editor33",
+    "rollback_skin": "skin26/editor32",
+    "english_shop5_skin": "skin8_unchanged",
+    "templates": [
+      "index.html",
+      "moa/layout/footer.html",
+      "moa/layout/head.html"
+    ],
+    "candidate_footer_cases": 30,
+    "production_footer_cases": 30,
+    "candidate_smoke": 10,
+    "production_smoke": 10,
+    "production_link_navigation": 4,
+    "preview_layout_cases": 12,
+    "preview_synced_pages": 25,
+    "safari_run": 40252773722,
+    "safari_cases": 52,
+    "safari_footer_cases": 52,
+    "safari_passed": true,
+    "physical_device_verified": false,
+    "new_order": false,
+    "native_commerce_markup_preserved": true,
+    "report": "footer-20261026/REPORT.md"
+  },
   "review_hero_film_20261023": {
     "date": "2026-10-23",
     "status": "applied_to_production_and_verified",

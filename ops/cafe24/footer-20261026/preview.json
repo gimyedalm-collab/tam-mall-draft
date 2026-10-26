@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 390,
+      "page": "design-only.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 390,
+      "page": "product-25.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 390,
+      "page": "shop.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 390,
+      "page": "about.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 390,
+      "page": "login.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 390,
+      "page": "basket.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 1440,
+      "page": "design-only.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 1440,
+      "page": "product-25.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 1440,
+      "page": "shop.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 1440,
+      "page": "about.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 1440,
+      "page": "login.html"
+    },
+    {
+      "overflow": false,
+      "single": true,
+      "contained": true,
+      "font": "\"Pretendard Variable\", Pretendard, \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "width": 1440,
+      "page": "basket.html"
+    }
+  ]
+}

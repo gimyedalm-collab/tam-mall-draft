@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "files": [
+    "about.html",
+    "basket.html",
+    "checkout.html",
+    "cloud.html",
+    "coupons.html",
+    "design-only.html",
+    "jelly.html",
+    "login.html",
+    "lookbook.html",
+    "product-101.html",
+    "product-102.html",
+    "product-109.html",
+    "product-110.html",
+    "product-111.html",
+    "product-112.html",
+    "product-114.html",
+    "product-115.html",
+    "product-118.html",
+    "product-121.html",
+    "product-18.html",
+    "product-23.html",
+    "product-24.html",
+    "product-25.html",
+    "search.html",
+    "shop.html"
+  ],
+  "only_additional_change": "scoped stylesheet link"
+}

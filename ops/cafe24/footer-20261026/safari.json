@@ -1,0 +1,1883 @@
+{
+  "engine": "macOS VM Apple Safari",
+  "physical_phone": false,
+  "iOS": false,
+  "network_throttled": false,
+  "base": "https://tambeauty.kr/",
+  "home": [
+    {
+      "height": 792,
+      "client": 319,
+      "scroll": 319,
+      "headerSolid": false,
+      "width": 336,
+      "video": {
+        "y": 0,
+        "height": 319,
+        "x": 0,
+        "width": 319,
+        "fit": "cover"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 320,
+      "review_removed": true,
+      "font_fix": {
+        "marker": true,
+        "duplicatePreload": false,
+        "responsiveImages": 6,
+        "families": [
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif"
+        ]
+      },
+      "minimum_window_clamp": true,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "menu": true,
+      "scroll_header": true
+    },
+    {
+      "height": 792,
+      "client": 373,
+      "scroll": 373,
+      "headerSolid": false,
+      "width": 390,
+      "video": {
+        "y": 0,
+        "height": 373,
+        "x": 0,
+        "width": 373,
+        "fit": "cover"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 390,
+      "review_removed": true,
+      "font_fix": {
+        "marker": true,
+        "duplicatePreload": false,
+        "responsiveImages": 6,
+        "families": [
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif"
+        ]
+      },
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "menu": true,
+      "scroll_header": true
+    },
+    {
+      "height": 972,
+      "client": 751,
+      "scroll": 751,
+      "headerSolid": false,
+      "width": 768,
+      "video": {
+        "y": 0,
+        "height": 563.25,
+        "x": 0,
+        "width": 751,
+        "fit": "cover"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 768,
+      "review_removed": true,
+      "font_fix": {
+        "marker": true,
+        "duplicatePreload": false,
+        "responsiveImages": 6,
+        "families": [
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif"
+        ]
+      },
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "menu": true,
+      "scroll_header": true
+    },
+    {
+      "height": 448,
+      "client": 827,
+      "scroll": 827,
+      "headerSolid": false,
+      "width": 844,
+      "video": {
+        "y": 0,
+        "height": 448,
+        "x": 0,
+        "width": 827,
+        "fit": "cover"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 844,
+      "review_removed": true,
+      "font_fix": {
+        "marker": true,
+        "duplicatePreload": false,
+        "responsiveImages": 6,
+        "families": [
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif"
+        ]
+      },
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "menu": true,
+      "scroll_header": true
+    },
+    {
+      "height": 898,
+      "client": 1423,
+      "scroll": 1423,
+      "headerSolid": false,
+      "width": 1440,
+      "video": {
+        "y": 0,
+        "height": 897.984375,
+        "x": 0,
+        "width": 1423,
+        "fit": "cover"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 1440,
+      "review_removed": true,
+      "font_fix": {
+        "marker": true,
+        "duplicatePreload": false,
+        "responsiveImages": 6,
+        "families": [
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif"
+        ]
+      },
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "scroll_header": true
+    },
+    {
+      "height": 1028,
+      "client": 1903,
+      "scroll": 1903,
+      "headerSolid": false,
+      "width": 1920,
+      "video": {
+        "y": 0,
+        "height": 1028,
+        "x": 0,
+        "width": 1903,
+        "fit": "cover"
+      },
+      "viewport": "width=device-width, initial-scale=1",
+      "requested_width": 1920,
+      "review_removed": true,
+      "font_fix": {
+        "marker": true,
+        "duplicatePreload": false,
+        "responsiveImages": 6,
+        "families": [
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+          "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif"
+        ]
+      },
+      "minimum_window_clamp": false,
+      "initial_video_paused": true,
+      "film_controls": true,
+      "scroll_header": true
+    }
+  ],
+  "details": [
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 6,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 390,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 109,
+      "gallery": {
+        "width": 333,
+        "naturalWidth": 840
+      },
+      "purchase_sheet": {
+        "bottom": 898,
+        "height": 898,
+        "scroll": 373,
+        "client": 373,
+        "width": 390,
+        "left": 0,
+        "right": 373
+      },
+      "purchase_open_close_focus": true
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 18,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 390,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 110,
+      "gallery": {
+        "width": 333,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 390,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 111,
+      "gallery": {
+        "width": 333,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 16,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 390,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 118,
+      "gallery": {
+        "width": 333,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 9,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 390,
+      "selects": [],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 102,
+      "gallery": {
+        "width": 333,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 390,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 24,
+      "gallery": {
+        "width": 333,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "images": 7,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 390,
+      "selects": [],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 25,
+      "gallery": {
+        "width": 333,
+        "naturalWidth": 840
+      },
+      "purchase_sheet": {
+        "bottom": 898,
+        "height": 898,
+        "scroll": 373,
+        "client": 373,
+        "width": 390,
+        "left": 0,
+        "right": 373
+      },
+      "purchase_open_close_focus": true
+    },
+    {
+      "product": 23,
+      "width": 390,
+      "images": [
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 85.171875,
+          "naturalHeight": 220
+        },
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 892.890625,
+          "naturalHeight": 2306
+        },
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 1963.53125,
+          "naturalHeight": 5071
+        },
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 1626.265625,
+          "naturalHeight": 4200
+        },
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 186.625,
+          "naturalHeight": 482
+        },
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 92.921875,
+          "naturalHeight": 240
+        },
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 1137.609375,
+          "naturalHeight": 2938
+        },
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 522.71875,
+          "naturalHeight": 1350
+        },
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 465.421875,
+          "naturalHeight": 1202
+        },
+        {
+          "naturalWidth": 860,
+          "width": 333,
+          "height": 916.90625,
+          "naturalHeight": 2368
+        }
+      ],
+      "videos": [
+        {
+          "height": 1520,
+          "time": 0.46780216666666263,
+          "inline": true,
+          "controls": true,
+          "error": null,
+          "width": 860
+        },
+        {
+          "height": 1520,
+          "time": 0.4396058746666771,
+          "inline": true,
+          "controls": true,
+          "error": null,
+          "width": 860
+        },
+        {
+          "height": 544,
+          "time": 0.19222862566666715,
+          "inline": true,
+          "controls": true,
+          "error": null,
+          "width": 860
+        }
+      ],
+      "layout": {
+        "centerError": 0,
+        "overflow": false
+      },
+      "options": [
+        6
+      ],
+      "passed": true
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 6,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 1440,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 109,
+      "gallery": {
+        "width": 600,
+        "naturalWidth": 840
+      },
+      "purchase_sheet": {
+        "bottom": 898,
+        "height": 898,
+        "scroll": 1423,
+        "client": 1423,
+        "width": 1440,
+        "left": 351.5,
+        "right": 1071.5
+      },
+      "purchase_open_close_focus": true
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 18,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 1440,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 110,
+      "gallery": {
+        "width": 600,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 1440,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 111,
+      "gallery": {
+        "width": 600,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 16,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 1440,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 118,
+      "gallery": {
+        "width": 600,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 9,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 1440,
+      "selects": [],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 102,
+      "gallery": {
+        "width": 600,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 14,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 1440,
+      "selects": [
+        {
+          "font": 16,
+          "height": 48
+        }
+      ],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 24,
+      "gallery": {
+        "width": 600,
+        "naturalWidth": 840
+      }
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "images": 7,
+      "snaps": [
+        "4",
+        "5",
+        "1",
+        "3"
+      ],
+      "detail_center_error": 0,
+      "width": 1440,
+      "selects": [],
+      "viewport": "width=device-width, initial-scale=1",
+      "product": 25,
+      "gallery": {
+        "width": 600,
+        "naturalWidth": 840
+      },
+      "purchase_sheet": {
+        "bottom": 898,
+        "height": 898,
+        "scroll": 1423,
+        "client": 1423,
+        "width": 1440,
+        "left": 351.5,
+        "right": 1071.5
+      },
+      "purchase_open_close_focus": true
+    },
+    {
+      "product": 23,
+      "width": 1440,
+      "images": [
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 220,
+          "naturalHeight": 220
+        },
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 2306,
+          "naturalHeight": 2306
+        },
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 5071,
+          "naturalHeight": 5071
+        },
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 4200,
+          "naturalHeight": 4200
+        },
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 482,
+          "naturalHeight": 482
+        },
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 240,
+          "naturalHeight": 240
+        },
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 2938,
+          "naturalHeight": 2938
+        },
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 1350,
+          "naturalHeight": 1350
+        },
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 1202,
+          "naturalHeight": 1202
+        },
+        {
+          "naturalWidth": 860,
+          "width": 860,
+          "height": 2368,
+          "naturalHeight": 2368
+        }
+      ],
+      "videos": [
+        {
+          "height": 1520,
+          "time": 0.2553094159999939,
+          "inline": true,
+          "controls": true,
+          "error": null,
+          "width": 860
+        },
+        {
+          "height": 1520,
+          "time": 0.3633844993332959,
+          "inline": true,
+          "controls": true,
+          "error": null,
+          "width": 860
+        },
+        {
+          "height": 544,
+          "time": 0.30015804166664506,
+          "inline": true,
+          "controls": true,
+          "error": null,
+          "width": 860
+        }
+      ],
+      "layout": {
+        "centerError": 0,
+        "overflow": false
+      },
+      "options": [
+        6
+      ],
+      "passed": true
+    }
+  ],
+  "collections": [
+    {
+      "ids": [
+        "anchorBoxId_24",
+        "anchorBoxId_101",
+        "anchorBoxId_102",
+        "anchorBoxId_25",
+        "anchorBoxId_23",
+        "anchorBoxId_18"
+      ],
+      "width": 390,
+      "collection": "jelly"
+    },
+    {
+      "ids": [
+        "anchorBoxId_110",
+        "anchorBoxId_111",
+        "anchorBoxId_109",
+        "anchorBoxId_118",
+        "anchorBoxId_112",
+        "anchorBoxId_115",
+        "anchorBoxId_114",
+        "anchorBoxId_121"
+      ],
+      "width": 390,
+      "collection": "cloud"
+    },
+    {
+      "ids": [
+        "anchorBoxId_24",
+        "anchorBoxId_101",
+        "anchorBoxId_102",
+        "anchorBoxId_25",
+        "anchorBoxId_23",
+        "anchorBoxId_18"
+      ],
+      "width": 1440,
+      "collection": "jelly"
+    },
+    {
+      "ids": [
+        "anchorBoxId_110",
+        "anchorBoxId_111",
+        "anchorBoxId_109",
+        "anchorBoxId_118",
+        "anchorBoxId_112",
+        "anchorBoxId_115",
+        "anchorBoxId_114",
+        "anchorBoxId_121"
+      ],
+      "width": 1440,
+      "collection": "cloud"
+    }
+  ],
+  "inner": [
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/product/list.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "product/list.html?cate_no=74",
+      "auth_redirect": false,
+      "combined_filter": true,
+      "mobile_menu": true
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/about.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": true,
+      "route": "about.html",
+      "auth_redirect": false,
+      "native_catalog_cards": 14
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/board/gallery/list.html",
+      "width": 390,
+      "lookbook": true,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "board/gallery/list.html?board_no=8",
+      "auth_redirect": false
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/product/search.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "product/search.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/login.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/login.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/join.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/join.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/order/basket.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "order/basket.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/login.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "myshop/index.html",
+      "auth_redirect": true
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/login.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "myshop/coupon/coupon.html",
+      "auth_redirect": true
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/login.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "myshop/order/list.html",
+      "auth_redirect": true
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/privacy.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/privacy.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/mall_agreement.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/mall_agreement.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 373,
+      "scroll": 373,
+      "header": true,
+      "footer": true,
+      "finalPath": "/shopinfo/guide.html",
+      "width": 390,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "shopinfo/guide.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/product/list.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "product/list.html?cate_no=74",
+      "auth_redirect": false,
+      "combined_filter": true
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/about.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": true,
+      "route": "about.html",
+      "auth_redirect": false,
+      "native_catalog_cards": 14
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/board/gallery/list.html",
+      "width": 1440,
+      "lookbook": true,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "board/gallery/list.html?board_no=8",
+      "auth_redirect": false
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/product/search.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "product/search.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/login.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/login.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/join.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/join.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/order/basket.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "order/basket.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/login.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "myshop/index.html",
+      "auth_redirect": true
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/login.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "myshop/coupon/coupon.html",
+      "auth_redirect": true
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/login.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "myshop/order/list.html",
+      "auth_redirect": true
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/privacy.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/privacy.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/member/mall_agreement.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "member/mall_agreement.html",
+      "auth_redirect": false
+    },
+    {
+      "client": 1423,
+      "scroll": 1423,
+      "header": true,
+      "footer": true,
+      "finalPath": "/shopinfo/guide.html",
+      "width": 1440,
+      "lookbook": false,
+      "brokenVisibleImages": 0,
+      "bodyClass": "tam-native",
+      "brand": false,
+      "route": "shopinfo/guide.html",
+      "auth_redirect": false
+    }
+  ],
+  "footer": [
+    {
+      "client": 319,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 336,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "?qa=native-safari261022"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "?qa=native-safari261022"
+    },
+    {
+      "client": 751,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 768,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "?qa=native-safari261022"
+    },
+    {
+      "client": 827,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 844,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "?qa=native-safari261022"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "?qa=native-safari261022"
+    },
+    {
+      "client": 1903,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1920,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "?qa=native-safari261022"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=109"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=110"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=111"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=118"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=102"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=24"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=25"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=23"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/list.html?cate_no=74&tam_collection=jelly"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/list.html?cate_no=74&tam_collection=cloud"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=109"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=110"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=111"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=118"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=102"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=24"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=25"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/detail.html?product_no=23"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/list.html?cate_no=74&tam_collection=jelly"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/list.html?cate_no=74&tam_collection=cloud"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/list.html?cate_no=74"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "about.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "board/gallery/list.html?board_no=8"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/search.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "member/login.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "member/join.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "order/basket.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "myshop/index.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "myshop/coupon/coupon.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "myshop/order/list.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "member/privacy.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "member/mall_agreement.html"
+    },
+    {
+      "client": 373,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 0,
+      "width": 390,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "shopinfo/guide.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/list.html?cate_no=74"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "about.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "board/gallery/list.html?board_no=8"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "product/search.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "member/login.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "member/join.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "order/basket.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "myshop/index.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "myshop/coupon/coupon.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "myshop/order/list.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "member/privacy.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "member/mall_agreement.html"
+    },
+    {
+      "client": 1423,
+      "single": true,
+      "bounds": true,
+      "contained": true,
+      "small": 1,
+      "width": 1440,
+      "company": true,
+      "uniform": true,
+      "kakao": 1,
+      "font": "\"Pretendard Variable\", \"Apple SD Gothic Neo\", \"Malgun Gothic\", sans-serif",
+      "route": "shopinfo/guide.html"
+    }
+  ],
+  "browser_version": "26.6.2",
+  "navigator_language": "ko-KR",
+  "passed": true
+}

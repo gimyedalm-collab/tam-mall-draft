@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "no_query_production_marker": true,
+  "cases": [
+    {
+      "link": "/myshop/order/list.html",
+      "destination_path": "/member/login.html",
+      "passed": true
+    },
+    {
+      "link": "/shopinfo/guide.html",
+      "destination_path": "/shopinfo/guide.html",
+      "passed": true
+    },
+    {
+      "link": "/member/privacy.html",
+      "destination_path": "/member/privacy.html",
+      "passed": true
+    },
+    {
+      "link": "/member/mall_agreement.html",
+      "destination_path": "/member/mall_agreement.html",
+      "passed": true
+    }
+  ]
+}

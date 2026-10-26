@@ -1,0 +1,12 @@
+{
+  "only_changes": [
+    "one shared footer",
+    "remove duplicated home footer",
+    "append scoped CSS"
+  ],
+  "native_footer_hooks_unchanged": true,
+  "homepage_outside_footer_unchanged": true,
+  "existing_head_unchanged": true,
+  "company_import_preserved": true,
+  "phone_runtime_variables_preserved": true
+}

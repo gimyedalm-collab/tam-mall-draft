@@ -997,3 +997,14 @@ The previous portrait16:9 film rule is superseded: phone portrait uses a square
 frame capped at72svh, portrait tablet uses4:3 capped at78svh; landscape remains
 full-width100svh. Original V16 video bytes are unchanged. Verify framing across
 several scenes; viewport tests are not physical-device validation.
+
+## Shared footer applied — 2026-10-26
+
+Owner approved a unified footer. Production is now skin27/editor33; preserve
+skin26/editor32 as rollback and English shop5 skin8. Home has no embedded footer;
+the native moa/layout/footer.html supplies #tam-site-footer on all layout routes.
+Keep native phone/runtime variables, company_info import and all payment/app
+markup after the footer. footer-261026.css is scoped to this footer, including
+paragraph font/color inheritance against product-description global styles.
+Sources and preview sync live in ops/cafe24/prepare_footer.py and
+sync_footer_preview.py. Evidence: ops/cafe24/footer-20261026/REPORT.md.

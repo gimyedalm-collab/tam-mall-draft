@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-26",
   "items": [
     {
       "id": "TAM-C24-009",
@@ -590,6 +590,19 @@
       "fix": "Renamed 더 젤리 플럼핑 립오일; Korean00display/selling disabled without deleting SKU.01–03 codes/prices unchanged; standalone gloss18 retained; English shop unchanged.",
       "retest": "Native admin save persisted; production three-code/51000total checks at320/390/768/1440 and guest01checkout20000KRW verified. No new order/payment.",
       "evidence": "production-20261023/REPORT.md"
+    },
+    {
+      "id": "TAM-C24-FOOTER-20261026",
+      "type": "layout_typography",
+      "priority": "P2",
+      "status": "applied_and_verified_on_production",
+      "route": "home and common native layout routes",
+      "reproduce": "Compare embedded home footer with shared product footer at390px.",
+      "expected": "One shared footer with consistent typography, service navigation first, readable business information and44px mobile links.",
+      "actual": "Separate home/inner footers, duplicated Kakao links, awkward business-link wrapping, global product p styles override font and color.",
+      "fix": "Shared native footer; home duplicate removed; scoped typography/layout; keep native merchant import, phone/runtime and payment/app markup.",
+      "retest": "Candidate30 and production30 footer checks;10smoke each;4real footer link navigations;12preview layouts;Safari52routes and52footer checks passed.",
+      "evidence": "footer-20261026/REPORT.md"
     }
   ]
 }
