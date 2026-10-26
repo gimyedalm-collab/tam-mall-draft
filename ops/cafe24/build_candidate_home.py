@@ -61,15 +61,10 @@ def build(original, output):
     main.name = 'div'
     main['id'] = 'tam-home-main'
     soup.select_one('.ux-skip')['href'] = '#tam-home-main'
-    # Native legal/company information stays tied to shop settings.
-    footer = soup.select_one('.ux-footer')
-    footer['module'] = 'Layout_footer'
-    company = soup.select_one('.ux-footer-company p')
-    company.replace_with(BeautifulSoup('<!--@import(/moa/import/footer/company_info.html)-->', 'html.parser'))
-    # Match the current channel-first customer-service display.
-    tel = footer.select_one('a[href^="tel:"]')
-    tel['href'] = 'https://pf.kakao.com/_nxhIxhn'
-    tel.string = '카카오톡채널 문의'
+    # The native layout supplies one shared footer.
+    footer = soup.select_one('#tam-site-footer, .ux-footer')
+    if footer:
+        footer.decompose()
     app_source = original.read_text(encoding='utf-8')
     snap = app_source[app_source.index('<!-- snap common  start'):]
     # Owner removed the repetitive homepage review section on 2026-10-23.

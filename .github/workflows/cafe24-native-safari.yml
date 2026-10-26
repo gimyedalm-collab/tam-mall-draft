@@ -15,6 +15,10 @@ on:
         description: Verify homepage review removal and bounded product galleries
         type: boolean
         default: false
+      footer:
+        description: Verify the shared 261026 footer on every route
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
@@ -24,6 +28,7 @@ jobs:
     env:
       TAM_EXPECT_FONT_CUSHION: ${{ inputs.font_cushion }}
       TAM_EXPECT_REVIEW_HERO: ${{ inputs.review_hero }}
+      TAM_EXPECT_FOOTER: ${{ inputs.footer }}
       TAM_BASE_URL: ${{ inputs.target == 'production' && 'https://tambeauty.kr/' || inputs.target == 'verification' && 'https://awiz.cafe24.com/skin-skin24/' || 'https://awiz.cafe24.com/skin-skin21/' }}
     steps:
       - uses: actions/checkout@v6

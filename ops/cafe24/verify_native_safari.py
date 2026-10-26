@@ -18,6 +18,7 @@ from pathlib import Path
 BASE = os.environ.get('TAM_BASE_URL','https://awiz.cafe24.com/skin-skin21/')
 FONT_CUSHION = os.environ.get('TAM_EXPECT_FONT_CUSHION') == 'true'
 REVIEW_HERO = os.environ.get('TAM_EXPECT_REVIEW_HERO') == 'true'
+FOOTER = os.environ.get('TAM_EXPECT_FOOTER') == 'true'
 IOS_UDID = os.environ.get('TAM_IOS_SIMULATOR_UDID')
 LAYOUT_ONLY = bool(IOS_UDID) and os.environ.get('TAM_IOS_LAYOUT_ONLY')=='true'
 OUT = Path('native-ios-results' if IOS_UDID else 'native-safari-results')
@@ -27,7 +28,7 @@ def main():
     OUT.mkdir(exist_ok=True)
     report = {'engine': 'macOS VM Apple Safari', 'physical_phone': False,
               'iOS': False, 'network_throttled': False, 'base': BASE,
-              'home': [], 'details': [], 'collections': [], 'inner': []}
+              'home': [], 'details': [], 'collections': [], 'inner': [], 'footer': []}
     if IOS_UDID:
         report.update(engine='Apple iOS Simulator Safari',iOS=True,simulated=True)
         report.update(scope='layout_only' if LAYOUT_ONLY else 'layout_and_interaction',touch_interaction_verified=False)
@@ -71,6 +72,23 @@ def main():
             login_path=urllib.parse.urlsplit(BASE).path+'member/login.html'
             expected+=' || (location.pathname==='+json.dumps(login_path)+' && new URL(location.href).searchParams.get("returnUrl")==='+json.dumps('/'+route.split('?')[0])+')'
         wait(lambda: js('return ('+expected+") && document.readyState!=='loading' && !!document.body && [...document.querySelectorAll('link[rel=stylesheet]')].every(e=>!!e.sheet)"))
+        if FOOTER:
+            wait(lambda: js("return !!document.querySelector('#tam-site-footer') && document.fonts.status==='loaded'"))
+            footer = js("""const f=document.querySelector('#tam-site-footer'),r=f.getBoundingClientRect(),a=[...f.querySelectorAll('a')];
+              return {width:innerWidth,client:document.documentElement.clientWidth,
+                single:[...document.querySelectorAll('footer')].filter(e=>e.getBoundingClientRect().height>0).length===1,
+                bounds:r.left>=-1&&r.right<=document.documentElement.clientWidth+1,
+                contained:[...f.querySelectorAll('*')].every(e=>{let b=e.getBoundingClientRect();return !b.width||(b.left>=r.left-1&&b.right<=r.right+1)}),
+                kakao:a.filter(e=>e.href.includes('pf.kakao.com')).length,
+                small:a.filter(e=>e.getBoundingClientRect().height<43.5).length,
+                company:!!f.querySelector('.tam-footer-company a[onclick*=bizCommPop]'),
+                font:getComputedStyle(f).fontFamily,
+                uniform:[...f.querySelectorAll('p,a,h2')].every(e=>getComputedStyle(e).fontFamily.split(',')[0]===getComputedStyle(f).fontFamily.split(',')[0])};""")
+            footer['route']=route
+            report['footer'].append(footer)
+            assert footer['single'] and footer['bounds'] and footer['contained'] and footer['kakao']==1 and footer['company'],footer
+            assert footer['width']>760 or footer['small']==0,footer
+            assert 'Pretendard Variable' in footer['font'] and footer['uniform'],footer
 
     def click(selector):
         elem = cmd('POST','/element',{'using':'css selector','value':selector})['element-6066-11e4-a52e-4f735466cecf']

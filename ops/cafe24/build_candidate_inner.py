@@ -69,14 +69,11 @@ def main():
         '<a class="tam-nav-account" module="Layout_statelogoff" href="'+SKIN+'/member/login.html">로그인</a><a class="tam-nav-account" module="Layout_statelogon" href="'+SKIN+'/myshop/index.html">마이페이지</a>')
     original=source('moa/layout/header.html')
     write('moa/layout/header.html',re.sub(r'<header\b[\s\S]*?</header>',lambda _:header_html,original,count=1))
-    footer=about.select_one('footer.ux-footer')
-    company=footer.select_one('.ux-footer-company');company.select_one('p').replace_with(BeautifulSoup('<!--@import(/moa/import/footer/company_info.html)-->','html.parser'))
-    footer_html=transform(footer).replace('ux-','tam-nav-').replace('class="tam-nav-footer"','class="footer tam-nav-footer" module="Layout_footer"')
-    # Use authoritative shop contact runtime rather than copied mock opening hours.
-    footer_html=re.sub(r'<p><a href="tel:1668-0868">[\s\S]*?</p>','<p><a href="tel:{$phone}">{$phone}</a><br>{$runtime}</p>',footer_html,count=1)
+    footer_html=(ROOT / 'storefront-v2/cafe24/tam/sections/footer-261026.html').read_text(encoding='utf-8').strip()
     write('moa/layout/footer.html',re.sub(r'<footer\b[\s\S]*?</footer>',lambda _:footer_html,source('moa/layout/footer.html'),count=1))
     write('layout/basic/layout.html',source('layout/basic/layout.html').replace('<body>','<body class="tam-native">'))
     shared_tags=f'<link rel="stylesheet" href="{BASE}candidate-inner-{VERSION}.css">\n<script defer src="{BASE}candidate-inner-{VERSION}.js"></script>\n'
+    shared_tags += '<style id="tam-footer-261026">' + (ASSETS/'footer-261026.css').read_text(encoding='utf-8') + '</style>\n'
     head=re.sub(r'<script defer src="[^"]*candidate-collections-261022.js"></script>\s*','',source('moa/layout/head.html'))
     write('moa/layout/head.html',head.replace('</head>',shared_tags+'</head>'))
     order=source('order/orderform.html').replace('</head>',f'<link rel="stylesheet" href="{BASE}candidate-inner-{VERSION}.css">\n</head>').replace('<body id="userStyle">','<body id="userStyle" class="tam-checkout">')
