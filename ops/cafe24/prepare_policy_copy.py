@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(os.environ['TAM_PERF_STAGE'])
 notice = '''<section lang="ko" style="max-width:760px;margin:0 auto;padding:24px 16px;color:#262323;font-size:16px;line-height:1.8;word-break:keep-all;overflow-wrap:anywhere;box-sizing:border-box;">
-<h2 style="font-size:24px;line-height:1.4;margin:0 0 24px;">회원 혜택 및 쿠폰 이용 안내</h2>
+<h2 style="font-size:24px;line-height:1.4;margin:0 0 24px;">쿠폰 및 배송비 이용 안내</h2>
 <h3 style="font-size:19px;margin:28px 0 12px;">카카오톡 채널 3,000원 쿠폰</h3>
 <p>탐뷰티 카카오톡 채널에서 안내하는 쿠폰을 확인해 주세요.</p>
 <ul style="padding-left:22px;">
@@ -20,6 +20,9 @@ notice = '''<section lang="ko" style="max-width:760px;margin:0 auto;padding:24px
 <h3 style="font-size:19px;margin:28px 0 12px;">보유 쿠폰 확인</h3>
 <p>로그인 후 마이페이지에서 보유 쿠폰과 사용 조건을 확인하실 수 있습니다. 최종 적용 금액은 주문서에서 확인해 주세요.</p>
 <p><a href="/myshop/coupon/coupon.html" style="color:inherit;text-decoration:underline;">내 쿠폰 확인하기</a></p>
+<h3 style="font-size:19px;margin:28px 0 12px;">쿠폰 사용 시 배송비</h3>
+<p>기본 배송비는 3,000원이며, 할인 적용 후 결제금액이 30,000원 이상이면 무료배송입니다. 상품별 별도 배송비가 있는 경우는 제외됩니다.</p>
+<p>쿠폰 적용으로 결제금액이 30,000원 미만이 되면 기본 배송비가 추가될 수 있습니다. 쿠폰 선택 후 주문서에 표시되는 최종 배송비와 결제금액을 확인해 주세요.</p>
 </section>
 '''
 
@@ -30,11 +33,11 @@ assert exchange.count('배송 비용 : 3,000원') == 1
 exchange = exchange.replace('배송 비용 : 3,000원', '배송 비용 : 기본 배송비 3,000원 (할인 적용 후 결제금액 30,000원 이상 무료, 상품별 별도 배송비 제외). 최종 배송비는 주문서에서 확인해 주세요.')
 (ROOT/'exchange-info-ready.html').write_text(exchange,encoding='utf-8')
 (ROOT/'notice-299-ready.html').write_text(notice,encoding='utf-8')
-preview = '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>회원 혜택 안내 적용 준비본</title><body style="margin:0;background:#fff;font-family:Arial,sans-serif;">'+notice+'</body></html>'
+preview = '<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>쿠폰 및 배송비 안내 적용 준비본</title><body style="margin:0;background:#fff;font-family:Arial,sans-serif;">'+notice+'</body></html>'
 (ROOT/'notice-299-preview.html').write_text(preview,encoding='utf-8')
 items=[]
 for name,target in [('exchange-info','shop1 exchange/return HTML setting'),('notice-299','board1 article299 HTML')]:
     items.append({'target':target,'before':name+'-before.html','ready':name+'-ready.html','ready_sha256':hashlib.sha256((ROOT/(name+'-ready.html')).read_bytes()).hexdigest(),'saved_live':False})
-manifest={'status':'ready_not_saved_live','notice_title':'회원 혜택 및 쿠폰 이용 안내','scope':'Factual coupon and shipping copy only; no coupon, shipping, returns or member-benefit settings changed. Signup points not independently verified and not represented.','items':items}
+manifest={'status':'ready_not_saved_live','notice_title':'쿠폰 및 배송비 이용 안내','scope':'Factual coupon and shipping copy only; no coupon, shipping, returns or member-benefit settings changed. Signup points not independently verified and not represented.','policy_evidence':'Administrator records dated 2026-10-21 and recheck dated 2026-10-23; current settings must be rechecked before live save.','publication_gate':'Recheck current coupon/shipping and other advertised membership benefits; preserve any verified points/birthday/review benefits in the final notice.','items':items}
 (ROOT/'policy-copy-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({'prepared':2,'saved_live':False}))

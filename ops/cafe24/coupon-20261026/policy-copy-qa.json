@@ -1,0 +1,17 @@
+{
+  "rendered_locally": true,
+  "saved_live": false,
+  "cases": [
+    {
+      "width": 320,
+      "overflow": false,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

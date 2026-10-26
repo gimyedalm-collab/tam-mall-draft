@@ -1,4 +1,17 @@
 {
+  "coupon_copy_repair_20261026": {
+    "status": "revised_copy_prepared_live_save_blocked",
+    "production_changed": false,
+    "prepared_changes": [
+      "Notice299: channel coupon3000KRW and coupon-after-discount shipping explanation in responsive text",
+      "Shared exchange-info: delivery2-14days and shipping threshold wording; remaining terms preserved"
+    ],
+    "current_admin_settings_rechecked": false,
+    "other_membership_benefits": "Recheck signup/purchase points, birthday and review benefits before replacing the original benefit notice; do not infer they are disabled.",
+    "blocker": "Existing tab reports Debugger unattached; fresh tab reports CDP Runtime.evaluate timeout. No administrator save attempted.",
+    "next_action": "Reconnect Browser plugin, recheck current policies and all advertised benefits, back up current HTML, save the corrected notice/shared information and verify production.",
+    "report": "coupon-20261026/REPAIR.md"
+  },
   "coupon_audit_20261026": {
     "date": "2026-10-26",
     "status": "public_audit_complete_authenticated_verification_blocked",
